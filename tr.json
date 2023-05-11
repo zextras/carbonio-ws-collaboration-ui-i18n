@@ -20,7 +20,14 @@
         "reply": "Yanıtla",
         "replyToSomeone": "Yanıtla",
         "replyToYourself": "Kendine yanıtla",
-        "undo": "Geri al"
+        "undo": "Geri al",
+        "scrollToBottom": "En alta git",
+        "newChat": "Yeni Sohbet",
+        "editRoom": "{{roomName}} odasını düzenle",
+        "editDetails": "Detayları düzenle",
+        "addSingleAttachment": "{{counter}} eklenti ekle",
+        "addNewMembersTo": "{{roomName}} odasına yeni üyeler ekle",
+        "addMoreAttachments": "{{counter}} eklenti ekle"
     },
     "attachments": {
         "addFromLocal": "Lokalden ekle",
@@ -100,5 +107,10 @@
         "selectEmoji": "Emoji seç",
         "sendMessage": "Mesaj gönder",
         "uploading": "Yükleniyor"
+    },
+    "affiliationMessages": {
+        "memberAdded": "{{userName}}, {{roomName}} odasına eklendi",
+        "groupCreated": "{{roomName}} oluşturuldu!",
+        "SomeoneElseCreatedOneToOne": "{{userName}} sizinle sohbet etmeye başladı"
     }
 }
