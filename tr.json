@@ -53,7 +53,8 @@
         "yesterday": "Dün"
     },
     "editModal": {
-        "groupDescriptionDetails": "Grubun konusunu açıklar"
+        "groupDescriptionDetails": "Grubun konusunu açıklar",
+        "confirm": "Detayları düzenle"
     },
     "feedback": {
         "historyCleared": "Geçmiş başarıyla temizlendi!",
@@ -70,7 +71,10 @@
         "deleteUserDescription": "Bu üyeyi çıkartmak istediğinize emin misiniz?",
         "leaveGroup": "Gruptan ayrıl",
         "removeMember": "Üyeyi kaldır",
-        "showPreviousConversationHistory": "Önceki görüşme geçmişini göster"
+        "showPreviousConversationHistory": "Önceki görüşme geçmişini göster",
+        "creation": {
+            "newChat": "Yeni Sohbet"
+        }
     },
     "participantsList": {
         "closeSearch": "Aramayı kapat",
