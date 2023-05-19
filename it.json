@@ -20,7 +20,14 @@
         "reply": "Rispondi",
         "replyToSomeone": "Rispondi a",
         "replyToYourself": "Rispondi al tuo messaggio",
-        "undo": "Annulla"
+        "undo": "Annulla",
+        "addMoreAttachments": "Aggiungi {{counter}} allegati",
+        "addNewMembersTo": "Aggiungi nuovi partecipanti a {{roomName}}",
+        "addSingleAttachment": "Aggiungi {{counter}} allegato",
+        "editDetails": "Modifica dettagli",
+        "editRoom": "Modifica {{roomName}}",
+        "newChat": "Nuova Conversazione",
+        "scrollToBottom": "Scorri in fondo"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -33,7 +40,8 @@
         "status": "Stato"
     },
     "date": {
-        "yesterday": "Ieri"
+        "yesterday": "Ieri",
+        "today": "Oggi"
     },
     "message": {
         "draft": "bozza",
@@ -42,17 +50,35 @@
     },
     "modal": {
         "creation": {
-            "newGroup": "Nuovo gruppo"
+            "newGroup": "Nuovo gruppo",
+            "contactList": "Seleziona più di un indirizzo per creare un Gruppo",
+            "inputPlaceholder": "Inizia a digitare o scegli un indirizzo",
+            "newChat": "Nuova Chat"
         },
         "removeMember": "Rimuovi membro",
         "showPreviousConversationHistory": "Mostra cronologia della conversazione precedente",
         "deleteRoom": "Elimina Stanza",
         "deleteUserDescription": "Vuoi rimuovere questo partecipante?",
-        "leaveGroup": "Abbandona il Gruppo"
+        "leaveGroup": "Abbandona il Gruppo",
+        "clearHistoryDescription": "Stai per cancellare la cronologia di questa conversazione, questa azione è irreversibile.",
+        "deleteGroup": "Elimina Gruppo",
+        "deleteGroupLabel": "Vuoi eliminare questo Gruppo?",
+        "deleteMessageTitle": "Vuoi eliminare i messaggi selezionati?",
+        "deleteRoomLabel": "Vuoi eliminare questa Stanza?",
+        "forward": {
+            "chooseAtLeastOneChat": "Seleziona almeno una chat",
+            "inputPlaceholder": "Inizia a digitare o scegli una chat"
+        },
+        "leaveAndDelete": "Abbandona e elimina Gruppo",
+        "leaveGroupLabel": "Vuoi abbandonare questo Gruppo?",
+        "leaveRoom": "Abbandona Stanza",
+        "leaveRoomLabel": "Vuoi abbandonare questa Stanza?"
     },
     "participantsList": {
         "closeSearch": "Chiudi ricerca",
-        "moreMembersAccordionTitle": "partecipanti"
+        "moreMembersAccordionTitle": "partecipanti",
+        "noMatch": "Non ci sono elementi che corrispondono alla ricerca",
+        "oneMemberAccordionTitle": "Un partecipante"
     },
     "tooltip": {
         "clear": "Elimina",
@@ -72,25 +98,42 @@
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
         "attachLinkFiles": "Allega link pubblico da Files",
-        "stopUpload": "Sospendi caricamento"
+        "stopUpload": "Sospendi caricamento",
+        "dropHereDescription": "Trascina qui gli allegati per aggiungerli velocemente alla chat",
+        "errorUploadingFile": "Qualcosa è andato storto durante il caricamento di {{file}}",
+        "uploadAborted": "Il caricamento è stato interrotto"
     },
     "conversation": {
         "chooseConversationDescription": "Scegli una conversazione per iniziare una Chat",
         "keepInTouchTitle": "Restiamo in contatto!",
-        "newMessage": "Nuovo messaggio"
+        "newMessage": "Nuovo messaggio",
+        "emptyListDescription": "La lista di Chat e Gruppi apparirà qui",
+        "emptyListTitle": "Questa lista è vuota",
+        "mockCreateChatDescription": "interagisci, comunica e collabora con i tuoi colleghi condividendo informazioni e allegati",
+        "mockCreateChatTitle": "Crea una nuova chat utilizzando il bottone crea",
+        "newMessages": "Nuovi messaggi"
     },
     "editModal": {
-        "groupDescriptionDetails": "Descrive l'argomento del Gruppo"
+        "groupDescriptionDetails": "Descrive l'argomento del Gruppo",
+        "confirm": "Modifica dettagli",
+        "confirmDisabled": "Non hai modificato nulla",
+        "groupNameDetails": "È richiesto e identifica il Gruppo",
+        "nameTooShort": "Il titolo è un' informazione essenziale",
+        "topicTooLong": "La lunghezza massima dell'argomento è di 256 caratteri",
+        "errorDisabled": "Controlla le informazioni inserite",
+        "nameTooLong": "La lunghezza massima del titolo è di 128 caratteri"
     },
     "feedback": {
         "historyCleared": "Cronologia eliminata con successo!",
         "notificationsActivatedForThisChat": "Notifiche attive per questa conversazione",
-        "notificationsMutedForThisChat": "Notifiche silenziate per questa chat"
+        "notificationsMutedForThisChat": "Notifiche silenziate per questa chat",
+        "messageCopied": "Messaggio copiato"
     },
     "settings": {
         "notifications": {
             "checkboxLabel": "Notifiche desktop",
-            "title": "Notifiche"
+            "title": "Notifiche",
+            "description": "Imposta le preferenze per le notifiche di Chats."
         },
         "profile": {
             "errorGenericResponse": "Qualcosa è andato storto. Per favore riprova",
@@ -103,5 +146,20 @@
         "lastSeen": "Ultima visualizzazione {{lastSeen}}",
         "offline": "Disconnesso",
         "online": "Online"
+    },
+    "affiliationMessages": {
+        "SomeoneElseCreatedOneToOne": "{{userName}} ha iniziato una conversazione con te",
+        "groupCreated": "{{roomName}} creata!",
+        "memberAdded": "{{userName}} è stato aggiunto a {{roomName}}",
+        "memberRemoved": "{{userName}} è stato rimosso da {{roomName}}",
+        "oneToOneCreated": "Nuova conversazione creata!"
+    },
+    "configurationMessages": {
+        "roomPictureDeleted": "{{name}} ha ripristinato l'immagine predefinita di {{roomName}}",
+        "roomPictureUpdated": "{{name}} ha modificato l'immagine di {{roomName}}",
+        "roomTopicChanged": "{{name}} ha modificato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\""
+    },
+    "conversationFilter": {
+        "closeTooltip": "Chiudi filtro"
     }
 }
