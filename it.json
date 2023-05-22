@@ -53,7 +53,8 @@
             "newGroup": "Nuovo gruppo",
             "contactList": "Seleziona più di un indirizzo per creare un Gruppo",
             "inputPlaceholder": "Inizia a digitare o scegli un indirizzo",
-            "newChat": "Nuova Chat"
+            "newChat": "Nuova Chat",
+            "description": "Le chat sono conversazioni tra due persone che ti aiutano a restare in contatto con i tuoi colleghi. Puoi creare un Gruppo includendo più di due partecipanti"
         },
         "removeMember": "Rimuovi membro",
         "showPreviousConversationHistory": "Mostra cronologia della conversazione precedente",
@@ -67,7 +68,8 @@
         "deleteRoomLabel": "Vuoi eliminare questa Stanza?",
         "forward": {
             "chooseAtLeastOneChat": "Seleziona almeno una chat",
-            "inputPlaceholder": "Inizia a digitare o scegli una chat"
+            "inputPlaceholder": "Inizia a digitare o scegli una chat",
+            "description": "Scegli la chat a cui inoltrare il messaggio"
         },
         "leaveAndDelete": "Abbandona e elimina Gruppo",
         "leaveGroupLabel": "Vuoi abbandonare questo Gruppo?",
@@ -90,10 +92,22 @@
         "close": "Chiudi",
         "goToPrivateChat": "Vai alla conversazione privata",
         "room": {
-            "uploadPicture": "Carica immagine"
+            "uploadPicture": "Carica immagine",
+            "resetPicture": "Ripristina immagine",
+            "updatePicture": "Aggiorna immagine"
         },
         "selectEmoji": "Seleziona emoji",
-        "sendMessage": "Invia messaggio"
+        "sendMessage": "Invia messaggio",
+        "disableModalButton": "Scegli almeno un indirizzo",
+        "forwardedMessage": "Messaggio inoltrato da un'altra chat",
+        "iAmModerator": "Sei un moderatore",
+        "leaveAndDelete": "Abbandona ed elimina la conversazione",
+        "memberIsModerator": "Questo partecipante è un moderatore",
+        "messageReceived": "Ricevuto",
+        "promoteModerator": "Promuovi a moderatore",
+        "removeCaption": "Rimuovi didascalia",
+        "writeToSend": "Scrivi un messaggio per inviarlo",
+        "uploadAttachment": "Carica allegato"
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -137,15 +151,24 @@
         },
         "profile": {
             "errorGenericResponse": "Qualcosa è andato storto. Per favore riprova",
-            "title": "Profilo"
+            "title": "Profilo",
+            "maximumDimension": "Dimensione massima: {{size}}kb",
+            "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar è {{size}}kb",
+            "updatedPictureCorrectly": "Nuovo avatar caricato con successo"
         },
         "save": "Modifiche salvate correttamente",
-        "title": "Impostazioni chat"
+        "title": "Impostazioni chat",
+        "room": {
+            "deletedUserImageCorrectly": "Avatar ripristinato con successo alla versione originale",
+            "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar di un Gruppo è {{size}}kb"
+        }
     },
     "status": {
         "lastSeen": "Ultima visualizzazione {{lastSeen}}",
         "offline": "Disconnesso",
-        "online": "Online"
+        "online": "Online",
+        "isTyping": "sta digitando…",
+        "areTyping": "stanno digitando…"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} ha iniziato una conversazione con te",
@@ -157,9 +180,11 @@
     "configurationMessages": {
         "roomPictureDeleted": "{{name}} ha ripristinato l'immagine predefinita di {{roomName}}",
         "roomPictureUpdated": "{{name}} ha modificato l'immagine di {{roomName}}",
-        "roomTopicChanged": "{{name}} ha modificato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\""
+        "roomTopicChanged": "{{name}} ha modificato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\"",
+        "roomNameChanged": "{{name}} ha modificato il titolo di questo Gruppo in \"<i>{{roomName}}</i>\""
     },
     "conversationFilter": {
         "closeTooltip": "Chiudi filtro"
-    }
+    },
+    "titlePlaceholder": "Il titolo del tuo Gruppo"
 }
