@@ -2,12 +2,17 @@
     "attachments": {
         "stopUpload": "Остановить загрузку",
         "addFromLocal": "Добавить из локального",
-        "attachLinkFiles": "Прикрепите публичную ссылку из Files"
+        "attachLinkFiles": "Прикрепите публичную ссылку из Files",
+        "dragAndDrop": "Режим Drag&Drop",
+        "dropHereDescription": "Перетащите сюда свои вложения, чтобы быстро добавить их в этот чат",
+        "errorUploadingFile": "Что-то пошло не так при загрузке {{file}}",
+        "uploadAborted": "Загрузка была прервана"
     },
     "feedback": {
         "historyCleared": "История очищена!",
         "notificationsActivatedForThisChat": "Уведомления включены для этого Чата",
-        "notificationsMutedForThisChat": "Отключить уведомления для этого чата"
+        "notificationsMutedForThisChat": "Отключить уведомления для этого чата",
+        "messageCopied": "Сообщение скопировано"
     },
     "message": {
         "deletedMessage": "Удаленное сообщение",
@@ -17,12 +22,32 @@
     "modal": {
         "leaveGroup": "Выйти из Группы",
         "creation": {
-            "newGroup": "Новая группа"
+            "newGroup": "Новая группа",
+            "contactList": "Чтобы создать группу, выберите больше адреса",
+            "description": "Chats — это разговоры один на один, которые помогают вам оставаться на связи с вашими контактами. Вы можете создать группу, включив более двух адресов",
+            "inputPlaceholder": "Начните печатать или выберите адрес",
+            "newChat": "Новый чат"
         },
         "deleteRoom": "Удалить конференц-зал",
         "deleteUserDescription": "Вы уверены, что хотите удалить этого пользователя?",
         "removeMember": "Удалить участника",
-        "showPreviousConversationHistory": "Показать предыдущую историю чата"
+        "showPreviousConversationHistory": "Показать предыдущую историю чата",
+        "deleteGroup": "Удалить Группу",
+        "deleteGroupLabel": "Вы уверены, что хотите удалить эту группу?",
+        "deleteMessageTitle": "Удалить выбранное сообщение?",
+        "deleteMessageTitleDescription": "Если вы удалите содержимое сообщения, оно больше не будет доступно и будет удалено.",
+        "deleteRoomLabel": "Вы уверены, что хотите удалить эту комнату?",
+        "forward": {
+            "chooseAtLeastOneChat": "Выберите хотя бы один чат",
+            "description": "Выберите чат, чтобы переслать сообщение",
+            "inputPlaceholder": "Начните печатать или выберите чат",
+            "title": "Переслать сообщение от {{chatName}}"
+        },
+        "leaveAndDelete": "Выйти и удалить группу",
+        "leaveGroupLabel": "Вы уверены, что хотите выйти из Группы?",
+        "leaveRoom": "Выйти из Комнаты",
+        "leaveRoomLabel": "Вы уверены, что хотите выйти из этой Комнаты?",
+        "clearHistoryDescription": "Вы собираетесь очистить историю разговоров, помните, что это действие нельзя отменить. История других участников не будет удалена."
     },
     "action": {
         "activateNotifications": "Включить уведомления",
@@ -45,12 +70,24 @@
         "reply": "Ответить",
         "replyToSomeone": "Ответить",
         "replyToYourself": "Ответить",
-        "undo": "Отменить"
+        "undo": "Отменить",
+        "addMoreAttachments": "Добавить {{counter}} вложений",
+        "addNewMembersTo": "Добавить новых участников в {{roomName}}",
+        "addSingleAttachment": "Добавить вложение {{counter}}",
+        "editRoom": "Редактировать {{roomName}}",
+        "editDetails": "Редактировать",
+        "newChat": "Новый чат",
+        "scrollToBottom": "Прокрутите вниз"
     },
     "conversation": {
         "chooseConversationDescription": "Выберите беседу, чтобы начать чат",
         "keepInTouchTitle": "Будем на связи!",
-        "newMessage": "Новое сообщение"
+        "newMessage": "Новое сообщение",
+        "emptyListDescription": "Здесь будут отображаться чаты и группы",
+        "emptyListTitle": "Этот список пуст",
+        "mockCreateChatDescription": "Взаимодействуйте, общайтесь и сотрудничайте со своими коллегами, делясь информацией и вложениями",
+        "mockCreateChatTitle": "Создайте новый чат с помощью кнопки «Создать»",
+        "newMessages": "Новые сообщения"
     },
     "conversationInfo": {
         "actionAccordionTitle": "Действия",
@@ -63,19 +100,30 @@
         "topic": "Тема"
     },
     "date": {
-        "yesterday": "Вчера"
+        "yesterday": "Вчера",
+        "today": "Сегодня"
     },
     "editModal": {
-        "groupDescriptionDetails": "Описание темы Группы"
+        "groupDescriptionDetails": "Описание темы Группы",
+        "confirm": "Редактировать детали",
+        "confirmDisabled": "Вы ничего не изменили",
+        "errorDisabled": "Проверьте введенную информацию",
+        "nameTooLong": "Максимальная длина заголовка — 128 символов",
+        "nameTooShort": "Название является важной информацией",
+        "topicTooLong": "Максимальная длина темы — 256 символов"
     },
     "participantsList": {
         "closeSearch": "Закрыть поиск",
-        "moreMembersAccordionTitle": "участники"
+        "moreMembersAccordionTitle": "участники",
+        "noMatch": "Нет элементов, соответствующих этому запросу",
+        "oneMemberAccordionTitle": "Один участник",
+        "searchMembers": "Поиск участников"
     },
     "settings": {
         "notifications": {
             "checkboxLabel": "Уведомления",
-            "title": "Оповещения"
+            "title": "Оповещения",
+            "description": "Установите свои предпочтения для уведомлений чатов."
         },
         "profile": {
             "errorGenericResponse": "Что-то пошло не так. Пожалуйста повторите",
@@ -103,5 +151,24 @@
         "selectEmoji": "Выбрать emoji",
         "sendMessage": "Отправить сообщение",
         "uploading": "Выгрузка"
+    },
+    "affiliationMessages": {
+        "SomeoneElseCreatedOneToOne": "{{userName}} начал(а) с вами чат",
+        "groupCreated": "{{roomName}} создана!",
+        "memberAdded": "{{userName}} добавлен(а) в {{roomName}}",
+        "memberRemoved": "{{userName}} был удален(а) из {{roomName}}",
+        "oneToOneCreated": "Создан новый чат!",
+        "youCreatedOneToOne": "Вы начали чат с {{userName}}"
+    },
+    "configurationMessages": {
+        "roomNameChanged": "{{name}} изменил(а) название этой группы на \"<i>{{roomName}}</i>\"",
+        "roomPictureDeleted": "{{name}} восстановил(а) изображение {{roomName}} по умолчанию",
+        "roomPictureUpdated": "{{name}} изменил(а) изображение {{roomName}}",
+        "roomTopicChanged": "{{name}} изменил(а) тему {{roomName}} \"<i>{{topicName}}</i>\""
+    },
+    "conversationFilter": {
+        "closeTooltip": "Закрыть фильтры",
+        "filterTooltip": "Список фильтров",
+        "label": "Введите, чтобы отфильтровать список"
     }
 }
