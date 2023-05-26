@@ -175,7 +175,8 @@
         "groupCreated": "{{roomName}} creata!",
         "memberAdded": "{{userName}} è stato aggiunto a {{roomName}}",
         "memberRemoved": "{{userName}} è stato rimosso da {{roomName}}",
-        "oneToOneCreated": "Nuova conversazione creata!"
+        "oneToOneCreated": "Nuova conversazione creata!",
+        "youCreatedOneToOne": "Hai iniziato una conversazione con {{userName}}"
     },
     "configurationMessages": {
         "roomPictureDeleted": "{{name}} ha ripristinato l'immagine predefinita di {{roomName}}",
@@ -184,7 +185,8 @@
         "roomNameChanged": "{{name}} ha modificato il titolo di questo Gruppo in \"<i>{{roomName}}</i>\""
     },
     "conversationFilter": {
-        "closeTooltip": "Chiudi filtro"
+        "closeTooltip": "Chiudi filtro",
+        "filterTooltip": "Filtra lista"
     },
     "titlePlaceholder": "Il titolo del tuo Gruppo"
 }
