@@ -37,7 +37,11 @@
         "reply": "रिप्लाई करें",
         "replyToSomeone": "इन्हें रिप्लाई दें",
         "replyToYourself": "खुद को रिप्लाई दें",
-        "undo": "अनडू करें"
+        "undo": "अनडू करें",
+        "addMoreAttachments": "{{counter}} अटैचमेंट जोड़ें",
+        "editRoom": "{{roomName}} बदलें",
+        "newChat": "नई चैट",
+        "editDetails": "जानकारी बदलें"
     },
     "conversation": {
         "chooseConversationDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
