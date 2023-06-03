@@ -2,7 +2,11 @@
     "attachments": {
         "addFromLocal": "लोकल से लगाएँ",
         "attachLinkFiles": "फाइलों से पब्लिक लिंक अटैच करें",
-        "stopUpload": "अपलोड बंद करें"
+        "stopUpload": "अपलोड बंद करें",
+        "errorUploadingFile": "{{file}} अपलोड करने में कोई गड़बड़ी हुई",
+        "uploadAborted": "अपलोड रुक गया है",
+        "dragAndDrop": "खींचें और छोड़ें मोड",
+        "dropHereDescription": "इस चैट में तुरंत जोड़ने के लिए अपने अटैचमेंट यहाँ छोड़ें"
     },
     "settings": {
         "notifications": {
@@ -41,12 +45,18 @@
         "addMoreAttachments": "{{counter}} अटैचमेंट जोड़ें",
         "editRoom": "{{roomName}} बदलें",
         "newChat": "नई चैट",
-        "editDetails": "जानकारी बदलें"
+        "editDetails": "जानकारी बदलें",
+        "addSingleAttachment": "{{counter}} अटैचमेंट जोड़ें",
+        "addNewMembersTo": "{{roomName}} में नए सदस्य जोड़ें",
+        "scrollToBottom": "स्क्रॉल करके नीचे जाएँ"
     },
     "conversation": {
         "chooseConversationDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
         "keepInTouchTitle": "चलिए हम संपर्क में रहते हैं!",
-        "newMessage": "नया मैसेज"
+        "newMessage": "नया मैसेज",
+        "emptyListDescription": "चैट और ग्रुप यहां लिस्ट में दिखाई देंगे",
+        "emptyListTitle": "यह लिस्ट खाली है",
+        "mockCreateChatDescription": "जानकारी और अटैचमेंट शेयर करके अपने ऑफिस के लोगों से बात-चीत करें और साथ में काम करें"
     },
     "conversationInfo": {
         "actionAccordionTitle": "एक्शन्स",
@@ -104,5 +114,19 @@
         "selectEmoji": "ईमोजी चुनें",
         "sendMessage": "मैसेज भेजें",
         "uploading": "अपलोड हो रहा है"
+    },
+    "affiliationMessages": {
+        "groupCreated": "{{roomName}} बनाया गया!",
+        "memberAdded": "{{userName}} को {{roomName}} में जोड़ दिया गया है",
+        "oneToOneCreated": "नई चैट बनाई गई!",
+        "memberRemoved": "{{userName}} को {{roomName}} से हटा दिया गया है",
+        "youCreatedOneToOne": "आपने {{userName}} के साथ चैट शुरू कर दी है",
+        "SomeoneElseCreatedOneToOne": "{{userName}} ने आपके साथ चैट शुरू की"
+    },
+    "configurationMessages": {
+        "roomNameChanged": "{{name}} ने \"<i>{{roomName}}</i>\" में इस ग्रुप का नाम बदल दिया",
+        "roomPictureDeleted": "{{name}} ने डिफ़ॉल्ट {{roomName}}फोटो वापस सेट की",
+        "roomPictureUpdated": "{{name}} ने {{roomName}}की फोटो बदल दी",
+        "roomTopicChanged": "{{name}} ने \"<i>{{topicName}}</i>\" में {{roomName}} का टॉपिक बदल दिया"
     }
 }
