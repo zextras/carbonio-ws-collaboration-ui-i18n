@@ -97,7 +97,7 @@
         "uploadAttachment": "Cargar un adjunto",
         "userAvatar": {
             "resetAvatar": "Restablecer avatar",
-            "updateAvatar": "Cargar avatar",
+            "updateAvatar": "Actualizar avatar",
             "uploadAvatar": "Cargar avatar"
         },
         "writeToSend": "Escribe un mensaje"
@@ -117,7 +117,7 @@
         "today": "Hoy"
     },
     "editModal": {
-        "groupDescriptionDetails": "Describe el tema del Grupo",
+        "groupDescriptionDetails": "Describe el tema del grupo",
         "confirm": "Editar detalles",
         "confirmDisabled": "No se ha cambiado nada",
         "errorDisabled": "Verifica la información introducida",
@@ -185,7 +185,7 @@
         "lastSeen": "Visto por última vez {{lastSeen}}",
         "offline": "Desconectado",
         "online": "Online",
-        "areTyping": "está escribiendo…",
+        "areTyping": "están escribiendo…",
         "isTyping": "está escribiendo…"
     },
     "affiliationMessages": {
