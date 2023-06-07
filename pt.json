@@ -20,12 +20,23 @@
         "removeUser": "Remover",
         "reply": "Responder",
         "replyToSomeone": "Responder a",
-        "replyToYourself": "Responder a si mesmo"
+        "replyToYourself": "Responder a si mesmo",
+        "addMoreAttachments": "Adicionar {{counter}} anexos",
+        "addSingleAttachment": "Adicionar {{counter}} anexo",
+        "editDetails": "Editar detalhes",
+        "editRoom": "Editar {{roomName}}",
+        "newChat": "Novo Chat",
+        "scrollToBottom": "Deslocar para baixo",
+        "addNewMembersTo": "Adicionar membros a {{roomName}}"
     },
     "attachments": {
         "attachLinkFiles": "Anexar link público a partir de Files",
         "addFromLocal": "Adicionar a partir do Meu Computador",
-        "stopUpload": "Parar upload"
+        "stopUpload": "Parar upload",
+        "dragAndDrop": "Arrastar e soltar",
+        "dropHereDescription": "Arraste para aqui os seus anexos para adicioná-los rapidamente a este Chat",
+        "errorUploadingFile": "Ocorreu um erro durante o carregamento {{file}}",
+        "uploadAborted": "O carregamento foi interrompido"
     },
     "modal": {
         "deleteRoom": "Excluir Sala",
@@ -52,7 +63,12 @@
     "conversation": {
         "chooseConversationDescription": "Escolher uma conversa para iniciar um chat",
         "keepInTouchTitle": "Vamos manter contato!",
-        "newMessage": "Nova mensagem"
+        "newMessage": "Nova mensagem",
+        "emptyListDescription": "Chats individuais e grupos irão aparecer listados aqui",
+        "emptyListTitle": "A lista está vazia",
+        "mockCreateChatTitle": "Crie um novo Chat usando o botão criar",
+        "newMessages": "Novas mensagens",
+        "mockCreateChatDescription": "Interaja, comunique e colabore com seus colegas partilhando informações e ficheiros"
     },
     "conversationInfo": {
         "actionAccordionTitle": "Ações",
@@ -65,10 +81,17 @@
         "topic": "Assunto"
     },
     "date": {
-        "yesterday": "Ontem"
+        "yesterday": "Ontem",
+        "today": "Hoje"
     },
     "editModal": {
-        "groupDescriptionDetails": "Descreve o tema do Grupo"
+        "groupDescriptionDetails": "Descreve o tema do Grupo",
+        "errorDisabled": "Verifique as informações introduzidas",
+        "groupNameDetails": "É necessário para identificar o grupo",
+        "nameTooLong": "O comprimento máximo são 128 caracteres",
+        "nameTooShort": "Necessário inserir o Título",
+        "confirm": "Editar detalhes",
+        "confirmDisabled": "Não existem alterações"
     },
     "feedback": {
         "historyCleared": "Histórico de mensagens eliminado correctamente!",
@@ -100,5 +123,24 @@
         "selectEmoji": "Selecionar emoji",
         "sendMessage": "Enviar mensagem",
         "uploading": "Carregando"
+    },
+    "affiliationMessages": {
+        "groupCreated": "{{roomName}} criado!",
+        "memberAdded": "{{userName}} foi adicionado a {{roomName}}",
+        "oneToOneCreated": "Novo Chat criado!",
+        "youCreatedOneToOne": "Iniciou um Chat com {{userName}}",
+        "SomeoneElseCreatedOneToOne": "{{userName}} iniciou um Chat consigo",
+        "memberRemoved": "{{userName}} foi removido de {{roomName}}"
+    },
+    "configurationMessages": {
+        "roomPictureDeleted": "{{name}} restaurou a imagem de {{roomName}}",
+        "roomPictureUpdated": "{{name}} mudou a imagem de {{roomName}}",
+        "roomTopicChanged": "{{name}} alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\"",
+        "roomNameChanged": "{{name}} alterou o nome do grupo para \"<i>{{roomName}}</i>\""
+    },
+    "conversationFilter": {
+        "closeTooltip": "Fechar filtro",
+        "filterTooltip": "Filtrar lista",
+        "label": "Escreva para filtrar a lista"
     }
 }
