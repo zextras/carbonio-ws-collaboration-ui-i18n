@@ -41,7 +41,8 @@
     "modal": {
         "deleteRoom": "Excluir Sala",
         "creation": {
-            "newGroup": "Novo Grupo"
+            "newGroup": "Novo Grupo",
+            "newChat": "Novo Chat"
         },
         "deleteUserDescription": "Tem certeza que deseja remover este membro?",
         "leaveGroup": "Sair do Grupo",
