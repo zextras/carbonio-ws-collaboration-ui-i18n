@@ -154,13 +154,15 @@
             "title": "Profilo",
             "maximumDimension": "Dimensione massima: {{size}}kb",
             "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar è {{size}}kb",
-            "updatedPictureCorrectly": "Nuovo avatar caricato con successo"
+            "updatedPictureCorrectly": "Nuovo avatar caricato con successo",
+            "deletedUserImageCorrectly": "Avatar ripristinato con successo alla versione originale"
         },
         "save": "Modifiche salvate correttamente",
         "title": "Impostazioni chat",
         "room": {
             "deletedUserImageCorrectly": "Avatar ripristinato con successo alla versione originale",
-            "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar di un Gruppo è {{size}}kb"
+            "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar di un Gruppo è {{size}}kb",
+            "updatedPictureCorrectly": "Nuovo avatar caricato con successo"
         }
     },
     "status": {
