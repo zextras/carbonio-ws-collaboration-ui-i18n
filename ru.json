@@ -185,7 +185,8 @@
             "updateAvatar": "Обновить аватар",
             "uploadAvatar": "Загрузить аватар"
         },
-        "writeToSend": "Напишите сообщение, чтобы отправить его"
+        "writeToSend": "Напишите сообщение, чтобы отправить его",
+        "messageActions": " Действия сообщения"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} начал(а) с вами чат",
