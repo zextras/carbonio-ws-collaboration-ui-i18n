@@ -107,7 +107,13 @@
         "promoteModerator": "Promuovi a moderatore",
         "removeCaption": "Rimuovi didascalia",
         "writeToSend": "Scrivi un messaggio per inviarlo",
-        "uploadAttachment": "Carica allegato"
+        "uploadAttachment": "Carica allegato",
+        "demoteModerator": "Retrocedi moderatore",
+        "userAvatar": {
+            "resetAvatar": "Ripristina immagine profilo",
+            "updateAvatar": "Aggiorna immagine profilo",
+            "uploadAvatar": "Carica immagine profilo"
+        }
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -115,7 +121,8 @@
         "stopUpload": "Sospendi caricamento",
         "dropHereDescription": "Trascina qui gli allegati per aggiungerli velocemente alla chat",
         "errorUploadingFile": "Qualcosa è andato storto durante il caricamento di {{file}}",
-        "uploadAborted": "Il caricamento è stato interrotto"
+        "uploadAborted": "Il caricamento è stato interrotto",
+        "dragAndDrop": "Modalità Drag&Drop"
     },
     "conversation": {
         "chooseConversationDescription": "Scegli una conversazione per iniziare una Chat",
@@ -155,14 +162,17 @@
             "maximumDimension": "Dimensione massima: {{size}}kb",
             "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar è {{size}}kb",
             "updatedPictureCorrectly": "Nuovo avatar caricato con successo",
-            "deletedUserImageCorrectly": "Avatar ripristinato con successo alla versione originale"
+            "deletedUserImageCorrectly": "Avatar ripristinato con successo alla versione originale",
+            "description": "Scegli una foto profilo da mostrare agli altri utenti, l'immagine verrà centrata automaticamente.",
+            "statusLabel": "Il tuo stato apparirà qui"
         },
         "save": "Modifiche salvate correttamente",
         "title": "Impostazioni chat",
         "room": {
             "deletedUserImageCorrectly": "Avatar ripristinato con successo alla versione originale",
             "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar di un Gruppo è {{size}}kb",
-            "updatedPictureCorrectly": "Nuovo avatar caricato con successo"
+            "updatedPictureCorrectly": "Nuovo avatar caricato con successo",
+            "deletedImageCorrectly": "L'immagine profilo del gruppo è stata ripristinata con successo alla versione originale"
         }
     },
     "status": {
@@ -188,7 +198,8 @@
     },
     "conversationFilter": {
         "closeTooltip": "Chiudi filtro",
-        "filterTooltip": "Filtra lista"
+        "filterTooltip": "Filtra lista",
+        "label": "Digita qualcosa per filtrare la lista"
     },
     "titlePlaceholder": "Il titolo del tuo Gruppo"
 }
