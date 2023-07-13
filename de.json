@@ -14,7 +14,9 @@
         "deleteRoom": "Raum löschen",
         "deleteUserDescription": "Sind Sie sicher, dass Sie dieses Mitglied entfernen möchten?",
         "removeMember": "Mitglied entfernen",
-        "showPreviousConversationHistory": "Vorherigen Unterhaltungsverlauf anzeigen"
+        "showPreviousConversationHistory": "Vorherigen Unterhaltungsverlauf anzeigen",
+        "deleteMessageTitle": "Ausgewählte Nachricht löschen?",
+        "deleteMessageTitleDescription": "Wenn Sie den gesamten Inhalt der Nachricht entfernen, steht diese nicht mehr zur Verfügung und wird folglich gelöscht."
     },
     "tooltip": {
         "clear": "Löschen",
@@ -29,7 +31,9 @@
         },
         "selectEmoji": "Emoji auswählen",
         "sendMessage": "Nachricht senden",
-        "uploading": "Hochladen"
+        "uploading": "Hochladen",
+        "demoteModerator": "Moderator zurückstufen",
+        "promoteModerator": "Zum Moderator befördern"
     },
     "action": {
         "activateNotifications": "Benachrichtigungen aktivieren",
