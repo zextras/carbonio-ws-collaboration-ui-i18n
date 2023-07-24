@@ -149,8 +149,8 @@
         "lastSeen": "पिछली बार देखा गया / गई {{lastSeen}}",
         "offline": "ऑफ़लाइन",
         "online": "ऑनलाइन",
-        "areTyping": "टाइप कर रहे हैं..।",
-        "isTyping": "टाइप कर रहा है..।"
+        "areTyping": "टाइप कर रहे हैं…",
+        "isTyping": "टाइप कर रहा है…"
     },
     "tooltip": {
         "clear": "साफ़ करें",
