@@ -165,8 +165,8 @@
         "title": "Chats settings"
     },
     "status": {
-        "areTyping": "are typing...",
-        "isTyping": "is typing...",
+        "areTyping": "are typing…",
+        "isTyping": "is typing…",
         "lastSeen": "Last seen {{lastSeen}}",
         "offline": "Offline",
         "online": "Online"
