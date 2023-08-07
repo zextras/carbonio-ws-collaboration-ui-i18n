@@ -25,7 +25,7 @@
             "contactList": "Sélectionnez plus d'une adresse pour créer un Groupe",
             "inputPlaceholder": "Commencez à taper ou récupérez une adresse",
             "newChat": "Nouvelle Discussion",
-            "description": "Les discussion sont des conversations entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un Groupe en ajoutant plus de 2 adresses"
+            "description": "Les discussions sont des conversations entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un Groupe en ajoutant plus de 2 adresses"
         },
         "deleteUserDescription": "Êtes-vous sûr de vouloir supprimer ce membre ?",
         "leaveGroup": "Quitter le groupe",
@@ -49,9 +49,9 @@
         "leaveGroupLabel": "Êtes-vous sûr de vouloir quitter ce Groupe ?"
     },
     "settings": {
-        "save": "Modifications enregistrées correctement",
+        "save": "Les modifications ont été enregistrées correctement",
         "notifications": {
-            "checkboxLabel": "Notifications desktop",
+            "checkboxLabel": "Notifications bureau",
             "title": "Notifications",
             "description": "Définissez vos préférences pour les notifications de Chats."
         },
@@ -76,7 +76,7 @@
     "action": {
         "activateNotifications": "Activer les notifications",
         "addAttachment": "Ajouter une pièce jointe",
-        "addNewMembers": "Ajouter des nouveaux membres",
+        "addNewMembers": "Ajouter de nouveaux membres",
         "clearHistory": "Effacer l'historique",
         "close": "Fermer",
         "copy": "Copier",
@@ -84,7 +84,7 @@
         "delete": "Effacer",
         "download": "Télécharger",
         "edit": "Modifier",
-        "editYourMessage": "Editer votre message",
+        "editYourMessage": "Modifier votre message",
         "forward": "Transférer",
         "forwarded": "transféré",
         "leave": "Quitter",
@@ -149,19 +149,19 @@
         "lastSeen": "Vu pour la dernière fois {{lastSeen}}",
         "offline": "Déconnecté",
         "online": "En ligne",
-        "areTyping": "écrit...",
-        "isTyping": "est en train d'écrire..."
+        "areTyping": "écrit…",
+        "isTyping": "est en train d'écrire…"
     },
     "tooltip": {
         "clear": "Effacer",
         "close": "Fermer",
-        "goToPrivateChat": "Aller dans un chat privé",
+        "goToPrivateChat": "Aller dans une conversation privé",
         "leaveConversation": "Quitter la conversation",
         "messageComposer": "Éditeur de message",
         "messageRead": "Lire",
         "messageSent": "Envoyé",
         "room": {
-            "uploadPicture": "Uploader une image",
+            "uploadPicture": "Téléverser une image",
             "resetPicture": "Réinitialiser l'image",
             "updatePicture": "Mettre à jour l'image"
         },
