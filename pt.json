@@ -42,24 +42,56 @@
         "deleteRoom": "Excluir Sala",
         "creation": {
             "newGroup": "Novo Grupo",
-            "newChat": "Novo Chat"
+            "newChat": "Novo Chat",
+            "contactList": "Selecione mais usuários para criar um grupo",
+            "description": "Os Chats são conversas individuais que permitem você se comunicar com colegas. Para incluir mais pessoas, você pode criar um Grupo",
+            "inputPlaceholder": "Comece a digitar ou selecione um endereço"
         },
         "deleteUserDescription": "Tem certeza que deseja remover este membro?",
         "leaveGroup": "Sair do Grupo",
         "removeMember": "Remover membro",
-        "showPreviousConversationHistory": "Mostrar histórico de conversas"
+        "showPreviousConversationHistory": "Mostrar histórico de conversas",
+        "clearHistoryDescription": "Está prestes a limpar o seu histórico de conversações, mas lembre-se de que esta ação não pode ser anulada. O histórico de outros membros não será apagado.",
+        "deleteGroup": "Eliminar grupo",
+        "deleteMessageTitle": "Eliminar a mensagem selecionada?",
+        "deleteGroupLabel": "Tens a certeza de querer eliminar o grupo?",
+        "deleteMessageTitleDescription": "Se eliminar o conteúdo da mensagem, ela não estará mais disponível.",
+        "deleteRoomLabel": "Tens a certeza de querer eliminar a sala?",
+        "forward": {
+            "chooseAtLeastOneChat": "Selecione pelo menos um chat",
+            "description": "Selecione o chat para o qual reencaminhar a mensagem",
+            "inputPlaceholder": "Comece a digitar ou selecione um chat",
+            "title": "Encaminhar mensagem desde {{chatName}}"
+        },
+        "leaveAndDelete": "Sair e eliminar grupo",
+        "leaveGroupLabel": "Tem a certeza de que deseja sair deste grupo?",
+        "leaveRoom": "Deixar a sala",
+        "leaveRoomLabel": "Tem a certeza de que quer sair desta sala?"
     },
     "settings": {
         "profile": {
             "errorGenericResponse": "Alguma coisa deu errado. Por favor tente novamente",
-            "title": "Perfil"
+            "title": "Perfil",
+            "deletedUserImageCorrectly": "O avatar foi redefinido para o original",
+            "description": "Escolha um avatar que será visto por outros usuários. A imagem será centralizada automaticamente.",
+            "maximumDimension": "Tamanho máximo: {{size}} kb",
+            "pictureSizeTooLarge": "Algo deu errado, lembre-se de que o tamanho máximo do avatar é {{size}}kb",
+            "statusLabel": "Seu status aparecerá aqui",
+            "updatedPictureCorrectly": "O novo avatar foi carregado com sucesso"
         },
         "save": "Edições salvas corretamente",
         "notifications": {
             "checkboxLabel": "Notificações do desktop",
-            "title": "Notificações"
+            "title": "Notificações",
+            "description": "Defina suas preferências para notificações de Chats."
         },
-        "title": "Configurações dos chats"
+        "title": "Configurações dos chats",
+        "room": {
+            "deletedImageCorrectly": "O avatar do grupo foi redefinido com sucesso para o original",
+            "deletedUserImageCorrectly": "O avatar foi redefinido com sucesso para o original",
+            "pictureSizeTooLarge": "Algo deu errado. Lembre-se de que o tamanho máximo da imagem de avatar de um grupo é {{size}}kb",
+            "updatedPictureCorrectly": "O novo avatar foi carregado com sucesso"
+        }
     },
     "conversation": {
         "chooseConversationDescription": "Escolher uma conversa para iniciar um chat",
@@ -92,12 +124,14 @@
         "nameTooLong": "O comprimento máximo são 128 caracteres",
         "nameTooShort": "Necessário inserir o Título",
         "confirm": "Editar detalhes",
-        "confirmDisabled": "Não existem alterações"
+        "confirmDisabled": "Não existem alterações",
+        "topicTooLong": "O comprimento máximo do título é de 256 caracteres"
     },
     "feedback": {
         "historyCleared": "Histórico de mensagens eliminado correctamente!",
         "notificationsActivatedForThisChat": "Notificações ativas para este chat",
-        "notificationsMutedForThisChat": "Notificações silenciadas para este chat"
+        "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
+        "messageCopied": "Mensagem copiada"
     },
     "message": {
         "deletedMessage": "Mensagem apagada",
@@ -106,12 +140,17 @@
     },
     "participantsList": {
         "closeSearch": "Fechar a pesquisa",
-        "moreMembersAccordionTitle": "Membros"
+        "moreMembersAccordionTitle": "Membros",
+        "noMatch": "Não há itens que correspondam a essa busca",
+        "oneMemberAccordionTitle": "Um membro",
+        "searchMembers": "Buscar membros"
     },
     "status": {
         "lastSeen": "Visto por última vez {{lastSeen}}",
         "offline": "Desconectado",
-        "online": "Online"
+        "online": "Online",
+        "areTyping": "estão a escrever…",
+        "isTyping": "está a escrever…"
     },
     "tooltip": {
         "clear": "Apagar",
@@ -123,7 +162,31 @@
         "messageSent": "Enviado",
         "selectEmoji": "Selecionar emoji",
         "sendMessage": "Enviar mensagem",
-        "uploading": "Carregando"
+        "uploading": "Carregando",
+        "demoteModerator": "Remover moderador",
+        "disableModalButton": "Selecione pelo menos um endereço",
+        "forwardedMessage": "Mensagem encaminhada de outro chat",
+        "iAmModerator": "Você é um moderador",
+        "leaveAndDelete": "Sair e eliminar a conversa",
+        "memberIsModerator": "Este membro é um moderador",
+        "messageActions": " Acções das mensagens",
+        "messageReceived": "Recebida",
+        "promoteModerator": "Promover para moderador",
+        "promoteSomeoneElseToModerator": "Promover outra pessoa para moderador para sair",
+        "removeCaption": "Remover título",
+        "room": {
+            "resetPicture": "Redefinir imagem",
+            "updatePicture": "Atualizar imagem",
+            "uploadPicture": "Carregar imagem"
+        },
+        "userAvatar": {
+            "resetAvatar": "Redefinir avatar",
+            "updateAvatar": "Atualizar avatar",
+            "uploadAvatar": "Carregar avatar"
+        },
+        "showConversationList": "Mostrar a lista de conversas",
+        "uploadAttachment": "Carregar um anexo",
+        "writeToSend": "Escreva uma mensagem"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} criado!",
@@ -143,5 +206,6 @@
         "closeTooltip": "Fechar filtro",
         "filterTooltip": "Filtrar lista",
         "label": "Escreva para filtrar a lista"
-    }
+    },
+    "titlePlaceholder": "Título do grupo"
 }
