@@ -74,7 +74,8 @@
         "leaveAndDelete": "Abbandona e elimina Gruppo",
         "leaveGroupLabel": "Vuoi abbandonare questo Gruppo?",
         "leaveRoom": "Abbandona Stanza",
-        "leaveRoomLabel": "Vuoi abbandonare questa Stanza?"
+        "leaveRoomLabel": "Vuoi abbandonare questa Stanza?",
+        "deleteMessageTitleDescription": "Se rimuovi l'intero contenuto del messaggio, questo non sarà più disponibile e verrà eliminato."
     },
     "participantsList": {
         "closeSearch": "Chiudi ricerca",
