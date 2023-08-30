@@ -149,8 +149,8 @@
         "lastSeen": "Son görülme {{lastSeen}}",
         "offline": "Çevrimdışı",
         "online": "Çevrim içi",
-        "areTyping": "yazıyorlar...",
-        "isTyping": "yazıyor..."
+        "areTyping": "yazıyorlar…",
+        "isTyping": "yazıyor…"
     },
     "tooltip": {
         "clear": "Temizle",
