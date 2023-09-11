@@ -149,8 +149,8 @@
         "lastSeen": "Последнее посещение {{lastSeen}}",
         "offline": "Не в сети",
         "online": "В сети",
-        "areTyping": "пишут...",
-        "isTyping": "пишет..."
+        "areTyping": "пишут…",
+        "isTyping": "пишет…"
     },
     "tooltip": {
         "clear": "Удалить",
