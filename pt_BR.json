@@ -186,7 +186,7 @@
         "offline": "Offline",
         "online": "Online",
         "areTyping": "estão digitando…",
-        "isTyping": "está digitando…"
+        "isTyping": "está escrevendo…"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} iniciou um chat com você",
