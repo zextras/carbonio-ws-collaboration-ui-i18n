@@ -12,7 +12,9 @@
         "leaveConversation": "ออกจากการสนทนา",
         "messageComposer": "ผู้เขียนข้อความ",
         "messageRead": "อ่าน",
-        "messageSent": "ส่งแล้ว"
+        "messageSent": "ส่งแล้ว",
+        "demoteModerator": "ลดระดับผู้ดูแล",
+        "promoteModerator": "เลื่อนระดับเป็นผู้ดูแล"
     },
     "action": {
         "undo": "เลิกทำ",
@@ -57,12 +59,14 @@
     "status": {
         "lastSeen": "ดูครั้งล่าสุด {{lastSeen}}",
         "offline": "ออฟไลน์",
-        "online": "ออนไลน์"
+        "online": "ออนไลน์",
+        "isTyping": "กำลังพิมพ์…"
     },
     "conversation": {
         "chooseConversationDescription": "เลือกการสนทนาเพื่อเริ่มการแชท",
         "keepInTouchTitle": "เรามาติดต่อกันเถอะ!",
-        "newMessage": "ข้อความใหม่"
+        "newMessage": "ข้อความใหม่",
+        "newMessages": "ข้อความใหม่"
     },
     "conversationInfo": {
         "actionAccordionTitle": "การดำเนินการ",
@@ -98,7 +102,9 @@
         "deleteUserDescription": "คุณแน่ใจหรือไม่ว่าต้องการลบสมาชิกคนนี้ออก?",
         "leaveGroup": "ออกจากกลุ่ม",
         "removeMember": "ลบสมาชิก",
-        "showPreviousConversationHistory": "แสดงประวัติการสนทนาก่อนหน้า"
+        "showPreviousConversationHistory": "แสดงประวัติการสนทนาก่อนหน้า",
+        "deleteMessageTitleDescription": "หากคุณลบเนื้อหาทั้งหมดของข้อความ เนื้อหานั้นจะไม่สามารถใช้งานได้อีกต่อไปและจะถูกลบออก",
+        "deleteMessageTitle": "ลบข้อความที่เลือกหรือไม่?"
     },
     "participantsList": {
         "closeSearch": "ปิดการค้นหา",
