@@ -66,7 +66,8 @@
     "conversation": {
         "chooseConversationDescription": "Wählen Sie ein Gespräch, um einen Chat zu beginnen",
         "keepInTouchTitle": "Lassen Sie uns in Kontakt bleiben!",
-        "newMessage": "Neue Nachricht"
+        "newMessage": "Neue Nachricht",
+        "newMessages": "Neue Nachrichten"
     },
     "date": {
         "yesterday": "Gestern"
@@ -103,6 +104,7 @@
     "status": {
         "lastSeen": "Zuletzt gesehen {{lastSeen}}",
         "offline": "Offline",
-        "online": "Online"
+        "online": "Online",
+        "isTyping": "schreibt …"
     }
 }
