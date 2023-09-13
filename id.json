@@ -12,7 +12,9 @@
         "messageSent": "Terkirim",
         "room": {
             "uploadPicture": "Unggah gambar"
-        }
+        },
+        "demoteModerator": "Turunkan moderator",
+        "promoteModerator": "Promosikan ke moderator"
     },
     "action": {
         "activateNotifications": "Aktifkan notifikasi",
@@ -45,7 +47,8 @@
     "conversation": {
         "chooseConversationDescription": "Pilih percakapan untuk memulai obrolan",
         "keepInTouchTitle": "Tetap terhubung!",
-        "newMessage": "Pesan baru"
+        "newMessage": "Pesan baru",
+        "newMessages": "pesan baru"
     },
     "conversationInfo": {
         "info": "Info",
@@ -78,7 +81,9 @@
         "deleteUserDescription": "Anda yakin ingin menghapus anggota ini?",
         "leaveGroup": "Keluar dari Grup",
         "removeMember": "Hapus anggota",
-        "showPreviousConversationHistory": "Tampilkan riwayat percakapan sebelumnya"
+        "showPreviousConversationHistory": "Tampilkan riwayat percakapan sebelumnya",
+        "deleteMessageTitleDescription": "Jika Anda menghapus seluruh konten pesan, pesan tersebut tidak akan lagi tersedia dan akibatnya akan dihapus.",
+        "deleteMessageTitle": "Hapus pesan yang dipilih?"
     },
     "participantsList": {
         "closeSearch": "Tutup pencarian",
@@ -99,6 +104,7 @@
     "status": {
         "lastSeen": "Terakhir dilihat {{lastSeen}}",
         "offline": "Offline",
-        "online": "Online"
+        "online": "Online",
+        "isTyping": "mengetik…"
     }
 }
