@@ -70,12 +70,12 @@
     },
     "settings": {
         "profile": {
-            "errorGenericResponse": "Alguma coisa deu errado. Por favor tente novamente",
+            "errorGenericResponse": "Ocorreu um erro. Por favor tente novamente",
             "title": "Perfil",
             "deletedUserImageCorrectly": "O avatar foi redefinido para o original",
             "description": "Escolha um avatar que será visto por outros usuários. A imagem será centralizada automaticamente.",
             "maximumDimension": "Tamanho máximo: {{size}} kb",
-            "pictureSizeTooLarge": "Algo deu errado, lembre-se de que o tamanho máximo do avatar é {{size}}kb",
+            "pictureSizeTooLarge": "Ocorreu um erro. Lembre-se de que o tamanho máximo do avatar é {{size}}kb",
             "statusLabel": "Seu status aparecerá aqui",
             "updatedPictureCorrectly": "O novo avatar foi carregado com sucesso"
         },
@@ -89,7 +89,7 @@
         "room": {
             "deletedImageCorrectly": "O avatar do grupo foi redefinido com sucesso para o original",
             "deletedUserImageCorrectly": "O avatar foi redefinido com sucesso para o original",
-            "pictureSizeTooLarge": "Algo deu errado. Lembre-se de que o tamanho máximo da imagem de avatar de um grupo é {{size}}kb",
+            "pictureSizeTooLarge": "Ocorreu um erro. Lembre-se de que o tamanho máximo da imagem de avatar de um grupo é {{size}}kb",
             "updatedPictureCorrectly": "O novo avatar foi carregado com sucesso"
         }
     },
