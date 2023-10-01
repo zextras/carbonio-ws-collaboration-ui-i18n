@@ -7,7 +7,7 @@
         "close": "Fechar",
         "copy": "Copiar",
         "create": "Criar",
-        "delete": "Excluir",
+        "delete": "Apagar",
         "download": "Baixar",
         "edit": "Editar",
         "undo": "Desfazer",
@@ -39,7 +39,7 @@
         "uploadAborted": "O carregamento foi interrompido"
     },
     "modal": {
-        "deleteRoom": "Excluir Sala",
+        "deleteRoom": "Apagar Sala",
         "creation": {
             "newGroup": "Novo Grupo",
             "newChat": "Novo Chat",
