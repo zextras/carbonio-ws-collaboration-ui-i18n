@@ -61,7 +61,7 @@
         "deleteRoom": "Elimina Stanza",
         "deleteUserDescription": "Vuoi rimuovere questo partecipante?",
         "leaveGroup": "Abbandona il Gruppo",
-        "clearHistoryDescription": "Stai per cancellare la cronologia di questa conversazione, questa azione è irreversibile.",
+        "clearHistoryDescription": "Stai per cancellare la cronologia di questa conversazione, questa azione è irreversibile. La cronologia degli altri partecipanti non sarà cancellata.",
         "deleteGroup": "Elimina Gruppo",
         "deleteGroupLabel": "Vuoi eliminare questo Gruppo?",
         "deleteMessageTitle": "Vuoi eliminare i messaggi selezionati?",
