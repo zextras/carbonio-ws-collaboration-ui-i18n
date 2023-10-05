@@ -69,7 +69,8 @@
         "forward": {
             "chooseAtLeastOneChat": "Seleziona almeno una chat",
             "inputPlaceholder": "Inizia a digitare o scegli una chat",
-            "description": "Scegli la chat a cui inoltrare il messaggio"
+            "description": "Scegli la chat a cui inoltrare il messaggio",
+            "title": "Inoltra messaggio da {{chatName}}"
         },
         "leaveAndDelete": "Abbandona e elimina Gruppo",
         "leaveGroupLabel": "Vuoi abbandonare questo Gruppo?",
@@ -81,7 +82,8 @@
         "closeSearch": "Chiudi ricerca",
         "moreMembersAccordionTitle": "partecipanti",
         "noMatch": "Non ci sono elementi che corrispondono alla ricerca",
-        "oneMemberAccordionTitle": "Un partecipante"
+        "oneMemberAccordionTitle": "Un partecipante",
+        "searchMembers": "Cerca membri"
     },
     "tooltip": {
         "clear": "Elimina",
@@ -114,7 +116,10 @@
             "resetAvatar": "Ripristina immagine profilo",
             "updateAvatar": "Aggiorna immagine profilo",
             "uploadAvatar": "Carica immagine profilo"
-        }
+        },
+        "messageActions": " Azioni",
+        "promoteSomeoneElseToModerator": "Promuovi qualcun'altro a moderatore per abbandonare",
+        "showConversationList": "Mostra lista delle chat"
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -189,7 +194,7 @@
         "memberAdded": "{{userName}} è stato aggiunto a {{roomName}}",
         "memberRemoved": "{{userName}} è stato rimosso da {{roomName}}",
         "oneToOneCreated": "Nuova conversazione creata!",
-        "youCreatedOneToOne": "Hai iniziato una conversazione con {{userName}}"
+        "youCreatedOneToOne": "Hai iniziato una Chat con {{userName}}"
     },
     "configurationMessages": {
         "roomPictureDeleted": "{{name}} ha ripristinato l'immagine predefinita di {{roomName}}",
