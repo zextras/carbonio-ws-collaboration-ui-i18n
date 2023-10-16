@@ -27,7 +27,10 @@
         "editDetails": "Modifica dettagli",
         "editRoom": "Modifica {{roomName}}",
         "newChat": "Nuova Conversazione",
-        "scrollToBottom": "Scorri in fondo"
+        "scrollToBottom": "Scorri in fondo",
+        "decline": "Rifiuta",
+        "enter": "Accedi",
+        "joinMeeting": "Partecipa alla riunione"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -116,9 +119,15 @@
             "updateAvatar": "Aggiorna immagine profilo",
             "uploadAvatar": "Carica immagine profilo"
         },
-        "messageActions": " Azioni",
+        "messageActions": "Opzioni messaggio",
         "promoteSomeoneElseToModerator": "Promuovi qualcun'altro a moderatore per abbandonare",
-        "showConversationList": "Mostra lista delle chat"
+        "showConversationList": "Mostra lista delle chat",
+        "muteForAll": "Silenzia tutto",
+        "unpinVideo": "Rimuovi video",
+        "collapseCarousel": "Riduci",
+        "expandCarousel": "Espandi",
+        "pending": "In attesa",
+        "pinVideo": "Fissa video"
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -206,5 +215,36 @@
         "filterTooltip": "Filtra lista",
         "label": "Digita qualcosa per filtrare la lista"
     },
-    "titlePlaceholder": "Il titolo del tuo Gruppo"
+    "titlePlaceholder": "Il titolo del tuo Gruppo",
+    "chat": "Chat",
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Fotocamera disabilitata",
+            "cameraEnabled": "Fotocamera attivata",
+            "enableCamera": "Abilita fotocamera",
+            "enableMicrophone": "Abilita microfono",
+            "microphoneEnabled": "Microfono attivato"
+        },
+        "joinMeeting": "Partecipa alla riunione",
+        "newMeetingNotification": {
+            "sendMessage": "Invia messaggio",
+            "writeAMessageToSendIt": "Scrivi un messaggio per inviarlo"
+        }
+    },
+    "tryLater": "Riprova più tardi",
+    "external": {
+        "nobodyInTheRoom": "Sembra non esserci nessuno in questa Stanza",
+        "roomIsEmpty": "Questa Stanza è vuota"
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "La tua webcam è disattiva"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Riunione Terminata"
+        }
+    },
+    "thanksForParticipating": "Grazie per aver partecipato"
 }
