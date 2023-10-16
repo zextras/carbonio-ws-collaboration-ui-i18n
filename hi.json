@@ -61,7 +61,10 @@
         "editDetails": "जानकारी बदलें",
         "addSingleAttachment": "{{counter}} अटैचमेंट जोड़ें",
         "addNewMembersTo": "{{roomName}} में नए सदस्य जोड़ें",
-        "scrollToBottom": "स्क्रॉल करके नीचे जाएँ"
+        "scrollToBottom": "स्क्रॉल करके नीचे जाएँ",
+        "decline": "अस्वीकार करना",
+        "enter": "एंटर करें",
+        "joinMeeting": "मीटिंग में शामिल हों"
     },
     "conversation": {
         "chooseConversationDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
@@ -174,7 +177,7 @@
         "iAmModerator": "आप एक मॉडरेटर हैं",
         "leaveAndDelete": "बातचीत को छोड़ें और डिलीट करें",
         "memberIsModerator": "यह मेम्बर एक मॉडरेटर है",
-        "messageActions": " मैसेज एक्शन",
+        "messageActions": "मैसेज एक्शन",
         "promoteSomeoneElseToModerator": "मॉडरेटर को छोड़ने के लिए किसी और को प्रोमोट करें",
         "showConversationList": "बातचीत लिस्ट दिखाएँ",
         "uploadAttachment": "कोई अटैचमेंट अपलोड करें",
@@ -185,7 +188,13 @@
         },
         "writeToSend": "भेजने के लिए कोई मैसेज लिखें",
         "messageReceived": "मिल गया",
-        "promoteModerator": "प्रोमोट करके मॉडरेटर बनाएँ"
+        "promoteModerator": "प्रोमोट करके मॉडरेटर बनाएँ",
+        "muteForAll": "सभी के लिए आवाज़ बंद करें",
+        "pending": "लंबित",
+        "pinVideo": "विडियो पिन करें",
+        "collapseCarousel": "नीचे करें",
+        "expandCarousel": "बड़ा करें",
+        "unpinVideo": "विडियो अनपिन करें"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} बनाया गया!",
@@ -206,5 +215,36 @@
         "filterTooltip": "फ़िल्टर लिस्ट",
         "label": "लिस्ट फ़िल्टर करने के लिए टाइप करें"
     },
-    "titlePlaceholder": "आपके ग्रुप का शीर्षक"
+    "titlePlaceholder": "आपके ग्रुप का शीर्षक",
+    "chat": "चैट करें",
+    "meeting": {
+        "interactions": {
+            "cameraEnabled": "कैमरा चालू",
+            "cameraDisabled": "कैमरा बंद",
+            "enableCamera": "कैमरा चालू करें",
+            "enableMicrophone": "माइक्रोफोन चालू करें",
+            "microphoneEnabled": "माइक्रोफोन चालू"
+        },
+        "joinMeeting": "मीटिंग में शामिल हों",
+        "newMeetingNotification": {
+            "sendMessage": "मैसेज भेजें",
+            "writeAMessageToSendIt": "भेजने के लिए कोई मैसेज लिखें"
+        }
+    },
+    "external": {
+        "nobodyInTheRoom": "ऐसा लगता है इस Room में कोई नहीं है",
+        "roomIsEmpty": "यह Room खाली है"
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "आपका कैमरा बंद है"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "मीटिंग खत्म हो गई"
+        }
+    },
+    "thanksForParticipating": "भाग लेने के लिए थैंक्स",
+    "tryLater": "बाद में कोशिश करें"
 }
