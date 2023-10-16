@@ -125,7 +125,7 @@
         "iAmModerator": "您是主持人",
         "leaveAndDelete": "离开并删除对话",
         "memberIsModerator": "该成员是主持人",
-        "messageActions": " 消息操作",
+        "messageActions": "消息操作",
         "messageReceived": "已接收",
         "promoteModerator": "晋升主持人",
         "promoteSomeoneElseToModerator": "将他人晋升为主持人后离开",
@@ -136,7 +136,13 @@
             "updateAvatar": "更新头像",
             "uploadAvatar": "上传头像"
         },
-        "writeToSend": "撰写消息以发送"
+        "writeToSend": "撰写消息以发送",
+        "collapseCarousel": "收起",
+        "muteForAll": "对所有人静音",
+        "pending": "未定",
+        "pinVideo": "放入视频",
+        "unpinVideo": "取消固定视频",
+        "expandCarousel": "展开"
     },
     "action": {
         "activateNotifications": "激活消息通知",
@@ -166,7 +172,10 @@
         "scrollToBottom": "滑至底部",
         "addMoreAttachments": "添加{{counter}}个附件",
         "addNewMembersTo": "添加新成员至{{roomName}}",
-        "addSingleAttachment": "添加{{counter}}个附件"
+        "addSingleAttachment": "添加{{counter}}个附件",
+        "decline": "拒绝",
+        "enter": "进入",
+        "joinMeeting": "加入会议"
     },
     "attachments": {
         "addFromLocal": "从本地添加",
@@ -206,5 +215,36 @@
         "roomPictureDeleted": "{{name}}回复了默认{{roomName}}图像",
         "roomPictureUpdated": "{{name}}更改了{{roomName}}图像",
         "roomNameChanged": "{{name}}已在“<i>{{roomName}}</i>”中更改了此群组的标题"
-    }
+    },
+    "chat": "聊天",
+    "external": {
+        "nobodyInTheRoom": "似乎房间中没有人",
+        "roomIsEmpty": "此房间为空"
+    },
+    "meeting": {
+        "interactions": {
+            "microphoneEnabled": "麦克风已启用",
+            "cameraDisabled": "摄像头已禁用",
+            "cameraEnabled": "摄像头已启用",
+            "enableCamera": "启用相机",
+            "enableMicrophone": "启用麦克风"
+        },
+        "joinMeeting": "加入会议",
+        "newMeetingNotification": {
+            "sendMessage": "发送消息",
+            "writeAMessageToSendIt": "撰写消息以发送"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "您的相机已关闭"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "会议已结束"
+        }
+    },
+    "tryLater": "稍后再试",
+    "thanksForParticipating": "感谢参与"
 }
