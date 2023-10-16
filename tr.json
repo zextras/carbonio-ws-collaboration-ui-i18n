@@ -27,7 +27,10 @@
         "editDetails": "Detayları düzenle",
         "addSingleAttachment": "{{counter}} eklenti ekle",
         "addNewMembersTo": "{{roomName}} odasına yeni üyeler ekle",
-        "addMoreAttachments": "{{counter}} eklenti ekle"
+        "addMoreAttachments": "{{counter}} eklenti ekle",
+        "decline": "Reddet",
+        "joinMeeting": "Toplantıya katıl",
+        "enter": "Giriş"
     },
     "attachments": {
         "addFromLocal": "Lokalden ekle",
@@ -174,7 +177,7 @@
         "iAmModerator": "Moderatörsünüz",
         "leaveAndDelete": "Ayrıl ve görüşmeyi sil",
         "memberIsModerator": "Bu üye bir moderatördür",
-        "messageActions": " Mesaj işlemleri",
+        "messageActions": "Mesaj işlemleri",
         "messageReceived": "Alındı",
         "promoteModerator": "Moderatör yetkileri ver",
         "promoteSomeoneElseToModerator": "Ayrılmak için başka kişiye moderatör yetkisi ver",
@@ -185,7 +188,13 @@
             "uploadAvatar": "Profil resmi yükle"
         },
         "showConversationList": "Konuşma listesini göster",
-        "writeToSend": "Göndermek için bir mesaj yazın"
+        "writeToSend": "Göndermek için bir mesaj yazın",
+        "muteForAll": "Herkes için sessiz",
+        "pending": "Bekliyor",
+        "pinVideo": "Görüntüyü Sabitle",
+        "unpinVideo": "Videoyu sabitleme",
+        "collapseCarousel": "Küçült",
+        "expandCarousel": "Genişlet"
     },
     "affiliationMessages": {
         "memberAdded": "{{userName}}, {{roomName}} odasına eklendi",
@@ -206,5 +215,36 @@
         "label": "Listeyi filtrelemek için yazın",
         "filterTooltip": "Listeyi filtrele"
     },
-    "titlePlaceholder": "Grubunuzun başlığı"
+    "titlePlaceholder": "Grubunuzun başlığı",
+    "chat": "Sohbet",
+    "external": {
+        "nobodyInTheRoom": "Bu Oda'da kimse yok",
+        "roomIsEmpty": "Bu Oda boş"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Kamera kapalı",
+            "cameraEnabled": "Kamera açık",
+            "enableCamera": "Kamerayı etkinleştir",
+            "enableMicrophone": "Mikrofonu etkinleştir",
+            "microphoneEnabled": "Mikrofon açık"
+        },
+        "joinMeeting": "Toplantıya katıl",
+        "newMeetingNotification": {
+            "sendMessage": "Mesaj gönder",
+            "writeAMessageToSendIt": "Göndermek için bir mesaj yazın"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "Kameranız kapalı"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Toplantı Bitti"
+        }
+    },
+    "tryLater": "Sonra deneyin",
+    "thanksForParticipating": "Katıldığınız için teşekkürler"
 }
