@@ -27,7 +27,10 @@
         "editRoom": "Editar {{roomName}}",
         "newChat": "Novo Chat",
         "scrollToBottom": "Deslocar para baixo",
-        "addNewMembersTo": "Adicionar membros a {{roomName}}"
+        "addNewMembersTo": "Adicionar membros a {{roomName}}",
+        "decline": "Recusar",
+        "enter": "Entrar",
+        "joinMeeting": "Ingressar na reunião"
     },
     "attachments": {
         "attachLinkFiles": "Anexar link público a partir de Files",
@@ -169,7 +172,7 @@
         "iAmModerator": "Você é um moderador",
         "leaveAndDelete": "Sair e eliminar a conversa",
         "memberIsModerator": "Este membro é um moderador",
-        "messageActions": " Acções das mensagens",
+        "messageActions": "Ações de mensagens",
         "messageReceived": "Recebida",
         "promoteModerator": "Promover para moderador",
         "promoteSomeoneElseToModerator": "Promover outra pessoa para moderador para sair",
@@ -185,7 +188,13 @@
         },
         "showConversationList": "Mostrar a lista de conversas",
         "uploadAttachment": "Carregar um anexo",
-        "writeToSend": "Escreva uma mensagem"
+        "writeToSend": "Escreva uma mensagem",
+        "collapseCarousel": "Recolher",
+        "expandCarousel": "Expandir",
+        "muteForAll": "Silenciar para todos",
+        "pending": "Pendente",
+        "pinVideo": "Fixar vídeo",
+        "unpinVideo": "Desprender video"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} criado!",
@@ -206,5 +215,35 @@
         "filterTooltip": "Filtrar lista",
         "label": "Escreva para filtrar a lista"
     },
-    "titlePlaceholder": "Título do grupo"
+    "titlePlaceholder": "Título do grupo",
+    "chat": "Chat",
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Câmera desabilitada",
+            "cameraEnabled": "Câmera habilitada",
+            "enableCamera": "Habilitar câmera",
+            "enableMicrophone": "Habilitar microfone"
+        },
+        "joinMeeting": "Ingressar na reunião",
+        "newMeetingNotification": {
+            "sendMessage": "Enviar mensagem",
+            "writeAMessageToSendIt": "Escreva uma mensagem"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "A sua câmara está desligada"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Reunião encerrada"
+        }
+    },
+    "external": {
+        "nobodyInTheRoom": "Parece que não há ninguém na Sala",
+        "roomIsEmpty": "A Sala está vazia"
+    },
+    "thanksForParticipating": "Obrigado por participar",
+    "tryLater": "Tente mais tarde"
 }
