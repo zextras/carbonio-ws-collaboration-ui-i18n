@@ -27,6 +27,7 @@
     "tooltip": {
         "clear": "Ştergere",
         "close": "Inchide",
-        "messageRead": "Citeste"
+        "messageRead": "Citeste",
+        "pending": "În aşteptare"
     }
 }
