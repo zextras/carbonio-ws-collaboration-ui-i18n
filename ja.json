@@ -50,7 +50,14 @@
         "sendMessage": "メッセージを送る",
         "uploading": "アップロードしています",
         "demoteModerator": "モデレーターの降格",
-        "promoteModerator": "モデレーターに昇格"
+        "promoteModerator": "モデレーターに昇格",
+        "messageActions": "メッセージの操作",
+        "collapseCarousel": "崩壊する",
+        "expandCarousel": "拡張する",
+        "muteForAll": "全員ミュートにする",
+        "pending": "保留",
+        "pinVideo": "ビデオをピン留めする",
+        "unpinVideo": "動画のピン止めを解除する"
     },
     "action": {
         "activateNotifications": "通知を有効にする",
@@ -73,7 +80,10 @@
         "reply": "返信する",
         "replyToSomeone": "返信先",
         "replyToYourself": "自分に返信する",
-        "undo": "元に戻す"
+        "undo": "元に戻す",
+        "decline": "拒否する",
+        "enter": "参加する",
+        "joinMeeting": "会議に参加する"
     },
     "attachments": {
         "addFromLocal": "ローカルから追加する",
@@ -106,5 +116,35 @@
         "offline": "オフライン",
         "online": "オンライン",
         "isTyping": "が入力しています…"
-    }
+    },
+    "chat": "チャット",
+    "external": {
+        "nobodyInTheRoom": "このルームには誰もいないようです",
+        "roomIsEmpty": "このルームは空です"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "カメラが無効です",
+            "cameraEnabled": "カメラが有効になりました",
+            "enableCamera": "カメラを有効にする",
+            "enableMicrophone": "マイクを有効にする",
+            "microphoneEnabled": "マイクが有効になりました"
+        },
+        "joinMeeting": "会議に参加する",
+        "newMeetingNotification": {
+            "sendMessage": "メッセージを送信する"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "カメラがオフです"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "会議が終了しました"
+        }
+    },
+    "thanksForParticipating": "参加していただきありがとうございます",
+    "tryLater": "後で試す"
 }
