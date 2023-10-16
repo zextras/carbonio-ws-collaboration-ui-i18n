@@ -77,7 +77,10 @@
         "editRoom": "Редактировать {{roomName}}",
         "editDetails": "Редактировать",
         "newChat": "Новый чат",
-        "scrollToBottom": "Прокрутите вниз"
+        "scrollToBottom": "Прокрутите вниз",
+        "decline": "Отклонить",
+        "enter": "Войти",
+        "joinMeeting": "Присоединиться к встрече"
     },
     "conversation": {
         "chooseConversationDescription": "Выберите беседу, чтобы начать чат",
@@ -185,7 +188,13 @@
             "uploadAvatar": "Загрузить аватар"
         },
         "writeToSend": "Напишите сообщение, чтобы отправить его",
-        "messageActions": " Действия сообщения"
+        "messageActions": "Действия с сообщениями",
+        "collapseCarousel": "Свернуть",
+        "expandCarousel": "Расширить",
+        "muteForAll": "Отключить звук для всех",
+        "pending": "Ждет решения",
+        "pinVideo": "Закрепить видео",
+        "unpinVideo": "Открепить видео"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} начал(а) с вами чат",
@@ -206,5 +215,36 @@
         "filterTooltip": "Список фильтров",
         "label": "Начните печатать, чтобы отфильтровать список"
     },
-    "titlePlaceholder": "Название вашей группы"
+    "titlePlaceholder": "Название вашей группы",
+    "chat": "Чат",
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Камера отключена",
+            "cameraEnabled": "Камера включена",
+            "enableCamera": "Включить камеру",
+            "enableMicrophone": "Включить микрофон",
+            "microphoneEnabled": "Микрофон включен"
+        },
+        "joinMeeting": "Присоединиться к встрече",
+        "newMeetingNotification": {
+            "sendMessage": "Отправить сообщение",
+            "writeAMessageToSendIt": "Напишите сообщение, чтобы отправить его"
+        }
+    },
+    "thanksForParticipating": "До встречи",
+    "external": {
+        "nobodyInTheRoom": "В этой Комнате никого нет",
+        "roomIsEmpty": "Эта Виртуальная комната пустая"
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "Ваша камера выключена"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Встреча завершена"
+        }
+    },
+    "tryLater": "Попробуй позже"
 }
