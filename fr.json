@@ -101,7 +101,10 @@
         "editDetails": "Éditer les détails",
         "editRoom": "Éditer {{roomName}}",
         "newChat": "Nouvelle Discussion",
-        "scrollToBottom": "Défiler jusqu'en bas"
+        "scrollToBottom": "Défiler jusqu'en bas",
+        "decline": "Refuser",
+        "enter": "Entrer",
+        "joinMeeting": "Rejoindre la réunion"
     },
     "conversation": {
         "chooseConversationDescription": "Choisissez une conversation pour démarrer une discussion",
@@ -171,7 +174,7 @@
         "disableModalButton": "Choisissez au moins une adresse",
         "forwardedMessage": "Le message a été transféré d'une autre discussion",
         "iAmModerator": "Vous êtes modérateur",
-        "messageActions": " actions d'un message",
+        "messageActions": "Actions de message",
         "uploadAttachment": "Téléverser un document",
         "writeToSend": "Écrivez un message pour l'envoyer",
         "demoteModerator": "Rétrograder le modérateur",
@@ -185,7 +188,13 @@
             "resetAvatar": "Réinitialiser l'avatar",
             "updateAvatar": "Mettre à jour l'avatar",
             "uploadAvatar": "Téléverser un avatar"
-        }
+        },
+        "muteForAll": "Couper le son pour tous",
+        "pending": "En instance",
+        "collapseCarousel": "Déployer",
+        "expandCarousel": "Développer",
+        "pinVideo": "Epingler la vidéo",
+        "unpinVideo": "Désépingler la vidéo"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} a commencé une discussion avec vous",
@@ -206,5 +215,36 @@
         "filterTooltip": "Liste des filtres",
         "closeTooltip": "Annuler le filtre"
     },
-    "titlePlaceholder": "Le titre de votre Groupe"
+    "titlePlaceholder": "Le titre de votre Groupe",
+    "chat": "Chat",
+    "notification": {
+        "meeting": {
+            "ended": "La réunion à pris fin"
+        }
+    },
+    "thanksForParticipating": "Merci pour votre participation",
+    "external": {
+        "nobodyInTheRoom": "Il semble qu'il n'y ai personne dans cette salle",
+        "roomIsEmpty": "Cette salle est vide"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Caméra désactivée",
+            "cameraEnabled": "Caméra activée",
+            "enableCamera": "Activer la caméra",
+            "enableMicrophone": "Activer le microphone",
+            "microphoneEnabled": "Micro activé"
+        },
+        "joinMeeting": "Rejoindre la réunion",
+        "newMeetingNotification": {
+            "sendMessage": "Envoyer un message",
+            "writeAMessageToSendIt": "Écrivez un message pour l'envoyer"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "Votre caméra est désactivée"
+        }
+    },
+    "tryLater": "Essayez plus tard"
 }
