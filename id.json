@@ -14,7 +14,14 @@
             "uploadPicture": "Unggah gambar"
         },
         "demoteModerator": "Turunkan moderator",
-        "promoteModerator": "Promosikan ke moderator"
+        "promoteModerator": "Promosikan ke moderator",
+        "messageActions": "Tindakan pesan",
+        "collapseCarousel": "Ciutkan",
+        "expandCarousel": "Perluas",
+        "muteForAll": "Bisukan untuk semua",
+        "pending": "Tertunda",
+        "pinVideo": "Sematkan video",
+        "unpinVideo": "Lepas pin video"
     },
     "action": {
         "activateNotifications": "Aktifkan notifikasi",
@@ -37,7 +44,10 @@
         "reply": "Balas",
         "replyToSomeone": "Balas ke",
         "replyToYourself": "Balas ke diri sendiri",
-        "undo": "Urungkan"
+        "undo": "Urungkan",
+        "decline": "Tolak",
+        "enter": "Masuk",
+        "joinMeeting": "Gabung ke rapat"
     },
     "attachments": {
         "addFromLocal": "Tambahkan dari lokal",
@@ -106,5 +116,35 @@
         "offline": "Offline",
         "online": "Online",
         "isTyping": "mengetik…"
+    },
+    "external": {
+        "nobodyInTheRoom": "Tampaknya tak ada seorangpun di Ruang ini",
+        "roomIsEmpty": "Ruang ini kosong"
+    },
+    "meeting": {
+        "joinMeeting": "Gabung ke rapat",
+        "interactions": {
+            "cameraDisabled": "Kamera dinonaktifkan",
+            "cameraEnabled": "Kamera diaktifkan",
+            "enableCamera": "Aktifkan kamera",
+            "enableMicrophone": "Aktifkan mikrofon",
+            "microphoneEnabled": "Mikrofon diaktifkan"
+        },
+        "newMeetingNotification": {
+            "sendMessage": "Kirim pesan"
+        }
+    },
+    "thanksForParticipating": "Terima kasih telah berpartisipasi",
+    "tryLater": "Coba nanti",
+    "chat": "Obrolan",
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "Kamera Anda nonaktif"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Rapat Berakhir"
+        }
     }
 }
