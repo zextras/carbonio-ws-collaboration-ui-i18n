@@ -27,7 +27,10 @@
         "editDetails": "Details bewerken",
         "editRoom": "{{roomName}} bewerken",
         "newChat": "Nieuw gesprek",
-        "scrollToBottom": "Naar beneden schuiven"
+        "scrollToBottom": "Naar beneden schuiven",
+        "decline": "Weigeren",
+        "enter": "Bevestigen",
+        "joinMeeting": "Deelnemen aan vergadering"
     },
     "conversation": {
         "keepInTouchTitle": "Laten we contact houden!",
@@ -157,7 +160,7 @@
         "demoteModerator": "Moderator degraderen",
         "iAmModerator": "U bent een moderator",
         "leaveAndDelete": "Verlaat en verwijder het gesprek",
-        "messageActions": " Berichtacties",
+        "messageActions": "Berichtacties",
         "promoteModerator": "Tot moderator bevorderen",
         "showConversationList": "Gesprekslijst tonen",
         "uploadAttachment": "Een bijlage uploaden",
@@ -171,7 +174,13 @@
         "forwardedMessage": "Bericht doorgestuurd vanuit een andere chat",
         "memberIsModerator": "Dit lid is een moderator",
         "messageReceived": "Ontvangen",
-        "promoteSomeoneElseToModerator": "Bevorder iemand anders tot moderator om te vertrekken"
+        "promoteSomeoneElseToModerator": "Bevorder iemand anders tot moderator om te vertrekken",
+        "collapseCarousel": "Uitklappen",
+        "expandCarousel": "Uitklappen",
+        "muteForAll": "Geluid uitzetten voor alle",
+        "pending": "In afwachting",
+        "pinVideo": "Video vastpinnen",
+        "unpinVideo": "Video unpinnen"
     },
     "attachments": {
         "addFromLocal": "Toevoegen van lokaal",
@@ -206,5 +215,36 @@
         "filterTooltip": "Filter lijst",
         "label": "Typ om lijst te filteren"
     },
-    "titlePlaceholder": "De titel van uw Groep"
+    "titlePlaceholder": "De titel van uw Groep",
+    "chat": "Chat",
+    "meeting": {
+        "interactions": {
+            "enableCamera": "Camera inschakelen",
+            "enableMicrophone": "Microfoon inschakelen",
+            "microphoneEnabled": "Microfoon geactiveerd",
+            "cameraDisabled": "Camera uitgeschakeld",
+            "cameraEnabled": "Camera geactiveerd"
+        },
+        "joinMeeting": "Deelnemen aan vergadering",
+        "newMeetingNotification": {
+            "sendMessage": "Bericht versturen",
+            "writeAMessageToSendIt": "Schrijf een bericht om het te verzenden"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "Uw camera staat uit"
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Meeting beëindigd"
+        }
+    },
+    "thanksForParticipating": "Bedankt voor uw deelname",
+    "external": {
+        "nobodyInTheRoom": "Het lijkt erop dat er niemand in deze Ruimte is",
+        "roomIsEmpty": "Deze Ruimte is leeg"
+    },
+    "tryLater": "Probeer later"
 }
