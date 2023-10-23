@@ -1,5 +1,27 @@
 {
     "action": {
-        "preview": "Előnézet"
+        "preview": "Előnézet",
+        "copy": "Másolat",
+        "delete": "Törlés",
+        "edit": "Szerkesztés",
+        "forward": "Továbbítás",
+        "reply": "Válasz"
+    },
+    "conversationInfo": {
+        "email": "E-mail",
+        "name": "Név",
+        "status": "Státusz"
+    },
+    "status": {
+        "offline": "Nem elérhető",
+        "online": "Online"
+    },
+    "settings": {
+        "notifications": {
+            "title": "Értesítések"
+        }
+    },
+    "tooltip": {
+        "clear": "Törlés"
     }
 }
