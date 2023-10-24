@@ -1,1 +1,149 @@
-{}
+{
+    "action": {
+        "activateNotifications": "Włącz powiadomienia",
+        "addAttachment": "Dodaj załącznik",
+        "addNewMembers": "Dodaj nowych członków",
+        "clearHistory": "Wyczyść historię",
+        "close": "Zamknij",
+        "copy": "Skopiuj",
+        "joinMeeting": "Dołącz do spotkania",
+        "create": "Stwórz",
+        "decline": "Odrzuć",
+        "delete": "Usuń",
+        "download": "Pobierz",
+        "edit": "Edytuj",
+        "editYourMessage": "Edytuj swoją wiadomość",
+        "enter": "Dołącz",
+        "forward": "Przekaż dalej",
+        "forwarded": "przekazano dalej",
+        "leave": "Opuść",
+        "muteNotifications": "Wycisz powiadomienia",
+        "preview": "Podgląd",
+        "removeUser": "Usuwać",
+        "reply": "Odpowiedz",
+        "replyToSomeone": "Odpowiedz",
+        "replyToYourself": "Odpowiadasz sobie",
+        "undo": "Cofnij"
+    },
+    "modal": {
+        "removeMember": "Usuń członka",
+        "showPreviousConversationHistory": "Pokaż wiadomości przed dołączeniem",
+        "deleteMessageTitle": "Usunąć wybraną wiadomość?",
+        "deleteRoom": "Usuń pokój",
+        "deleteUserDescription": "Czy na pewno chcesz usunąć tego użytkownika?",
+        "leaveGroup": "Opuść grupę"
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Spotkanie zostało zakończone"
+        }
+    },
+    "participantsList": {
+        "closeSearch": "Zamknij wyszukiwanie",
+        "moreMembersAccordionTitle": "członkowie"
+    },
+    "settings": {
+        "notifications": {
+            "checkboxLabel": "Powiadomienia na pulpicie",
+            "title": "Powiadomienia"
+        },
+        "profile": {
+            "errorGenericResponse": "Coś poszło nie tak. Spróbuj ponownie",
+            "title": "Profil"
+        },
+        "save": "Zmiany zostały zapisane",
+        "title": "Ustawienia czatów"
+    },
+    "tryLater": "Spróbuj później",
+    "attachments": {
+        "addFromLocal": "Dodaj z tego urządzenia",
+        "attachLinkFiles": "Załącz publiczny link z Plików",
+        "stopUpload": "Zatrzymaj przesyłanie"
+    },
+    "chat": "Czat",
+    "conversation": {
+        "chooseConversationDescription": "Wybierz konwersację, aby zacząć rozmawiać",
+        "keepInTouchTitle": "Pozostańmy w kontakcie!",
+        "newMessage": "Nowa wiadomość",
+        "newMessages": "Nowe wiadomości"
+    },
+    "conversationInfo": {
+        "actionAccordionTitle": "Czynności",
+        "email": "E-mail",
+        "info": "Informacje",
+        "messages": "Wiadomości",
+        "name": "Nazwa",
+        "status": "Status",
+        "title": "Tytuł",
+        "topic": "Temat"
+    },
+    "date": {
+        "yesterday": "Wczoraj"
+    },
+    "editModal": {
+        "groupDescriptionDetails": "Opisuje tematykę grupy"
+    },
+    "external": {
+        "nobodyInTheRoom": "Wygląda na to, że nikogo nie ma w tym pokoju",
+        "roomIsEmpty": "Ten pokój jest pusty"
+    },
+    "feedback": {
+        "historyCleared": "Historia została wyczyszczona pomyślnie!",
+        "notificationsActivatedForThisChat": "Powiadomienia zostały włączone dla tego czatu",
+        "notificationsMutedForThisChat": "Powiadomienia zostały wyciszone dla tego czatu"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Wideo wyłączone",
+            "cameraEnabled": "Kamera włączona",
+            "enableCamera": "Włącz wideo",
+            "enableMicrophone": "Włącz mikrofon",
+            "microphoneEnabled": "Mikrofon włączony"
+        },
+        "joinMeeting": "Dołącz do spotkania",
+        "newMeetingNotification": {
+            "sendMessage": "Wyślij wiadomość"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "Twoje wideo jest wyłączone"
+        }
+    },
+    "message": {
+        "deletedMessage": "Usunięta wiadomość",
+        "draft": "wersja robocza",
+        "edited": "edytowano"
+    },
+    "status": {
+        "isTyping": "pisze…",
+        "lastSeen": "Ostatnio widziano {{lastSeen}}",
+        "offline": "Offline",
+        "online": "Online"
+    },
+    "thanksForParticipating": "Dziękujemy za uczestniczenie",
+    "tooltip": {
+        "clear": "Wyczyść",
+        "close": "Zamknij",
+        "collapseCarousel": "Zwiń",
+        "demoteModerator": "Zdegraduj moderatora",
+        "expandCarousel": "Rozwiń",
+        "goToPrivateChat": "Idź do prywatnego czatu",
+        "leaveConversation": "Opuść konwersację",
+        "messageActions": "Czynności w wiadomościach",
+        "messageComposer": "Kreator wiadomości",
+        "messageRead": "Przeczytane",
+        "messageSent": "Wysłane",
+        "muteForAll": "Wycisz dla wszystkich",
+        "pending": "Oczekujące",
+        "pinVideo": "Przypnij wideo",
+        "promoteModerator": "Awansuj na moderatora",
+        "room": {
+            "uploadPicture": "Prześlij zdjęcie"
+        },
+        "selectEmoji": "Wybierz emoji",
+        "sendMessage": "Wyślij wiadomość",
+        "unpinVideo": "Odepnij wideo",
+        "uploading": "Przesyłanie"
+    }
+}
