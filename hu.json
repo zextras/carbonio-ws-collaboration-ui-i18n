@@ -5,7 +5,8 @@
         "delete": "Törlés",
         "edit": "Szerkesztés",
         "forward": "Továbbítás",
-        "reply": "Válasz"
+        "reply": "Válasz",
+        "forwarded": "továbbított"
     },
     "conversationInfo": {
         "email": "E-mail",
@@ -22,6 +23,13 @@
         }
     },
     "tooltip": {
-        "clear": "Törlés"
+        "clear": "Törlés",
+        "messageSent": "Elküldött üzenetek"
+    },
+    "message": {
+        "draft": "piszkozat"
+    },
+    "attachments": {
+        "addFromLocal": "Hozzáadás a helyi mappából"
     }
 }
