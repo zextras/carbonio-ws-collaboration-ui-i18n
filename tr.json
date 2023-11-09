@@ -166,7 +166,9 @@
         "offline": "Çevrimdışı",
         "online": "Çevrim içi",
         "areTyping": "yazıyorlar…",
-        "isTyping": "yazıyor…"
+        "isTyping": "yazıyor…",
+        "goToPrivateChat": "Kişisel mesaj göndermek için özel sohbete gidin",
+        "you": " Siz"
     },
     "tooltip": {
         "clear": "Temizle",
@@ -223,13 +225,14 @@
         "SomeoneElseCreatedOneToOne": "{{userName}} sizinle sohbet etmeye başladı",
         "oneToOneCreated": "Yeni Sohbet oluşturuldu!",
         "youCreatedOneToOne": "{{userName}} ile Sohbet başlattınız",
-        "memberRemoved": "{{userName}}, {{roomName}} odasından kaldırıldı"
+        "memberRemoved": "{{userName}} artık grubun bir üyesi değil"
     },
     "configurationMessages": {
         "roomPictureDeleted": "{{name}} varsayılan {{roomName}} resmini geri yükledi",
         "roomPictureUpdated": "{{name}}, {{roomName}} resmini değiştirdi",
         "roomTopicChanged": "{{name}}, {{roomName}} odasının \"<i>{{topicName}}</i>\" konusunu değiştirdi",
-        "roomNameChanged": "{{name}}, \"<i>{{roomName}}</i>\" içinde bu Grubun başlığını değiştirdi"
+        "roomNameChanged": "{{name}}, \"<i>{{roomName}}</i>\" içinde bu Grubun başlığını değiştirdi",
+        "roomTopicRemoved": "{{name}}, {{roomName}}adlı odanın konusunu kaldırdı"
     },
     "conversationFilter": {
         "closeTooltip": "Filtreyi Kapat",
