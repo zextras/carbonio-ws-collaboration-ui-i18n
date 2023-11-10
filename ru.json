@@ -80,7 +80,8 @@
         "scrollToBottom": "Прокрутите вниз",
         "decline": "Отклонить",
         "enter": "Войти",
-        "joinMeeting": "Присоединиться к встрече"
+        "joinMeeting": "Присоединиться к встрече",
+        "declineAll": "Отклонить все"
     },
     "conversation": {
         "chooseConversationDescription": "Выберите беседу, чтобы начать чат",
