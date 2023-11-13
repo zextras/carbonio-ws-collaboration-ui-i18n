@@ -25,7 +25,13 @@
             "contactList": "Sélectionnez plus d'une adresse pour créer un Groupe",
             "inputPlaceholder": "Commencez à taper ou récupérez une adresse",
             "newChat": "Nouvelle Discussion",
-            "description": "Les discussions sont des conversations entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un Groupe en ajoutant plus de 2 adresses"
+            "description": "Les discussions sont des conversations entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un Groupe en ajoutant plus de 2 adresses",
+            "addUserLimit": {
+                "users_0": "Vous pouvez ajouter un dernier membre",
+                "users_1": "Vous pouvez encore ajouter {{count}} membres",
+                "users_2": "Vous pouvez encore ajouter {{count}} membres",
+                "limitReached": "Vous avez sélectionner le nombre maximum de membres pour un groupe"
+            }
         },
         "deleteUserDescription": "Êtes-vous sûr de vouloir supprimer ce membre ?",
         "leaveGroup": "Quitter le groupe",
@@ -34,7 +40,7 @@
         "deleteGroup": "Supprimer le Groupe",
         "deleteGroupLabel": "Êtes-vous sûr de vouloir supprimer ce Groupe ?",
         "deleteMessageTitle": "Supprimer le message sélectionné ?",
-        "deleteMessageTitleDescription": "Si vous supprimez le contenu complet du message, il ne sera plus disponible et par conséquent sera supprimé.",
+        "deleteMessageTitleDescription": "Vous êtes sur le point de supprimez le message, celui-ci ne sera plus disponible",
         "deleteRoomLabel": "Êtes-vous sûr de vouloir supprimer cette Salle ?",
         "forward": {
             "chooseAtLeastOneChat": "Choisissez au moins une discussion",
@@ -45,7 +51,7 @@
         "leaveAndDelete": "Quitter et supprimer le Groupe",
         "leaveRoom": "Quitter la Salle",
         "leaveRoomLabel": "Êtes-vous sûr de vouloir quitter cette Salle ?",
-        "clearHistoryDescription": "Vous êtes sur le point de nettoyer votre historique de conversation, rappelez-vous que cette action est irréversible. L'historique des autres membres ne sera pas supprimé.",
+        "clearHistoryDescription": "Vous nettoyez l'historique de vos conversations, veuillez noter que cette action est irréversible. L'historique sera supprimé pour vous et non pour les autres membres.",
         "leaveGroupLabel": "Êtes-vous sûr de vouloir quitter ce Groupe ?"
     },
     "settings": {
@@ -104,7 +110,9 @@
         "scrollToBottom": "Défiler jusqu'en bas",
         "decline": "Refuser",
         "enter": "Entrer",
-        "joinMeeting": "Rejoindre la réunion"
+        "joinMeeting": "Rejoindre la réunion",
+        "declineAll": "Tout refuser",
+        "understood": "Compris"
     },
     "conversation": {
         "chooseConversationDescription": "Choisissez une conversation pour démarrer une discussion",
@@ -134,7 +142,12 @@
         "historyCleared": "Historique effacé avec succès !",
         "notificationsActivatedForThisChat": "Notifications activées pour ce Canal",
         "notificationsMutedForThisChat": "Notifications désactivées pour ce chat",
-        "messageCopied": "Le message a été copié"
+        "messageCopied": "Le message a été copié",
+        "networkProblem": {
+            "websocket": "Un problème est survenu lors de la connexion avec WEBSOCKET",
+            "wsc": "Un problème est survenu lors de la connexion avec WSC",
+            "xmpp": "Un problème est survenu lors de la connexion avec XMPP"
+        }
     },
     "message": {
         "deletedMessage": "Message effacé",
@@ -146,14 +159,17 @@
         "moreMembersAccordionTitle": "membres",
         "noMatch": "Il n'y a pas d'élément qui corresponde à cette recherche",
         "oneMemberAccordionTitle": "Un membre",
-        "searchMembers": "Rechercher des membres"
+        "searchMembers": "Rechercher des membres",
+        "searchParticipants": "Rechercher des participants"
     },
     "status": {
         "lastSeen": "Vu pour la dernière fois {{lastSeen}}",
         "offline": "Déconnecté",
         "online": "En ligne",
         "areTyping": "écrit…",
-        "isTyping": "est en train d'écrire…"
+        "isTyping": "est en train d'écrire…",
+        "you": " Vous",
+        "goToPrivateChat": "Aller en discussion privée pour envoyer un message personnel"
     },
     "tooltip": {
         "clear": "Effacer",
@@ -182,7 +198,7 @@
         "memberIsModerator": "Ce membre est un modérateur",
         "messageReceived": "Reçu",
         "promoteModerator": "Faire devenir modérateur",
-        "promoteSomeoneElseToModerator": "Donnez les droits de modération à un autre membre pour être en mesure de quitter",
+        "promoteSomeoneElseToModerator": "Avant de partir, vous devez promouvoir quelqu'un d'autre au poste de modérateur",
         "showConversationList": "Voir la liste des conversations",
         "userAvatar": {
             "resetAvatar": "Réinitialiser l'avatar",
@@ -194,13 +210,21 @@
         "collapseCarousel": "Déployer",
         "expandCarousel": "Développer",
         "pinVideo": "Epingler la vidéo",
-        "unpinVideo": "Désépingler la vidéo"
+        "unpinVideo": "Désépingler la vidéo",
+        "removeToAddNewOne": "Enlevez quelqu'un pour ajouter de nouveaux membres",
+        "scrollDown": "Défiler vers le bas",
+        "scrollUp": "Défiler vers le haut",
+        "topOfList": "Haut de la liste",
+        "participantAlreadyMuted": "Ce participant est déjà muté",
+        "bottomOfList": "Bas de la liste",
+        "collapseSidebar": "Réduire la barre latérale",
+        "expandSidebar": "Agrandir la barre latérale"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} a commencé une discussion avec vous",
         "groupCreated": "{{roomName}} est créée !",
         "memberAdded": "{{userName}} a été ajouté à {{roomName}}",
-        "memberRemoved": "{{userName}} a été enlevé de {{roomName}}",
+        "memberRemoved": "{{userName}} n'est plus membre du groupe",
         "oneToOneCreated": "Nouvelle discussion créée !",
         "youCreatedOneToOne": "Vous avez lancé une discussion avec {{userName}}"
     },
@@ -208,7 +232,8 @@
         "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}",
         "roomPictureUpdated": "{{name}} a changé l'image de {{roomName}}",
         "roomTopicChanged": "{{name}} à changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\"",
-        "roomNameChanged": "{{name}} a changé le nom du groupe en \"<i>{{roomName}}</i>\""
+        "roomNameChanged": "{{name}} a changé le nom du groupe en \"<i>{{roomName}}</i>\"",
+        "roomTopicRemoved": "{{name}} a supprimé de sujet de {{roomName}}"
     },
     "conversationFilter": {
         "label": "Taper pour filtrer la liste",
@@ -233,18 +258,55 @@
             "cameraEnabled": "Caméra activée",
             "enableCamera": "Activer la caméra",
             "enableMicrophone": "Activer le microphone",
-            "microphoneEnabled": "Micro activé"
+            "microphoneEnabled": "Micro activé",
+            "disableCamera": "Désactiver la caméra",
+            "disableMicrophone": "Désactiver le microphone",
+            "cinemaView": "Vue en mode cinéma",
+            "enableScreen": "Activer la partage d'écran",
+            "gridView": "Vue en mode grille",
+            "leaveMeeting": "Quitter la réunion",
+            "microphoneDisabled": "Microphone désactivé",
+            "stopMic": "Arrêter le test du microphone",
+            "playMic": "Lancer le test du microphone",
+            "disableScreen": "Désactiver le partage d'écran"
         },
         "joinMeeting": "Rejoindre la réunion",
         "newMeetingNotification": {
             "sendMessage": "Envoyer un message",
-            "writeAMessageToSendIt": "Écrivez un message pour l'envoyer"
-        }
+            "writeAMessageToSendIt": "Écrivez un message pour l'envoyer",
+            "sendAQuickMessage": "Envoyer un message rapide",
+            "userIsInvitingYou": "<strong>{{name}}</strong> vous invite"
+        },
+        "extendChat": "Agrandir la discussion",
+        "minimizeChat": "Minimiser la discussion",
+        "ongoingGroupMeetingTooltip": "Vous participez déjà à cette réunion",
+        "participantsList": {
+            "title_0": "Un participant à la réunion",
+            "title_1": "{{count}} participants à la réunion",
+            "title_2": "{{count}} participants à la réunion"
+        },
+        "startMeeting": "Commencer la réunion",
+        "startModal": {
+            "audioAndVideoLoading": "Les équipements sont en cours de chargement",
+            "enterOneToOneMeetingTitle": "Démarrer la réunion avec {{meetingTitle}}",
+            "enterRoomMeetingTitle": "Participer à la réunion {{meetingTitle}}"
+        },
+        "waitingParticipants": "En attente de l'arrivée des participants…",
+        "ongoingOneToOneMeetingTooltip": "Vous avec déjà une réunion active avec {{name}}",
+        "joinMeetingDescription": "Comment souhaitez-vous joindre cette réunion ?",
+        "setInputDescription": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
+        "activeMeetingTooltip": "Il y a une réunion active pour ce groupe",
+        "collapseChat": "Refermer la discussion",
+        "collapseParticipantsMeetingTooltip": "Refermer la liste de participants",
+        "expandChat": "Ouvrir la discussion",
+        "expandParticipantsListTooltip": "Ouvrir la liste des participants"
     },
     "meetings": {
         "interactions": {
-            "yourCamIsDisabled": "Votre caméra est désactivée"
+            "yourCamIsDisabled": "Votre caméra est désactivée",
+            "yourMicIsDisabled": "Votre microphone est éteint"
         }
     },
-    "tryLater": "Essayez plus tard"
+    "tryLater": "Essayez plus tard",
+    "keepInTouchWithColleagues": "Restez en contact avec vos collègues ou rejoignez les salles de réunion de votre groupe"
 }
