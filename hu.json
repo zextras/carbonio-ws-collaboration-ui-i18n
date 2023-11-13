@@ -36,7 +36,12 @@
     "conversationInfo": {
         "email": "E-mail",
         "name": "Név",
-        "status": "Státusz"
+        "status": "Státusz",
+        "messages": "Üzenetek",
+        "actionAccordionTitle": "Műveletek",
+        "info": "Információ",
+        "title": "Cím",
+        "topic": "Témakör"
     },
     "status": {
         "offline": "Nem elérhető",
@@ -45,11 +50,19 @@
     "settings": {
         "notifications": {
             "title": "Értesítések"
-        }
+        },
+        "save": "A szerkesztések mentése sikeres"
     },
     "tooltip": {
         "clear": "Törlés",
-        "messageSent": "Elküldött üzenetek"
+        "messageSent": "Elküldött üzenetek",
+        "close": "Bezárás",
+        "collapseCarousel": "Összecsukás",
+        "expandCarousel": "Kibontás",
+        "messageRead": "Olvasott",
+        "muteForAll": "Némítás mindenki számára",
+        "pinVideo": "Videó rögzítése",
+        "unpinVideo": "Videó rögzítésének feloldása"
     },
     "message": {
         "draft": "piszkozat",
@@ -61,7 +74,14 @@
         "attachLinkFiles": "Nyilvános hivatkozás csatolása fájlokból"
     },
     "modal": {
-        "showPreviousConversationHistory": "Korábbi beszélgetési előzmények megjelenítése"
+        "showPreviousConversationHistory": "Korábbi beszélgetési előzmények megjelenítése",
+        "creation": {
+            "newChat": "Új csevegés"
+        },
+        "removeMember": "Tag eltávolítása",
+        "deleteRoom": "Szoba törlése",
+        "deleteUserDescription": "Biztos benne, hogy törli ezt a tagot?",
+        "leaveGroup": "Kilépés a csoportból"
     },
     "notification": {
         "meeting": {
@@ -72,7 +92,8 @@
         "interactions": {
             "cameraEnabled": "Kamera engedélyezve",
             "cameraDisabled": "Kamera letiltva"
-        }
+        },
+        "joinMeeting": "Belépés az értekezletre"
     },
     "external": {
         "nobodyInTheRoom": "Úgy tűnik, senki sincs ebben a szobában",
@@ -80,6 +101,23 @@
     },
     "feedback": {
         "notificationsActivatedForThisChat": "Értesítések aktiválva ehhez a csevegéshez",
-        "notificationsMutedForThisChat": "Értesítések elnémítva ehhez a csevegéshez"
+        "notificationsMutedForThisChat": "Értesítések elnémítva ehhez a csevegéshez",
+        "historyCleared": "Előzmények sikeresen törölve!"
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "A kamera ki van kapcsolva"
+        }
+    },
+    "conversation": {
+        "chooseConversationDescription": "Csevegés indításához válasszon ki egy beszélgetést",
+        "keepInTouchTitle": "Maradjunk kapcsolatban!"
+    },
+    "date": {
+        "yesterday": "Tegnap"
+    },
+    "editModal": {
+        "confirm": "Részletek szerkesztése",
+        "groupDescriptionDetails": "Leírja a Csoport témáját"
     }
 }
