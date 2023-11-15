@@ -12,7 +12,12 @@
         "historyCleared": "История очищена!",
         "notificationsActivatedForThisChat": "Уведомления включены для этого Чата",
         "notificationsMutedForThisChat": "Отключить уведомления для этого чата",
-        "messageCopied": "Сообщение скопировано"
+        "messageCopied": "Сообщение скопировано",
+        "networkProblem": {
+            "websocket": "Что-то пошло не так при подключении к WEBSOCKET",
+            "wsc": "Что-то пошло не так при подключении к WSC",
+            "xmpp": "Что-то пошло не так при подключении по XMPP"
+        }
     },
     "message": {
         "deletedMessage": "Удаленное сообщение",
@@ -26,7 +31,13 @@
             "contactList": "Для создания группы необходимо выбрать еще адреса",
             "description": "Chats — это мессенджер один на один, который помогает вам оставаться на связи с коллегами. Вы можете создать группу, добавив более двух адресов",
             "inputPlaceholder": "Начните печатать или выберите адрес",
-            "newChat": "Новый чат"
+            "newChat": "Новый чат",
+            "addUserLimit": {
+                "limitReached": "Вы выбрали максимальное количество участников в группе",
+                "users_0": "Вы можете добавить 1 участника",
+                "users_1": "Вы можете добавить {{count}}пользователя",
+                "users_2": "Вы можете добавить {{count}} пользователей"
+            }
         },
         "deleteRoom": "Удалить конференц-зал",
         "deleteUserDescription": "Вы уверены, что хотите удалить этого пользователя?",
@@ -35,7 +46,7 @@
         "deleteGroup": "Удалить Группу",
         "deleteGroupLabel": "Вы уверены, что хотите удалить эту группу?",
         "deleteMessageTitle": "Удалить выбранное сообщение?",
-        "deleteMessageTitleDescription": "Если вы удалите содержимое сообщения, оно больше не будет доступно и будет удалено.",
+        "deleteMessageTitleDescription": "Вы удаляете сообщение, оно больше не доступно",
         "deleteRoomLabel": "Вы уверены, что хотите удалить эту комнату?",
         "forward": {
             "chooseAtLeastOneChat": "Выберите хотя бы один чат",
@@ -47,7 +58,7 @@
         "leaveGroupLabel": "Вы уверены, что хотите выйти из Группы?",
         "leaveRoom": "Выйти из Комнаты",
         "leaveRoomLabel": "Вы уверены, что хотите выйти из этой Комнаты?",
-        "clearHistoryDescription": "Вы собираетесь очистить историю разговоров, помните, что это действие нельзя отменить. История других участников не будет удалена."
+        "clearHistoryDescription": "Вы очищаете историю чата. Обратите внимание, что это действие необратимо. История будет удалена для вас, а не для других участников."
     },
     "action": {
         "activateNotifications": "Включить уведомления",
@@ -81,7 +92,8 @@
         "decline": "Отклонить",
         "enter": "Войти",
         "joinMeeting": "Присоединиться к встрече",
-        "declineAll": "Отклонить все"
+        "declineAll": "Отклонить все",
+        "understood": "Понятно"
     },
     "conversation": {
         "chooseConversationDescription": "Выберите беседу, чтобы начать чат",
@@ -122,7 +134,8 @@
         "moreMembersAccordionTitle": "участники",
         "noMatch": "Нет элементов, соответствующих этому запросу",
         "oneMemberAccordionTitle": "Один участник",
-        "searchMembers": "Поиск участников"
+        "searchMembers": "Поиск участников",
+        "searchParticipants": "Поиск участников"
     },
     "settings": {
         "notifications": {
@@ -154,7 +167,8 @@
         "offline": "Не в сети",
         "online": "В сети",
         "areTyping": "пишут…",
-        "isTyping": "пишет…"
+        "isTyping": "пишет…",
+        "you": " Вы"
     },
     "tooltip": {
         "clear": "Удалить",
@@ -180,7 +194,7 @@
         "memberIsModerator": "Этот участник является модератором",
         "messageReceived": "Получено",
         "promoteModerator": "Повысить статус до модератора",
-        "promoteSomeoneElseToModerator": "Повысьте кого-то до модератора, чтобы покинуть встречу",
+        "promoteSomeoneElseToModerator": "Прежде чем выйти, вы должны назначить кого-нибудь модератором",
         "showConversationList": "Показать список чатов",
         "uploadAttachment": "Загрузить вложение",
         "userAvatar": {
@@ -195,7 +209,15 @@
         "muteForAll": "Отключить звук для всех",
         "pending": "Ждет решения",
         "pinVideo": "Закрепить видео",
-        "unpinVideo": "Открепить видео"
+        "unpinVideo": "Открепить видео",
+        "bottomOfList": "Внизу списка",
+        "expandSidebar": "Развернуть боковое меню",
+        "removeToAddNewOne": "Удалите кого-либо, чтобы добавить новых участников",
+        "collapseSidebar": "Свернуть боковую панель",
+        "participantAlreadyMuted": "У этого участника уже отключен звук",
+        "scrollDown": "Прокрутить вниз",
+        "scrollUp": "Прокрутить вверх",
+        "topOfList": "Вверху списка"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} начал(а) с вами чат",
@@ -209,7 +231,8 @@
         "roomNameChanged": "{{name}} изменил(а) название этой группы на \"<i>{{roomName}}</i>\"",
         "roomPictureDeleted": "{{name}} восстановил(а) изображение {{roomName}} по умолчанию",
         "roomPictureUpdated": "{{name}} изменил(а) изображение {{roomName}}",
-        "roomTopicChanged": "{{name}} изменил(а) тему {{roomName}} \"<i>{{topicName}}</i>\""
+        "roomTopicChanged": "{{name}} изменил(а) тему {{roomName}} \"<i>{{topicName}}</i>\"",
+        "roomTopicRemoved": "{{name}} удалил тему {{roomName}}"
     },
     "conversationFilter": {
         "closeTooltip": "Закрыть фильтры",
@@ -224,13 +247,27 @@
             "cameraEnabled": "Камера включена",
             "enableCamera": "Включить камеру",
             "enableMicrophone": "Включить микрофон",
-            "microphoneEnabled": "Микрофон включен"
+            "microphoneEnabled": "Микрофон включен",
+            "disableCamera": "Отключить камеру",
+            "disableMicrophone": "Отключить микрофон",
+            "disableScreen": "Отключить демонстрацию экрана",
+            "enableScreen": "Включить демонстрацию экрана",
+            "gridView": "Вид сетка"
         },
         "joinMeeting": "Присоединиться к встрече",
         "newMeetingNotification": {
             "sendMessage": "Отправить сообщение",
             "writeAMessageToSendIt": "Напишите сообщение, чтобы отправить его"
-        }
+        },
+        "collapseChat": "Скрыть чат",
+        "collapseParticipantsMeetingTooltip": "Скрыть список участников",
+        "activeMeetingTooltip": "В этой группе есть активная встреча",
+        "expandChat": "Развернуть чат",
+        "expandParticipantsListTooltip": "Развернуть список участников",
+        "startModal": {
+            "enterRoomMeetingTitle": "Примите участие во встрече {{meeting Title}}"
+        },
+        "waitingParticipants": "Участники присоединяются…"
     },
     "thanksForParticipating": "До встречи",
     "external": {
@@ -239,7 +276,8 @@
     },
     "meetings": {
         "interactions": {
-            "yourCamIsDisabled": "Ваша камера выключена"
+            "yourCamIsDisabled": "Ваша камера выключена",
+            "yourMicIsDisabled": "Ваш микрофон выключен"
         }
     },
     "notification": {
@@ -247,5 +285,6 @@
             "ended": "Встреча завершена"
         }
     },
-    "tryLater": "Попробуй позже"
+    "tryLater": "Попробуй позже",
+    "keepInTouchWithColleagues": "Будьте на связи с коллегами или присоединяйтесь к переговорным комнатам ваших групп"
 }
