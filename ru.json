@@ -168,7 +168,8 @@
         "online": "В сети",
         "areTyping": "пишут…",
         "isTyping": "пишет…",
-        "you": " Вы"
+        "you": " Вы",
+        "goToPrivateChat": "Зайдите в чат, чтобы отправить личное сообщение"
     },
     "tooltip": {
         "clear": "Удалить",
@@ -252,12 +253,18 @@
             "disableMicrophone": "Отключить микрофон",
             "disableScreen": "Отключить демонстрацию экрана",
             "enableScreen": "Включить демонстрацию экрана",
-            "gridView": "Вид сетка"
+            "gridView": "Вид сетка",
+            "playMic": "Начать проверку микрофона",
+            "stopMic": "Закончить проверку микрофона",
+            "leaveMeeting": "Покинул встречу",
+            "microphoneDisabled": "Микрофон отключен"
         },
         "joinMeeting": "Присоединиться к встрече",
         "newMeetingNotification": {
             "sendMessage": "Отправить сообщение",
-            "writeAMessageToSendIt": "Напишите сообщение, чтобы отправить его"
+            "writeAMessageToSendIt": "Напишите сообщение, чтобы отправить его",
+            "sendAQuickMessage": "Отправить короткое сообщение",
+            "userIsInvitingYou": "<strong>{{name}}</strong> приглашает вас"
         },
         "collapseChat": "Скрыть чат",
         "collapseParticipantsMeetingTooltip": "Скрыть список участников",
@@ -265,9 +272,21 @@
         "expandChat": "Развернуть чат",
         "expandParticipantsListTooltip": "Развернуть список участников",
         "startModal": {
-            "enterRoomMeetingTitle": "Примите участие во встрече {{meeting Title}}"
+            "enterRoomMeetingTitle": "Примите участие во встрече {{meeting Title}}",
+            "enterOneToOneMeetingTitle": "Начать встречу с {{meetingTitle}}"
         },
-        "waitingParticipants": "Участники присоединяются…"
+        "waitingParticipants": "Участники присоединяются…",
+        "ongoingOneToOneMeetingTooltip": "У вас уже есть активная встреча с {{name}}",
+        "participantsList": {
+            "title_0": "{{count}} Участник",
+            "title_1": "{{count}} Участника",
+            "title_2": "{{count}} Участников"
+        },
+        "ongoingGroupMeetingTooltip": "Вы уже участвуете в этой встрече",
+        "joinMeetingDescription": "Каким образом вы хотите присоединиться к этой встрече?",
+        "minimizeChat": "Свернуть чат",
+        "setInputDescription": "Установите устройства ввода, выбрав их из раскрывающегося меню.",
+        "startMeeting": "Начать встречу"
     },
     "thanksForParticipating": "До встречи",
     "external": {
