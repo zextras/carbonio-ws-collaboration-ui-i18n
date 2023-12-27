@@ -273,7 +273,8 @@
         "expandParticipantsListTooltip": "Развернуть список участников",
         "startModal": {
             "enterRoomMeetingTitle": "Примите участие во встрече {{meeting Title}}",
-            "enterOneToOneMeetingTitle": "Начать встречу с {{meetingTitle}}"
+            "enterOneToOneMeetingTitle": "Начать встречу с {{meetingTitle}}",
+            "audioAndVideoLoading": "Ресурсы загружаются"
         },
         "waitingParticipants": "Участники присоединяются…",
         "ongoingOneToOneMeetingTooltip": "У вас уже есть активная встреча с {{name}}",
