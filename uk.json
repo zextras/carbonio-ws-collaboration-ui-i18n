@@ -3,7 +3,15 @@
         "delete": "Видалити",
         "edit": "Редагувати",
         "forward": "Переслати",
-        "reply": "Відповісти"
+        "reply": "Відповісти",
+        "activateNotifications": "Включити сповіщення",
+        "addAttachment": "Додати вкладення",
+        "addMoreAttachments": "Додати {{counter}} вкладень",
+        "addNewMembers": "Додайте нових учасників",
+        "addNewMembersTo": "Додайте нових учасників до {{roomName}}",
+        "addSingleAttachment": "Додати вкладення {{counter}}",
+        "clearHistory": "Очистити історію",
+        "undo": "Відмінити"
     },
     "conversationInfo": {
         "email": "Електронна пошта",
