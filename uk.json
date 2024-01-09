@@ -1,1 +1,25 @@
-{}
+{
+    "action": {
+        "delete": "Видалити",
+        "edit": "Редагувати",
+        "forward": "Переслати",
+        "reply": "Відповісти"
+    },
+    "conversationInfo": {
+        "email": "Електронна пошта",
+        "name": "Ім’я",
+        "status": "Стан"
+    },
+    "settings": {
+        "notifications": {
+            "title": "Сповіщення"
+        }
+    },
+    "status": {
+        "offline": "Відсутній",
+        "online": "Онлайн"
+    },
+    "tooltip": {
+        "clear": "Очистити"
+    }
+}
