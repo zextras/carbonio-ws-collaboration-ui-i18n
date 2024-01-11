@@ -36,7 +36,7 @@
     },
     "modal": {
         "removeMember": "Usuń członka",
-        "showPreviousConversationHistory": "Pokaż wiadomości przed dołączeniem",
+        "showPreviousConversationHistory": "Pokaż wiadomości sprzed dołączenia",
         "deleteMessageTitle": "Usunąć wybraną wiadomość?",
         "deleteRoom": "Usuń pokój",
         "deleteUserDescription": "Czy na pewno chcesz usunąć tego użytkownika?",
