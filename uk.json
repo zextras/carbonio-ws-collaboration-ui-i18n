@@ -11,7 +11,12 @@
         "addNewMembersTo": "Додайте нових учасників до {{roomName}}",
         "addSingleAttachment": "Додати вкладення {{counter}}",
         "clearHistory": "Очистити історію",
-        "undo": "Відмінити"
+        "undo": "Відмінити",
+        "create": "Створити",
+        "decline": "Відхилити",
+        "close": "Закрити",
+        "declineAll": "Відхилити все",
+        "copy": "Копіювати"
     },
     "conversationInfo": {
         "email": "Електронна пошта",
