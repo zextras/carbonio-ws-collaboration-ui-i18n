@@ -16,12 +16,16 @@
         "decline": "Відхилити",
         "close": "Закрити",
         "declineAll": "Відхилити все",
-        "copy": "Копіювати"
+        "copy": "Копіювати",
+        "download": "Завантажити",
+        "editYourMessage": "Відредагуйте своє повідомлення",
+        "preview": "Попередній перегляд"
     },
     "conversationInfo": {
         "email": "Електронна пошта",
         "name": "Ім’я",
-        "status": "Стан"
+        "status": "Стан",
+        "info": "Інформація"
     },
     "settings": {
         "notifications": {
@@ -33,6 +37,24 @@
         "online": "Онлайн"
     },
     "tooltip": {
-        "clear": "Очистити"
+        "clear": "Очистити",
+        "close": "Закрити",
+        "collapseCarousel": "Згорнути",
+        "demoteModerator": "Розжалувати модератора",
+        "goToPrivateChat": "Перейти до приватного чату",
+        "messageActions": "Дії з повідомленнями",
+        "promoteModerator": "Підвищити до модератора"
+    },
+    "conversation": {
+        "newMessage": "Нове повідомлення"
+    },
+    "message": {
+        "edited": "відредаговано",
+        "deletedMessage": "Видалене повідомлення"
+    },
+    "modal": {
+        "deleteMessageTitle": "Видалити вибране повідомлення?",
+        "removeMember": "Видалити учасника",
+        "showPreviousConversationHistory": "Показати історію попередніх розмов"
     }
 }
