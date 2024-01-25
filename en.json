@@ -176,7 +176,8 @@
         },
         "waitingParticipants": "Waiting for participants to join…",
         "virtual": {
-            "creationInput": "New Virtual Room’s name*"
+            "creationInput": "New Virtual Room’s name*",
+            "buttonLabel": "your virtual rooms"
         }
     },
     "meetings": {
