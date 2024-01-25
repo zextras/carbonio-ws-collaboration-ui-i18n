@@ -30,7 +30,8 @@
     "settings": {
         "notifications": {
             "title": "Сповіщення"
-        }
+        },
+        "save": "Зміни збережено"
     },
     "status": {
         "offline": "Відсутній",
