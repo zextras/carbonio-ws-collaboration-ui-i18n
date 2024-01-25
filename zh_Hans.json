@@ -176,7 +176,8 @@
         "decline": "拒绝",
         "enter": "进入",
         "joinMeeting": "加入会议",
-        "ok": "OK"
+        "ok": "OK",
+        "cancel": "取消"
     },
     "attachments": {
         "addFromLocal": "从本地添加",
@@ -234,6 +235,9 @@
         "newMeetingNotification": {
             "sendMessage": "发送消息",
             "writeAMessageToSendIt": "撰写消息以发送"
+        },
+        "virtual": {
+            "deleteTooltip": "删除虚拟房间"
         }
     },
     "meetings": {
