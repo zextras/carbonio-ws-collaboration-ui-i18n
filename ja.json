@@ -84,7 +84,8 @@
         "decline": "拒否する",
         "enter": "参加する",
         "joinMeeting": "会議に参加する",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "キャンセル"
     },
     "attachments": {
         "addFromLocal": "ローカルから追加する",
@@ -134,6 +135,9 @@
         "joinMeeting": "会議に参加する",
         "newMeetingNotification": {
             "sendMessage": "メッセージを送信する"
+        },
+        "virtual": {
+            "deleteTooltip": "バーチャルルームバーチャル"
         }
     },
     "meetings": {
