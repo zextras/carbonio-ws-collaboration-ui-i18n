@@ -175,7 +175,8 @@
         "addSingleAttachment": "添加{{counter}}个附件",
         "decline": "拒绝",
         "enter": "进入",
-        "joinMeeting": "加入会议"
+        "joinMeeting": "加入会议",
+        "ok": "OK"
     },
     "attachments": {
         "addFromLocal": "从本地添加",
@@ -246,5 +247,8 @@
         }
     },
     "tryLater": "稍后再试",
-    "thanksForParticipating": "感谢参与"
+    "thanksForParticipating": "感谢参与",
+    "snackbar": {
+        "mutedByModerator": "您已被主持人静音，请取消静音以说话"
+    }
 }
