@@ -32,7 +32,8 @@
         "editRoom": "Edytuj {{roomName}}",
         "newChat": "Nowy czat",
         "scrollToBottom": "Przewiń do samego dołu",
-        "understood": "Rozumiem"
+        "understood": "Rozumiem",
+        "ok": "Ok"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -307,5 +308,8 @@
         "youCreatedOneToOne": "Rozpocząłeś czat z użytkownikiem {{userName}}"
     },
     "keepInTouchWithColleagues": "Pozostań w kontakcie ze swoimi współpracownikami lub dołączaj do pokojów spotkań Twoich grup",
-    "titlePlaceholder": "Tytuł Twojej grupy"
+    "titlePlaceholder": "Tytuł Twojej grupy",
+    "snackbar": {
+        "mutedByModerator": "Zostałeś wyciszony przez moderatora. Odcisz się, aby inni cię słyszeli"
+    }
 }
