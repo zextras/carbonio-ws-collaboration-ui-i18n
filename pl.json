@@ -33,7 +33,8 @@
         "newChat": "Nowy czat",
         "scrollToBottom": "Przewiń do samego dołu",
         "understood": "Rozumiem",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Anuluj"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -216,7 +217,10 @@
         "joinMeetingDescription": "Jak chcesz dołączyć do tego spotkania?",
         "minimizeChat": "Zmniejsz czat",
         "ongoingGroupMeetingTooltip": "Już uczestniczysz w tym spotkaniu",
-        "ongoingOneToOneMeetingTooltip": "Masz już aktywne spotkanie z użytkownikiem {{name}}"
+        "ongoingOneToOneMeetingTooltip": "Masz już aktywne spotkanie z użytkownikiem {{name}}",
+        "virtual": {
+            "deleteTooltip": "Usuń wirtualny pokój"
+        }
     },
     "meetings": {
         "interactions": {
