@@ -8,7 +8,8 @@
         "download": "دانلود",
         "forward": "ارسال",
         "preview": "پیش نمایش",
-        "reply": "پاسخ"
+        "reply": "پاسخ",
+        "ok": "تصویب"
     },
     "conversationInfo": {
         "actionAccordionTitle": "اقدامات",
