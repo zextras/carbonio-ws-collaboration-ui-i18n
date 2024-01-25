@@ -31,7 +31,8 @@
         "decline": "Recusar",
         "joinMeeting": "Ingressar na reunião",
         "enter": "Entrar",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Cancelar"
     },
     "feedback": {
         "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
@@ -245,6 +246,9 @@
         "newMeetingNotification": {
             "sendMessage": "Enviar mensagem",
             "writeAMessageToSendIt": "Escreva uma mensagem"
+        },
+        "virtual": {
+            "deleteTooltip": "Excluir Sala Virtual"
         }
     },
     "tryLater": "Tente mais tarde",
