@@ -65,7 +65,8 @@
         "decline": "अस्वीकार करना",
         "enter": "एंटर करें",
         "joinMeeting": "मीटिंग में शामिल हों",
-        "ok": "ठीक है"
+        "ok": "ठीक है",
+        "cancel": "कैंसल करें"
     },
     "conversation": {
         "chooseConversationDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
@@ -230,6 +231,9 @@
         "newMeetingNotification": {
             "sendMessage": "मैसेज भेजें",
             "writeAMessageToSendIt": "भेजने के लिए कोई मैसेज लिखें"
+        },
+        "virtual": {
+            "deleteTooltip": "Virtual Room डिलीट करें"
         }
     },
     "external": {
