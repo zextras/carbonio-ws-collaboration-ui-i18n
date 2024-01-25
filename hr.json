@@ -19,7 +19,8 @@
         "reply": "Odgovor",
         "replyToSomeone": "Odgovori",
         "replyToYourself": "Odgovori sebi",
-        "undo": "Vrati"
+        "undo": "Vrati",
+        "ok": "U redu"
     },
     "meeting": {
         "interactions": {
@@ -99,5 +100,8 @@
         "lastSeen": "Zadnja aktivnost {{lastSeen}}",
         "offline": "Izvan mreže",
         "online": "Na mreži"
+    },
+    "snackbar": {
+        "mutedByModerator": "Utišani ste od strane moderatora, za razgovor ponovo uključi mikrofon"
     }
 }
