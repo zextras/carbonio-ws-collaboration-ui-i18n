@@ -31,7 +31,8 @@
         "decline": "Weigeren",
         "enter": "Bevestigen",
         "joinMeeting": "Deelnemen aan vergadering",
-        "ok": "OK"
+        "ok": "OK",
+        "cancel": "Abbrechen"
     },
     "conversation": {
         "keepInTouchTitle": "Laten we contact houden!",
@@ -230,6 +231,9 @@
         "newMeetingNotification": {
             "sendMessage": "Bericht versturen",
             "writeAMessageToSendIt": "Schrijf een bericht om het te verzenden"
+        },
+        "virtual": {
+            "deleteTooltip": "Virtuele ruimte verwijderen"
         }
     },
     "meetings": {
