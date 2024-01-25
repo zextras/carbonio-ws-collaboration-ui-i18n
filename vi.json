@@ -23,7 +23,8 @@
         "replyToYourself": "Trả lời đến chính bạn",
         "decline": "Từ chối",
         "enter": "Vào",
-        "ok": "OK"
+        "ok": "OK",
+        "cancel": "Huỷ"
     },
     "conversation": {
         "newMessage": "Thư mới",
