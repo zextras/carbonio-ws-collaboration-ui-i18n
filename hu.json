@@ -94,7 +94,10 @@
             "cameraEnabled": "Kamera engedélyezve",
             "cameraDisabled": "Kamera letiltva"
         },
-        "joinMeeting": "Belépés az értekezletre"
+        "joinMeeting": "Belépés az értekezletre",
+        "virtual": {
+            "deleteTooltip": "Virtuális szoba törlése"
+        }
     },
     "external": {
         "nobodyInTheRoom": "Úgy tűnik, senki sincs ebben a szobában",
