@@ -20,7 +20,8 @@
         "replyToYourself": "Reply to yourself",
         "undo": "Undo",
         "enter": "Enter",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Cancel"
     },
     "settings": {
         "profile": {
