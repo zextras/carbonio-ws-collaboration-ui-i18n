@@ -67,7 +67,8 @@
         "decline": "Ablehnen",
         "enter": "Eingabe",
         "joinMeeting": "An Sitzung teilnehmen",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Abbrechen"
     },
     "attachments": {
         "addFromLocal": "Von lokalem Speicherort hinzufügen",
