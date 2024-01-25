@@ -30,7 +30,8 @@
         "scrollToBottom": "Naar beneden schuiven",
         "decline": "Weigeren",
         "enter": "Bevestigen",
-        "joinMeeting": "Deelnemen aan vergadering"
+        "joinMeeting": "Deelnemen aan vergadering",
+        "ok": "OK"
     },
     "conversation": {
         "keepInTouchTitle": "Laten we contact houden!",
@@ -246,5 +247,8 @@
         "nobodyInTheRoom": "Het lijkt erop dat er niemand in deze Ruimte is",
         "roomIsEmpty": "Deze Ruimte is leeg"
     },
-    "tryLater": "Probeer later"
+    "tryLater": "Probeer later",
+    "snackbar": {
+        "mutedByModerator": "U bent gedempt door een moderator, zet het geluid zelf weer aan om te spreken"
+    }
 }
