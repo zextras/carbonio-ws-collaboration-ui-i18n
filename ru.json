@@ -287,7 +287,10 @@
         "joinMeetingDescription": "Каким образом вы хотите присоединиться к этой встрече?",
         "minimizeChat": "Свернуть чат",
         "setInputDescription": "Установите устройства ввода, выбрав их из раскрывающегося меню.",
-        "startMeeting": "Начать встречу"
+        "startMeeting": "Начать встречу",
+        "virtual": {
+            "deleteTooltip": "Удалить Комнату"
+        }
     },
     "thanksForParticipating": "До встречи",
     "external": {
