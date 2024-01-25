@@ -137,7 +137,10 @@
             "enableMicrophone": "เปิดไมโครโฟน",
             "microphoneEnabled": "เปิดใช้งานไมโครโฟน"
         },
-        "joinMeeting": "เข้าร่วมการประชุม"
+        "joinMeeting": "เข้าร่วมการประชุม",
+        "virtual": {
+            "deleteTooltip": "ลบห้องเสมือนจริง"
+        }
     },
     "meetings": {
         "interactions": {
