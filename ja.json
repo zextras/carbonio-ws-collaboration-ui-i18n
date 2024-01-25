@@ -83,7 +83,8 @@
         "undo": "元に戻す",
         "decline": "拒否する",
         "enter": "参加する",
-        "joinMeeting": "会議に参加する"
+        "joinMeeting": "会議に参加する",
+        "ok": "Ok"
     },
     "attachments": {
         "addFromLocal": "ローカルから追加する",
@@ -146,5 +147,8 @@
         }
     },
     "thanksForParticipating": "参加していただきありがとうございます",
-    "tryLater": "後で試す"
+    "tryLater": "後で試す",
+    "snackbar": {
+        "mutedByModerator": "モデレーターによってミュートされています。話すにはミュートを解除してください"
+    }
 }
