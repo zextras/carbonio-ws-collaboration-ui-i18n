@@ -182,7 +182,8 @@
             "emptyState": "Virtual Rooms you create will be shown here.",
             "deleteTooltip": "Delete Virtual Room",
             "copyLinkTooltip": "Copy Virtual Room’s link",
-            "nameRequiredTooltip": "Virtual Room’s name is required"
+            "nameRequiredTooltip": "Virtual Room’s name is required",
+            "createTooltip": "Create new Virtual Room"
         }
     },
     "meetings": {
