@@ -94,7 +94,8 @@
         "joinMeeting": "Присоединиться к встрече",
         "declineAll": "Отклонить все",
         "understood": "Понятно",
-        "ok": "Ок"
+        "ok": "Ок",
+        "cancel": "Отменить"
     },
     "conversation": {
         "chooseConversationDescription": "Выберите беседу, чтобы начать чат",
