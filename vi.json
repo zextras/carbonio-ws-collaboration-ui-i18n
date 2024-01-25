@@ -22,7 +22,8 @@
         "replyToSomeone": "Trả lời đến",
         "replyToYourself": "Trả lời đến chính bạn",
         "decline": "Từ chối",
-        "enter": "Vào"
+        "enter": "Vào",
+        "ok": "OK"
     },
     "conversation": {
         "newMessage": "Thư mới",
@@ -139,5 +140,8 @@
         }
     },
     "thanksForParticipating": "Cảm ơn bạn đã tham gia",
-    "tryLater": "Thử lại sau"
+    "tryLater": "Thử lại sau",
+    "snackbar": {
+        "mutedByModerator": "Bạn đã bị người kiểm duyệt tắt tiếng, hãy tự bật tiếng để nói"
+    }
 }
