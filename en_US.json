@@ -19,7 +19,8 @@
         "replyToSomeone": "Reply to",
         "replyToYourself": "Reply to yourself",
         "undo": "Undo",
-        "enter": "Enter"
+        "enter": "Enter",
+        "ok": "Ok"
     },
     "settings": {
         "profile": {
@@ -88,5 +89,8 @@
         "interactions": {
             "yourCamIsDisabled": "Your camera is off"
         }
+    },
+    "snackbar": {
+        "mutedByModerator": "You've been muted by a moderator, unmute yourself to speak"
     }
 }
