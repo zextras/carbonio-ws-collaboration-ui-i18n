@@ -234,6 +234,9 @@
         "newMeetingNotification": {
             "sendMessage": "Enviar mensaje",
             "writeAMessageToSendIt": "Escribe un mensaje"
+        },
+        "virtual": {
+            "deleteTooltip": "Eliminar Sala Virtual"
         }
     },
     "meetings": {
