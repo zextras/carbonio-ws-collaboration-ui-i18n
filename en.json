@@ -33,7 +33,8 @@
         "replyToYourself": "Reply to yourself",
         "scrollToBottom": "Scroll to bottom",
         "understood": "Understood",
-        "undo": "Undo"
+        "undo": "Undo",
+        "cancel": "Cancel"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} started a chat with you",
