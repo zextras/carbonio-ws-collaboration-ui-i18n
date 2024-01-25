@@ -30,7 +30,8 @@
         "addNewMembersTo": "Adicionar membros a {{roomName}}",
         "decline": "Recusar",
         "enter": "Entrar",
-        "joinMeeting": "Ingressar na reunião"
+        "joinMeeting": "Ingressar na reunião",
+        "ok": "Ok"
     },
     "attachments": {
         "attachLinkFiles": "Anexar link público a partir de Files",
@@ -245,5 +246,8 @@
         "roomIsEmpty": "A Sala está vazia"
     },
     "thanksForParticipating": "Obrigado por participar",
-    "tryLater": "Tente mais tarde"
+    "tryLater": "Tente mais tarde",
+    "snackbar": {
+        "mutedByModerator": "Você foi silenciado por um moderador; reative-se você mesmo para falar"
+    }
 }
