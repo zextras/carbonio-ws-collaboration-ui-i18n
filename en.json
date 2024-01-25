@@ -25,6 +25,7 @@
         "leave": "Leave",
         "muteNotifications": "Mute notifications",
         "newChat": "New Chat",
+        "ok": "Ok",
         "preview": "Preview",
         "removeUser": "Remove",
         "reply": "Reply",
@@ -110,14 +111,16 @@
             "wsc": "Something went wrong while connecting with WSC",
             "xmpp": "Something went wrong while connecting with XMPP"
         },
+        "networkProblems": "There may be problems using this module, please try to refresh the page.",
         "notificationsActivatedForThisChat": "Notifications activated for this chat",
         "notificationsMutedForThisChat": "Notifications muted for this chat"
     },
     "keepInTouchWithColleagues": "Keep in touch with your colleagues or join your groups' meeting rooms",
     "meeting": {
-        "activeMeetingTooltip": "There's an active meeting for this Group",
+        "activeMeetingTooltip": "There's an active meeting for this Chat",
         "collapseChat": "Collapse chat",
         "collapseParticipantsMeetingTooltip": "Collapse participants list",
+        "continueActiveSession": "Continue the meeting in the new window",
         "expandChat": "Expand chat",
         "expandParticipantsListTooltip": "Expand participants list",
         "extendChat": "Extend chat",
@@ -126,9 +129,11 @@
             "cameraEnabled": "Camera enabled",
             "cinemaView": "Cinema view",
             "disableCamera": "Disable camera",
+            "disableFullScreen": "Disable full screen",
             "disableMicrophone": "Disable microphone",
             "disableScreen": "Disable screen share",
             "enableCamera": "Enable camera",
+            "enableFullScreen": "Enable full screen",
             "enableMicrophone": "Enable microphone",
             "enableScreen": "Enable screen share",
             "gridView": "Grid view",
@@ -147,18 +152,27 @@
             "userIsInvitingYou": "<strong>{{name}}</strong> is inviting you",
             "writeAMessageToSendIt": "Write a message to send it"
         },
+        "noMoreActiveSession": "There cannot be more than one active session of the same meeting",
+        "noTwoActiveSession": "Two active sessions of the same meeting cannot coexist",
         "ongoingGroupMeetingTooltip": "You are already participating in this meeting",
         "ongoingOneToOneMeetingTooltip": "You already have an active meeting with {{name}}",
+        "openedInAnotherWindow": "This meeting is already open in another window",
         "participantsList": {
             "title": "One meeting's participant",
             "title_plural": "{{count}} meeting's participants"
         },
+        "presentActiveSession": "There is another active session",
+        "rejoinMeeting": "Rejoin meeting",
+        "restartMeeting": "Restart meeting",
         "setInputDescription": "Set your input devices by choosing them from dropdown menu",
         "startMeeting": "Start meeting",
         "startModal": {
             "audioAndVideoLoading": "Assets are loading",
             "enterOneToOneMeetingTitle": "Start meeting with {{meetingTitle}}",
             "enterRoomMeetingTitle": "Participate to {{meetingTitle}} meeting"
+        },
+        "tooltip": {
+            "activeSessionTooltip": "You have an active session in this meeting"
         },
         "waitingParticipants": "Waiting for participants to join…"
     },
@@ -171,7 +185,9 @@
     "message": {
         "deletedMessage": "Deleted message",
         "draft": "draft",
-        "edited": "edited"
+        "edited": "edited",
+        "forwardedMultipleTimes": "Forwarded multiple times",
+        "originallySentBy": "Originally sent by:"
     },
     "modal": {
         "clearHistoryDescription": "You're cleaning your conversation history, please note that this action is irreversible. The history will be deleted for you and not for the other members.",
@@ -188,7 +204,8 @@
             "newGroup": "New Group"
         },
         "deleteGroup": "Delete Group",
-        "deleteGroupLabel": "Are you sure to delete this Group?",
+        "deleteGroupLabel": "This action will affect all Group members and cannot be undone. Are you sure you want to delete this Group?",
+        "deleteGroupMeetingOngoingLabel": "There is currently an active meeting. Deleting the Group will end the meeting without any warning.",
         "deleteMessageTitle": "Delete selected message?",
         "deleteMessageTitleDescription": "You're deleting the message, it will no longer be available",
         "deleteRoom": "Delete Room",
@@ -246,6 +263,9 @@
         "save": "Edits saved correctly",
         "title": "Chats settings"
     },
+    "snackbar": {
+        "mutedByModerator": "You've been muted by a moderator, unmute yourself to speak"
+    },
     "status": {
         "areTyping": "are typing…",
         "goToPrivateChat": "Go to private chat to send a personal message",
@@ -279,7 +299,7 @@
         "messageReceived": "Received",
         "messageSent": "Sent",
         "muteForAll": "Mute for all",
-        "participantAlreadyMuted": "This participant is already muted",
+        "participantMuted": "This participant is muted",
         "pending": "Pending",
         "pinVideo": "Pin video",
         "promoteModerator": "Promote to moderator",
@@ -304,7 +324,8 @@
             "updateAvatar": "Update avatar",
             "uploadAvatar": "Upload avatar"
         },
-        "writeToSend": "Write a message to send it"
+        "writeToSend": "Write a message to send it",
+        "youAreAlreadyMuted": "You're muted"
     },
     "tryLater": "Try later"
 }
