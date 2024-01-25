@@ -30,7 +30,8 @@
         "scrollToBottom": "Rolar para baixo",
         "decline": "Recusar",
         "joinMeeting": "Ingressar na reunião",
-        "enter": "Entrar"
+        "enter": "Entrar",
+        "ok": "Ok"
     },
     "feedback": {
         "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
@@ -246,5 +247,8 @@
             "writeAMessageToSendIt": "Escreva uma mensagem"
         }
     },
-    "tryLater": "Tente mais tarde"
+    "tryLater": "Tente mais tarde",
+    "snackbar": {
+        "mutedByModerator": "Você foi silenciado por um moderador; reative-se você mesmo para falar"
+    }
 }
