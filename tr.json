@@ -291,7 +291,10 @@
             "enterOneToOneMeetingTitle": "{{meetingTitle}} ile toplantıya başla",
             "enterRoomMeetingTitle": "{{meetingTitle}} toplantısına katıl"
         },
-        "waitingParticipants": "Katılımcıların katılması bekleniyor…"
+        "waitingParticipants": "Katılımcıların katılması bekleniyor…",
+        "virtual": {
+            "deleteTooltip": "Sanal Odayı sil"
+        }
     },
     "meetings": {
         "interactions": {
