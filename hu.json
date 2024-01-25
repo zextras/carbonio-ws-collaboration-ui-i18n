@@ -31,7 +31,8 @@
         "joinMeeting": "Belépés az értekezletre",
         "newChat": "Új csevegés",
         "removeUser": "Eltávolítás",
-        "scrollToBottom": "Görgessen az aljára"
+        "scrollToBottom": "Görgessen az aljára",
+        "ok": "Ok"
     },
     "conversationInfo": {
         "email": "E-mail",
@@ -119,5 +120,8 @@
     "editModal": {
         "confirm": "Részletek szerkesztése",
         "groupDescriptionDetails": "Leírja a Csoport témáját"
+    },
+    "snackbar": {
+        "mutedByModerator": "Egy moderátor elnémított, hallgattasd el magad, hogy megszólalhass"
     }
 }
