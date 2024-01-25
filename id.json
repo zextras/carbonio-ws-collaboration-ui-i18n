@@ -48,7 +48,8 @@
         "decline": "Tolak",
         "enter": "Masuk",
         "joinMeeting": "Gabung ke rapat",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Batal"
     },
     "attachments": {
         "addFromLocal": "Tambahkan dari lokal",
@@ -133,6 +134,9 @@
         },
         "newMeetingNotification": {
             "sendMessage": "Kirim pesan"
+        },
+        "virtual": {
+            "deleteTooltip": "Hapus Ruang Virtual"
         }
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
