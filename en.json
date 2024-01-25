@@ -179,7 +179,8 @@
             "creationInput": "New Virtual Room’s name*",
             "buttonLabel": "your virtual rooms",
             "emptyState": "Virtual Rooms you create will be shown here.",
-            "deleteTooltip": "Delete Virtual Room"
+            "deleteTooltip": "Delete Virtual Room",
+            "copyLinkTooltip": "Copy Virtual Room’s link"
         }
     },
     "meetings": {
