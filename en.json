@@ -186,7 +186,8 @@
             "createTooltip": "Create new Virtual Room",
             "invalidNameTooltip": "Invalid name",
             "deleteModalDescription": "You are deleting this Virtual Room, if it has active meetings, it will be interrupted and no one will be able to access it anymore. Proceed?",
-            "copyLinkSnackbar": "Virtual Room’s link copied"
+            "copyLinkSnackbar": "Virtual Room’s link copied",
+            "deleteSnackbar": "Virtual Room deleted successfully"
         }
     },
     "meetings": {
