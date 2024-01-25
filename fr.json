@@ -113,7 +113,8 @@
         "joinMeeting": "Rejoindre la réunion",
         "declineAll": "Tout refuser",
         "understood": "Compris",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Annuler"
     },
     "conversation": {
         "chooseConversationDescription": "Choisissez une conversation pour démarrer une discussion",
@@ -299,7 +300,10 @@
         "collapseChat": "Refermer la discussion",
         "collapseParticipantsMeetingTooltip": "Refermer la liste de participants",
         "expandChat": "Ouvrir la discussion",
-        "expandParticipantsListTooltip": "Ouvrir la liste des participants"
+        "expandParticipantsListTooltip": "Ouvrir la liste des participants",
+        "virtual": {
+            "deleteTooltip": "Supprimer la Salle Virtuelle"
+        }
     },
     "meetings": {
         "interactions": {
