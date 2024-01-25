@@ -64,7 +64,8 @@
         "scrollToBottom": "स्क्रॉल करके नीचे जाएँ",
         "decline": "अस्वीकार करना",
         "enter": "एंटर करें",
-        "joinMeeting": "मीटिंग में शामिल हों"
+        "joinMeeting": "मीटिंग में शामिल हों",
+        "ok": "ठीक है"
     },
     "conversation": {
         "chooseConversationDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
@@ -246,5 +247,8 @@
         }
     },
     "thanksForParticipating": "भाग लेने के लिए थैंक्स",
-    "tryLater": "बाद में कोशिश करें"
+    "tryLater": "बाद में कोशिश करें",
+    "snackbar": {
+        "mutedByModerator": "मॉडरेटर ने आपका माइक बंद कर दिया है, बोलने के लिए अपना माइक चालू करें"
+    }
 }
