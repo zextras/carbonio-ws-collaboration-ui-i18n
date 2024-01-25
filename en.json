@@ -174,7 +174,10 @@
         "tooltip": {
             "activeSessionTooltip": "You have an active session in this meeting"
         },
-        "waitingParticipants": "Waiting for participants to join…"
+        "waitingParticipants": "Waiting for participants to join…",
+        "virtual": {
+            "creationInput": "New Virtual Room’s name*"
+        }
     },
     "meetings": {
         "interactions": {
