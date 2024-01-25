@@ -112,7 +112,8 @@
         "enter": "Entrer",
         "joinMeeting": "Rejoindre la réunion",
         "declineAll": "Tout refuser",
-        "understood": "Compris"
+        "understood": "Compris",
+        "ok": "Ok"
     },
     "conversation": {
         "chooseConversationDescription": "Choisissez une conversation pour démarrer une discussion",
@@ -307,5 +308,8 @@
         }
     },
     "tryLater": "Essayez plus tard",
-    "keepInTouchWithColleagues": "Restez en contact avec vos collègues ou rejoignez les salles de réunion de votre groupe"
+    "keepInTouchWithColleagues": "Restez en contact avec vos collègues ou rejoignez les salles de réunion de votre groupe",
+    "snackbar": {
+        "mutedByModerator": "Vous avez été mis en sourdine par un modérateur, enlevez la sourdine pour parler"
+    }
 }
