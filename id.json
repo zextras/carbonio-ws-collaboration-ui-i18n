@@ -47,7 +47,8 @@
         "undo": "Urungkan",
         "decline": "Tolak",
         "enter": "Masuk",
-        "joinMeeting": "Gabung ke rapat"
+        "joinMeeting": "Gabung ke rapat",
+        "ok": "Ok"
     },
     "attachments": {
         "addFromLocal": "Tambahkan dari lokal",
@@ -146,5 +147,8 @@
         "meeting": {
             "ended": "Rapat Berakhir"
         }
+    },
+    "snackbar": {
+        "mutedByModerator": "Suara Anda dimatikan oleh moderator. Nyalakan suara Anda sendiri untuk berbicara"
     }
 }
