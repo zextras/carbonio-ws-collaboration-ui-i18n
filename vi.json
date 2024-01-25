@@ -127,6 +127,9 @@
             "enableCamera": "Bật Camera",
             "enableMicrophone": "Bật microphone",
             "microphoneEnabled": "Đã bật Microphone"
+        },
+        "virtual": {
+            "deleteTooltip": "Xoá phòng ảo"
         }
     },
     "meetings": {
