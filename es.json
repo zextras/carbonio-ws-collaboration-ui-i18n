@@ -30,7 +30,8 @@
         "scrollToBottom": "Desplazar hacia abajo",
         "decline": "Rechazar",
         "enter": "Entrar",
-        "joinMeeting": "Unirse a la reunión"
+        "joinMeeting": "Unirse a la reunión",
+        "ok": "Ok"
     },
     "attachments": {
         "addFromLocal": "Adjuntar desde Mi PC",
@@ -246,5 +247,8 @@
         }
     },
     "thanksForParticipating": "Gracias por participar",
-    "tryLater": "Inténtalo más tarde"
+    "tryLater": "Inténtalo más tarde",
+    "snackbar": {
+        "mutedByModerator": "Has sido silenciado por un moderador. Reactiva tu micrófono para hablar"
+    }
 }
