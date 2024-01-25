@@ -33,7 +33,8 @@
         "joinMeeting": "Partecipa alla riunione",
         "declineAll": "Rifiuta tutto",
         "understood": "Ho capito",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Elimina"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -289,7 +290,10 @@
             "title_2": ""
         },
         "setInputDescription": "Imposta i tuoi dispositivi di input scegliendoli dal menù a tendina",
-        "startMeeting": "Avvia meeting"
+        "startMeeting": "Avvia meeting",
+        "virtual": {
+            "deleteTooltip": "Elimina Stanza Virtuale"
+        }
     },
     "tryLater": "Riprova più tardi",
     "external": {
