@@ -32,7 +32,8 @@
         "enter": "Accedi",
         "joinMeeting": "Partecipa alla riunione",
         "declineAll": "Rifiuta tutto",
-        "understood": "Ho capito"
+        "understood": "Ho capito",
+        "ok": "Ok"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -307,5 +308,8 @@
         }
     },
     "thanksForParticipating": "Grazie per aver partecipato",
-    "keepInTouchWithColleagues": "Rimani in contatto con i tuoi colleghi o unisciti alle sale riunioni dei tuoi gruppi"
+    "keepInTouchWithColleagues": "Rimani in contatto con i tuoi colleghi o unisciti alle sale riunioni dei tuoi gruppi",
+    "snackbar": {
+        "mutedByModerator": "Sei stato silenziato dal moderatore, riattiva il microfono per parlare"
+    }
 }
