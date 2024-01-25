@@ -134,6 +134,9 @@
         "joinMeeting": "An Sitzung teilnehmen",
         "newMeetingNotification": {
             "sendMessage": "Nachricht senden"
+        },
+        "virtual": {
+            "deleteTooltip": "Virtuellen Raum löschen"
         }
     },
     "meetings": {
