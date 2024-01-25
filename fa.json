@@ -9,7 +9,8 @@
         "forward": "ارسال",
         "preview": "پیش نمایش",
         "reply": "پاسخ",
-        "ok": "تصویب"
+        "ok": "تصویب",
+        "cancel": "لغو"
     },
     "conversationInfo": {
         "actionAccordionTitle": "اقدامات",
