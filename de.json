@@ -66,7 +66,8 @@
         "undo": "Rückgängig machen",
         "decline": "Ablehnen",
         "enter": "Eingabe",
-        "joinMeeting": "An Sitzung teilnehmen"
+        "joinMeeting": "An Sitzung teilnehmen",
+        "ok": "Ok"
     },
     "attachments": {
         "addFromLocal": "Von lokalem Speicherort hinzufügen",
@@ -146,5 +147,8 @@
         }
     },
     "thanksForParticipating": "Danke für die Teilnahme",
-    "tryLater": "Versuchen Sie es später"
+    "tryLater": "Versuchen Sie es später",
+    "snackbar": {
+        "mutedByModerator": "Sie wurden von einem Moderator stummgeschaltet, heben Sie die Stummschaltung auf, um zu sprechen"
+    }
 }
