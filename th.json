@@ -48,7 +48,8 @@
         "decline": "ปฏิเสธ",
         "enter": "เข้าสู่การประชุม",
         "joinMeeting": "เข้าร่วมการประชุม",
-        "ok": "ตกลง"
+        "ok": "ตกลง",
+        "cancel": "ยกเลิก"
     },
     "attachments": {
         "addFromLocal": "เพิ่มจาก local",
