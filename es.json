@@ -31,7 +31,8 @@
         "decline": "Rechazar",
         "enter": "Entrar",
         "joinMeeting": "Unirse a la reunión",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Cancelar"
     },
     "attachments": {
         "addFromLocal": "Adjuntar desde Mi PC",
