@@ -32,7 +32,8 @@
         "joinMeeting": "Toplantıya katıl",
         "enter": "Giriş",
         "declineAll": "Tümünü reddet",
-        "understood": "Anlaşıldı"
+        "understood": "Anlaşıldı",
+        "ok": "Tamam"
     },
     "attachments": {
         "addFromLocal": "Lokalden ekle",
@@ -305,5 +306,8 @@
     },
     "tryLater": "Sonra deneyin",
     "thanksForParticipating": "Katıldığınız için teşekkürler",
-    "keepInTouchWithColleagues": "İş arkadaşlarınızla iletişimde kalın veya gruplarınızın toplantı odalarına katılın"
+    "keepInTouchWithColleagues": "İş arkadaşlarınızla iletişimde kalın veya gruplarınızın toplantı odalarına katılın",
+    "snackbar": {
+        "mutedByModerator": "Moderatör tarafından sesiniz kapatıldı, konuşmak için sesinizi açın"
+    }
 }
