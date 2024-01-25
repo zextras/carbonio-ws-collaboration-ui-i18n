@@ -15,7 +15,8 @@
         "preview": "Examinare",
         "removeUser": "Eliminare",
         "undo": "Anulare",
-        "ok": "O.k"
+        "ok": "O.k",
+        "cancel": "Anulare"
     },
     "settings": {
         "notifications": {
