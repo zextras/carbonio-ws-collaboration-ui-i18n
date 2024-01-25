@@ -32,7 +32,8 @@
         "newChat": "Új csevegés",
         "removeUser": "Eltávolítás",
         "scrollToBottom": "Görgessen az aljára",
-        "ok": "Ok"
+        "ok": "Ok",
+        "cancel": "Törlés"
     },
     "conversationInfo": {
         "email": "E-mail",
