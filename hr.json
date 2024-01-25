@@ -20,7 +20,8 @@
         "replyToSomeone": "Odgovori",
         "replyToYourself": "Odgovori sebi",
         "undo": "Vrati",
-        "ok": "U redu"
+        "ok": "U redu",
+        "cancel": "Odustani"
     },
     "meeting": {
         "interactions": {
