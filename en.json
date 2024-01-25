@@ -183,7 +183,8 @@
             "deleteTooltip": "Delete Virtual Room",
             "copyLinkTooltip": "Copy Virtual Room’s link",
             "nameRequiredTooltip": "Virtual Room’s name is required",
-            "createTooltip": "Create new Virtual Room"
+            "createTooltip": "Create new Virtual Room",
+            "invalidNameTooltip": "Invalid name"
         }
     },
     "meetings": {
