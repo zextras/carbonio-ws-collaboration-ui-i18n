@@ -88,12 +88,15 @@
             "wsc": "WSC ile bağlantı kurulurken bir hata oluştu",
             "xmpp": "XMPP ile bağlantı kurulurken bir hata oluştu",
             "websocket": "WEBSOCKET ile bağlantı kurulurken bir hata oluştu"
-        }
+        },
+        "networkProblems": "Bu modülü kullanırken sorunlar olabilir, lütfen sayfayı yenilemeyi deneyin."
     },
     "message": {
         "deletedMessage": "Silinmiş mesaj",
         "draft": "taslak",
-        "edited": "düzenlendi"
+        "edited": "düzenlendi",
+        "forwardedMultipleTimes": "Birden çok kez iletildi",
+        "originallySentBy": "İlk gönderen:"
     },
     "modal": {
         "deleteRoom": "Odayı Sil",
@@ -114,7 +117,7 @@
             }
         },
         "deleteGroup": "Grubu Sil",
-        "deleteGroupLabel": "Bu Grubu silmek istediğinizden emin misiniz?",
+        "deleteGroupLabel": "Bu eylem tüm Grup üyelerini etkiler ve geri alınamaz. Bu Grubu silmek istediğinizden emin misiniz?",
         "deleteMessageTitle": "Seçili mesaj silinsin mi?",
         "deleteRoomLabel": "Bu Oda'yı silmek istediğinizden emin misiniz?",
         "forward": {
@@ -128,7 +131,8 @@
         "leaveRoom": "Odadan Çık",
         "leaveRoomLabel": "Odadan ayrılmak istediğinize emin misiniz?",
         "deleteMessageTitleDescription": "Mesajı siliyorsunuz, artık kullanılamayacak",
-        "clearHistoryDescription": "Konuşma geçmişinizi temizlemek üzeresiniz, bu işlemin geri alınamayacağını unutmayın. Geçmiş bilgisi sizin için silinecek, diğer üyelerin geçmiş bilgisi silinmeyecek."
+        "clearHistoryDescription": "Konuşma geçmişinizi temizlemek üzeresiniz, bu işlemin geri alınamayacağını unutmayın. Geçmiş bilgisi sizin için silinecek, diğer üyelerin geçmiş bilgisi silinmeyecek.",
+        "deleteGroupMeetingOngoingLabel": "Şu anda aktif bir toplantı var. Grubu silerseniz toplantı uyarı vermeden sonlandırılacak."
     },
     "participantsList": {
         "closeSearch": "Aramayı kapat",
@@ -218,7 +222,9 @@
         "removeToAddNewOne": "Yeni üye eklemek için birini kaldırın",
         "scrollDown": "Aşağı kaydır",
         "scrollUp": "Yukarı kaydır",
-        "topOfList": "Listenin başı"
+        "topOfList": "Listenin başı",
+        "participantMuted": "Bu katılımcının sesi kapatıldı",
+        "youAreAlreadyMuted": "Sesiniz kapatıldı"
     },
     "affiliationMessages": {
         "memberAdded": "{{userName}}, {{roomName}} odasına eklendi",
@@ -262,7 +268,9 @@
             "leaveMeeting": "Toplantıdan Ayrıl",
             "microphoneDisabled": "Mikrofon kapalı",
             "playMic": "Mikrofon testini başlat",
-            "stopMic": "Mikrofon testini durdur"
+            "stopMic": "Mikrofon testini durdur",
+            "disableFullScreen": "Tam ekran modunu devre dışı bırak",
+            "enableFullScreen": "Tam ekran modunu etkinleştir"
         },
         "joinMeeting": "Toplantıya katıl",
         "newMeetingNotification": {
@@ -271,7 +279,7 @@
             "sendAQuickMessage": "Hızlı mesaj gönderin",
             "userIsInvitingYou": "<strong>{{name}}</strong> sizi davet ediyor"
         },
-        "activeMeetingTooltip": "Bu Grup için aktif bir toplantı var",
+        "activeMeetingTooltip": "Bu Sohbet için aktif bir toplantı var",
         "collapseChat": "Sohbeti daralt",
         "collapseParticipantsMeetingTooltip": "Katılımcı listesini daralt",
         "expandChat": "Sohbeti genişlet",
@@ -294,8 +302,29 @@
         },
         "waitingParticipants": "Katılımcıların katılması bekleniyor…",
         "virtual": {
-            "deleteTooltip": "Sanal Odayı sil"
-        }
+            "deleteTooltip": "Sanal Odayı sil",
+            "createTooltip": "Yeni Sanal Oda Oluştur",
+            "invalidNameTooltip": "Geçersiz ad",
+            "deleteSnackbar": "Sanal Oda başarıyla silindi",
+            "buttonLabel": "sanal odalarınız",
+            "emptyState": "Oluşturduğunuz Sanal Odalar burada gösterilecektir.",
+            "copyLinkTooltip": "Sanal Oda'nın bağlantısını kopyalayın",
+            "nameRequiredTooltip": "Sanal Oda'nın adı gereklidir",
+            "copyLinkSnackbar": "Sanal Oda'nın bağlantısı kopyalandı",
+            "deleteModalTitle": "{{roomName}} Sanal Odayı Sil",
+            "creationInput": "Yeni Sanal Oda'nın adı*",
+            "deleteModalDescription": "Bu Sanal Odayı siliyorsunuz, aktif toplantılar varsa kesintiye uğrayacak ve artık kimse erişemeyecek. Devam edilsin mi?"
+        },
+        "continueActiveSession": "Toplantıya yeni pencerede devam edin",
+        "openedInAnotherWindow": "Bu toplantı zaten başka bir pencerede açık",
+        "presentActiveSession": "Başka bir aktif oturum var",
+        "rejoinMeeting": "Toplantıya yeniden katıl",
+        "tooltip": {
+            "activeSessionTooltip": "Bu toplantıda etkin bir oturumunuz var"
+        },
+        "restartMeeting": "Toplantıyı yeniden başlat",
+        "noMoreActiveSession": "Aynı toplantının birden fazla etkin oturumu olamaz",
+        "noTwoActiveSession": "Aynı toplantının iki etkin oturumu bir arada bulunamaz"
     },
     "meetings": {
         "interactions": {
