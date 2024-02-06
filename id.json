@@ -150,6 +150,9 @@
         },
         "browserNotification": {
             "waitingTitle": "Tampaknya ada seseorang di Ruang Tunggu"
+        },
+        "waitingRoom": {
+            "hangUp": "Tutup"
         }
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
