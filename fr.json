@@ -303,6 +303,12 @@
         "expandParticipantsListTooltip": "Ouvrir la liste des participants",
         "virtual": {
             "deleteTooltip": "Supprimer la Salle Virtuelle"
+        },
+        "sidebar": {
+            "waitingCaption": "En attente pour entrer",
+            "tooltip": {
+                "waitingAccept": "Laisser l'utilisateur entrer"
+            }
         }
     },
     "meetings": {
