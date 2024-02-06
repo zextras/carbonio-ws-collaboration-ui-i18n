@@ -242,8 +242,15 @@
         "sidebar": {
             "waitingCaption": "等待进入",
             "tooltip": {
-                "waitingAccept": "允许用户进入"
+                "waitingAccept": "允许用户进入",
+                "waitingReject": "拒绝用户"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "等待房间中似乎有用户"
+        },
+        "browserNotification": {
+            "waitingTitle": "等待房间中似乎有用户"
         }
     },
     "meetings": {
