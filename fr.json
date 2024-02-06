@@ -316,6 +316,9 @@
         },
         "snackbar": {
             "waitingInfo": "Il semblerai qu'il y ai quelqu'un dans la salle d'attente"
+        },
+        "waitingRoom": {
+            "setInputs": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant"
         }
     },
     "meetings": {
