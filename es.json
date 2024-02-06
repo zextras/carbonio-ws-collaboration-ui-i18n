@@ -241,9 +241,16 @@
         },
         "sidebar": {
             "tooltip": {
-                "waitingAccept": "Aceptar participante"
+                "waitingAccept": "Aceptar participante",
+                "waitingReject": "Rechazar usuario"
             },
             "waitingCaption": "Esperando para entrar"
+        },
+        "snackbar": {
+            "waitingInfo": "Hay alguien en la sala de espera"
+        },
+        "browserNotification": {
+            "waitingTitle": "Hay alguien en la sala de espera"
         }
     },
     "meetings": {
