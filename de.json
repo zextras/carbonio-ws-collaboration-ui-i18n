@@ -147,7 +147,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "Es scheint jemand im Wartezimmer zu sein"
+            "waitingInfo": "Es scheint jemand im Warteraum zu sein"
         },
         "browserNotification": {
             "waitingTitle": "Es scheint jemand im Warteraum zu sein"
