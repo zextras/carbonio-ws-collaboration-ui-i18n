@@ -255,6 +255,12 @@
         },
         "snackbar": {
             "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni"
+        },
+        "browserNotification": {
+            "waitingTitle": "Wygląda na to, że ktoś znajduje się w Poczekalni"
+        },
+        "waitingRoom": {
+            "setInputs": "Skonfiguruj swoje urządzenia wejściowe wybierając je z rozwijanego menu"
         }
     },
     "meetings": {
