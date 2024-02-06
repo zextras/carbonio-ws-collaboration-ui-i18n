@@ -135,8 +135,15 @@
         "sidebar": {
             "waitingCaption": "Đang đợi để vào",
             "tooltip": {
-                "waitingAccept": "Cho phép người dùng vào"
+                "waitingAccept": "Cho phép người dùng vào",
+                "waitingReject": "Từ chối người dùng"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "Dường như có ai trong phòng chờ"
+        },
+        "browserNotification": {
+            "waitingTitle": "Dường như có ai trong phòng chờ"
         }
     },
     "meetings": {
