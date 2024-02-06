@@ -247,7 +247,14 @@
         },
         "openedInAnotherWindow": "To spotkanie jest już otwarte w innym oknie",
         "sidebar": {
-            "waitingCaption": "Oczekiwanie na dołączenie"
+            "waitingCaption": "Oczekiwanie na dołączenie",
+            "tooltip": {
+                "waitingAccept": "Wpuść użytkownika",
+                "waitingReject": "Odrzuć użytkownika"
+            }
+        },
+        "snackbar": {
+            "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni"
         }
     },
     "meetings": {
