@@ -251,6 +251,9 @@
         },
         "browserNotification": {
             "waitingTitle": "等待房间中似乎有用户"
+        },
+        "waitingRoom": {
+            "hangUp": "挂断"
         }
     },
     "meetings": {
