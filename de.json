@@ -142,8 +142,15 @@
         "sidebar": {
             "waitingCaption": "Warten auf den Eintritt",
             "tooltip": {
-                "waitingAccept": "Benutzer hereinlassen"
+                "waitingAccept": "Benutzer hereinlassen",
+                "waitingReject": "Benutzer ablehnen"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "Es scheint jemand im Wartezimmer zu sein"
+        },
+        "browserNotification": {
+            "waitingTitle": "Es scheint jemand im Warteraum zu sein"
         }
     },
     "meetings": {
