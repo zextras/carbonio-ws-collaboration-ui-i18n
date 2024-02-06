@@ -243,7 +243,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "ऐसा लग रहा है कि वेटिंग रूम में कोई है"
+            "waitingInfo": "ऐसा लग रहा है कि Waiting Room में कोई है"
         },
         "browserNotification": {
             "waitingTitle": "ऐसा लग रहा है कि Waiting Room में कोई है"
