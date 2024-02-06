@@ -300,7 +300,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "В комнате ожидания кто-то есть"
+            "waitingInfo": "Кажется, в комнате ожидания кто-то есть"
         },
         "browserNotification": {
             "waitingTitle": "Кажется, в комнате ожидания кто-то есть"
