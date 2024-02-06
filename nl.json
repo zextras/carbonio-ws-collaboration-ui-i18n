@@ -236,7 +236,14 @@
             "deleteTooltip": "Virtuele ruimte verwijderen"
         },
         "sidebar": {
-            "waitingCaption": "Wachtend om binnen te gaan"
+            "waitingCaption": "Wachtend om binnen te gaan",
+            "tooltip": {
+                "waitingAccept": "Laat gebruiker binnen",
+                "waitingReject": "Gebruiker afwijzen"
+            }
+        },
+        "snackbar": {
+            "waitingInfo": "Er schijnt iemand in de wachtruimte te zijn"
         }
     },
     "meetings": {
