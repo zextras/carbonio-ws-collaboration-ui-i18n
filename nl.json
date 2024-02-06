@@ -244,6 +244,9 @@
         },
         "snackbar": {
             "waitingInfo": "Er schijnt iemand in de wachtruimte te zijn"
+        },
+        "browserNotification": {
+            "waitingTitle": "Er schijnt iemand in de Wachtruimte te zijn"
         }
     },
     "meetings": {
