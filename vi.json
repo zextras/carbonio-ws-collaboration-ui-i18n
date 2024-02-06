@@ -131,6 +131,12 @@
         },
         "virtual": {
             "deleteTooltip": "Xoá phòng ảo"
+        },
+        "sidebar": {
+            "waitingCaption": "Đang đợi để vào",
+            "tooltip": {
+                "waitingAccept": "Cho phép người dùng vào"
+            }
         }
     },
     "meetings": {
