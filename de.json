@@ -151,6 +151,9 @@
         },
         "browserNotification": {
             "waitingTitle": "Es scheint jemand im Warteraum zu sein"
+        },
+        "waitingRoom": {
+            "hangUp": "Auflegen"
         }
     },
     "meetings": {
