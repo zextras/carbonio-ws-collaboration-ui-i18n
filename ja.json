@@ -140,7 +140,14 @@
             "deleteTooltip": "バーチャルルームバーチャル"
         },
         "sidebar": {
-            "waitingCaption": "入室するのを待っています"
+            "waitingCaption": "入室するのを待っています",
+            "tooltip": {
+                "waitingAccept": "ユーザーをさせる",
+                "waitingReject": "ユーザーを拒否する"
+            }
+        },
+        "snackbar": {
+            "waitingInfo": "待合室に誰かいるようです"
         }
     },
     "meetings": {
