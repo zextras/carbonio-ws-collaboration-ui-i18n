@@ -210,7 +210,8 @@
             "setInputs": "Set your input devices by choosing them from dropdown menu",
             "welcomeHint": "Click on “READY TO PARTICIPATE” to enter the meeting",
             "readyHint": "You will enter the meeting in a few moments",
-            "hangUp": "Hang up"
+            "hangUp": "Hang up",
+            "ready": "Ready to participate"
         }
     },
     "meetings": {
