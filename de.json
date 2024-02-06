@@ -138,6 +138,12 @@
         },
         "virtual": {
             "deleteTooltip": "Virtuellen Raum löschen"
+        },
+        "sidebar": {
+            "waitingCaption": "Warten auf den Eintritt",
+            "tooltip": {
+                "waitingAccept": "Benutzer hereinlassen"
+            }
         }
     },
     "meetings": {
