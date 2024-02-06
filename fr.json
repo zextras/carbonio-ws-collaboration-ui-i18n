@@ -307,8 +307,15 @@
         "sidebar": {
             "waitingCaption": "En attente pour entrer",
             "tooltip": {
-                "waitingAccept": "Laisser l'utilisateur entrer"
+                "waitingAccept": "Laisser l'utilisateur entrer",
+                "waitingReject": "Refuser l'utilisateur"
             }
+        },
+        "browserNotification": {
+            "waitingTitle": "Il semble que quelqu'un soit dans la salle d'attente"
+        },
+        "snackbar": {
+            "waitingInfo": "Il semblerai qu'il y ai quelqu'un dans la salle d'attente"
         }
     },
     "meetings": {
