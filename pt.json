@@ -235,7 +235,14 @@
             "deleteTooltip": "Apagar Sala Virtual"
         },
         "sidebar": {
-            "waitingCaption": "Aguardando para entrar"
+            "waitingCaption": "Aguardando para entrar",
+            "tooltip": {
+                "waitingAccept": "Permitir a entrada do usuário",
+                "waitingReject": "Rejeitar usuário"
+            }
+        },
+        "snackbar": {
+            "waitingInfo": "Parece que tem alguém na sala de espera"
         }
     },
     "meetings": {
