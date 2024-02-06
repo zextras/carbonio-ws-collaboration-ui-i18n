@@ -212,7 +212,8 @@
             "readyHint": "You will enter the meeting in a few moments",
             "hangUp": "Hang up",
             "ready": "Ready to participate",
-            "welcomeCaption": "When you're ready, get comfortable."
+            "welcomeCaption": "When you're ready, get comfortable.",
+            "nextStep": "A moderator will let you into the meeting as soon as possible."
         }
     },
     "meetings": {
