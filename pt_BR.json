@@ -249,6 +249,12 @@
         },
         "virtual": {
             "deleteTooltip": "Excluir Sala Virtual"
+        },
+        "sidebar": {
+            "waitingCaption": "Aguardando para entrar",
+            "tooltip": {
+                "waitingAccept": "Permitir a entrada do usuário"
+            }
         }
     },
     "tryLater": "Tente mais tarde",
