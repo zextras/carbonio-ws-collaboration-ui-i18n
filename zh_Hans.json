@@ -238,6 +238,12 @@
         },
         "virtual": {
             "deleteTooltip": "删除虚拟房间"
+        },
+        "sidebar": {
+            "waitingCaption": "等待进入",
+            "tooltip": {
+                "waitingAccept": "允许用户进入"
+            }
         }
     },
     "meetings": {
