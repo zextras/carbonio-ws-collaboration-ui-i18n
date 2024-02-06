@@ -295,8 +295,15 @@
         "sidebar": {
             "waitingCaption": "В ожидании входа",
             "tooltip": {
-                "waitingAccept": "Разрешить вход"
+                "waitingAccept": "Разрешить вход",
+                "waitingReject": "Отклонить вход пользователя"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "В комнате ожидания кто-то есть"
+        },
+        "browserNotification": {
+            "waitingTitle": "Кажется, в комнате ожидания кто-то есть"
         }
     },
     "thanksForParticipating": "До встречи",
