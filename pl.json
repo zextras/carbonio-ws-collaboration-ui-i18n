@@ -245,7 +245,10 @@
         "tooltip": {
             "activeSessionTooltip": "Masz aktywną sesję w tym spotkaniu"
         },
-        "openedInAnotherWindow": "To spotkanie jest już otwarte w innym oknie"
+        "openedInAnotherWindow": "To spotkanie jest już otwarte w innym oknie",
+        "sidebar": {
+            "waitingCaption": "Oczekiwanie na dołączenie"
+        }
     },
     "meetings": {
         "interactions": {
