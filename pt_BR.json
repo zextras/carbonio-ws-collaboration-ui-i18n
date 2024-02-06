@@ -253,8 +253,15 @@
         "sidebar": {
             "waitingCaption": "Aguardando para entrar",
             "tooltip": {
-                "waitingAccept": "Permitir a entrada do usuário"
+                "waitingAccept": "Permitir a entrada do usuário",
+                "waitingReject": "Rejeitar usuário"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "Parece que tem alguém na sala de espera"
+        },
+        "browserNotification": {
+            "waitingTitle": "Parece que tem alguém na sala de espera"
         }
     },
     "tryLater": "Tente mais tarde",
