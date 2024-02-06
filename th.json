@@ -145,8 +145,15 @@
         "sidebar": {
             "waitingCaption": "กำลังรอเข้า",
             "tooltip": {
-                "waitingAccept": "ให้ผู้ใช้เข้า"
+                "waitingAccept": "ให้ผู้ใช้เข้า",
+                "waitingReject": "ปฏิเสธผู้ใช้"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
+        },
+        "browserNotification": {
+            "waitingTitle": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
         }
     },
     "meetings": {
