@@ -151,6 +151,9 @@
         },
         "browserNotification": {
             "waitingTitle": "待合室に誰かいるようです"
+        },
+        "waitingRoom": {
+            "hangUp": "電話を切る"
         }
     },
     "meetings": {
