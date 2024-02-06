@@ -234,6 +234,9 @@
         },
         "virtual": {
             "deleteTooltip": "Virtual Room डिलीट करें"
+        },
+        "sidebar": {
+            "waitingCaption": "अंदर आने के इंतज़ार में"
         }
     },
     "external": {
