@@ -213,7 +213,8 @@
             "hangUp": "Hang up",
             "ready": "Ready to participate",
             "welcomeCaption": "When you're ready, get comfortable.",
-            "nextStep": "A moderator will let you into the meeting as soon as possible."
+            "nextStep": "A moderator will let you into the meeting as soon as possible.",
+            "readyCaption": "Everything is set! Make yourself comfortable."
         }
     },
     "meetings": {
