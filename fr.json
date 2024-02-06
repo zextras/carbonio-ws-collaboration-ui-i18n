@@ -315,7 +315,7 @@
             "waitingTitle": "Il semble que quelqu'un soit dans la salle d'attente"
         },
         "snackbar": {
-            "waitingInfo": "Il semblerai qu'il y ai quelqu'un dans la salle d'attente"
+            "waitingInfo": "Il semble que quelqu'un soit dans la salle d'attente"
         },
         "waitingRoom": {
             "setInputs": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
