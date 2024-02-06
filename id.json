@@ -137,6 +137,9 @@
         },
         "virtual": {
             "deleteTooltip": "Hapus Ruang Virtual"
+        },
+        "sidebar": {
+            "waitingCaption": "Menunggu masuk"
         }
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
