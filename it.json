@@ -297,8 +297,12 @@
         "sidebar": {
             "waitingCaption": "In attesa di entrare",
             "tooltip": {
-                "waitingAccept": "Fai entrare l'utente"
+                "waitingAccept": "Fai entrare l'utente",
+                "waitingReject": "Rifiuta utente"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "Sembra esserci qualcuno nella Stanza d'Attesa"
         }
     },
     "tryLater": "Riprova più tardi",
