@@ -246,6 +246,9 @@
         },
         "browserNotification": {
             "waitingTitle": "Parece que tem alguém na sala de espera"
+        },
+        "waitingRoom": {
+            "hangUp": "Desligar"
         }
     },
     "meetings": {
