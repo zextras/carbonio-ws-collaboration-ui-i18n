@@ -236,7 +236,17 @@
             "deleteTooltip": "Virtual Room डिलीट करें"
         },
         "sidebar": {
-            "waitingCaption": "अंदर आने के इंतज़ार में"
+            "waitingCaption": "अंदर आने के इंतज़ार में",
+            "tooltip": {
+                "waitingAccept": "यूज़र को अंदर आने दें",
+                "waitingReject": "यूज़र को रिजेक्ट करें"
+            }
+        },
+        "snackbar": {
+            "waitingInfo": "ऐसा लग रहा है कि वेटिंग रूम में कोई है"
+        },
+        "browserNotification": {
+            "waitingTitle": "ऐसा लग रहा है कि Waiting Room में कोई है"
         }
     },
     "external": {
