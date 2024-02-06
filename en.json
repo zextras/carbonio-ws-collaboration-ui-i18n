@@ -219,6 +219,9 @@
         "infoPage": {
             "title": {
                 "hangUp": "You hung up!"
+            },
+            "slogan": {
+                "hangUp": "Maybe next time"
             }
         }
     },
