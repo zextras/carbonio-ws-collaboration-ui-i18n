@@ -226,7 +226,8 @@
                 "rejected": "You access has been refused"
             },
             "description": {
-                "hangUp": "We look forward to seeing you participate in future meetings"
+                "hangUp": "We look forward to seeing you participate in future meetings",
+                "rejected": "The moderators have decided to deny your access to the meeting"
             }
         }
     },
