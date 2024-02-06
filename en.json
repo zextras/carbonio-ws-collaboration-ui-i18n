@@ -191,7 +191,8 @@
             "deleteModalTitle": "Delete {{roomName}} Virtual Room"
         },
         "sidebar": {
-            "waitingList": "Waiting list"
+            "waitingList": "Waiting list",
+            "waitingCaption": "Waiting to enter"
         }
     },
     "meetings": {
