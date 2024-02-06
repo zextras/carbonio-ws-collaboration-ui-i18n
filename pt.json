@@ -233,6 +233,9 @@
         },
         "virtual": {
             "deleteTooltip": "Apagar Sala Virtual"
+        },
+        "sidebar": {
+            "waitingCaption": "Aguardando para entrar"
         }
     },
     "meetings": {
