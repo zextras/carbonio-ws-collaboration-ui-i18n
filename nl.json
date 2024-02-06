@@ -247,6 +247,9 @@
         },
         "browserNotification": {
             "waitingTitle": "Er schijnt iemand in de Wachtruimte te zijn"
+        },
+        "waitingRoom": {
+            "hangUp": "Ophangen"
         }
     },
     "meetings": {
