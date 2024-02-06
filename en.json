@@ -215,6 +215,11 @@
             "welcomeCaption": "When you're ready, get comfortable.",
             "nextStep": "A moderator will let you into the meeting as soon as possible.",
             "readyCaption": "Everything is set! Make yourself comfortable."
+        },
+        "infoPage": {
+            "title": {
+                "hangUp": "You hung up!"
+            }
         }
     },
     "meetings": {
