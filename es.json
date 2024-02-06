@@ -251,6 +251,9 @@
         },
         "browserNotification": {
             "waitingTitle": "Hay alguien en la sala de espera"
+        },
+        "waitingRoom": {
+            "hangUp": "Colgar"
         }
     },
     "meetings": {
