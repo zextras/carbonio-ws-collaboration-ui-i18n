@@ -238,6 +238,12 @@
         },
         "virtual": {
             "deleteTooltip": "Eliminar Sala Virtual"
+        },
+        "sidebar": {
+            "tooltip": {
+                "waitingAccept": "Aceptar participante"
+            },
+            "waitingCaption": "Esperando para entrar"
         }
     },
     "meetings": {
