@@ -222,6 +222,9 @@
             },
             "slogan": {
                 "hangUp": "Maybe next time"
+            },
+            "description": {
+                "hangUp": "We look forward to seeing you participate in future meetings"
             }
         }
     },
