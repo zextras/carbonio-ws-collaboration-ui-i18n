@@ -324,7 +324,13 @@
         },
         "restartMeeting": "Toplantıyı yeniden başlat",
         "noMoreActiveSession": "Aynı toplantının birden fazla etkin oturumu olamaz",
-        "noTwoActiveSession": "Aynı toplantının iki etkin oturumu bir arada bulunamaz"
+        "noTwoActiveSession": "Aynı toplantının iki etkin oturumu bir arada bulunamaz",
+        "sidebar": {
+            "waitingCaption": "Girmek için bekleniyor",
+            "tooltip": {
+                "waitingAccept": "Kullanıcı girişine izin ver"
+            }
+        }
     },
     "meetings": {
         "interactions": {
