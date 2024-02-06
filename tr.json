@@ -333,7 +333,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "Bekleme odasında bekleyen kişi var"
+            "waitingInfo": "Bekleme Odasında bekleyen kişi var"
         },
         "browserNotification": {
             "waitingTitle": "Bekleme Odasında bekleyen kişi var"
