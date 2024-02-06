@@ -138,6 +138,9 @@
         },
         "virtual": {
             "deleteTooltip": "バーチャルルームバーチャル"
+        },
+        "sidebar": {
+            "waitingCaption": "入室するのを待っています"
         }
     },
     "meetings": {
