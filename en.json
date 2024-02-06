@@ -199,7 +199,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "There seems to be someone in the waiting room"
+            "waitingInfo": "There seems to be someone in the Waiting Room"
         },
         "browserNotification": {
             "waitingTitle": "There seems to be someone in the Waiting Room",
