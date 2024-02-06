@@ -247,6 +247,9 @@
         },
         "browserNotification": {
             "waitingTitle": "ऐसा लग रहा है कि Waiting Room में कोई है"
+        },
+        "waitingRoom": {
+            "hangUp": "हैंग अप करें"
         }
     },
     "external": {
