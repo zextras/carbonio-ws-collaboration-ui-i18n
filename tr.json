@@ -339,7 +339,8 @@
             "waitingTitle": "Bekleme Odasında bekleyen kişi var"
         },
         "waitingRoom": {
-            "setInputs": "Giriş cihazlarınızı açılır menüden seçerek ayarlayın"
+            "setInputs": "Giriş cihazlarınızı açılır menüden seçerek ayarlayın",
+            "hangUp": "Kapat"
         }
     },
     "meetings": {
