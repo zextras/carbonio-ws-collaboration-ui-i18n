@@ -148,6 +148,9 @@
         },
         "snackbar": {
             "waitingInfo": "待合室に誰かいるようです"
+        },
+        "browserNotification": {
+            "waitingTitle": "待合室に誰かいるようです"
         }
     },
     "meetings": {
