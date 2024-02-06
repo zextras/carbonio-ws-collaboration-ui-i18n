@@ -218,7 +218,8 @@
         },
         "infoPage": {
             "title": {
-                "hangUp": "You hung up!"
+                "hangUp": "You hung up!",
+                "rejected": "Maybe next time"
             },
             "slogan": {
                 "hangUp": "Maybe next time"
