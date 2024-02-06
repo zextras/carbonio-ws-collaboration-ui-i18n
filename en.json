@@ -206,7 +206,8 @@
             "waitingMessage": "New user is waiting to enter the meeting"
         },
         "waitingRoom": {
-            "title": "How do you want to join {{meetingName}} meeting?"
+            "title": "How do you want to join {{meetingName}} meeting?",
+            "setInputs": "Set your input devices by choosing them from dropdown menu"
         }
     },
     "meetings": {
