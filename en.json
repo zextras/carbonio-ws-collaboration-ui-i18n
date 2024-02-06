@@ -197,6 +197,9 @@
                 "waitingAccept": "Let user in",
                 "waitingReject": "Reject user"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "There seems to be someone in the waiting room"
         }
     },
     "meetings": {
