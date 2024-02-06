@@ -293,6 +293,12 @@
         "startMeeting": "Avvia meeting",
         "virtual": {
             "deleteTooltip": "Elimina Stanza Virtuale"
+        },
+        "sidebar": {
+            "waitingCaption": "In attesa di entrare",
+            "tooltip": {
+                "waitingAccept": "Fai entrare l'utente"
+            }
         }
     },
     "tryLater": "Riprova più tardi",
