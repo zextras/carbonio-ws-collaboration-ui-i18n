@@ -194,7 +194,8 @@
             "waitingList": "Waiting list",
             "waitingCaption": "Waiting to enter",
             "tooltip": {
-                "waitingAccept": "Let user in"
+                "waitingAccept": "Let user in",
+                "waitingReject": "Reject user"
             }
         }
     },
