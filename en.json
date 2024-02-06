@@ -189,6 +189,9 @@
             "copyLinkSnackbar": "Virtual Room’s link copied",
             "deleteSnackbar": "Virtual Room deleted successfully",
             "deleteModalTitle": "Delete {{roomName}} Virtual Room"
+        },
+        "sidebar": {
+            "waitingList": "Waiting list"
         }
     },
     "meetings": {
