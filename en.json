@@ -211,7 +211,8 @@
             "welcomeHint": "Click on “READY TO PARTICIPATE” to enter the meeting",
             "readyHint": "You will enter the meeting in a few moments",
             "hangUp": "Hang up",
-            "ready": "Ready to participate"
+            "ready": "Ready to participate",
+            "welcomeCaption": "When you're ready, get comfortable."
         }
     },
     "meetings": {
