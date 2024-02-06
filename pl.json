@@ -254,7 +254,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni"
+            "waitingInfo": "Wygląda na to, że ktoś znajduje się w Poczekalni"
         },
         "browserNotification": {
             "waitingTitle": "Wygląda na to, że ktoś znajduje się w Poczekalni"
