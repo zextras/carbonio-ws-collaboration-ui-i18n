@@ -200,6 +200,9 @@
         },
         "snackbar": {
             "waitingInfo": "There seems to be someone in the waiting room"
+        },
+        "browserNotification": {
+            "waitingTitle": "There seems to be someone in the Waiting Room"
         }
     },
     "meetings": {
