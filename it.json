@@ -308,7 +308,8 @@
             "waitingTitle": "Sembra esserci qualcuno nella Stanza d'Attesa"
         },
         "waitingRoom": {
-            "setInputs": "Imposta i tuoi dispositivi di input scegliendoli dal menù a tendina"
+            "setInputs": "Imposta i tuoi dispositivi di input scegliendoli dal menù a tendina",
+            "hangUp": "Aggancia"
         }
     },
     "tryLater": "Riprova più tardi",
