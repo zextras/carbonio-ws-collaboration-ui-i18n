@@ -141,6 +141,12 @@
         "joinMeeting": "เข้าร่วมการประชุม",
         "virtual": {
             "deleteTooltip": "ลบห้องเสมือนจริง"
+        },
+        "sidebar": {
+            "waitingCaption": "กำลังรอเข้า",
+            "tooltip": {
+                "waitingAccept": "ให้ผู้ใช้เข้า"
+            }
         }
     },
     "meetings": {
