@@ -328,8 +328,15 @@
         "sidebar": {
             "waitingCaption": "Girmek için bekleniyor",
             "tooltip": {
-                "waitingAccept": "Kullanıcı girişine izin ver"
+                "waitingAccept": "Kullanıcı girişine izin ver",
+                "waitingReject": "Kullanıcıyı reddet"
             }
+        },
+        "snackbar": {
+            "waitingInfo": "Bekleme odasında bekleyen kişi var"
+        },
+        "browserNotification": {
+            "waitingTitle": "Bekleme Odasında bekleyen kişi var"
         }
     },
     "meetings": {
