@@ -139,7 +139,17 @@
             "deleteTooltip": "Hapus Ruang Virtual"
         },
         "sidebar": {
-            "waitingCaption": "Menunggu masuk"
+            "waitingCaption": "Menunggu masuk",
+            "tooltip": {
+                "waitingAccept": "Izinkan pengguna masuk",
+                "waitingReject": "Tolak pengguna"
+            }
+        },
+        "snackbar": {
+            "waitingInfo": "Tampaknya ada seseorang di ruang tunggu"
+        },
+        "browserNotification": {
+            "waitingTitle": "Tampaknya ada seseorang di Ruang Tunggu"
         }
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
