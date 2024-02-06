@@ -303,6 +303,12 @@
         },
         "snackbar": {
             "waitingInfo": "Sembra esserci qualcuno nella Stanza d'Attesa"
+        },
+        "browserNotification": {
+            "waitingTitle": "Sembra esserci qualcuno nella Stanza d'Attesa"
+        },
+        "waitingRoom": {
+            "setInputs": "Imposta i tuoi dispositivi di input scegliendoli dal menù a tendina"
         }
     },
     "tryLater": "Riprova più tardi",
