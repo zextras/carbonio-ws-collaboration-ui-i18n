@@ -262,6 +262,9 @@
         },
         "browserNotification": {
             "waitingTitle": "Parece que tem alguém na sala de espera"
+        },
+        "waitingRoom": {
+            "hangUp": "Desligar"
         }
     },
     "tryLater": "Tente mais tarde",
