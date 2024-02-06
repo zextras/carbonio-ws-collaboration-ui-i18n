@@ -304,6 +304,9 @@
         },
         "browserNotification": {
             "waitingTitle": "Кажется, в комнате ожидания кто-то есть"
+        },
+        "waitingRoom": {
+            "hangUp": "Повесить трубку"
         }
     },
     "thanksForParticipating": "До встречи",
