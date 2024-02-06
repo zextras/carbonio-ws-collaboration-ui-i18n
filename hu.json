@@ -98,6 +98,12 @@
         "joinMeeting": "Belépés az értekezletre",
         "virtual": {
             "deleteTooltip": "Virtuális szoba törlése"
+        },
+        "snackbar": {
+            "waitingInfo": "Úgy tűnik, van valaki a váróban"
+        },
+        "browserNotification": {
+            "waitingTitle": "Úgy tűnik, van valaki a váróban"
         }
     },
     "external": {
