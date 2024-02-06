@@ -234,6 +234,9 @@
         },
         "virtual": {
             "deleteTooltip": "Virtuele ruimte verwijderen"
+        },
+        "sidebar": {
+            "waitingCaption": "Wachtend om binnen te gaan"
         }
     },
     "meetings": {
