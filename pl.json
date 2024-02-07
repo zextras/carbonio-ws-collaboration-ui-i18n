@@ -251,17 +251,40 @@
             "tooltip": {
                 "waitingAccept": "Wpuść użytkownika",
                 "waitingReject": "Odrzuć użytkownika"
-            }
+            },
+            "waitingList": "Lista oczekujących"
         },
         "snackbar": {
-            "waitingInfo": "Wygląda na to, że ktoś znajduje się w Poczekalni"
+            "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni"
         },
         "browserNotification": {
-            "waitingTitle": "Wygląda na to, że ktoś znajduje się w Poczekalni"
+            "waitingTitle": "Wygląda na to, że ktoś znajduje się w poczekalni",
+            "waitingMessage": "Nowy użytkownik czeka, aby dołączyć do pokoju"
         },
         "waitingRoom": {
             "setInputs": "Skonfiguruj swoje urządzenia wejściowe wybierając je z rozwijanego menu",
-            "hangUp": "Rozłącz się"
+            "hangUp": "Rozłącz się",
+            "title": "Jak chcesz dołączyć do spotkania {{meetingName}}?",
+            "welcomeHint": "Kliknij na \"GOTOWY DO UCZESTNICZENIA\", aby dołączyć do spotkania",
+            "readyHint": "Za chwilę dołączysz do spotkania",
+            "ready": "Gotowy do uczestniczenia",
+            "nextStep": "Moderator wpuści Cię do spotkania tak szybko jak to możliwe.",
+            "welcomeCaption": "Kiedy będziesz gotowy, odpręż się.",
+            "readyCaption": "Wszystko gotowe! Odpręż się."
+        },
+        "infoPage": {
+            "slogan": {
+                "hangUp": "Może następnym razem",
+                "rejected": "Nie udzielono Ci wejścia"
+            },
+            "description": {
+                "rejected": "Moderatorzy zdecydowali się odrzucić Twoją prośbę o dołączenie do spotkania",
+                "hangUp": "Z niecierpliwością czekamy aż pojawisz się na kolejnych spotkaniach"
+            },
+            "title": {
+                "hangUp": "Rozłączyłeś się.",
+                "rejected": "Może następnym razem"
+            }
         }
     },
     "meetings": {
