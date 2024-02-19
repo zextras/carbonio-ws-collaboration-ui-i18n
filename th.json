@@ -78,7 +78,10 @@
         "chooseConversationDescription": "เลือกการสนทนาเพื่อเริ่มการแชท",
         "keepInTouchTitle": "เรามาติดต่อกันเถอะ!",
         "newMessage": "ข้อความใหม่",
-        "newMessages": "ข้อความใหม่"
+        "newMessages": "ข้อความใหม่",
+        "selectionMode": {
+            "exit": "ออกจากโหมดการเลือก"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "การดำเนินการ",
