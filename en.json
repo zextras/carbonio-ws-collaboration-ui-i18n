@@ -72,7 +72,8 @@
         "newMessages": "New messages",
         "selectionMode": {
             "maxSelected": "The maximum number of messages that can be forwarded at the same time has been reached",
-            "multipleForward": "forward {{numberOfMessages}} messages"
+            "multipleForward": "forward {{numberOfMessages}} messages",
+            "exit": "Exit selection mode"
         }
     },
     "conversationFilter": {
