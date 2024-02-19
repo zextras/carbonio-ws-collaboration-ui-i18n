@@ -42,7 +42,10 @@
         "emptyListTitle": "Deze lijst is leeg",
         "mockCreateChatDescription": "Interageer, communiceer en werk samen met je collega 's door informatie en bijlagen te delen",
         "mockCreateChatTitle": "Maak een nieuwe chat met behulp van de knop Maken",
-        "newMessages": "﻿Nieuwe berichten"
+        "newMessages": "﻿Nieuwe berichten",
+        "selectionMode": {
+            "exit": "Selectiemodus verlaten"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "Acties",
