@@ -76,7 +76,10 @@
         "emptyListTitle": "यह लिस्ट खाली है",
         "mockCreateChatDescription": "जानकारी और अटैचमेंट शेयर करके अपने ऑफिस के लोगों से बात-चीत करें और साथ में काम करें",
         "mockCreateChatTitle": "बनाएँ बटन का उपयोग करके एक नई चैट बनाएं",
-        "newMessages": "नए मैसेज"
+        "newMessages": "नए मैसेज",
+        "selectionMode": {
+            "exit": "सिलेक्शन मोड से बाहर जाएँ"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "एक्शन्स",
