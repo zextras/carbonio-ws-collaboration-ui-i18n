@@ -106,7 +106,10 @@
         "emptyListTitle": "A lista está vazia",
         "mockCreateChatTitle": "Crie um novo Chat usando o botão criar",
         "newMessages": "Novas mensagens",
-        "mockCreateChatDescription": "Interaja, comunique e colabore com seus colegas partilhando informações e ficheiros"
+        "mockCreateChatDescription": "Interaja, comunique e colabore com seus colegas partilhando informações e ficheiros",
+        "selectionMode": {
+            "exit": "Sair do modo de seleção"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "Ações",
