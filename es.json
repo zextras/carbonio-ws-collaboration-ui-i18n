@@ -120,7 +120,10 @@
         "mockCreateChatDescription": "Interactúa, comunícate y colabora con tus colegas compartiendo información y archivos",
         "mockCreateChatTitle": "Crea un nuevo chat desde el botón Crear",
         "emptyListTitle": "La lista está vacía",
-        "newMessages": "Nuevos mensajes"
+        "newMessages": "Nuevos mensajes",
+        "selectionMode": {
+            "exit": "Salir de selección múltiple"
+        }
     },
     "date": {
         "yesterday": "Ayer",
