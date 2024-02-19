@@ -79,7 +79,10 @@
         "chooseConversationDescription": "Wählen Sie ein Gespräch, um einen Chat zu beginnen",
         "keepInTouchTitle": "Lassen Sie uns in Kontakt bleiben!",
         "newMessage": "Neue Nachricht",
-        "newMessages": "Neue Nachrichten"
+        "newMessages": "Neue Nachrichten",
+        "selectionMode": {
+            "exit": "Auswahlmodus verlassen"
+        }
     },
     "date": {
         "yesterday": "Gestern"
