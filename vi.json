@@ -30,7 +30,10 @@
         "newMessage": "Thư mới",
         "chooseConversationDescription": "Chọn cuộc hội thoại để bắt đầu trò chuyện",
         "keepInTouchTitle": "Hãy giữ liên lạc!",
-        "newMessages": "Tin nhắn mới"
+        "newMessages": "Tin nhắn mới",
+        "selectionMode": {
+            "exit": "Thoát khỏi chế độ đã chọn"
+        }
     },
     "tooltip": {
         "room": {
