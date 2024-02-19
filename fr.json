@@ -124,7 +124,10 @@
         "emptyListTitle": "Cette liste est vide",
         "mockCreateChatDescription": "Interagissez, communiquez et collaborez avec vos collègues en partageant des informations et des documents",
         "mockCreateChatTitle": "Créer une nouvelle discussion en utilisant le bouton créer",
-        "newMessages": "Nouveaux messages"
+        "newMessages": "Nouveaux messages",
+        "selectionMode": {
+            "exit": "Sortir du mode de sélection"
+        }
     },
     "date": {
         "yesterday": "Hier",
