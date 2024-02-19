@@ -69,7 +69,10 @@
         "mockCreateChatDescription": "Interact, communicate and collaborate with your colleagues by sharing information and attachments",
         "mockCreateChatTitle": "Create a new chat using the create button",
         "newMessage": "New message",
-        "newMessages": "New messages"
+        "newMessages": "New messages",
+        "selectionMode": {
+            "maxSelected": "The maximum number of messages that can be forwarded at the same time has been reached"
+        }
     },
     "conversationFilter": {
         "closeTooltip": "Close filter",
