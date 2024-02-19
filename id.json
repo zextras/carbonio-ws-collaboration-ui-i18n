@@ -60,7 +60,10 @@
         "chooseConversationDescription": "Pilih percakapan untuk memulai obrolan",
         "keepInTouchTitle": "Tetap terhubung!",
         "newMessage": "Pesan baru",
-        "newMessages": "pesan baru"
+        "newMessages": "pesan baru",
+        "selectionMode": {
+            "exit": "Keluar dari mode pemilihan"
+        }
     },
     "conversationInfo": {
         "info": "Info",
