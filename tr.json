@@ -53,7 +53,10 @@
         "emptyListTitle": "Bu liste boş",
         "mockCreateChatDescription": "Bilgi ve ekleri paylaşarak çalışma arkadaşlarınızla etkileşim ve iletişim kurun, işbirliği yapın",
         "mockCreateChatTitle": "Oluştur düğmesini kullanarak yeni bir sohbet oluşturun",
-        "newMessages": "Yeni mesajlar"
+        "newMessages": "Yeni mesajlar",
+        "selectionMode": {
+            "exit": "Seçme modundan çık"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "Eylemler",
