@@ -125,7 +125,10 @@
     },
     "conversation": {
         "chooseConversationDescription": "Csevegés indításához válasszon ki egy beszélgetést",
-        "keepInTouchTitle": "Maradjunk kapcsolatban!"
+        "keepInTouchTitle": "Maradjunk kapcsolatban!",
+        "selectionMode": {
+            "exit": "Kilépés a kiválasztási módból"
+        }
     },
     "date": {
         "yesterday": "Tegnap"
