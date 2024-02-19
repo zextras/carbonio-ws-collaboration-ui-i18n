@@ -169,7 +169,10 @@
         "emptyListTitle": "Questa lista è vuota",
         "mockCreateChatDescription": "interagisci, comunica e collabora con i tuoi colleghi condividendo informazioni e allegati",
         "mockCreateChatTitle": "Crea una nuova chat utilizzando il bottone crea",
-        "newMessages": "Nuovi messaggi"
+        "newMessages": "Nuovi messaggi",
+        "selectionMode": {
+            "exit": "Esci dalla modalità selezione"
+        }
     },
     "editModal": {
         "groupDescriptionDetails": "Descrive l'argomento del Gruppo",
