@@ -3,7 +3,10 @@
         "keepInTouchTitle": "連絡を取り合いましょう！",
         "newMessage": "新しいメッセージ",
         "chooseConversationDescription": "会話を選択してチャットを開始します",
-        "newMessages": "新しいメッセージ"
+        "newMessages": "新しいメッセージ",
+        "selectionMode": {
+            "exit": "選択モードを終了する"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "操作",
