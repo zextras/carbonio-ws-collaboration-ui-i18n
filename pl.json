@@ -132,7 +132,9 @@
         "mockCreateChatDescription": "Komunikuj się i współpracuj z innymi dzieląc się informacjami i załącznikami",
         "mockCreateChatTitle": "Stwórz nowy czat używając przycisku stwórz",
         "selectionMode": {
-            "exit": "Wyjdź z trybu wybierania"
+            "exit": "Wyjdź z trybu wybierania",
+            "maxSelected": "Osiągnięto maksymalną ilość wiadomości jakie mogą jednocześnie zostać przekazane dalej",
+            "multipleForward": "przekaż dalej {{numberOfMessages}} wiadomości"
         }
     },
     "conversationInfo": {
@@ -193,7 +195,8 @@
             "stopMic": "Zakończ testowanie mikrofonu",
             "disableMicrophone": "Wyłącz mikrofon",
             "disableFullScreen": "Wyłącz tryb pełnoekranowy",
-            "enableFullScreen": "Włącz tryb pełnoekranowy"
+            "enableFullScreen": "Włącz tryb pełnoekranowy",
+            "leaveConfirmation": "Opuścić spotkanie?"
         },
         "joinMeeting": "Dołącz do spotkania",
         "newMeetingNotification": {
