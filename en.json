@@ -225,11 +225,11 @@
         "infoPage": {
             "title": {
                 "hangUp": "You hung up!",
-                "rejected": "Maybe next time"
+                "rejected": "You access has been refused"
             },
             "slogan": {
                 "hangUp": "Maybe next time",
-                "rejected": "You access has been refused"
+                "rejected": "Maybe next time"
             },
             "description": {
                 "hangUp": "We look forward to seeing you participate in future meetings",
