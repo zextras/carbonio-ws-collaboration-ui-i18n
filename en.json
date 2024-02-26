@@ -225,7 +225,8 @@
         "infoPage": {
             "title": {
                 "hangUp": "You hung up!",
-                "rejected": "You access has been refused"
+                "rejected": "You access has been refused",
+                "meetingNotFound": "The meeting you are looking for does not exist"
             },
             "slogan": {
                 "hangUp": "Maybe next time",
