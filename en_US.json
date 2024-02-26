@@ -62,7 +62,8 @@
         "creation": {
             "newGroup": "New Group"
         },
-        "showPreviousConversationHistory": "Show previous conversation history"
+        "showPreviousConversationHistory": "Show previous conversation history",
+        "leaveGroup": "Leave conversation"
     },
     "status": {
         "lastSeen": "Last seen {{lastSeen}}",
