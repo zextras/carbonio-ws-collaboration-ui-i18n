@@ -230,7 +230,8 @@
             },
             "slogan": {
                 "hangUp": "Maybe next time",
-                "rejected": "Maybe next time"
+                "rejected": "Maybe next time",
+                "meetingNotFound": "try later"
             },
             "description": {
                 "hangUp": "We look forward to seeing you participate in future meetings",
