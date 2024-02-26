@@ -38,7 +38,7 @@
         "removeMember": "Retirer un membre",
         "showPreviousConversationHistory": "Afficher l'historique des conversations précédentes",
         "deleteGroup": "Supprimer le Groupe",
-        "deleteGroupLabel": "Êtes-vous sûr de vouloir supprimer ce Groupe ?",
+        "deleteGroupLabel": "Cette action affectera tous les membres du groupe et ne pourra pas être annulée. Êtes-vous sûr de vouloir supprimer ce groupe ?",
         "deleteMessageTitle": "Supprimer le message sélectionné ?",
         "deleteMessageTitleDescription": "Vous êtes sur le point de supprimez le message, celui-ci ne sera plus disponible",
         "deleteRoomLabel": "Êtes-vous sûr de vouloir supprimer cette Salle ?",
@@ -52,7 +52,8 @@
         "leaveRoom": "Quitter la Salle",
         "leaveRoomLabel": "Êtes-vous sûr de vouloir quitter cette Salle ?",
         "clearHistoryDescription": "Vous nettoyez l'historique de vos conversations, veuillez noter que cette action est irréversible. L'historique sera supprimé pour vous et non pour les autres membres.",
-        "leaveGroupLabel": "Êtes-vous sûr de vouloir quitter ce Groupe ?"
+        "leaveGroupLabel": "Êtes-vous sûr de vouloir quitter ce Groupe ?",
+        "deleteGroupMeetingOngoingLabel": "Une réunion est actuellement en cours. La suppression du groupe mettra fin à la réunion sans avertissement."
     },
     "settings": {
         "save": "Les modifications ont été enregistrées correctement",
@@ -126,7 +127,9 @@
         "mockCreateChatTitle": "Créer une nouvelle discussion en utilisant le bouton créer",
         "newMessages": "Nouveaux messages",
         "selectionMode": {
-            "exit": "Sortir du mode de sélection"
+            "exit": "Sortir du mode de sélection",
+            "maxSelected": "Le nombre maximum de messages pouvant être transférés en même temps a été atteint",
+            "multipleForward": "transférer {{numberOfMessages}} messages"
         }
     },
     "date": {
@@ -152,12 +155,15 @@
             "websocket": "Un problème est survenu lors de la connexion avec WEBSOCKET",
             "wsc": "Un problème est survenu lors de la connexion avec WSC",
             "xmpp": "Un problème est survenu lors de la connexion avec XMPP"
-        }
+        },
+        "networkProblems": "Il y a probablement un souci lors de l'utilisation de ce module. Essayez de rafraîchir la page."
     },
     "message": {
         "deletedMessage": "Message effacé",
         "draft": "brouillon",
-        "edited": "édité"
+        "edited": "édité",
+        "forwardedMultipleTimes": "Transmis plusieurs fois",
+        "originallySentBy": "Envoyé à l'origine par :"
     },
     "participantsList": {
         "closeSearch": "Fermer la recherche",
@@ -222,7 +228,9 @@
         "topOfList": "Haut de la liste",
         "bottomOfList": "Bas de la liste",
         "collapseSidebar": "Réduire la barre latérale",
-        "expandSidebar": "Agrandir la barre latérale"
+        "expandSidebar": "Agrandir la barre latérale",
+        "participantMuted": "Ce participant est en sourdine",
+        "youAreAlreadyMuted": "Vous êtes en sourdine"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} a commencé une discussion avec vous",
@@ -272,7 +280,10 @@
             "microphoneDisabled": "Microphone désactivé",
             "stopMic": "Arrêter le test du microphone",
             "playMic": "Lancer le test du microphone",
-            "disableScreen": "Désactiver le partage d'écran"
+            "disableScreen": "Désactiver le partage d'écran",
+            "leaveConfirmation": "Quitter la réunion ?",
+            "disableFullScreen": "Désactiver le plein écran",
+            "enableFullScreen": "Activer le plein écran"
         },
         "joinMeeting": "Rejoindre la réunion",
         "newMeetingNotification": {
@@ -299,30 +310,74 @@
         "ongoingOneToOneMeetingTooltip": "Vous avec déjà une réunion active avec {{name}}",
         "joinMeetingDescription": "Comment souhaitez-vous joindre cette réunion ?",
         "setInputDescription": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
-        "activeMeetingTooltip": "Il y a une réunion active pour ce groupe",
+        "activeMeetingTooltip": "Il y a une réunion active pour cette Discussion",
         "collapseChat": "Refermer la discussion",
         "collapseParticipantsMeetingTooltip": "Refermer la liste de participants",
         "expandChat": "Ouvrir la discussion",
         "expandParticipantsListTooltip": "Ouvrir la liste des participants",
         "virtual": {
-            "deleteTooltip": "Supprimer la Salle Virtuelle"
+            "deleteTooltip": "Supprimer la Salle Virtuelle",
+            "copyLinkTooltip": "Copier le lien de la Salle Virtuelle",
+            "nameRequiredTooltip": "Le nom de la Salle Virtuelle est obligatoire",
+            "createTooltip": "Créer une nouvelle Salle Virtuelle",
+            "invalidNameTooltip": "Nom invalide",
+            "deleteModalDescription": "Vous êtes sur le point de supprimez cette salle virtuelle, si elle contient des réunions actives, ces réunions seront interrompues et personne ne pourra plus y accéder. Souhaitez-vous poursuivre ?",
+            "deleteSnackbar": "La Salle Virtuelle a été supprimée avec succès",
+            "deleteModalTitle": "Supprimer la Salle Virtuelle {{roomName}}",
+            "copyLinkSnackbar": "Le lien de la Salle Virtuelle a été copié",
+            "creationInput": "Nom de la nouvelle salle virtuelle*",
+            "buttonLabel": "Vos salles virtuelles",
+            "emptyState": "Les salles virtuelles que vous créez seront affichées ici."
         },
         "sidebar": {
             "waitingCaption": "En attente pour entrer",
             "tooltip": {
                 "waitingAccept": "Laisser l'utilisateur entrer",
                 "waitingReject": "Refuser l'utilisateur"
-            }
+            },
+            "waitingList": "Liste d'attente"
         },
         "browserNotification": {
-            "waitingTitle": "Il semble que quelqu'un soit dans la salle d'attente"
+            "waitingTitle": "Il semble que quelqu'un soit dans la salle d'attente",
+            "waitingMessage": "Un nouvel utilisateur attend pour entre dans la réunion"
         },
         "snackbar": {
             "waitingInfo": "Il semble que quelqu'un soit dans la salle d'attente"
         },
         "waitingRoom": {
             "setInputs": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
-            "hangUp": "Raccrocher"
+            "hangUp": "Raccrocher",
+            "title": "Comment souhaitez-vous rejoindre la réunion {{meetingName}} ?",
+            "welcomeHint": "Cliquez sur \"PRÊT À PARTICIPER\" pour accéder à la réunion",
+            "readyHint": "Vous allez entrer dans la réunion dans quelques instants",
+            "ready": "Prêt à participer",
+            "welcomeCaption": "Lorsque vous êtes prêt, mettez-vous à l'aise.",
+            "nextStep": "Un modérateur vous fera entrer dans la réunion dès que possible.",
+            "readyCaption": "Tout est prêt ! Installez-vous confortablement."
+        },
+        "infoPage": {
+            "title": {
+                "hangUp": "Vous avez raccroché !",
+                "meetingNotFound": "La réunion que vous recherchez n'existe pas"
+            },
+            "slogan": {
+                "hangUp": "Peut-être la prochaine fois",
+                "meetingNotFound": "essayez plus tard"
+            },
+            "description": {
+                "hangUp": "Nous nous réjouissons de vous voir participer aux prochaines réunions",
+                "meetingNotFound": "Veuillez vérifier le lien de la réunion et réessayer"
+            }
+        },
+        "continueActiveSession": "Poursuivre la réunion dans la nouvelle fenêtre",
+        "noMoreActiveSession": "Il ne peut y avoir plus d'une session active de la même réunion",
+        "noTwoActiveSession": "Deux sessions actives de la même réunion ne peuvent coexister",
+        "openedInAnotherWindow": "Cette réunion est déjà ouverte dans une autre fenêtre",
+        "presentActiveSession": "Il y a une autre session active",
+        "rejoinMeeting": "Rejoindre la réunion",
+        "restartMeeting": "Relancer la réunion",
+        "tooltip": {
+            "activeSessionTooltip": "Vous avez une session active dans cette réunion"
         }
     },
     "meetings": {
