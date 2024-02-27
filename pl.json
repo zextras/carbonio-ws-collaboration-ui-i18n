@@ -180,7 +180,7 @@
     "meeting": {
         "interactions": {
             "cameraDisabled": "Wideo wyłączone",
-            "cameraEnabled": "Kamera włączona",
+            "cameraEnabled": "Wideo włączone",
             "enableCamera": "Włącz wideo",
             "enableMicrophone": "Włącz mikrofon",
             "microphoneEnabled": "Mikrofon włączony",
@@ -281,15 +281,18 @@
         "infoPage": {
             "slogan": {
                 "hangUp": "Może następnym razem",
-                "rejected": "Nie udzielono Ci wejścia"
+                "rejected": "Nie udzielono Ci wejścia",
+                "meetingNotFound": "spróbuj później"
             },
             "description": {
                 "rejected": "Moderatorzy zdecydowali się odrzucić Twoją prośbę o dołączenie do spotkania",
-                "hangUp": "Z niecierpliwością czekamy aż pojawisz się na kolejnych spotkaniach"
+                "hangUp": "Z niecierpliwością czekamy aż pojawisz się na kolejnych spotkaniach",
+                "meetingNotFound": "Sprawdź link do spotkania i spróbuj ponownie"
             },
             "title": {
                 "hangUp": "Rozłączyłeś się.",
-                "rejected": "Może następnym razem"
+                "rejected": "Może następnym razem",
+                "meetingNotFound": "Spotkanie, którego szukasz nie istnieje"
             }
         }
     },
