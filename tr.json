@@ -273,7 +273,8 @@
             "playMic": "Mikrofon testini başlat",
             "stopMic": "Mikrofon testini durdur",
             "disableFullScreen": "Tam ekran modunu devre dışı bırak",
-            "enableFullScreen": "Tam ekran modunu etkinleştir"
+            "enableFullScreen": "Tam ekran modunu etkinleştir",
+            "leaveConfirmation": "Toplantıdan çıkılsın mı?"
         },
         "joinMeeting": "Toplantıya katıl",
         "newMeetingNotification": {
@@ -333,17 +334,37 @@
             "tooltip": {
                 "waitingAccept": "Kullanıcı girişine izin ver",
                 "waitingReject": "Kullanıcıyı reddet"
-            }
+            },
+            "waitingList": "Bekleme listesi"
         },
         "snackbar": {
             "waitingInfo": "Bekleme Odasında bekleyen kişi var"
         },
         "browserNotification": {
-            "waitingTitle": "Bekleme Odasında bekleyen kişi var"
+            "waitingTitle": "Bekleme Odasında bekleyen kişi var",
+            "waitingMessage": "Yeni kullanıcı toplantıya girmek için bekliyor"
         },
         "waitingRoom": {
             "setInputs": "Giriş cihazlarınızı açılır menüden seçerek ayarlayın",
-            "hangUp": "Kapat"
+            "hangUp": "Kapat",
+            "title": "{{meetingName}} toplantısına nasıl katılmak istersiniz?",
+            "welcomeHint": "Toplantıya girmek için \"KATILMAYA HAZIR\" a tıklayın",
+            "readyHint": "Toplantıya birkaç dakika içinde gireceksiniz",
+            "ready": "Katılmaya hazır",
+            "welcomeCaption": "Hazır olduğunuzda.",
+            "nextStep": "Bir moderatör en kısa sürede toplantıya girmenize izin verecektir.",
+            "readyCaption": "Her şey hazır! Rahatınıza bakın."
+        },
+        "infoPage": {
+            "title": {
+                "hangUp": "Kapattınız!"
+            },
+            "slogan": {
+                "hangUp": "Bir dahaki sefere artık"
+            },
+            "description": {
+                "hangUp": "Gelecekteki toplantılara katılmanızı dört gözle bekliyoruz"
+            }
         }
     },
     "meetings": {
