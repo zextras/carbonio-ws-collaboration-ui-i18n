@@ -232,7 +232,8 @@
             "slogan": {
                 "hangUp": "Maybe next time",
                 "rejected": "Maybe next time",
-                "meetingNotFound": "try later"
+                "meetingNotFound": "try later",
+                "notAuthenticatedUser": "LOGIN TO ACCESS THE MEETING"
             },
             "description": {
                 "hangUp": "We look forward to seeing you participate in future meetings",
