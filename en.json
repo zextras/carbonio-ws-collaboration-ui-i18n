@@ -226,7 +226,8 @@
             "title": {
                 "hangUp": "You hung up!",
                 "rejected": "You access has been refused",
-                "meetingNotFound": "The meeting you are looking for does not exist"
+                "meetingNotFound": "The meeting you are looking for does not exist",
+                "notAuthenticatedUser": "You are not authenticated"
             },
             "slogan": {
                 "hangUp": "Maybe next time",
