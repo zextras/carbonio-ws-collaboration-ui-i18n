@@ -282,17 +282,20 @@
             "slogan": {
                 "hangUp": "Może następnym razem",
                 "rejected": "Nie udzielono Ci wejścia",
-                "meetingNotFound": "spróbuj później"
+                "meetingNotFound": "spróbuj później",
+                "notAuthenticatedUser": "ZALOGUJ SIĘ, ABY UCZESTNICZYĆ W SPOTKANIU"
             },
             "description": {
                 "rejected": "Moderatorzy zdecydowali się odrzucić Twoją prośbę o dołączenie do spotkania",
                 "hangUp": "Z niecierpliwością czekamy aż pojawisz się na kolejnych spotkaniach",
-                "meetingNotFound": "Sprawdź link do spotkania i spróbuj ponownie"
+                "meetingNotFound": "Sprawdź link do spotkania i spróbuj ponownie",
+                "notAuthenticatedUser": "Nie możesz dołączyć do spotkania jeśli nie jesteś zalogowany"
             },
             "title": {
                 "hangUp": "Rozłączyłeś się.",
                 "rejected": "Może następnym razem",
-                "meetingNotFound": "Spotkanie, którego szukasz nie istnieje"
+                "meetingNotFound": "Spotkanie, którego szukasz nie istnieje",
+                "notAuthenticatedUser": "Nie jesteś zalogowany"
             }
         }
     },
