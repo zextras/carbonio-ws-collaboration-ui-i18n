@@ -358,15 +358,18 @@
         "infoPage": {
             "title": {
                 "hangUp": "Vous avez raccroché !",
-                "meetingNotFound": "La réunion que vous recherchez n'existe pas"
+                "meetingNotFound": "La réunion que vous recherchez n'existe pas",
+                "notAuthenticatedUser": "Vous n'êtes pas authentifié"
             },
             "slogan": {
                 "hangUp": "Peut-être la prochaine fois",
-                "meetingNotFound": "essayez plus tard"
+                "meetingNotFound": "essayez plus tard",
+                "notAuthenticatedUser": "CONNEXION POUR ENTRER DANS LA RÉUNION"
             },
             "description": {
                 "hangUp": "Nous nous réjouissons de vous voir participer aux prochaines réunions",
-                "meetingNotFound": "Veuillez vérifier le lien de la réunion et réessayer"
+                "meetingNotFound": "Veuillez vérifier le lien de la réunion et réessayer",
+                "notAuthenticatedUser": "Vous ne pouvez pas participer à la réunion si vous n'êtes pas authentifié avec votre compte"
             }
         },
         "continueActiveSession": "Poursuivre la réunion dans la nouvelle fenêtre",
