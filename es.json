@@ -192,6 +192,14 @@
             "deletedUserImageCorrectly": "El avatar ha sido restablecido al original",
             "pictureSizeTooLarge": "Algo ha salido mal. El tamaño máximo del avatar del grupo es de {{size}} kb",
             "updatedPictureCorrectly": "El avatar ha sido cargado correctamente"
+        },
+        "meetings": {
+            "title": "Reuniones",
+            "description": "Configura tus preferencias de audio y vídeo para entrar en las reuniones. Siempre podrás configurar tus preferencias antes de entrar en cualquier reunión."
+        },
+        "recording": {
+            "inputLabel": "Carpeta de destino",
+            "title": "Grabando"
         }
     },
     "status": {
