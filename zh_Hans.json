@@ -94,6 +94,13 @@
             "updatedPictureCorrectly": "新头像已成功上传",
             "deletedUserImageCorrectly": "头像已成功重置为原始选项",
             "pictureSizeTooLarge": "出现错误，群组头像图像的最大大小为{{size}}kb"
+        },
+        "meetings": {
+            "title": "会议",
+            "description": "设置音频和视频首选项以进入会议。在加入每个会议之前您都可以随时自定义首选项。"
+        },
+        "recording": {
+            "title": "录制"
         }
     },
     "status": {
