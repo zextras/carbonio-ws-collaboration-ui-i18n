@@ -253,7 +253,8 @@
         },
         "recordingHint": "This meeting is being recorded",
         "recordingStart": {
-            "successSnackbar": "The recording of the “{{roomName}}” meeting has started"
+            "successSnackbar": "The recording of the “{{roomName}}” meeting has started",
+            "failureSnackbar": "It is not possible to start the registration, please contact your system administrator."
         }
     },
     "meetings": {
