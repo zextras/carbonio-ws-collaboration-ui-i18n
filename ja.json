@@ -36,7 +36,10 @@
             "title": "プロファイル"
         },
         "save": "編集内容が保存されました",
-        "title": "チャットの設定"
+        "title": "チャットの設定",
+        "meetings": {
+            "title": "会議"
+        }
     },
     "tooltip": {
         "goToPrivateChat": "プライベートチャットに進む",
