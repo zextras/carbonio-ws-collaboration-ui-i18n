@@ -114,7 +114,11 @@
             "title": "Profil"
         },
         "save": "Hasil edit disimpan dengan benar",
-        "title": "Pengaturan Chats"
+        "title": "Pengaturan Chats",
+        "meetings": {
+            "description": "Tetapkan preferensi audio dan video untuk masuk ke rapat. Anda dapat menyesuaikan preferensi kapan saja sebelum bergabung ke setiap rapat.",
+            "title": "Rapat"
+        }
     },
     "status": {
         "lastSeen": "Terakhir dilihat {{lastSeen}}",
