@@ -84,7 +84,8 @@
             "description": "Définissez vos préférences audio et vidéo pour entrer dans les réunions. Vous pouvez toujours personnaliser vos préférences avant de vous joindre à chaque réunion."
         },
         "recording": {
-            "title": "Enregistrement"
+            "title": "Enregistrement",
+            "inputLabel": "Dossier de destination"
         }
     },
     "action": {
@@ -406,7 +407,9 @@
         "recordingModal": {
             "title": "Arrêter l'enregistrement",
             "description": "Vous êtes sur le point d'arrêter l'enregistrement. Vous pouvez en démarrer un nouveau à tout moment.",
-            "caption": "L'enregistrement sera sauvé dans le dossier “{{folderName}}”."
+            "caption": "L'enregistrement sera sauvé dans le dossier “{{folderName}}”.",
+            "confirmationAction": "ARRÊTER",
+            "inputLabel": "Nom de l'enregistrement"
         }
     },
     "meetings": {
