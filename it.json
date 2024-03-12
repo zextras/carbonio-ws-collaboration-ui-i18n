@@ -322,7 +322,11 @@
                 "waitingAccept": "Fai entrare l'utente",
                 "waitingReject": "Rifiuta utente"
             },
-            "waitingList": "Lista d'attesa"
+            "waitingList": "Lista d'attesa",
+            "recording": {
+                "title": "Registrazione",
+                "description": "La registrazione verrà salvata all'interno dello spazio Files del moderatore che l'ha terminata."
+            }
         },
         "snackbar": {
             "waitingInfo": "Sembra esserci qualcuno nella Stanza d'Attesa"
@@ -365,7 +369,8 @@
         "restartMeeting": "Riavvia il meeting",
         "tooltip": {
             "activeSessionTooltip": "Hai una sessione attiva in questo meeting"
-        }
+        },
+        "recordingHint": "Registrazione della riunione in corso"
     },
     "tryLater": "Riprova più tardi",
     "external": {
