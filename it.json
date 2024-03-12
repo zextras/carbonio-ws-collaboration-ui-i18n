@@ -225,7 +225,8 @@
             "title": "Riunioni"
         },
         "recording": {
-            "title": "Registrazione"
+            "title": "Registrazione",
+            "inputLabel": "Cartella di destinazione"
         }
     },
     "status": {
@@ -383,7 +384,8 @@
         },
         "recordingModal": {
             "title": "Termina la registrazione",
-            "description": "Stai per terminare la registrazione. Potrai iniziarne una nuova in qualsiasi momento."
+            "description": "Stai per terminare la registrazione. Potrai iniziarne una nuova in qualsiasi momento.",
+            "inputLabel": "Nome Registrazione"
         }
     },
     "tryLater": "Riprova più tardi",
