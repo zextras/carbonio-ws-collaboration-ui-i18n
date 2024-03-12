@@ -165,7 +165,14 @@
         "waitingRoom": {
             "hangUp": "วางสาย"
         },
-        "recordingHint": "กำลังบันทึกการประชุมนี้อยู่"
+        "recordingHint": "กำลังบันทึกการประชุมนี้อยู่",
+        "recordingStart": {
+            "failureSnackbar": "ไม่สามารถเริ่มการลงทะเบียนได้ โปรดติดต่อผู้ดูแลระบบของคุณ"
+        },
+        "recordingModal": {
+            "title": "หยุดการบันทึก",
+            "description": "คุณจะหยุดการบันทึก คุณสามารถเริ่มต้นใหม่ได้ตลอดเวลา"
+        }
     },
     "meetings": {
         "interactions": {
