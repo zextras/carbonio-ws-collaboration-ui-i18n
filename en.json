@@ -204,7 +204,8 @@
                 "waitingReject": "Reject user"
             },
             "recording": {
-                "title": "Recording"
+                "title": "Recording",
+                "moderatorInfo": "has started recording"
             }
         },
         "snackbar": {
