@@ -109,6 +109,14 @@
             "deletedUserImageCorrectly": "Awatar został zresetowany do oryginalnego",
             "updatedPictureCorrectly": "Nowy awatar został przesłany",
             "pictureSizeTooLarge": "Coś poszło nie tak. Pamiętaj, że max. rozmiar obrazu grupy to {{size}}kb"
+        },
+        "meetings": {
+            "title": "Spotkania",
+            "description": "Ustaw swoje preferencje dźwięku i wideo, aby dołączyć do spotkania. Możesz dostosować swoje preferencje przez dołączeniem do każdego spotkania."
+        },
+        "recording": {
+            "inputLabel": "Folder docelowy",
+            "title": "Nagrywanie"
         }
     },
     "tryLater": "Spróbuj później",
@@ -305,7 +313,8 @@
         "recordingHint": "To spotkanie jest nagrywane",
         "recordingModal": {
             "title": "Zatrzymaj nagrywanie",
-            "description": "Za chwilę zatrzymasz nagrywanie. Możesz rozpocząć nowe kiedykolwiek będziesz chciał."
+            "description": "Za chwilę zatrzymasz nagrywanie. Możesz rozpocząć nowe kiedykolwiek będziesz chciał.",
+            "inputLabel": "Nazwa nagrania"
         },
         "recordingStart": {
             "failureSnackbar": "Nie można rozpocząć nagrywania, skontaktuj się z administratorem systemu."
