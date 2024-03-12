@@ -345,7 +345,12 @@
             "waitingList": "Liste d'attente",
             "recording": {
                 "title": "Enregistrement",
-                "description": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui l'arrêtera."
+                "description": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui l'arrêtera.",
+                "moderatorInfo": "a lancé l'enregistrement",
+                "action": {
+                    "start": "LANCER",
+                    "stop": "ARRÊTER"
+                }
             }
         },
         "browserNotification": {
@@ -395,11 +400,13 @@
         },
         "recordingHint": "Cette réunion est enregistrée",
         "recordingStart": {
-            "failureSnackbar": "Il n'est pas possible de lancer l'enregistrement, merci de contacter votre administrateur système."
+            "failureSnackbar": "Il n'est pas possible de lancer l'enregistrement, merci de contacter votre administrateur système.",
+            "successSnackbar": "L'enregistrement de la réunion “{{roomName}}” a été lancé"
         },
         "recordingModal": {
             "title": "Arrêter l'enregistrement",
-            "description": "Vous êtes sur le point d'arrêter l'enregistrement. Vous pouvez en démarrer un nouveau à tout moment."
+            "description": "Vous êtes sur le point d'arrêter l'enregistrement. Vous pouvez en démarrer un nouveau à tout moment.",
+            "caption": "L'enregistrement sera sauvé dans le dossier “{{folderName}}”."
         }
     },
     "meetings": {
