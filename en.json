@@ -257,7 +257,8 @@
             "failureSnackbar": "It is not possible to start the registration, please contact your system administrator."
         },
         "recordingModal": {
-            "title": "Stop recording"
+            "title": "Stop recording",
+            "description": "You are going to stop the recording. You can start a new one at any time."
         }
     },
     "meetings": {
