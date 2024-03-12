@@ -315,7 +315,14 @@
         "waitingRoom": {
             "hangUp": "Повесить трубку"
         },
-        "recordingHint": "Идет запись"
+        "recordingHint": "Идет запись",
+        "recordingModal": {
+            "title": "Остановить запись",
+            "description": "Вы собираетесь остановить запись. Вы можете начать новую запись в любой момент."
+        },
+        "recordingStart": {
+            "failureSnackbar": "Невозможно начать запись, обратитесь к системному администратору."
+        }
     },
     "thanksForParticipating": "До встречи",
     "external": {
