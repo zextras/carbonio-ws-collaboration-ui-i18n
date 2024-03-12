@@ -364,7 +364,8 @@
             "description": "Set your audio and video preferences to enter the meetings. You can always customize your preferences before joining every meeting."
         },
         "recording": {
-            "title": "Recording"
+            "title": "Recording",
+            "description": "Set a custom folder where to save the recordings of the meetings you stop."
         }
     },
     "snackbar": {
