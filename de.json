@@ -147,6 +147,10 @@
             "tooltip": {
                 "waitingAccept": "Benutzer hereinlassen",
                 "waitingReject": "Benutzer ablehnen"
+            },
+            "recording": {
+                "title": "Aufnahme",
+                "description": "Die Aufnahme wird im Files Space des Moderators gespeichert werden, der diese beendet hat."
             }
         },
         "snackbar": {
@@ -157,7 +161,8 @@
         },
         "waitingRoom": {
             "hangUp": "Auflegen"
-        }
+        },
+        "recordingHint": "Diese Sitzung wird aufgezeichnet"
     },
     "meetings": {
         "interactions": {
