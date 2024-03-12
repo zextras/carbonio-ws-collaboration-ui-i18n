@@ -273,7 +273,8 @@
         "recordingHint": "Esta reunión está siendo grabada",
         "recordingModal": {
             "description": "Estás a punto de detener la grabación. Puedes comenzar a grabar de nuevo en cualquier momento.",
-            "title": "Detener grabación"
+            "title": "Detener grabación",
+            "inputLabel": "Nombre del archivo"
         },
         "recordingStart": {
             "failureSnackbar": "No es posible iniciar la grabación. Contacta con el administrador del sistema."
