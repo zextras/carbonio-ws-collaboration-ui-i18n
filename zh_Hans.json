@@ -247,6 +247,10 @@
             "tooltip": {
                 "waitingAccept": "允许用户进入",
                 "waitingReject": "拒绝用户"
+            },
+            "recording": {
+                "title": "录制",
+                "description": "录制将被保存在将其停止的主持人的文件空间中。"
             }
         },
         "snackbar": {
@@ -257,7 +261,8 @@
         },
         "waitingRoom": {
             "hangUp": "挂断"
-        }
+        },
+        "recordingHint": "正在录制此会议"
     },
     "meetings": {
         "interactions": {
