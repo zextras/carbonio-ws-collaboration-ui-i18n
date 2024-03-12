@@ -147,6 +147,10 @@
             "tooltip": {
                 "waitingAccept": "ユーザーをさせる",
                 "waitingReject": "ユーザーを拒否する"
+            },
+            "recording": {
+                "title": "録音中",
+                "description": "録音は、停止したモデレーターのファイルスペースに保存されます。"
             }
         },
         "snackbar": {
