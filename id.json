@@ -118,6 +118,10 @@
         "meetings": {
             "description": "Tetapkan preferensi audio dan video untuk masuk ke rapat. Anda dapat menyesuaikan preferensi kapan saja sebelum bergabung ke setiap rapat.",
             "title": "Rapat"
+        },
+        "recording": {
+            "inputLabel": "Folder tujuan",
+            "title": "Rekaman"
         }
     },
     "status": {
@@ -171,7 +175,8 @@
         },
         "recordingModal": {
             "title": "Hentikan rekaman",
-            "description": "Anda akan menghentikan rekaman. Anda bisa memulai yang baru kapan saja."
+            "description": "Anda akan menghentikan rekaman. Anda bisa memulai yang baru kapan saja.",
+            "inputLabel": "Nama Rekaman"
         }
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
