@@ -335,7 +335,11 @@
                 "waitingAccept": "Kullanıcı girişine izin ver",
                 "waitingReject": "Kullanıcıyı reddet"
             },
-            "waitingList": "Bekleme listesi"
+            "waitingList": "Bekleme listesi",
+            "recording": {
+                "title": "Kayıt yapılıyor",
+                "description": "Ses Kayıt dosyası kayıt işlemini durduran moderatörün Dosyalar alanına kaydedilecek."
+            }
         },
         "snackbar": {
             "waitingInfo": "Bekleme Odasında bekleyen kişi var"
@@ -365,7 +369,8 @@
             "description": {
                 "hangUp": "Gelecekteki toplantılara katılmanızı dört gözle bekliyoruz"
             }
-        }
+        },
+        "recordingHint": "Bu toplantı kayıt ediliyor"
     },
     "meetings": {
         "interactions": {
