@@ -100,7 +100,8 @@
             "description": "设置音频和视频首选项以进入会议。在加入每个会议之前您都可以随时自定义首选项。"
         },
         "recording": {
-            "title": "录制"
+            "title": "录制",
+            "inputLabel": "目标文件夹"
         }
     },
     "status": {
@@ -275,7 +276,8 @@
         },
         "recordingModal": {
             "title": "停止录制",
-            "description": "您即将停止录制。您可随时开始新录制。"
+            "description": "您即将停止录制。您可随时开始新录制。",
+            "inputLabel": "录制名称"
         }
     },
     "meetings": {
