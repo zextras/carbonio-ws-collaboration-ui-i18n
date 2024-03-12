@@ -162,7 +162,14 @@
         "waitingRoom": {
             "hangUp": "Auflegen"
         },
-        "recordingHint": "Diese Sitzung wird aufgezeichnet"
+        "recordingHint": "Diese Sitzung wird aufgezeichnet",
+        "recordingStart": {
+            "failureSnackbar": "Es ist nicht möglich, die Registrierung zu starten, wenden Sie sich bitte an Ihren Systemadministrator."
+        },
+        "recordingModal": {
+            "title": "Aufnahme anhalten",
+            "description": "Sie werden die Aufnahme anhalten. Sie können eine neue Aufnahme jederzeit starten."
+        }
     },
     "meetings": {
         "interactions": {
