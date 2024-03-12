@@ -370,7 +370,14 @@
         "tooltip": {
             "activeSessionTooltip": "Hai una sessione attiva in questo meeting"
         },
-        "recordingHint": "Registrazione della riunione in corso"
+        "recordingHint": "Registrazione della riunione in corso",
+        "recordingStart": {
+            "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema."
+        },
+        "recordingModal": {
+            "title": "Termina la registrazione",
+            "description": "Stai per terminare la registrazione. Potrai iniziarne una nuova in qualsiasi momento."
+        }
     },
     "tryLater": "Riprova più tardi",
     "external": {
