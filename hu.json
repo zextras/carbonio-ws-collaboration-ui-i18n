@@ -123,7 +123,8 @@
         },
         "recordingModal": {
             "title": "Felvétel leállítása",
-            "description": "Leállítja a felvételt. Bármikor kezdhet egy újat."
+            "description": "Leállítja a felvételt. Bármikor kezdhet egy újat.",
+            "inputLabel": "Név rögzítése"
         }
     },
     "external": {
