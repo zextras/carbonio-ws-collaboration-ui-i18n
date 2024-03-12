@@ -168,6 +168,14 @@
             "deletedUserImageCorrectly": "Profil resmi başarıyla orijinaline sıfırlandı",
             "pictureSizeTooLarge": "Bir sorun oluştu, Grup profil resmi için maksimum boyutun {{size}}kb olduğunu unutmayın",
             "updatedPictureCorrectly": "Yeni profil resmi başarıyla yüklendi"
+        },
+        "meetings": {
+            "title": "Toplantılar",
+            "description": "Toplantılara katılırken kullanacağınız ses ve görüntü tercihlerinizi ayarlayın. Her toplantıya katılmadan önce tercihlerinizi değiştirebilirsiniz."
+        },
+        "recording": {
+            "inputLabel": "Hedef klasör",
+            "title": "Kayıt yapılıyor"
         }
     },
     "status": {
