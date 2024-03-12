@@ -358,7 +358,10 @@
             "updatedPictureCorrectly": "New avatar has been successfully uploaded"
         },
         "save": "Edits saved correctly",
-        "title": "Chats settings"
+        "title": "Chats settings",
+        "meetings": {
+            "title": "Meetings"
+        }
     },
     "snackbar": {
         "mutedByModerator": "You've been muted by a moderator, unmute yourself to speak"
