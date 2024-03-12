@@ -108,7 +108,15 @@
             "title": "Hồ sơ"
         },
         "save": "Chỉnh sửa được lưu chính xác",
-        "title": "Cài đặt cuộc trò chuyện"
+        "title": "Cài đặt cuộc trò chuyện",
+        "meetings": {
+            "title": "Các cuộc họp",
+            "description": "Đặt tùy chọn âm thanh và video của bạn để tham gia cuộc họp. Bạn luôn có thể tùy chỉnh tùy chọn của mình trước khi tham gia bất kỳ cuộc họp nào."
+        },
+        "recording": {
+            "title": "đang ghi",
+            "inputLabel": "Thư mục đích"
+        }
     },
     "status": {
         "lastSeen": "Lần xem cuối {{lastSeen}}",
