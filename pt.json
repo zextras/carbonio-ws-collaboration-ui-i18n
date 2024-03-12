@@ -96,6 +96,14 @@
             "deletedUserImageCorrectly": "O avatar foi redefinido com sucesso para o original",
             "pictureSizeTooLarge": "Ocorreu um erro. Lembre-se de que o tamanho máximo da imagem de avatar de um grupo é {{size}}kb",
             "updatedPictureCorrectly": "O novo avatar foi carregado com sucesso"
+        },
+        "meetings": {
+            "title": "Reuniões",
+            "description": "Defina as suas preferências de áudio e vídeo para entrar nas reuniões. Pode sempre personalizar as suas preferências antes de entrar em cada reunião."
+        },
+        "recording": {
+            "inputLabel": "Pasta de destino",
+            "title": "Gravando"
         }
     },
     "conversation": {
@@ -260,7 +268,8 @@
         "recordingHint": "Esta reunião está sendo gravada",
         "recordingModal": {
             "title": "Parar gravação",
-            "description": "Você vai parar a gravação. É possível iniciar uma nova a qualquer momento."
+            "description": "Você vai parar a gravação. É possível iniciar uma nova a qualquer momento.",
+            "inputLabel": "Nome da Gravação"
         },
         "recordingStart": {
             "failureSnackbar": "Não é possível iniciar a gravação, entre em contato com o administrador do seu sistema."
