@@ -114,7 +114,14 @@
                 "description": "A felvétel annak a moderátornak a Fájlok mezőjébe kerül mentésre, aki leállította."
             }
         },
-        "recordingHint": "Az értekezlet rögzítése folyamatban van"
+        "recordingHint": "Az értekezlet rögzítése folyamatban van",
+        "recordingStart": {
+            "failureSnackbar": "Nem lehet elindítani a regisztrációt, kérjük, lépjen kapcsolatba a rendszergazdával."
+        },
+        "recordingModal": {
+            "title": "Felvétel leállítása",
+            "description": "Leállítja a felvételt. Bármikor kezdhet egy újat."
+        }
     },
     "external": {
         "nobodyInTheRoom": "Úgy tűnik, senki sincs ebben a szobában",
