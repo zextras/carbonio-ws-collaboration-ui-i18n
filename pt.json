@@ -259,7 +259,8 @@
         },
         "recordingHint": "Esta reunião está sendo gravada",
         "recordingModal": {
-            "title": "Parar gravação"
+            "title": "Parar gravação",
+            "description": "Você vai parar a gravação. É possível iniciar uma nova a qualquer momento."
         },
         "recordingStart": {
             "failureSnackbar": "Não é possível iniciar a gravação, entre em contato com o administrador do seu sistema."
