@@ -247,7 +247,11 @@
                 "waitingAccept": "Aceptar participante",
                 "waitingReject": "Rechazar usuario"
             },
-            "waitingCaption": "Esperando para entrar"
+            "waitingCaption": "Esperando para entrar",
+            "recording": {
+                "title": "Grabando",
+                "description": "La grabación se guardará en una carpeta en Files del moderador que la detuvo."
+            }
         },
         "snackbar": {
             "waitingInfo": "Hay alguien en la sala de espera"
@@ -257,7 +261,8 @@
         },
         "waitingRoom": {
             "hangUp": "Colgar"
-        }
+        },
+        "recordingHint": "Esta reunión está siendo grabada"
     },
     "meetings": {
         "interactions": {
