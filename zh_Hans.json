@@ -262,7 +262,14 @@
         "waitingRoom": {
             "hangUp": "挂断"
         },
-        "recordingHint": "正在录制此会议"
+        "recordingHint": "正在录制此会议",
+        "recordingStart": {
+            "failureSnackbar": "无法开始注册，请联系您的系统管理员。"
+        },
+        "recordingModal": {
+            "title": "停止录制",
+            "description": "您即将停止录制。您可随时开始新录制。"
+        }
     },
     "meetings": {
         "interactions": {
