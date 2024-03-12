@@ -95,6 +95,10 @@
         "profile": {
             "errorGenericResponse": "Nešto je pošlo po zlu. Pokušaj ponovo",
             "title": "Profil"
+        },
+        "meetings": {
+            "title": "Sastanci",
+            "description": "Postavi svoje audio i video postavke za ulazak na sastanke. Uvijek možeš prilagoditi svoje postavke prije nego što se pridružiš sastanku."
         }
     },
     "status": {
