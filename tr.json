@@ -384,7 +384,8 @@
         },
         "recordingModal": {
             "title": "Ses kaydını durdur",
-            "description": "Ses kayıt işlemini durduruyorsunuz. İstediğiniz zaman yeni kayıt başlatabilirsiniz."
+            "description": "Ses kayıt işlemini durduruyorsunuz. İstediğiniz zaman yeni kayıt başlatabilirsiniz.",
+            "inputLabel": "Ses Kayıt Adı"
         }
     },
     "meetings": {
