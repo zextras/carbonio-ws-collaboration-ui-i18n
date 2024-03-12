@@ -155,7 +155,14 @@
         "waitingRoom": {
             "hangUp": "Nhấc máy"
         },
-        "recordingHint": "Cuộp họp đang được ghi"
+        "recordingHint": "Cuộp họp đang được ghi",
+        "recordingStart": {
+            "failureSnackbar": "Không thể bắt đầu đăng ký, vui lòng liên hệ với quản trị viên hệ thống của bạn."
+        },
+        "recordingModal": {
+            "title": "Dừng ghi",
+            "description": "Bạn sẽ dừng ghi. Bạn có thể bắt đầu bản ghi mới bất cứ lúc nào."
+        }
     },
     "meetings": {
         "interactions": {
