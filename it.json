@@ -219,6 +219,13 @@
             "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar di un Gruppo è {{size}}kb",
             "updatedPictureCorrectly": "Nuovo avatar caricato con successo",
             "deletedImageCorrectly": "L'immagine profilo del gruppo è stata ripristinata con successo alla versione originale"
+        },
+        "meetings": {
+            "description": "Imposta le tue preferenze audio e video per partecipare alle riunioni. Potrai sempre personalizzarle prima di ogni riunione.",
+            "title": "Riunioni"
+        },
+        "recording": {
+            "title": "Registrazione"
         }
     },
     "status": {
