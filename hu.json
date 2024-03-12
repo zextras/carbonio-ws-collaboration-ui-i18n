@@ -107,7 +107,14 @@
         },
         "waitingRoom": {
             "hangUp": "Vonal bontása"
-        }
+        },
+        "sidebar": {
+            "recording": {
+                "title": "Rögzítés",
+                "description": "A felvétel annak a moderátornak a Fájlok mezőjébe kerül mentésre, aki leállította."
+            }
+        },
+        "recordingHint": "Az értekezlet rögzítése folyamatban van"
     },
     "external": {
         "nobodyInTheRoom": "Úgy tűnik, senki sincs ebben a szobában",
