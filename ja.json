@@ -38,7 +38,12 @@
         "save": "編集内容が保存されました",
         "title": "チャットの設定",
         "meetings": {
-            "title": "会議"
+            "title": "会議",
+            "description": "オーディオとビデオを設定して、会議に参加しましょう。あらゆる会議に参加する前に、いつでも設定をカスタマイズできます。"
+        },
+        "recording": {
+            "title": "録音中",
+            "inputLabel": "宛先フォルダ"
         }
     },
     "tooltip": {
@@ -171,7 +176,8 @@
         },
         "recordingModal": {
             "title": "録音を停止する",
-            "description": "録音を停止します。 いつでも新らたに録音開始できます。"
+            "description": "録音を停止します。 いつでも新らたに録音開始できます。",
+            "inputLabel": "録音名"
         }
     },
     "meetings": {
