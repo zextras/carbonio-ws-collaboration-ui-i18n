@@ -264,6 +264,11 @@
             "confirmationAction": "STOP",
             "requiredNameError": "The recording file name is required",
             "exceededCharsError": "The recording file name must not exceed 128 characters"
+        },
+        "recordingStop": {
+            "successSnackbar": {
+                "stopper": "You will find {{recordingName}} in {{folderName}} as soon as it is available"
+            }
         }
     },
     "meetings": {
