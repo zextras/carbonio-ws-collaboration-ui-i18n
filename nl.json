@@ -243,6 +243,9 @@
             "tooltip": {
                 "waitingAccept": "Laat gebruiker binnen",
                 "waitingReject": "Gebruiker afwijzen"
+            },
+            "recording": {
+                "title": "Opname"
             }
         },
         "snackbar": {
