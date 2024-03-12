@@ -78,6 +78,13 @@
             "pictureSizeTooLarge": "Quelque chose s'est mal passé, rappelez-vous que la taille maximum pour l'image d'un avatar de Groupe est de {{size}}ko",
             "updatedPictureCorrectly": "Le nouvel avatar a été téléversé avec succès",
             "deletedUserImageCorrectly": "L'Avatar a été réinitialisé avec l'original avec succès"
+        },
+        "meetings": {
+            "title": "Réunions",
+            "description": "Définissez vos préférences audio et vidéo pour entrer dans les réunions. Vous pouvez toujours personnaliser vos préférences avant de vous joindre à chaque réunion."
+        },
+        "recording": {
+            "title": "Enregistrement"
         }
     },
     "action": {
