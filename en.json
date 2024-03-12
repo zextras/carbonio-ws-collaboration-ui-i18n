@@ -258,7 +258,8 @@
         },
         "recordingModal": {
             "title": "Stop recording",
-            "description": "You are going to stop the recording. You can start a new one at any time."
+            "description": "You are going to stop the recording. You can start a new one at any time.",
+            "inputLabel": "Recording Name*"
         }
     },
     "meetings": {
