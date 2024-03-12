@@ -85,7 +85,10 @@
         },
         "recording": {
             "title": "Enregistrement",
-            "inputLabel": "Dossier de destination"
+            "inputLabel": "Dossier de destination",
+            "description": "Définissez un dossier personnalisé où sauver les enregistrements des réunions que vous arrêtez.",
+            "resetAction": "RÉINITIALISER",
+            "browseAction": "PARCOURIR"
         }
     },
     "action": {
@@ -409,7 +412,16 @@
             "description": "Vous êtes sur le point d'arrêter l'enregistrement. Vous pouvez en démarrer un nouveau à tout moment.",
             "caption": "L'enregistrement sera sauvé dans le dossier “{{folderName}}”.",
             "confirmationAction": "ARRÊTER",
-            "inputLabel": "Nom de l'enregistrement"
+            "inputLabel": "Nom de l'enregistrement",
+            "exceededCharsError": "Le nom du fichier d'enregistrement ne doit pas dépasser 128 caractères",
+            "requiredNameError": "Le nom du ficher d'enregistrement est requis"
+        },
+        "recordingStop": {
+            "failureSnackbar": "Il n'est pas possible d'arrêter l'enregistrement, veuillez contacter votre administrateur système.",
+            "successSnackbar": {
+                "stopper": "Vous trouverez {{recordingName}} dans le dossier {{folderName}} dès qu'il sera disponible",
+                "participants": "{{userName}} a interrompu l'enregistrement de cette réunion"
+            }
         }
     },
     "meetings": {
