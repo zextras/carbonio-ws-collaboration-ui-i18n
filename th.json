@@ -150,6 +150,10 @@
             "tooltip": {
                 "waitingAccept": "ให้ผู้ใช้เข้า",
                 "waitingReject": "ปฏิเสธผู้ใช้"
+            },
+            "recording": {
+                "title": "กำลังบันทึก",
+                "description": "การบันทึกจะถูกเก็บบันทึกไว้ในพื้นที่ไฟล์ของผู้ดูแลที่ทำการหยุดการบันทึก"
             }
         },
         "snackbar": {
@@ -160,7 +164,8 @@
         },
         "waitingRoom": {
             "hangUp": "วางสาย"
-        }
+        },
+        "recordingHint": "กำลังบันทึกการประชุมนี้อยู่"
     },
     "meetings": {
         "interactions": {
