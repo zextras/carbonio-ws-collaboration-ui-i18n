@@ -258,6 +258,10 @@
             "tooltip": {
                 "waitingAccept": "Permitir a entrada do usuário",
                 "waitingReject": "Rejeitar usuário"
+            },
+            "recording": {
+                "title": "Gravando",
+                "description": "A gravação será salva no espaço Files do moderador que a parou."
             }
         },
         "snackbar": {
@@ -268,7 +272,8 @@
         },
         "waitingRoom": {
             "hangUp": "Desligar"
-        }
+        },
+        "recordingHint": "Esta reunião está sendo gravada"
     },
     "tryLater": "Tente mais tarde",
     "snackbar": {
