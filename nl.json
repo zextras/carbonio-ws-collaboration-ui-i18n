@@ -137,6 +137,14 @@
             "deletedUserImageCorrectly": "Avatar is met succes gereset naar de originele",
             "updatedPictureCorrectly": "Nieuwe avatar is met succes geüpload",
             "pictureSizeTooLarge": "Er is iets misgegaan, onthoud dat de maximale grootte voor de avatarafbeelding van een Groep {{size}}kb is"
+        },
+        "meetings": {
+            "title": "Meetings",
+            "description": "Stel uw audio- en video-voorkeuren in om de vergaderingen binnen te gaan. U kunt uw voorkeuren altijd aanpassen voordat u aan een vergadering deelneemt."
+        },
+        "recording": {
+            "inputLabel": "Bestemmingsmap",
+            "title": "Opname"
         }
     },
     "status": {
@@ -264,7 +272,8 @@
         },
         "recordingModal": {
             "title": "Opname stoppen",
-            "description": "U gaat de opname stoppen. U kunt op elk moment een nieuwe beginnen."
+            "description": "U gaat de opname stoppen. U kunt op elk moment een nieuwe beginnen.",
+            "inputLabel": "Naam opname"
         }
     },
     "meetings": {
