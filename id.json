@@ -160,6 +160,14 @@
         },
         "waitingRoom": {
             "hangUp": "Tutup"
+        },
+        "recordingHint": "Rapat ini direkam",
+        "recordingStart": {
+            "failureSnackbar": "Registrasi tak bisa dimulai. Harap hubungi administrator sistem."
+        },
+        "recordingModal": {
+            "title": "Hentikan rekaman",
+            "description": "Anda akan menghentikan rekaman. Anda bisa memulai yang baru kapan saja."
         }
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
