@@ -370,7 +370,14 @@
                 "hangUp": "Gelecekteki toplantılara katılmanızı dört gözle bekliyoruz"
             }
         },
-        "recordingHint": "Bu toplantı kayıt ediliyor"
+        "recordingHint": "Bu toplantı kayıt ediliyor",
+        "recordingStart": {
+            "failureSnackbar": "Kayıt işlemi başlatılamadı, lütfen sistem yöneticinizle görüşün."
+        },
+        "recordingModal": {
+            "title": "Ses kaydını durdur",
+            "description": "Ses kayıt işlemini durduruyorsunuz. İstediğiniz zaman yeni kayıt başlatabilirsiniz."
+        }
     },
     "meetings": {
         "interactions": {
