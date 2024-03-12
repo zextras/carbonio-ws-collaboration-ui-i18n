@@ -192,6 +192,13 @@
             "deletedUserImageCorrectly": "O avatar foi redefinido com sucesso para o original",
             "pictureSizeTooLarge": "Algo deu errado. Lembre-se de que o tamanho máximo da imagem de avatar de um grupo é {{size}}kb",
             "updatedPictureCorrectly": "O novo avatar foi carregado com sucesso"
+        },
+        "meetings": {
+            "title": "Reuniões",
+            "description": "Defina suas preferências de áudio e vídeo para entrar nas reuniões. Você pode sempre personalizar suas preferências antes de participar de cada reunião."
+        },
+        "recording": {
+            "title": "Gravando"
         }
     },
     "status": {
