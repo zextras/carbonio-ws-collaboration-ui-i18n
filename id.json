@@ -146,6 +146,10 @@
             "tooltip": {
                 "waitingAccept": "Izinkan pengguna masuk",
                 "waitingReject": "Tolak pengguna"
+            },
+            "recording": {
+                "title": "Rekaman",
+                "description": "Rekaman akan disimpan di ruang Files moderator yang menghentikannya."
             }
         },
         "snackbar": {
