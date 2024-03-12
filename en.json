@@ -251,7 +251,10 @@
                 "notAuthenticatedUser": "You cannot join the meeting if you are not authenticated with your account"
             }
         },
-        "recordingHint": "This meeting is being recorded"
+        "recordingHint": "This meeting is being recorded",
+        "recordingStart": {
+            "successSnackbar": "The recording of the “{{roomName}}” meeting has started"
+        }
     },
     "meetings": {
         "interactions": {
