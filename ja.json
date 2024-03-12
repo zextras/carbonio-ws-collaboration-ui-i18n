@@ -161,6 +161,14 @@
         },
         "waitingRoom": {
             "hangUp": "電話を切る"
+        },
+        "recordingHint": "この会議は記録されています",
+        "recordingStart": {
+            "failureSnackbar": "登録を開始することはできません。システム管理者に連絡してください。"
+        },
+        "recordingModal": {
+            "title": "録音を停止する",
+            "description": "録音を停止します。 いつでも新らたに録音開始できます。"
         }
     },
     "meetings": {
