@@ -300,6 +300,10 @@
             "tooltip": {
                 "waitingAccept": "Разрешить вход",
                 "waitingReject": "Отклонить вход пользователя"
+            },
+            "recording": {
+                "title": "Запись",
+                "description": "Запись будет сохранена в Files в папке модератора, который остановил запись."
             }
         },
         "snackbar": {
@@ -310,7 +314,8 @@
         },
         "waitingRoom": {
             "hangUp": "Повесить трубку"
-        }
+        },
+        "recordingHint": "Идет запись"
     },
     "thanksForParticipating": "До встречи",
     "external": {
