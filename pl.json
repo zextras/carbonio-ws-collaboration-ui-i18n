@@ -258,7 +258,10 @@
                 "waitingAccept": "Wpuść użytkownika",
                 "waitingReject": "Odrzuć użytkownika"
             },
-            "waitingList": "Lista oczekujących"
+            "waitingList": "Lista oczekujących",
+            "recording": {
+                "title": "Nagrywanie"
+            }
         },
         "snackbar": {
             "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni"
