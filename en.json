@@ -367,7 +367,8 @@
             "title": "Recording",
             "description": "Set a custom folder where to save the recordings of the meetings you stop.",
             "inputLabel": "Destination folder",
-            "browseAction": "BROWSE"
+            "browseAction": "BROWSE",
+            "resetAction": "RESET"
         }
     },
     "snackbar": {
