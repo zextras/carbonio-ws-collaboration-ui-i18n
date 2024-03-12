@@ -31,6 +31,9 @@
         "notifications": {
             "checkboxLabel": "Desktop notifications",
             "title": "Notifications"
+        },
+        "meetings": {
+            "title": "Meetings"
         }
     },
     "conversation": {
