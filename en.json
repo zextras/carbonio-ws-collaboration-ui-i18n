@@ -259,7 +259,7 @@
         "recordingModal": {
             "title": "Stop recording",
             "description": "You are going to stop the recording. You can start a new one at any time.",
-            "inputLabel": "Recording Name*",
+            "inputLabel": "Recording Name",
             "caption": "The recording will be saved in “{{folderName}}”.",
             "confirmationAction": "STOP",
             "requiredNameError": "The recording file name is required",
