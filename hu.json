@@ -53,7 +53,10 @@
         "notifications": {
             "title": "Értesítések"
         },
-        "save": "A szerkesztések mentése sikeres"
+        "save": "A szerkesztések mentése sikeres",
+        "recording": {
+            "title": "Rögzítés"
+        }
     },
     "tooltip": {
         "clear": "Törlés",
