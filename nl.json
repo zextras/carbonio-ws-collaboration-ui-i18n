@@ -245,7 +245,8 @@
                 "waitingReject": "Gebruiker afwijzen"
             },
             "recording": {
-                "title": "Opname"
+                "title": "Opname",
+                "description": "De opname wordt opgeslagen in de Bestandsruimte van de moderator die de opname heeft gestopt."
             }
         },
         "snackbar": {
@@ -256,6 +257,14 @@
         },
         "waitingRoom": {
             "hangUp": "Ophangen"
+        },
+        "recordingHint": "Deze vergadering wordt opgenomen",
+        "recordingStart": {
+            "failureSnackbar": "Het is niet mogelijk om de registratie te starten, neem contact op met uw systeemadministrator."
+        },
+        "recordingModal": {
+            "title": "Opname stoppen",
+            "description": "U gaat de opname stoppen. U kunt op elk moment een nieuwe beginnen."
         }
     },
     "meetings": {
