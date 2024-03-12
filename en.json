@@ -360,7 +360,8 @@
         "save": "Edits saved correctly",
         "title": "Chats settings",
         "meetings": {
-            "title": "Meetings"
+            "title": "Meetings",
+            "description": "Set your audio and video preferences to enter the meetings. You can always customize your preferences before joining every meeting."
         }
     },
     "snackbar": {
