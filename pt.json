@@ -242,6 +242,9 @@
             "tooltip": {
                 "waitingAccept": "Permitir a entrada do usuário",
                 "waitingReject": "Rejeitar usuário"
+            },
+            "recording": {
+                "title": "Gravando"
             }
         },
         "snackbar": {
