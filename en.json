@@ -365,7 +365,8 @@
         },
         "recording": {
             "title": "Recording",
-            "description": "Set a custom folder where to save the recordings of the meetings you stop."
+            "description": "Set a custom folder where to save the recordings of the meetings you stop.",
+            "inputLabel": "Destination folder"
         }
     },
     "snackbar": {
