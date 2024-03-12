@@ -260,7 +260,8 @@
             },
             "waitingList": "Lista oczekujących",
             "recording": {
-                "title": "Nagrywanie"
+                "title": "Nagrywanie",
+                "description": "Nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który zatrzyma nagrywanie."
             }
         },
         "snackbar": {
@@ -300,6 +301,14 @@
                 "meetingNotFound": "Spotkanie, którego szukasz nie istnieje",
                 "notAuthenticatedUser": "Nie jesteś zalogowany"
             }
+        },
+        "recordingHint": "To spotkanie jest nagrywane",
+        "recordingModal": {
+            "title": "Zatrzymaj nagrywanie",
+            "description": "Za chwilę zatrzymasz nagrywanie. Możesz rozpocząć nowe kiedykolwiek będziesz chciał."
+        },
+        "recordingStart": {
+            "failureSnackbar": "Nie można rozpocząć nagrywania, skontaktuj się z administratorem systemu."
         }
     },
     "meetings": {
