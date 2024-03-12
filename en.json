@@ -205,7 +205,10 @@
             },
             "recording": {
                 "title": "Recording",
-                "moderatorInfo": "has started recording"
+                "moderatorInfo": "has started recording",
+                "action": {
+                    "start": "START"
+                }
             }
         },
         "snackbar": {
