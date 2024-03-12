@@ -335,7 +335,11 @@
                 "waitingAccept": "Laisser l'utilisateur entrer",
                 "waitingReject": "Refuser l'utilisateur"
             },
-            "waitingList": "Liste d'attente"
+            "waitingList": "Liste d'attente",
+            "recording": {
+                "title": "Enregistrement",
+                "description": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui l'arrêtera."
+            }
         },
         "browserNotification": {
             "waitingTitle": "Il semble que quelqu'un soit dans la salle d'attente",
@@ -381,7 +385,8 @@
         "restartMeeting": "Relancer la réunion",
         "tooltip": {
             "activeSessionTooltip": "Vous avez une session active dans cette réunion"
-        }
+        },
+        "recordingHint": "Cette réunion est enregistrée"
     },
     "meetings": {
         "interactions": {
