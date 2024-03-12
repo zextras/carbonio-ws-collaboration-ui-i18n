@@ -207,7 +207,8 @@
                 "title": "Recording",
                 "moderatorInfo": "has started recording",
                 "action": {
-                    "start": "START"
+                    "start": "START",
+                    "stop": "STOP"
                 }
             }
         },
