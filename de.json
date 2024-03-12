@@ -114,7 +114,15 @@
             "title": "Profil"
         },
         "save": "Änderungen korrekt gespeichert",
-        "title": "Chat Einstellungen"
+        "title": "Chat Einstellungen",
+        "meetings": {
+            "description": "Legen Sie Ihre bevorzugten Audio- und Videoeinstellungen fest, um an Meetings teilzunehmen. Sie können Ihre Einstellungen vor jedem Meeting immer anpassen.",
+            "title": "Sitzungen"
+        },
+        "recording": {
+            "inputLabel": "Zielordner",
+            "title": "Aufnahme"
+        }
     },
     "status": {
         "lastSeen": "Zuletzt gesehen {{lastSeen}}",
