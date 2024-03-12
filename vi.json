@@ -140,6 +140,10 @@
             "tooltip": {
                 "waitingAccept": "Cho phép người dùng vào",
                 "waitingReject": "Từ chối người dùng"
+            },
+            "recording": {
+                "title": "đang ghi",
+                "description": "Bản ghi sẽ được lưu trong không gian tệp của người kiểm duyệt đã dừng nó."
             }
         },
         "snackbar": {
@@ -150,7 +154,8 @@
         },
         "waitingRoom": {
             "hangUp": "Nhấc máy"
-        }
+        },
+        "recordingHint": "Cuộp họp đang được ghi"
     },
     "meetings": {
         "interactions": {
