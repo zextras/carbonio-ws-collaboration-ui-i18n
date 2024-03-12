@@ -176,7 +176,8 @@
         },
         "recordingModal": {
             "title": "Aufnahme anhalten",
-            "description": "Sie werden die Aufnahme anhalten. Sie können eine neue Aufnahme jederzeit starten."
+            "description": "Sie werden die Aufnahme anhalten. Sie können eine neue Aufnahme jederzeit starten.",
+            "inputLabel": "Name der Aufnahme"
         }
     },
     "meetings": {
