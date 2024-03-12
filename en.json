@@ -250,7 +250,8 @@
                 "meetingNotFound": "Please check the meeting link and try again",
                 "notAuthenticatedUser": "You cannot join the meeting if you are not authenticated with your account"
             }
-        }
+        },
+        "recordingHint": "This meeting is being recorded"
     },
     "meetings": {
         "interactions": {
