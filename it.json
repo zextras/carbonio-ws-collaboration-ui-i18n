@@ -171,7 +171,9 @@
         "mockCreateChatTitle": "Crea una nuova chat utilizzando il bottone crea",
         "newMessages": "Nuovi messaggi",
         "selectionMode": {
-            "exit": "Esci dalla modalità selezione"
+            "exit": "Esci dalla modalità selezione",
+            "maxSelected": "Hai raggiunto il numero massimo di messaggi che possono essere inoltrati contemporaneamente",
+            "multipleForward": "inoltra {{numberOfMessages}} messaggi"
         }
     },
     "editModal": {
@@ -226,7 +228,10 @@
         },
         "recording": {
             "title": "Registrazione",
-            "inputLabel": "Cartella di destinazione"
+            "inputLabel": "Cartella di destinazione",
+            "browseAction": "SFOGLIA",
+            "resetAction": "RIPRISTINA",
+            "description": "Imposta una cartella dove salvare le registrazioni dei meeting che terminerai."
         }
     },
     "status": {
@@ -278,7 +283,8 @@
             "disableScreen": "Disabilita condivisione schermo",
             "stopMic": "Ferma il test del microfono",
             "disableFullScreen": "Disabilita lo schermo intero",
-            "enableFullScreen": "Abilita lo schermo intero"
+            "enableFullScreen": "Abilita lo schermo intero",
+            "leaveConfirmation": "Uscire dal meeting?"
         },
         "joinMeeting": "Partecipa alla riunione",
         "newMeetingNotification": {
@@ -333,7 +339,12 @@
             "waitingList": "Lista d'attesa",
             "recording": {
                 "title": "Registrazione",
-                "description": "La registrazione verrà salvata all'interno dello spazio Files del moderatore che l'ha terminata."
+                "description": "La registrazione verrà salvata all'interno dello spazio Files del moderatore che l'ha terminata.",
+                "moderatorInfo": "è iniziata la registrazione",
+                "action": {
+                    "stop": "FINE",
+                    "start": "INIZIO"
+                }
             }
         },
         "snackbar": {
@@ -357,15 +368,21 @@
         "infoPage": {
             "title": {
                 "hangUp": "Hai riattaccato!",
-                "rejected": "Magari un'altra volta"
+                "rejected": "Magari un'altra volta",
+                "meetingNotFound": "Il meeting che stai cercando non esiste",
+                "notAuthenticatedUser": "Non sei autenticato"
             },
             "slogan": {
                 "hangUp": "Magari un'altra volta",
-                "rejected": "Il tuo accesso è stato negato"
+                "rejected": "Il tuo accesso è stato negato",
+                "meetingNotFound": "riprova più tardi",
+                "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE AL MEETING"
             },
             "description": {
                 "rejected": "I moderatori hanno deciso di negarti l'accesso al meeting",
-                "hangUp": "Non vediamo l'ora di vederti partecipare ad altri meeting futuri"
+                "hangUp": "Non vediamo l'ora di vederti partecipare ad altri meeting futuri",
+                "meetingNotFound": "Controlla il link del meeting e riprova",
+                "notAuthenticatedUser": "Non puoi partecipare al meeting se non sei autenticato con il tuo account"
             }
         },
         "continueActiveSession": "Continua il meeting nella nuova finestra",
@@ -380,12 +397,24 @@
         },
         "recordingHint": "Registrazione della riunione in corso",
         "recordingStart": {
-            "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema."
+            "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema.",
+            "successSnackbar": "La registrazione del meeting “{{roomName}}” è iniziata"
         },
         "recordingModal": {
             "title": "Termina la registrazione",
             "description": "Stai per terminare la registrazione. Potrai iniziarne una nuova in qualsiasi momento.",
-            "inputLabel": "Nome Registrazione"
+            "inputLabel": "Nome Registrazione",
+            "caption": "La registrazione sarà salvata in “{{folderName}}”.",
+            "confirmationAction": "FINE",
+            "exceededCharsError": "Il nome del file della registrazione non può superare i 128 caratteri",
+            "requiredNameError": "Il nome della registrazione è obbligatorio"
+        },
+        "recordingStop": {
+            "successSnackbar": {
+                "participants": "{{userName}} ha terminato la registrazione del meeting",
+                "stopper": "Troverai {{recordingName}} in {{folderName}} appena sarà disponibile"
+            },
+            "failureSnackbar": "Non è possibile terminare la registrazione, contatta il tuo amministratore di sistema."
         }
     },
     "tryLater": "Riprova più tardi",
