@@ -397,8 +397,7 @@
         },
         "recordingHint": "Registrazione della riunione in corso",
         "recordingStart": {
-            "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema.",
-            "successSnackbar": "La registrazione del meeting “{{roomName}}” è iniziata"
+            "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema."
         },
         "recordingModal": {
             "title": "Termina la registrazione",
