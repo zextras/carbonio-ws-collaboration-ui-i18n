@@ -329,7 +329,10 @@
             "caption": "Nagranie zostanie zapisane w \"{{folderName}}\"."
         },
         "recordingStart": {
-            "failureSnackbar": "Nie można rozpocząć nagrywania, skontaktuj się z administratorem systemu."
+            "failureSnackbar": "Nie można rozpocząć nagrywania, skontaktuj się z administratorem systemu.",
+            "successSnackbar": {
+                "participants": "Rozpoczęto nagrywanie spotkania \"{{roomName}}\""
+            }
         },
         "recordingStop": {
             "successSnackbar": {
