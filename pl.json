@@ -331,7 +331,8 @@
         "recordingStart": {
             "failureSnackbar": "Nie można rozpocząć nagrywania, skontaktuj się z administratorem systemu.",
             "successSnackbar": {
-                "participants": "Rozpoczęto nagrywanie spotkania \"{{roomName}}\""
+                "participants": "Użytkownik {{userName}} rozpoczął nagrywanie spotkania",
+                "starter": "Rozpocząłeś nagrywanie spotkania"
             }
         },
         "recordingStop": {
