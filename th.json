@@ -64,7 +64,6 @@
         "save": "บันทึกการแก้ไขอย่างถูกต้อง",
         "title": "การตั้งค่า Chats",
         "notifications": {
-            "checkboxLabel": "การแจ้งเตือนของเดสก์ท็อป",
             "title": "การแจ้งเตือน",
             "subtitle": {
                 "general": "ทั่วไป"
