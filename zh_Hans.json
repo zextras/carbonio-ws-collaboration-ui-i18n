@@ -73,7 +73,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "桌面通知",
             "title": "通知",
             "description": "设置您的聊天消息通知偏好。",
             "subtitle": {
