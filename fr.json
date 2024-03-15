@@ -58,7 +58,6 @@
     "settings": {
         "save": "Les modifications ont été enregistrées correctement",
         "notifications": {
-            "checkboxLabel": "Notifications bureau",
             "title": "Notifications",
             "description": "Définissez vos préférences pour les notifications de Chats.",
             "subtitle": {
