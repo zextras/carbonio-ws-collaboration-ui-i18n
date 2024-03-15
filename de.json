@@ -106,7 +106,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Desktop Benachrichtigungen",
             "title": "Benachrichtigungen",
             "subtitle": {
                 "general": "Allgemein"
