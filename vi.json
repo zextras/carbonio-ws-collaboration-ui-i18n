@@ -100,7 +100,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Hiển thị cảnh báo màn hình",
             "title": "Các thông báo",
             "subtitle": {
                 "general": "Chung"
