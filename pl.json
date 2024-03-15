@@ -90,7 +90,10 @@
         "notifications": {
             "checkboxLabel": "Powiadomienia na pulpicie",
             "title": "Powiadomienia",
-            "description": "Dostosuj swoje preferencje dla powiadomień Czatów."
+            "description": "Dostosuj swoje preferencje dla powiadomień Czatów.",
+            "subtitle": {
+                "general": "Ogólne"
+            }
         },
         "profile": {
             "errorGenericResponse": "Coś poszło nie tak. Spróbuj ponownie",
