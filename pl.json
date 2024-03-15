@@ -88,7 +88,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Powiadomienia na pulpicie",
             "title": "Powiadomienia",
             "description": "Dostosuj swoje preferencje dla powiadomień Czatów.",
             "subtitle": {
