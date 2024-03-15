@@ -149,7 +149,10 @@
         "notifications": {
             "checkboxLabel": "Masaüstü bildirimleri",
             "title": "Bildirimler",
-            "description": "Sohbet bildirimleri için tercihlerinizi belirleyin."
+            "description": "Sohbet bildirimleri için tercihlerinizi belirleyin.",
+            "subtitle": {
+                "general": "Genel"
+            }
         },
         "profile": {
             "errorGenericResponse": "Bir sorun oluştu. Lütfen tekrar deneyin",
