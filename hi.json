@@ -12,7 +12,10 @@
         "notifications": {
             "title": "अधिसूचनाएं",
             "checkboxLabel": "डेस्कटॉप अधिसूचनाएं",
-            "description": "चैट सूचनाओं के लिए अपने फेव्रेट सेट करें।"
+            "description": "चैट सूचनाओं के लिए अपने फेव्रेट सेट करें।",
+            "subtitle": {
+                "general": "सामान्य"
+            }
         },
         "profile": {
             "errorGenericResponse": "कुछ गड़बड़ हुई। दोबारा कोशिश करें",
