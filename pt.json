@@ -88,7 +88,10 @@
         "notifications": {
             "checkboxLabel": "Notificações do desktop",
             "title": "Notificações",
-            "description": "Defina suas preferências para notificações de Chats."
+            "description": "Defina suas preferências para notificações de Chats.",
+            "subtitle": {
+                "general": "Geral"
+            }
         },
         "title": "Configurações dos chats",
         "room": {
