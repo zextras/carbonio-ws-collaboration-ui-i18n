@@ -106,7 +106,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Notifikasi Desktop",
             "title": "Notifikasi",
             "subtitle": {
                 "general": "Umum"
