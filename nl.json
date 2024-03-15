@@ -118,7 +118,10 @@
         "notifications": {
             "checkboxLabel": "Desktopmeldingen",
             "title": "kennisgevingen",
-            "description": "Stel uw voorkeuren in voor chatsmeldingen."
+            "description": "Stel uw voorkeuren in voor chatsmeldingen.",
+            "subtitle": {
+                "general": "Algemeen"
+            }
         },
         "save": "Bewerkingen correct opgeslagen",
         "profile": {
