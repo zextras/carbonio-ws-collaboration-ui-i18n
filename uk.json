@@ -30,7 +30,10 @@
     },
     "settings": {
         "notifications": {
-            "title": "Сповіщення"
+            "title": "Сповіщення",
+            "subtitle": {
+                "general": "Загальні"
+            }
         },
         "save": "Зміни збережено"
     },
