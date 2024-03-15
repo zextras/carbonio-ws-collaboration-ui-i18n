@@ -147,7 +147,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Masaüstü bildirimleri",
             "title": "Bildirimler",
             "description": "Sohbet bildirimleri için tercihlerinizi belirleyin.",
             "subtitle": {
