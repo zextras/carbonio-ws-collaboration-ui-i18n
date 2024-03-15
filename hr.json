@@ -89,7 +89,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Obavijesti na radnoj površini",
             "title": "Obavijesti",
             "subtitle": {
                 "general": "Općenito"
