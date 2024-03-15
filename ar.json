@@ -14,7 +14,10 @@
     },
     "settings": {
         "notifications": {
-            "title": "إعلامات"
+            "title": "إعلامات",
+            "subtitle": {
+                "general": "عام"
+            }
         }
     },
     "status": {
