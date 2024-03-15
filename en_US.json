@@ -29,7 +29,6 @@
             "errorGenericResponse": "Something went wrong. Please retry"
         },
         "notifications": {
-            "checkboxLabel": "Desktop notifications",
             "title": "Notifications",
             "subtitle": {
                 "general": "General"
