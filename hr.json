@@ -90,7 +90,10 @@
     "settings": {
         "notifications": {
             "checkboxLabel": "Obavijesti na radnoj površini",
-            "title": "Obavijesti"
+            "title": "Obavijesti",
+            "subtitle": {
+                "general": "Općenito"
+            }
         },
         "profile": {
             "errorGenericResponse": "Nešto je pošlo po zlu. Pokušaj ponovo",
