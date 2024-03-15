@@ -144,7 +144,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Уведомления",
             "title": "Оповещения",
             "description": "Установите свои предпочтения для уведомлений чатов.",
             "subtitle": {
