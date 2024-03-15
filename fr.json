@@ -60,7 +60,10 @@
         "notifications": {
             "checkboxLabel": "Notifications bureau",
             "title": "Notifications",
-            "description": "Définissez vos préférences pour les notifications de Chats."
+            "description": "Définissez vos préférences pour les notifications de Chats.",
+            "subtitle": {
+                "general": "Général"
+            }
         },
         "profile": {
             "errorGenericResponse": "Quelque chose s'est mal passé. Veuillez réessayer",
