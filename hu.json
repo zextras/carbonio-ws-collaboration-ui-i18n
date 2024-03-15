@@ -51,7 +51,10 @@
     },
     "settings": {
         "notifications": {
-            "title": "Értesítések"
+            "title": "Értesítések",
+            "subtitle": {
+                "general": "Általános"
+            }
         },
         "save": "A szerkesztések mentése sikeres",
         "recording": {
