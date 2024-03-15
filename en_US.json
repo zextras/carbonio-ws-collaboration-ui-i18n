@@ -30,7 +30,10 @@
         },
         "notifications": {
             "checkboxLabel": "Desktop notifications",
-            "title": "Notifications"
+            "title": "Notifications",
+            "subtitle": {
+                "general": "General"
+            }
         },
         "meetings": {
             "title": "Meetings",
