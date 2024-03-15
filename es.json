@@ -173,7 +173,10 @@
         "notifications": {
             "checkboxLabel": "Notificaciones de escritorio",
             "title": "Notificaciones",
-            "description": "Establece tus preferencias para las notificaciones de los chats."
+            "description": "Establece tus preferencias para las notificaciones de los chats.",
+            "subtitle": {
+                "general": "General"
+            }
         },
         "profile": {
             "errorGenericResponse": "Algo salió mal. Por favor, reintentar",
