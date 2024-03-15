@@ -101,7 +101,10 @@
     "settings": {
         "notifications": {
             "checkboxLabel": "Hiển thị cảnh báo màn hình",
-            "title": "Các thông báo"
+            "title": "Các thông báo",
+            "subtitle": {
+                "general": "Chung"
+            }
         },
         "profile": {
             "errorGenericResponse": "Có lỗi xảy ra, vui lòng thử lại",
