@@ -107,7 +107,10 @@
     "settings": {
         "notifications": {
             "checkboxLabel": "Desktop Benachrichtigungen",
-            "title": "Benachrichtigungen"
+            "title": "Benachrichtigungen",
+            "subtitle": {
+                "general": "Allgemein"
+            }
         },
         "profile": {
             "errorGenericResponse": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut",
