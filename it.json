@@ -200,7 +200,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Notifiche desktop",
             "title": "Notifiche",
             "description": "Imposta le preferenze per le notifiche di Chats.",
             "subtitle": {
