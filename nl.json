@@ -116,7 +116,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Desktopmeldingen",
             "title": "kennisgevingen",
             "description": "Stel uw voorkeuren in voor chatsmeldingen.",
             "subtitle": {
