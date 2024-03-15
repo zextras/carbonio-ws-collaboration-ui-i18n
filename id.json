@@ -107,7 +107,10 @@
     "settings": {
         "notifications": {
             "checkboxLabel": "Notifikasi Desktop",
-            "title": "Notifikasi"
+            "title": "Notifikasi",
+            "subtitle": {
+                "general": "Umum"
+            }
         },
         "profile": {
             "errorGenericResponse": "Terjadi kesalahan. Harap coba lagi",
