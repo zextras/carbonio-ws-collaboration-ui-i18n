@@ -86,7 +86,6 @@
         },
         "save": "Edições salvas corretamente",
         "notifications": {
-            "checkboxLabel": "Notificações do desktop",
             "title": "Notificações",
             "description": "Defina suas preferências para notificações de Chats.",
             "subtitle": {
