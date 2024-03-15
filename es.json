@@ -171,7 +171,6 @@
     },
     "settings": {
         "notifications": {
-            "checkboxLabel": "Notificaciones de escritorio",
             "title": "Notificaciones",
             "description": "Establece tus preferencias para las notificaciones de los chats.",
             "subtitle": {
