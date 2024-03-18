@@ -110,5 +110,10 @@
     },
     "snackbar": {
         "mutedByModerator": "Utišani ste od strane moderatora, za razgovor ponovo uključi mikrofon"
+    },
+    "attachments": {
+        "integrations": {
+            "chooseFile": "Odaberi datoteku"
+        }
     }
 }
