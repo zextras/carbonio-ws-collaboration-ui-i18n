@@ -79,7 +79,11 @@
     },
     "attachments": {
         "addFromLocal": "Hozzáadás a helyi mappából",
-        "attachLinkFiles": "Nyilvános hivatkozás csatolása fájlokból"
+        "attachLinkFiles": "Nyilvános hivatkozás csatolása fájlokból",
+        "integrations": {
+            "chooseFile": "Fájl kiválasztása",
+            "shareLink": "Nyilvános hivatkozás megosztása"
+        }
     },
     "modal": {
         "showPreviousConversationHistory": "Korábbi beszélgetési előzmények megjelenítése",
