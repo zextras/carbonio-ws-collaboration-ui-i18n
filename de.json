@@ -73,7 +73,11 @@
     "attachments": {
         "addFromLocal": "Von lokalem Speicherort hinzufügen",
         "attachLinkFiles": "Öffentlichen Link von Files anhängen",
-        "stopUpload": "Hochladen stoppen"
+        "stopUpload": "Hochladen stoppen",
+        "integrations": {
+            "chooseFile": "Datei auswählen",
+            "shareLink": "Öffentlichen Link teilen"
+        }
     },
     "conversation": {
         "chooseConversationDescription": "Wählen Sie ein Gespräch, um einen Chat zu beginnen",
