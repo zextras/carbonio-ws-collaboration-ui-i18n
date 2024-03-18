@@ -43,7 +43,11 @@
         "dragAndDrop": "Sürükle ve Bırak Modu",
         "dropHereDescription": "Bu sohbete hızlı bir şekilde eklemek için eklerinizi buraya bırakın",
         "errorUploadingFile": "{{file}} yüklenirken bir sorun oluştu",
-        "uploadAborted": "Yükleme kesintiye uğradı"
+        "uploadAborted": "Yükleme kesintiye uğradı",
+        "integrations": {
+            "chooseFile": "Dosya seçin",
+            "shareLink": "Genel bağlantı paylaş"
+        }
     },
     "conversation": {
         "chooseConversationDescription": "Bir sohbet başlatmak için görüşme seçin",
