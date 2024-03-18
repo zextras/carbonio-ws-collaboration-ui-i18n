@@ -51,7 +51,11 @@
         "dropHereDescription": "Drop here your attachments to quickly add them to this chat",
         "errorUploadingFile": "Something went wrong uploading {{file}}",
         "stopUpload": "Stop upload",
-        "uploadAborted": "Upload has been interrupted"
+        "uploadAborted": "Upload has been interrupted",
+        "integrations": {
+            "chooseFile": "Choose file",
+            "shareLink": "Share public link"
+        }
     },
     "chat": "Chat",
     "configurationMessages": {
