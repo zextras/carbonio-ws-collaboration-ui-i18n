@@ -103,7 +103,11 @@
     "attachments": {
         "addFromLocal": "ローカルから追加する",
         "attachLinkFiles": "ファイルからパブリックリンクを添付する",
-        "stopUpload": "アップロードを停止する"
+        "stopUpload": "アップロードを停止する",
+        "integrations": {
+            "chooseFile": "ファイルを選ぶ",
+            "shareLink": "パブリックリンクを共有する"
+        }
     },
     "date": {
         "yesterday": "昨日"
