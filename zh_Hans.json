@@ -196,7 +196,11 @@
         "dragAndDrop": "拖放模式",
         "dropHereDescription": "在此处拖入您的附件以将其快速添加至此聊天",
         "errorUploadingFile": "上传{{file}}时出错",
-        "uploadAborted": "上传已中断"
+        "uploadAborted": "上传已中断",
+        "integrations": {
+            "chooseFile": "选择文件",
+            "shareLink": "分享公开链接"
+        }
     },
     "conversation": {
         "chooseConversationDescription": "选择要进行聊天的会话",
