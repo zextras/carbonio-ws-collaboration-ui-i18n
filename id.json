@@ -54,7 +54,11 @@
     "attachments": {
         "addFromLocal": "Tambahkan dari lokal",
         "attachLinkFiles": "Lampirkan tautan publik dari Files",
-        "stopUpload": "Hentikan unggahan"
+        "stopUpload": "Hentikan unggahan",
+        "integrations": {
+            "chooseFile": "Pilih file",
+            "shareLink": "Bagikan tautan publik"
+        }
     },
     "conversation": {
         "chooseConversationDescription": "Pilih percakapan untuk memulai obrolan",
