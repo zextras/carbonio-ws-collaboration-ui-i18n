@@ -159,7 +159,11 @@
         "dropHereDescription": "Trascina qui gli allegati per aggiungerli velocemente alla chat",
         "errorUploadingFile": "Qualcosa è andato storto durante il caricamento di {{file}}",
         "uploadAborted": "Il caricamento è stato interrotto",
-        "dragAndDrop": "Modalità Drag&Drop"
+        "dragAndDrop": "Modalità Drag&Drop",
+        "integrations": {
+            "chooseFile": "Scegli file",
+            "shareLink": "Condividi link pubblico"
+        }
     },
     "conversation": {
         "chooseConversationDescription": "Scegli una conversazione per iniziare una Chat",
