@@ -123,7 +123,11 @@
         "dragAndDrop": "Arrastar e soltar",
         "dropHereDescription": "Solte aqui seus anexos para adicioná-los rapidamente a este chat",
         "errorUploadingFile": "Algo deu errado enquanto carregava {{file}}",
-        "uploadAborted": "O upload tem sido interrompido"
+        "uploadAborted": "O upload tem sido interrompido",
+        "integrations": {
+            "chooseFile": "Escolher arquivo",
+            "shareLink": "Compartilhar link público"
+        }
     },
     "conversation": {
         "chooseConversationDescription": "Escolha uma conversa para iniciar um chat",
