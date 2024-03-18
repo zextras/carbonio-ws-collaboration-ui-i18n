@@ -6,7 +6,11 @@
         "errorUploadingFile": "{{file}} अपलोड करने में कोई गड़बड़ी हुई",
         "uploadAborted": "अपलोड रुक गया है",
         "dragAndDrop": "खींचें और छोड़ें मोड",
-        "dropHereDescription": "इस चैट में तुरंत जोड़ने के लिए अपने अटैचमेंट यहाँ छोड़ें"
+        "dropHereDescription": "इस चैट में तुरंत जोड़ने के लिए अपने अटैचमेंट यहाँ छोड़ें",
+        "integrations": {
+            "chooseFile": "फाइल चुनें",
+            "shareLink": "पब्लिक लिंक शेयर करें"
+        }
     },
     "settings": {
         "notifications": {
