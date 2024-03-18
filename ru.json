@@ -6,7 +6,11 @@
         "dragAndDrop": "Режим Drag&Drop",
         "dropHereDescription": "Перетащите сюда свои вложения, чтобы быстро добавить их в этот чат",
         "errorUploadingFile": "Что-то пошло не так при загрузке {{file}}",
-        "uploadAborted": "Загрузка была прервана"
+        "uploadAborted": "Загрузка была прервана",
+        "integrations": {
+            "chooseFile": "Выбрать файл",
+            "shareLink": "Поделиться публичной ссылкой"
+        }
     },
     "feedback": {
         "historyCleared": "История очищена!",
