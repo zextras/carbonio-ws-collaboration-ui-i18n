@@ -54,7 +54,11 @@
     "attachments": {
         "addFromLocal": "เพิ่มจาก local",
         "attachLinkFiles": "แนบลิงก์สาธารณะจาก Files",
-        "stopUpload": "หยุดอัปโหลด"
+        "stopUpload": "หยุดอัปโหลด",
+        "integrations": {
+            "chooseFile": "เลือกไฟล์",
+            "shareLink": "แชร์ลิงก์สาธารณะ"
+        }
     },
     "settings": {
         "profile": {
