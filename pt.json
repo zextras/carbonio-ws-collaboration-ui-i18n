@@ -41,7 +41,11 @@
         "dragAndDrop": "Arrastar e soltar",
         "dropHereDescription": "Arraste para aqui os seus anexos para adicioná-los rapidamente a este Chat",
         "errorUploadingFile": "Ocorreu um erro durante o carregamento {{file}}",
-        "uploadAborted": "O carregamento foi interrompido"
+        "uploadAborted": "O carregamento foi interrompido",
+        "integrations": {
+            "chooseFile": "Escolher arquivo",
+            "shareLink": "Compartilhar link público"
+        }
     },
     "modal": {
         "deleteRoom": "Apagar Sala",
