@@ -41,7 +41,11 @@
         "dragAndDrop": "Arrastrar y soltar",
         "dropHereDescription": "Selecciona y arrastra tus archivos para agregarlos rápidamente a este chat",
         "errorUploadingFile": "Algo ha salido mal al cargar {{file}}",
-        "uploadAborted": "La carga se ha interrumpido"
+        "uploadAborted": "La carga se ha interrumpido",
+        "integrations": {
+            "chooseFile": "Seleccionar archivo",
+            "shareLink": "Compartir enlace público"
+        }
     },
     "conversationInfo": {
         "status": "Estado",
