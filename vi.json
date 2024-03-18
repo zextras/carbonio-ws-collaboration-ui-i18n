@@ -59,7 +59,11 @@
     "attachments": {
         "addFromLocal": "Thêm vào từ thiết bị cục bộ",
         "attachLinkFiles": "Đính kèm liên kết công khai từ tệp",
-        "stopUpload": "Dừng tải lên"
+        "stopUpload": "Dừng tải lên",
+        "integrations": {
+            "chooseFile": "Chọn tệp (File)",
+            "shareLink": "Chia sẻ liên kết công khai"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "Thao tác",
