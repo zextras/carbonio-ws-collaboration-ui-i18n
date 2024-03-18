@@ -204,7 +204,11 @@
         "dragAndDrop": "Drag&Drop-modus",
         "dropHereDescription": "Drop hier uw bijlagen om ze snel aan dit gesprek toe te voegen",
         "errorUploadingFile": "Er is iets misgegaan bij het uploaden van {{file}}",
-        "uploadAborted": "Uploaden is onderbroken"
+        "uploadAborted": "Uploaden is onderbroken",
+        "integrations": {
+            "chooseFile": "Bestand kiezen",
+            "shareLink": "Publieke link delen"
+        }
     },
     "message": {
         "deletedMessage": "Verwijderd bericht",
