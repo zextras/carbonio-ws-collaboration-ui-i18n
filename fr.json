@@ -6,7 +6,11 @@
         "dragAndDrop": "Mode Glisser Déposer",
         "dropHereDescription": "Déposez ici vos pièces jointes pour les ajouter rapidement à cette discussion",
         "errorUploadingFile": "Quelque chose s'est mal passé lors du téléversement de {{file}}",
-        "uploadAborted": "Le téléversement a été interrompu"
+        "uploadAborted": "Le téléversement a été interrompu",
+        "integrations": {
+            "chooseFile": "Choisir un fichier",
+            "shareLink": "Partager un lien publique"
+        }
     },
     "conversationInfo": {
         "actionAccordionTitle": "Actions",
