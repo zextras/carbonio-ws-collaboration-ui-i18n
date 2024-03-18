@@ -132,7 +132,11 @@
         "dragAndDrop": "Tryb przeciągnij i upuść",
         "dropHereDescription": "Upuść tutaj załączniki, aby szybko dodać je do tego czatu",
         "errorUploadingFile": "Coś poszło nie tak przy przesyłaniu {{file}}",
-        "uploadAborted": "Przesyłanie zostało przerwane"
+        "uploadAborted": "Przesyłanie zostało przerwane",
+        "integrations": {
+            "chooseFile": "Wybierz plik",
+            "shareLink": "Udostępnij publiczny link"
+        }
     },
     "chat": "Czat",
     "conversation": {
