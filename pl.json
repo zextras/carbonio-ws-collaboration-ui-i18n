@@ -91,7 +91,16 @@
             "title": "Powiadomienia",
             "description": "Dostosuj swoje preferencje dla powiadomień Czatów.",
             "subtitle": {
-                "general": "Ogólne"
+                "general": "Ogólne",
+                "waitingRoom": "Powiadomienia o dostępie do poczekalni"
+            },
+            "toggleSounds": {
+                "desktop": "Włącz dźwięk dla powiadomień na pulpicie",
+                "waitingRoom": "Włącz dźwięk dla powiadomień"
+            },
+            "checkbox": {
+                "waitingRoom": "Zezwalaj na powiadomienia",
+                "desktop": "Zezwalaj na powiadomienia na pulpicie"
             }
         },
         "profile": {
