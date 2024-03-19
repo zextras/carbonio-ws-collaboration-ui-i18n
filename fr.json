@@ -65,7 +65,16 @@
             "title": "Notifications",
             "description": "Définissez vos préférences pour les notifications de Chats.",
             "subtitle": {
-                "general": "Général"
+                "general": "Général",
+                "waitingRoom": "Notifications d'accès à la salle d'attente"
+            },
+            "toggleSounds": {
+                "desktop": "Activer les sons de notification du bureau",
+                "waitingRoom": "Activer les sons de notification"
+            },
+            "checkbox": {
+                "waitingRoom": "Autoriser les notifications",
+                "desktop": "Autoriser les notifications de bureau"
             }
         },
         "profile": {
@@ -412,7 +421,8 @@
         "recordingStart": {
             "failureSnackbar": "Il n'est pas possible de lancer l'enregistrement, merci de contacter votre administrateur système.",
             "successSnackbar": {
-                "participants": "L'enregistrement de la réunion “{{roomName}}” a été lancé"
+                "participants": "{{userName}} a lancé l'enregistrement de cette réunion",
+                "starter": "Vous avez lancé l'enregistrement de cette réunion"
             }
         },
         "recordingModal": {
