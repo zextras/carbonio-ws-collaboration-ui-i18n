@@ -207,7 +207,16 @@
             "title": "Notifiche",
             "description": "Imposta le preferenze per le notifiche di Chats.",
             "subtitle": {
-                "general": "Generale"
+                "general": "Generale",
+                "waitingRoom": "Notifiche di accesso alla sala d'attesa"
+            },
+            "toggleSounds": {
+                "desktop": "Abilita i suoni di notifica del desktop",
+                "waitingRoom": "Abilita i suoni di notifica"
+            },
+            "checkbox": {
+                "waitingRoom": "Attiva le notifiche",
+                "desktop": "Attiva le notifiche desktop"
             }
         },
         "profile": {
@@ -403,7 +412,11 @@
         },
         "recordingHint": "Registrazione della riunione in corso",
         "recordingStart": {
-            "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema."
+            "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema.",
+            "successSnackbar": {
+                "starter": "È stata avviata la registrazione di questo meeting",
+                "participants": "{{userName}} ha avviato la registrazione di questo meeting"
+            }
         },
         "recordingModal": {
             "title": "Termina la registrazione",
