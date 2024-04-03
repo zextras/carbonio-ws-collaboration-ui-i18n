@@ -71,7 +71,8 @@
         "leaveAndDelete": "Opuść i usuń grupę",
         "leaveRoom": "Opuść pokój",
         "leaveRoomLabel": "Czy na pewno chcesz opuścić ten pokój?",
-        "deleteGroupMeetingOngoingLabel": "Trwa aktualnie spotkanie. Usunięcie grupy spowoduje zakończenie spotkania bez ostrzeżenia."
+        "deleteGroupMeetingOngoingLabel": "Trwa aktualnie spotkanie. Usunięcie grupy spowoduje zakończenie spotkania bez ostrzeżenia.",
+        "muteForAllDescription": "Wyciszając użytkownika sprawisz, że wszyscy uczestnicy nie będą słyszeć tego użytkownika. Tylko wyciszony użytkownik może się odciszyć. Kontynuować?"
     },
     "notification": {
         "meeting": {
@@ -378,7 +379,9 @@
         "online": "Online",
         "you": " Ty",
         "goToPrivateChat": "Przejdź do prywatnego czatu, aby wysłać osobistą wiadomość",
-        "areTyping": "piszą…"
+        "areTyping": "piszą…",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} osób pisze…",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} i {{numberOfUsers}} innych piszą…"
     },
     "thanksForParticipating": "Dziękujemy za uczestniczenie",
     "tooltip": {
