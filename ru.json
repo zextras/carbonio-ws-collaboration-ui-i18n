@@ -21,7 +21,8 @@
             "websocket": "Что-то пошло не так при подключении к WEBSOCKET",
             "wsc": "Что-то пошло не так при подключении к WSC",
             "xmpp": "Что-то пошло не так при подключении по XMPP"
-        }
+        },
+        "networkProblems": "При использовании этого модуля могут возникнуть проблемы, попробуйте обновить страницу."
     },
     "message": {
         "deletedMessage": "Удаленное сообщение",
@@ -70,7 +71,7 @@
         "addNewMembers": "Добавить новых участников",
         "clearHistory": "Очистить историю чата",
         "close": "Закрыть",
-        "copy": "Копия",
+        "copy": "Копировать",
         "create": "Создать",
         "delete": "Удалить",
         "download": "Загрузить",
@@ -111,7 +112,9 @@
         "mockCreateChatTitle": "Создайте новый чат с помощью кнопки «Создать»",
         "newMessages": "Новые сообщения",
         "selectionMode": {
-            "exit": "Выйти из режима выбора"
+            "exit": "Выйти из режима выбора",
+            "maxSelected": "Достигнуто максимальное количество сообщений, которые можно переслать одновременно",
+            "multipleForward": "переслать{{numberOfMessages}} сообщений"
         }
     },
     "conversationInfo": {
@@ -275,7 +278,11 @@
             "playMic": "Начать проверку микрофона",
             "stopMic": "Закончить проверку микрофона",
             "leaveMeeting": "Покинул встречу",
-            "microphoneDisabled": "Микрофон отключен"
+            "microphoneDisabled": "Микрофон отключен",
+            "enableFullScreen": "Включить полноэкранный режим",
+            "cinemaView": "Режим кинотеатр",
+            "disableFullScreen": "Отключить полноэкранный режим",
+            "leaveConfirmation": "Покинуть встречу?"
         },
         "joinMeeting": "Присоединиться к встрече",
         "newMeetingNotification": {
@@ -286,7 +293,7 @@
         },
         "collapseChat": "Скрыть чат",
         "collapseParticipantsMeetingTooltip": "Скрыть список участников",
-        "activeMeetingTooltip": "В этой группе есть активная встреча",
+        "activeMeetingTooltip": "Для этого чата существует активная встреча",
         "expandChat": "Развернуть чат",
         "expandParticipantsListTooltip": "Развернуть список участников",
         "startModal": {
@@ -337,7 +344,15 @@
         },
         "recordingStart": {
             "failureSnackbar": "Невозможно начать запись, обратитесь к системному администратору."
-        }
+        },
+        "noMoreActiveSession": "Не может быть более одной активной сессии одной и той же встречи",
+        "noTwoActiveSession": "Два активных сеанса одного и того же собрания не могут сосуществовать",
+        "extendChat": "Расширить чат",
+        "continueActiveSession": "Продолжить встречу в новом окне",
+        "openedInAnotherWindow": "Эта встреча уже открыта в другом окне",
+        "presentActiveSession": "Есть еще один активный сеанс",
+        "rejoinMeeting": "Повторно присоединиться к встрече",
+        "restartMeeting": "Перезапустить встречу"
     },
     "thanksForParticipating": "До встречи",
     "external": {
