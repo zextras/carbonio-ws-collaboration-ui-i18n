@@ -278,7 +278,8 @@
                 "participants": "{{userName}} stopped the registration of this meeting"
             },
             "failureSnackbar": "It is not possible to stop the registration, please contact your system administrator."
-        }
+        },
+        "durationTooltip": "Meeting duration"
     },
     "meetings": {
         "interactions": {
