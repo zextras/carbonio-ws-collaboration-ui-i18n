@@ -142,7 +142,8 @@
         "declineAll": "Tout refuser",
         "understood": "Compris",
         "ok": "Ok",
-        "cancel": "Annuler"
+        "cancel": "Annuler",
+        "deleteForAll": "Supprimer pour tout le monde"
     },
     "conversation": {
         "chooseConversationDescription": "Choisissez une conversation pour démarrer une discussion",
@@ -391,7 +392,8 @@
             "ready": "Prêt à participer",
             "welcomeCaption": "Lorsque vous êtes prêt, mettez-vous à l'aise.",
             "nextStep": "Un modérateur vous fera entrer dans la réunion dès que possible.",
-            "readyCaption": "Tout est prêt ! Installez-vous confortablement."
+            "readyCaption": "Tout est prêt ! Installez-vous confortablement.",
+            "userIsReady": "Vous êtes prêt !"
         },
         "infoPage": {
             "title": {
@@ -443,7 +445,8 @@
                 "stopper": "Vous trouverez {{recordingName}} dans le dossier {{folderName}} dès qu'il sera disponible",
                 "participants": "{{userName}} a interrompu l'enregistrement de cette réunion"
             }
-        }
+        },
+        "durationTooltip": "Durée de la réunion"
     },
     "meetings": {
         "interactions": {
