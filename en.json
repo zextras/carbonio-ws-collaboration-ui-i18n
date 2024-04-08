@@ -34,7 +34,8 @@
         "scrollToBottom": "Scroll to bottom",
         "understood": "Understood",
         "undo": "Undo",
-        "cancel": "Cancel"
+        "cancel": "Cancel",
+        "deleteForAll": "Delete for all"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} started a chat with you",
@@ -179,7 +180,7 @@
         "startMeeting": "Start meeting",
         "startModal": {
             "audioAndVideoLoading": "Assets are loading",
-            "enterOneToOneMeetingTitle": "Start meeting with {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Join meeting with {{meetingTitle}}",
             "enterRoomMeetingTitle": "Participate to {{meetingTitle}} meeting"
         },
         "tooltip": {
@@ -229,15 +230,16 @@
             "setInputs": "Set your input devices by choosing them from dropdown menu",
             "welcomeHint": "Click on “READY TO PARTICIPATE” to enter the meeting",
             "readyHint": "You will enter the meeting in a few moments",
-            "hangUp": "Hang up",
+            "hangUp": "Leave",
             "ready": "Ready to participate",
             "welcomeCaption": "When you're ready, get comfortable.",
             "nextStep": "A moderator will let you into the meeting as soon as possible.",
-            "readyCaption": "Everything is set! Make yourself comfortable."
+            "readyCaption": "Everything is set! Make yourself comfortable.",
+            "userIsReady": "You’re ready!"
         },
         "infoPage": {
             "title": {
-                "hangUp": "You hung up!",
+                "hangUp": "You left the waiting room!",
                 "rejected": "You access has been refused",
                 "meetingNotFound": "The meeting you are looking for does not exist",
                 "notAuthenticatedUser": "You are not authenticated"
@@ -457,5 +459,9 @@
         "writeToSend": "Write a message to send it",
         "youAreAlreadyMuted": "You're muted"
     },
-    "tryLater": "Try later"
+    "tryLater": "Try later",
+    "interactions": {
+        "micDevice": "Microphone device",
+        "camDevice": "Camera device"
+    }
 }
