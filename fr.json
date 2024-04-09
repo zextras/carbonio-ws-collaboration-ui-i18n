@@ -458,5 +458,9 @@
     "keepInTouchWithColleagues": "Restez en contact avec vos collègues ou rejoignez les salles de réunion de votre groupe",
     "snackbar": {
         "mutedByModerator": "Vous avez été mis en sourdine par un modérateur, enlevez la sourdine pour parler"
+    },
+    "interactions": {
+        "camDevice": "Appareil photo",
+        "micDevice": "Microphone"
     }
 }
