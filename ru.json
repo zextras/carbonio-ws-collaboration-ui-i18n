@@ -293,7 +293,7 @@
         },
         "collapseChat": "Скрыть чат",
         "collapseParticipantsMeetingTooltip": "Скрыть список участников",
-        "activeMeetingTooltip": "Для этого чата существует активная встреча",
+        "activeMeetingTooltip": "Для этого чата есть активная встреча",
         "expandChat": "Развернуть чат",
         "expandParticipantsListTooltip": "Развернуть список участников",
         "startModal": {
@@ -314,7 +314,18 @@
         "setInputDescription": "Установите устройства ввода, выбрав их из раскрывающегося меню.",
         "startMeeting": "Начать встречу",
         "virtual": {
-            "deleteTooltip": "Удалить Комнату"
+            "deleteTooltip": "Удалить Комнату",
+            "deleteModalDescription": "Вы удаляете эту виртуальную комнату. Если в ней есть активные собрания, они будут прерваны, и никто больше не сможет получить к ней доступ. Продолжить?",
+            "nameRequiredTooltip": "Укажите название виртуальной комнаты",
+            "creationInput": "Название новой виртуальной комнаты*",
+            "buttonLabel": "ваши виртуальные комнаты",
+            "emptyState": "Здесь будут отображаться созданные вами виртуальные комнаты.",
+            "copyLinkTooltip": "Скопируйте ссылку виртуальной комнаты",
+            "createTooltip": "Создать новую виртуальную комнату",
+            "invalidNameTooltip": "Неверное имя",
+            "copyLinkSnackbar": "Ссылка на Виртуальную комнату скопирована",
+            "deleteSnackbar": "Виртуальная комната успешно удалена",
+            "deleteModalTitle": "Удалить виртуальную комнату {{roomName}}"
         },
         "sidebar": {
             "waitingCaption": "В ожидании входа",
@@ -325,7 +336,8 @@
             "recording": {
                 "title": "Запись",
                 "description": "Запись будет сохранена в Files в папке модератора, который остановил запись."
-            }
+            },
+            "waitingList": "Лист ожидания"
         },
         "snackbar": {
             "waitingInfo": "Кажется, в комнате ожидания кто-то есть"
