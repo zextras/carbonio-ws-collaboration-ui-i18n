@@ -1,1 +1,22 @@
-{}
+{
+    "action": {
+        "forward": "Кайра жөнөтүү",
+        "activateNotifications": "Кабарлоону күйгүзүү",
+        "addNewMembers": "Жаңы катышуучуларды кошуу",
+        "close": "Жабуу",
+        "copy": "Көчүрүү",
+        "create": "Түзүү",
+        "delete": "Өчүрүү",
+        "edit": "Редакциялоо",
+        "editYourMessage": "Билдирүүнү редакциялоо",
+        "leave": "Чыгуу",
+        "muteNotifications": "Кабарлоону өчүрүү",
+        "reply": "Жооп берүү",
+        "replyToSomeone": "Жооп берүү",
+        "replyToYourself": "Жооп берүү"
+    },
+    "attachments": {
+        "addFromLocal": "Локалдык ресурстан кошуу",
+        "attachLinkFiles": "Коомдук шилтемени Files тиркеңиз"
+    }
+}
