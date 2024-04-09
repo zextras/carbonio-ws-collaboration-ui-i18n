@@ -34,7 +34,8 @@
         "scrollToBottom": "Przewiń do samego dołu",
         "understood": "Rozumiem",
         "ok": "Ok",
-        "cancel": "Anuluj"
+        "cancel": "Anuluj",
+        "deleteForAll": "Usuń dla wszystkich"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -312,7 +313,8 @@
             "ready": "Gotowy do uczestniczenia",
             "nextStep": "Moderator wpuści Cię do spotkania tak szybko jak to możliwe.",
             "welcomeCaption": "Kiedy będziesz gotowy, odpręż się.",
-            "readyCaption": "Wszystko gotowe! Odpręż się."
+            "readyCaption": "Wszystko gotowe! Odpręż się.",
+            "userIsReady": "Jesteś gotowy!"
         },
         "infoPage": {
             "slogan": {
@@ -357,7 +359,8 @@
                 "participants": "Użytkownik {{userName}} zatrzymał nagrywanie tego spotkania"
             },
             "failureSnackbar": "Nie udało się zatrzymać nagrywania, skontaktuj się z Twoim administratorem systemu."
-        }
+        },
+        "durationTooltip": "Czas trwania spotkania"
     },
     "meetings": {
         "interactions": {
@@ -458,5 +461,9 @@
     "titlePlaceholder": "Tytuł Twojej grupy",
     "snackbar": {
         "mutedByModerator": "Zostałeś wyciszony przez moderatora. Odcisz się, aby inni Cię słyszeli"
+    },
+    "interactions": {
+        "micDevice": "Mikrofon",
+        "camDevice": "Kamera"
     }
 }
