@@ -18,5 +18,13 @@
     "attachments": {
         "addFromLocal": "Локалдык ресурстан кошуу",
         "attachLinkFiles": "Коомдук шилтемени Files тиркеңиз"
+    },
+    "feedback": {
+        "notificationsActivatedForThisChat": "Бул Чат үчүн билдирүү иштетилген",
+        "notificationsMutedForThisChat": "Бул Чат үчүн билдирүүнү өчүрүү"
+    },
+    "external": {
+        "nobodyInTheRoom": "Бул Бөлмөдө эч ким жок",
+        "roomIsEmpty": "Бул Виртуалдык бөлмө бош"
     }
 }
