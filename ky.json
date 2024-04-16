@@ -26,5 +26,15 @@
     "external": {
         "nobodyInTheRoom": "Бул Бөлмөдө эч ким жок",
         "roomIsEmpty": "Бул Виртуалдык бөлмө бош"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Камера өчүрүлгөн",
+            "cameraEnabled": "Камера иштетилди"
+        }
+    },
+    "message": {
+        "deletedMessage": "Өчүрүлгөн билдирүүлөр",
+        "edited": "редакцияланган"
     }
 }
