@@ -13,7 +13,8 @@
         "muteNotifications": "Кабарлоону өчүрүү",
         "reply": "Жооп берүү",
         "replyToSomeone": "Жооп берүү",
-        "replyToYourself": "Жооп берүү"
+        "replyToYourself": "Жооп берүү",
+        "undo": "Жокко чыгаруу"
     },
     "attachments": {
         "addFromLocal": "Локалдык ресурстан кошуу",
@@ -36,5 +37,30 @@
     "message": {
         "deletedMessage": "Өчүрүлгөн билдирүүлөр",
         "edited": "редакцияланган"
-    }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Жолугушуу аяктады"
+        }
+    },
+    "settings": {
+        "profile": {
+            "errorGenericResponse": "Бир нерсе туура эмес болуп калды. Кайталап көрүңүз",
+            "title": "Профиль"
+        }
+    },
+    "status": {
+        "lastSeen": "{{lastSeen}} акыркы болуусу",
+        "offline": "Тармактан тышкары",
+        "online": "Тармакта"
+    },
+    "thanksForParticipating": "Жолугушканга чейин",
+    "tooltip": {
+        "close": "Жабуу",
+        "goToPrivateChat": "Жеке чатка өтүү",
+        "messageComposer": "Билдирүү түзүү каражаты",
+        "selectEmoji": "emoji тандоо",
+        "sendMessage": "Билдирүү жөнөтүү"
+    },
+    "tryLater": "Кийинчерээк кайталаңыз"
 }
