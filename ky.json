@@ -1,7 +1,7 @@
 {
     "action": {
         "forward": "Кайра жөнөтүү",
-        "activateNotifications": "Кабарлоону күйгүзүү",
+        "activateNotifications": "Билдирүүнү киштетүү",
         "addNewMembers": "Жаңы катышуучуларды кошуу",
         "close": "Жабуу",
         "copy": "Көчүрүү",
@@ -9,20 +9,57 @@
         "delete": "Өчүрүү",
         "edit": "Редакциялоо",
         "editYourMessage": "Билдирүүнү редакциялоо",
-        "leave": "Чыгуу",
+        "leave": "Чыгып кетүү",
         "muteNotifications": "Кабарлоону өчүрүү",
         "reply": "Жооп берүү",
         "replyToSomeone": "Жооп берүү",
         "replyToYourself": "Жооп берүү",
-        "undo": "Жокко чыгаруу"
+        "undo": "Жокко чыгаруу",
+        "addAttachment": "Тиркемени тиркөө",
+        "addMoreAttachments": "{{counter}} тиркемелерин кошуу",
+        "addNewMembersTo": "{{roomName}} жаңы катышуучуларды кошуу",
+        "addSingleAttachment": "{{counter}} тиркемелерди кошуу",
+        "clearHistory": "Чаттын тарыхын тазалоо",
+        "decline": "Четке кагуу",
+        "declineAll": "Барын четке кагуу",
+        "download": "Жүктөө",
+        "editDetails": "Редакциялоо",
+        "editRoom": "{{roomName}} редакциялоо",
+        "enter": "Кирүү",
+        "forwarded": "кайра даректелди",
+        "joinMeeting": "Жолугушууга кошулуу",
+        "newChat": "Жаңы чат",
+        "ok": "Ок",
+        "preview": "Алдын ала көрүү",
+        "removeUser": "Өчүрүү",
+        "scrollToBottom": "Төмөн жылдырыңыз",
+        "understood": "Түшүнүктүү",
+        "cancel": "Жокко чыгаруу"
     },
     "attachments": {
         "addFromLocal": "Локалдык ресурстан кошуу",
-        "attachLinkFiles": "Коомдук шилтемени Files тиркеңиз"
+        "attachLinkFiles": "Коомдук шилтемени Files тиркеңиз",
+        "dragAndDrop": "Drag&Drop режими",
+        "dropHereDescription": "Бул Чатка тез кошуу үчүн өзүңүздүн тиркемелерди бул жерге алып келгиле",
+        "errorUploadingFile": "{{file}} жүктөөдө ката кетти",
+        "stopUpload": "Жүктөөнү токтотуу",
+        "uploadAborted": "Жүктөө үзгүлтүккө учурады",
+        "integrations": {
+            "chooseFile": "Файл тандоо",
+            "shareLink": "Жалпы шилтемени бөлүшүү"
+        }
     },
     "feedback": {
         "notificationsActivatedForThisChat": "Бул Чат үчүн билдирүү иштетилген",
-        "notificationsMutedForThisChat": "Бул Чат үчүн билдирүүнү өчүрүү"
+        "notificationsMutedForThisChat": "Бул Чат үчүн билдирүүнү өчүрүү",
+        "networkProblem": {
+            "xmpp": "XMPP боюнча туташтырууда ката кетти",
+            "websocket": "WEBSOCKET туташтырууда ката кетти",
+            "wsc": "WSC туташтырууда ката кетти"
+        },
+        "historyCleared": "Тарых тазаланды!",
+        "messageCopied": "Билдирүү көчүрүлдү",
+        "networkProblems": "Бул модулду колдонууда көйгөй пайда болушу мүмкүн, баракчаны жаңылап көрүңүз."
     },
     "external": {
         "nobodyInTheRoom": "Бул Бөлмөдө эч ким жок",
@@ -32,7 +69,9 @@
         "interactions": {
             "cameraDisabled": "Камера өчүрүлгөн",
             "cameraEnabled": "Камера иштетилди"
-        }
+        },
+        "activeMeetingTooltip": "Бул Чат үчүн активдүү жолугушуу бар",
+        "collapseChat": "Чатты жашыруу"
     },
     "message": {
         "deletedMessage": "Өчүрүлгөн билдирүүлөр",
@@ -62,5 +101,64 @@
         "selectEmoji": "emoji тандоо",
         "sendMessage": "Билдирүү жөнөтүү"
     },
-    "tryLater": "Кийинчерээк кайталаңыз"
+    "tryLater": "Кийинчерээк кайталаңыз",
+    "configurationMessages": {
+        "roomTopicChanged": "{{name}} {{roomName}} темасын \"<i>{{topicName}}</i>\" өзгөрттү",
+        "roomNameChanged": "{{name}} бул топтун аталышын \"<i>{{roomName}}</i>\" өзгөрттү",
+        "roomPictureDeleted": "{{name}} демейки {{roomName}} сүрөтүн калыбына келтирди",
+        "roomPictureUpdated": "{{name}} {{roomName}} сүрөтүн өзгөрттү",
+        "roomTopicRemoved": "{{name}} тарабынан {{roomName}} темасы өчүрүлдү"
+    },
+    "editModal": {
+        "topicTooLong": "Теманын максималдуу узундугу - 256 символ",
+        "confirmDisabled": "Сиз эч нерсени өзгөрткөн жоксуз",
+        "groupNameDetails": "Талап кылынат жана топту идентификациялайт",
+        "confirm": "Деталдарды редакциялоо",
+        "errorDisabled": "Киргизилген маалыматтарды текшериңиз",
+        "groupDescriptionDetails": "Топтун темасын сүрөттөө",
+        "nameTooLong": "Аталыштын максималдуу узундугу - 128 символ",
+        "nameTooShort": "Аталышы маанилүү маалымат болуп саналат"
+    },
+    "conversation": {
+        "mockCreateChatDescription": "Маалыматтар жана тиркемелер менен бөлүшүп, кесиптештериңиз менен баарлашкыла, өз ара аракеттенгиле жана кызматташкыла",
+        "emptyListDescription": "Бул жерда Чаттар жана Топтор көрсөтүлөт",
+        "emptyListTitle": "Бул тизме бош",
+        "keepInTouchTitle": "Байланышта болобуз!",
+        "mockCreateChatTitle": "\"Түзүү\" баскычынын жардамы менен жаңы Чат түзгүлө",
+        "newMessage": "Жаңы билдирүү",
+        "newMessages": "Жаңы билдирүүлөр",
+        "selectionMode": {
+            "multipleForward": "{{numberOfMessages}} билдирүүлөрдү кайра жөнөтүү",
+            "exit": "Тандоо режиминен чыгуу"
+        }
+    },
+    "keepInTouchWithColleagues": "Кесиптештер менен байланышта болуңуз же топторуңуздун иш мейкиндиктерине кошулуңуз",
+    "affiliationMessages": {
+        "SomeoneElseCreatedOneToOne": "{{userName}} сиз менен сүйлөшүүнү баштады",
+        "groupCreated": "{{roomName}} түзүлдү!",
+        "memberAdded": "{{userName}} {{roomName}} кошулду",
+        "memberRemoved": "{{userName}} {{roomName}} өчүрүлдү",
+        "oneToOneCreated": "Жаңы чат түзүлдү!",
+        "youCreatedOneToOne": "Сиз {{userName}} менен сүйлөшүүнү баштадыңыз"
+    },
+    "chat": "Чат",
+    "conversationFilter": {
+        "closeTooltip": "Чыпкаларды жабуу",
+        "filterTooltip": "Чыпкалардын тизмеси",
+        "label": "Тизмени чыпкалоо үчүн жазып баштаңыз"
+    },
+    "conversationInfo": {
+        "actionAccordionTitle": "Аракет",
+        "email": "Электрондук почта",
+        "info": "Маалымат",
+        "messages": "Билдирүү",
+        "name": "аты",
+        "status": "статусу",
+        "title": "Аталышы",
+        "topic": "Тема"
+    },
+    "date": {
+        "today": "Бүгүн",
+        "yesterday": "Кечээ"
+    }
 }
