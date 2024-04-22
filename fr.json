@@ -143,7 +143,8 @@
         "understood": "Compris",
         "ok": "Ok",
         "cancel": "Annuler",
-        "deleteForAll": "Supprimer pour tout le monde"
+        "deleteForAll": "Supprimer pour tout le monde",
+        "retry": "Réessayer"
     },
     "conversation": {
         "chooseConversationDescription": "Choisissez une conversation pour démarrer une discussion",
@@ -198,7 +199,16 @@
         "moreMembersAccordionTitle": "membres",
         "oneMemberAccordionTitle": "Un membre",
         "searchMembers": "Rechercher des membres",
-        "searchParticipants": "Rechercher des participants"
+        "searchParticipants": "Rechercher des participants",
+        "noMatch": {
+            "all": "Il n'y a pas d'utilisateur qui corresponde à votre recherche ni dans les discussion existante, ni dans votre établissement.",
+            "gal": "Il n'y a pas d'utilisateur qui corresponde à cette recherche dans votre établissement.",
+            "chatList": "Il n'y a pas d'utilisateur qui corresponde avec cette recherche dans les discussions existantes."
+        },
+        "creationList": {
+            "title": "Créer une nouvelle discussion avec :",
+            "searchFailure": "Votre recherche semble avoir un problème, merci de réessayer."
+        }
     },
     "status": {
         "lastSeen": "Vu pour la dernière fois {{lastSeen}}",
@@ -372,7 +382,8 @@
                 "action": {
                     "start": "LANCER",
                     "stop": "ARRÊTER"
-                }
+                },
+                "additionalDescription": "Si quelque chose se passe mal, l'enregistrement sera sauvegardé dans Files dans l'espace du modérateur l'ayant lancée."
             }
         },
         "browserNotification": {
