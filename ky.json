@@ -67,11 +67,94 @@
     },
     "meeting": {
         "interactions": {
-            "cameraDisabled": "Камера өчүрүлгөн",
-            "cameraEnabled": "Камера иштетилди"
+            "cameraDisabled": "Камера өчүрүдү",
+            "cameraEnabled": "Камера иштетилди",
+            "disableScreen": "Экранды көрсөтүүнү өчүрүү",
+            "stopMic": "Микрофонду текшерүүнү аяктоо",
+            "cinemaView": "Кинотеатр режими",
+            "disableCamera": "Камераны өчүрүү",
+            "disableFullScreen": "Толук экран режимин өчүрүү",
+            "disableMicrophone": "Микрофонду өчүрүү",
+            "enableCamera": "Камераны иштетүү",
+            "enableFullScreen": "Толук экран режимин иштетүү",
+            "enableMicrophone": "Микрофон иштетүү",
+            "enableScreen": "Экранда көрсөтүүнү иштетүү",
+            "gridView": "Торчонун түрү",
+            "leaveMeeting": "Жолугушуудан чыгып кетти",
+            "microphoneDisabled": "Микрофон өчүрүлгөн",
+            "microphoneEnabled": "Микрофон иштеп жатат",
+            "playMic": "Микрофонду текшерүүнү баштоо",
+            "leaveConfirmation": "Жолугушуудан чыгасызбы?"
         },
         "activeMeetingTooltip": "Бул Чат үчүн активдүү жолугушуу бар",
-        "collapseChat": "Чатты жашыруу"
+        "collapseChat": "Чатты жашыруу",
+        "virtual": {
+            "copyLinkTooltip": "Виртуалдык бөлмөнүн шилтемесин көчүрүү",
+            "deleteModalDescription": "Бул виртуалдык бөлмөнү өчүрүп жатасыз. Эгерде анда активдүү жолугушуулар болсо, алар токтотулат жана башка эч ким кире албайт. Улантасызбы?",
+            "creationInput": "Жаңы виртуалдык бөлмөнүн аты*",
+            "buttonLabel": "Сиздин Виртуалдык бөлмөлөр",
+            "emptyState": "Бул жерден сиз түзгөн Виртуалдык бөлмөлөр көрүнөт.",
+            "deleteTooltip": "Бөлмөнү өчүрүү",
+            "nameRequiredTooltip": "Виртуалдык бөлмөнүн аталышын көрсөтүңүз",
+            "createTooltip": "Жаңы Виртуалдык бөлмө түзүү",
+            "invalidNameTooltip": "Аты туура эмес",
+            "copyLinkSnackbar": "Виртуалдык бөлмөгө шилтеме көчүрүлдү",
+            "deleteSnackbar": "Виртуалдык бөлмө ийгиликтүү өчүрүлдү",
+            "deleteModalTitle": "{{roomName}} виртуалдык бөлмөсүн өчүрүү"
+        },
+        "ongoingOneToOneMeetingTooltip": "{{name}} менен активдүү жолугушууңуз бар",
+        "startModal": {
+            "audioAndVideoLoading": "Ресурстар жүктөлүүдө",
+            "enterRoomMeetingTitle": "{{meeting Title}} жолугушууга катышыңыз"
+        },
+        "newMeetingNotification": {
+            "sendAQuickMessage": "Кыска билдирүү жөнөтүү",
+            "sendMessage": "Билдирүү жөнөтүү",
+            "userIsInvitingYou": "Сизди <strong>{{name}}</strong> чакырууда",
+            "writeAMessageToSendIt": "Жөнөтүү үчүн билдирүү жазыңыз"
+        },
+        "restartMeeting": "Жолугушууну кайра баштоо",
+        "sidebar": {
+            "recording": {
+                "description": "Жаздырууну токтоткон модератордун папкасында Files жаздыруу саталат",
+                "title": "Жаздыруу",
+                "moderatorInfo": "Жаздыруу башталды",
+                "action": {
+                    "start": "СТАРТ",
+                    "stop": "СТОП"
+                }
+            },
+            "waitingList": "Күтүү баракчасы",
+            "waitingCaption": "Кирүүнү күтүп жатат",
+            "tooltip": {
+                "waitingAccept": "Кирүүгө уруксат берүү",
+                "waitingReject": "Пайдалануучунун кирүүсүн четке кагуу"
+            }
+        },
+        "noMoreActiveSession": "Бир эле жолугушуунун бирден ашык активдүү сессиясы болушу мүмкүн эмес",
+        "collapseParticipantsMeetingTooltip": "Катышуучулардын тизмесин жашыруу",
+        "continueActiveSession": "Жолугушууну жаңы терезеде улантуу",
+        "expandChat": "Чатты кеңейтүү",
+        "expandParticipantsListTooltip": "Катышуучулардын тизмесин кеңейтүү",
+        "extendChat": "Чатты кеңейтүү",
+        "joinMeeting": "Жолугушууга кошулуу",
+        "joinMeetingDescription": "Бул жолугушууга кантип кошулгуңуз келет?",
+        "minimizeChat": "Чатты төмөн түшүрүү",
+        "noTwoActiveSession": "Бир эле жыйындын эки активдүү сессиясы бирге болушу мүмкүн эмес",
+        "ongoingGroupMeetingTooltip": "Бул жолугушууга катышып жатасыз",
+        "openedInAnotherWindow": "Бул жолугушуу башка терезеде ачылган",
+        "participantsList": {
+            "title": "{{count}} катышуучу",
+            "title_plural": "{{count}} катышуучулар"
+        },
+        "presentActiveSession": "Дагы бир активдүү сессия бар",
+        "rejoinMeeting": "Жолугушууга кайрадан кошулуу",
+        "setInputDescription": "Аларды ачылган менюдан тандап, киргизүү түзүлүшүн орнотуңуз",
+        "startMeeting": "Жолугушууну баштоо",
+        "tooltip": {
+            "activeSessionTooltip": "Сиз бул жолугушууга катышып жатасыз"
+        },
+        "waitingParticipants": "Катышуучулар кошулууда…"
     },
     "message": {
         "deletedMessage": "Өчүрүлгөн билдирүүлөр",
