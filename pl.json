@@ -35,7 +35,8 @@
         "understood": "Rozumiem",
         "ok": "Ok",
         "cancel": "Anuluj",
-        "deleteForAll": "Usuń dla wszystkich"
+        "deleteForAll": "Usuń dla wszystkich",
+        "retry": "Spróbuj ponownie"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -85,7 +86,17 @@
         "moreMembersAccordionTitle": "członkowie",
         "searchParticipants": "Wyszukaj uczestników",
         "oneMemberAccordionTitle": "Jeden członek",
-        "searchMembers": "Wyszukaj członków"
+        "searchMembers": "Wyszukaj członków",
+        "creationList": {
+            "title": "Stwórz nowy czat z:",
+            "searchFailure": "Wygląda na to, że wystąpił problem z Twoim wyszukiwaniem, spróbuj ponownie.",
+            "userDescription": "Kliknij, aby stworzyć czat z tym użytkownikiem."
+        },
+        "noMatch": {
+            "gal": "Nie ma w Twojej firmie użytkowników pasujących do tego wyszukiwania.",
+            "chatList": "Nie ma w Twoich czatach użytkowników pasujących do tego wyszukiwania.",
+            "all": "Nie ma w Twoich czatach ani w Twojej firmie użytkowników pasujących do tego wyszukiwania."
+        }
     },
     "settings": {
         "notifications": {
@@ -293,7 +304,8 @@
                 "action": {
                     "start": "ROZPOCZNIJ",
                     "stop": "ZATRZYMAJ"
-                }
+                },
+                "additionalDescription": "Jeśli coś pójdzie nie tak, nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który je rozpoczął."
             }
         },
         "snackbar": {
