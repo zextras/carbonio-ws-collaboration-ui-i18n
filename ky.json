@@ -154,7 +154,10 @@
         "tooltip": {
             "activeSessionTooltip": "Сиз бул жолугушууга катышып жатасыз"
         },
-        "waitingParticipants": "Катышуучулар кошулууда…"
+        "waitingParticipants": "Катышуучулар кошулууда…",
+        "snackbar": {
+            "waitingInfo": "Күтүү бөлмөсүндө бирөө бардай"
+        }
     },
     "message": {
         "deletedMessage": "Өчүрүлгөн билдирүүлөр",
