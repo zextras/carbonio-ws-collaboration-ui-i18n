@@ -216,7 +216,8 @@
                     "start": "START RECORDING",
                     "stop": "STOP RECORDING"
                 },
-                "description": "The recording will be saved in the Files space of the moderator who stopped it."
+                "description": "The recording will be saved in the Files space of the moderator who stopped it.",
+                "additionalDescription": "If something goes wrong, the recording will be saved in the Files space of the moderator who started it."
             }
         },
         "snackbar": {
@@ -352,7 +353,8 @@
         "searchParticipants": "Search participants",
         "creationList": {
             "title": "Create new chat with:",
-            "searchFailure": "There seems to be a problem with your search, please retry."
+            "searchFailure": "There seems to be a problem with your search, please retry.",
+            "userDescription": "Click to create a chat with this user."
         }
     },
     "settings": {
