@@ -35,7 +35,8 @@
         "understood": "Understood",
         "undo": "Undo",
         "cancel": "Cancel",
-        "deleteForAll": "Delete for all"
+        "deleteForAll": "Delete for all",
+        "retry": "Retry"
     },
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} started a chat with you",
@@ -213,7 +214,7 @@
                 "moderatorInfo": "has started recording",
                 "action": {
                     "start": "START RECORDING",
-                    "stop": "STOP"
+                    "stop": "STOP RECORDING"
                 },
                 "description": "The recording will be saved in the Files space of the moderator who stopped it."
             }
@@ -341,10 +342,18 @@
     "participantsList": {
         "closeSearch": "Close search",
         "moreMembersAccordionTitle": "members",
-        "noMatch": "There are no items that match this search",
+        "noMatch": {
+            "all": "There are no users matching this search in your existing chats or in your company.",
+            "chatList": "There are no users matching this search in your existing chats.",
+            "gal": "There are no users matching this search in your company."
+        },
         "oneMemberAccordionTitle": "One member",
         "searchMembers": "Search members",
-        "searchParticipants": "Search participants"
+        "searchParticipants": "Search participants",
+        "creationList": {
+            "title": "Create new chat with:",
+            "searchFailure": "There seems to be a problem with your search, please retry."
+        }
     },
     "settings": {
         "notifications": {
