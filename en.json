@@ -212,7 +212,7 @@
                 "title": "Recording",
                 "moderatorInfo": "has started recording",
                 "action": {
-                    "start": "START",
+                    "start": "START RECORDING",
                     "stop": "STOP"
                 },
                 "description": "The recording will be saved in the Files space of the moderator who stopped it."
