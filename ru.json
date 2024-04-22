@@ -149,7 +149,6 @@
     "participantsList": {
         "closeSearch": "Закрыть поиск",
         "moreMembersAccordionTitle": "участники",
-        "noMatch": "Нет элементов, соответствующих этому запросу",
         "oneMemberAccordionTitle": "Один участник",
         "searchMembers": "Поиск участников",
         "searchParticipants": "Поиск участников"

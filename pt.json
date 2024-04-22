@@ -163,7 +163,6 @@
     "participantsList": {
         "closeSearch": "Fechar a pesquisa",
         "moreMembersAccordionTitle": "Membros",
-        "noMatch": "Não há itens que correspondam a essa busca",
         "oneMemberAccordionTitle": "Um membro",
         "searchMembers": "Buscar membros"
     },
