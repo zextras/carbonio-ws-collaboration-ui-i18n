@@ -345,8 +345,7 @@
         "moreMembersAccordionTitle": "members",
         "noMatch": {
             "all": "There are no users matching this search in your existing chats or in your company.",
-            "chatList": "There are no users matching this search in your existing chats.",
-            "gal": "There are no users matching this search in your company."
+            "chatList": "There are no users matching this search in your existing chats."
         },
         "oneMemberAccordionTitle": "One member",
         "searchMembers": "Search members",
