@@ -202,7 +202,6 @@
         "searchParticipants": "Rechercher des participants",
         "noMatch": {
             "all": "Il n'y a pas d'utilisateur qui corresponde à votre recherche ni dans les discussion existante, ni dans votre établissement.",
-            "gal": "Il n'y a pas d'utilisateur qui corresponde à cette recherche dans votre établissement.",
             "chatList": "Il n'y a pas d'utilisateur qui corresponde avec cette recherche dans les discussions existantes."
         },
         "creationList": {
