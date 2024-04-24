@@ -353,8 +353,7 @@
         "searchParticipants": "Search participants",
         "creationList": {
             "title": "Create new chat with:",
-            "searchFailure": "There seems to be a problem with your search, please retry.",
-            "userDescription": "Click to create a chat with this user."
+            "searchFailure": "There seems to be a problem with your search, please retry."
         }
     },
     "settings": {
