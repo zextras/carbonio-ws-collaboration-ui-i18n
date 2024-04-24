@@ -92,7 +92,6 @@
             "searchFailure": "Wygląda na to, że wystąpił problem z Twoim wyszukiwaniem, spróbuj ponownie."
         },
         "noMatch": {
-            "gal": "Nie ma w Twojej firmie użytkowników pasujących do tego wyszukiwania.",
             "chatList": "Nie ma w Twoich czatach użytkowników pasujących do tego wyszukiwania.",
             "all": "Nie ma w Twoich czatach ani w Twojej firmie użytkowników pasujących do tego wyszukiwania."
         }
