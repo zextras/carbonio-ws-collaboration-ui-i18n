@@ -105,7 +105,8 @@
         "understood": "Понятно",
         "ok": "Ок",
         "cancel": "Отменить",
-        "deleteForAll": "Удалить для всех"
+        "deleteForAll": "Удалить для всех",
+        "retry": "Повторить"
     },
     "conversation": {
         "chooseConversationDescription": "Выберите беседу, чтобы начать чат",
@@ -151,7 +152,15 @@
         "moreMembersAccordionTitle": "участники",
         "oneMemberAccordionTitle": "Один участник",
         "searchMembers": "Поиск участников",
-        "searchParticipants": "Поиск участников"
+        "searchParticipants": "Поиск участников",
+        "noMatch": {
+            "all": "Ни в существующих чатах, ни в вашей компании нет пользователей, соответствующих этому запросу.",
+            "chatList": "В существующих чатах нет пользователей, соответствующих этому запросу."
+        },
+        "creationList": {
+            "title": "Начать чат с:",
+            "searchFailure": "Кажется, возникла проблема с поиском, повторите попытку."
+        }
     },
     "settings": {
         "notifications": {
@@ -360,7 +369,8 @@
                 "action": {
                     "start": "СТАРТ",
                     "stop": "СТОП"
-                }
+                },
+                "additionalDescription": "Если что-то пойдет не так, запись сохранится в Files модератора, который ее запустил."
             },
             "waitingList": "Лист ожидания"
         },
