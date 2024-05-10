@@ -66,10 +66,7 @@
             "newChat": "Nuova Chat",
             "description": "Le chat sono conversazioni tra due persone che ti aiutano a restare in contatto con i tuoi colleghi. Puoi creare un Gruppo includendo più di due partecipanti",
             "addUserLimit": {
-                "limitReached": "Hai selezionato il numero massimo di membri per un gruppo",
-                "users_0": "Puoi aggiungere un solo membro",
-                "users_1": "Puoi aggiungere altri {{count}} membri",
-                "users_2": ""
+                "limitReached": "Hai selezionato il numero massimo di membri per un gruppo"
             }
         },
         "removeMember": "Rimuovi membro",
@@ -327,11 +324,6 @@
         "ongoingOneToOneMeetingTooltip": "Hai già un meeting attivo con {{name}}",
         "joinMeetingDescription": "Come vuoi accedere a questo meeting?",
         "minimizeChat": "Riduci la chat",
-        "participantsList": {
-            "title_0": "Un partecipante al meeting",
-            "title_1": "{{count}} partecipanti al meeting",
-            "title_2": ""
-        },
         "setInputDescription": "Imposta i tuoi dispositivi di input scegliendoli dal menù a tendina",
         "startMeeting": "Avvia meeting",
         "virtual": {

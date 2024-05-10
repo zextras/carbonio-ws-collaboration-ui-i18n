@@ -31,9 +31,6 @@
             "newChat": "Nouvelle Discussion",
             "description": "Les discussions sont des conversations entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un Groupe en ajoutant plus de 2 adresses",
             "addUserLimit": {
-                "users_0": "Vous pouvez ajouter un dernier membre",
-                "users_1": "Vous pouvez encore ajouter {{count}} membres",
-                "users_2": "Vous pouvez encore ajouter {{count}} membres",
                 "limitReached": "Vous avez sélectionner le nombre maximum de membres pour un groupe"
             }
         },
@@ -333,11 +330,6 @@
         "extendChat": "Agrandir la discussion",
         "minimizeChat": "Minimiser la discussion",
         "ongoingGroupMeetingTooltip": "Vous participez déjà à cette réunion",
-        "participantsList": {
-            "title_0": "Un participant à la réunion",
-            "title_1": "{{count}} participants à la réunion",
-            "title_2": "{{count}} participants à la réunion"
-        },
         "startMeeting": "Commencer la réunion",
         "startModal": {
             "audioAndVideoLoading": "Les équipements sont en cours de chargement",

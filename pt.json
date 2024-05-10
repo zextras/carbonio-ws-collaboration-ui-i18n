@@ -60,9 +60,6 @@
             "description": "Os Chats são conversas individuais que permitem você se comunicar com colegas. Para incluir mais pessoas, você pode criar um Grupo",
             "inputPlaceholder": "Comece a digitar ou selecione um endereço",
             "addUserLimit": {
-                "users_0": "Você pode adicionar um último membro",
-                "users_1": "Você pode adicionar mais {{count}} membros",
-                "users_2": "Você pode adicionar mais {{count}} membros",
                 "limitReached": "Você selecionou o número máximo de membros para um grupo"
             }
         },
@@ -420,11 +417,6 @@
         },
         "noTwoActiveSession": "Duas sessões ativas da mesma reunião não podem coexistir",
         "openedInAnotherWindow": "Esta reunião já está aberta em outra janela",
-        "participantsList": {
-            "title_0": "Um participante da reunião",
-            "title_1": "{{count}} participantes da reunião",
-            "title_2": "{{count}} participantes da reunião"
-        },
         "presentActiveSession": "Há outra sessão ativa",
         "rejoinMeeting": "Entrar novamente na reunião",
         "restartMeeting": "Reiniciar reunião",

@@ -66,10 +66,7 @@
             "inputPlaceholder": "Comece a digitar ou selecione um endereço",
             "newChat": "Novo Chat",
             "addUserLimit": {
-                "limitReached": "Você selecionou o número máximo de membros para um grupo",
-                "users_0": "Você pode adicionar um último membro",
-                "users_1": "Você pode adicionar mais {{count}} membros",
-                "users_2": "Você pode adicionar mais {{count}} membros"
+                "limitReached": "Você selecionou o número máximo de membros para um grupo"
             }
         },
         "deleteUserDescription": "Tem certeza que deseja remover este membro?",
@@ -442,11 +439,6 @@
         "expandChat": "Expandir chat",
         "extendChat": "Estender chat",
         "joinMeetingDescription": "Como deseja ingressar nesta reunião?",
-        "participantsList": {
-            "title_0": "Um participante da reunião",
-            "title_1": "{{count}} participantes da reunião",
-            "title_2": "{{count}} participantes da reunião"
-        },
         "activeMeetingTooltip": "Há uma reunião ativa para este Chat",
         "collapseChat": "Recolher chat",
         "expandParticipantsListTooltip": "Expandir lista de participantes",

@@ -119,9 +119,7 @@
             "newGroup": "Yeni Grup",
             "description": "Sohbetler, kişilerinizle iletişimde kalmanıza yardımcı olan bire bir konuşmalardır. İkiden fazla adres ekleyerek Grup oluşturabilirsiniz",
             "addUserLimit": {
-                "limitReached": "Bir grup için maksimum üye sayısını seçtiniz",
-                "users": "Son bir üye ekleyebilirsiniz",
-                "users_plural": "Başka {{count}} üye ekleyebilirsiniz"
+                "limitReached": "Bir grup için maksimum üye sayısını seçtiniz"
             }
         },
         "deleteGroup": "Grubu Sil",
@@ -307,10 +305,6 @@
         "minimizeChat": "Sohbeti simge durumuna",
         "ongoingGroupMeetingTooltip": "Bu toplantıya zaten katılıyorsunuz",
         "ongoingOneToOneMeetingTooltip": "{{name}} ile zaten etkin bir toplantınız var",
-        "participantsList": {
-            "title": "Bir toplantı katılımcısı",
-            "title_plural": "{{count}} toplantı katılımcısı"
-        },
         "setInputDescription": "Giriş cihazlarınızı açılır menüden seçerek ayarlayın",
         "startMeeting": "Toplantıyı Başlat",
         "startModal": {

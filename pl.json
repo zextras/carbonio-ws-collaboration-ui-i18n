@@ -47,9 +47,6 @@
         "leaveGroup": "Opuść grupę",
         "creation": {
             "addUserLimit": {
-                "users_0": "Możesz dodać jeszcze jednego członka",
-                "users_1": "Możesz dodać jeszcze {{count}} członków",
-                "users_2": "Możez dodać jeszcze {{count}} członków",
                 "limitReached": "Osiągnąłeś max. liczbę członków dla grupy"
             },
             "inputPlaceholder": "Zacznij wpisywać lub wybierz adres",
@@ -260,11 +257,6 @@
         },
         "expandChat": "Rozwiń czat",
         "waitingParticipants": "Oczekiwanie na dołączenie przez uczestników…",
-        "participantsList": {
-            "title_0": "Jeden uczestnik spotkania",
-            "title_1": "{{count}} uczestników spotkania",
-            "title_2": "{{count}} uczestników spotkania"
-        },
         "activeMeetingTooltip": "Istnieje aktywne spotkanie dla tego czatu",
         "collapseChat": "Zwiń czat",
         "collapseParticipantsMeetingTooltip": "Zwiń listę uczestników",
