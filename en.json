@@ -179,8 +179,8 @@
         "ongoingOneToOneMeetingTooltip": "You already have an active meeting with {{name}}",
         "openedInAnotherWindow": "This meeting is already open in another window",
         "participantsList": {
-            "title": "One meeting's participant",
-            "title_plural": "{{count}} meeting's participants"
+            "title_one": "One meeting's participant",
+            "title_other": "{{count}} meeting's participants"
         },
         "presentActiveSession": "There is another active session",
         "rejoinMeeting": "Rejoin meeting",
@@ -311,8 +311,8 @@
         "creation": {
             "addUserLimit": {
                 "limitReached": "You have selected the maximum number of members for a group",
-                "users": "You can add one last member",
-                "users_plural": "You can add other {{count}} members"
+                "users_one": "You can add one last member",
+                "users_other": "You can add other {{count}} members"
             },
             "contactList": "Select more than an address to create a Group",
             "description": "Chats are one-to-one conversations that help you to stay in touch with your contacts. You can create a Group by including more than two addresses",
