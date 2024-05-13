@@ -47,7 +47,10 @@
         "leaveGroup": "Opuść grupę",
         "creation": {
             "addUserLimit": {
-                "limitReached": "Osiągnąłeś max. liczbę członków dla grupy"
+                "limitReached": "Osiągnąłeś max. liczbę członków dla grupy",
+                "users_one": "Możesz dodać ostatniego członka",
+                "users_few": "Możesz dodać jeszcze {{count}} członków",
+                "users_many": "Możesz dodać jeszcze {{count}} członków"
             },
             "inputPlaceholder": "Zacznij wpisywać lub wybierz adres",
             "newChat": "Nowy czat",
@@ -166,7 +169,7 @@
         "mockCreateChatTitle": "Stwórz nowy czat używając przycisku stwórz",
         "selectionMode": {
             "exit": "Wyjdź z trybu wybierania",
-            "maxSelected": "Osiągnięto maksymalną ilość wiadomości jakie mogą jednocześnie zostać przekazane dalej",
+            "maxSelected": "Osiągnięto maksymalną ilość wiadomości jakie mogą jednocześnie zostać przekazane dalej. Odznacz wiadomość, aby zmienić Twój wybór.",
             "multipleForward": "przekaż dalej {{numberOfMessages}} wiadomości"
         },
         "longCaption": {
@@ -369,7 +372,12 @@
             },
             "failureSnackbar": "Nie udało się zatrzymać nagrywania, skontaktuj się z Twoim administratorem systemu."
         },
-        "durationTooltip": "Czas trwania spotkania"
+        "durationTooltip": "Czas trwania spotkania",
+        "participantsList": {
+            "title_one": "Jeden uczestnik spotkania",
+            "title_few": "{{count}} uczestników spotkania",
+            "title_many": "{{count}} uczestników spotkania"
+        }
     },
     "meetings": {
         "interactions": {
@@ -389,7 +397,7 @@
         "lastSeen": "Ostatnio widziano {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
-        "you": " Ty",
+        "you": "Ty",
         "goToPrivateChat": "Przejdź do prywatnego czatu, aby wysłać osobistą wiadomość",
         "areTyping": "piszą…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} osób pisze…",
