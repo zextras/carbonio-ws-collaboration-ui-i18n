@@ -31,7 +31,10 @@
             "newChat": "Nouvelle Discussion",
             "description": "Les discussions sont des conversations entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un Groupe en ajoutant plus de 2 adresses",
             "addUserLimit": {
-                "limitReached": "Vous avez sélectionner le nombre maximum de membres pour un groupe"
+                "limitReached": "Vous avez sélectionner le nombre maximum de membres pour un groupe",
+                "users_one": "Vous pouvez ajouter un dernier membre",
+                "users_many": "Vous pouvez ajouter {{count}} autres membres",
+                "users_other": "Vous pouvez ajouter {{count}} autres membres"
             }
         },
         "deleteUserDescription": "Êtes-vous sûr de vouloir supprimer ce membre ?",
@@ -156,6 +159,14 @@
             "exit": "Sortir du mode de sélection",
             "maxSelected": "Le nombre maximum de messages pouvant être transférés en même temps a été atteint",
             "multipleForward": "transférer {{numberOfMessages}} messages"
+        },
+        "longCaption": {
+            "modal": {
+                "action": "Attacher quand même",
+                "title": "Message trop long pour la légende",
+                "description": "Le message auquel vous attachez cet élément est très long et ne peut être utilisé comme légende de pièce jointe.",
+                "additionalDetails": "Si vous continuez l'opération, l'excédent sera supprimé du texte original. Continuer ?"
+            }
         }
     },
     "date": {
@@ -400,17 +411,20 @@
             "title": {
                 "hangUp": "Vous avez raccroché !",
                 "meetingNotFound": "La réunion que vous recherchez n'existe pas",
-                "notAuthenticatedUser": "Vous n'êtes pas authentifié"
+                "notAuthenticatedUser": "Vous n'êtes pas authentifié",
+                "rejected": "Votre accès a été refusé"
             },
             "slogan": {
                 "hangUp": "Peut-être la prochaine fois",
                 "meetingNotFound": "essayez plus tard",
-                "notAuthenticatedUser": "CONNEXION POUR ENTRER DANS LA RÉUNION"
+                "notAuthenticatedUser": "CONNEXION POUR ENTRER DANS LA RÉUNION",
+                "rejected": "Peut-être la prochaine fois"
             },
             "description": {
                 "hangUp": "Nous nous réjouissons de vous voir participer aux prochaines réunions",
                 "meetingNotFound": "Veuillez vérifier le lien de la réunion et réessayer",
-                "notAuthenticatedUser": "Vous ne pouvez pas participer à la réunion si vous n'êtes pas authentifié avec votre compte"
+                "notAuthenticatedUser": "Vous ne pouvez pas participer à la réunion si vous n'êtes pas authentifié avec votre compte",
+                "rejected": "Le modérateur a décidé de ne pas vous autoriser dans cette réunion"
             }
         },
         "continueActiveSession": "Poursuivre la réunion dans la nouvelle fenêtre",
@@ -447,7 +461,12 @@
                 "participants": "{{userName}} a interrompu l'enregistrement de cette réunion"
             }
         },
-        "durationTooltip": "Durée de la réunion"
+        "durationTooltip": "Durée de la réunion",
+        "participantsList": {
+            "title_one": "Un participant",
+            "title_many": "{{count}} participants",
+            "title_other": "{{count}} participants"
+        }
     },
     "meetings": {
         "interactions": {
