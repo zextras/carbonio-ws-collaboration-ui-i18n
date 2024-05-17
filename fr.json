@@ -157,7 +157,7 @@
         "newMessages": "Nouveaux messages",
         "selectionMode": {
             "exit": "Sortir du mode de sélection",
-            "maxSelected": "Le nombre maximum de messages pouvant être transférés en même temps a été atteint",
+            "maxSelected": "Le nombre maximum de messages pouvant être transférés en même temps a été atteint. Désélectionnez un message pour changer votre sélection.",
             "multipleForward": "transférer {{numberOfMessages}} messages"
         },
         "longCaption": {
@@ -223,7 +223,7 @@
         "online": "En ligne",
         "areTyping": "écrit…",
         "isTyping": "est en train d'écrire…",
-        "you": " Vous",
+        "you": "Vous",
         "goToPrivateChat": "Aller en discussion privée pour envoyer un message personnel",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} et {{numberOfUsers}} autres écrivent…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} personnes écrivent…"
