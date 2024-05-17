@@ -482,5 +482,12 @@
     "interactions": {
         "micDevice": "Mikrofon",
         "camDevice": "Kamera"
+    },
+    "welcomePage": {
+        "journeyDescription": "Zostaniesz przekierowany do poczekalni, gdzie moderator zgodzi się na Twoje dołączenie.",
+        "blob": "Witaj!",
+        "nameInput": "Wpisz tutaj Twoje imię",
+        "joinButton": "Dołącz do spotkania",
+        "description": "Jak chcesz się wyświetlać?"
     }
 }
