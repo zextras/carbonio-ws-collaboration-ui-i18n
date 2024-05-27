@@ -185,8 +185,8 @@
     },
     "feedback": {
         "historyCleared": "Historique effacé avec succès !",
-        "notificationsActivatedForThisChat": "Notifications activées pour ce Canal",
-        "notificationsMutedForThisChat": "Notifications désactivées pour ce chat",
+        "notificationsActivatedForThisChat": "Notifications activées pour cette conversation",
+        "notificationsMutedForThisChat": "Notifications désactivées pour cette conversation",
         "messageCopied": "Le message a été copié",
         "networkProblem": {
             "websocket": "Un problème est survenu lors de la connexion avec WEBSOCKET",
@@ -231,7 +231,7 @@
     "tooltip": {
         "clear": "Effacer",
         "close": "Fermer",
-        "goToPrivateChat": "Aller dans une conversation privé",
+        "goToPrivateChat": "Aller dans une conversation privée",
         "leaveConversation": "Quitter la conversation",
         "messageComposer": "Éditeur de message",
         "messageRead": "Lu",
