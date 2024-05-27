@@ -486,6 +486,9 @@
         "nameInput": "Type here your name",
         "blob": "Hey stranger!",
         "joinButton": "Join the meeting",
-        "journeyDescription": "You will be redirected to the Waiting Room where a moderator will approve your access."
+        "journeyDescription": "You will be redirected to the Waiting Room where a moderator will approve your access.",
+        "loginButton": "GO TO YOUR LOGIN PAGE",
+        "loginTitle": "Do you have an account?",
+        "loginDescription": "Choose freely whether to go to the login page or simply access the meeting with your name."
     }
 }
