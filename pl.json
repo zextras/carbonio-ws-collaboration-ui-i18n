@@ -342,7 +342,7 @@
                 "notAuthenticatedUser": "Nie możesz dołączyć do spotkania jeśli nie jesteś zalogowany"
             },
             "title": {
-                "hangUp": "Rozłączyłeś się.",
+                "hangUp": "Opuściłeś poczekalnię!",
                 "rejected": "Może następnym razem",
                 "meetingNotFound": "Spotkanie, którego szukasz nie istnieje",
                 "notAuthenticatedUser": "Nie jesteś zalogowany"
@@ -488,6 +488,9 @@
         "blob": "Witaj!",
         "nameInput": "Wpisz tutaj Twoje imię",
         "joinButton": "Dołącz do spotkania",
-        "description": "Jak chcesz się wyświetlać?"
+        "description": "Jak chcesz się wyświetlać?",
+        "loginTitle": "Czy masz konto?",
+        "loginDescription": "Wybierz czy wolisz udać się na stronę logowania czy po prostu dołączyć do spotkania używając Twojego imienia.",
+        "loginButton": "UDAJ SIĘ NA STRONĘ LOGOWANIA"
     }
 }
