@@ -269,8 +269,7 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} создана!",
-        "oneToOneCreated": "Создан новый чат!",
-        "youCreatedOneToOne": "Вы начали чат с {{userName}}"
+        "oneToOneCreated": "Создан новый чат!"
     },
     "conversationFilter": {
         "closeTooltip": "Закрыть фильтры",
