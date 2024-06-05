@@ -243,8 +243,7 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} oluşturuldu!",
-        "oneToOneCreated": "Yeni Sohbet oluşturuldu!",
-        "youCreatedOneToOne": "{{userName}} ile Sohbet başlattınız"
+        "oneToOneCreated": "Yeni Sohbet oluşturuldu!"
     },
     "conversationFilter": {
         "closeTooltip": "Filtreyi Kapat",
