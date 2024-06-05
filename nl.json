@@ -222,9 +222,6 @@
         "oneToOneCreated": "Nieuwe chat aangemaakt!",
         "youCreatedOneToOne": "Je bent een chat gestart met {{userName}}"
     },
-    "configurationMessages": {
-        "roomTopicChanged": "{{name}} heeft het onderwerp van {{roomName}} gewijzigd in \"<i>{{topicName}}</i>\""
-    },
     "conversationFilter": {
         "closeTooltip": "Sluit filter",
         "filterTooltip": "Filter lijst",
