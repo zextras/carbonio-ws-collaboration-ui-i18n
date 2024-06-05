@@ -223,7 +223,6 @@
         "SomeoneElseCreatedOneToOne": "{{userName}} ने आपके साथ चैट शुरू की"
     },
     "configurationMessages": {
-        "roomPictureDeleted": "{{name}} ने डिफ़ॉल्ट {{roomName}}फोटो वापस सेट की",
         "roomPictureUpdated": "{{name}} ने {{roomName}}की फोटो बदल दी",
         "roomTopicChanged": "{{name}} ने \"<i>{{topicName}}</i>\" में {{roomName}} का टॉपिक बदल दिया"
     },
