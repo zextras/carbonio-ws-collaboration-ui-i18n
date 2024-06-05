@@ -266,9 +266,6 @@
         "oneToOneCreated": "Nuova conversazione creata!",
         "youCreatedOneToOne": "Hai iniziato una Chat con {{userName}}"
     },
-    "configurationMessages": {
-        "roomTopicRemoved": "{{name}} ha rimosso l'argomento trattato da {{roomName}}"
-    },
     "conversationFilter": {
         "closeTooltip": "Chiudi filtro",
         "filterTooltip": "Filtra lista",
