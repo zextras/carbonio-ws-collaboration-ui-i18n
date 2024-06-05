@@ -356,7 +356,6 @@
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} сиз менен сүйлөшүүнү баштады",
         "groupCreated": "{{roomName}} түзүлдү!",
-        "memberRemoved": "{{userName}} {{roomName}} өчүрүлдү",
         "oneToOneCreated": "Жаңы чат түзүлдү!",
         "youCreatedOneToOne": "Сиз {{userName}} менен сүйлөшүүнү баштадыңыз"
     },
