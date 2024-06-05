@@ -331,7 +331,6 @@
     "tryLater": "Кийинчерээк кайталаңыз",
     "configurationMessages": {
         "roomTopicChanged": "{{name}} {{roomName}} темасын \"<i>{{topicName}}</i>\" өзгөрттү",
-        "roomPictureUpdated": "{{name}} {{roomName}} сүрөтүн өзгөрттү",
         "roomTopicRemoved": "{{name}} тарабынан {{roomName}} темасы өчүрүлдү"
     },
     "editModal": {
