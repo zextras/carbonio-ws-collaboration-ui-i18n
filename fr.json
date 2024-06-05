@@ -286,9 +286,6 @@
         "oneToOneCreated": "Nouvelle discussion créée !",
         "youCreatedOneToOne": "Vous avez lancé une discussion avec {{userName}}"
     },
-    "configurationMessages": {
-        "roomTopicRemoved": "{{name}} a supprimé de sujet de {{roomName}}"
-    },
     "conversationFilter": {
         "label": "Taper pour filtrer la liste",
         "filterTooltip": "Liste des filtres",
