@@ -290,7 +290,6 @@
         "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}",
         "roomPictureUpdated": "{{name}} a changé l'image de {{roomName}}",
         "roomTopicChanged": "{{name}} à changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\"",
-        "roomNameChanged": "{{name}} a changé le nom du groupe en \"<i>{{roomName}}</i>\"",
         "roomTopicRemoved": "{{name}} a supprimé de sujet de {{roomName}}"
     },
     "conversationFilter": {
