@@ -61,7 +61,6 @@
     },
     "chat": "Chat",
     "configurationMessages": {
-        "roomPictureDeleted": "{{name}} restored the default {{roomName}}'s image.",
         "roomPictureUpdated": "{{name}} changed {{roomName}}'s image.",
         "roomTopicChanged": "{{name}} changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} removed {{roomName}}'s topic."
