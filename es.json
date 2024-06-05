@@ -223,7 +223,6 @@
         "youCreatedOneToOne": "Has iniciado un chat con {{userName}}"
     },
     "configurationMessages": {
-        "roomPictureUpdated": "{{name}} ha cambiado la imagen de {{roomName}}",
         "roomTopicChanged": "{{name}} ha cambiado el tema de {{roomName}} por \"<i>{{topicName}}</i>\""
     },
     "conversationFilter": {
