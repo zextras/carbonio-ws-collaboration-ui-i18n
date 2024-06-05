@@ -267,7 +267,6 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} criado!",
-        "memberAdded": "{{userName}} foi adicionado a {{roomName}}",
         "oneToOneCreated": "Novo Chat criado!",
         "youCreatedOneToOne": "Iniciou um Chat com {{userName}}",
         "SomeoneElseCreatedOneToOne": "{{userName}} iniciou um Chat consigo",
