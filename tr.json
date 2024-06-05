@@ -243,7 +243,6 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} oluşturuldu!",
-        "SomeoneElseCreatedOneToOne": "{{userName}} sizinle sohbet etmeye başladı",
         "oneToOneCreated": "Yeni Sohbet oluşturuldu!",
         "youCreatedOneToOne": "{{userName}} ile Sohbet başlattınız"
     },
