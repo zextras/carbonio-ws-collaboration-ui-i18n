@@ -229,8 +229,7 @@
         "label": "输入以过滤列表"
     },
     "configurationMessages": {
-        "roomTopicChanged": "{{name}}已在“<i>{{topicName}}</i>”中更改了{{roomName}}的主题",
-        "roomPictureUpdated": "{{name}}更改了{{roomName}}图像"
+        "roomTopicChanged": "{{name}}已在“<i>{{topicName}}</i>”中更改了{{roomName}}的主题"
     },
     "chat": "聊天",
     "external": {
