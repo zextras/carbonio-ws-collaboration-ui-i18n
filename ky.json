@@ -355,8 +355,7 @@
     "keepInTouchWithColleagues": "Кесиптештер менен байланышта болуңуз же топторуңуздун иш мейкиндиктерине кошулуңуз",
     "affiliationMessages": {
         "groupCreated": "{{roomName}} түзүлдү!",
-        "oneToOneCreated": "Жаңы чат түзүлдү!",
-        "youCreatedOneToOne": "Сиз {{userName}} менен сүйлөшүүнү баштадыңыз"
+        "oneToOneCreated": "Жаңы чат түзүлдү!"
     },
     "chat": "Чат",
     "conversationFilter": {
