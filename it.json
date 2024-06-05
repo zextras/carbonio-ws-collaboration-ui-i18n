@@ -267,7 +267,6 @@
         "youCreatedOneToOne": "Hai iniziato una Chat con {{userName}}"
     },
     "configurationMessages": {
-        "roomPictureDeleted": "{{name}} ha ripristinato l'immagine predefinita di {{roomName}}",
         "roomPictureUpdated": "{{name}} ha modificato l'immagine di {{roomName}}",
         "roomTopicChanged": "{{name}} ha modificato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} ha rimosso l'argomento trattato da {{roomName}}"
