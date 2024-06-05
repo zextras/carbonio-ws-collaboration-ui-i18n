@@ -456,7 +456,6 @@
     },
     "configurationMessages": {
         "roomTopicRemoved": "Użytkownik {{name}} usunął temat {{roomName}}",
-        "roomPictureUpdated": "Użytkownik {{name}} zmienił obraz {{roomName}}",
         "roomTopicChanged": "Użytkownik {{name}} zmienił temat {{roomName}} na \"<i>{{topicName}}</i>\""
     },
     "conversationFilter": {
