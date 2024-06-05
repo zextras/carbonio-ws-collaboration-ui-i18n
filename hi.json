@@ -222,9 +222,6 @@
         "youCreatedOneToOne": "आपने {{userName}} के साथ चैट शुरू कर दी है",
         "SomeoneElseCreatedOneToOne": "{{userName}} ने आपके साथ चैट शुरू की"
     },
-    "configurationMessages": {
-        "roomTopicChanged": "{{name}} ने \"<i>{{topicName}}</i>\" में {{roomName}} का टॉपिक बदल दिया"
-    },
     "conversationFilter": {
         "closeTooltip": "फ़िल्टर बंद करें",
         "filterTooltip": "फ़िल्टर लिस्ट",
