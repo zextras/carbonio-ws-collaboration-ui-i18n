@@ -253,7 +253,6 @@
         "roomPictureDeleted": "{{name}} varsayılan {{roomName}} resmini geri yükledi",
         "roomPictureUpdated": "{{name}}, {{roomName}} resmini değiştirdi",
         "roomTopicChanged": "{{name}}, {{roomName}} odasının \"<i>{{topicName}}</i>\" konusunu değiştirdi",
-        "roomNameChanged": "{{name}}, \"<i>{{roomName}}</i>\" içinde bu Grubun başlığını değiştirdi",
         "roomTopicRemoved": "{{name}}, {{roomName}}adlı odanın konusunu kaldırdı"
     },
     "conversationFilter": {
