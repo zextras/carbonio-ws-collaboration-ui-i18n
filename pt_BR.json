@@ -274,7 +274,6 @@
         "youCreatedOneToOne": "Você iniciou um chat com {{userName}}"
     },
     "configurationMessages": {
-        "roomTopicChanged": "{{name}} alterou o assunto de {{roomName}} por \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} removeu o tópico de {{roomName}}"
     },
     "conversationFilter": {
