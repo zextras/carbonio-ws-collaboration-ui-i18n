@@ -287,7 +287,6 @@
         "youCreatedOneToOne": "Vous avez lancé une discussion avec {{userName}}"
     },
     "configurationMessages": {
-        "roomTopicChanged": "{{name}} à changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} a supprimé de sujet de {{roomName}}"
     },
     "conversationFilter": {
