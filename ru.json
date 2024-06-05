@@ -270,7 +270,6 @@
     "affiliationMessages": {
         "SomeoneElseCreatedOneToOne": "{{userName}} начал(а) с вами чат",
         "groupCreated": "{{roomName}} создана!",
-        "memberAdded": "{{userName}} добавлен(а) в {{roomName}}",
         "memberRemoved": "{{userName}} был удален(а) из {{roomName}}",
         "oneToOneCreated": "Создан новый чат!",
         "youCreatedOneToOne": "Вы начали чат с {{userName}}"
