@@ -279,7 +279,6 @@
         "youAreAlreadyMuted": "Vous êtes en sourdine"
     },
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "{{userName}} a commencé une discussion avec vous",
         "groupCreated": "{{roomName}} est créée !",
         "oneToOneCreated": "Nouvelle discussion créée !",
         "youCreatedOneToOne": "Vous avez lancé une discussion avec {{userName}}"
