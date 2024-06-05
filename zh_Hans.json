@@ -230,7 +230,6 @@
     },
     "configurationMessages": {
         "roomTopicChanged": "{{name}}已在“<i>{{topicName}}</i>”中更改了{{roomName}}的主题",
-        "roomPictureDeleted": "{{name}}回复了默认{{roomName}}图像",
         "roomPictureUpdated": "{{name}}更改了{{roomName}}图像"
     },
     "chat": "聊天",
