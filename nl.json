@@ -223,7 +223,6 @@
         "youCreatedOneToOne": "Je bent een chat gestart met {{userName}}"
     },
     "configurationMessages": {
-        "roomNameChanged": "{{name}} heeft de titel van deze groep gewijzigd in \"<i>{{roomName}}</i>\"",
         "roomPictureUpdated": "{{name}} heeft de afbeelding van {{roomName}} gewijzigd",
         "roomTopicChanged": "{{name}} heeft het onderwerp van {{roomName}} gewijzigd in \"<i>{{topicName}}</i>\"",
         "roomPictureDeleted": "{{name}} heeft de standaardafbeelding van {{roomName}} hersteld"
