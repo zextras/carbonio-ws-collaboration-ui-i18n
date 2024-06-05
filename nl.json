@@ -216,8 +216,7 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} aangemaakt!",
-        "oneToOneCreated": "Nieuwe chat aangemaakt!",
-        "youCreatedOneToOne": "Je bent een chat gestart met {{userName}}"
+        "oneToOneCreated": "Nieuwe chat aangemaakt!"
     },
     "conversationFilter": {
         "closeTooltip": "Sluit filter",
