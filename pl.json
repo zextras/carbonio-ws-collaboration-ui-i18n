@@ -461,8 +461,7 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} zostało stworzone!",
-        "oneToOneCreated": "Nowy czat został stworzony!",
-        "youCreatedOneToOne": "Rozpocząłeś czat z użytkownikiem {{userName}}"
+        "oneToOneCreated": "Nowy czat został stworzony!"
     },
     "keepInTouchWithColleagues": "Pozostań w kontakcie ze swoimi współpracownikami lub dołączaj do pokojów spotkań Twoich grup",
     "titlePlaceholder": "Tytuł Twojej grupy",
