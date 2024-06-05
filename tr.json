@@ -245,8 +245,7 @@
         "groupCreated": "{{roomName}} oluşturuldu!",
         "SomeoneElseCreatedOneToOne": "{{userName}} sizinle sohbet etmeye başladı",
         "oneToOneCreated": "Yeni Sohbet oluşturuldu!",
-        "youCreatedOneToOne": "{{userName}} ile Sohbet başlattınız",
-        "memberRemoved": "{{userName}} artık grubun bir üyesi değil"
+        "youCreatedOneToOne": "{{userName}} ile Sohbet başlattınız"
     },
     "conversationFilter": {
         "closeTooltip": "Filtreyi Kapat",
