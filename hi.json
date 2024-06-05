@@ -217,7 +217,6 @@
     "affiliationMessages": {
         "groupCreated": "{{roomName}} बनाया गया!",
         "oneToOneCreated": "नई चैट बनाई गई!",
-        "memberRemoved": "{{userName}} को {{roomName}} से हटा दिया गया है",
         "youCreatedOneToOne": "आपने {{userName}} के साथ चैट शुरू कर दी है",
         "SomeoneElseCreatedOneToOne": "{{userName}} ने आपके साथ चैट शुरू की"
     },
