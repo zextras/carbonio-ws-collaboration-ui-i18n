@@ -275,9 +275,6 @@
         "oneToOneCreated": "Создан новый чат!",
         "youCreatedOneToOne": "Вы начали чат с {{userName}}"
     },
-    "configurationMessages": {
-        "roomTopicRemoved": "{{name}} удалил тему {{roomName}}"
-    },
     "conversationFilter": {
         "closeTooltip": "Закрыть фильтры",
         "filterTooltip": "Список фильтров",
