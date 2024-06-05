@@ -276,7 +276,6 @@
         "youCreatedOneToOne": "Вы начали чат с {{userName}}"
     },
     "configurationMessages": {
-        "roomPictureDeleted": "{{name}} восстановил(а) изображение {{roomName}} по умолчанию",
         "roomPictureUpdated": "{{name}} изменил(а) изображение {{roomName}}",
         "roomTopicChanged": "{{name}} изменил(а) тему {{roomName}} \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} удалил тему {{roomName}}"
