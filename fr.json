@@ -280,8 +280,7 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} est créée !",
-        "oneToOneCreated": "Nouvelle discussion créée !",
-        "youCreatedOneToOne": "Vous avez lancé une discussion avec {{userName}}"
+        "oneToOneCreated": "Nouvelle discussion créée !"
     },
     "conversationFilter": {
         "label": "Taper pour filtrer la liste",
