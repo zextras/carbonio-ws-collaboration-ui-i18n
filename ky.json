@@ -329,9 +329,6 @@
         "youAreAlreadyMuted": "Сизде үн өчүрүлгөн"
     },
     "tryLater": "Кийинчерээк кайталаңыз",
-    "configurationMessages": {
-        "roomTopicRemoved": "{{name}} тарабынан {{roomName}} темасы өчүрүлдү"
-    },
     "editModal": {
         "topicTooLong": "Теманын максималдуу узундугу - 256 символ",
         "confirmDisabled": "Сиз эч нерсени өзгөрткөн жоксуз",
