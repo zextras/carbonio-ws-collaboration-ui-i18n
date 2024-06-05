@@ -39,7 +39,6 @@
         "retry": "Retry"
     },
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "{{userName}} started a chat with you",
         "groupCreated": "{{roomName}} created!",
         "oneToOneCreated": "New Chat created!",
         "youCreatedOneToOne": "You started a Chat with {{userName}}",
