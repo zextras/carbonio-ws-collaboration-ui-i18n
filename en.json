@@ -42,7 +42,15 @@
         "SomeoneElseCreatedOneToOne": "{{userName}} started a chat with you",
         "groupCreated": "{{roomName}} created!",
         "oneToOneCreated": "New Chat created!",
-        "youCreatedOneToOne": "You started a Chat with {{userName}}"
+        "youCreatedOneToOne": "You started a Chat with {{userName}}",
+        "member": {
+            "Removed": "{{userName}} is no longer a member of {{roomName}}.",
+            "Added": "{{userName}} has been added to {{roomName}}."
+        },
+        "user": {
+            "Removed": "You are no longer a member of {{roomName}}.",
+            "Added": "You have been added to {{roomName}}."
+        }
     },
     "attachments": {
         "addFromLocal": "Add from local",
@@ -413,7 +421,8 @@
         "online": "Online",
         "you": "You",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} and {{numberOfUsers}} others are typing…",
-        "numberOfPeopleAreTyping": "{{numberOfUsers}} people are typing…"
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} people are typing…",
+        "Anonymous": "Anonymous user"
     },
     "thanksForParticipating": "Thanks for participating",
     "titlePlaceholder": "Your Group's title",
@@ -481,5 +490,21 @@
         "loginButton": "GO TO YOUR LOGIN PAGE",
         "loginTitle": "Do you have an account?",
         "loginDescription": "Choose freely whether to go to the login page or simply access the meeting with your name."
+    },
+    "configurationMessages": {
+        "member": {
+            "roomPictureDeleted": "{{name}} restored the default {{roomName}}'s image.",
+            "roomNameChanged": "{{name}} changed the title of this Group in \"<i>{{roomName}}</i>\".",
+            "roomPictureUpdated": "{{name}} changed {{roomName}}'s image.",
+            "roomTopicChanged": "{{name}} changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\".",
+            "roomTopicRemoved": "{{name}} removed {{roomName}}'s topic."
+        },
+        "user": {
+            "roomNameChanged": "You changed the title of this Group in \"<i>{{roomName}}</i>\".",
+            "roomPictureDeleted": "You have restored the default {{roomName}}'s image.",
+            "roomPictureUpdated": "You changed {{roomName}}'s image.",
+            "roomTopicChanged": "You changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\".",
+            "roomTopicRemoved": "You have removed {{roomName}}'s topic."
+        }
     }
 }
