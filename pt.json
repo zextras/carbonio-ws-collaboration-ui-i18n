@@ -269,8 +269,7 @@
         "groupCreated": "{{roomName}} criado!",
         "oneToOneCreated": "Novo Chat criado!",
         "youCreatedOneToOne": "Iniciou um Chat com {{userName}}",
-        "SomeoneElseCreatedOneToOne": "{{userName}} iniciou um Chat consigo",
-        "memberRemoved": "{{userName}} não é mais um membro do grupo"
+        "SomeoneElseCreatedOneToOne": "{{userName}} iniciou um Chat consigo"
     },
     "conversationFilter": {
         "closeTooltip": "Fechar filtro",
