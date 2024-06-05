@@ -276,7 +276,6 @@
         "youCreatedOneToOne": "Вы начали чат с {{userName}}"
     },
     "configurationMessages": {
-        "roomTopicChanged": "{{name}} изменил(а) тему {{roomName}} \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} удалил тему {{roomName}}"
     },
     "conversationFilter": {
