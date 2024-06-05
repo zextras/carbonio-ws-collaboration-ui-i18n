@@ -216,7 +216,6 @@
     },
     "titlePlaceholder": "您的群组标题",
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "{{userName}}发起了与您之间的聊天",
         "groupCreated": "{{roomName}}已创建！",
         "oneToOneCreated": "新聊天已创建！",
         "youCreatedOneToOne": "您发起了与{{userName}}之间的聊天"
