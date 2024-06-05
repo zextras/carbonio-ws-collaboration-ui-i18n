@@ -215,7 +215,6 @@
         "isTyping": "está escribiendo…"
     },
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "{{userName}} ha iniciado un chat contigo",
         "groupCreated": "¡{{roomName}} creado!",
         "oneToOneCreated": "¡Nuevo chat creado!",
         "youCreatedOneToOne": "Has iniciado un chat con {{userName}}"
