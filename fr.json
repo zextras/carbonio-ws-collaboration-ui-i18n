@@ -226,7 +226,8 @@
         "you": "Vous",
         "goToPrivateChat": "Aller en discussion privée pour envoyer un message personnel",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} et {{numberOfUsers}} autres écrivent…",
-        "numberOfPeopleAreTyping": "{{numberOfUsers}} personnes écrivent…"
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} personnes écrivent…",
+        "Anonymous": "Utilisateur anonyme"
     },
     "tooltip": {
         "clear": "Effacer",
@@ -280,7 +281,15 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} est créée !",
-        "oneToOneCreated": "Nouvelle discussion créée !"
+        "oneToOneCreated": "Nouvelle discussion créée !",
+        "member": {
+            "Added": "{{userName}} a été ajouté à {{roomName}}.",
+            "Removed": "{{userName}} n'est plus membre de {{roomName}}."
+        },
+        "user": {
+            "Removed": "Vous n'êtes plus membre de {{roomName}}.",
+            "Added": "Vous avez été ajouté à {{roomName}}."
+        }
     },
     "conversationFilter": {
         "label": "Taper pour filtrer la liste",
@@ -481,5 +490,21 @@
         "loginTitle": "Avez-vous un compte ?",
         "loginDescription": "Choisissez librement d'aller sur la page de connexion ou d'accéder simplement à la réunion avec votre nom.",
         "loginButton": "ALLER VERS VOTRE PAGE DE CONNEXION"
+    },
+    "configurationMessages": {
+        "user": {
+            "roomTopicRemoved": "Vous avez enlevé le sujet de {{roomName}}.",
+            "roomPictureDeleted": "Vous avez restauré l'image par défaut de {{roomName}}.",
+            "roomTopicChanged": "Vous avez changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\".",
+            "roomNameChanged": "Vous avez changer le titre de ce groupe en \"<i>{{roomName}}</i>\".",
+            "roomPictureUpdated": "Vous avez changé l'image de {{roomName}}."
+        },
+        "member": {
+            "roomTopicChanged": "{{name}} a changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\".",
+            "roomPictureUpdated": "{{name}} a changé l'image de {{roomName}}.",
+            "roomNameChanged": "{{name}} a changé le titre de ce groupe en \"<i>{{roomName}}</i>\".",
+            "roomTopicRemoved": "{{name}} a enlevé le sujet de {{roomName}}.",
+            "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}."
+        }
     }
 }
