@@ -330,7 +330,6 @@
     },
     "tryLater": "Кийинчерээк кайталаңыз",
     "configurationMessages": {
-        "roomTopicChanged": "{{name}} {{roomName}} темасын \"<i>{{topicName}}</i>\" өзгөрттү",
         "roomTopicRemoved": "{{name}} тарабынан {{roomName}} темасы өчүрүлдү"
     },
     "editModal": {
