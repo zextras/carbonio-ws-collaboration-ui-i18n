@@ -458,8 +458,7 @@
         "roomTopicRemoved": "Użytkownik {{name}} usunął temat {{roomName}}",
         "roomPictureDeleted": "Użytkownik {{name}} przywrócił domyślny obraz {{roomName}}",
         "roomPictureUpdated": "Użytkownik {{name}} zmienił obraz {{roomName}}",
-        "roomTopicChanged": "Użytkownik {{name}} zmienił temat {{roomName}} na \"<i>{{topicName}}</i>\"",
-        "roomNameChanged": "Użytkownik {{name}} zmienił tytuł tej grupy w \"<i>{{roomName}}</i>\""
+        "roomTopicChanged": "Użytkownik {{name}} zmienił temat {{roomName}} na \"<i>{{topicName}}</i>\""
     },
     "conversationFilter": {
         "filterTooltip": "Filtruj listę",
