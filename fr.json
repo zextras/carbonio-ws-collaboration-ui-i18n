@@ -287,7 +287,6 @@
         "youCreatedOneToOne": "Vous avez lancé une discussion avec {{userName}}"
     },
     "configurationMessages": {
-        "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}",
         "roomPictureUpdated": "{{name}} a changé l'image de {{roomName}}",
         "roomTopicChanged": "{{name}} à changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} a supprimé de sujet de {{roomName}}"
