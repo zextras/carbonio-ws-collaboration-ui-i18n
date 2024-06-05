@@ -249,9 +249,6 @@
         "youCreatedOneToOne": "{{userName}} ile Sohbet başlattınız",
         "memberRemoved": "{{userName}} artık grubun bir üyesi değil"
     },
-    "configurationMessages": {
-        "roomTopicRemoved": "{{name}}, {{roomName}}adlı odanın konusunu kaldırdı"
-    },
     "conversationFilter": {
         "closeTooltip": "Filtreyi Kapat",
         "label": "Listeyi filtrelemek için yazın",
