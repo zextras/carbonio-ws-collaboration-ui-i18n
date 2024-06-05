@@ -224,8 +224,7 @@
     },
     "configurationMessages": {
         "roomPictureUpdated": "{{name}} heeft de afbeelding van {{roomName}} gewijzigd",
-        "roomTopicChanged": "{{name}} heeft het onderwerp van {{roomName}} gewijzigd in \"<i>{{topicName}}</i>\"",
-        "roomPictureDeleted": "{{name}} heeft de standaardafbeelding van {{roomName}} hersteld"
+        "roomTopicChanged": "{{name}} heeft het onderwerp van {{roomName}} gewijzigd in \"<i>{{topicName}}</i>\""
     },
     "conversationFilter": {
         "closeTooltip": "Sluit filter",
