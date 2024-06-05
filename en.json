@@ -61,7 +61,6 @@
     },
     "chat": "Chat",
     "configurationMessages": {
-        "roomTopicChanged": "{{name}} changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} removed {{roomName}}'s topic."
     },
     "conversation": {
