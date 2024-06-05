@@ -242,7 +242,6 @@
         "youAreAlreadyMuted": "Sesiniz kapatıldı"
     },
     "affiliationMessages": {
-        "memberAdded": "{{userName}}, {{roomName}} odasına eklendi",
         "groupCreated": "{{roomName}} oluşturuldu!",
         "SomeoneElseCreatedOneToOne": "{{userName}} sizinle sohbet etmeye başladı",
         "oneToOneCreated": "Yeni Sohbet oluşturuldu!",
