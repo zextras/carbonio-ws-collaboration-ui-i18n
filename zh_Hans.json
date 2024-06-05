@@ -228,9 +228,6 @@
         "filterTooltip": "过滤列表",
         "label": "输入以过滤列表"
     },
-    "configurationMessages": {
-        "roomTopicChanged": "{{name}}已在“<i>{{topicName}}</i>”中更改了{{roomName}}的主题"
-    },
     "chat": "聊天",
     "external": {
         "nobodyInTheRoom": "似乎房间中没有人",
