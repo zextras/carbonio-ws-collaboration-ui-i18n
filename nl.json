@@ -215,7 +215,6 @@
         "edited": "bewerkt"
     },
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "{{userName}} heeft een chat met je gestart",
         "groupCreated": "{{roomName}} aangemaakt!",
         "oneToOneCreated": "Nieuwe chat aangemaakt!",
         "youCreatedOneToOne": "Je bent een chat gestart met {{userName}}"
