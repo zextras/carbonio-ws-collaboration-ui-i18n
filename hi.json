@@ -217,8 +217,7 @@
     "affiliationMessages": {
         "groupCreated": "{{roomName}} बनाया गया!",
         "oneToOneCreated": "नई चैट बनाई गई!",
-        "youCreatedOneToOne": "आपने {{userName}} के साथ चैट शुरू कर दी है",
-        "SomeoneElseCreatedOneToOne": "{{userName}} ने आपके साथ चैट शुरू की"
+        "youCreatedOneToOne": "आपने {{userName}} के साथ चैट शुरू कर दी है"
     },
     "conversationFilter": {
         "closeTooltip": "फ़िल्टर बंद करें",
