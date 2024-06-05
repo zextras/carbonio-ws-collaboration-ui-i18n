@@ -460,7 +460,6 @@
         "closeTooltip": "Zamknij filtr"
     },
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "Użytkownik {{userName}} rozpoczął czat z Tobą",
         "groupCreated": "{{roomName}} zostało stworzone!",
         "oneToOneCreated": "Nowy czat został stworzony!",
         "youCreatedOneToOne": "Rozpocząłeś czat z użytkownikiem {{userName}}"
