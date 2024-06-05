@@ -274,7 +274,6 @@
         "memberRemoved": "{{userName}} não é mais um membro do grupo"
     },
     "configurationMessages": {
-        "roomPictureDeleted": "{{name}} restaurou a imagem de {{roomName}}",
         "roomPictureUpdated": "{{name}} mudou a imagem de {{roomName}}",
         "roomTopicChanged": "{{name}} alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\"",
         "roomTopicRemoved": "{{name}} removeu o tópico de {{roomName}}"
