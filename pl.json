@@ -454,9 +454,6 @@
         "participantMuted": "Ten uczestnik jest wyciszony",
         "youAreAlreadyMuted": "Jesteś wyciszony"
     },
-    "configurationMessages": {
-        "roomTopicRemoved": "Użytkownik {{name}} usunął temat {{roomName}}"
-    },
     "conversationFilter": {
         "filterTooltip": "Filtruj listę",
         "label": "Wpisz coś, aby filtrować listę",
