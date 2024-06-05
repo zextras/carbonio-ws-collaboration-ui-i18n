@@ -250,7 +250,6 @@
         "memberRemoved": "{{userName}} artık grubun bir üyesi değil"
     },
     "configurationMessages": {
-        "roomTopicChanged": "{{name}}, {{roomName}} odasının \"<i>{{topicName}}</i>\" konusunu değiştirdi",
         "roomTopicRemoved": "{{name}}, {{roomName}}adlı odanın konusunu kaldırdı"
     },
     "conversationFilter": {
