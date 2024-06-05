@@ -266,7 +266,6 @@
         "nameAndNumberOfPeopleAreTyping": "{{userName}} e outros {{numberOfUsers}} estão digitando…"
     },
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "{{userName}} iniciou um chat com você",
         "groupCreated": "{{roomName}} criado!",
         "oneToOneCreated": "Novo chat criado!",
         "youCreatedOneToOne": "Você iniciou um chat com {{userName}}"
