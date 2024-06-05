@@ -268,7 +268,6 @@
         "youAreAlreadyMuted": "У вас отключен звук"
     },
     "affiliationMessages": {
-        "SomeoneElseCreatedOneToOne": "{{userName}} начал(а) с вами чат",
         "groupCreated": "{{roomName}} создана!",
         "oneToOneCreated": "Создан новый чат!",
         "youCreatedOneToOne": "Вы начали чат с {{userName}}"
