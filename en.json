@@ -60,9 +60,6 @@
         }
     },
     "chat": "Chat",
-    "configurationMessages": {
-        "roomTopicRemoved": "{{name}} removed {{roomName}}'s topic."
-    },
     "conversation": {
         "chooseConversationDescription": "Choose a chat to start a conversation",
         "emptyListDescription": "Chats and Groups will appear listed here",
