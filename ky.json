@@ -331,7 +331,6 @@
     "tryLater": "Кийинчерээк кайталаңыз",
     "configurationMessages": {
         "roomTopicChanged": "{{name}} {{roomName}} темасын \"<i>{{topicName}}</i>\" өзгөрттү",
-        "roomNameChanged": "{{name}} бул топтун аталышын \"<i>{{roomName}}</i>\" өзгөрттү",
         "roomPictureDeleted": "{{name}} демейки {{roomName}} сүрөтүн калыбына келтирди",
         "roomPictureUpdated": "{{name}} {{roomName}} сүрөтүн өзгөрттү",
         "roomTopicRemoved": "{{name}} тарабынан {{roomName}} темасы өчүрүлдү"
