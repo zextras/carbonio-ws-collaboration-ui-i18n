@@ -401,7 +401,8 @@
         "goToPrivateChat": "Przejdź do prywatnego czatu, aby wysłać osobistą wiadomość",
         "areTyping": "piszą…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} osób pisze…",
-        "nameAndNumberOfPeopleAreTyping": "{{userName}} i {{numberOfUsers}} innych piszą…"
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} i {{numberOfUsers}} innych piszą…",
+        "Anonymous": "Anonimowy użytkownik"
     },
     "thanksForParticipating": "Dziękujemy za uczestniczenie",
     "tooltip": {
@@ -461,7 +462,15 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} zostało stworzone!",
-        "oneToOneCreated": "Nowy czat został stworzony!"
+        "oneToOneCreated": "Nowy czat został stworzony!",
+        "member": {
+            "Added": "Użytkownik {{userName}} został dodany do {{roomName}}.",
+            "Removed": "Użytkownik {{userName}} nie jest już członkiem {{roomName}}."
+        },
+        "user": {
+            "Removed": "Nie jesteś już członkiem {{roomName}}.",
+            "Added": "Zostałeś dodany do {{roomName}}."
+        }
     },
     "keepInTouchWithColleagues": "Pozostań w kontakcie ze swoimi współpracownikami lub dołączaj do pokojów spotkań Twoich grup",
     "titlePlaceholder": "Tytuł Twojej grupy",
@@ -481,5 +490,21 @@
         "loginTitle": "Czy masz konto?",
         "loginDescription": "Wybierz czy wolisz udać się na stronę logowania czy po prostu dołączyć do spotkania używając Twojego imienia.",
         "loginButton": "UDAJ SIĘ NA STRONĘ LOGOWANIA"
+    },
+    "configurationMessages": {
+        "user": {
+            "roomTopicRemoved": "Usunąłeś temat {{roomName}}.",
+            "roomPictureDeleted": "Przywróciłeś domyślny obraz {{roomName}}.",
+            "roomPictureUpdated": "Zmieniłeś obraz {{roomName}}.",
+            "roomTopicChanged": "Zmieniłeś temat {{roomName}} w \"<i>{{topicName}}</i>\".",
+            "roomNameChanged": "Zmieniłeś tytuł tej grupy w \"<i>{{roomName}}</i>\"."
+        },
+        "member": {
+            "roomPictureUpdated": "Użytkownik {{name}} zmienił obraz {{roomName}}.",
+            "roomTopicRemoved": "Użytkownik {{name}} usunął temat {{roomName}}.",
+            "roomPictureDeleted": "Użytkownik {{name}} przywrócił domyślny obraz {{roomName}}.",
+            "roomTopicChanged": "Użytkownik {{name}} zmienił temat {{roomName}} w \"<i>{{topicName}}</i>\".",
+            "roomNameChanged": "Użytkownik {{name}} zmienił tytuł tej grupy w \"<i>{{roomName}}</i>\"."
+        }
     }
 }
