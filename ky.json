@@ -1,7 +1,7 @@
 {
     "action": {
         "forward": "Кайра жөнөтүү",
-        "activateNotifications": "Билдирүүнү киштетүү",
+        "activateNotifications": "Билдирүүнү иштетүү",
         "addNewMembers": "Жаңы катышуучуларды кошуу",
         "close": "Жабуу",
         "copy": "Көчүрүү",
@@ -35,7 +35,8 @@
         "scrollToBottom": "Төмөн жылдырыңыз",
         "understood": "Түшүнүктүү",
         "cancel": "Жокко чыгаруу",
-        "deleteForAll": "Бары үчүн өчүрүү"
+        "deleteForAll": "Бары үчүн өчүрүү",
+        "retry": "Кайталоо"
     },
     "attachments": {
         "addFromLocal": "Локалдык ресурстан кошуу",
