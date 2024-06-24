@@ -107,7 +107,8 @@
         "ongoingOneToOneMeetingTooltip": "{{name}} менен активдүү жолугушууңуз бар",
         "startModal": {
             "audioAndVideoLoading": "Ресурстар жүктөлүүдө",
-            "enterRoomMeetingTitle": "{{meeting Title}} жолугушууга катышыңыз"
+            "enterRoomMeetingTitle": "{{meeting Title}} жолугушууга катышыңыз",
+            "enterOneToOneMeetingTitle": "{{meetingTitle}} менен жолугушууну баштоо"
         },
         "newMeetingNotification": {
             "sendAQuickMessage": "Кыска билдирүү жөнөтүү",
@@ -163,7 +164,8 @@
             "inputLabel": "Жаздыруунун аталышы",
             "confirmationAction": "СТОП",
             "requiredNameError": "Жаздыруу файлынын аталышын көрсөтүңүз",
-            "exceededCharsError": "Жаздыруу файлынын аталышы 128 символдон ашпоого тийиш"
+            "exceededCharsError": "Жаздыруу файлынын аталышы 128 символдон ашпоого тийиш",
+            "caption": "Жазуу Files {{folderName}} папкасында сакталат. Багытталган папканы өзгөртүү үчүн «Жөнгө салууну» > «Chats» > «Жаздыруу» ачуу керек."
         },
         "recordingStop": {
             "successSnackbar": {
@@ -185,22 +187,27 @@
             "welcomeCaption": "Даяр болуп, ыңгайлашыңыз.",
             "nextStep": "Модератор сизди жакынкы убакта жолугушууга чакырат.",
             "readyCaption": "Бары даяр! Ыңгайлашыңыз.",
-            "userIsReady": "Даярсызбы!"
+            "userIsReady": "Даярсызбы!",
+            "hangUp": "Трубканы коюу"
         },
         "infoPage": {
             "title": {
                 "meetingNotFound": "Сиз издегендей жолугушуу жок",
-                "notAuthenticatedUser": "Авторизациялоо өткөн жок"
+                "notAuthenticatedUser": "Авторизациялоо өткөн жок",
+                "hangUp": "Сиз күтүү залынан чыгып кеттиңиз!",
+                "rejected": "Сизге кирүү мүмкүнчүлүгүнөн баш тартылды"
             },
             "slogan": {
                 "hangUp": "Дагы кайталап көрүңүз",
                 "meetingNotFound": "кийинчерээк аракет кылыңыз",
-                "notAuthenticatedUser": "Жолугушууга кирүү үчүн системага кирүү"
+                "notAuthenticatedUser": "Жолугушууга кирүү үчүн системага кирүү",
+                "rejected": "Мүмкүн, кийинки жолу"
             },
             "description": {
                 "hangUp": "Сизди алдыда боло турган жолугушуудан көрүүгө кубанычта болобуз",
                 "meetingNotFound": "Жолугушуу шилтемесин текшерип, кайра аракет кылыңыз",
-                "notAuthenticatedUser": "Эсептик жазуудан аутентификация өтпөсөңүз, жыйынга кошула албайсыз"
+                "notAuthenticatedUser": "Эсептик жазуудан аутентификация өтпөсөңүз, жыйынга кошула албайсыз",
+                "rejected": "Модераторлор жолугушууга кирүүңүзгө тыюу салды"
             }
         },
         "recordingHint": "Жаздыруу жүрүп жатат",
@@ -211,7 +218,11 @@
             },
             "failureSnackbar": "Жаздыруу мүмкүн болбой жатат, системалык администраторго кайрылыңыз."
         },
-        "durationTooltip": "Жолугушуунун узактыгы"
+        "durationTooltip": "Жолугушуунун узактыгы",
+        "participantsList": {
+            "title_one": "{{count}} жолугушуунун катышуучусу",
+            "title_other": "{{count}} жолугушуунун катышуучулары"
+        }
     },
     "message": {
         "deletedMessage": "Өчүрүлгөн билдирүү",
@@ -280,7 +291,9 @@
         "goToPrivateChat": "Жеке билдирүү жөнөтүү үчүн Чатка кириңиз",
         "isTyping": "жазып жатат…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} жазып жатат…",
-        "nameAndNumberOfPeopleAreTyping": "{{userName}} жана дагы {{numberOfUsers}} жазып жатат…"
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} жана дагы {{numberOfUsers}} жазып жатат…",
+        "you": "Сиз",
+        "Anonymous": "Анонимдүү пайдалануучу"
     },
     "thanksForParticipating": "Жолугушканга чейин",
     "tooltip": {
@@ -327,7 +340,11 @@
             "uploadAvatar": "Аватарды жүктөө"
         },
         "writeToSend": "Жөнөтүү үчүн билдирүү жазыңыз",
-        "youAreAlreadyMuted": "Сизде үн өчүрүлгөн"
+        "youAreAlreadyMuted": "Сизде үн өчүрүлгөн",
+        "leaveConversation": "Маектешүүдөн чыгып кетүү",
+        "leaveAndDelete": "Чаттын чыгуу жана өчүрүү (жок кылуу)",
+        "showConversationList": "Чаттардын тизмесин көрсөтүү",
+        "uploading": "Жүктөө"
     },
     "tryLater": "Кийинчерээк кайталаңыз",
     "editModal": {
@@ -350,13 +367,31 @@
         "newMessages": "Жаңы билдирүүлөр",
         "selectionMode": {
             "multipleForward": "{{numberOfMessages}} билдирүүлөрдү кайра жөнөтүү",
-            "exit": "Тандоо режиминен чыгуу"
-        }
+            "exit": "Тандоо режиминен чыгуу",
+            "maxSelected": "Бир эле учурда жөнөтүлүүчү билдирүүлөрдүн максималдуу санына жеттиңиз. Тандооңузду өзгөртүү үчүн билдирүүнү тандоодон чыгарыңыз."
+        },
+        "longCaption": {
+            "modal": {
+                "title": "Кол коюу үчүн билдирүү өтө эле узун",
+                "action": "Баары бир тиркелет",
+                "additionalDetails": "Эгер сиз операцияны улантсаңыз, ашыкча текст баштапкы тексттен алынып салынат. Улантасызбы?",
+                "description": "Бул элементти тиркеп жаткан билдирүүңүз өтө узун жана аны тиркеменин коштомо жазуусу катары колдонууга болбойт."
+            }
+        },
+        "chooseConversationDescription": "Чатты баштоо үчүн маектешүүнү тандаңыз"
     },
     "keepInTouchWithColleagues": "Кесиптештер менен байланышта болуңуз же топторуңуздун иш мейкиндиктерине кошулуңуз",
     "affiliationMessages": {
         "groupCreated": "{{roomName}} түзүлдү!",
-        "oneToOneCreated": "Жаңы чат түзүлдү!"
+        "oneToOneCreated": "Жаңы чат түзүлдү!",
+        "member": {
+            "Removed": "{{userName}} мындан ары {{roomName}} катышуучусу болуп саналбайт.",
+            "Added": "{{userName}} {{roomName}} кошулду."
+        },
+        "user": {
+            "Added": "Сизди {{roomName}} кошушту.",
+            "Removed": "Сиз {{roomName}} катышуучусу болуп саналбайсыз."
+        }
     },
     "chat": "Чат",
     "conversationFilter": {
@@ -383,7 +418,9 @@
         "leaveRoomLabel": "Ушул Бөлмөдөн чыгып кетүүнү каалайсызбы?",
         "creation": {
             "addUserLimit": {
-                "limitReached": "Топко катышуучулардын максималдуу санын тандадыңыз"
+                "limitReached": "Топко катышуучулардын максималдуу санын тандадыңыз",
+                "users_one": "Сиз акыркы бир мүчө кошо аласыз",
+                "users_other": "Башка {{count}} мүчө кошо аласыз"
             },
             "description": "Chats - бул кесиптештер менен байланышта болууга көмөк көрсөткөн, бирден-бир мессенджер. Сиз экиден ашык даректи кошуу менен топ түзө аласыз",
             "contactList": "Топ түзүү үчүн дагы даректерди тандоо зарыл",
@@ -409,7 +446,9 @@
         "leaveGroupLabel": "Топтон чыгууну каалап жатасызбы?",
         "leaveRoom": "Бөлмөдөн чыгуу",
         "removeMember": "Катышуучуну өчүрүү",
-        "muteForAllDescription": "Пайдалануучунун үнүн өсүрсө, бардык катышуучулар аны уга албай калышат. Үндү өчүргөн гана пайдалануучу аны иштете алат. Улантуу керекпи?"
+        "muteForAllDescription": "Пайдалануучунун үнүн өсүрсө, бардык катышуучулар аны уга албай калышат. Үндү өчүргөн гана пайдалануучу аны иштете алат. Улантуу керекпи?",
+        "clearHistoryDescription": "Сиз чат тарыхын тазалап жатасыз. Бул аракет кайтарылгыс экенине көңүл буруңуз. Тарых башка мүчөлөр үчүн эмес, сиз үчүн жок кылынат.",
+        "showPreviousConversationHistory": "Мурунку чат тарыхын көрсөтүү"
     },
     "meetings": {
         "interactions": {
@@ -439,5 +478,20 @@
     "snackbar": {
         "mutedByModerator": "Модератор үндү өчүрүп салган, сүйлөшүү үчүн үндү иштетиңиз"
     },
-    "titlePlaceholder": "Сиздин топтун аталышы"
+    "titlePlaceholder": "Сиздин топтун аталышы",
+    "welcomePage": {
+        "loginTitle": "Аккаунтуңуз барбы?",
+        "description": "Өзүңүздү кандай тааныштыргыңыз келет?",
+        "nameInput": "Бул жерге атыңызды жазыңыз",
+        "loginButton": "КИРҮҮ БАРАКЧАСЫНА ӨТҮҢҮЗ",
+        "loginDescription": "Кирүү баракчасына өтүүнү же жөн гана аты-жөнүңүз менен жолугушууга кирүүнү эркин тандаңыз.",
+        "journeyDescription": "Сиз күтүү бөлмөсүнө багытталасыз, ал жерде модератор сиздин кирүү мүмкүнчүлүгүңүздү бекитет.",
+        "joinButton": "Жолугушууга кошулуңуз"
+    },
+    "configurationMessages": {
+        "member": {
+            "roomPictureUpdated": "{{name}} {{roomName}} сүрөтүн өзгөрттү.",
+            "roomTopicRemoved": "{{name}} {{roomName}} темасын алып салды."
+        }
+    }
 }
