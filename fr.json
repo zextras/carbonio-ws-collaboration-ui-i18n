@@ -105,6 +105,33 @@
             "description": "Définissez un dossier personnalisé où sauver les enregistrements des réunions que vous arrêtez.",
             "resetAction": "RÉINITIALISER",
             "browseAction": "PARCOURIR"
+        },
+        "export": {
+            "description": "Pendant l'exportation, vous pouvez naviguer sur Carbonio sans problème. Cependant, si vous rafraîchissez la page, l'exportation sera interrompue.",
+            "filterInput": "Liste de filtres",
+            "action": {
+                "tooltip": {
+                    "noOneSelected": "Sélectionnez une de vos discussions pour l'exporter",
+                    "ongoingExport": "Vous êtes déjà en cours d'export d'une discussion, attendez que l'export en cours soit terminé."
+                }
+            },
+            "caption": "L'exportation de discussions contenant beaucoup de contenu peut prendre un certain temps.",
+            "emptySpace": {
+                "noMatch": {
+                    "title": "Essayez une autre requête.",
+                    "description": "Il n'y a pas de correspondance pour cette recherche dans vos discussions existantes."
+                },
+                "firstAccess": {
+                    "description": "Vos discussions individuelles et vos groupes apparaîtront dans cette liste.",
+                    "title": "Il n'y a rien ici.",
+                    "callToAction": "Allez dans Discussions et commencez à collaborer !"
+                }
+            },
+            "title": "Export de la discussion",
+            "subHead": "Choisissez l'une de vos discussions pour exporter les messages vers un fichier texte. N'oubliez pas que vous êtes responsable de l'utilisation des données exportées.",
+            "snackbar": {
+                "success": "La discussion a été exportée avec succès, vérifiez vos téléchargements !"
+            }
         }
     },
     "action": {
