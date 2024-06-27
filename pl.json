@@ -141,6 +141,33 @@
             "description": "Wybierz folder do którego będą zapisywane zatrzymywane przez Ciebie nagrania spotkań.",
             "browseAction": "PRZEGLĄDAJ",
             "resetAction": "ZRESETUJ"
+        },
+        "export": {
+            "title": "Eksport czatu",
+            "description": "Podczas eksportu możesz bezproblemowo poruszać się po Carbonio. Ale, jeśli odświeżysz stronę, eksport zostanie przerwany.",
+            "subHead": "Wybierz jeden z Twoich czatów, aby wyeksportować wiadomości do pliku tekstowego. Pamiętaj, że jesteś odpowiedzialny za to jak użyjesz wyeksportowanych danych.",
+            "action": {
+                "tooltip": {
+                    "noOneSelected": "Wybierz jeden z Twoich czatów, aby go eksportować",
+                    "ongoingExport": "Eksportujesz już czat, poczekaj aż eksport się skończy."
+                }
+            },
+            "caption": "Eksport czatów z dużą ilością treści może chwilę zająć.",
+            "emptySpace": {
+                "noMatch": {
+                    "title": "Spróbuj z innym zapytaniem.",
+                    "description": "Nie ma pasujących wyników dla tego wyszukiwania w Twoich istniejących czatach."
+                },
+                "firstAccess": {
+                    "title": "Nic tam nie ma.",
+                    "callToAction": "Udaj się do Czatów i zacznij współpracować!",
+                    "description": "Twoje dwuosobowe i grupowe konwersacje pojawią się tutaj w formie listy."
+                }
+            },
+            "snackbar": {
+                "success": "Czat został wyeksportowany, sprawdź Twoje pobierane pliki."
+            },
+            "filterInput": "Filtruj listę"
         }
     },
     "tryLater": "Spróbuj później",
