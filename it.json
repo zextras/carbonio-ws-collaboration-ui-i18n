@@ -35,7 +35,8 @@
         "understood": "Ho capito",
         "ok": "Ok",
         "cancel": "Elimina",
-        "deleteForAll": "Cancella per tutti"
+        "deleteForAll": "Cancella per tutti",
+        "retry": "Riprova"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -176,6 +177,11 @@
             "exit": "Esci dalla modalità selezione",
             "maxSelected": "Hai raggiunto il numero massimo di messaggi che possono essere inoltrati contemporaneamente",
             "multipleForward": "inoltra {{numberOfMessages}} messaggi"
+        },
+        "longCaption": {
+            "modal": {
+                "action": "Allega comunque"
+            }
         }
     },
     "editModal": {
@@ -260,7 +266,15 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} creata!",
-        "oneToOneCreated": "Nuova conversazione creata!"
+        "oneToOneCreated": "Nuova conversazione creata!",
+        "member": {
+            "Removed": "{{userName}} non fa più parte di {{roomName}}.",
+            "Added": "{{userName}} è stato aggiunto a {{roomName}}."
+        },
+        "user": {
+            "Added": "Sei stato aggiunto a {{roomName}}.",
+            "Removed": "Non fai più parte di {{roomName}}."
+        }
     },
     "conversationFilter": {
         "closeTooltip": "Chiudi filtro",
