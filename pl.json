@@ -146,11 +146,6 @@
             "title": "Eksport czatu",
             "description": "Podczas eksportu możesz bezproblemowo poruszać się po Carbonio. Ale, jeśli odświeżysz stronę, eksport zostanie przerwany.",
             "subHead": "Wybierz jeden z Twoich czatów, aby wyeksportować wiadomości do pliku tekstowego. Pamiętaj, że jesteś odpowiedzialny za to jak użyjesz wyeksportowanych danych.",
-            "action": {
-                "tooltip": {
-                    "ongoingExport": "Eksportujesz już czat, poczekaj aż eksport się skończy."
-                }
-            },
             "caption": "Eksport czatów z dużą ilością treści może chwilę zająć.",
             "emptySpace": {
                 "noMatch": {
