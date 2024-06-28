@@ -111,7 +111,6 @@
             "filterInput": "Liste de filtres",
             "action": {
                 "tooltip": {
-                    "noOneSelected": "Sélectionnez une de vos discussions pour l'exporter",
                     "ongoingExport": "Vous êtes déjà en cours d'export d'une discussion, attendez que l'export en cours soit terminé."
                 }
             },
