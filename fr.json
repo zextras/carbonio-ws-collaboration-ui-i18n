@@ -109,11 +109,6 @@
         "export": {
             "description": "Pendant l'exportation, vous pouvez naviguer sur Carbonio sans problème. Cependant, si vous rafraîchissez la page, l'exportation sera interrompue.",
             "filterInput": "Liste de filtres",
-            "action": {
-                "tooltip": {
-                    "ongoingExport": "Vous êtes déjà en cours d'export d'une discussion, attendez que l'export en cours soit terminé."
-                }
-            },
             "caption": "L'exportation de discussions contenant beaucoup de contenu peut prendre un certain temps.",
             "emptySpace": {
                 "noMatch": {
