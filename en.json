@@ -411,11 +411,6 @@
             "subHead": "Choose one of your chats to export messages to a text file. Remember that you are responsible for how you use the exported data.",
             "title": "Chat export",
             "description": "During the export you can browse Carbonio without worries. However, if you refresh the page the export will be interrupted.",
-            "action": {
-                "tooltip": {
-                    "ongoingExport": "You are already exporting a chat, wait for the export to finish."
-                }
-            },
             "snackbar": {
                 "success": "Chat exported successfully, check your downloads!"
             },
