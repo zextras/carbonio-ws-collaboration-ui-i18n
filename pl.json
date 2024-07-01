@@ -161,7 +161,12 @@
             "snackbar": {
                 "success": "Czat został wyeksportowany, sprawdź Twoje pobierane pliki."
             },
-            "filterInput": "Filtruj listę"
+            "filterInput": "Filtruj listę",
+            "action": "WYEKSPORTUJ WYBRANY CZAT",
+            "tooltip": {
+                "noOneSelected": "Wybierz jeden z Twoich czatów, aby go wyeksportować",
+                "ongoingExport": "Już eksportujesz czat, poczekaj aż eksport się zakończy."
+            }
         }
     },
     "tryLater": "Spróbuj później",
