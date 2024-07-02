@@ -125,7 +125,12 @@
             "subHead": "Choisissez l'une de vos discussions pour exporter les messages vers un fichier texte. N'oubliez pas que vous êtes responsable de l'utilisation des données exportées.",
             "snackbar": {
                 "success": "La discussion a été exportée avec succès, vérifiez vos téléchargements !"
-            }
+            },
+            "tooltip": {
+                "noOneSelected": "Sélectionnez l'une de vos discussions pour l'exporter",
+                "ongoingExport": "Vous êtes déjà en train d'exporter une discussion, attendez que l'exportation se termine."
+            },
+            "action": "EXPORTER LA DISCUSSION SÉLECTIONNÉE"
         }
     },
     "action": {
