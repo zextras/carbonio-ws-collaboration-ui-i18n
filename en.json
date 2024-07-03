@@ -159,7 +159,17 @@
             "microphoneEnabled": "Microphone enabled",
             "playMic": "Start microphone testing",
             "stopMic": "Stop microphone testing",
-            "leaveConfirmation": "Leave meeting?"
+            "leaveConfirmation": "Leave meeting?",
+            "title": {
+                "devices": "Devices",
+                "videoEffect": "Video effect"
+            },
+            "option": {
+                "removeBlur": "Remove blur effect",
+                "applyBlur": "Apply blur effect"
+            },
+            "selectedDeviceTooltip": "This device is selected",
+            "userHint": "Turn on the camera to select a video effect"
         },
         "joinMeeting": "Join meeting",
         "joinMeetingDescription": "How do you want to join this meeting?",
