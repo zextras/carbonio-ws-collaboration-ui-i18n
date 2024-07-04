@@ -266,7 +266,17 @@
             "disableMicrophone": "Wyłącz mikrofon",
             "disableFullScreen": "Wyłącz tryb pełnoekranowy",
             "enableFullScreen": "Włącz tryb pełnoekranowy",
-            "leaveConfirmation": "Opuścić spotkanie?"
+            "leaveConfirmation": "Opuścić spotkanie?",
+            "title": {
+                "devices": "Urządzenia",
+                "videoEffect": "Efekt wideo"
+            },
+            "option": {
+                "removeBlur": "Usuń efekt rozmazania",
+                "applyBlur": "Zastosuj efekt rozmazania"
+            },
+            "userHint": "Włącz kamerę, aby wybrać efekt wideo",
+            "selectedDeviceTooltip": "Wybrano to urządzenie"
         },
         "joinMeeting": "Dołącz do spotkania",
         "newMeetingNotification": {
