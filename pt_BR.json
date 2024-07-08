@@ -166,7 +166,16 @@
         "newMessages": "Novas mensagens",
         "selectionMode": {
             "exit": "Sair do modo de seleção",
-            "multipleForward": "encaminhar {{numberOfMessages}} mensagens"
+            "multipleForward": "encaminhar {{numberOfMessages}} mensagens",
+            "maxSelected": "Você atingiu o número máximo de mensagens que podem ser encaminhadas de uma vez. Desmarque uma mensagem da sua preferência."
+        },
+        "longCaption": {
+            "modal": {
+                "action": "Anexar mesmo assim",
+                "additionalDetails": "Se você continuar com essa operação, o excesso será removido do texto original. Continuar?",
+                "title": "A mensagem é longa demais para a legenda",
+                "description": "A mensagem que você está anexando a este item é muito longa e não pode ser usada como legenda de anexo."
+            }
         }
     },
     "conversationInfo": {
@@ -267,7 +276,15 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} criado!",
-        "oneToOneCreated": "Novo chat criado!"
+        "oneToOneCreated": "Novo chat criado!",
+        "member": {
+            "Removed": "{{userName}} não é mais um membro de {{roomName}}.",
+            "Added": "{{userName}} foi adicionado à {{roomName}}."
+        },
+        "user": {
+            "Added": "Você foi adicionado à {{roomName}}.",
+            "Removed": "Você não é mais um membro de {{roomName}}."
+        }
     },
     "conversationFilter": {
         "closeTooltip": "Fechar filtro",
@@ -344,7 +361,11 @@
                 "title": "Gravando",
                 "description": "A gravação será salva no espaço Files do moderador que a parou.",
                 "moderatorInfo": "iniciou a gravação",
-                "additionalDescription": "Se algo der errado, a gravação será salva no espaço Arquivos do moderador que a iniciou."
+                "additionalDescription": "Se algo der errado, a gravação será salva no espaço Arquivos do moderador que a iniciou.",
+                "action": {
+                    "start": "INICIAR GRAVAÇÃO",
+                    "stop": "PARAR GRAVAÇÃO"
+                }
             },
             "waitingList": "Lista de espera"
         },
@@ -391,7 +412,8 @@
             },
             "title": {
                 "notAuthenticatedUser": "Você não está autenticado",
-                "meetingNotFound": "A reunião que você procura não existe"
+                "meetingNotFound": "A reunião que você procura não existe",
+                "hangUp": "Você saiu da sala de espera!"
             },
             "description": {
                 "hangUp": "Estamos ansiosos pela sua participação nas próximas reuniões",
@@ -407,7 +429,8 @@
         "startMeeting": "Iniciar reunião",
         "startModal": {
             "audioAndVideoLoading": "Os recursos estão carregando",
-            "enterRoomMeetingTitle": "Participar da reunião {{meetingTitle}}"
+            "enterRoomMeetingTitle": "Participar da reunião {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Entrar na reunião com {{meetingTitle}}"
         },
         "tooltip": {
             "activeSessionTooltip": "Você tem uma sessão ativa nesta reunião"
@@ -433,7 +456,12 @@
         "expandParticipantsListTooltip": "Expandir lista de participantes",
         "minimizeChat": "Minimizar chat",
         "openedInAnotherWindow": "Esta reunião já está aberta em outra janela",
-        "ongoingOneToOneMeetingTooltip": "Você já tem uma reunião ativa com {{name}}"
+        "ongoingOneToOneMeetingTooltip": "Você já tem uma reunião ativa com {{name}}",
+        "participantsList": {
+            "title_one": "Participante de uma reunião",
+            "title_many": "Participantes de {{count}} reuniões",
+            "title_other": "Participantes de {{count}} reuniões"
+        }
     },
     "tryLater": "Tente mais tarde",
     "snackbar": {
