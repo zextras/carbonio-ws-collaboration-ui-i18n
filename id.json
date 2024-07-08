@@ -49,7 +49,18 @@
         "enter": "Masuk",
         "joinMeeting": "Gabung ke rapat",
         "ok": "Ok",
-        "cancel": "Batal"
+        "cancel": "Batal",
+        "addMoreAttachments": "Tambahkan {{counter}} lampiran",
+        "addNewMembersTo": "Tambahkan anggota baru ke {{roomName}}",
+        "addSingleAttachment": "Tambahkan {{counter}} lampiran",
+        "editRoom": "Edit {{roomName}}",
+        "newChat": "Obrolan Baru",
+        "scrollToBottom": "Gulir ke bawah",
+        "deleteForAll": "Hapus untuk semua",
+        "retry": "Coba lagi",
+        "declineAll": "Tolak semua",
+        "editDetails": "Edit detail",
+        "understood": "Dipahami"
     },
     "attachments": {
         "addFromLocal": "Tambahkan dari lokal",
@@ -58,7 +69,11 @@
         "integrations": {
             "chooseFile": "Pilih file",
             "shareLink": "Bagikan tautan publik"
-        }
+        },
+        "uploadAborted": "Unggahan terhenti",
+        "dragAndDrop": "Mode seret & lepas",
+        "dropHereDescription": "Letakkan lampiran Anda di sini untuk segera menambahkannya ke obrolan ini",
+        "errorUploadingFile": "Terjadi kesalahan saat mengunggah {{file}}"
     },
     "conversation": {
         "chooseConversationDescription": "Pilih percakapan untuk memulai obrolan",
@@ -66,8 +81,14 @@
         "newMessage": "Pesan baru",
         "newMessages": "pesan baru",
         "selectionMode": {
-            "exit": "Keluar dari mode pemilihan"
-        }
+            "exit": "Keluar dari mode pemilihan",
+            "maxSelected": "Anda telah mencapai jumlah maksimum pesan yang dapat diteruskan sekaligus. Batalkan pilihan pesan untuk mengubah pilihan Anda.",
+            "multipleForward": "teruskan {{numberOfMessages}} pesan"
+        },
+        "emptyListDescription": "Obrolan dan Grup akan muncul di sini",
+        "emptyListTitle": "Daftar ini kosong",
+        "mockCreateChatDescription": "Berinteraksi, berkomunikasi, dan berkolaborasi dengan kolega Anda dengan berbagi informasi dan lampiran",
+        "mockCreateChatTitle": "Buat obrolan baru menggunakan tombol buat"
     },
     "conversationInfo": {
         "info": "Info",
@@ -200,5 +221,17 @@
     },
     "snackbar": {
         "mutedByModerator": "Suara Anda dimatikan oleh moderator. Nyalakan suara Anda sendiri untuk berbicara"
+    },
+    "affiliationMessages": {
+        "groupCreated": "{{roomName}} dibuat!",
+        "member": {
+            "Removed": "{{userName}} bukan lagi anggota {{roomName}}.",
+            "Added": "{{userName}} telah ditambahkan ke {{roomName}}."
+        },
+        "user": {
+            "Removed": "Anda bukan lagi anggota {{roomName}}.",
+            "Added": "Anda telah ditambahkan ke {{roomName}}."
+        },
+        "oneToOneCreated": "Obrolan Baru dibuat!"
     }
 }
