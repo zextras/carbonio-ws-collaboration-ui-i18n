@@ -353,7 +353,17 @@
             "disableScreen": "Désactiver le partage d'écran",
             "leaveConfirmation": "Quitter la réunion ?",
             "disableFullScreen": "Désactiver le plein écran",
-            "enableFullScreen": "Activer le plein écran"
+            "enableFullScreen": "Activer le plein écran",
+            "option": {
+                "removeBlur": "Retirer l'effet de flou",
+                "applyBlur": "Appliquer un effet de flou"
+            },
+            "title": {
+                "videoEffect": "Effet vidéo",
+                "devices": "Appreils"
+            },
+            "userHint": "Allumer la caméra pour sélectionner l'effet vidéo",
+            "selectedDeviceTooltip": "Cet appareil est sélectionné"
         },
         "joinMeeting": "Rejoindre la réunion",
         "newMeetingNotification": {
