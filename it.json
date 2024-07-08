@@ -67,7 +67,10 @@
             "newChat": "Nuova Chat",
             "description": "Le chat sono conversazioni tra due persone che ti aiutano a restare in contatto con i tuoi colleghi. Puoi creare un Gruppo includendo più di due partecipanti",
             "addUserLimit": {
-                "limitReached": "Hai selezionato il numero massimo di membri per un gruppo"
+                "limitReached": "Hai selezionato il numero massimo di membri per un gruppo",
+                "users_one": "Puoi aggiungere un ultimo partecipante",
+                "users_many": "Puoi aggiungere altri {{count}} partecipanti",
+                "users_other": "Puoi aggiungere altri {{count}} partecipanti"
             }
         },
         "removeMember": "Rimuovi membro",
@@ -99,7 +102,15 @@
         "moreMembersAccordionTitle": "partecipanti",
         "oneMemberAccordionTitle": "Un partecipante",
         "searchMembers": "Cerca membri",
-        "searchParticipants": "Cerca partecipanti"
+        "searchParticipants": "Cerca partecipanti",
+        "creationList": {
+            "searchFailure": "Sembra esserci un problema con la tua ricerca, riprova.",
+            "title": "Crea una nuova chat con:"
+        },
+        "noMatch": {
+            "all": "La ricerca non ha prodotto risultati tra gli utenti presenti nelle tue conversazioni o nella tua azienda.",
+            "chatList": "La ricerca non ha prodotto risultati all'interno delle tue conversazioni."
+        }
     },
     "tooltip": {
         "clear": "Elimina",
@@ -180,7 +191,9 @@
         },
         "longCaption": {
             "modal": {
-                "action": "Allega comunque"
+                "action": "Allega comunque",
+                "title": "Messaggio troppo lungo per la didascalia",
+                "additionalDetails": "Se procedi con questa operazione, il testo in eccesso verrà eliminato. Vuoi continuare?"
             }
         }
     },
@@ -251,6 +264,29 @@
             "browseAction": "SFOGLIA",
             "resetAction": "RIPRISTINA",
             "description": "Imposta una cartella dove salvare le registrazioni dei meeting che terminerai."
+        },
+        "export": {
+            "emptySpace": {
+                "firstAccess": {
+                    "callToAction": "Vai su Chats e inizia a collaborare!",
+                    "description": "Le tue chat singole e i gruppi verrano visualizzate qui.",
+                    "title": "Non c'è niente qui."
+                },
+                "noMatch": {
+                    "description": "La ricerca non ha prodotto risultati nelle tue chat esistenti."
+                }
+            },
+            "caption": "L'esportazione di una chat che include molti contenuti può richiedere del tempo.",
+            "subHead": "Scegli una delle tue chat per esportare i messaggi come file di testo. Ricorda che sei il responsabile di come questi dati esportati verranno utilizzati.",
+            "description": "Durante l'esportazione puoi continuare a navigare su Carbonio. Se però ricarichi la pagina, l'esportazione verrà interrotta.",
+            "snackbar": {
+                "success": "Chat esportata con successo, controlla i tuoi download!"
+            },
+            "tooltip": {
+                "noOneSelected": "Seleziona una delle tue chat per esportarla",
+                "ongoingExport": "Stai già esportando una chat, aspetta che l'esportazione termini."
+            },
+            "action": "ESPORTA LA CHAT SELEZIONATA"
         }
     },
     "status": {
@@ -262,7 +298,8 @@
         "goToPrivateChat": "Vai alla chat privata per inviare un messaggio personale",
         "you": " Tu",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} persone stanno digitando…",
-        "nameAndNumberOfPeopleAreTyping": "{{userName}} e {{numberOfUsers}} altri stanno digitando…"
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} e {{numberOfUsers}} altri stanno digitando…",
+        "Anonymous": "Utente anonimo"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} creata!",
@@ -302,7 +339,16 @@
             "stopMic": "Ferma il test del microfono",
             "disableFullScreen": "Disabilita lo schermo intero",
             "enableFullScreen": "Abilita lo schermo intero",
-            "leaveConfirmation": "Uscire dal meeting?"
+            "leaveConfirmation": "Uscire dal meeting?",
+            "title": {
+                "devices": "Dispositivi",
+                "videoEffect": "Effetto video"
+            },
+            "option": {
+                "removeBlur": "Rimuovi effetto sfuocato",
+                "applyBlur": "Applica effetto sfuocato"
+            },
+            "userHint": "Accendi la fotocamera per selezionare un effetto video"
         },
         "joinMeeting": "Partecipa alla riunione",
         "newMeetingNotification": {
@@ -357,7 +403,8 @@
                 "action": {
                     "stop": "FINE",
                     "start": "INIZIO"
-                }
+                },
+                "additionalDescription": "Se qualcosa va storto, la registrazione sarà salvata nello spazio Files del moderatore che l'ha avviata."
             }
         },
         "snackbar": {
@@ -459,5 +506,31 @@
     "interactions": {
         "camDevice": "Videocamera",
         "micDevice": "Microfono"
+    },
+    "configurationMessages": {
+        "member": {
+            "roomPictureDeleted": "{{name}} ha ripristinato l'immagine di default di {{roomName}}.",
+            "roomNameChanged": "{{name}} ha cambiato il titolo di questo Gruppo in \"<i>{{roomName}}</i>\".",
+            "roomPictureUpdated": "{{name}} ha cambiato l'immagine di {{roomName}}.",
+            "roomTopicChanged": "{{name}} ha cambiato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\".",
+            "roomTopicRemoved": "{{name}} ha rimosso l'argomento di {{roomName}}."
+        },
+        "user": {
+            "roomPictureUpdated": "Hai cambiato l'immagine di {{roomName}}.",
+            "roomTopicChanged": "Hai cambiato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\".",
+            "roomNameChanged": "Hai cambiato il titolo di questo Gruppo in \"<i>{{roomName}}</i>\".",
+            "roomPictureDeleted": "Hai ripristinato l'immagine di default di {{roomName}}.",
+            "roomTopicRemoved": "Hai rimosso l'argomento di {{roomName}}."
+        }
+    },
+    "welcomePage": {
+        "loginTitle": "Hai un account?",
+        "loginDescription": "Scegli se andare alla pagina di login oppure accedere alla riunione utilizzando il tuo nome.",
+        "blob": "Ehi straniero!",
+        "joinButton": "Partecipa alla riunione",
+        "journeyDescription": "Verrai reindirizzato alla Stanza d'attesa dove un moderatore approverà il tuo accesso.",
+        "description": "Come vuoi presentarti?",
+        "nameInput": "Scrivi il tuo nome",
+        "loginButton": "VAI ALLA TUA PAGINA DI LOGIN"
     }
 }
