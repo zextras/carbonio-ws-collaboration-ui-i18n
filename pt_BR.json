@@ -66,7 +66,10 @@
             "inputPlaceholder": "Comece a digitar ou selecione um endereço",
             "newChat": "Novo Chat",
             "addUserLimit": {
-                "limitReached": "Você selecionou o número máximo de membros para um grupo"
+                "limitReached": "Você selecionou o número máximo de membros para um grupo",
+                "users_one": "Você pode adicionar um último membro",
+                "users_many": "Você pode adicionar outros {{count}} membros",
+                "users_other": "Você pode adicionar outros {{count}} membros"
             }
         },
         "deleteUserDescription": "Tem certeza que deseja remover este membro?",
@@ -174,7 +177,7 @@
                 "action": "Anexar mesmo assim",
                 "additionalDetails": "Se você continuar com essa operação, o excesso será removido do texto original. Continuar?",
                 "title": "A mensagem é longa demais para a legenda",
-                "description": "A mensagem que você está anexando a este item é muito longa e não pode ser usada como legenda de anexo."
+                "description": "Este texto é muito longo e não pode ser usado como legenda de anexo."
             }
         }
     },
@@ -200,7 +203,7 @@
         "groupNameDetails": "É necessário para identificar o grupo",
         "nameTooLong": "O comprimento máximo é de 128 caracteres",
         "nameTooShort": "É necessário inserir o título",
-        "topicTooLong": "O comprimento máximo do título é de 256 caracteres"
+        "topicTooLong": "O comprimento máximo do assunto é de 256 caracteres"
     },
     "participantsList": {
         "closeSearch": "Fechar busca",
@@ -262,6 +265,32 @@
             "browseAction": "EXPLORAR",
             "resetAction": "REDEFINIR",
             "description": "Defina uma pasta personalizada para salvar as gravações das reuniões interrompidas."
+        },
+        "export": {
+            "caption": "Exportar chats com muito conteúdo pode demorar um pouco.",
+            "subHead": "Escolha um dos seus chats para exportar mensagens para um arquivo de texto. Lembre-se de que você é responsável pela forma como utiliza os dados exportados.",
+            "title": "Exportação de chat",
+            "description": "Durante a exportação, você pode navegar no Carbonio sem problemas. No entanto, se atualizar a página, a exportação será interrompida.",
+            "filterInput": "Lista de filtros",
+            "snackbar": {
+                "success": "Chat exportado com sucesso, verifique seus downloads!"
+            },
+            "emptySpace": {
+                "noMatch": {
+                    "title": "Tente outra consulta.",
+                    "description": "Não há correspondências para esta pesquisa nos seus chats existentes."
+                },
+                "firstAccess": {
+                    "description": "Seus chats individuais e em grupo vão aparecer listados aqui.",
+                    "title": "Não há nada ali.",
+                    "callToAction": "Acesse o Chats e comece a colaborar!"
+                }
+            },
+            "tooltip": {
+                "noOneSelected": "Selecione um dos seus chats para exportá-lo",
+                "ongoingExport": "Você já está exportando um chat. Aguarde até a exportação ser finalizada."
+            },
+            "action": "EXPORTAR CHAT SELECIONADO"
         }
     },
     "status": {
@@ -272,7 +301,9 @@
         "isTyping": "está escrevendo…",
         "goToPrivateChat": "Ir para o chat privado para enviar uma mensagem pessoal",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} pessoas estão digitando…",
-        "nameAndNumberOfPeopleAreTyping": "{{userName}} e outros {{numberOfUsers}} estão digitando…"
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} e outros {{numberOfUsers}} estão digitando…",
+        "you": "Você",
+        "Anonymous": "Usuário anônimo"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} criado!",
@@ -328,7 +359,17 @@
             "stopMic": "Parar teste do microfone",
             "leaveConfirmation": "Sair da reunião?",
             "disableFullScreen": "Desativar tela cheia",
-            "playMic": "Iniciar teste do microfone"
+            "playMic": "Iniciar teste do microfone",
+            "title": {
+                "devices": "Dispositivos",
+                "videoEffect": "Efeito de vídeo"
+            },
+            "option": {
+                "applyBlur": "Aplicar efeito desfocado",
+                "removeBlur": "Remover efeito desfocado"
+            },
+            "selectedDeviceTooltip": "Este dispositivo está selecionado",
+            "userHint": "Ligue a câmera para selecionar um efeito de vídeo"
         },
         "joinMeeting": "Ingressar na reunião",
         "newMeetingNotification": {
@@ -395,7 +436,8 @@
             "inputLabel": "Nome da Gravação",
             "confirmationAction": "PARAR",
             "requiredNameError": "O nome do arquivo de gravação é necessário",
-            "exceededCharsError": "O nome do arquivo de gravação não deve exceder 128 caracteres"
+            "exceededCharsError": "O nome do arquivo de gravação não deve exceder 128 caracteres",
+            "caption": "A gravação será salva na pasta {{folderName}} no Files. Vá em Configurações > Chats > Gravação para alterar a pasta de destino."
         },
         "recordingStart": {
             "failureSnackbar": "Não é possível iniciar a gravação, entre em contato com o administrador do seu sistema.",
@@ -408,17 +450,20 @@
             "slogan": {
                 "hangUp": "Talvez em outra oportunidade",
                 "meetingNotFound": "tente novamente",
-                "notAuthenticatedUser": "FAZER LOGIN PARA ACESSAR A REUNIÃO"
+                "notAuthenticatedUser": "FAZER LOGIN PARA ACESSAR A REUNIÃO",
+                "rejected": "Talvez na próxima vez"
             },
             "title": {
                 "notAuthenticatedUser": "Você não está autenticado",
                 "meetingNotFound": "A reunião que você procura não existe",
-                "hangUp": "Você saiu da sala de espera!"
+                "hangUp": "Você saiu da sala de espera!",
+                "rejected": "Seu acesso foi recusado"
             },
             "description": {
                 "hangUp": "Estamos ansiosos pela sua participação nas próximas reuniões",
                 "notAuthenticatedUser": "Você não poderá ingressar na reunião se não estiver autenticado em sua conta",
-                "meetingNotFound": "Verifique o link da reunião e tente novamente"
+                "meetingNotFound": "Verifique o link da reunião e tente novamente",
+                "rejected": "Os moderadores decidiram negar seu acesso à reunião"
             }
         },
         "noMoreActiveSession": "Não pode haver mais de uma sessão ativa da mesma reunião",
@@ -471,5 +516,31 @@
     "interactions": {
         "micDevice": "Microfone",
         "camDevice": "Câmera"
+    },
+    "configurationMessages": {
+        "member": {
+            "roomTopicRemoved": "{{name}} removeu o assunto de {{roomName}}.",
+            "roomPictureDeleted": "{{name}} restaurou a imagem padrão de {{roomName}}.",
+            "roomPictureUpdated": "{{name}} alterou a imagem de {{roomName}}.",
+            "roomNameChanged": "{{name}} alterou o título deste Grupo em \"<i>{{roomName}}</i>\".",
+            "roomTopicChanged": "{{name}} alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\"."
+        },
+        "user": {
+            "roomTopicRemoved": "Você removeu o assunto de {{roomName}}.",
+            "roomPictureUpdated": "Você alterou a imagem de {{roomName}}.",
+            "roomPictureDeleted": "Você restaurou a imagem padrão de {{roomName}}.",
+            "roomNameChanged": "Você alterou o título deste Grupo em \"<i>{{roomName}}</i>\".",
+            "roomTopicChanged": "Você alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\"."
+        }
+    },
+    "welcomePage": {
+        "loginTitle": "Você tem uma conta?",
+        "loginDescription": "Escolha livremente se deseja ir para a página de login ou simplesmente acessar a reunião com seu nome.",
+        "nameInput": "Digite seu nome aqui",
+        "joinButton": "Entrar na reunião",
+        "loginButton": "VÁ PARA SUA PÁGINA DE LOGIN",
+        "description": "Como você gostaria de se apresentar?",
+        "journeyDescription": "Você será redirecionado para a Sala de Espera, onde um moderador irá aprovar seu acesso.",
+        "blob": "Olá estranho!"
     }
 }
