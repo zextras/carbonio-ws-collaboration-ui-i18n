@@ -108,7 +108,7 @@
             "title": "Crea una nuova chat con:"
         },
         "noMatch": {
-            "all": "La ricerca non ha prodotto risultati tra gli utenti presenti nelle tue conversazioni o nella tua azienda.",
+            "all": "La ricerca non ha prodotto risultati tra gli utenti presenti nelle tue conversazioni o nella tua organizzazione.",
             "chatList": "La ricerca non ha prodotto risultati all'interno delle tue conversazioni."
         }
     },
@@ -273,11 +273,12 @@
                     "title": "Non c'è niente qui."
                 },
                 "noMatch": {
-                    "description": "La ricerca non ha prodotto risultati nelle tue chat esistenti."
+                    "description": "La ricerca non ha prodotto risultati tra le tue chat esistenti.",
+                    "title": "Prova con un'altra ricerca."
                 }
             },
             "caption": "L'esportazione di una chat che include molti contenuti può richiedere del tempo.",
-            "subHead": "Scegli una delle tue chat per esportare i messaggi come file di testo. Ricorda che sei il responsabile di come questi dati esportati verranno utilizzati.",
+            "subHead": "Scegli una delle tue chat per esportare i messaggi come file di testo. Ricorda che sei responsabile di come questi dati esportati verranno utilizzati.",
             "description": "Durante l'esportazione puoi continuare a navigare su Carbonio. Se però ricarichi la pagina, l'esportazione verrà interrotta.",
             "snackbar": {
                 "success": "Chat esportata con successo, controlla i tuoi download!"
@@ -286,7 +287,9 @@
                 "noOneSelected": "Seleziona una delle tue chat per esportarla",
                 "ongoingExport": "Stai già esportando una chat, aspetta che l'esportazione termini."
             },
-            "action": "ESPORTA LA CHAT SELEZIONATA"
+            "action": "ESPORTA LA CHAT SELEZIONATA",
+            "title": "Esportazione chat",
+            "filterInput": "Filtra lista"
         }
     },
     "status": {
