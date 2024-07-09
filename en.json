@@ -82,7 +82,7 @@
             "modal": {
                 "title": "Message too long for caption",
                 "action": "Attach anyway",
-                "description": "The message you are attaching this item to is very long and cannot be used as an attachment caption.",
+                "description": "This text is too long and it can't be used as the attachment caption.",
                 "additionalDetails": "If you proceed with the operation, the excess will be removed from the original text. Proceed?"
             }
         }
