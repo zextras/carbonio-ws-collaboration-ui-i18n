@@ -33,7 +33,10 @@
         "joinMeeting": "Unirse a la reunión",
         "ok": "Ok",
         "cancel": "Cancelar",
-        "declineAll": "Rechazar todo"
+        "declineAll": "Rechazar todo",
+        "deleteForAll": "Eliminar para todos",
+        "retry": "Reintentar",
+        "understood": "Entendido"
     },
     "attachments": {
         "addFromLocal": "Adjuntar desde Mi PC",
@@ -62,18 +65,35 @@
         "historyCleared": "¡El historial ha sido borrado!",
         "notificationsActivatedForThisChat": "Notificaciones activadas para este chat",
         "notificationsMutedForThisChat": "Notificaciones silenciadas para este chat",
-        "messageCopied": "Mensaje copiado"
+        "messageCopied": "Mensaje copiado",
+        "networkProblem": {
+            "websocket": "Algo salió mal al conectar con WEBSOCKET",
+            "xmpp": "Algo salió mal al conectar con XMPP",
+            "wsc": "Algo salió mal mientras al conectar con WSC"
+        },
+        "networkProblems": "Pueden haber problemas al utilizar este módulo, por favor, prueba a refrescar la página."
     },
     "message": {
         "draft": "Borrador",
         "deletedMessage": "Mensaje borrado",
-        "edited": "editado"
+        "edited": "editado",
+        "forwardedMultipleTimes": "Reenviado varias veces",
+        "originallySentBy": "Enviado originalmente por:"
     },
     "participantsList": {
         "closeSearch": "Cerrar búsqueda",
         "moreMembersAccordionTitle": "Miembros",
         "oneMemberAccordionTitle": "Un miembro",
-        "searchMembers": "Buscar miembros"
+        "searchMembers": "Buscar miembros",
+        "noMatch": {
+            "all": "No hay usuarios que coincidan con esta búsqueda en tus chats existentes o en tu compañía.",
+            "chatList": "No hay usuarios que coincidan con esta búsqueda en tus chats existentes."
+        },
+        "creationList": {
+            "title": "Crear nuevo chat con:",
+            "searchFailure": "Parece que hay un problema con tu búsqueda, por favor, prueba de nuevo."
+        },
+        "searchParticipants": "Buscar participantes"
     },
     "tooltip": {
         "clear": "Borrar",
@@ -100,7 +120,7 @@
         "messageActions": "Acciones del mensaje",
         "messageReceived": "Recibido",
         "promoteModerator": "Promover a moderador",
-        "promoteSomeoneElseToModerator": "Promover alguien más a moderador para salir",
+        "promoteSomeoneElseToModerator": "Antes de salir, tienes que proponer a otra persona como moderador",
         "showConversationList": "Mostrar lista de conversaciones",
         "uploadAttachment": "Cargar un adjunto",
         "userAvatar": {
@@ -114,7 +134,16 @@
         "expandCarousel": "Expandir",
         "pending": "Pendiente",
         "pinVideo": "Anclar video",
-        "unpinVideo": "Desanclar video"
+        "unpinVideo": "Desanclar video",
+        "participantMuted": "Este participante está silenciado",
+        "scrollDown": "Desplazarse hacia abajo",
+        "topOfList": "Parte superior de la lista",
+        "youAreAlreadyMuted": "Estás silenciado",
+        "bottomOfList": "Fin de la lista",
+        "scrollUp": "Desplazarse hacia arriba",
+        "collapseSidebar": "Contraer barra lateral",
+        "expandSidebar": "Expandir barra lateral",
+        "removeToAddNewOne": "Quita a alguien para añadir miembros nuevos"
     },
     "conversation": {
         "chooseConversationDescription": "Elige una conversación para iniciar un chat",
@@ -126,7 +155,17 @@
         "emptyListTitle": "La lista está vacía",
         "newMessages": "Nuevos mensajes",
         "selectionMode": {
-            "exit": "Salir de selección múltiple"
+            "exit": "Salir de selección múltiple",
+            "maxSelected": "Has alcanzado el número máximo de mensajes que pueden ser reenviados de una vez. Deselecciona un mensaje para cambiar tu elección.",
+            "multipleForward": "renviar {{numberOfMessages}} mensajes"
+        },
+        "longCaption": {
+            "modal": {
+                "action": "Adjuntar de igual modo",
+                "title": "Mensaje demasiado largo para subtitular",
+                "description": "Este texto es demasiado largo y no puede ser utilizado como subtítulo del elemento adjunto.",
+                "additionalDetails": "Si sigues con la operación, el exceso será eliminado del texto original. ¿Proceder?"
+            }
         }
     },
     "date": {
@@ -149,7 +188,13 @@
             "contactList": "Elige más usuarios para crear un grupo",
             "description": "Los Chats son conversaciones individuales que te permitirán comunicarte con tus colegas. Para incluir más personas puedes crear un Grupo",
             "inputPlaceholder": "Comienza a escribir o selecciona una dirección",
-            "newChat": "Nuevo Chat"
+            "newChat": "Nuevo Chat",
+            "addUserLimit": {
+                "users_one": "Puedes añadir un último miembro",
+                "users_many": "Puedes añadir otros {{count}} miembros",
+                "users_other": "Puedes añadir otros {{count}} miembros",
+                "limitReached": "Has elegido el número máximo de miembros para un grupo"
+            }
         },
         "deleteRoom": "Eliminar sala",
         "deleteUserDescription": "¿Seguro que quieres remover a este miembro?",
@@ -158,9 +203,9 @@
         "showPreviousConversationHistory": "Mostrar historial de conversaciones",
         "clearHistoryDescription": "Estás a punto de eliminar el historial de conversaciones. Esta acción no se puede deshacer. El historial de los otros miembros permanecerá intacto.",
         "deleteGroup": "Eliminar grupo",
-        "deleteGroupLabel": "¿Seguro que quieres eliminar este grupo?",
+        "deleteGroupLabel": "Esta acción afectará a todos los miembros del grupo y no puede ser deshecha. ¿Seguro que quieres borrar este grupo?",
         "deleteMessageTitle": "¿Eliminar el mensaje seleccionado?",
-        "deleteMessageTitleDescription": "Al eliminar el contenindo del mensaje, este ya no estará disponible.",
+        "deleteMessageTitleDescription": "Estás borrando el mensaje, este ya no estará disponible",
         "deleteRoomLabel": "¿Estás seguro que quieres eliminar esta sala?",
         "forward": {
             "chooseAtLeastOneChat": "Selecciona al menos un chat",
@@ -171,14 +216,25 @@
         "leaveAndDelete": "Abandonar y eliminar el grupo",
         "leaveGroupLabel": "¿Estás seguro que quieres abandonar el grupo?",
         "leaveRoom": "Abandonar sala",
-        "leaveRoomLabel": "¿Estás seguro que quieres abandonar la sala?"
+        "leaveRoomLabel": "¿Estás seguro que quieres abandonar la sala?",
+        "deleteGroupMeetingOngoingLabel": "Hay una reunión activa en este momento. Borrar el grupo terminará la reunión sin advertencia previa.",
+        "muteForAllDescription": "Al silenciar al usuario, todos los participantes dejarán de escucharlo. Solo el usuario silenciado puede dejar de estarlo ¿Proceder?"
     },
     "settings": {
         "notifications": {
             "title": "Notificaciones",
             "description": "Establece tus preferencias para las notificaciones de los chats.",
             "subtitle": {
-                "general": "General"
+                "general": "General",
+                "waitingRoom": "Notificaciones de acceso de la Sala de espera"
+            },
+            "checkbox": {
+                "desktop": "Permitir notificaciones de escritorio",
+                "waitingRoom": "Permitir notificaciones"
+            },
+            "toggleSounds": {
+                "desktop": "Activar sonidos de notificación de escritorio",
+                "waitingRoom": "Habilitar sonidos de notificación"
             }
         },
         "profile": {
@@ -205,7 +261,36 @@
         },
         "recording": {
             "inputLabel": "Carpeta de destino",
-            "title": "Grabando"
+            "title": "Grabando",
+            "browseAction": "NAVEGAR",
+            "description": "Establecer una carpeta personalizada en la que guardar las grabaciones de las reuniones que detengas.",
+            "resetAction": "REINICIAR"
+        },
+        "export": {
+            "snackbar": {
+                "success": "¡Chat exportado con éxito, comprueba tus descargas!"
+            },
+            "tooltip": {
+                "noOneSelected": "Elige uno de tus chats para exportarlo",
+                "ongoingExport": "Ya estás exportando un chat, espera hasta que termine la exportación."
+            },
+            "caption": "Exportar chats con mucho contenido puede tardar un rato.",
+            "title": "Exportar chat",
+            "emptySpace": {
+                "noMatch": {
+                    "title": "Probar con otra solicitud.",
+                    "description": "No hay coincidencias para la búsqueda en tus chats existentes."
+                },
+                "firstAccess": {
+                    "description": "Tus chats individuales y grupos aparecerán listados aquí.",
+                    "title": "No hay nada por aquí.",
+                    "callToAction": "¡Ve a los chats y empieza a colaborar!"
+                }
+            },
+            "description": "Durante la exportación puedes navegar por Carbonio sin preocupaciones, si refrescas la página entonces la exportación será interrumpida.",
+            "filterInput": "Lista de filtro",
+            "subHead": "Elige uno de tus chats para exportar los mensajes a un archivo de texto. Recuerda que eres responsable de cómo utilizas los datos exportados.",
+            "action": "EXPORTAR CHAT SELECCIONADO"
         }
     },
     "status": {
@@ -213,11 +298,24 @@
         "offline": "Desconectado",
         "online": "Online",
         "areTyping": "están escribiendo…",
-        "isTyping": "está escribiendo…"
+        "isTyping": "está escribiendo…",
+        "goToPrivateChat": "Ir a un chat privado para enviar un mensaje personal",
+        "Anonymous": "Usuario anónimo",
+        "you": "Tú",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} y otros {{numberOfUsers}} usuarios están escribiendo…",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} personas están escribiendo…"
     },
     "affiliationMessages": {
         "groupCreated": "¡{{roomName}} creado!",
-        "oneToOneCreated": "¡Nuevo chat creado!"
+        "oneToOneCreated": "¡Nuevo chat creado!",
+        "member": {
+            "Removed": "{{userName}} ya no es miembro de {{roomName}}.",
+            "Added": "{{userName}} ha sido añadido a {{roomName}}"
+        },
+        "user": {
+            "Removed": "Ya no eres miembro de {{roomName}}.",
+            "Added": "Has sido añadido a {{roomName}}."
+        }
     },
     "conversationFilter": {
         "closeTooltip": "Cerrar filtro",
@@ -236,15 +334,51 @@
             "cameraEnabled": "Cámara encendida",
             "enableCamera": "Activar cámara",
             "enableMicrophone": "Activar micrófono",
-            "microphoneEnabled": "Micrófono encendido"
+            "microphoneEnabled": "Micrófono encendido",
+            "gridView": "Vista de cuadrícula",
+            "disableCamera": "Desactivar cámara",
+            "leaveMeeting": "Abandonar reunión",
+            "microphoneDisabled": "Micrófono deshabilitado",
+            "stopMic": "Parar la prueba de micrófono",
+            "leaveConfirmation": "¿Abandonar reunión?",
+            "playMic": "Empezar a probar el micrófono",
+            "title": {
+                "devices": "Dispositivos",
+                "videoEffect": "Efecto de vídeo"
+            },
+            "option": {
+                "removeBlur": "Eliminar efecto difuminado",
+                "applyBlur": "Aplicar efecto difuminado"
+            },
+            "selectedDeviceTooltip": "Este dispositivo está seleccionado",
+            "userHint": "Encender la cámara para elegir un efecto de vídeo",
+            "cinemaView": "Vista cinematográfica",
+            "enableFullScreen": "Habilitar pantalla completa",
+            "enableScreen": "Habilitar compartir pantalla",
+            "disableFullScreen": "Desactivar pantalla completa",
+            "disableMicrophone": "Desactivar micrófono",
+            "disableScreen": "Desactivar compartir pantalla"
         },
         "joinMeeting": "Unirse a la reunión",
         "newMeetingNotification": {
             "sendMessage": "Enviar mensaje",
-            "writeAMessageToSendIt": "Escribe un mensaje"
+            "writeAMessageToSendIt": "Escribe un mensaje",
+            "sendAQuickMessage": "Enviar un mensaje rápido",
+            "userIsInvitingYou": "<strong>{{name}}</strong> te está invitando"
         },
         "virtual": {
-            "deleteTooltip": "Eliminar Sala Virtual"
+            "deleteTooltip": "Eliminar Sala Virtual",
+            "creationInput": "Nombre de una nueva sala virtual*",
+            "buttonLabel": "tus salas virtuales",
+            "deleteSnackbar": "Sala Virtual eliminada correctamente",
+            "deleteModalTitle": "Borrar Sala Virtual {{roomName}}",
+            "deleteModalDescription": "Estás borrando esta Sala Virtual, si tiene reuniones activas, se interrumpirán y nadie podrá acceder a la misma más. ¿Proceder?",
+            "copyLinkSnackbar": "Enlace de la Sala Virtual copiado",
+            "createTooltip": "Crear una nueva Sala Virtual",
+            "invalidNameTooltip": "Nombre no válido",
+            "emptyState": "Las salas virtuales que crees se mostrarán aquí.",
+            "copyLinkTooltip": "Copiar enlace de la Sala Virtual",
+            "nameRequiredTooltip": "Se necesita un nombre para la Sala Virtual"
         },
         "sidebar": {
             "tooltip": {
@@ -254,31 +388,118 @@
             "waitingCaption": "Esperando para entrar",
             "recording": {
                 "title": "Grabando",
-                "description": "La grabación se guardará en una carpeta en Files del moderador que la detuvo."
-            }
+                "description": "La grabación se guardará en una carpeta en Files del moderador que la detuvo.",
+                "action": {
+                    "start": "EMPEZAR A GRABAR",
+                    "stop": "DEJAR DE GRABAR"
+                },
+                "moderatorInfo": "ha empezado a grabar",
+                "additionalDescription": "Si algo va mal, la grabación se guardará en el espacio Files del moderador que la inició."
+            },
+            "waitingList": "Lista de espera"
         },
         "snackbar": {
             "waitingInfo": "Hay alguien en la sala de espera"
         },
         "browserNotification": {
-            "waitingTitle": "Hay alguien en la sala de espera"
+            "waitingTitle": "Hay alguien en la sala de espera",
+            "waitingMessage": "Un nuevo usuario está esperando para entrar a la reunión"
         },
         "waitingRoom": {
-            "hangUp": "Colgar"
+            "hangUp": "Colgar",
+            "ready": "Preparado para participar",
+            "readyCaption": "¡Todo está configurado! Ponte cómodo.",
+            "userIsReady": "¡Estás preparado!",
+            "nextStep": "Un moderador te dejará entrar a la reunión lo antes posible.",
+            "title": "¿Quieres unirte a la reunión {{meetingName}}?",
+            "setInputs": "Configura tus dispositivos de entrada eligiéndolos del menú desplegable",
+            "welcomeHint": "Haz clic en \"PREPARADO PARA PARTICIPAR\" para entrar en la reunión",
+            "readyHint": "Entrarás en la reunión en unos momentos",
+            "welcomeCaption": "Cuando estés preparado, ponte cómodo."
         },
         "recordingHint": "Esta reunión está siendo grabada",
         "recordingModal": {
             "description": "Estás a punto de detener la grabación. Puedes comenzar a grabar de nuevo en cualquier momento.",
             "title": "Detener grabación",
-            "inputLabel": "Nombre del archivo"
+            "inputLabel": "Nombre del archivo",
+            "caption": "La grabación será guardada en la carpeta {{folderName}} en Files. Ve Ajustes > Chats > Grabaciones para cambiar la carpeta de destino.",
+            "requiredNameError": "Se necesita un nombre de archivo para la grabación",
+            "exceededCharsError": "El nombre de archivo no debe exceder los 128 caracteres",
+            "confirmationAction": "DETENER"
         },
         "recordingStart": {
-            "failureSnackbar": "No es posible iniciar la grabación. Contacta con el administrador del sistema."
-        }
+            "failureSnackbar": "No es posible iniciar la grabación. Contacta con el administrador del sistema.",
+            "successSnackbar": {
+                "participants": "{{userName}} inició el registro de esta reunión",
+                "starter": "Has iniciado el registro de esta reunión"
+            }
+        },
+        "infoPage": {
+            "title": {
+                "hangUp": "¡Abandonaste la sala de espera!",
+                "rejected": "Tu acceso ha sido rechazado",
+                "meetingNotFound": "La reunión que buscas no existe",
+                "notAuthenticatedUser": "No estás autentificado"
+            },
+            "slogan": {
+                "hangUp": "Tal vez la próxima vez",
+                "rejected": "Tal vez la próxima vez",
+                "meetingNotFound": "prueba luego",
+                "notAuthenticatedUser": "INICIA SESIÓN PARA ACCEDER A LA REUNIÓN"
+            },
+            "description": {
+                "hangUp": "Estamos deseando verte participar en futuras reuniones",
+                "rejected": "El moderador ha decidido denegarte el acceso a la reunión",
+                "meetingNotFound": "Por favor, comprueba el enlace de la reunión y prueba de nuevo",
+                "notAuthenticatedUser": "No puedes unirte a la reunión si no te has identificado con tu cuenta"
+            }
+        },
+        "restartMeeting": "Reiniciar reunión",
+        "recordingStop": {
+            "successSnackbar": {
+                "stopper": "Encontrarás {{recordingName}} en {{folderName}} tan pronto como esté disponible",
+                "participants": "{{userName}} detuvo el registro de esta reunión"
+            },
+            "failureSnackbar": "No es posible detener el registro, por favor, contacta con tu administrador del sistema."
+        },
+        "rejoinMeeting": "Reconectarse a la reunión",
+        "collapseChat": "Contraer chat",
+        "collapseParticipantsMeetingTooltip": "Contraer lista de participantes",
+        "noMoreActiveSession": "No puede haber más de una sesión activa para la misma reunión",
+        "noTwoActiveSession": "No pueden coexistir dos sesiones activas de la misma reunión",
+        "ongoingOneToOneMeetingTooltip": "Ya tienes una reunión activa con {{name}}",
+        "openedInAnotherWindow": "Esta reunión ya está abierta en otra ventana",
+        "presentActiveSession": "Hay otra sesión activa",
+        "startModal": {
+            "audioAndVideoLoading": "Los activos están cargando",
+            "enterOneToOneMeetingTitle": "Unirse a la reunión con {{meetingTitle}}",
+            "enterRoomMeetingTitle": "Participar en la reunión {{meetingTitle}}"
+        },
+        "tooltip": {
+            "activeSessionTooltip": "Tienes una sesión activa en esta reunión"
+        },
+        "waitingParticipants": "Esperando que los participantes se unan…",
+        "ongoingGroupMeetingTooltip": "Ya estás participando en esta reunión",
+        "activeMeetingTooltip": "Hay una reunión activa para este chat",
+        "joinMeetingDescription": "¿Cómo quieres unirte a esta reunión?",
+        "minimizeChat": "Minimizar chat",
+        "continueActiveSession": "Continuar la reunión en la ventana nueva",
+        "participantsList": {
+            "title_one": "Un participante de la reunión",
+            "title_many": "{{count}} participantes de la reunión",
+            "title_other": "{{count}} participantes de la reunión"
+        },
+        "setInputDescription": "Configura tus dispositivos de entrada, seleccionándolos del menú desplegable",
+        "startMeeting": "Iniciar reunión",
+        "expandParticipantsListTooltip": "Ampliar la lista de participantes",
+        "extendChat": "Ampliar el chat",
+        "expandChat": "Ampliar chat",
+        "durationTooltip": "Duración de la reunión"
     },
     "meetings": {
         "interactions": {
-            "yourCamIsDisabled": "Su cámara está apagada"
+            "yourCamIsDisabled": "Su cámara está apagada",
+            "yourMicIsDisabled": "Tu micrófono está apagado"
         }
     },
     "notification": {
@@ -290,5 +511,36 @@
     "tryLater": "Inténtalo más tarde",
     "snackbar": {
         "mutedByModerator": "Has sido silenciado por un moderador. Reactiva tu micrófono para hablar"
+    },
+    "configurationMessages": {
+        "user": {
+            "roomTopicRemoved": "Has eliminado el tema de {{roomName}}.",
+            "roomNameChanged": "Has cambiado el título de este grupo en \"<i>{{roomName}}</i>\".",
+            "roomPictureDeleted": "Has restaurado la imagen por defecto de {{roomName}}.",
+            "roomPictureUpdated": "Has cambiado la imagen de {{roomName}}.",
+            "roomTopicChanged": "Has cambiado el tema de {{roomName}} en \"<i>{{topicName}}</i>\"."
+        },
+        "member": {
+            "roomPictureDeleted": "{{name}} restauró la imagen por defecto de {{roomName}}.",
+            "roomNameChanged": "{{name}} cambió el título de este grupo en \"<i>{{roomName}}</i>\".",
+            "roomPictureUpdated": "{{name}} cambió la imagen de {{roomName}}.",
+            "roomTopicChanged": "{{name}} cambió el asunto de {{roomName}} en \"<i>{{topicName}}</i>\".",
+            "roomTopicRemoved": "{{name}} eliminó el asunto de {{roomName}}"
+        }
+    },
+    "welcomePage": {
+        "loginTitle": "¿Tienes una cuenta?",
+        "loginButton": "IR A TU PÁGINA DE INICIO DE SESIÓN",
+        "joinButton": "Unirse a la reunión",
+        "loginDescription": "Elige libremente si quieres ir a la página de inicio de sesión o acceder a la reunión con tu nombre.",
+        "journeyDescription": "Serás redirigido a la sala de espera en la que un moderador aprobará tu acceso.",
+        "description": "¿Cómo te gustaría presentarte?",
+        "nameInput": "Introduce aquí tu nombre",
+        "blob": "¡Hola forastero!"
+    },
+    "keepInTouchWithColleagues": "Mantente en contacto con tus colegas o únete a las salas de reunión de tus grupos",
+    "interactions": {
+        "micDevice": "Dispositivo micrófono",
+        "camDevice": "Dispositivo cámara"
     }
 }
