@@ -190,7 +190,7 @@
             "modal": {
                 "action": "Attacher quand même",
                 "title": "Message trop long pour la légende",
-                "description": "Le message auquel vous attachez cet élément est très long et ne peut être utilisé comme légende de pièce jointe.",
+                "description": "Le texte est très long et ne peut être utilisé comme légende de pièce jointe.",
                 "additionalDetails": "Si vous continuez l'opération, l'excédent sera supprimé du texte original. Continuer ?"
             }
         }
