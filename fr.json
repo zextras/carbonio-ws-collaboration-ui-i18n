@@ -363,7 +363,7 @@
                 "devices": "Appreils"
             },
             "userHint": "Allumer la caméra pour sélectionner l'effet vidéo",
-            "selectedDeviceTooltip": "Cet appareil est sélectionné"
+            "selectedDeviceTooltip": "Appareil sélectionné"
         },
         "joinMeeting": "Rejoindre la réunion",
         "newMeetingNotification": {
