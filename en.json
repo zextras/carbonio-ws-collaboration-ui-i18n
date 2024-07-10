@@ -168,7 +168,7 @@
                 "removeBlur": "Remove blur effect",
                 "applyBlur": "Apply blur effect"
             },
-            "selectedDeviceTooltip": "This device is selected",
+            "selectedDeviceTooltip": "Selected device",
             "userHint": "Turn on the camera to select a video effect"
         },
         "joinMeeting": "Join meeting",
