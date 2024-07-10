@@ -193,7 +193,8 @@
             "modal": {
                 "action": "Allega comunque",
                 "title": "Messaggio troppo lungo per la didascalia",
-                "additionalDetails": "Se procedi con questa operazione, il testo in eccesso verrà eliminato. Vuoi continuare?"
+                "additionalDetails": "Se procedi con questa operazione, il testo in eccesso verrà eliminato. Vuoi continuare?",
+                "description": "Il testo è troppo lungo e non può essere utilizzato come testo per l'allegato."
             }
         }
     },
@@ -484,7 +485,12 @@
             },
             "failureSnackbar": "Non è possibile terminare la registrazione, contatta il tuo amministratore di sistema."
         },
-        "durationTooltip": "Durata della riunione"
+        "durationTooltip": "Durata della riunione",
+        "participantsList": {
+            "title_one": "Un partecipante della riunione",
+            "title_many": "{{count}} partecipanti della riunione",
+            "title_other": "{{count}} partecipanti della riunione"
+        }
     },
     "tryLater": "Riprova più tardi",
     "external": {
