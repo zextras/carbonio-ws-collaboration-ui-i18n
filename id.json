@@ -11,7 +11,9 @@
         "messageRead": "Dibaca",
         "messageSent": "Terkirim",
         "room": {
-            "uploadPicture": "Unggah gambar"
+            "uploadPicture": "Unggah gambar",
+            "resetPicture": "Atur ulang gambar",
+            "updatePicture": "Perbarui gambar"
         },
         "demoteModerator": "Turunkan moderator",
         "promoteModerator": "Promosikan ke moderator",
@@ -21,7 +23,31 @@
         "muteForAll": "Bisukan untuk semua",
         "pending": "Tertunda",
         "pinVideo": "Sematkan video",
-        "unpinVideo": "Lepas pin video"
+        "unpinVideo": "Lepas pin video",
+        "disableModalButton": "Pilih setidaknya satu alamat",
+        "forwardedMessage": "Pesan diteruskan dari obrolan lain",
+        "messageReceived": "Diterima",
+        "leaveAndDelete": "Keluar dan hapus obrolan",
+        "collapseSidebar": "Ciutkan sidebar",
+        "removeToAddNewOne": "Keluarkan seseorang untuk menambahkan anggota baru",
+        "scrollDown": "Gulir ke bawah",
+        "scrollUp": "Gulir ke atas",
+        "topOfList": "Bagian atas daftar",
+        "uploadAttachment": "Unggah lampiran",
+        "userAvatar": {
+            "resetAvatar": "Atur ulang avatar",
+            "updateAvatar": "Perbarui avatar",
+            "uploadAvatar": "Unggah avatar"
+        },
+        "memberIsModerator": "Anggota ini adalah moderator",
+        "promoteSomeoneElseToModerator": "Sebelum keluar, Anda harus mempromosikan seseorang untuk menjadi moderator",
+        "showConversationList": "Tampilkan daftar obrolan",
+        "expandSidebar": "Perluas sidebar",
+        "iAmModerator": "Anda adalah moderator",
+        "participantMuted": "Peserta ini disenyapkan",
+        "writeToSend": "Tulis pesan untuk dikirim",
+        "youAreAlreadyMuted": "Mikrofon Anda dinonaktifkan",
+        "bottomOfList": "Bagian bawah daftar"
     },
     "action": {
         "activateNotifications": "Aktifkan notifikasi",
@@ -88,7 +114,15 @@
         "emptyListDescription": "Obrolan dan Grup akan muncul di sini",
         "emptyListTitle": "Daftar ini kosong",
         "mockCreateChatDescription": "Berinteraksi, berkomunikasi, dan berkolaborasi dengan kolega Anda dengan berbagi informasi dan lampiran",
-        "mockCreateChatTitle": "Buat obrolan baru menggunakan tombol buat"
+        "mockCreateChatTitle": "Buat obrolan baru menggunakan tombol buat",
+        "longCaption": {
+            "modal": {
+                "title": "Pesan terlalu panjang untuk diberi keterangan",
+                "action": "Tetap lampirkan",
+                "description": "Teks terlalu panjang dan tidak dapat digunakan sebagai keterangan lampiran.",
+                "additionalDetails": "Jika Anda melanjutkan operasi, kelebihannya akan dihapus dari teks asli. Tetap lanjutkan?"
+            }
+        }
     },
     "conversationInfo": {
         "info": "Info",
@@ -101,20 +135,37 @@
         "topic": "Topik"
     },
     "date": {
-        "yesterday": "Kemarin"
+        "yesterday": "Kemarin",
+        "today": "Hari ini"
     },
     "editModal": {
-        "groupDescriptionDetails": "Nama tersebut mendeskripsikan subjek Grup"
+        "groupDescriptionDetails": "Nama tersebut mendeskripsikan subjek Grup",
+        "confirm": "Edit detail",
+        "confirmDisabled": "Anda belum mengubah apa pun",
+        "errorDisabled": "Periksa informasi yang dimasukkan",
+        "groupNameDetails": "Wajib diisi untuk mengidentifikasi Grup",
+        "nameTooLong": "Panjang judul maksimum adalah 128 karakter",
+        "nameTooShort": "Judul adalah informasi penting",
+        "topicTooLong": "Panjang topik maksimum adalah 256 karakter"
     },
     "feedback": {
         "historyCleared": "Riwayat berhasil dihapus!",
         "notificationsActivatedForThisChat": "Notifikasi diaktifkan untuk obrolan ini",
-        "notificationsMutedForThisChat": "Notifikasi dimatikan untuk obrolan ini"
+        "notificationsMutedForThisChat": "Notifikasi dimatikan untuk obrolan ini",
+        "messageCopied": "Pesan disalin",
+        "networkProblem": {
+            "websocket": "Terjadi kesalahan saat terhubung dengan WEBSOCKET",
+            "wsc": "Terjadi kesalahan saat terhubung dengan WSC",
+            "xmpp": "Terjadi kesalahan saat terhubung dengan XMPP"
+        },
+        "networkProblems": "Mungkin terjadi masalah saat menggunakan modul ini, coba segarkan halaman."
     },
     "message": {
         "deletedMessage": "Pesan yang dihapus",
         "draft": "draf",
-        "edited": "diedit"
+        "edited": "diedit",
+        "forwardedMultipleTimes": "Diteruskan beberapa kali",
+        "originallySentBy": "Awalnya dikirim oleh:"
     },
     "modal": {
         "deleteRoom": "Hapus Ruang",
@@ -122,23 +173,77 @@
         "leaveGroup": "Keluar dari Grup",
         "removeMember": "Hapus anggota",
         "showPreviousConversationHistory": "Tampilkan riwayat percakapan sebelumnya",
-        "deleteMessageTitleDescription": "Jika Anda menghapus seluruh konten pesan, pesan tersebut tidak akan lagi tersedia dan akibatnya akan dihapus.",
-        "deleteMessageTitle": "Hapus pesan yang dipilih?"
+        "deleteMessageTitleDescription": "Pesan ini tidak akan tersedia lagi jika Anda menghapusnya",
+        "deleteMessageTitle": "Hapus pesan yang dipilih?",
+        "creation": {
+            "inputPlaceholder": "Mulai mengetik atau pilih alamat",
+            "addUserLimit": {
+                "limitReached": "Anda telah memilih jumlah maksimum anggota untuk suatu grup",
+                "users_other": "Anda dapat menambahkan {{count}} anggota lagi"
+            },
+            "contactList": "Pilih lebih dari satu alamat untuk membuat Grup",
+            "description": "Obrolan adalah percakapan pribadi yang membantu Anda tetap terhubung dengan kontak. Anda bisa membuat Grup dengan memasukkan lebih dari dua alamat",
+            "newChat": "Obrolan Baru",
+            "newGroup": "Grup Baru"
+        },
+        "forward": {
+            "chooseAtLeastOneChat": "Pilih setidaknya satu obrolan",
+            "description": "Pilih obrolan target untuk meneruskan pesan",
+            "inputPlaceholder": "Mulai mengetik atau pilih obrolan",
+            "title": "Teruskan pesan dari {{chatName}}"
+        },
+        "deleteGroup": "Hapus Grup",
+        "deleteRoomLabel": "Anda ingin menghapus Ruang ini?",
+        "leaveAndDelete": "Keluar dan hapus Grup",
+        "leaveGroupLabel": "Anda yakin ingin keluar dari Grup ini?",
+        "clearHistoryDescription": "Anda sedang membersihkan riwayat obrolan Anda, perhatikan bahwa tindakan ini tidak dapat dibatalkan. Riwayat akan dihapus untuk Anda dan bukan untuk anggota lain.",
+        "deleteGroupMeetingOngoingLabel": "Saat ini ada rapat aktif. Menghapus Grup ini akan mengakhiri rapat tanpa peringatan.",
+        "deleteGroupLabel": "Tindakan ini akan memengaruhi seluruh anggota Grup dan tidak dapat dibatalkan. Anda yakin ingin menghapus Grup ini?",
+        "leaveRoomLabel": "Anda yakin ingin keluar dari Ruang ini?",
+        "leaveRoom": "Keluar dari Ruang",
+        "muteForAllDescription": "Dengan mematikan suara pengguna, semua peserta tidak dapat lagi mendengar suara pengguna tersebut. Hanya pengguna tersebut yang dapat menghidupkan mikrofonnya lagi. Tetap lanjutkan?"
     },
     "participantsList": {
         "closeSearch": "Tutup pencarian",
-        "moreMembersAccordionTitle": "anggota"
+        "moreMembersAccordionTitle": "anggota",
+        "oneMemberAccordionTitle": "Satu anggota",
+        "searchMembers": "Cari anggota",
+        "searchParticipants": "Cari peserta",
+        "creationList": {
+            "title": "Buat obrolan baru dengan:",
+            "searchFailure": "Sepertinya terdapat masalah dalam pencarian Anda, coba lagi."
+        },
+        "noMatch": {
+            "chatList": "Tidak ada pengguna yang cocok dalam pencarian di obrolan Anda.",
+            "all": "Tidak ada pengguna yang cocok dalam pencarian di obrolan yang ada atau di perusahaan Anda."
+        }
     },
     "settings": {
         "notifications": {
             "title": "Notifikasi",
             "subtitle": {
-                "general": "Umum"
+                "general": "Umum",
+                "waitingRoom": "Notifikasi akses Ruang Tunggu"
+            },
+            "description": "Atur preferensi notifikasi Obrolan Anda.",
+            "toggleSounds": {
+                "desktop": "Aktifkan suara notifikasi Desktop",
+                "waitingRoom": "Aktifkan suara notifikasi"
+            },
+            "checkbox": {
+                "waitingRoom": "Izinkan notifikasi",
+                "desktop": "Izinkan notifikasi Desktop"
             }
         },
         "profile": {
             "errorGenericResponse": "Terjadi kesalahan. Harap coba lagi",
-            "title": "Profil"
+            "title": "Profil",
+            "maximumDimension": "Dimensi maksimum: {{size}}kb",
+            "deletedUserImageCorrectly": "Avatar berhasil diatur ulang ke aslinya",
+            "description": "Pilih avatar yang akan dilihat pengguna lain, gambar akan otomatis dipusatkan.",
+            "statusLabel": "Status Anda akan ditampilkan di sini",
+            "pictureSizeTooLarge": "Terjadi kesalahan, ingat bahwa ukuran maksimum gambar avatar adalah {{size}}kb",
+            "updatedPictureCorrectly": "Avatar baru berhasil diunggah"
         },
         "save": "Hasil edit disimpan dengan benar",
         "title": "Pengaturan Chats",
@@ -148,14 +253,55 @@
         },
         "recording": {
             "inputLabel": "Folder tujuan",
-            "title": "Rekaman"
+            "title": "Rekaman",
+            "browseAction": "JELAJAHI",
+            "resetAction": "ATUR ULANG",
+            "description": "Tetapkan folder khusus untuk menyimpan rekaman rapat yang Anda hentikan."
+        },
+        "export": {
+            "caption": "Mengekspor obrolan dengan banyak konten dapat memakan waktu yang cukup lama.",
+            "title": "Ekspor obrolan",
+            "description": "Saat mengekspor, Anda dapat menjelajahi Carbonio tanpa khawatir. Namun, jika Anda menyegarkan halaman, proses ekspor akan terganggu.",
+            "filterInput": "Filter daftar",
+            "emptySpace": {
+                "noMatch": {
+                    "title": "Coba kueri lain.",
+                    "description": "Tidak ada hasil yang cocok untuk pencarian di obrolan Anda."
+                },
+                "firstAccess": {
+                    "description": "Obrolan dan grup pribadi akan ditampilkan di sini.",
+                    "title": "Tidak ada apa pun.",
+                    "callToAction": "Buka Obrolan dan mulai berkolaborasi!"
+                }
+            },
+            "snackbar": {
+                "success": "Obrolan berhasil diekspor, periksa unduhan Anda!"
+            },
+            "subHead": "Pilih salah satu obrolan Anda untuk mengekspor pesan ke file teks. Ingat bahwa Anda bertanggung jawab penuh atas penggunaan data yang diekspor.",
+            "tooltip": {
+                "noOneSelected": "Pilih salah satu topik obrolan untuk diekspor",
+                "ongoingExport": "Anda sedang mengekspor obrolan, tunggu hingga selesai."
+            },
+            "action": "EKSPOR OBROLAN YANG DIPILIH"
+        },
+        "room": {
+            "updatedPictureCorrectly": "Avatar baru berhasil diunggah",
+            "deletedImageCorrectly": "Avatar grup berhasil diatur ulang ke aslinya",
+            "deletedUserImageCorrectly": "Avatar berhasil diatur ulang ke aslinya",
+            "pictureSizeTooLarge": "Terjadi kesalahan, ingat bahwa ukuran maksimum untuk gambar avatar Grup adalah {{size}}kb"
         }
     },
     "status": {
         "lastSeen": "Terakhir dilihat {{lastSeen}}",
         "offline": "Offline",
         "online": "Online",
-        "isTyping": "mengetik…"
+        "isTyping": "mengetik…",
+        "goToPrivateChat": "Buka obrolan pribadi untuk mengirim pesan pribadi",
+        "areTyping": "sedang mengetik…",
+        "Anonymous": "Pengguna anonim",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} orang sedang mengetik…",
+        "you": "Anda",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} dan {{numberOfUsers}} lainnya sedang mengetik…"
     },
     "external": {
         "nobodyInTheRoom": "Tampaknya tak ada seorangpun di Ruang ini",
@@ -168,13 +314,50 @@
             "cameraEnabled": "Kamera diaktifkan",
             "enableCamera": "Aktifkan kamera",
             "enableMicrophone": "Aktifkan mikrofon",
-            "microphoneEnabled": "Mikrofon diaktifkan"
+            "microphoneEnabled": "Mikrofon diaktifkan",
+            "disableCamera": "Nonaktifkan kamera",
+            "disableFullScreen": "Nonaktifkan layar penuh",
+            "disableMicrophone": "Nonaktifkan mikrofon",
+            "gridView": "Tampilan bergaris",
+            "title": {
+                "devices": "Perangkat",
+                "videoEffect": "Efek video"
+            },
+            "option": {
+                "removeBlur": "Hapus efek buram",
+                "applyBlur": "Terapkan efek buram"
+            },
+            "userHint": "Aktifkan kamera untuk memilih efek video",
+            "selectedDeviceTooltip": "Perangkat ini dipilih",
+            "enableFullScreen": "Aktifkan layar penuh",
+            "stopMic": "Hentikan tes mikrofon",
+            "playMic": "Mulai tes mikrofon",
+            "enableScreen": "Aktifkan berbagi layar",
+            "cinemaView": "Tampilan bioskop",
+            "disableScreen": "Nonaktifkan berbagi layar",
+            "leaveMeeting": "Keluar Rapat",
+            "microphoneDisabled": "Mikrofon dinonaktifkan",
+            "leaveConfirmation": "Keluar rapat?"
         },
         "newMeetingNotification": {
-            "sendMessage": "Kirim pesan"
+            "sendMessage": "Kirim pesan",
+            "sendAQuickMessage": "Kirim pesan cepat",
+            "userIsInvitingYou": "<strong>{{name}}</strong> mengundang Anda",
+            "writeAMessageToSendIt": "Tulis pesan untuk dikirim"
         },
         "virtual": {
-            "deleteTooltip": "Hapus Ruang Virtual"
+            "deleteTooltip": "Hapus Ruang Virtual",
+            "creationInput": "Nama Ruang Virtual Baru*",
+            "nameRequiredTooltip": "Nama Ruang Virtual wajib diisi",
+            "createTooltip": "Buat Ruang Virtual baru",
+            "invalidNameTooltip": "Nama tidak valid",
+            "copyLinkSnackbar": "Tautan Ruang Virtual disalin",
+            "emptyState": "Ruang Virtual yang Anda buat akan ditampilkan di sini.",
+            "deleteModalDescription": "Anda menghapus Ruang Virtual ini, jika ada rapat yang aktif, maka akan terganggu dan tidak ada yang dapat mengaksesnya lagi. Tetap lanjutkan?",
+            "deleteSnackbar": "Ruang Virtual berhasil dihapus",
+            "deleteModalTitle": "Hapus Ruang Virtual {{roomName}}",
+            "copyLinkTooltip": "Salin tautan Ruang Virtual",
+            "buttonLabel": "ruang virtual Anda"
         },
         "sidebar": {
             "waitingCaption": "Menunggu masuk",
@@ -184,34 +367,119 @@
             },
             "recording": {
                 "title": "Rekaman",
-                "description": "Rekaman akan disimpan di ruang Files moderator yang menghentikannya."
-            }
+                "description": "Rekaman akan disimpan di ruang Files moderator yang menghentikannya.",
+                "moderatorInfo": "telah mulai merekam",
+                "action": {
+                    "start": "MULAI MEREKAM",
+                    "stop": "BERHENTI MEREKAM"
+                },
+                "additionalDescription": "Jika terjadi kesalahan, rekaman akan disimpan di ruang File moderator yang memulainya."
+            },
+            "waitingList": "Daftar tunggu"
         },
         "snackbar": {
             "waitingInfo": "Tampaknya ada seseorang di Ruang Tunggu"
         },
         "browserNotification": {
-            "waitingTitle": "Tampaknya ada seseorang di Ruang Tunggu"
+            "waitingTitle": "Tampaknya ada seseorang di Ruang Tunggu",
+            "waitingMessage": "Pengguna baru sedang menunggu untuk memasuki rapat"
         },
         "waitingRoom": {
-            "hangUp": "Tutup"
+            "hangUp": "Tutup",
+            "welcomeHint": "Klik “SIAP BERPARTISIPASI” untuk memasuki rapat",
+            "readyHint": "Anda akan memasuki rapat dalam beberapa saat",
+            "ready": "Siap berpartisipasi",
+            "readyCaption": "Semuanya telah siap! Buat diri Anda nyaman.",
+            "setInputs": "Atur perangkat input Anda dengan memilihnya dari menu dropdown",
+            "title": "Bagaimana Anda ingin bergabung dalam rapat {{meetingName}}?",
+            "welcomeCaption": "Saat sudah siap, buat diri Anda nyaman.",
+            "userIsReady": "Anda telah siap!",
+            "nextStep": "Moderator akan segera mengizinkan Anda bergabung dalam rapat."
         },
         "recordingHint": "Rapat ini direkam",
         "recordingStart": {
-            "failureSnackbar": "Registrasi tak bisa dimulai. Harap hubungi administrator sistem."
+            "failureSnackbar": "Registrasi tak bisa dimulai. Harap hubungi administrator sistem.",
+            "successSnackbar": {
+                "participants": "{{userName}} memulai registrasi rapat ini",
+                "starter": "Anda telah memulai registrasi rapat ini"
+            }
         },
         "recordingModal": {
             "title": "Hentikan rekaman",
             "description": "Anda akan menghentikan rekaman. Anda bisa memulai yang baru kapan saja.",
-            "inputLabel": "Nama Rekaman"
-        }
+            "inputLabel": "Nama Rekaman",
+            "exceededCharsError": "Nama file rekaman tidak boleh melebihi 128 karakter",
+            "requiredNameError": "Nama file rekaman wajib diisi",
+            "caption": "Rekaman akan disimpan di folder {{folderName}} di Files. Buka Pengaturan > Obrolan > Rekaman untuk mengubah folder tujuan.",
+            "confirmationAction": "BERHENTI"
+        },
+        "infoPage": {
+            "description": {
+                "meetingNotFound": "Periksa tautan rapat, lalu coba lagi",
+                "hangUp": "Kami menantikan partisipasi Anda dalam rapat mendatang",
+                "rejected": "Moderator memutuskan untuk menolak akses Anda ke dalam rapat",
+                "notAuthenticatedUser": "Anda tidak dapat bergabung dalam rapat jika akun Anda belum diautentikasi"
+            },
+            "slogan": {
+                "hangUp": "Mungkin lain kali",
+                "meetingNotFound": "coba lagi nanti",
+                "rejected": "Mungkin lain kali",
+                "notAuthenticatedUser": "LOGIN UNTUK MENGAKSES RAPAT"
+            },
+            "title": {
+                "notAuthenticatedUser": "Anda tidak diautentikasi",
+                "meetingNotFound": "Rapat yang Anda cari tidak ada",
+                "rejected": "Akses Anda ditolak",
+                "hangUp": "Anda telah meninggalkan ruang tunggu!"
+            }
+        },
+        "activeMeetingTooltip": "Ada rapat aktif untuk Obrolan ini",
+        "collapseChat": "Ciutkan obrolan",
+        "collapseParticipantsMeetingTooltip": "Ciutkan daftar peserta",
+        "continueActiveSession": "Lanjutkan rapat di jendela baru",
+        "rejoinMeeting": "Bergabunglah kembali dengan rapat",
+        "restartMeeting": "Mulai ulang rapat",
+        "startModal": {
+            "enterRoomMeetingTitle": "Berpartisipasi dalam rapat {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Bergabung dalam rapat {{meetingTitle}}",
+            "audioAndVideoLoading": "Aset sedang dimuat"
+        },
+        "tooltip": {
+            "activeSessionTooltip": "Anda memiliki sesi aktif dalam rapat ini"
+        },
+        "recordingStop": {
+            "successSnackbar": {
+                "participants": "{{userName}} menghentikan registrasi rapat ini",
+                "stopper": "Anda akan menemukan {{recordingName}} di {{folderName}} segera setelah tersedia"
+            },
+            "failureSnackbar": "Registrasi tidak dapat dihentikan, hubungi administrator sistem Anda."
+        },
+        "setInputDescription": "Atur perangkat input Anda dengan memilihnya dari menu dropdown",
+        "extendChat": "Perluas obrolan",
+        "expandChat": "Perluas obrolan",
+        "joinMeetingDescription": "Bagaimana Anda ingin bergabung dalam rapat ini?",
+        "waitingParticipants": "Menunggu peserta untuk bergabung…",
+        "durationTooltip": "Durasi rapat",
+        "minimizeChat": "Minimalkan obrolan",
+        "expandParticipantsListTooltip": "Perluas daftar peserta",
+        "ongoingOneToOneMeetingTooltip": "Anda mengadakan rapat aktif dengan {{name}}",
+        "startMeeting": "Mulai rapat",
+        "noMoreActiveSession": "Tidak boleh ada lebih dari satu sesi aktif dalam rapat yang sama",
+        "noTwoActiveSession": "Dua sesi aktif tidak dapat dilakukan dalam rapat yang sama",
+        "ongoingGroupMeetingTooltip": "Anda berpartisipasi dalam rapat ini",
+        "openedInAnotherWindow": "Rapat ini sudah terbuka di jendela lain",
+        "participantsList": {
+            "title_other": "{{count}} peserta rapat"
+        },
+        "presentActiveSession": "Ada sesi aktif lainnya"
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
     "tryLater": "Coba nanti",
     "chat": "Obrolan",
     "meetings": {
         "interactions": {
-            "yourCamIsDisabled": "Kamera Anda nonaktif"
+            "yourCamIsDisabled": "Kamera Anda nonaktif",
+            "yourMicIsDisabled": "Mikrofon Anda mati"
         }
     },
     "notification": {
@@ -233,5 +501,41 @@
             "Added": "Anda telah ditambahkan ke {{roomName}}."
         },
         "oneToOneCreated": "Obrolan Baru dibuat!"
+    },
+    "configurationMessages": {
+        "member": {
+            "roomNameChanged": "{{name}} mengubah judul Grup ini di \"<i>{{roomName}}</i>\".",
+            "roomPictureDeleted": "{{name}} memulihkan gambar default {{roomName}}.",
+            "roomTopicRemoved": "{{name}} menghapus topik {{roomName}}.",
+            "roomPictureUpdated": "{{name}} mengubah gambar {{roomName}}.",
+            "roomTopicChanged": "{{name}} mengubah topik {{roomName}} di \"<i>{{topicName}}</i>\"."
+        },
+        "user": {
+            "roomTopicChanged": "Anda mengubah topik {{roomName}} di \"<i>{{topicName}}</i>\".",
+            "roomTopicRemoved": "Anda menghapus topik {{roomName}}.",
+            "roomNameChanged": "Anda mengubah judul Grup ini di \"<i>{{roomName}}</i>\".",
+            "roomPictureUpdated": "Anda mengubah gambar {{roomName}}.",
+            "roomPictureDeleted": "Anda telah memulihkan gambar default {{roomName}}."
+        }
+    },
+    "welcomePage": {
+        "loginTitle": "Apakah Anda memiliki akun?",
+        "loginDescription": "Pilih apakah Anda akan masuk ke halaman login atau hanya mengakses rapat dengan nama Anda.",
+        "joinButton": "Bergabung dalam rapat",
+        "journeyDescription": "Anda akan diarahkan kembali ke Ruang Tunggu hingga moderator menyetujui akses Anda.",
+        "loginButton": "BUKA HALAMAN LOGIN ANDA",
+        "description": "Bagaimana Anda ingin memperkenalkan diri?",
+        "nameInput": "Ketik nama Anda di sini"
+    },
+    "interactions": {
+        "camDevice": "Perangkat kamera",
+        "micDevice": "Perangkat mikrofon"
+    },
+    "keepInTouchWithColleagues": "Tetap berhubungan dengan kolega Anda atau bergabunglah dalam ruang rapat grup Anda",
+    "titlePlaceholder": "Judul Grup Anda",
+    "conversationFilter": {
+        "closeTooltip": "Tutup filter",
+        "filterTooltip": "Filter daftar",
+        "label": "Ketik untuk memfilter daftar"
     }
 }
