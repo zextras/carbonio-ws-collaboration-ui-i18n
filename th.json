@@ -49,7 +49,18 @@
         "enter": "เข้าสู่การประชุม",
         "joinMeeting": "เข้าร่วมการประชุม",
         "ok": "ตกลง",
-        "cancel": "ยกเลิก"
+        "cancel": "ยกเลิก",
+        "addMoreAttachments": "เพิ่ม {{counter}} ไฟล์แนบ",
+        "addSingleAttachment": "เพิ่ม {{counter}} ไฟล์แนบ",
+        "addNewMembersTo": "เพิ่มสมาชิกใหม่ใน {{roomName}}",
+        "editRoom": "แก้ไข {{roomName}}",
+        "editDetails": "แก้ไขรายละเอียด",
+        "newChat": "แชทใหม่",
+        "scrollToBottom": "เลื่อนลงไปด้านล่าง",
+        "declineAll": "ปฏิเสธทั้งหมด",
+        "understood": "เข้าใจแล้ว",
+        "deleteForAll": "ลบทั้งหมด",
+        "retry": "ลองใหม่อีกครั้ง"
     },
     "attachments": {
         "addFromLocal": "เพิ่มจาก local",
@@ -58,7 +69,11 @@
         "integrations": {
             "chooseFile": "เลือกไฟล์",
             "shareLink": "แชร์ลิงก์สาธารณะ"
-        }
+        },
+        "dragAndDrop": "โหมด Drag&Drop",
+        "dropHereDescription": "วางไฟล์แนบของคุณที่นี่เพื่อเพิ่มลงในแชทนี้อย่างรวดเร็ว",
+        "errorUploadingFile": "เกิดข้อผิดพลาดในการอัปโหลด {{file}}",
+        "uploadAborted": "การอัปโหลดถูกรบกวน"
     },
     "settings": {
         "profile": {
@@ -94,8 +109,22 @@
         "newMessage": "ข้อความใหม่",
         "newMessages": "ข้อความใหม่",
         "selectionMode": {
-            "exit": "ออกจากโหมดการเลือก"
-        }
+            "exit": "ออกจากโหมดการเลือก",
+            "multipleForward": "ส่งต่อข้อความ {{numberOfMessages}} ข้อความ",
+            "maxSelected": "คุณมีข้อความถึงจำนวนสูงสุดที่สามารถส่งต่อได้ในแต่ละครั้งแล้ว ยกเลิกการเลือกข้อความเพื่อเปลี่ยนแปลงตัวเลือกของคุณ"
+        },
+        "emptyListDescription": "แชทและกลุ่มจะปรากฏขึ้นที่นี่",
+        "mockCreateChatTitle": "สร้างแชทใหม่โดยใช้ปุ่มสร้าง",
+        "longCaption": {
+            "modal": {
+                "title": "ข้อความยาวเกินไปสำหรับคำบรรยาย",
+                "action": "แนบข้อความ",
+                "description": "ข้อความนี้ยาวเกินไปและไม่สามารถใช้เป็นคำบรรยายไฟล์แนบได้",
+                "additionalDetails": "หากคุณดำเนินการต่อไป ส่วนที่เกินจะถูกลบออกจากข้อความต้นฉบับ ดำเนินการหรือไม่?"
+            }
+        },
+        "mockCreateChatDescription": "โต้ตอบ สื่อสาร และทำงานร่วมกับเพื่อนร่วมงานของคุณโดยการแบ่งปันข้อมูลและไฟล์แนบ",
+        "emptyListTitle": "รายการนี้ว่างเปล่า"
     },
     "conversationInfo": {
         "actionAccordionTitle": "การดำเนินการ",
@@ -104,19 +133,31 @@
         "messages": "ข้อความ",
         "name": "ชื่อ",
         "status": "สถานะ",
-        "title": "หัวข้อ",
+        "title": "ชื่อเรื่อง",
         "topic": "หัวข้อ"
     },
     "date": {
-        "yesterday": "เมื่อวาน"
+        "yesterday": "เมื่อวาน",
+        "today": "วันนี้"
     },
     "editModal": {
-        "groupDescriptionDetails": "อธิบายถึงหัวข้อของกลุ่ม"
+        "groupDescriptionDetails": "อธิบายถึงหัวข้อของกลุ่ม",
+        "topicTooLong": "ความยาวสูงสุดของหัวข้อคือ 256 ตัวอักษร",
+        "nameTooShort": "ชื่อเรื่องเป็นข้อมูลที่จำเป็น",
+        "groupNameDetails": "จำเป็นและระบุกลุ่ม",
+        "nameTooLong": "ความยาวสูงสุดของชื่อเรื่องคือ 128 ตัวอักษร"
     },
     "feedback": {
         "historyCleared": "ล้างประวัติสำเร็จแล้ว!",
         "notificationsActivatedForThisChat": "เปิดใช้งานการแจ้งเตือนสำหรับแชทนี้",
-        "notificationsMutedForThisChat": "ปิดเสียงการแจ้งเตือนสำหรับแชทนี้"
+        "notificationsMutedForThisChat": "ปิดเสียงการแจ้งเตือนสำหรับแชทนี้",
+        "messageCopied": "คัดลอกข้อความแล้ว",
+        "networkProblem": {
+            "websocket": "เกิดข้อผิดพลาดขณะเชื่อมต่อกับ WEBSOCKET",
+            "wsc": "เกิดข้อผิดพลาดขณะเชื่อมต่อกับ WSC",
+            "xmpp": "เกิดข้อผิดพลาดขณะเชื่อมต่อกับ XMPP"
+        },
+        "networkProblems": "อาจมีปัญหาในการใช้โมดูลนี้ โปรดลองรีเฟรชหน้าเพจ"
     },
     "message": {
         "deletedMessage": "ข้อความที่ถูกลบ",
@@ -203,5 +244,23 @@
     "tryLater": "ลองในภายหลัง",
     "snackbar": {
         "mutedByModerator": "คุณถูกปิดเสียงโดยผู้ดูแล เปิดเสียงตัวเองเพื่อพูด"
+    },
+    "keepInTouchWithColleagues": "ติดต่อกับเพื่อนร่วมงานของคุณหรือเข้าร่วมห้องประชุมกลุ่มของคุณ",
+    "affiliationMessages": {
+        "member": {
+            "Removed": "{{userName}} ไม่ได้เป็นสมาชิกของ {{roomName}} อีกต่อไป",
+            "Added": "เพิ่ม {{userName}} ใน {{roomName}} แล้ว"
+        },
+        "user": {
+            "Added": "คุณถูกเพิ่มลงใน {{roomName}}",
+            "Removed": "คุณไม่ได้เป็นสมาชิกของ {{roomName}} อีกต่อไป"
+        },
+        "groupCreated": "{{roomName}} สร้างแล้ว!",
+        "oneToOneCreated": "สร้างแชทใหม่แล้ว!"
+    },
+    "conversationFilter": {
+        "filterTooltip": "รายการตัวกรอง",
+        "label": "พิมพ์เพื่อกรองรายการ",
+        "closeTooltip": "ปิดตัวกรอง"
     }
 }
