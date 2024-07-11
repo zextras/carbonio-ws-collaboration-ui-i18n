@@ -1,7 +1,9 @@
 {
     "tooltip": {
         "room": {
-            "uploadPicture": "อัปโหลดรูปภาพ"
+            "uploadPicture": "อัปโหลดรูปภาพ",
+            "resetPicture": "รีเซ็ตรูปภาพ",
+            "updatePicture": "อัปเดตรูปภาพ"
         },
         "selectEmoji": "เลือกอีโมจิ",
         "sendMessage": "ส่งข้อความ",
@@ -21,7 +23,31 @@
         "muteForAll": "ปิดเสียงทั้งหมด",
         "pending": "ที่ค้างอยู่",
         "pinVideo": "ปักหมุดวิดีโอ",
-        "unpinVideo": "ยกเลิกการปักหมุดวิดีโอ"
+        "unpinVideo": "ยกเลิกการปักหมุดวิดีโอ",
+        "iAmModerator": "คุณเป็นผู้ดูแล",
+        "leaveAndDelete": "ออกและลบแชท",
+        "showConversationList": "แสดงรายการแชท",
+        "topOfList": "ด้านบนของรายการ",
+        "userAvatar": {
+            "resetAvatar": "รีเซ็ตอวาตาร์",
+            "updateAvatar": "อัปเดตอวาตาร์",
+            "uploadAvatar": "อัปโหลดอวาตาร์"
+        },
+        "participantMuted": "ผู้เข้าร่วมรายนี้ถูกปิดเสียง",
+        "removeToAddNewOne": "ลบบุคคลเพื่อเพิ่มสมาชิกใหม่",
+        "scrollDown": "เลื่อนลง",
+        "bottomOfList": "ด้านล่างของรายการ",
+        "collapseSidebar": "ยุบแถบด้านข้าง",
+        "expandSidebar": "ขยายแถบด้านข้าง",
+        "memberIsModerator": "สมาชิกคนนี้เป็นผู้ดูแล",
+        "messageReceived": "ได้รับแล้ว",
+        "promoteSomeoneElseToModerator": "ก่อนออก คุณต้องเลื่อนตำแหน่งบุคคลอื่นเป็นผู้ดูแล",
+        "scrollUp": "เลื่อนขึ้น",
+        "uploadAttachment": "อัปโหลดไฟล์แนบ",
+        "writeToSend": "เขียนข้อความเพื่อส่ง",
+        "youAreAlreadyMuted": "คุณปิดเสียงอยู่",
+        "forwardedMessage": "ข้อความถูกส่งต่อมาจากแชทอื่น",
+        "disableModalButton": "เลือกที่อยู่อย่างน้อยหนึ่งรายการ"
     },
     "action": {
         "undo": "เลิกทำ",
@@ -78,14 +104,30 @@
     "settings": {
         "profile": {
             "errorGenericResponse": "มีข้อผิดพลาด โปรดลองอีกครั้ง",
-            "title": "โปรไฟล์"
+            "title": "โปรไฟล์",
+            "description": "เลือกอวตารที่ผู้ใช้รายอื่นจะมองเห็น รูปภาพจะถูกจัดกึ่งกลางโดยอัตโนมัติ",
+            "deletedUserImageCorrectly": "อวตารถูกรีเซ็ตกลับเป็นอันเดิมสำเร็จแล้ว",
+            "updatedPictureCorrectly": "อัปโหลดอวตารใหม่สำเร็จแล้ว",
+            "statusLabel": "สถานะของคุณจะปรากฏที่นี่",
+            "maximumDimension": "ขนาดสูงสุด: {{size}}kb",
+            "pictureSizeTooLarge": "มีข้อผิดพลาดเกิดขึ้น โปรดทราบว่าขนาดสูงสุดของภาพอวตารคือ {{size}}kb"
         },
         "save": "บันทึกการแก้ไขอย่างถูกต้อง",
         "title": "การตั้งค่า Chats",
         "notifications": {
             "title": "การแจ้งเตือน",
             "subtitle": {
-                "general": "ทั่วไป"
+                "general": "ทั่วไป",
+                "waitingRoom": "การแจ้งเตือนการเข้าถึงห้องคัดกรอง"
+            },
+            "description": "กำหนดการตั้งค่าของคุณสำหรับการแจ้งเตือนของ Chats",
+            "toggleSounds": {
+                "desktop": "เปิดใช้งานเสียงการแจ้งเตือนบนเดสก์ท็อป",
+                "waitingRoom": "เปิดใช้งานเสียงแจ้งเตือน"
+            },
+            "checkbox": {
+                "waitingRoom": "อนุญาตการแจ้งเตือน",
+                "desktop": "อนุญาตการแจ้งเตือนบนเดสก์ท็อป"
             }
         },
         "meetings": {
@@ -94,14 +136,55 @@
         },
         "recording": {
             "inputLabel": "โฟลเดอร์ปลายทาง",
-            "title": "กำลังบันทึก"
+            "title": "กำลังบันทึก",
+            "browseAction": "เรียกดู",
+            "resetAction": "รีเซ็ต",
+            "description": "ตั้งค่าโฟลเดอร์แบบกำหนดเองสำหรับบันทึกการประชุมที่คุณหยุด"
+        },
+        "room": {
+            "pictureSizeTooLarge": "มีข้อผิดพลาดเกิดขึ้น โปรดทราบว่าขนาดสูงสุดของภาพอวาตาร์ของกลุ่มคือ {{size}}kb",
+            "updatedPictureCorrectly": "อัปโหลดอวตารใหม่สำเร็จแล้ว",
+            "deletedUserImageCorrectly": "อวตารได้รับการรีเซ็ตเป็นอันเดิมเรียบร้อยแล้ว",
+            "deletedImageCorrectly": "อวาตาร์ของกลุ่มได้รับการรีเซ็ตเป็นอันเดิมเรียบร้อยแล้ว"
+        },
+        "export": {
+            "emptySpace": {
+                "firstAccess": {
+                    "callToAction": "ไปที่ Chats และเริ่มการทำงานร่วมกัน!",
+                    "description": "แชทแบบเดี่ยวและกลุ่มของคุณจะปรากฏที่นี่",
+                    "title": "ไม่มีอะไรที่นั่น"
+                },
+                "noMatch": {
+                    "description": "ไม่มีรายการที่ตรงกันสำหรับการค้นหานี้ในการแชทที่มีอยู่ของคุณ",
+                    "title": "ลองแบบสอบถามอื่น"
+                }
+            },
+            "caption": "การส่งออกแชทที่มีเนื้อหาจำนวนมากอาจต้องใช้เวลาสักครู่",
+            "title": "ส่งออกแชท",
+            "filterInput": "รายการตัวกรอง",
+            "tooltip": {
+                "noOneSelected": "เลือกหนึ่งในแชทของคุณเพื่อส่งออก",
+                "ongoingExport": "คุณกำลังทำการส่งออกแชทอยู่โปรดรอให้การส่งออกเสร็จสิ้น"
+            },
+            "snackbar": {
+                "success": "ส่งออกแชทเรียบร้อยแล้ว โปรดตรวจสอบการดาวน์โหลดของคุณ!"
+            },
+            "description": "ในระหว่างการส่งออก คุณสามารถเรียกดู Carbonio ได้อย่างไร้กังวล อย่างไรก็ตาม หากคุณรีเฟรชหน้าเพจ การส่งออกจะถูกขัดจังหวะ",
+            "subHead": "เลือกหนึ่งในแชทของคุณเพื่อส่งออกข้อความไปยังไฟล์ข้อความ โปรดทราบว่าคุณมีหน้าที่รับผิดชอบในการใช้ข้อมูลที่ส่งออก",
+            "action": "ส่งออกแชทที่เลือก"
         }
     },
     "status": {
         "lastSeen": "ดูครั้งล่าสุด {{lastSeen}}",
         "offline": "ออฟไลน์",
         "online": "ออนไลน์",
-        "isTyping": "กำลังพิมพ์…"
+        "isTyping": "กำลังพิมพ์…",
+        "Anonymous": "ผู้ใช้ที่ไม่ระบุชื่อ",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} คนกำลังพิมพ์…",
+        "areTyping": "กําลังพิมพ์…",
+        "you": "คุณ",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} และอีก {{numberOfUsers}} คนกำลังพิมพ์…",
+        "goToPrivateChat": "ไปที่แชทส่วนตัวเพื่อส่งข้อความส่วนตัว"
     },
     "conversation": {
         "chooseConversationDescription": "เลือกการสนทนาเพื่อเริ่มการแชท",
@@ -141,11 +224,14 @@
         "today": "วันนี้"
     },
     "editModal": {
-        "groupDescriptionDetails": "อธิบายถึงหัวข้อของกลุ่ม",
+        "groupDescriptionDetails": "อธิบายถึงหัวเรื่องของกลุ่ม",
         "topicTooLong": "ความยาวสูงสุดของหัวข้อคือ 256 ตัวอักษร",
         "nameTooShort": "ชื่อเรื่องเป็นข้อมูลที่จำเป็น",
         "groupNameDetails": "จำเป็นและระบุกลุ่ม",
-        "nameTooLong": "ความยาวสูงสุดของชื่อเรื่องคือ 128 ตัวอักษร"
+        "nameTooLong": "ความยาวสูงสุดของชื่อเรื่องคือ 128 ตัวอักษร",
+        "confirm": "แก้ไขรายละเอียด",
+        "confirmDisabled": "คุณไม่ได้เปลี่ยนแปลงสิ่งใด",
+        "errorDisabled": "ตรวจสอบข้อมูลที่ป้อน"
     },
     "feedback": {
         "historyCleared": "ล้างประวัติสำเร็จแล้ว!",
@@ -162,23 +248,60 @@
     "message": {
         "deletedMessage": "ข้อความที่ถูกลบ",
         "draft": "แบบร่าง",
-        "edited": "แก้ไขแล้ว"
+        "edited": "แก้ไขแล้ว",
+        "forwardedMultipleTimes": "ส่งต่อแล้วหลายครั้ง",
+        "originallySentBy": "ส่งครั้งแรกโดย:"
     },
     "modal": {
         "creation": {
-            "newGroup": "กลุ่มใหม่"
+            "newGroup": "กลุ่มใหม่",
+            "inputPlaceholder": "เริ่มพิมพ์หรือเลือกที่อยู่",
+            "addUserLimit": {
+                "limitReached": "คุณได้เลือกจำนวนสมาชิกสูงสุดสำหรับกลุ่ม",
+                "users_other": "คุณสามารถเพิ่มสมาชิกได้ {{count}} คน"
+            },
+            "description": "Chats คือการสนทนาแบบตัวต่อตัวที่ช่วยให้คุณไม่พลาดการติดต่อกับผู้ติดต่อของคุณ คุณสามารถสร้างกลุ่มได้โดยใส่ที่อยู่มากกว่าสองแห่ง",
+            "newChat": "แชทใหม่",
+            "contactList": "เลือกมากกว่าที่อยู่เพื่อสร้างกลุ่ม"
         },
         "deleteRoom": "ลบห้อง",
         "deleteUserDescription": "คุณแน่ใจหรือไม่ว่าต้องการลบสมาชิกคนนี้ออก?",
         "leaveGroup": "ออกจากกลุ่ม",
         "removeMember": "ลบสมาชิก",
         "showPreviousConversationHistory": "แสดงประวัติการสนทนาก่อนหน้า",
-        "deleteMessageTitleDescription": "หากคุณลบเนื้อหาทั้งหมดของข้อความ เนื้อหานั้นจะไม่สามารถใช้งานได้อีกต่อไปและจะถูกลบออก",
-        "deleteMessageTitle": "ลบข้อความที่เลือกหรือไม่?"
+        "deleteMessageTitleDescription": "คุณกำลังลบข้อความ ข้อความนี้จะไม่สามารถใช้งานได้อีกต่อไป",
+        "deleteMessageTitle": "ลบข้อความที่เลือกหรือไม่?",
+        "forward": {
+            "inputPlaceholder": "เริ่มพิมพ์หรือเลือกแชท",
+            "title": "ส่งต่อข้อความจาก {{chatName}}",
+            "chooseAtLeastOneChat": "เลือกอย่างน้อย 1 แชท",
+            "description": "เลือกแชทเป้าหมายเพื่อส่งต่อข้อความ"
+        },
+        "leaveAndDelete": "ออกและลบกลุ่ม",
+        "leaveRoomLabel": "แน่ใจไหมว่าจะออกจากห้องนี้?",
+        "clearHistoryDescription": "คุณกำลังล้างประวัติการแชท โปรดทราบว่าการดำเนินการนี้ไม่สามารถย้อนกลับได้ ประวัติจะถูกลบสำหรับคุณและไม่ใช่สำหรับสมาชิกรายอื่น",
+        "deleteRoomLabel": "คุณแน่ใจหรือว่าจะลบห้องนี้?",
+        "leaveGroupLabel": "แน่ใจไหมว่าต้องการออกจากกลุ่มนี้?",
+        "deleteGroupLabel": "การดำเนินการนี้จะส่งผลต่อสมาชิกกลุ่มทั้งหมดและไม่สามารถยกเลิกได้ คุณแน่ใจหรือไม่ว่าต้องการลบกลุ่มนี้?",
+        "deleteGroupMeetingOngoingLabel": "ขณะนี้มีการประชุมที่กำลังดำเนินการอยู่ การลบกลุ่มจะทำให้การประชุมสิ้นสุดลงโดยไม่มีการแจ้งเตือนใด ๆ",
+        "muteForAllDescription": "เมื่อปิดเสียงผู้ใช้ ผู้เข้าร่วมทั้งหมดจะไม่ได้ยินเสียงผู้ใช้อีกต่อไป เฉพาะผู้ใช้ที่ถูกปิดเสียงเท่านั้นที่จะสามารถเปิดเสียงได้ ดำเนินการ?",
+        "deleteGroup": "ลบกลุ่ม",
+        "leaveRoom": "ออกจากห้อง"
     },
     "participantsList": {
         "closeSearch": "ปิดการค้นหา",
-        "moreMembersAccordionTitle": "สมาชิก"
+        "moreMembersAccordionTitle": "สมาชิก",
+        "noMatch": {
+            "all": "ไม่มีผู้ใช้ที่ตรงกับการค้นหานี้ในแชทที่มีอยู่หรือในบริษัทของคุณ",
+            "chatList": "ไม่มีผู้ใช้ที่ตรงกับการค้นหานี้ในแชทที่มีอยู่ของคุณ"
+        },
+        "searchMembers": "ค้นหาสมาชิก",
+        "searchParticipants": "ค้นหาผู้เข้าร่วม",
+        "creationList": {
+            "title": "สร้างแชทใหม่กับ:",
+            "searchFailure": "ดูเหมือนว่าจะเกิดปัญหากับการค้นหาของคุณ โปรดลองใหม่อีกครั้ง"
+        },
+        "oneMemberAccordionTitle": "สมาชิกคนหนึ่ง"
     },
     "chat": "แชท",
     "external": {
@@ -187,18 +310,55 @@
     },
     "meeting": {
         "newMeetingNotification": {
-            "sendMessage": "ส่งข้อความ"
+            "sendMessage": "ส่งข้อความ",
+            "writeAMessageToSendIt": "เขียนข้อความเพื่อส่ง",
+            "userIsInvitingYou": "<strong>{{name}}</strong> กำลังเชิญคุณ",
+            "sendAQuickMessage": "ส่งข้อความด่วน"
         },
         "interactions": {
             "cameraDisabled": "ปิดใช้งานกล้องถ่ายรูป",
             "cameraEnabled": "เปิดใช้งานกล้องถ่ายรูป",
             "enableCamera": "เปิดกล้อง",
             "enableMicrophone": "เปิดไมโครโฟน",
-            "microphoneEnabled": "เปิดใช้งานไมโครโฟน"
+            "microphoneEnabled": "เปิดใช้งานไมโครโฟน",
+            "playMic": "เริ่มการทดสอบไมโครโฟน",
+            "gridView": "มุมมองแบบกริด",
+            "title": {
+                "devices": "อุปกรณ์",
+                "videoEffect": "เอฟเฟกต์วิดีโอ"
+            },
+            "option": {
+                "removeBlur": "ลบเอฟเฟกต์เบลอ",
+                "applyBlur": "ใช้เอฟเฟกต์เบลอ"
+            },
+            "selectedDeviceTooltip": "อุปกรณ์ที่เลือก",
+            "microphoneDisabled": "ปิดใช้งานไมโครโฟนแล้ว",
+            "enableScreen": "เปิดใช้งานการแชร์หน้าจอ",
+            "leaveMeeting": "ออกจากการประชุม",
+            "userHint": "เปิดกล้องเพื่อเลือกเอฟเฟ็กต์วิดีโอ",
+            "cinemaView": "มุมมองแบบภาพยนตร์",
+            "disableCamera": "ปิดใช้งานกล้อง",
+            "disableFullScreen": "ปิดใช้งานเต็มหน้าจอ",
+            "disableMicrophone": "ปิดใช้งานไมโครโฟน",
+            "disableScreen": "ปิดใช้งานการแชร์หน้าจอ",
+            "enableFullScreen": "เปิดใช้งานเต็มหน้าจอ",
+            "stopMic": "หยุดการทดสอบไมโครโฟน",
+            "leaveConfirmation": "ออกจากการประชุม?"
         },
         "joinMeeting": "เข้าร่วมการประชุม",
         "virtual": {
-            "deleteTooltip": "ลบห้องเสมือนจริง"
+            "deleteTooltip": "ลบห้องเสมือนจริง",
+            "creationInput": "ชื่อห้องเสมือนจริงใหม่*",
+            "nameRequiredTooltip": "ต้องระบุชื่อห้องเสมือนจริง",
+            "createTooltip": "สร้างห้องเสมือนจริงใหม่",
+            "invalidNameTooltip": "ชื่อไม่ถูกต้อง",
+            "copyLinkSnackbar": "คัดลอกลิงก์ของห้องเสมือนจริงแล้ว",
+            "deleteSnackbar": "ลบห้องเสมือนจริงเรียบร้อยแล้ว",
+            "deleteModalTitle": "ลบห้องเสมือนจริง {{roomName}}",
+            "emptyState": "ห้องเสมือนจริงที่คุณสร้างจะแสดงที่นี่",
+            "deleteModalDescription": "คุณกำลังลบห้องเสมือนจริงนี้ หากมีการประชุมที่ยังดำเนินอยู่ มันจะถูกขัดจังหวะและจะไม่มีใครสามารถเข้าถึงได้อีกต่อไป ดำเนินการ?",
+            "copyLinkTooltip": "คัดลอกลิงก์ของห้องเสมือนจริง",
+            "buttonLabel": "ห้องเสมือนจริงของคุณ"
         },
         "sidebar": {
             "waitingCaption": "กำลังรอเข้า",
@@ -208,31 +368,116 @@
             },
             "recording": {
                 "title": "กำลังบันทึก",
-                "description": "การบันทึกจะถูกเก็บบันทึกไว้ในพื้นที่ไฟล์ของผู้ดูแลที่ทำการหยุดการบันทึก"
-            }
+                "description": "การบันทึกจะถูกเก็บบันทึกไว้ในพื้นที่ Files ของผู้ดูแลที่ทำการหยุดการบันทึก",
+                "action": {
+                    "start": "เริ่มการบันทึก",
+                    "stop": "หยุดการบันทึก"
+                },
+                "additionalDescription": "หากมีข้อผิดพลาดเกิดขึ้น การบันทึกจะถูกบันทึกไว้ในพื้นที่ Files ของผู้ดูแลที่เป็นผู้เริ่มบันทึก",
+                "moderatorInfo": "ได้เริ่มต้นการบันทึกแล้ว"
+            },
+            "waitingList": "รายการที่กำลังรอ"
         },
         "snackbar": {
             "waitingInfo": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
         },
         "browserNotification": {
-            "waitingTitle": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
+            "waitingTitle": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง",
+            "waitingMessage": "ผู้ใช้งานใหม่กำลังรอเข้าร่วมการประชุม"
         },
         "waitingRoom": {
-            "hangUp": "วางสาย"
+            "hangUp": "วางสาย",
+            "readyHint": "คุณจะเข้าสู่การประชุมในอีกสักครู่",
+            "nextStep": "ผู้ดูแลจะให้คุณเข้าร่วมการประชุมโดยเร็วที่สุด",
+            "ready": "พร้อมเข้าร่วมแล้ว",
+            "welcomeHint": "คลิกที่ \"พร้อมเข้าร่วม\" เพื่อเข้าสู่การประชุม",
+            "welcomeCaption": "เมื่อคุณพร้อมแล้วก็ทำตัวตามสบาย",
+            "readyCaption": "ทุกอย่างพร้อมแล้ว! ทำตัวตามสบาย",
+            "title": "คุณต้องการเข้าร่วมการประชุม {{meetingName}} อย่างไร?",
+            "setInputs": "ตั้งค่าอุปกรณ์อินพุตของคุณโดยเลือกจากเมนูแบบเลื่อนลง",
+            "userIsReady": "คุณพร้อมแล้ว!"
         },
         "recordingHint": "กำลังบันทึกการประชุมนี้อยู่",
         "recordingStart": {
-            "failureSnackbar": "ไม่สามารถเริ่มการลงทะเบียนได้ โปรดติดต่อผู้ดูแลระบบของคุณ"
+            "failureSnackbar": "ไม่สามารถเริ่มการลงทะเบียนได้ โปรดติดต่อผู้ดูแลระบบของคุณ",
+            "successSnackbar": {
+                "participants": "{{userName}} เริ่มลงทะเบียนการประชุมครั้งนี้",
+                "starter": "คุณได้เริ่มลงทะเบียนการประชุมนี้แล้ว"
+            }
         },
         "recordingModal": {
             "title": "หยุดการบันทึก",
             "description": "คุณจะหยุดการบันทึก คุณสามารถเริ่มต้นใหม่ได้ตลอดเวลา",
-            "inputLabel": "ชื่อการบันทึก"
-        }
+            "inputLabel": "ชื่อการบันทึก",
+            "confirmationAction": "หยุด",
+            "caption": "การบันทึกจะถูกบันทึกไว้ในโฟลเดอร์ {{folderName}} บน Files ไปที่การตั้งค่า > Chats > การบันทึก เพื่อเปลี่ยนโฟลเดอร์ปลายทาง",
+            "requiredNameError": "จำเป็นต้องระบุชื่อไฟล์การบันทึก",
+            "exceededCharsError": "ชื่อไฟล์การบันทึกต้องมีความยาวไม่เกิน 128 ตัวอักษร"
+        },
+        "restartMeeting": "เริ่มต้นการประชุมใหม่อีกครั้ง",
+        "infoPage": {
+            "title": {
+                "notAuthenticatedUser": "คุณไม่ได้รับการรับรองสิทธิ์",
+                "meetingNotFound": "ไม่มีการประชุมที่คุณกำลังมองหา",
+                "rejected": "สิทธิการเข้าถึงของคุณถูกปฏิเสธ",
+                "hangUp": "คุณออกจากห้องคัดกรอง!"
+            },
+            "slogan": {
+                "rejected": "ไว้คราวหน้า",
+                "meetingNotFound": "ลองในภายหลัง",
+                "notAuthenticatedUser": "เข้าสู่ระบบเพื่อเข้าถึงการประชุม",
+                "hangUp": "ไว้คราวหน้า"
+            },
+            "description": {
+                "hangUp": "เราหวังว่าคุณจะมีส่วนร่วมในการประชุมครั้งต่อไป",
+                "meetingNotFound": "โปรดตรวจสอบลิงก์การประชุมและลองใหม่อีกครั้ง",
+                "rejected": "ผู้ดูแลได้ตัดสินใจปฏิเสธการเข้าถึงการประชุมของคุณ",
+                "notAuthenticatedUser": "คุณไม่สามารถเข้าร่วมการประชุมได้หากบัญชีของคุณไม่ได้รับการรับรองสิทธิ์"
+            }
+        },
+        "activeMeetingTooltip": "มีการประชุมที่กำลังดำเนินอยู่สำหรับการแชทนี้",
+        "collapseChat": "ยุบแชท",
+        "continueActiveSession": "ดำเนินการประชุมต่อในหน้าต่างใหม่",
+        "expandChat": "ขยายการแชท",
+        "extendChat": "ขยายการแชท",
+        "noTwoActiveSession": "เซสชันที่ใช้งานอยู่สองเซสชันของการประชุมเดียวกันไม่สามารถอยู่ร่วมกันได้",
+        "ongoingGroupMeetingTooltip": "คุณได้เข้าร่วมการประชุมนี้แล้ว",
+        "openedInAnotherWindow": "การประชุมนี้เปิดอยู่แล้วในหน้าต่างอื่น",
+        "startMeeting": "เริ่มการประชุม",
+        "presentActiveSession": "มีเซสชั่นอื่นที่ใช้งานอยู่",
+        "waitingParticipants": "กำลังรอให้ผู้เข้าร่วมเข้าร่วม…",
+        "recordingStop": {
+            "successSnackbar": {
+                "participants": "{{userName}} หยุดการลงทะเบียนการประชุมนี้",
+                "stopper": "คุณจะพบ {{recordingName}} ใน {{folderName}} ทันทีที่พร้อมใช้งาน"
+            },
+            "failureSnackbar": "ไม่สามารถหยุดการลงทะเบียนได้ โปรดติดต่อผู้ดูแลระบบของคุณ"
+        },
+        "durationTooltip": "ระยะเวลาการประชุม",
+        "expandParticipantsListTooltip": "ขยายรายชื่อผู้เข้าร่วม",
+        "noMoreActiveSession": "ไม่สามารถมีเซสชันที่ใช้งานอยู่มากกว่าหนึ่งเซสชันในการประชุมเดียวกันได้",
+        "setInputDescription": "ตั้งค่าอุปกรณ์อินพุตของคุณโดยเลือกจากเมนูแบบเลื่อนลง",
+        "startModal": {
+            "audioAndVideoLoading": "กำลังโหลดเนื้อหา",
+            "enterOneToOneMeetingTitle": "เข้าร่วมการประชุมกับ {{meetingTitle}}",
+            "enterRoomMeetingTitle": "เข้าร่วมการประชุม {{meetingTitle}}"
+        },
+        "participantsList": {
+            "title_other": "ผู้เข้าร่วมการประชุม {{count}} คน"
+        },
+        "tooltip": {
+            "activeSessionTooltip": "คุณมีเซสชั่นที่ใช้งานอยู่ในการประชุมนี้"
+        },
+        "ongoingOneToOneMeetingTooltip": "คุณมีการประชุมที่ใช้งานอยู่กับ {{name}} อยู่แล้ว",
+        "collapseParticipantsMeetingTooltip": "ยุบรายชื่อผู้เข้าร่วม",
+        "joinMeetingDescription": "คุณต้องการเข้าร่วมการประชุมนี้อย่างไร?",
+        "minimizeChat": "ย่อขนาดแชทให้เล็กที่สุด",
+        "rejoinMeeting": "กลับเข้าร่วมการประชุมอีกครั้ง"
     },
     "meetings": {
         "interactions": {
-            "yourCamIsDisabled": "กล้องของคุณปิดอยู่"
+            "yourCamIsDisabled": "กล้องของคุณปิดอยู่",
+            "yourMicIsDisabled": "ไมโครโฟนของคุณปิดอยู่"
         }
     },
     "notification": {
@@ -262,5 +507,36 @@
         "filterTooltip": "รายการตัวกรอง",
         "label": "พิมพ์เพื่อกรองรายการ",
         "closeTooltip": "ปิดตัวกรอง"
-    }
+    },
+    "configurationMessages": {
+        "member": {
+            "roomNameChanged": "{{name}} เปลี่ยนชื่อของกลุ่มนี้เป็น \"<i>{{roomName}}</i>\"",
+            "roomPictureUpdated": "{{name}} เปลี่ยนรูปภาพของ {{roomName}}",
+            "roomTopicChanged": "{{name}} เปลี่ยนหัวข้อของ {{roomName}} ใน \"<i>{{topicName}}</i>\"",
+            "roomPictureDeleted": "{{name}} คืนค่ารูปภาพเริ่มต้นของ {{roomName}}",
+            "roomTopicRemoved": "{{name}} ลบหัวข้อของ {{roomName}}"
+        },
+        "user": {
+            "roomTopicRemoved": "คุณได้ลบหัวข้อของ {{roomName}} แล้ว",
+            "roomPictureDeleted": "คุณได้คืนค่ารูปภาพเริ่มต้นของ {{roomName}} แล้ว",
+            "roomPictureUpdated": "คุณเปลี่ยนรูปภาพของ {{roomName}}",
+            "roomTopicChanged": "คุณเปลี่ยนหัวข้อของ {{roomName}} ใน \"<i>{{topicName}}</i>\"",
+            "roomNameChanged": "คุณเปลี่ยนชื่อของกลุ่มนี้ใน \"<i>{{roomName}}</i>\""
+        }
+    },
+    "welcomePage": {
+        "nameInput": "พิมพ์ชื่อของคุณที่นี่",
+        "description": "คุณอยากจะแนะนำตัวเองว่าอย่างไร?",
+        "loginTitle": "คุณมีบัญชีหรือไม่?",
+        "blob": "เฮ้ คนแปลกหน้า!",
+        "joinButton": "เข้าร่วมการประชุม",
+        "journeyDescription": "คุณจะถูกเปลี่ยนเส้นทางไปยังห้องคัดกรอง ซึ่งผู้ดูแลจะอนุมัติการเข้าถึงของคุณ",
+        "loginButton": "ไปที่หน้าเข้าสู่ระบบของคุณ",
+        "loginDescription": "เลือกได้อย่างอิสระว่าจะไปที่หน้าเข้าสู่ระบบหรือเข้าถึงการประชุมด้วยชื่อของคุณ"
+    },
+    "interactions": {
+        "micDevice": "อุปกรณ์ไมโครโฟน",
+        "camDevice": "อุปกรณ์กล้อง"
+    },
+    "titlePlaceholder": "ชื่อกลุ่มของคุณ"
 }
