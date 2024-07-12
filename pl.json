@@ -276,7 +276,7 @@
                 "applyBlur": "Zastosuj efekt rozmazania"
             },
             "userHint": "Włącz kamerę, aby wybrać efekt wideo",
-            "selectedDeviceTooltip": "Wybrano to urządzenie"
+            "selectedDeviceTooltip": "Wybrane urządzenie"
         },
         "joinMeeting": "Dołącz do spotkania",
         "newMeetingNotification": {
