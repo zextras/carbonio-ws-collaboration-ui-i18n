@@ -80,13 +80,13 @@
         "editYourMessage": "Редактировать сообщение",
         "forward": "Переслать",
         "forwarded": "переадресовано",
-        "leave": "Покинуть",
+        "leave": "Выйти",
         "muteNotifications": "Отключить уведомления",
         "preview": "Предварительный просмотр",
         "removeUser": "Удалить",
         "reply": "Ответить",
         "replyToSomeone": "Ответить",
-        "replyToYourself": "Ответить",
+        "replyToYourself": "Ответить себе",
         "undo": "Отменить",
         "addMoreAttachments": "Добавить {{counter}} вложений",
         "addNewMembersTo": "Добавить новых участников в {{roomName}}",
@@ -94,7 +94,7 @@
         "editRoom": "Редактировать {{roomName}}",
         "editDetails": "Редактировать",
         "newChat": "Новый чат",
-        "scrollToBottom": "Прокрутите вниз",
+        "scrollToBottom": "Прокрутить вниз",
         "decline": "Отклонить",
         "enter": "Войти",
         "joinMeeting": "Присоединиться к встрече",
@@ -276,7 +276,7 @@
         "youAreAlreadyMuted": "У вас отключен звук"
     },
     "affiliationMessages": {
-        "groupCreated": "{{roomName}} создана!",
+        "groupCreated": "{{roomName}} создан!",
         "oneToOneCreated": "Создан новый чат!",
         "member": {
             "Removed": "{{userName}} больше не является участником {{roomName}}.",
