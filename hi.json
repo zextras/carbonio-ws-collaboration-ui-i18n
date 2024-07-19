@@ -80,7 +80,11 @@
         "enter": "एंटर करें",
         "joinMeeting": "मीटिंग में शामिल हों",
         "ok": "ठीक है",
-        "cancel": "कैंसल करें"
+        "cancel": "कैंसल करें",
+        "understood": "समझा",
+        "declineAll": "सभी अस्वीकार करें",
+        "deleteForAll": "सभी के लिए हटाएं",
+        "retry": "पुन: प्रयास"
     },
     "conversation": {
         "chooseConversationDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
@@ -92,7 +96,17 @@
         "mockCreateChatTitle": "बनाएँ बटन का उपयोग करके एक नई चैट बनाएं",
         "newMessages": "नए मैसेज",
         "selectionMode": {
-            "exit": "सिलेक्शन मोड से बाहर जाएँ"
+            "exit": "सिलेक्शन मोड से बाहर जाएँ",
+            "multipleForward": "{{numberOfMessages}} संदेश अग्रेषित करें",
+            "maxSelected": "आप एक बार में अग्रेषित किए जा सकने वाले संदेशों की अधिकतम संख्या तक पहुँच गए हैं। अपना विकल्प बदलने के लिए किसी संदेश का चयन रद्द करें।"
+        },
+        "longCaption": {
+            "modal": {
+                "title": "संदेश कैप्शन के लिए बहुत लंबा है",
+                "description": "यह टेक्स्ट बहुत लंबा है और इसका उपयोग अटैचमेंट कैप्शन के रूप में नहीं किया जा सकता।",
+                "additionalDetails": "यदि आप ऑपरेशन के साथ आगे बढ़ते हैं, तो मूल पाठ से अतिरिक्त हटा दिया जाएगा। आगे बढ़ना?",
+                "action": "फिर भी संलग्न करें"
+            }
         }
     },
     "conversationInfo": {
@@ -123,7 +137,13 @@
         "historyCleared": "हिस्ट्री साफ हो गई!",
         "notificationsActivatedForThisChat": "इस चैट के लिए अधिसूचनाएं चालू हो गईं",
         "notificationsMutedForThisChat": "इस चैट के लिए नोटिफ़िकेशन की आवाज़ बंद हो गई हैं",
-        "messageCopied": "मैसेज कॉपी किया गया"
+        "messageCopied": "मैसेज कॉपी किया गया",
+        "networkProblem": {
+            "websocket": "WEBSOCKET से कनेक्ट करते समय कुछ गड़बड़ी हुई",
+            "wsc": "WSC से कनेक्ट करते समय कुछ गड़बड़ी हुई",
+            "xmpp": "XMPP से कनेक्ट करते समय कुछ गड़बड़ी हुई"
+        },
+        "networkProblems": "इस मॉड्यूल का उपयोग करने में समस्याएँ हो सकती हैं, कृपया पृष्ठ को रीफ्रेश करने का प्रयास करें।"
     },
     "message": {
         "deletedMessage": "डिलीट किया मैसेज",
@@ -216,7 +236,15 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} बनाया गया!",
-        "oneToOneCreated": "नई चैट बनाई गई!"
+        "oneToOneCreated": "नई चैट बनाई गई!",
+        "member": {
+            "Removed": "{{userName}} अब {{roomName}} का सदस्य नहीं है।",
+            "Added": "{{userName}} को {{roomName}} में जोड़ दिया गया है।"
+        },
+        "user": {
+            "Removed": "अब आप {{roomName}} के सदस्य नहीं हैं।",
+            "Added": "आपको {{roomName}} में जोड़ दिया गया है।"
+        }
     },
     "conversationFilter": {
         "closeTooltip": "फ़िल्टर बंद करें",
@@ -231,7 +259,16 @@
             "cameraDisabled": "कैमरा बंद",
             "enableCamera": "कैमरा चालू करें",
             "enableMicrophone": "माइक्रोफोन चालू करें",
-            "microphoneEnabled": "माइक्रोफोन चालू"
+            "microphoneEnabled": "माइक्रोफोन चालू",
+            "enableFullScreen": "पूर्ण स्क्रीन सक्षम करें",
+            "disableScreen": "स्क्रीन शेयरिंग अक्षम करें",
+            "cinemaView": "सिनेमा दृश्य",
+            "disableCamera": "कैमरा अक्षम करें",
+            "disableFullScreen": "फुल स्क्रीन निष्क्रिय करें",
+            "disableMicrophone": "माइक्रोफ़ोन बंद करें",
+            "gridView": "ग्रिड दृश्य",
+            "leaveMeeting": "मीटिंग छोड़ें",
+            "enableScreen": "स्क्रीन शेयर सक्षम करें"
         },
         "joinMeeting": "मीटिंग में शामिल हों",
         "newMeetingNotification": {
@@ -249,17 +286,34 @@
             },
             "recording": {
                 "title": "रिकॉर्डिंग",
-                "description": "रिकॉर्डिंग को उस मॉडरेटर के Files स्पेस में सेव किया जाएगा जिसने इसे रोका था।"
-            }
+                "description": "रिकॉर्डिंग को उस मॉडरेटर के Files स्पेस में सेव किया जाएगा जिसने इसे रोका था।",
+                "action": {
+                    "stop": "रिकॉर्डिंग बंद",
+                    "start": "रिकॉर्डिंग शुरू"
+                },
+                "additionalDescription": "यदि कुछ गलत हो जाता है, तो रिकॉर्डिंग उसे शुरू करने वाले मॉडरेटर के फ़ाइल स्थान में सेव कर दी जाएगी।",
+                "moderatorInfo": "रिकॉर्डिंग शुरू कर दी है"
+            },
+            "waitingList": "प्रतीक्षा सूची"
         },
         "snackbar": {
             "waitingInfo": "ऐसा लग रहा है कि Waiting Room में कोई है"
         },
         "browserNotification": {
-            "waitingTitle": "ऐसा लग रहा है कि Waiting Room में कोई है"
+            "waitingTitle": "ऐसा लग रहा है कि Waiting Room में कोई है",
+            "waitingMessage": "नया यूजर मीटिंग में प्रवेश करने के लिए प्रतीक्षा कर रहा है"
         },
         "waitingRoom": {
-            "hangUp": "हैंग अप करें"
+            "hangUp": "हैंग अप करें",
+            "welcomeHint": "बैठक में भाग लेने के लिए “भाग लेने के लिए तैयार” पर क्लिक करें",
+            "readyHint": "आप कुछ ही क्षणों में बैठक में प्रवेश करेंगे",
+            "nextStep": "मॉडरेटर आपको यथाशीघ्र मीटिंग में शामिल होने देगा।",
+            "userIsReady": "आप तैयार हैं!",
+            "title": "आप {{meetingName}} मीटिंग में कैसे शामिल होना चाहते हैं?",
+            "setInputs": "ड्रॉपडाउन मेनू से चुनकर अपने इनपुट डिवाइस सेट करें",
+            "readyCaption": "सब कुछ सही है!आप आराम फरमाएं",
+            "welcomeCaption": "जब आप तैयार हों, तो आराम प्राप्त करे",
+            "ready": "भाग लेने के लिए तैयार"
         },
         "recordingHint": "मीटिंग रिकॉर्ड हो रही है",
         "recordingModal": {
@@ -269,7 +323,14 @@
         },
         "recordingStart": {
             "failureSnackbar": "रजिस्ट्रेशन फिर से शुरू करना संभव नहीं है, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।"
-        }
+        },
+        "collapseParticipantsMeetingTooltip": "प्रतिभागियों की सूची संक्षिप्त करें",
+        "activeMeetingTooltip": "इस चैट के लिए एक सक्रिय मीटिंग है",
+        "collapseChat": "चैट संक्षिप्त करें",
+        "continueActiveSession": "नई विंडो में मीटिंग जारी रखें",
+        "expandParticipantsListTooltip": "प्रतिभागियों की सूची विस्तृत करें",
+        "extendChat": "चैट बढ़ाएँ",
+        "expandChat": "चैट का विस्तार करें"
     },
     "external": {
         "nobodyInTheRoom": "ऐसा लगता है इस Room में कोई नहीं है",
@@ -289,5 +350,6 @@
     "tryLater": "बाद में कोशिश करें",
     "snackbar": {
         "mutedByModerator": "मॉडरेटर ने आपका माइक बंद कर दिया है, बोलने के लिए अपना माइक चालू करें"
-    }
+    },
+    "keepInTouchWithColleagues": "अपने सहकर्मियों के साथ संपर्क बनाए रखें या अपने समूह के मीटिंग रूम में शामिल हों"
 }
