@@ -268,15 +268,21 @@
             "disableMicrophone": "माइक्रोफ़ोन बंद करें",
             "gridView": "ग्रिड दृश्य",
             "leaveMeeting": "मीटिंग छोड़ें",
-            "enableScreen": "स्क्रीन शेयर सक्षम करें"
+            "enableScreen": "स्क्रीन शेयर सक्षम करें",
+            "playMic": "माइक्रोफ़ोन परीक्षण प्रारंभ करें",
+            "microphoneDisabled": "माइक्रोफोन को निष्क्रिय कर दिया गया"
         },
         "joinMeeting": "मीटिंग में शामिल हों",
         "newMeetingNotification": {
             "sendMessage": "मैसेज भेजें",
-            "writeAMessageToSendIt": "भेजने के लिए कोई मैसेज लिखें"
+            "writeAMessageToSendIt": "भेजने के लिए कोई मैसेज लिखें",
+            "userIsInvitingYou": "<strong>{{name}}</strong> आपको आमंत्रित कर रहा है",
+            "sendAQuickMessage": "एक त्वरित संदेश भेजें"
         },
         "virtual": {
-            "deleteTooltip": "Virtual Room डिलीट करें"
+            "deleteTooltip": "Virtual Room डिलीट करें",
+            "copyLinkSnackbar": "वर्चुअल रूम का लिंक कॉपी किया गया",
+            "deleteSnackbar": "वर्चुअल रूम सफलतापूर्वक हटा दिया गया"
         },
         "sidebar": {
             "waitingCaption": "अंदर आने के इंतज़ार में",
@@ -330,7 +336,22 @@
         "continueActiveSession": "नई विंडो में मीटिंग जारी रखें",
         "expandParticipantsListTooltip": "प्रतिभागियों की सूची विस्तृत करें",
         "extendChat": "चैट बढ़ाएँ",
-        "expandChat": "चैट का विस्तार करें"
+        "expandChat": "चैट का विस्तार करें",
+        "minimizeChat": "चैट कम से कम करें",
+        "presentActiveSession": "एक और सक्रिय सत्र है",
+        "rejoinMeeting": "मीटिंग में पुनः शामिल हों",
+        "setInputDescription": "अपने इनपुट डिवाइस को ड्रॉपडाउन मेनू से चुनकर सेट करें",
+        "ongoingOneToOneMeetingTooltip": "आपकी {{name}} के साथ पहले से ही एक सक्रिय मीटिंग है",
+        "restartMeeting": "मीटिंग पुनः प्रारंभ करें",
+        "ongoingGroupMeetingTooltip": "आप पहले से ही इस बैठक में भाग ले रहे हैं",
+        "openedInAnotherWindow": "यह मीटिंग पहले से ही दूसरी विंडो में खुली है",
+        "noMoreActiveSession": "एक ही बैठक का एक से अधिक सक्रिय सत्र नहीं हो सकता",
+        "noTwoActiveSession": "एक ही बैठक के दो सक्रिय सत्र एक साथ नहीं रह सकते",
+        "joinMeetingDescription": "आप इस मीटिंग में कैसे शामिल होना चाहते हैं?",
+        "participantsList": {
+            "title_one": "एक मीटिंग का प्रतिभागी",
+            "title_other": "बैठक के प्रतिभागियों की {{count}}"
+        }
     },
     "external": {
         "nobodyInTheRoom": "ऐसा लगता है इस Room में कोई नहीं है",
