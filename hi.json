@@ -270,7 +270,9 @@
             "leaveMeeting": "मीटिंग छोड़ें",
             "enableScreen": "स्क्रीन शेयर सक्षम करें",
             "playMic": "माइक्रोफ़ोन परीक्षण प्रारंभ करें",
-            "microphoneDisabled": "माइक्रोफोन को निष्क्रिय कर दिया गया"
+            "microphoneDisabled": "माइक्रोफोन को निष्क्रिय कर दिया गया",
+            "leaveConfirmation": "मीटिंग छोड़ें?",
+            "stopMic": "माइक्रोफ़ोन परीक्षण बंद करें"
         },
         "joinMeeting": "मीटिंग में शामिल हों",
         "newMeetingNotification": {
@@ -282,7 +284,16 @@
         "virtual": {
             "deleteTooltip": "Virtual Room डिलीट करें",
             "copyLinkSnackbar": "वर्चुअल रूम का लिंक कॉपी किया गया",
-            "deleteSnackbar": "वर्चुअल रूम सफलतापूर्वक हटा दिया गया"
+            "deleteSnackbar": "वर्चुअल रूम सफलतापूर्वक हटा दिया गया",
+            "buttonLabel": "आपके वर्चुअल रूम",
+            "invalidNameTooltip": "अमान्य नाम",
+            "copyLinkTooltip": "वर्चुअल रूम का लिंक कॉपी करें",
+            "nameRequiredTooltip": "वर्चुअल रूम का नाम आवश्यक है",
+            "createTooltip": "नया वर्चुअल रूम बनाएं",
+            "emptyState": "आपके द्वारा बनाया गया वर्चुअल रूम यहां दिखाया जाएगा।",
+            "deleteModalDescription": "आप इस वर्चुअल रूम को हटा रहे हैं, यदि इसमें सक्रिय बैठकें हैं, तो यह बाधित हो जाएगी और कोई भी इसे एक्सेस नहीं कर पाएगा। आगे बढ़ना?",
+            "creationInput": "नए वर्चुअल रूम का नाम*",
+            "deleteModalTitle": "{{roomName}} वर्चुअल रूम हटाएं"
         },
         "sidebar": {
             "waitingCaption": "अंदर आने के इंतज़ार में",
@@ -328,7 +339,11 @@
             "inputLabel": "रिकॉर्डिंग नाम"
         },
         "recordingStart": {
-            "failureSnackbar": "रजिस्ट्रेशन फिर से शुरू करना संभव नहीं है, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।"
+            "failureSnackbar": "रजिस्ट्रेशन फिर से शुरू करना संभव नहीं है, कृपया अपने सिस्टम एडमिनिस्ट्रेटर से संपर्क करें।",
+            "successSnackbar": {
+                "participants": "{{userName}} ने इस मीटिंग का पंजीकरण प्रारंभ किया",
+                "starter": "आपने इस मीटिंग का पंजीकरण प्रारंभ कर दिया है"
+            }
         },
         "collapseParticipantsMeetingTooltip": "प्रतिभागियों की सूची संक्षिप्त करें",
         "activeMeetingTooltip": "इस चैट के लिए एक सक्रिय मीटिंग है",
@@ -351,6 +366,36 @@
         "participantsList": {
             "title_one": "एक मीटिंग का प्रतिभागी",
             "title_other": "बैठक के प्रतिभागियों की {{count}}"
+        },
+        "startMeeting": "मिलना शुरू करें",
+        "startModal": {
+            "audioAndVideoLoading": "संपत्तियां लोड हो रही हैं",
+            "enterOneToOneMeetingTitle": "{{meetingTitle}} के साथ मीटिंग में शामिल हों",
+            "enterRoomMeetingTitle": "{{meetingTitle}} मीटिंग में भाग लें"
+        },
+        "tooltip": {
+            "activeSessionTooltip": "इस बैठक में आपका एक सक्रिय सत्र है"
+        },
+        "waitingParticipants": "प्रतिभागियों के शामिल होने की प्रतीक्षा की जा रही है…",
+        "infoPage": {
+            "title": {
+                "hangUp": "आप प्रतीक्षा कक्ष से बाहर चले गए!",
+                "notAuthenticatedUser": "आप प्रमाणित नहीं हैं",
+                "meetingNotFound": "आप जिस मीटिंग की तलाश कर रहे हैं वह मौजूद नहीं है",
+                "rejected": "आपकी पहुंच अस्वीकृत कर दी गई है"
+            },
+            "slogan": {
+                "hangUp": "शायद अगली बार",
+                "rejected": "शायद अगली बार",
+                "meetingNotFound": "बाद में प्रयास करें",
+                "notAuthenticatedUser": "बैठक तक पहुंचने के लिए लॉग इन करें"
+            },
+            "description": {
+                "meetingNotFound": "कृपया मीटिंग लिंक जांचें और पुनः प्रयास करें",
+                "notAuthenticatedUser": "यदि आप अपने खाते से प्रमाणित नहीं हैं तो आप मीटिंग में शामिल नहीं हो सकते",
+                "rejected": "मॉडरेटर ने बैठक में आपकी पहुंच को अस्वीकार करने का निर्णय लिया है",
+                "hangUp": "हम आपको भविष्य की बैठकों में भाग लेते देखने के लिए उत्सुक हैं"
+            }
         }
     },
     "external": {
