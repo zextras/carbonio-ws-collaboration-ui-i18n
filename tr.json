@@ -34,7 +34,9 @@
         "declineAll": "Tümünü reddet",
         "understood": "Anlaşıldı",
         "ok": "Tamam",
-        "cancel": "İptal"
+        "cancel": "İptal",
+        "deleteForAll": "Tümü için sil",
+        "retry": "Yeniden dene"
     },
     "attachments": {
         "addFromLocal": "Lokalden ekle",
@@ -243,7 +245,10 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} oluşturuldu!",
-        "oneToOneCreated": "Yeni Sohbet oluşturuldu!"
+        "oneToOneCreated": "Yeni Sohbet oluşturuldu!",
+        "member": {
+            "Removed": "{{userName}} artık {{roomName}} üyesi değil."
+        }
     },
     "conversationFilter": {
         "closeTooltip": "Filtreyi Kapat",
