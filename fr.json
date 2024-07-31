@@ -331,7 +331,7 @@
     },
     "thanksForParticipating": "Merci pour votre participation",
     "external": {
-        "nobodyInTheRoom": "Il semble qu'il n'y ai personne dans cette salle",
+        "nobodyInTheRoom": "Il semble qu'il n'y ait personne dans cette salle",
         "roomIsEmpty": "Cette salle est vide"
     },
     "meeting": {
