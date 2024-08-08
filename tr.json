@@ -62,7 +62,16 @@
         "newMessages": "Yeni mesajlar",
         "selectionMode": {
             "exit": "Seçme modundan çık",
-            "multipleForward": "{{numberOfMessages}} mesaj ilet"
+            "multipleForward": "{{numberOfMessages}} mesaj ilet",
+            "maxSelected": "Bir kerede iletilebilecek maksimum ileti sayısına ulaştınız. Seçeneğinizi değiştirmek için bir mesajı kaldırın."
+        },
+        "longCaption": {
+            "modal": {
+                "action": "Yine de ekle",
+                "title": "Mesaj altyazı için çok uzun",
+                "additionalDetails": "İşleme devam ederseniz, fazlalık orijinal metinden kaldırılacak. Devam edilsin mi?",
+                "description": "Bu metin çok uzun ve ek alt yazısı olarak kullanılamaz."
+            }
         }
     },
     "conversationInfo": {
@@ -247,7 +256,12 @@
         "groupCreated": "{{roomName}} oluşturuldu!",
         "oneToOneCreated": "Yeni Sohbet oluşturuldu!",
         "member": {
-            "Removed": "{{userName}} artık {{roomName}} üyesi değil."
+            "Removed": "{{userName}} artık {{roomName}} üyesi değil.",
+            "Added": "{{userName}}, {{roomName}} odasına eklendi."
+        },
+        "user": {
+            "Added": "{{roomName}} odasına eklendiniz.",
+            "Removed": "Artık {{roomName}} üyesi değilsiniz."
         }
     },
     "conversationFilter": {
