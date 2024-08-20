@@ -326,7 +326,7 @@
     "chat": "Chat",
     "notification": {
         "meeting": {
-            "ended": "La réunion à pris fin"
+            "ended": "La réunion a pris fin"
         }
     },
     "thanksForParticipating": "Merci pour votre participation",
