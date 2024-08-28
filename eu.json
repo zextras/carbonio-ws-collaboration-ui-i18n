@@ -1,1 +1,8 @@
-{}
+{
+    "action": {
+        "ok": "Ados",
+        "reply": "Erantzun",
+        "forward": "Birbidali",
+        "preview": "Aurrebista"
+    }
+}
