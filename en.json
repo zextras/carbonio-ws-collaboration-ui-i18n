@@ -259,19 +259,22 @@
                 "hangUp": "You left the waiting room!",
                 "rejected": "You access has been refused",
                 "meetingNotFound": "The meeting you are looking for does not exist",
-                "notAuthenticatedUser": "You are not authenticated"
+                "notAuthenticatedUser": "You are not authenticated",
+                "invalidWaiting": "There are no moderators in the meeting"
             },
             "slogan": {
                 "hangUp": "Maybe next time",
                 "rejected": "Maybe next time",
-                "meetingNotFound": "try later",
-                "notAuthenticatedUser": "LOGIN TO ACCESS THE MEETING"
+                "meetingNotFound": "Try later",
+                "notAuthenticatedUser": "LOGIN TO ACCESS THE MEETING",
+                "invalidWaiting": "Try again later"
             },
             "description": {
                 "hangUp": "We look forward to seeing you participate in future meetings",
                 "rejected": "The moderators have decided to deny your access to the meeting",
                 "meetingNotFound": "Please check the meeting link and try again",
-                "notAuthenticatedUser": "You cannot join the meeting if you are not authenticated with your account"
+                "notAuthenticatedUser": "You cannot join the meeting if you are not authenticated with your account",
+                "invalidWaiting": "You must be approved by a moderator to join this meeting."
             }
         },
         "recordingHint": "This meeting is being recorded",
