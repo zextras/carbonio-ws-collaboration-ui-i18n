@@ -446,19 +446,22 @@
                 "hangUp": "Vous avez raccroché !",
                 "meetingNotFound": "La réunion que vous recherchez n'existe pas",
                 "notAuthenticatedUser": "Vous n'êtes pas authentifié",
-                "rejected": "Votre accès a été refusé"
+                "rejected": "Votre accès a été refusé",
+                "invalidWaiting": "Il n'y a pas de modérateur dans la réunion"
             },
             "slogan": {
                 "hangUp": "Peut-être la prochaine fois",
                 "meetingNotFound": "essayez plus tard",
                 "notAuthenticatedUser": "CONNEXION POUR ENTRER DANS LA RÉUNION",
-                "rejected": "Peut-être la prochaine fois"
+                "rejected": "Peut-être la prochaine fois",
+                "invalidWaiting": "Essayez plus tard"
             },
             "description": {
                 "hangUp": "Nous nous réjouissons de vous voir participer aux prochaines réunions",
                 "meetingNotFound": "Veuillez vérifier le lien de la réunion et réessayer",
                 "notAuthenticatedUser": "Vous ne pouvez pas participer à la réunion si vous n'êtes pas authentifié avec votre compte",
-                "rejected": "Le modérateur a décidé de ne pas vous autoriser dans cette réunion"
+                "rejected": "Le modérateur a décidé de ne pas vous autoriser dans cette réunion",
+                "invalidWaiting": "Vous devez avoir été accepté par un modérateur pour rejoindre cette réunion."
             }
         },
         "continueActiveSession": "Poursuivre la réunion dans la nouvelle fenêtre",
