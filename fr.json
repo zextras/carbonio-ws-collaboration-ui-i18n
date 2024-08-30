@@ -451,7 +451,7 @@
             },
             "slogan": {
                 "hangUp": "Peut-être la prochaine fois",
-                "meetingNotFound": "essayez plus tard",
+                "meetingNotFound": "Essayez plus tard",
                 "notAuthenticatedUser": "CONNEXION POUR ENTRER DANS LA RÉUNION",
                 "rejected": "Peut-être la prochaine fois",
                 "invalidWaiting": "Essayez plus tard"
