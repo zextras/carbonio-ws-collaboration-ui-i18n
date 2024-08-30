@@ -436,19 +436,22 @@
                 "hangUp": "Hai riattaccato!",
                 "rejected": "Magari un'altra volta",
                 "meetingNotFound": "Il meeting che stai cercando non esiste",
-                "notAuthenticatedUser": "Non sei autenticato"
+                "notAuthenticatedUser": "Non sei autenticato",
+                "invalidWaiting": "Non ci sono moderatori in questo meeting"
             },
             "slogan": {
                 "hangUp": "Magari un'altra volta",
                 "rejected": "Il tuo accesso è stato negato",
                 "meetingNotFound": "riprova più tardi",
-                "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE AL MEETING"
+                "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE AL MEETING",
+                "invalidWaiting": "Riprova più tardi"
             },
             "description": {
                 "rejected": "I moderatori hanno deciso di negarti l'accesso al meeting",
                 "hangUp": "Non vediamo l'ora di vederti partecipare ad altri meeting futuri",
                 "meetingNotFound": "Controlla il link del meeting e riprova",
-                "notAuthenticatedUser": "Non puoi partecipare al meeting se non sei autenticato con il tuo account"
+                "notAuthenticatedUser": "Non puoi partecipare al meeting se non sei autenticato con il tuo account",
+                "invalidWaiting": "Il tuo accesso al meeting dev'essere accettato da un moderatore."
             }
         },
         "continueActiveSession": "Continua il meeting nella nuova finestra",
