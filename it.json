@@ -186,7 +186,7 @@
         "newMessages": "Nuovi messaggi",
         "selectionMode": {
             "exit": "Esci dalla modalità selezione",
-            "maxSelected": "Hai raggiunto il numero massimo di messaggi che possono essere inoltrati contemporaneamente",
+            "maxSelected": "Hai raggiunto il numero massimo di messaggi che possono essere inoltrati contemporaneamente.",
             "multipleForward": "inoltra {{numberOfMessages}} messaggi"
         },
         "longCaption": {
@@ -442,7 +442,7 @@
             "slogan": {
                 "hangUp": "Magari un'altra volta",
                 "rejected": "Il tuo accesso è stato negato",
-                "meetingNotFound": "riprova più tardi",
+                "meetingNotFound": "Riprova più tardi",
                 "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE AL MEETING",
                 "invalidWaiting": "Riprova più tardi"
             },
