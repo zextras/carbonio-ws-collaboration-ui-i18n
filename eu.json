@@ -3,6 +3,9 @@
         "ok": "Ados",
         "reply": "Erantzun",
         "forward": "Birbidali",
-        "preview": "Aurrebista"
+        "preview": "Aurrebista",
+        "edit": "Editatu",
+        "undo": "Desegin",
+        "delete": "Ezabatu"
     }
 }
