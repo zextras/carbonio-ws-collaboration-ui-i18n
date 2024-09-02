@@ -368,20 +368,23 @@
             "slogan": {
                 "hangUp": "Może następnym razem",
                 "rejected": "Nie udzielono Ci wejścia",
-                "meetingNotFound": "spróbuj później",
-                "notAuthenticatedUser": "ZALOGUJ SIĘ, ABY UCZESTNICZYĆ W SPOTKANIU"
+                "meetingNotFound": "Spróbuj później",
+                "notAuthenticatedUser": "ZALOGUJ SIĘ, ABY UCZESTNICZYĆ W SPOTKANIU",
+                "invalidWaiting": "Spróbuj ponownie później"
             },
             "description": {
                 "rejected": "Moderatorzy zdecydowali się odrzucić Twoją prośbę o dołączenie do spotkania",
                 "hangUp": "Z niecierpliwością czekamy aż pojawisz się na kolejnych spotkaniach",
                 "meetingNotFound": "Sprawdź link do spotkania i spróbuj ponownie",
-                "notAuthenticatedUser": "Nie możesz dołączyć do spotkania jeśli nie jesteś zalogowany"
+                "notAuthenticatedUser": "Nie możesz dołączyć do spotkania jeśli nie jesteś zalogowany",
+                "invalidWaiting": "Aby dołączyć do tego spotkania, moderator musi Cię zaakceptować."
             },
             "title": {
                 "hangUp": "Opuściłeś poczekalnię!",
                 "rejected": "Może następnym razem",
                 "meetingNotFound": "Spotkanie, którego szukasz nie istnieje",
-                "notAuthenticatedUser": "Nie jesteś zalogowany"
+                "notAuthenticatedUser": "Nie jesteś zalogowany",
+                "invalidWaiting": "Na spotkaniu nie ma moderatorów"
             }
         },
         "recordingHint": "To spotkanie jest nagrywane",
@@ -518,7 +521,7 @@
         "camDevice": "Kamera"
     },
     "welcomePage": {
-        "journeyDescription": "Zostaniesz przekierowany do poczekalni, gdzie moderator zgodzi się na Twoje dołączenie.",
+        "journeyDescription": "Zostaniesz przekierowany do poczekalni, gdzie moderator zaakceptuje Twoje dołączenie.",
         "blob": "Witaj!",
         "nameInput": "Wpisz tutaj Twoje imię",
         "joinButton": "Dołącz do spotkania",
