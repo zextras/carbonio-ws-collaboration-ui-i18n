@@ -332,7 +332,7 @@
             "nameRequiredTooltip": "Sanal Oda'nın adı gereklidir",
             "copyLinkSnackbar": "Sanal Oda'nın bağlantısı kopyalandı",
             "deleteModalTitle": "{{roomName}} Sanal Odayı Sil",
-            "creationInput": "Yeni Sanal Oda'nın adı*",
+            "creationInput": "Yeni Sanal Oda'nın adı",
             "deleteModalDescription": "Bu Sanal Odayı siliyorsunuz, aktif toplantılar varsa kesintiye uğrayacak ve artık kimse erişemeyecek. Devam edilsin mi?"
         },
         "continueActiveSession": "Toplantıya yeni pencerede devam edin",
