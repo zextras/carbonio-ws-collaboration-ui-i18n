@@ -308,7 +308,7 @@
             "deleteModalDescription": "Usuwasz wirtualny pokój. Nikt nie będzie mógł uzyskać do niego dostępu. Jeśli trwają w nim spotkania, zostaną one zakończone. Kontynuować?",
             "deleteSnackbar": "Wirtualny pokój został usunięty",
             "deleteModalTitle": "Usuń wirtualny pokój {{roomName}}",
-            "creationInput": "Nazwa nowego wirtualnego pokoju*",
+            "creationInput": "Nazwa nowego wirtualnego pokoju",
             "buttonLabel": "Twoje wirtualne pokoje",
             "emptyState": "Wirtualne pokoje, które stworzysz pokażą się tutaj.",
             "createTooltip": "Stwórz nowy wirtualny pokój",
