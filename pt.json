@@ -307,7 +307,7 @@
         "virtual": {
             "deleteTooltip": "Apagar Sala Virtual",
             "deleteModalTitle": "Excluir Sala Virtual {{roomName}}",
-            "creationInput": "Nome da Nova Sala Virtual*",
+            "creationInput": "Nome da Nova Sala Virtual",
             "buttonLabel": "suas salas virtuais",
             "emptyState": "As Salas Virtuais que você criar serão exibidas aqui.",
             "copyLinkTooltip": "Copiar link da Sala Virtual",
