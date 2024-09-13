@@ -348,7 +348,7 @@
         "joinMeeting": "เข้าร่วมการประชุม",
         "virtual": {
             "deleteTooltip": "ลบห้องเสมือนจริง",
-            "creationInput": "ชื่อห้องเสมือนจริงใหม่*",
+            "creationInput": "ชื่อห้องเสมือนจริงใหม่",
             "nameRequiredTooltip": "ต้องระบุชื่อห้องเสมือนจริง",
             "createTooltip": "สร้างห้องเสมือนจริงใหม่",
             "invalidNameTooltip": "ชื่อไม่ถูกต้อง",
