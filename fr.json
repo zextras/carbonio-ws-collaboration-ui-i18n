@@ -400,7 +400,7 @@
             "deleteSnackbar": "La Salle Virtuelle a été supprimée avec succès",
             "deleteModalTitle": "Supprimer la Salle Virtuelle {{roomName}}",
             "copyLinkSnackbar": "Le lien de la Salle Virtuelle a été copié",
-            "creationInput": "Nom de la nouvelle salle virtuelle*",
+            "creationInput": "Nom de la nouvelle salle virtuelle",
             "buttonLabel": "Vos salles virtuelles",
             "emptyState": "Les salles virtuelles que vous créez seront affichées ici."
         },
