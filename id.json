@@ -347,7 +347,7 @@
         },
         "virtual": {
             "deleteTooltip": "Hapus Ruang Virtual",
-            "creationInput": "Nama Ruang Virtual Baru*",
+            "creationInput": "Nama Ruang Virtual Baru",
             "nameRequiredTooltip": "Nama Ruang Virtual wajib diisi",
             "createTooltip": "Buat Ruang Virtual baru",
             "invalidNameTooltip": "Nama tidak valid",
