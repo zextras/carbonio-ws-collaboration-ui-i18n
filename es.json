@@ -368,7 +368,7 @@
         },
         "virtual": {
             "deleteTooltip": "Eliminar Sala Virtual",
-            "creationInput": "Nombre de una nueva sala virtual*",
+            "creationInput": "Nombre de una nueva sala virtual",
             "buttonLabel": "tus salas virtuales",
             "deleteSnackbar": "Sala Virtual eliminada correctamente",
             "deleteModalTitle": "Borrar Sala Virtual {{roomName}}",
