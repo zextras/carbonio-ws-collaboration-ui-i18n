@@ -314,7 +314,7 @@
         "draft": "draft",
         "edited": "edited",
         "forwardedMultipleTimes": "Forwarded multiple times",
-        "originallySentBy": "Originally sent by:"
+        "originallySentBy": "<strong>Originally sent by:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "modal": {
         "clearHistoryDescription": "You're cleaning your chat history, please note that this action is irreversible. The history will be deleted for you and not for the other members.",
