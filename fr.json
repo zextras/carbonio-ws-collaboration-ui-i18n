@@ -226,7 +226,7 @@
         "draft": "brouillon",
         "edited": "édité",
         "forwardedMultipleTimes": "Transmis plusieurs fois",
-        "originallySentBy": "Envoyé à l'origine par :"
+        "originallySentBy": "<strong>Envoyé à l'origine par :</strong>{{forwardUsername}}{{messageDate}} - {{messageTime}}"
     },
     "participantsList": {
         "closeSearch": "Fermer la recherche",
