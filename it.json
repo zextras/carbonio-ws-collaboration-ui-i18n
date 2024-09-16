@@ -57,7 +57,7 @@
         "deletedMessage": "Messaggio eliminato",
         "edited": "modificato",
         "forwardedMultipleTimes": "Inoltrato più volte",
-        "originallySentBy": "Inviato originariamente da:"
+        "originallySentBy": "<strong>Inviato originariamente da:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "modal": {
         "creation": {
