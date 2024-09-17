@@ -429,7 +429,7 @@
         "draft": "wersja robocza",
         "edited": "edytowano",
         "forwardedMultipleTimes": "Przekazano dalej wiele razy",
-        "originallySentBy": "Pierwotnie wysłane przez:"
+        "originallySentBy": "<strong>Pierwotnie wysłane przez:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "status": {
         "isTyping": "pisze…",
