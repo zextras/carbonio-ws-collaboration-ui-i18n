@@ -1,8 +1,8 @@
 {
     "action": {
         "preview": "Előnézet",
-        "copy": "Másolat",
-        "delete": "Töröl",
+        "copy": "Másolás",
+        "delete": "Törlés",
         "edit": "Szerkesztés",
         "forward": "Továbbítás",
         "reply": "Válasz",
