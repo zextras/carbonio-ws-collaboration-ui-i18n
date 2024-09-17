@@ -239,7 +239,6 @@
             "waitingInfo": "There seems to be someone in the {{roomName}}'s waiting room."
         },
         "browserNotification": {
-            "waitingTitle": "There seems to be someone in the {{roomName}}'s waiting room.",
             "waitingMessage": "New user is waiting to enter the meeting"
         },
         "waitingRoom": {
