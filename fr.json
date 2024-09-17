@@ -423,7 +423,6 @@
             }
         },
         "browserNotification": {
-            "waitingTitle": "Il semble que quelqu'un soit dans la salle d'attente",
             "waitingMessage": "Un nouvel utilisateur attend pour entre dans la réunion"
         },
         "snackbar": {
