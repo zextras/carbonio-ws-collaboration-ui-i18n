@@ -415,7 +415,6 @@
             "waitingInfo": "Кажется, в комнате ожидания кто-то есть"
         },
         "browserNotification": {
-            "waitingTitle": "Кажется, в комнате ожидания кто-то есть",
             "waitingMessage": "Новый пользователь ожидает входа на встречу"
         },
         "waitingRoom": {
