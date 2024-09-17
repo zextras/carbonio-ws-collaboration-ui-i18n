@@ -112,9 +112,6 @@
         "snackbar": {
             "waitingInfo": "Úgy tűnik, van valaki a váróban"
         },
-        "browserNotification": {
-            "waitingTitle": "Úgy tűnik, van valaki a váróban"
-        },
         "waitingRoom": {
             "hangUp": "Vonal bontása"
         },
