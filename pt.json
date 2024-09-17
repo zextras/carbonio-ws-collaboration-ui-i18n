@@ -336,7 +336,6 @@
             "waitingInfo": "Parece que tem alguém na sala de espera"
         },
         "browserNotification": {
-            "waitingTitle": "Parece que tem alguém na sala de espera",
             "waitingMessage": "Novo usuário está aguardando para entrar na reunião"
         },
         "waitingRoom": {
