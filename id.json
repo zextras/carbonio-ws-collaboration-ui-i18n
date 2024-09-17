@@ -165,7 +165,7 @@
         "draft": "draf",
         "edited": "diedit",
         "forwardedMultipleTimes": "Diteruskan beberapa kali",
-        "originallySentBy": "Awalnya dikirim oleh:"
+        "originallySentBy": "<strong>Awalnya dikirim oleh:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "modal": {
         "deleteRoom": "Hapus Ruang",
@@ -418,19 +418,22 @@
                 "meetingNotFound": "Periksa tautan rapat, lalu coba lagi",
                 "hangUp": "Kami menantikan partisipasi Anda dalam rapat mendatang",
                 "rejected": "Moderator memutuskan untuk menolak akses Anda ke dalam rapat",
-                "notAuthenticatedUser": "Anda tidak dapat bergabung dalam rapat jika akun Anda belum diautentikasi"
+                "notAuthenticatedUser": "Anda tidak dapat bergabung dalam rapat jika akun Anda belum diautentikasi",
+                "invalidWaiting": "Anda harus disetujui oleh moderator untuk bergabung dalam rapat ini."
             },
             "slogan": {
                 "hangUp": "Mungkin lain kali",
-                "meetingNotFound": "coba lagi nanti",
+                "meetingNotFound": "Coba lagi nanti",
                 "rejected": "Mungkin lain kali",
-                "notAuthenticatedUser": "LOGIN UNTUK MENGAKSES RAPAT"
+                "notAuthenticatedUser": "LOGIN UNTUK MENGAKSES RAPAT",
+                "invalidWaiting": "Coba lagi nanti"
             },
             "title": {
                 "notAuthenticatedUser": "Anda tidak diautentikasi",
                 "meetingNotFound": "Rapat yang Anda cari tidak ada",
                 "rejected": "Akses Anda ditolak",
-                "hangUp": "Anda telah meninggalkan ruang tunggu!"
+                "hangUp": "Anda telah meninggalkan ruang tunggu!",
+                "invalidWaiting": "Tidak ada moderator dalam rapat"
             }
         },
         "activeMeetingTooltip": "Ada rapat aktif untuk Obrolan ini",
