@@ -416,7 +416,6 @@
             "waitingInfo": "Sembra esserci qualcuno nella Stanza d'Attesa"
         },
         "browserNotification": {
-            "waitingTitle": "Sembra esserci qualcuno nella Stanza d'Attesa",
             "waitingMessage": "Un nuovo utente sta aspettando di entrare nel meeting"
         },
         "waitingRoom": {
