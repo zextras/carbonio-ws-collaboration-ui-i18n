@@ -413,7 +413,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "Sembra esserci qualcuno nella Stanza d'Attesa"
+            "waitingInfo": "Sembra esserci qualcuno nella stanza d'attesa della Room {{roomName}}."
         },
         "browserNotification": {
             "waitingMessage": "Un nuovo utente sta aspettando di entrare nel meeting"
