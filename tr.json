@@ -361,7 +361,6 @@
             "waitingInfo": "Bekleme Odasında bekleyen kişi var"
         },
         "browserNotification": {
-            "waitingTitle": "Bekleme Odasında bekleyen kişi var",
             "waitingMessage": "Yeni kullanıcı toplantıya girmek için bekliyor"
         },
         "waitingRoom": {
