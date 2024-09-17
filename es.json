@@ -402,7 +402,6 @@
             "waitingInfo": "Hay alguien en la sala de espera"
         },
         "browserNotification": {
-            "waitingTitle": "Hay alguien en la sala de espera",
             "waitingMessage": "Un nuevo usuario está esperando para entrar a la reunión"
         },
         "waitingRoom": {
