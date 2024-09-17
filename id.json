@@ -381,7 +381,6 @@
             "waitingInfo": "Tampaknya ada seseorang di Ruang Tunggu"
         },
         "browserNotification": {
-            "waitingTitle": "Tampaknya ada seseorang di Ruang Tunggu",
             "waitingMessage": "Pengguna baru sedang menunggu untuk memasuki rapat"
         },
         "waitingRoom": {
