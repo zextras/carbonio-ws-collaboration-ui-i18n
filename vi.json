@@ -163,9 +163,6 @@
         "snackbar": {
             "waitingInfo": "Dường như có ai trong phòng chờ"
         },
-        "browserNotification": {
-            "waitingTitle": "Dường như có ai trong phòng chờ"
-        },
         "waitingRoom": {
             "hangUp": "Nhấc máy"
         },
