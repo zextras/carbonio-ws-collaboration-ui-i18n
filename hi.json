@@ -348,7 +348,6 @@
             "waitingInfo": "ऐसा लग रहा है कि Waiting Room में कोई है"
         },
         "browserNotification": {
-            "waitingTitle": "ऐसा लग रहा है कि Waiting Room में कोई है",
             "waitingMessage": "नया यूजर मीटिंग में प्रवेश करने के लिए प्रतीक्षा कर रहा है"
         },
         "waitingRoom": {
