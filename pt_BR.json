@@ -55,7 +55,7 @@
         "draft": "rascunho",
         "edited": "editada",
         "forwardedMultipleTimes": "Encaminhado múltiplas vezes",
-        "originallySentBy": "Enviado originalmente por:"
+        "originallySentBy": "<strong>Enviado originalmente por:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "modal": {
         "deleteRoom": "Excluir Sala",
@@ -368,7 +368,7 @@
                 "applyBlur": "Aplicar efeito desfocado",
                 "removeBlur": "Remover efeito desfocado"
             },
-            "selectedDeviceTooltip": "Este dispositivo está selecionado",
+            "selectedDeviceTooltip": "Dispositivo selecionado",
             "userHint": "Ligue a câmera para selecionar um efeito de vídeo"
         },
         "joinMeeting": "Ingressar na reunião",
@@ -411,7 +411,7 @@
             "waitingList": "Lista de espera"
         },
         "snackbar": {
-            "waitingInfo": "Parece que tem alguém na sala de espera"
+            "waitingInfo": "Parece que tem alguém na sala de espera de {{roomName}}."
         },
         "browserNotification": {
             "waitingMessage": "Novo usuário está aguardando para entrar na reunião"
@@ -448,21 +448,24 @@
         "infoPage": {
             "slogan": {
                 "hangUp": "Talvez em outra oportunidade",
-                "meetingNotFound": "tente novamente",
+                "meetingNotFound": "Tente novamente",
                 "notAuthenticatedUser": "FAZER LOGIN PARA ACESSAR A REUNIÃO",
-                "rejected": "Talvez na próxima vez"
+                "rejected": "Talvez na próxima vez",
+                "invalidWaiting": "Tente novamente depois"
             },
             "title": {
                 "notAuthenticatedUser": "Você não está autenticado",
                 "meetingNotFound": "A reunião que você procura não existe",
                 "hangUp": "Você saiu da sala de espera!",
-                "rejected": "Seu acesso foi recusado"
+                "rejected": "Seu acesso foi recusado",
+                "invalidWaiting": "Não há moderadores na reunião"
             },
             "description": {
                 "hangUp": "Estamos ansiosos pela sua participação nas próximas reuniões",
                 "notAuthenticatedUser": "Você não poderá ingressar na reunião se não estiver autenticado em sua conta",
                 "meetingNotFound": "Verifique o link da reunião e tente novamente",
-                "rejected": "Os moderadores decidiram negar seu acesso à reunião"
+                "rejected": "Os moderadores decidiram negar seu acesso à reunião",
+                "invalidWaiting": "Você deve ser aprovado por um moderador para participar desta reunião."
             }
         },
         "noMoreActiveSession": "Não pode haver mais de uma sessão ativa da mesma reunião",
