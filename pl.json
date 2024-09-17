@@ -349,7 +349,6 @@
             "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni"
         },
         "browserNotification": {
-            "waitingTitle": "Wygląda na to, że ktoś znajduje się w poczekalni",
             "waitingMessage": "Nowy użytkownik czeka, aby dołączyć do pokoju"
         },
         "waitingRoom": {
