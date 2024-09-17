@@ -259,9 +259,6 @@
         "snackbar": {
             "waitingInfo": "等待房间中似乎有用户"
         },
-        "browserNotification": {
-            "waitingTitle": "等待房间中似乎有用户"
-        },
         "waitingRoom": {
             "hangUp": "挂断"
         },
