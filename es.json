@@ -78,7 +78,7 @@
         "deletedMessage": "Mensaje borrado",
         "edited": "editado",
         "forwardedMultipleTimes": "Reenviado varias veces",
-        "originallySentBy": "Enviado originalmente por:"
+        "originallySentBy": "<strong>Enviado originalmente por:</strong>{{forwardUsername}}{{messageDate}} - {{messageTime}}"
     },
     "participantsList": {
         "closeSearch": "Cerrar búsqueda",
@@ -350,7 +350,7 @@
                 "removeBlur": "Eliminar efecto difuminado",
                 "applyBlur": "Aplicar efecto difuminado"
             },
-            "selectedDeviceTooltip": "Este dispositivo está seleccionado",
+            "selectedDeviceTooltip": "Dispositivo seleccionado",
             "userHint": "Encender la cámara para elegir un efecto de vídeo",
             "cinemaView": "Vista cinematográfica",
             "enableFullScreen": "Habilitar pantalla completa",
@@ -399,7 +399,7 @@
             "waitingList": "Lista de espera"
         },
         "snackbar": {
-            "waitingInfo": "Hay alguien en la sala de espera"
+            "waitingInfo": "Parece que hay alguien en la sala de espera {{roomName}}."
         },
         "browserNotification": {
             "waitingMessage": "Un nuevo usuario está esperando para entrar a la reunión"
@@ -438,19 +438,22 @@
                 "hangUp": "¡Abandonaste la sala de espera!",
                 "rejected": "Tu acceso ha sido rechazado",
                 "meetingNotFound": "La reunión que buscas no existe",
-                "notAuthenticatedUser": "No estás autentificado"
+                "notAuthenticatedUser": "No estás autentificado",
+                "invalidWaiting": "No hay ningún moderador en la reunión"
             },
             "slogan": {
                 "hangUp": "Tal vez la próxima vez",
                 "rejected": "Tal vez la próxima vez",
                 "meetingNotFound": "Prueba luego",
-                "notAuthenticatedUser": "INICIA SESIÓN PARA ACCEDER A LA REUNIÓN"
+                "notAuthenticatedUser": "INICIA SESIÓN PARA ACCEDER A LA REUNIÓN",
+                "invalidWaiting": "Probar de nuevo más tarde"
             },
             "description": {
                 "hangUp": "Estamos deseando verte participar en futuras reuniones",
                 "rejected": "El moderador ha decidido denegarte el acceso a la reunión",
                 "meetingNotFound": "Por favor, comprueba el enlace de la reunión y prueba de nuevo",
-                "notAuthenticatedUser": "No puedes unirte a la reunión si no te has identificado con tu cuenta"
+                "notAuthenticatedUser": "No puedes unirte a la reunión si no te has identificado con tu cuenta",
+                "invalidWaiting": "Debes ser moderador aprobado para unirte a esta reunión."
             }
         },
         "restartMeeting": "Reiniciar reunión",
