@@ -250,7 +250,7 @@
         "draft": "แบบร่าง",
         "edited": "แก้ไขแล้ว",
         "forwardedMultipleTimes": "ส่งต่อแล้วหลายครั้ง",
-        "originallySentBy": "ส่งครั้งแรกโดย:"
+        "originallySentBy": "<strong>ต้นฉบับถูกส่งโดย:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "modal": {
         "creation": {
@@ -379,7 +379,7 @@
             "waitingList": "รายการที่กำลังรอ"
         },
         "snackbar": {
-            "waitingInfo": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรอง"
+            "waitingInfo": "ดูเหมือนว่าจะมีใครบางคนรออยู่ในห้องคัดกรองของ {{roomName}}"
         },
         "browserNotification": {
             "waitingMessage": "ผู้ใช้งานใหม่กำลังรอเข้าร่วมการประชุม"
@@ -419,13 +419,15 @@
                 "notAuthenticatedUser": "คุณไม่ได้รับการรับรองสิทธิ์",
                 "meetingNotFound": "ไม่มีการประชุมที่คุณกำลังมองหา",
                 "rejected": "สิทธิการเข้าถึงของคุณถูกปฏิเสธ",
-                "hangUp": "คุณออกจากห้องคัดกรอง!"
+                "hangUp": "คุณออกจากห้องคัดกรอง!",
+                "invalidWaiting": "ไม่มีผู้ดูแลในการประชุม"
             },
             "slogan": {
                 "rejected": "ไว้คราวหน้า",
                 "meetingNotFound": "ลองในภายหลัง",
                 "notAuthenticatedUser": "เข้าสู่ระบบเพื่อเข้าถึงการประชุม",
-                "hangUp": "ไว้คราวหน้า"
+                "hangUp": "ไว้คราวหน้า",
+                "invalidWaiting": "ลองอีกครั้งในภายหลัง"
             },
             "description": {
                 "hangUp": "เราหวังว่าคุณจะมีส่วนร่วมในการประชุมครั้งต่อไป",
