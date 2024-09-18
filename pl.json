@@ -346,7 +346,7 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni"
+            "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni pokoju {{roomName}}."
         },
         "browserNotification": {
             "waitingMessage": "Nowy użytkownik czeka, aby dołączyć do pokoju"
