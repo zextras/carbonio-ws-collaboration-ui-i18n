@@ -426,7 +426,7 @@
             "waitingMessage": "Un nouvel utilisateur attend pour entre dans la réunion"
         },
         "snackbar": {
-            "waitingInfo": "Il semble que quelqu'un soit dans la salle d'attente"
+            "waitingInfo": "Il semble que quelqu'un soit dans la salle d'attente de {{roomName}}."
         },
         "waitingRoom": {
             "setInputs": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
