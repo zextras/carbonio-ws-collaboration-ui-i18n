@@ -391,7 +391,7 @@
             "deleteModalDescription": "Stai eliminando questa Virtual Room, se ci sono meeting attivi verranno interrotti e nessuno sarà più in grado di accedervi. Continuare?",
             "copyLinkSnackbar": "Link della Virtual Room copiato",
             "deleteSnackbar": "Virtual Room eliminata correttamente",
-            "creationInput": "Nome della nuova Virtual Room",
+            "creationInput": "Nome della nuova Stanza Virtuale",
             "buttonLabel": "Le tue Virtual Room"
         },
         "sidebar": {
