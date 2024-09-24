@@ -33,7 +33,10 @@
         "removeUser": "Eltávolítás",
         "scrollToBottom": "Görgessen az aljára",
         "ok": "Ok",
-        "cancel": "Törlés"
+        "cancel": "Törlés",
+        "deleteForAll": "Törlés az összeshez",
+        "retry": "Újrapróbálás",
+        "understood": "Megértettem"
     },
     "conversationInfo": {
         "email": "E-mail",
@@ -83,7 +86,12 @@
         "integrations": {
             "chooseFile": "Fájl kiválasztása",
             "shareLink": "Nyilvános hivatkozás megosztása"
-        }
+        },
+        "dragAndDrop": "Drag&Drop mód",
+        "errorUploadingFile": "Hiba történt a (z) {{file}} feltöltése során",
+        "uploadAborted": "A feltöltés megszakadt",
+        "stopUpload": "Feltöltés megállítása",
+        "dropHereDescription": "Húzza ide a mellékleteket, hogy gyorsan hozzáadhassa őket ehhez a csevegéshez"
     },
     "modal": {
         "showPreviousConversationHistory": "Korábbi beszélgetési előzmények megjelenítése",
@@ -103,7 +111,33 @@
     "meeting": {
         "interactions": {
             "cameraEnabled": "Kamera engedélyezve",
-            "cameraDisabled": "Kamera letiltva"
+            "cameraDisabled": "Kamera letiltva",
+            "disableMicrophone": "Mikrofon letiltása",
+            "title": {
+                "devices": "Eszközök",
+                "videoEffect": "Videó effektus"
+            },
+            "option": {
+                "applyBlur": "Elmosódási hatás alkalmazása",
+                "removeBlur": "Elmosódási hatás eltávolítása"
+            },
+            "userHint": "Videóeffektus kiválasztásához kapcsolja be a kamerát",
+            "enableMicrophone": "Mikrofon engedélyezése",
+            "enableScreen": "Képernyőmegosztás engedélyezése",
+            "enableCamera": "Kamera engedélyezése",
+            "gridView": "Rácsnézet",
+            "leaveMeeting": "Kilépés a találkozóból",
+            "microphoneEnabled": "Mikrofon engedélyezve",
+            "playMic": "Mikrofon tesztelésének indítása",
+            "stopMic": "Mikrofon tesztelés leállítása",
+            "microphoneDisabled": "Mikrofon letiltva",
+            "selectedDeviceTooltip": "Kiválasztott eszköz",
+            "enableFullScreen": "Teljes képernyő engedélyezése",
+            "cinemaView": "Mozi nézet",
+            "disableCamera": "Kamera letiltása",
+            "disableFullScreen": "Teljes képernyő letiltása",
+            "disableScreen": "Képernyőmegosztás letiltása",
+            "leaveConfirmation": "Kilép a találkozóból?"
         },
         "joinMeeting": "Belépés az értekezletre",
         "virtual": {
@@ -129,7 +163,16 @@
             "title": "Felvétel leállítása",
             "description": "Leállítja a felvételt. Bármikor kezdhet egy újat.",
             "inputLabel": "Név rögzítése"
-        }
+        },
+        "minimizeChat": "Csevegés minimalizálása",
+        "collapseChat": "Csevegés összecsukása",
+        "collapseParticipantsMeetingTooltip": "Résztvevők listájának összezárása",
+        "continueActiveSession": "Folytassa a találkozót új ablakban",
+        "extendChat": "Csevegés kiterjesztése",
+        "joinMeetingDescription": "Hogyan szeretne csatlakozni ehhez az értekezlethez?",
+        "activeMeetingTooltip": "Van egy aktív értekezlet ehhez a csevegéshez",
+        "expandChat": "Csevegés kibontása",
+        "expandParticipantsListTooltip": "Résztvevők listájának kibontása"
     },
     "external": {
         "nobodyInTheRoom": "Úgy tűnik, senki sincs ebben a szobában",
@@ -138,7 +181,14 @@
     "feedback": {
         "notificationsActivatedForThisChat": "Értesítések aktiválva ehhez a csevegéshez",
         "notificationsMutedForThisChat": "Értesítések elnémítva ehhez a csevegéshez",
-        "historyCleared": "Előzmények sikeresen törölve!"
+        "historyCleared": "Előzmények sikeresen törölve!",
+        "networkProblem": {
+            "xmpp": "Hiba történt az XMPP-hez való csatlakozás során",
+            "wsc": "Hiba történt a WSC-hez való csatlakozás során",
+            "websocket": "Hiba történt a WebSockethez való kapcsolódás közben"
+        },
+        "messageCopied": "Üzenet másolva",
+        "networkProblems": "Problémák merülhetnek fel a modul használatával, kérjük, próbálja meg frissíteni az oldalt."
     },
     "meetings": {
         "interactions": {
@@ -149,17 +199,59 @@
         "chooseConversationDescription": "Csevegés indításához válasszon ki egy beszélgetést",
         "keepInTouchTitle": "Maradjunk kapcsolatban!",
         "selectionMode": {
-            "exit": "Kilépés a kiválasztási módból"
+            "exit": "Kilépés a kiválasztási módból",
+            "multipleForward": "{{numberOfMessages}} üzenet továbbítása",
+            "maxSelected": "Elérte az egyszerre továbbítható üzenetek maximális számát. Szüntesse meg a beszélgetés kijelölését a módosításhoz."
+        },
+        "emptyListDescription": "Itt jelennek majd meg a csevegések és a csoportok",
+        "emptyListTitle": "Ez a lista üres",
+        "mockCreateChatDescription": "Lépjen kapcsolatba, kommunikáljon és működjön együtt kollégáival az információk és mellékletek megosztásával",
+        "mockCreateChatTitle": "Új csevegés létrehozása a létrehozás gombbal",
+        "newMessages": "Új üzenetek",
+        "newMessage": "Új üzenet",
+        "longCaption": {
+            "modal": {
+                "description": "Ez a szöveg túl hosszú, és nem használható mellékletfeliratként.",
+                "additionalDetails": "Ha folytatja a műveletet, a felesleg eltávolításra kerül az eredeti szövegből. Folytatja?",
+                "title": "Az üzenet túl hosszú a képaláíráshoz",
+                "action": "Csatolás mindenképpen"
+            }
         }
     },
     "date": {
-        "yesterday": "Tegnap"
+        "yesterday": "Tegnap",
+        "today": "Ma"
     },
     "editModal": {
         "confirm": "Részletek szerkesztése",
-        "groupDescriptionDetails": "Leírja a Csoport témáját"
+        "groupDescriptionDetails": "Leírja a Csoport témáját",
+        "groupNameDetails": "Kötelező, és azonosítja a Csoportot",
+        "nameTooLong": "A cím maximális hossza 128 karakter",
+        "topicTooLong": "A téma maximális hossza 256 karakter",
+        "nameTooShort": "A cím alapvető információ",
+        "confirmDisabled": "Semmit nem módosított.",
+        "errorDisabled": "Ellenőrizze a megadott információkat"
     },
     "snackbar": {
         "mutedByModerator": "Egy moderátor elnémított, hallgattasd el magad, hogy megszólalhass"
-    }
+    },
+    "affiliationMessages": {
+        "member": {
+            "Added": "{{userName}} hozzáadva ide: {{roomName}}.",
+            "Removed": "{{userName}} már nem tagja a (z) {{roomName}} szobának."
+        },
+        "user": {
+            "Removed": "Már nem tagja a {{roomName}} szobának.",
+            "Added": "Hozzáadtunk a (z) {{roomName}} szobához."
+        },
+        "groupCreated": "{{roomName}} létrehozva!",
+        "oneToOneCreated": "Új csevegés létrehozva!"
+    },
+    "conversationFilter": {
+        "filterTooltip": "Szűrőlista",
+        "closeTooltip": "Szűrő bezárása",
+        "label": "Írja be a szűrőlistához"
+    },
+    "chat": "Csevegés",
+    "keepInTouchWithColleagues": "Tartsa a kapcsolatot kollégáival, vagy csatlakozzon csoportjai tárgyalótermeihez"
 }
