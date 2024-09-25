@@ -141,18 +141,42 @@
         },
         "joinMeeting": "Belépés az értekezletre",
         "virtual": {
-            "deleteTooltip": "Virtuális szoba törlése"
+            "deleteTooltip": "Virtuális szoba törlése",
+            "creationInput": "Új virtuális szoba neve",
+            "buttonLabel": "virtuális szobái",
+            "emptyState": "Itt jelennek majd meg az Ön által létrehozott virtuális szobák.",
+            "copyLinkTooltip": "Virtuális szoba linkjének másolása",
+            "nameRequiredTooltip": "Virtuális szoba nevének megadása kötelező",
+            "createTooltip": "Új virtuális szoba létrehozása",
+            "copyLinkSnackbar": "Virtuális szoba linkje másolva",
+            "invalidNameTooltip": "Érvénytelen név",
+            "deleteModalDescription": "Amennyiben törli ezt a virtuális szobát, és abban aktív értekezletek vannak, úgy azok megszakadnak, és senki sem férhet hozzájuk többé. Folytatja?",
+            "deleteSnackbar": "Virtuális szoba törlése sikeres",
+            "deleteModalTitle": "{{roomName}} virtuális szoba törlése"
         },
         "snackbar": {
             "waitingInfo": "Úgy tűnik, van valaki a váróban"
         },
         "waitingRoom": {
-            "hangUp": "Vonal bontása"
+            "hangUp": "Vonal bontása",
+            "title": "Hogyan szeretne csatlakozni a (z) {{meetingName}} értekezlethez?"
         },
         "sidebar": {
             "recording": {
                 "title": "Rögzítés",
-                "description": "A felvétel annak a moderátornak a Fájlok mezőjébe kerül mentésre, aki leállította."
+                "description": "A felvétel annak a moderátornak a Fájlok mezőjébe kerül mentésre, aki leállította.",
+                "additionalDescription": "Hiba esetén a felvétel annak a moderátornak a Files tárhelyére kerül mentésre, aki elindította.",
+                "moderatorInfo": "megkezdte a felvételt",
+                "action": {
+                    "start": "Rögzítés indítása",
+                    "stop": "Rögzítés leállítása"
+                }
+            },
+            "waitingList": "Várólista",
+            "waitingCaption": "Várakozás a belépésre",
+            "tooltip": {
+                "waitingAccept": "Felhasználó beengedése",
+                "waitingReject": "Felhasználó elutasítása"
             }
         },
         "recordingHint": "Az értekezlet rögzítése folyamatban van",
@@ -172,7 +196,39 @@
         "joinMeetingDescription": "Hogyan szeretne csatlakozni ehhez az értekezlethez?",
         "activeMeetingTooltip": "Van egy aktív értekezlet ehhez a csevegéshez",
         "expandChat": "Csevegés kibontása",
-        "expandParticipantsListTooltip": "Résztvevők listájának kibontása"
+        "expandParticipantsListTooltip": "Résztvevők listájának kibontása",
+        "startModal": {
+            "enterOneToOneMeetingTitle": "Csatlakozzon {{meetingTitle}} találkozójához",
+            "audioAndVideoLoading": "Eszközök betöltése folyamatban",
+            "enterRoomMeetingTitle": "Részvétel {{meetingTitle}} találkozón"
+        },
+        "ongoingOneToOneMeetingTooltip": "Már van egy aktív találkozója {{name}} felhasználóval",
+        "newMeetingNotification": {
+            "writeAMessageToSendIt": "Üzenet írása",
+            "sendMessage": "Üzenet küldése",
+            "userIsInvitingYou": "<strong>{{name}}</strong> meghívott téged",
+            "sendAQuickMessage": "Küldj gyorsüzenetet"
+        },
+        "noMoreActiveSession": "Ugyanazon értekezletnek nem lehet egynél több aktív munkamenete",
+        "noTwoActiveSession": "Ugyanazon értekezlet két aktív ülése nem létezhet egyidejűleg",
+        "ongoingGroupMeetingTooltip": "Ön már részt vesz ezen a találkozón",
+        "browserNotification": {
+            "waitingMessage": "Új felhasználó várakozik az értekezletbe való belépésre"
+        },
+        "rejoinMeeting": "Csatlakozzon újra az értekezlethez",
+        "presentActiveSession": "Van egy másik aktív munkamenet",
+        "openedInAnotherWindow": "Ez az értekezlet már meg van nyitva egy másik ablakban",
+        "restartMeeting": "Értekezlet újraindítása",
+        "setInputDescription": "Állítsa be a beviteli eszközöket a legördülő menüből történő kiválasztással",
+        "startMeeting": "Megbeszélés indítása",
+        "participantsList": {
+            "title_one": "Egy értekezlet résztvevője",
+            "title_other": "{{count}} találkozó résztvevői"
+        },
+        "tooltip": {
+            "activeSessionTooltip": "Aktív foglalkozása van ezen a találkozón"
+        },
+        "waitingParticipants": "Várakozás a résztvevők csatlakozására…"
     },
     "external": {
         "nobodyInTheRoom": "Úgy tűnik, senki sincs ebben a szobában",
