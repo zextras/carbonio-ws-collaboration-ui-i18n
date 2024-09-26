@@ -65,7 +65,6 @@
     },
     "chat": "Chat",
     "conversation": {
-        "chooseConversationDescription": "Choose a chat to start a conversation",
         "emptyListDescription": "Chats and Groups will appear listed here",
         "emptyListTitle": "This list is empty",
         "keepInTouchTitle": "Let's keep in touch!",
