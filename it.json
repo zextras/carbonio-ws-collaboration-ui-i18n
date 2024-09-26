@@ -176,7 +176,6 @@
         }
     },
     "conversation": {
-        "chooseConversationDescription": "Scegli una conversazione per iniziare una Chat",
         "keepInTouchTitle": "Restiamo in contatto!",
         "newMessage": "Nuovo messaggio",
         "emptyListDescription": "La lista di Chat e Gruppi apparirà qui",
