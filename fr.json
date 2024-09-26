@@ -173,7 +173,6 @@
         "retry": "Réessayer"
     },
     "conversation": {
-        "chooseConversationDescription": "Choisissez une conversation pour démarrer une discussion",
         "keepInTouchTitle": "Restons en contact !",
         "newMessage": "Nouveau message",
         "emptyListDescription": "Les Chats et les Groupes seront listés ici",
