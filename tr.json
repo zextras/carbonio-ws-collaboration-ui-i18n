@@ -52,7 +52,6 @@
         }
     },
     "conversation": {
-        "chooseConversationDescription": "Bir sohbet başlatmak için görüşme seçin",
         "keepInTouchTitle": "Haberleşelim!",
         "newMessage": "Yeni mesaj",
         "emptyListDescription": "Sohbetler ve Gruplar burada listelenir",
