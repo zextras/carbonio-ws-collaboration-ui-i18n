@@ -194,6 +194,20 @@
                 "additionalDetails": "Se procedi con questa operazione, il testo in eccesso verrà eliminato. Vuoi continuare?",
                 "description": "Il testo è troppo lungo e non può essere utilizzato come testo per l'allegato."
             }
+        },
+        "displayer": {
+            "description": "Interagisci, comunica e collabora con i tuoi colleghi condividendo informazioni e allegati.",
+            "title": "Scegli una chat per iniziare a messaggiare"
+        },
+        "emptyList": {
+            "displayer": {
+                "title": "Crea una nuova chat usando il pulsante di creazione",
+                "description": "Quando crei una nuova chat hai la possibilità di scegliere più di una persona per creare un gruppo."
+            },
+            "list": {
+                "title": "Non c'è niente qui",
+                "description": "Le Chat e i Gruppi appariranno in questa lista."
+            }
         }
     },
     "editModal": {
