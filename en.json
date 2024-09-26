@@ -83,6 +83,20 @@
                 "description": "This text is too long and it can't be used as the attachment caption.",
                 "additionalDetails": "If you proceed with the operation, the excess will be removed from the original text. Proceed?"
             }
+        },
+        "displayer": {
+            "title": "Choose a chat to start sending messages",
+            "description": "Interact, communicate and collaborate with your colleagues by sharing information and attachments."
+        },
+        "emptyList": {
+            "displayer": {
+                "description": "When creating a chat you will have the possibility to choose more than one person and create a group.",
+                "title": "Create a new chat using the create button"
+            },
+            "list": {
+                "title": "There’s nothing there",
+                "description": "Chats and Groups will appear listed here."
+            }
         }
     },
     "conversationFilter": {
