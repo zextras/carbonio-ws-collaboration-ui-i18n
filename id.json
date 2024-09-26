@@ -102,7 +102,6 @@
         "errorUploadingFile": "Terjadi kesalahan saat mengunggah {{file}}"
     },
     "conversation": {
-        "chooseConversationDescription": "Pilih percakapan untuk memulai obrolan",
         "keepInTouchTitle": "Tetap terhubung!",
         "newMessage": "Pesan baru",
         "newMessages": "pesan baru",
