@@ -109,7 +109,6 @@
         "retry": "Повторить"
     },
     "conversation": {
-        "chooseConversationDescription": "Выберите беседу, чтобы начать чат",
         "keepInTouchTitle": "Будем на связи!",
         "newMessage": "Новое сообщение",
         "emptyListDescription": "Здесь будут отображаться чаты и группы",
