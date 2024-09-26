@@ -100,7 +100,6 @@
         "retry": "पुन: प्रयास"
     },
     "conversation": {
-        "chooseConversationDescription": "कोई चैट शुरू करने के लिए कोई बात-चीत चुनें",
         "keepInTouchTitle": "चलिए हम संपर्क में रहते हैं!",
         "newMessage": "नया मैसेज",
         "emptyListDescription": "चैट और ग्रुप यहां लिस्ट में दिखाई देंगे",
