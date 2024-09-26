@@ -202,7 +202,6 @@
         }
     },
     "conversation": {
-        "chooseConversationDescription": "选择要进行聊天的会话",
         "keepInTouchTitle": "让我们保持联系！",
         "newMessage": "新消息",
         "emptyListDescription": "聊天和群组将以列表形式在此展示",
