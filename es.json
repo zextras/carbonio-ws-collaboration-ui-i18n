@@ -146,7 +146,6 @@
         "removeToAddNewOne": "Quita a alguien para añadir miembros nuevos"
     },
     "conversation": {
-        "chooseConversationDescription": "Elige una conversación para iniciar un chat",
         "keepInTouchTitle": "¡Mantengámonos en contacto!",
         "newMessage": "Nuevo mensaje",
         "emptyListDescription": "Los chats individuales y los grupos aparecerán aquí",
