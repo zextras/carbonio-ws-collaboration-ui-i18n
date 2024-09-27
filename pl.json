@@ -203,6 +203,20 @@
                 "action": "Załącz mimo to",
                 "additionalDetails": "Jeśli kontynuujesz operację, nadmiar zostanie usunięty z oryginalnego tekstu. Kontynuować?"
             }
+        },
+        "displayer": {
+            "description": "Rozmawiaj, komunikuj się i współpracuj z Twoimi kolegami przekazując informacje i załączniki.",
+            "title": "Wybierz czat, aby zacząć wysyłać wiadomości"
+        },
+        "emptyList": {
+            "displayer": {
+                "description": "Podczas tworzenia czatu będziesz mieć możliwość, żeby wybrać więcej niż jedną osobę i stworzyć grupę.",
+                "title": "Stwórz nowy czat klikając przycisk stwórz"
+            },
+            "list": {
+                "title": "Nic tam nie ma",
+                "description": "Czaty i grupy pojawią się tutaj w formie listy."
+            }
         }
     },
     "conversationInfo": {
