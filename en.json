@@ -268,7 +268,7 @@
         "infoPage": {
             "title": {
                 "hangUp": "You left the waiting room!",
-                "rejected": "You access has been refused",
+                "rejected": "Your access has been refused",
                 "meetingNotFound": "The meeting you are looking for does not exist",
                 "notAuthenticatedUser": "You are not authenticated",
                 "invalidWaiting": "There are no moderators in the meeting"
