@@ -191,6 +191,20 @@
                 "description": "Le texte est très long et ne peut être utilisé comme légende de pièce jointe.",
                 "additionalDetails": "Si vous continuez l'opération, l'excédent sera supprimé du texte original. Continuer ?"
             }
+        },
+        "displayer": {
+            "description": "Interagissez, communiquez et collaborez avec vos collègues en partageant des informations et des documents.",
+            "title": "Choisissez une discussion pour commencer à envoyer des messages"
+        },
+        "emptyList": {
+            "displayer": {
+                "title": "Créer une nouvelle discussion en cliquant sur le bouton créer",
+                "description": "Lorsque vous créez une discussion, vous avez la possibilité d'y ajouter plus d'une personne et ainsi de créer un groupe de discussion."
+            },
+            "list": {
+                "title": "Il n'y a rien ici",
+                "description": "Les discussions et groupes de discussion seront listés ici."
+            }
         }
     },
     "date": {
