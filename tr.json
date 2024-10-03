@@ -113,7 +113,7 @@
         "draft": "taslak",
         "edited": "düzenlendi",
         "forwardedMultipleTimes": "Birden çok kez iletildi",
-        "originallySentBy": "İlk gönderen:"
+        "originallySentBy": "<strong>İlk gönderen:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "modal": {
         "deleteRoom": "Odayı Sil",
@@ -128,7 +128,9 @@
             "newGroup": "Yeni Grup",
             "description": "Sohbetler, kişilerinizle iletişimde kalmanıza yardımcı olan bire bir konuşmalardır. İkiden fazla adres ekleyerek Grup oluşturabilirsiniz",
             "addUserLimit": {
-                "limitReached": "Bir grup için maksimum üye sayısını seçtiniz"
+                "limitReached": "Bir grup için maksimum üye sayısını seçtiniz",
+                "users_one": "Son bir üye ekleyebilirsiniz",
+                "users_other": "Diğer {{count}} üyeleri ekleyebilirsiniz"
             }
         },
         "deleteGroup": "Grubu Sil",
@@ -147,21 +149,39 @@
         "leaveRoomLabel": "Odadan ayrılmak istediğinize emin misiniz?",
         "deleteMessageTitleDescription": "Mesajı siliyorsunuz, artık kullanılamayacak",
         "clearHistoryDescription": "Konuşma geçmişinizi temizlemek üzeresiniz, bu işlemin geri alınamayacağını unutmayın. Geçmiş bilgisi sizin için silinecek, diğer üyelerin geçmiş bilgisi silinmeyecek.",
-        "deleteGroupMeetingOngoingLabel": "Şu anda aktif bir toplantı var. Grubu silerseniz toplantı uyarı vermeden sonlandırılacak."
+        "deleteGroupMeetingOngoingLabel": "Şu anda aktif bir toplantı var. Grubu silerseniz toplantı uyarı vermeden sonlandırılacak.",
+        "muteForAllDescription": "Kullanıcıyı sessize aldığınızda, tüm katılımcılar artık kullanıcıyı duymaz. Sadece bu kullanıcı sesini yeniden açabilir. Devam edilsin mi?"
     },
     "participantsList": {
         "closeSearch": "Aramayı kapat",
         "moreMembersAccordionTitle": "Üyeler",
         "oneMemberAccordionTitle": "Bir Üye",
         "searchMembers": "Üyeleri Ara",
-        "searchParticipants": "Katılımcıları ara"
+        "searchParticipants": "Katılımcıları ara",
+        "noMatch": {
+            "all": "Mevcut sohbetlerinizde veya şirketinizde bu aramayla eşleşen kullanıcı yok.",
+            "chatList": "Mevcut sohbetlerinizde bu aramayla eşleşen kullanıcı yok."
+        },
+        "creationList": {
+            "title": "Yeni sohbet oluşturun:",
+            "searchFailure": "Aramanızla ilgili bir sorun var gibi görünüyor, lütfen yeniden deneyin."
+        }
     },
     "settings": {
         "notifications": {
             "title": "Bildirimler",
             "description": "Sohbet bildirimleri için tercihlerinizi belirleyin.",
             "subtitle": {
-                "general": "Genel"
+                "general": "Genel",
+                "waitingRoom": "Bekleme Odası erişim bildirimleri"
+            },
+            "checkbox": {
+                "desktop": "Masaüstü bildirimlerine izin ver",
+                "waitingRoom": "Bildirimlere İzin Ver"
+            },
+            "toggleSounds": {
+                "desktop": "Masaüstü bildirim seslerini etkinleştir",
+                "waitingRoom": "Bildirim seslerini etkinleştir"
             }
         },
         "profile": {
@@ -188,7 +208,36 @@
         },
         "recording": {
             "inputLabel": "Hedef klasör",
-            "title": "Kayıt yapılıyor"
+            "title": "Kayıt yapılıyor",
+            "description": "Durdurduğunuz toplantıların kayıtlarının kaydedileceği özel bir klasör ayarlayın.",
+            "browseAction": "GÖZAT",
+            "resetAction": "SIFIRLA"
+        },
+        "export": {
+            "title": "Sohbeti dışa aktarma",
+            "filterInput": "Listeyi filtrele",
+            "tooltip": {
+                "noOneSelected": "Dışa aktarmak için sohbetlerinizden birini seçin",
+                "ongoingExport": "Zaten bir sohbeti dışa aktarıyorsunuz, dışa aktarma işleminin bitmesini bekleyin."
+            },
+            "caption": "Çok fazla içeriğe sahip sohbetleri dışa aktarmak biraz zaman alabilir.",
+            "subHead": "Mesajları bir metin dosyasına aktarmak için sohbetlerinizden birini seçin. Aktarılan verinin nasıl kullanılacağından sizin sorumlu olduğunuzu lütfen unutmayın.",
+            "emptySpace": {
+                "noMatch": {
+                    "description": "Mevcut sohbetlerinizde bu arama için eşleşme yok.",
+                    "title": "Başka bir sorgu deneyin."
+                },
+                "firstAccess": {
+                    "description": "Tek sohbetleriniz ve gruplarınız burada listelenmiş olarak görünecektir.",
+                    "title": "Orada bir şey yok.",
+                    "callToAction": "Sohbetler'e gidin ve işbirliğine başlayın!"
+                }
+            },
+            "description": "Dışa aktarma sırasında Carbonio'ya kullanmaya devam edebilirsiniz. Ancak, sayfayı yenilerseniz dışa aktarım kesilebilir.",
+            "snackbar": {
+                "success": "Sohbet başarıyla dışa aktarıldı, indirmelerinizi kontrol edin!"
+            },
+            "action": "SEÇİLİ SOHBETİ DIŞA AKTAR"
         }
     },
     "status": {
@@ -198,7 +247,10 @@
         "areTyping": "yazıyorlar…",
         "isTyping": "yazıyor…",
         "goToPrivateChat": "Kişisel mesaj göndermek için özel sohbete gidin",
-        "you": " Siz"
+        "you": " Siz",
+        "Anonymous": "Anonim kullanıcı",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} ve {{numberOfUsers}} diğerleri yazıyor…",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} kişi yazıyor…"
     },
     "tooltip": {
         "clear": "Temizle",
@@ -292,7 +344,17 @@
             "stopMic": "Mikrofon testini durdur",
             "disableFullScreen": "Tam ekran modunu devre dışı bırak",
             "enableFullScreen": "Tam ekran modunu etkinleştir",
-            "leaveConfirmation": "Toplantıdan çıkılsın mı?"
+            "leaveConfirmation": "Toplantıdan çıkılsın mı?",
+            "title": {
+                "videoEffect": "Video efekti",
+                "devices": "Cihazlar"
+            },
+            "option": {
+                "removeBlur": "Bulanıklaştırma efektini kaldır",
+                "applyBlur": "Bulanıklaştırma efekti uygula"
+            },
+            "userHint": "Bir video efekti seçmek için kamerayı açın",
+            "selectedDeviceTooltip": "Seçilen cihaz"
         },
         "joinMeeting": "Toplantıya katıl",
         "newMeetingNotification": {
@@ -352,11 +414,17 @@
             "waitingList": "Bekleme listesi",
             "recording": {
                 "title": "Kayıt yapılıyor",
-                "description": "Ses Kayıt dosyası kayıt işlemini durduran moderatörün Dosyalar alanına kaydedilecek."
+                "description": "Ses Kayıt dosyası kayıt işlemini durduran moderatörün Dosyalar alanına kaydedilecek.",
+                "additionalDescription": "Bir hata oluşursa, kayıt onu başlatan moderatörün Dosyalar alanına kaydedilecektir.",
+                "moderatorInfo": "kayda başladı",
+                "action": {
+                    "start": "KAYDI BAŞLAT",
+                    "stop": "KAYDI DURDUR"
+                }
             }
         },
         "snackbar": {
-            "waitingInfo": "Bekleme Odasında bekleyen kişi var"
+            "waitingInfo": "{{roomName}} Bekleme Odasında bekleyen kişi var."
         },
         "browserNotification": {
             "waitingMessage": "Yeni kullanıcı toplantıya girmek için bekliyor"
@@ -370,27 +438,60 @@
             "ready": "Katılmaya hazır",
             "welcomeCaption": "Hazır olduğunuzda.",
             "nextStep": "Bir moderatör en kısa sürede toplantıya girmenize izin verecektir.",
-            "readyCaption": "Her şey hazır! Rahatınıza bakın."
+            "readyCaption": "Her şey hazır! Rahatınıza bakın.",
+            "userIsReady": "Hazırsınız!"
         },
         "infoPage": {
             "title": {
-                "hangUp": "Kapattınız!"
+                "hangUp": "Kapattınız!",
+                "rejected": "Erişiminiz reddedildi",
+                "invalidWaiting": "Toplantıda moderatör yok",
+                "notAuthenticatedUser": "Kimliğiniz doğrulanmadı",
+                "meetingNotFound": "Aradığınız toplantı bulunamadı"
             },
             "slogan": {
-                "hangUp": "Bir dahaki sefere artık"
+                "hangUp": "Bir dahaki sefere artık",
+                "notAuthenticatedUser": "TOPLANTIYA ERİŞMEK İÇİN OTURUM AÇIN",
+                "invalidWaiting": "Daha sonra tekrar deneyin",
+                "rejected": "Bir dahaki sefere artık",
+                "meetingNotFound": "Sonra deneyin"
             },
             "description": {
-                "hangUp": "Gelecekteki toplantılara katılmanızı dört gözle bekliyoruz"
+                "hangUp": "Gelecekteki toplantılara katılmanızı dört gözle bekliyoruz",
+                "rejected": "Moderatörler toplantıya erişiminizi reddetmeye karar verdi",
+                "meetingNotFound": "Lütfen toplantı bağlantısını kontrol edin ve tekrar deneyin",
+                "invalidWaiting": "Bu toplantıya katılmak için bir moderatör tarafından onaylanmanız gerekir.",
+                "notAuthenticatedUser": "Hesabınızla kimliğiniz doğrulanmadıysa toplantıya katılamazsınız"
             }
         },
         "recordingHint": "Bu toplantı kayıt ediliyor",
         "recordingStart": {
-            "failureSnackbar": "Kayıt işlemi başlatılamadı, lütfen sistem yöneticinizle görüşün."
+            "failureSnackbar": "Kayıt işlemi başlatılamadı, lütfen sistem yöneticinizle görüşün.",
+            "successSnackbar": {
+                "participants": "{{userName}} bu toplantının kaydını başlattı",
+                "starter": "Bu toplantının kaydını başlattınız"
+            }
         },
         "recordingModal": {
             "title": "Ses kaydını durdur",
             "description": "Ses kayıt işlemini durduruyorsunuz. İstediğiniz zaman yeni kayıt başlatabilirsiniz.",
-            "inputLabel": "Ses Kayıt Adı"
+            "inputLabel": "Ses Kayıt Adı",
+            "caption": "Kayıt, Dosyalar'daki {{folderName}} klasörüne kaydedilecektir. Hedef klasörü değiştirmek için Ayarlar > Sohbetler > Kayıt bölümüne gidin.",
+            "exceededCharsError": "Kayıt dosyası adı 128 karakteri aşmamalıdır",
+            "confirmationAction": "DURDUR",
+            "requiredNameError": "Kayıt dosyası adı gereklidir"
+        },
+        "recordingStop": {
+            "successSnackbar": {
+                "participants": "{{userName}} bu toplantının kaydını durdurdu",
+                "stopper": "{{recordingName}} öğesini kullanılabilir olduğu anda {{folderName}} içinde bulacaksınız"
+            },
+            "failureSnackbar": "Kaydı durdurmak mümkün değil, lütfen sistem yöneticinize başvurun."
+        },
+        "durationTooltip": "Toplantı süresi",
+        "participantsList": {
+            "title_one": "Bir toplantı katılımcısı",
+            "title_other": "{{count}} toplantı katılımcısı"
         }
     },
     "meetings": {
