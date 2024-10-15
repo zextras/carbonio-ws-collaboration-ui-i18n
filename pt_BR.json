@@ -177,6 +177,18 @@
                 "title": "A mensagem é longa demais para a legenda",
                 "description": "Este texto é muito longo e não pode ser usado como legenda de anexo."
             }
+        },
+        "emptyList": {
+            "displayer": {
+                "description": "Ao criar um chat você terá a possibilidade de escolher mais de uma pessoa e criar um grupo.",
+                "title": "Crie um novo chat usando o botão criar"
+            },
+            "list": {
+                "description": "Os chats e grupos aparecerão listados aqui."
+            }
+        },
+        "displayer": {
+            "description": "Interaja, comunique-se e colabore com seus colegas compartilhando informações e anexos."
         }
     },
     "conversationInfo": {
