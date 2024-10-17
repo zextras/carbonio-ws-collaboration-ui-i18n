@@ -230,7 +230,8 @@
             "xmpp": "Qualcosa è andato storto durante la connessione con XMPP",
             "websocket": "Qualcosa è andato storto durante la connessione con WEBSOCKET"
         },
-        "networkProblems": "Potrebbero esserci problemi durante l'utilizzo di questo modulo, prova ad aggiornare la pagina."
+        "networkProblems": "Potrebbero esserci problemi durante l'utilizzo di questo modulo, prova ad aggiornare la pagina.",
+        "connectionReestabilished": "Connessione ripristinata, il meeting può proseguire senza interruzioni."
     },
     "settings": {
         "notifications": {
@@ -365,7 +366,8 @@
                 "applyBlur": "Applica effetto sfuocato"
             },
             "userHint": "Accendi la fotocamera per selezionare un effetto video",
-            "selectedDeviceTooltip": "Dispositivo selezionato"
+            "selectedDeviceTooltip": "Dispositivo selezionato",
+            "disabled": "C'è un problema con la connessione, per favore riprova più tardi."
         },
         "joinMeeting": "Partecipa alla riunione",
         "newMeetingNotification": {
@@ -448,21 +450,24 @@
                 "rejected": "Magari un'altra volta",
                 "meetingNotFound": "Il meeting che stai cercando non esiste",
                 "notAuthenticatedUser": "Non sei autenticato",
-                "invalidWaiting": "Non ci sono moderatori in questo meeting"
+                "invalidWaiting": "Non ci sono moderatori in questo meeting",
+                "generalError": "Oh no! Hai lasciato il meeting."
             },
             "slogan": {
                 "hangUp": "Magari un'altra volta",
                 "rejected": "Il tuo accesso è stato negato",
                 "meetingNotFound": "Riprova più tardi",
                 "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE AL MEETING",
-                "invalidWaiting": "Riprova più tardi"
+                "invalidWaiting": "Riprova più tardi",
+                "generalError": "PER FAVORE, PROVA A PARTECIPARE DI NUOVO"
             },
             "description": {
                 "rejected": "I moderatori hanno deciso di negarti l'accesso al meeting",
                 "hangUp": "Non vediamo l'ora di vederti partecipare ad altri meeting futuri",
                 "meetingNotFound": "Controlla il link del meeting e riprova",
                 "notAuthenticatedUser": "Non puoi partecipare al meeting se non sei autenticato con il tuo account",
-                "invalidWaiting": "Il tuo accesso al meeting dev'essere accettato da un moderatore."
+                "invalidWaiting": "Il tuo accesso al meeting dev'essere accettato da un moderatore.",
+                "generalError": "Qualcosa è andato storto."
             }
         },
         "continueActiveSession": "Continua il meeting nella nuova finestra",
@@ -556,5 +561,14 @@
         "description": "Come vuoi presentarti?",
         "nameInput": "Scrivi il tuo nome",
         "loginButton": "VAI ALLA TUA PAGINA DI LOGIN"
+    },
+    "appointment": {
+        "placeholder": {
+            "description": "Troverai qui le tue Stanze Virtuali quando tornerai.",
+            "title": "Vai su Chats e crea una Stanza Virtuale per il tuo appuntamento."
+        },
+        "input": {
+            "defaultValue": "Nessuna Stanza Virtuale selezionata."
+        }
     }
 }
