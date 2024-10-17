@@ -142,7 +142,8 @@
         },
         "networkProblems": "There may be problems using this module, please try to refresh the page.",
         "notificationsActivatedForThisChat": "Notifications activated for this chat",
-        "notificationsMutedForThisChat": "Notifications muted for this chat"
+        "notificationsMutedForThisChat": "Notifications muted for this chat",
+        "connectionReestabilished": "Connection re-established, meeting can continue without interruption."
     },
     "keepInTouchWithColleagues": "Keep in touch with your colleagues or join your groups' meeting rooms",
     "meeting": {
@@ -181,7 +182,8 @@
                 "applyBlur": "Apply blur effect"
             },
             "selectedDeviceTooltip": "Selected device",
-            "userHint": "Turn on the camera to select a video effect"
+            "userHint": "Turn on the camera to select a video effect",
+            "disabled": "There are connection problems, please try again later."
         },
         "joinMeeting": "Join meeting",
         "joinMeetingDescription": "How do you want to join this meeting?",
@@ -271,21 +273,24 @@
                 "rejected": "Your access has been refused",
                 "meetingNotFound": "The meeting you are looking for does not exist",
                 "notAuthenticatedUser": "You are not authenticated",
-                "invalidWaiting": "There are no moderators in the meeting"
+                "invalidWaiting": "There are no moderators in the meeting",
+                "generalError": "Ouch! You left the meeting."
             },
             "slogan": {
                 "hangUp": "Maybe next time",
                 "rejected": "Maybe next time",
                 "meetingNotFound": "Try later",
                 "notAuthenticatedUser": "LOGIN TO ACCESS THE MEETING",
-                "invalidWaiting": "Try again later"
+                "invalidWaiting": "Try again later",
+                "generalError": "PLEASE, TRY TO JOIN AGAIN"
             },
             "description": {
                 "hangUp": "We look forward to seeing you participate in future meetings",
                 "rejected": "The moderators have decided to deny your access to the meeting",
                 "meetingNotFound": "Please check the meeting link and try again",
                 "notAuthenticatedUser": "You cannot join the meeting if you are not authenticated with your account",
-                "invalidWaiting": "You must be approved by a moderator to join this meeting."
+                "invalidWaiting": "You must be approved by a moderator to join this meeting.",
+                "generalError": "Something went wrong."
             }
         },
         "recordingHint": "This meeting is being recorded",
@@ -553,6 +558,15 @@
             "roomPictureUpdated": "You changed {{roomName}}'s image.",
             "roomTopicChanged": "You changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\".",
             "roomTopicRemoved": "You have removed {{roomName}}'s topic."
+        }
+    },
+    "appointment": {
+        "input": {
+            "defaultValue": "No Virtual Room selected."
+        },
+        "placeholder": {
+            "title": "You can go to Chats and create a Virtual Room to host your appointment.",
+            "description": "You will find your Virtual Rooms here when you’re back."
         }
     }
 }
