@@ -257,7 +257,8 @@
             "wsc": "Coś poszło nie tak podczas łączenia z WSC",
             "xmpp": "Coś poszło nie tak podczas łączenia z XMPP"
         },
-        "networkProblems": "Mogą wystąpić problemy przy używaniu tego modułu, spróbuj odświeżyć stronę."
+        "networkProblems": "Mogą wystąpić problemy przy używaniu tego modułu, spróbuj odświeżyć stronę.",
+        "connectionReestabilished": "Przywrócono połączenie, spotkanie może być kontynuowane bez przeszkód."
     },
     "meeting": {
         "interactions": {
@@ -288,7 +289,8 @@
                 "applyBlur": "Zastosuj efekt rozmazania"
             },
             "userHint": "Włącz kamerę, aby wybrać efekt wideo",
-            "selectedDeviceTooltip": "Wybrane urządzenie"
+            "selectedDeviceTooltip": "Wybrane urządzenie",
+            "disabled": "Są problemy z połączeniem, spróbuj ponownie później."
         },
         "joinMeeting": "Dołącz do spotkania",
         "newMeetingNotification": {
@@ -381,21 +383,24 @@
                 "rejected": "Nie udzielono Ci wejścia",
                 "meetingNotFound": "Spróbuj później",
                 "notAuthenticatedUser": "ZALOGUJ SIĘ, ABY UCZESTNICZYĆ W SPOTKANIU",
-                "invalidWaiting": "Spróbuj ponownie później"
+                "invalidWaiting": "Spróbuj ponownie później",
+                "generalError": "SPRÓBUJ DOŁĄCZYĆ JESZCZE RAZ"
             },
             "description": {
                 "rejected": "Moderatorzy zdecydowali się odrzucić Twoją prośbę o dołączenie do spotkania",
                 "hangUp": "Z niecierpliwością czekamy aż pojawisz się na kolejnych spotkaniach",
                 "meetingNotFound": "Sprawdź link do spotkania i spróbuj ponownie",
                 "notAuthenticatedUser": "Nie możesz dołączyć do spotkania jeśli nie jesteś zalogowany",
-                "invalidWaiting": "Aby dołączyć do tego spotkania, moderator musi Cię zaakceptować."
+                "invalidWaiting": "Aby dołączyć do tego spotkania, moderator musi Cię zaakceptować.",
+                "generalError": "Coś poszło nie tak."
             },
             "title": {
                 "hangUp": "Opuściłeś poczekalnię!",
                 "rejected": "Odmówiono Ci dostępu",
                 "meetingNotFound": "Spotkanie, którego szukasz nie istnieje",
                 "notAuthenticatedUser": "Nie jesteś zalogowany",
-                "invalidWaiting": "Na spotkaniu nie ma moderatorów"
+                "invalidWaiting": "Na spotkaniu nie ma moderatorów",
+                "generalError": "Opuściłeś spotkanie."
             }
         },
         "recordingHint": "To spotkanie jest nagrywane",
@@ -555,6 +560,15 @@
             "roomPictureDeleted": "Użytkownik {{name}} przywrócił domyślny obraz {{roomName}}.",
             "roomTopicChanged": "Użytkownik {{name}} zmienił temat {{roomName}} w \"<i>{{topicName}}</i>\".",
             "roomNameChanged": "Użytkownik {{name}} zmienił tytuł tej grupy w \"<i>{{roomName}}</i>\"."
+        }
+    },
+    "appointment": {
+        "placeholder": {
+            "title": "Możesz udać się do Czatów i stworzyć wirtualny pokój, aby zorganizować Twoje spotkanie.",
+            "description": "Kiedy wrócisz, tutaj znajdziesz Twoje wirtualne pokoje."
+        },
+        "input": {
+            "defaultValue": "Nie wybrano żadnego wirtualnego pokoju."
         }
     }
 }
