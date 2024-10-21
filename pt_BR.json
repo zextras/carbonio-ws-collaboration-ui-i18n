@@ -48,7 +48,8 @@
             "xmpp": "Algo deu errado durante a conexão com XMPP",
             "wsc": "Algo deu errado durante a conexão com WSC"
         },
-        "networkProblems": "Pode haver problemas ao usar este módulo, tente atualizar a página."
+        "networkProblems": "Pode haver problemas ao usar este módulo, tente atualizar a página.",
+        "connectionReestabilished": "A conexão foi restabelecida, a reunião pode continuar sem interrupção."
     },
     "message": {
         "deletedMessage": "Mensagem apagada",
@@ -184,7 +185,8 @@
                 "title": "Crie um novo chat usando o botão criar"
             },
             "list": {
-                "description": "Os chats e grupos aparecerão listados aqui."
+                "description": "Os chats e grupos aparecerão listados aqui.",
+                "title": "Não existe nada aqui"
             }
         },
         "displayer": {
@@ -379,7 +381,8 @@
                 "removeBlur": "Remover efeito desfocado"
             },
             "selectedDeviceTooltip": "Dispositivo selecionado",
-            "userHint": "Ligue a câmera para selecionar um efeito de vídeo"
+            "userHint": "Ligue a câmera para selecionar um efeito de vídeo",
+            "disabled": "Existem problemas de conexão, tente novamente mais tarde."
         },
         "joinMeeting": "Ingressar na reunião",
         "newMeetingNotification": {
@@ -461,21 +464,24 @@
                 "meetingNotFound": "Tente novamente",
                 "notAuthenticatedUser": "FAZER LOGIN PARA ACESSAR A REUNIÃO",
                 "rejected": "Talvez na próxima vez",
-                "invalidWaiting": "Tente novamente depois"
+                "invalidWaiting": "Tente novamente depois",
+                "generalError": "POR FAVOR, TENTE ENTRAR NOVAMENTE"
             },
             "title": {
                 "notAuthenticatedUser": "Você não está autenticado",
                 "meetingNotFound": "A reunião que você procura não existe",
                 "hangUp": "Você saiu da sala de espera!",
                 "rejected": "Seu acesso foi recusado",
-                "invalidWaiting": "Não há moderadores na reunião"
+                "invalidWaiting": "Não há moderadores na reunião",
+                "generalError": "Ops! Você saiu da reunião."
             },
             "description": {
                 "hangUp": "Estamos ansiosos pela sua participação nas próximas reuniões",
                 "notAuthenticatedUser": "Você não poderá ingressar na reunião se não estiver autenticado em sua conta",
                 "meetingNotFound": "Verifique o link da reunião e tente novamente",
                 "rejected": "Os moderadores decidiram negar seu acesso à reunião",
-                "invalidWaiting": "Você deve ser aprovado por um moderador para participar desta reunião."
+                "invalidWaiting": "Você deve ser aprovado por um moderador para participar desta reunião.",
+                "generalError": "Algo deu errado."
             }
         },
         "noMoreActiveSession": "Não pode haver mais de uma sessão ativa da mesma reunião",
@@ -554,5 +560,14 @@
         "description": "Como você gostaria de se apresentar?",
         "journeyDescription": "Você será redirecionado para a Sala de Espera, onde um moderador irá aprovar seu acesso.",
         "blob": "Olá estranho!"
+    },
+    "appointment": {
+        "input": {
+            "defaultValue": "Nenhuma Sala Virtual selecionada."
+        },
+        "placeholder": {
+            "title": "Você pode acessar o Chats e criar uma Sala Virtual para o seu compromisso.",
+            "description": "Você encontrará suas Salas Virtuais aqui quando retornar."
+        }
     }
 }
