@@ -568,7 +568,8 @@
             "title": "Vai su Chats e crea una Stanza Virtuale per il tuo appuntamento."
         },
         "input": {
-            "defaultValue": "Nessuna Stanza Virtuale selezionata."
+            "defaultValue": "Nessuna Stanza Virtuale selezionata.",
+            "limitedOption": "accesso limitato"
         }
     }
 }
