@@ -562,7 +562,8 @@
     },
     "appointment": {
         "input": {
-            "defaultValue": "No Virtual Room selected."
+            "defaultValue": "No Virtual Room selected.",
+            "limitedOption": "limited access"
         },
         "placeholder": {
             "title": "You can go to Chats and create a Virtual Room to host your appointment.",
