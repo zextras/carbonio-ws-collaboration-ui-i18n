@@ -568,7 +568,8 @@
             "description": "Kiedy wrócisz, tutaj znajdziesz Twoje wirtualne pokoje."
         },
         "input": {
-            "defaultValue": "Nie wybrano żadnego wirtualnego pokoju."
+            "defaultValue": "Nie wybrano żadnego wirtualnego pokoju.",
+            "limitedOption": "ograniczony dostęp"
         }
     }
 }
