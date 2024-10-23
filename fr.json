@@ -568,7 +568,8 @@
             "description": "Vous trouverez vos salles virtuelles ici lorsque vous reviendrez."
         },
         "input": {
-            "defaultValue": "Pas de salle virtuelle sélectionnée."
+            "defaultValue": "Pas de salle virtuelle sélectionnée.",
+            "limitedOption": "accès restreint"
         }
     }
 }
