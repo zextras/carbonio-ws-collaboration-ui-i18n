@@ -563,7 +563,8 @@
     },
     "appointment": {
         "input": {
-            "defaultValue": "Nenhuma Sala Virtual selecionada."
+            "defaultValue": "Nenhuma Sala Virtual selecionada.",
+            "limitedOption": "acesso limitado"
         },
         "placeholder": {
             "title": "Você pode acessar o Chats e criar uma Sala Virtual para o seu compromisso.",
