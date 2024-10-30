@@ -373,7 +373,7 @@
             },
             "title": {
                 "videoEffect": "Effet vidéo",
-                "devices": "Appreils"
+                "devices": "Appareils"
             },
             "userHint": "Allumer la caméra pour sélectionner l'effet vidéo",
             "selectedDeviceTooltip": "Appareil sélectionné",
