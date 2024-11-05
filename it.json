@@ -447,7 +447,7 @@
         "infoPage": {
             "title": {
                 "hangUp": "Hai riattaccato!",
-                "rejected": "Magari un'altra volta",
+                "rejected": "Il tuo accesso è stato rifiutato",
                 "meetingNotFound": "Il meeting che stai cercando non esiste",
                 "notAuthenticatedUser": "Non sei autenticato",
                 "invalidWaiting": "Non ci sono moderatori in questo meeting",
@@ -570,6 +570,28 @@
         "input": {
             "defaultValue": "Nessuna Stanza Virtuale selezionata.",
             "limitedOption": "accesso limitato"
+        }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "callToAction": "Copia Gruppo",
+            "title": "Duplica nel nuovo Modulo Chats",
+            "description": "Quest'azione crea una copia del gruppo e con esso il suo titolo, i membri e il ruolo dei moderatori."
+        },
+        "modal": {
+            "title": "Crea una copia del gruppo {{groupName}}",
+            "subtitle": "Stai per creare una copia di questo gruppo nel nuovo modulo Chats.",
+            "warning": "Attenzione: Stai copiando il gruppo e con esso il suo titolo, i membri e il ruolo dei moderatori. Quest'azione <strong>non crea</strong> una copia della <strong>cronologia di conversazione.</strong>",
+            "caption": "Una volta che la copia sarà completata, verrai portato automaticamente al nuovo modulo.",
+            "callToAction": "CONTINUA"
+        },
+        "alreadyMigrate": {
+            "callToAction": "Mostra nel nuovo modulo Chats",
+            "title": "Questo gruppo è già stato duplicato",
+            "description": "Clicca il pulsante per venire indirizzato al nuovo modulo e usare il duplicato di questo gruppo."
+        },
+        "feedback": {
+            "error": "Qualcosa è andato storto, per favore riprova o ricarica la pagina."
         }
     }
 }
