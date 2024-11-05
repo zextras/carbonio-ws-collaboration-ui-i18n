@@ -210,7 +210,7 @@
         "startMeeting": "Start meeting",
         "startModal": {
             "audioAndVideoLoading": "Assets are loading",
-            "enterOneToOneMeetingTitle": "Join meeting with {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Join {{meetingTitle}} meeting",
             "enterRoomMeetingTitle": "Participate to {{meetingTitle}} meeting"
         },
         "tooltip": {
@@ -568,6 +568,28 @@
         "placeholder": {
             "title": "You can go to Chats and create a Virtual Room to host your appointment.",
             "description": "You will find your Virtual Rooms here when you’re back."
+        }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "title": "Duplicate to new Chats Module",
+            "callToAction": "COPY GROUP",
+            "description": "This action creates a copy of the group, including its title, members, and moderator role."
+        },
+        "modal": {
+            "caption": "Once the copy is complete, you will be automatically redirected to the new module.",
+            "title": "Create a copy of the group {{groupName}}",
+            "subtitle": "You are about to create a copy of the group in the new Chats module.",
+            "warning": "Important: You are copying the group and with it the title, members and moderator role. This action <strong>does not create</strong> a copy of the <strong>conversation history.</strong>",
+            "callToAction": "CONTINUE"
+        },
+        "alreadyMigrate": {
+            "title": "This group is already duplicated",
+            "description": "Click the button to be redirected to the new module and use the duplicate of this group.",
+            "callToAction": "VIEW IN NEW CHATS MODULE"
+        },
+        "feedback": {
+            "error": "Something went wrong, please try again or reload the page."
         }
     }
 }
