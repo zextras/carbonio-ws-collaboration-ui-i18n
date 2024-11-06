@@ -305,7 +305,7 @@
         "startMeeting": "Rozpocznij spotkanie",
         "startModal": {
             "audioAndVideoLoading": "Ładowanie zasobów",
-            "enterOneToOneMeetingTitle": "Rozpocznij spotkanie z {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Dołącz do spotkania {{meetingTitle}}",
             "enterRoomMeetingTitle": "Dołącz do spotkania {{meetingTitle}}"
         },
         "expandChat": "Rozwiń czat",
