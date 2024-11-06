@@ -571,5 +571,27 @@
             "defaultValue": "Nie wybrano żadnego wirtualnego pokoju.",
             "limitedOption": "ograniczony dostęp"
         }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "title": "Zduplikuj do nowego modułu Czatów",
+            "callToAction": "SKOPIUJ GRUPĘ",
+            "description": "Ta czynność stworzy kopię grupy, włączając w to jej tytuł, członków i role moderatorów."
+        },
+        "modal": {
+            "subtitle": "Stworzysz kopię grupy w nowym module Czatów.",
+            "title": "Stwórz kopię grupy {{groupName}}",
+            "warning": "Ważne: Kopiujesz grupę, wraz z jej tytułem, członkami i rolami moderatorów. Ta czynność <strong>nie tworzy kopii historii konwersacji.</strong>",
+            "caption": "Kiedy kopia zostanie ukończona, zostaniesz automatycznie przekierowany do nowego modułu.",
+            "callToAction": "KONTYNUUJ"
+        },
+        "alreadyMigrate": {
+            "title": "Ta grupa jest już zduplikowana",
+            "description": "Kliknij w przycisk, aby zostać przekierowanym do nowego modułu i używać duplikatu grupy.",
+            "callToAction": "ZOBACZ W NOWYM MODULE CZATÓW"
+        },
+        "feedback": {
+            "error": "Coś poszło nie tak, spróbuj ponownie lub odśwież stronę."
+        }
     }
 }
