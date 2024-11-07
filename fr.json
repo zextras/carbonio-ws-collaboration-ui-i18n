@@ -392,7 +392,7 @@
         "startMeeting": "Commencer la réunion",
         "startModal": {
             "audioAndVideoLoading": "Les équipements sont en cours de chargement",
-            "enterOneToOneMeetingTitle": "Démarrer la réunion avec {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Rejoindre la réunion {{meetingTitle}}",
             "enterRoomMeetingTitle": "Participer à la réunion {{meetingTitle}}"
         },
         "waitingParticipants": "En attente de l'arrivée des participants…",
@@ -570,6 +570,12 @@
         "input": {
             "defaultValue": "Pas de salle virtuelle sélectionnée.",
             "limitedOption": "accès restreint"
+        }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "description": "Cette action crée une copie du groupe, y compris son titre, ses membres et ainsi que les rôle de modérateur.",
+            "title": "Dupliquer vers le nouveau module Chats"
         }
     }
 }
