@@ -575,7 +575,23 @@
     "readOnly": {
         "toBeMigrate": {
             "description": "Cette action crée une copie du groupe, y compris son titre, ses membres et ainsi que les rôle de modérateur.",
-            "title": "Dupliquer vers le nouveau module Chats"
+            "title": "Dupliquer vers le nouveau module Chats",
+            "callToAction": "COPIER LE GROUPE"
+        },
+        "modal": {
+            "title": "Créer une copie du groupe {{groupName}}",
+            "callToAction": "CONTINUER",
+            "subtitle": "Vous êtes sur le point de créer une copie du groupe dans le nouveau module de Discussions.",
+            "warning": "Important : Vous copiez le groupe, ce qui inclus le titre, les membres ainsi que les droits de modération. Cette action <strong>ne va pas créer</strong> une copie de <strong>l'historique de conversation</strong>.",
+            "caption": "Une fois la copie terminée, vous serez redirigé automatiquement vers le nouveau module."
+        },
+        "alreadyMigrate": {
+            "title": "Ce groupe est déjà dupliqué",
+            "callToAction": "VOIR LE NOUVEAU MODULE DE DISCUSSION",
+            "description": "Cliquez sur le bouton pour être redirigé dans le nouveau module et utiliser le duplicata de ce groupe."
+        },
+        "feedback": {
+            "error": "Quelque chose s'est mal passé, merci de réessayer ou de recharger la page."
         }
     }
 }
