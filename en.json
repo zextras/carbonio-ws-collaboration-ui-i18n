@@ -591,5 +591,8 @@
         "feedback": {
             "error": "Something went wrong, please try again or reload the page."
         }
+    },
+    "readBy": {
+        "title": "Seen by:"
     }
 }
