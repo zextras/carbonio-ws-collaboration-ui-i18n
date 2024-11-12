@@ -229,7 +229,24 @@
             "deleteModalDescription": "You are deleting this Virtual Room, if it has active meetings, they will be stopped and no one will be able to access the Room anymore. Proceed?",
             "copyLinkSnackbar": "Virtual Room’s link copied",
             "deleteSnackbar": "Virtual Room deleted successfully",
-            "deleteModalTitle": "Delete {{roomName}} Virtual Room"
+            "deleteModalTitle": "Delete {{roomName}} Virtual Room",
+            "participants": {
+                "onlyUser": "You are the only active participant.",
+                "singleActive": "One active participant.",
+                "userWithOthers": "You and other {{numberOfParticipants}} active participants.",
+                "multipleActive": "{{numberOfParticipants}} active participants."
+            },
+            "startPrompt": "Start a meeting in this Virtual Room.",
+            "moderators": {
+                "onlyUser": "You're the only moderator.",
+                "multipleAdditional": "and other {{numberOfModerators}} moderators.",
+                "onlyModerator": "is the only moderator.",
+                "singleAdditional": "and one other moderator."
+            },
+            "modal": {
+                "description": "Give this Room a recognizable name so that your attendees know what they are expecting to meet about.",
+                "invalidNameCaption": "Please enter a shorter name."
+            }
         },
         "sidebar": {
             "waitingList": "Waiting list",
