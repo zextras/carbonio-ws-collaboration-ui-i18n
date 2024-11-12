@@ -416,7 +416,13 @@
             "copyLinkSnackbar": "Le lien de la Salle Virtuelle a été copié",
             "creationInput": "Nom de la nouvelle salle virtuelle",
             "buttonLabel": "Vos salles virtuelles",
-            "emptyState": "Les salles virtuelles que vous créez seront affichées ici."
+            "emptyState": "Les salles virtuelles que vous créez seront affichées ici.",
+            "participants": {
+                "onlyUser": "Vous êtes le seul participant actif.",
+                "singleActive": "Un participant actif.",
+                "userWithOthers": "Vous et les {{numberOfParticipants}} autres participants actifs.",
+                "multipleActive": "{{numberOfParticipants}} participants actifs."
+            }
         },
         "sidebar": {
             "waitingCaption": "En attente pour entrer",
@@ -593,5 +599,8 @@
         "feedback": {
             "error": "Quelque chose s'est mal passé, merci de réessayer ou de recharger la page."
         }
+    },
+    "readBy": {
+        "title": "Vu par :"
     }
 }
