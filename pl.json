@@ -319,7 +319,7 @@
         "ongoingOneToOneMeetingTooltip": "Masz już aktywne spotkanie z użytkownikiem {{name}}",
         "virtual": {
             "deleteTooltip": "Usuń wirtualny pokój",
-            "deleteModalDescription": "Usuwasz wirtualny pokój. Nikt nie będzie mógł uzyskać do niego dostępu. Jeśli trwają w nim spotkania, zostaną one zakończone. Kontynuować?",
+            "deleteModalDescription": "Usuwasz wirtualny pokój. Jeśli trwają w nim spotkania, zostaną one zatrzymane. Nikt nie będzie mógł uzyskać dostępu do pokoju. Kontynuować?",
             "deleteSnackbar": "Wirtualny pokój został usunięty",
             "deleteModalTitle": "Usuń wirtualny pokój {{roomName}}",
             "creationInput": "Nazwa nowego wirtualnego pokoju",
@@ -329,7 +329,24 @@
             "copyLinkSnackbar": "Link do wirtualnego pokoju został skopiowany",
             "copyLinkTooltip": "Skopiuj link do wirtualnego pokoju",
             "nameRequiredTooltip": "Nazwa wirtualnego pokoju jest wymagana",
-            "invalidNameTooltip": "Nieprawidłowa nazwa"
+            "invalidNameTooltip": "Nieprawidłowa nazwa",
+            "participants": {
+                "onlyUser": "Jesteś jedynym aktywnym uczestnikiem.",
+                "singleActive": "Jeden aktywny uczestnik.",
+                "userWithOthers": "Ty i {{numberOfParticipants}} innych aktywnych uczestników.",
+                "multipleActive": "{{numberOfParticipants}} aktywnych uczestników."
+            },
+            "startPrompt": "Rozpocznij spotkanie w tym wirtualnym pokoju.",
+            "moderators": {
+                "onlyModerator": "jest jedynym moderatorem.",
+                "multipleAdditional": "i {{numberOfModerators}} innych moderatorów.",
+                "onlyUser": "Jesteś jedynym moderatorem.",
+                "singleAdditional": "i jeden inny moderator."
+            },
+            "modal": {
+                "description": "Nadaj temu pokojowi wymowną nazwę, aby uczestnicy wiedzieli w jakim celu się spotykają.",
+                "invalidNameCaption": "Wpisz krótszą nazwę."
+            }
         },
         "continueActiveSession": "Kontynuuj spotkanie w nowym oknie",
         "noMoreActiveSession": "Nie może być więcej niż jednej aktywnej sesji tego samego spotkania",
@@ -593,5 +610,8 @@
         "feedback": {
             "error": "Coś poszło nie tak, spróbuj ponownie lub odśwież stronę."
         }
+    },
+    "readBy": {
+        "title": "Zobaczone przez:"
     }
 }
