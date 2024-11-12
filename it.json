@@ -406,7 +406,24 @@
             "copyLinkSnackbar": "Link della Virtual Room copiato",
             "deleteSnackbar": "Virtual Room eliminata correttamente",
             "creationInput": "Nome della nuova Stanza Virtuale",
-            "buttonLabel": "Le tue Virtual Room"
+            "buttonLabel": "Le tue Virtual Room",
+            "participants": {
+                "onlyUser": "Sei l'unico partecipante attivo.",
+                "singleActive": "Un partecipante attivo.",
+                "userWithOthers": "Tu e altri {{numberOfParticipants}} partecipanti attivi.",
+                "multipleActive": "{{numberOfParticipants}} partecipanti attivi."
+            },
+            "moderators": {
+                "onlyUser": "Sei l'unico moderatore.",
+                "singleAdditional": "e un altro moderatore.",
+                "onlyModerator": "è l'unico moderatore.",
+                "multipleAdditional": "e altri {{numberOfModerators}} moderatori."
+            },
+            "startPrompt": "Avvia un meeting in questa Virtual Room.",
+            "modal": {
+                "description": "Assegna a questa Stanza un nome riconoscibile, in modo che i partecipanti sappiano di cosa tratterà la riunione.",
+                "invalidNameCaption": "Inserisci un nome più corto per favore."
+            }
         },
         "sidebar": {
             "waitingCaption": "In attesa di entrare",
@@ -593,5 +610,8 @@
         "feedback": {
             "error": "Qualcosa è andato storto, per favore riprova o ricarica la pagina."
         }
+    },
+    "readBy": {
+        "title": "Visualizzato da:"
     }
 }
