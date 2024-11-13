@@ -308,6 +308,10 @@
                 "notAuthenticatedUser": "You cannot join the meeting if you are not authenticated with your account",
                 "invalidWaiting": "You must be approved by a moderator to join this meeting.",
                 "generalError": "Something went wrong."
+            },
+            "feedback": {
+                "caption": "It helps us keep improving :)",
+                "description": "Your opinion is important to us!"
             }
         },
         "recordingHint": "This meeting is being recorded",
