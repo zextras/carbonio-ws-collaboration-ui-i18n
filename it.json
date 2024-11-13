@@ -485,6 +485,10 @@
                 "notAuthenticatedUser": "Non puoi partecipare al meeting se non sei autenticato con il tuo account",
                 "invalidWaiting": "Il tuo accesso al meeting dev'essere accettato da un moderatore.",
                 "generalError": "Qualcosa è andato storto."
+            },
+            "feedback": {
+                "caption": "Ci permette di migliorare :)",
+                "description": "La tua opinione è importante per noi!"
             }
         },
         "continueActiveSession": "Continua il meeting nella nuova finestra",
