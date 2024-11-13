@@ -422,7 +422,18 @@
                 "singleActive": "Un participant actif.",
                 "userWithOthers": "Vous et les {{numberOfParticipants}} autres participants actifs.",
                 "multipleActive": "{{numberOfParticipants}} participants actifs."
-            }
+            },
+            "moderators": {
+                "onlyUser": "Vous êtes le seul modérateur.",
+                "onlyModerator": "est le seul modérateur.",
+                "singleAdditional": "et un autre modérateur.",
+                "multipleAdditional": "et {{numberOfModerators}} autres modérateurs."
+            },
+            "modal": {
+                "description": "Donnez à cette salle un nom reconnaissable afin que vos participants sachent ce qu'ils attendent de la réunion.",
+                "invalidNameCaption": "Merci de saisir un nom plus court."
+            },
+            "startPrompt": "Commencez une réunion dans cette salle virtuelle."
         },
         "sidebar": {
             "waitingCaption": "En attente pour entrer",
@@ -484,6 +495,10 @@
                 "rejected": "Le modérateur a décidé de ne pas vous autoriser dans cette réunion",
                 "invalidWaiting": "Vous devez avoir été accepté par un modérateur pour rejoindre cette réunion.",
                 "generalError": "Quelque chose s'est mal passé."
+            },
+            "feedback": {
+                "caption": "Cela nous aide à nous améliorer :)",
+                "description": "Votre avis nous intéresse !"
             }
         },
         "continueActiveSession": "Poursuivre la réunion dans la nouvelle fenêtre",
