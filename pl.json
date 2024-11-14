@@ -418,6 +418,10 @@
                 "notAuthenticatedUser": "Nie jesteś zalogowany",
                 "invalidWaiting": "Na spotkaniu nie ma moderatorów",
                 "generalError": "Opuściłeś spotkanie."
+            },
+            "feedback": {
+                "caption": "Pomaga nam się rozwijać :)",
+                "description": "Twoja opinia jest dla nas ważna!"
             }
         },
         "recordingHint": "To spotkanie jest nagrywane",
