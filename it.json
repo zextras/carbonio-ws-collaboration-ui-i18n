@@ -36,7 +36,8 @@
         "ok": "Ok",
         "cancel": "Elimina",
         "deleteForAll": "Cancella per tutti",
-        "retry": "Riprova"
+        "retry": "Riprova",
+        "newVirtual": "Nuova Stanza Virtuale"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -144,8 +145,8 @@
             "uploadAvatar": "Carica immagine profilo"
         },
         "messageActions": "Opzioni messaggio",
-        "promoteSomeoneElseToModerator": "Prima di abbandonare devi promuovere qualcun'altro a moderatore",
-        "showConversationList": "Mostra lista delle chat",
+        "promoteSomeoneElseToModerator": "Prima di abbandonare devi promuovere qualcun altro a moderatore",
+        "showConversationList": "Mostra la lista delle chat",
         "muteForAll": "Silenzia tutto",
         "unpinVideo": "Rimuovi video",
         "collapseCarousel": "Riduci",
@@ -313,7 +314,7 @@
         "isTyping": "sta digitando…",
         "areTyping": "stanno digitando…",
         "goToPrivateChat": "Vai alla chat privata per inviare un messaggio personale",
-        "you": " Tu",
+        "you": "Tu",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} persone stanno digitando…",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} e {{numberOfUsers}} altri stanno digitando…",
         "Anonymous": "Utente anonimo"
@@ -422,7 +423,11 @@
             "startPrompt": "Avvia un meeting in questa Virtual Room.",
             "modal": {
                 "description": "Assegna a questa Stanza un nome riconoscibile, in modo che i partecipanti sappiano di cosa tratterà la riunione.",
-                "invalidNameCaption": "Inserisci un nome più corto per favore."
+                "invalidNameCaption": "Inserisci un nome più corto per favore.",
+                "moderator": {
+                    "input": "Moderatori della Stanza",
+                    "description": "Modererai questa Stanza. I moderatori aggiuntivi verranno aggiunti come collaboratori con gli stessi privilegi."
+                }
             }
         },
         "sidebar": {
