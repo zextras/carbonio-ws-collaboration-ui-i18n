@@ -36,7 +36,8 @@
         "undo": "Undo",
         "cancel": "Cancel",
         "deleteForAll": "Delete for all",
-        "retry": "Retry"
+        "retry": "Retry",
+        "newVirtual": "New Virtual Room"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} created!",
@@ -245,7 +246,11 @@
             },
             "modal": {
                 "description": "Give this Room a recognizable name so that your attendees know what they are expecting to meet about.",
-                "invalidNameCaption": "Please enter a shorter name."
+                "invalidNameCaption": "Please enter a shorter name.",
+                "moderator": {
+                    "input": "Room’s moderators",
+                    "description": "You will moderate this Room. The additional moderator will be added as collaborators with the same privileges."
+                }
             }
         },
         "sidebar": {
