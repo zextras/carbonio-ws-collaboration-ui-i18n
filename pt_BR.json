@@ -401,9 +401,26 @@
             "invalidNameTooltip": "Nome inválido",
             "deleteSnackbar": "Sala Virtual excluída com sucesso",
             "deleteModalTitle": "Excluir Sala Virtual {{roomName}}",
-            "deleteModalDescription": "Você está excluindo essa Sala Virtual, caso tenha reuniões ativas, elas serão interrompidas e ninguém poderá mais acessá-las. Continuar?",
+            "deleteModalDescription": "Você está excluindo esta Sala Virtual, se ela tiver reuniões ativas, elas serão interrompidas e ninguém mais poderá acessar a Sala. Continuar?",
             "copyLinkSnackbar": "Link da Sala Virtual copiado",
-            "emptyState": "As Salas Virtuais que você criar serão exibidas aqui."
+            "emptyState": "As Salas Virtuais que você criar serão exibidas aqui.",
+            "participants": {
+                "onlyUser": "Você é o único participante ativo.",
+                "singleActive": "Um participante ativo.",
+                "multipleActive": "{{numberOfParticipants}} participantes ativos.",
+                "userWithOthers": "Você e outros {{numberOfParticipants}} participantes ativos."
+            },
+            "startPrompt": "Inicie uma reunião nesta Sala Virtual.",
+            "modal": {
+                "description": "Dê a esta sala um nome reconhecível para que os participantes saibam sobre o que esperam conversar.",
+                "invalidNameCaption": "Insira um nome mais curto."
+            },
+            "moderators": {
+                "onlyUser": "Você é o único moderador.",
+                "singleAdditional": "e outro moderador.",
+                "multipleAdditional": "e outros {{numberOfModerators}} moderadores.",
+                "onlyModerator": "é o único moderador."
+            }
         },
         "sidebar": {
             "waitingCaption": "Aguardando para entrar",
@@ -482,6 +499,10 @@
                 "rejected": "Os moderadores decidiram negar seu acesso à reunião",
                 "invalidWaiting": "Você deve ser aprovado por um moderador para participar desta reunião.",
                 "generalError": "Algo deu errado."
+            },
+            "feedback": {
+                "description": "Sua opinião é importante para nós!",
+                "caption": "Isso nos ajuda a continuar melhorando :)"
             }
         },
         "noMoreActiveSession": "Não pode haver mais de uma sessão ativa da mesma reunião",
@@ -493,7 +514,7 @@
         "startModal": {
             "audioAndVideoLoading": "Os recursos estão carregando",
             "enterRoomMeetingTitle": "Participar da reunião {{meetingTitle}}",
-            "enterOneToOneMeetingTitle": "Entrar na reunião com {{meetingTitle}}"
+            "enterOneToOneMeetingTitle": "Entrar na reunião {{meetingTitle}}"
         },
         "tooltip": {
             "activeSessionTooltip": "Você tem uma sessão ativa nesta reunião"
@@ -570,5 +591,30 @@
             "title": "Você pode acessar o Chats e criar uma Sala Virtual para o seu compromisso.",
             "description": "Você encontrará suas Salas Virtuais aqui quando retornar."
         }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "callToAction": "COPIAR GRUPO",
+            "title": "Duplicar para o novo módulo de Chats",
+            "description": "Esta ação cria uma cópia do grupo, incluindo seu título, membros e função de moderador."
+        },
+        "modal": {
+            "title": "Crie uma cópia do grupo {{groupName}}",
+            "subtitle": "Você está prestes a criar uma cópia do grupo no novo módulo Chats.",
+            "callToAction": "CONTINUAR",
+            "caption": "Quando a cópia estiver concluída, você será redirecionado automaticamente para o novo módulo.",
+            "warning": "Importante: Você está copiando o grupo e com ele o título, os membros e a função de moderador. Esta ação <strong>não cria</strong> uma cópia do <strong>histórico de conversas.</strong>"
+        },
+        "alreadyMigrate": {
+            "title": "Este grupo já está duplicado",
+            "description": "Clique no botão para ser redirecionado ao novo módulo e utilize a duplicata deste grupo.",
+            "callToAction": "VER NO NOVO MÓDULO DE CHAT"
+        },
+        "feedback": {
+            "error": "Algo deu errado, tente novamente ou recarregue a página."
+        }
+    },
+    "readBy": {
+        "title": "Visto por:"
     }
 }
