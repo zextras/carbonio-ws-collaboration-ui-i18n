@@ -36,7 +36,8 @@
         "ok": "Ok",
         "cancel": "Anuluj",
         "deleteForAll": "Usuń dla wszystkich",
-        "retry": "Spróbuj ponownie"
+        "retry": "Spróbuj ponownie",
+        "newVirtual": "Nowy wirtualny pokój"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -345,7 +346,11 @@
             },
             "modal": {
                 "description": "Nadaj temu pokojowi wymowną nazwę, aby uczestnicy wiedzieli w jakim celu się spotykają.",
-                "invalidNameCaption": "Wpisz krótszą nazwę."
+                "invalidNameCaption": "Wpisz krótszą nazwę.",
+                "moderator": {
+                    "description": "Będziesz moderował tym pokojem. Dodatkowy moderator zostanie dodany jako współpracownik z tymi samymi uprawnieniami.",
+                    "input": "Moderatorzy pokoju"
+                }
             }
         },
         "continueActiveSession": "Kontynuuj spotkanie w nowym oknie",
@@ -529,7 +534,9 @@
         "scrollDown": "Przewiń na dół",
         "writeToSend": "Napisz wiadomość, aby ją wysłać",
         "participantMuted": "Ten uczestnik jest wyciszony",
-        "youAreAlreadyMuted": "Jesteś wyciszony"
+        "youAreAlreadyMuted": "Jesteś wyciszony",
+        "moreReactions": "Więcej reakcji",
+        "reactions": "Reakcje"
     },
     "conversationFilter": {
         "filterTooltip": "Filtruj listę",
@@ -613,6 +620,25 @@
         },
         "feedback": {
             "error": "Coś poszło nie tak, spróbuj ponownie lub odśwież stronę."
+        },
+        "room": {
+            "toBeMigrate": {
+                "title": "Przekształć w grupę w nowym module",
+                "description": "Ta czynność przekształca element w grupę, kopiując jego tytuł, temat, członków i role moderatorów.",
+                "callToAction": "PRZEKSZTAŁĆ W GRUPĘ",
+                "tooltip": "Musi być co najmniej dwóch członków oprócz Ciebie.",
+                "moreMembersNeeded": "Aby przekształcić ten element w grupę, musi on zawierać co najmniej dwóch innych członków."
+            },
+            "modal": {
+                "caption": "Kiedy przekształcenie zostanie ukończone, zostaniesz automatycznie przekierowany do nowego modułu.",
+                "title": "Przekształć {{roomName}} w grupę.",
+                "subtitle": "Zamierasz przekształcić ten element w grupę w nowym module Czatów.",
+                "warning": "Ważne: Tworzysz nową grupę, która będzie miała ten sam tytuł, temat, członków i role moderatorów jak oryginalny element. Ta czynność natomiast <strong>nie tworzy</strong> kopii <strong>historii konwersacji.</strong>"
+            },
+            "alreadyMigrate": {
+                "title": "Ten element został już przekształcony",
+                "description": "Kliknij w przycisk, aby zostać przekierowanym do nowego modułu i używać duplikatu tego elementu."
+            }
         }
     },
     "readBy": {
