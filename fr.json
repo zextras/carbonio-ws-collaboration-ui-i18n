@@ -170,7 +170,8 @@
         "ok": "Ok",
         "cancel": "Annuler",
         "deleteForAll": "Supprimer pour tout le monde",
-        "retry": "Réessayer"
+        "retry": "Réessayer",
+        "newVirtual": "Nouvelle salle virtuelle"
     },
     "conversation": {
         "keepInTouchTitle": "Restons en contact !",
@@ -431,7 +432,11 @@
             },
             "modal": {
                 "description": "Donnez à cette salle un nom reconnaissable afin que vos participants sachent ce qu'ils attendent de la réunion.",
-                "invalidNameCaption": "Merci de saisir un nom plus court."
+                "invalidNameCaption": "Merci de saisir un nom plus court.",
+                "moderator": {
+                    "description": "Vous serez le modérateur de cet espace. Les modérateurs supplémentaires seront ajoutés en tant que collaborateurs avec les mêmes privilèges.",
+                    "input": "Modérateurs de la salle"
+                }
             },
             "startPrompt": "Commencez une réunion dans cette salle virtuelle."
         },
