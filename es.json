@@ -164,6 +164,11 @@
                 "description": "Este texto es demasiado largo y no puede ser utilizado como subtítulo del elemento adjunto.",
                 "additionalDetails": "Si sigues con la operación, el exceso será eliminado del texto original. ¿Proceder?"
             }
+        },
+        "emptyList": {
+            "displayer": {
+                "title": "Crea un nuevo chat desde el botón Crear"
+            }
         }
     },
     "date": {
@@ -451,7 +456,8 @@
                 "rejected": "El moderador ha decidido denegarte el acceso a la reunión",
                 "meetingNotFound": "Por favor, comprueba el enlace de la reunión y prueba de nuevo",
                 "notAuthenticatedUser": "No puedes unirte a la reunión si no te has identificado con tu cuenta",
-                "invalidWaiting": "Debes ser moderador aprobado para unirte a esta reunión."
+                "invalidWaiting": "Debes ser moderador aprobado para unirte a esta reunión.",
+                "generalError": "Algo salió mal."
             }
         },
         "restartMeeting": "Reiniciar reunión",
