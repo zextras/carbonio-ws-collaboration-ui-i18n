@@ -161,7 +161,9 @@
         "expandSidebar": "Espandi barra laterale",
         "removeToAddNewOne": "Rimuovi qualcuno per aggiungere nuovi membri",
         "participantMuted": "L'audio di questo partecipante è disattivato",
-        "youAreAlreadyMuted": "Il tuo audio è disattivato"
+        "youAreAlreadyMuted": "Il tuo audio è disattivato",
+        "moreReactions": "Più reazioni",
+        "reactions": "Reazioni"
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -605,7 +607,7 @@
             "description": "Quest'azione crea una copia del gruppo e con esso il suo titolo, i membri e il ruolo dei moderatori."
         },
         "modal": {
-            "title": "Crea una copia del gruppo {{groupName}}",
+            "title": "Crea una copia del gruppo \"{{roomName}}\"",
             "subtitle": "Stai per creare una copia di questo gruppo nel nuovo modulo Chats.",
             "warning": "Attenzione: Stai copiando il gruppo e con esso il suo titolo, i membri e il ruolo dei moderatori. Quest'azione <strong>non crea</strong> una copia della <strong>cronologia di conversazione.</strong>",
             "caption": "Una volta che la copia sarà completata, verrai portato automaticamente al nuovo modulo.",
@@ -618,6 +620,25 @@
         },
         "feedback": {
             "error": "Qualcosa è andato storto, per favore riprova o ricarica la pagina."
+        },
+        "room": {
+            "toBeMigrate": {
+                "moreMembersNeeded": "Per convertire questo elemento in un gruppo, questo deve avere almeno altri due membri oltre a te.",
+                "tooltip": "Devono esserci almeno altri due membri oltre a te.",
+                "title": "Converti in Gruppo nel nuovo modulo",
+                "description": "Quest'azione converte questo elemento in un gruppo, copiando il suo titolo, topic, membri e ruolo dei moderatori.",
+                "callToAction": "Converti in gruppo"
+            },
+            "modal": {
+                "subtitle": "Stai per convertire questo elemento in un Gruppo nel nuovo modulo Chats.",
+                "title": "Converti {{roomName}} in Gruppo.",
+                "caption": "Una volta che la conversione sarà completata, verrai automaticamente indirizzato al nuovo modulo.",
+                "warning": "Attenzione: Stai per creare un nuovo gruppo che avrà lo stesso titolo, topic, membri e ruolo dei moderatori dell'elemento originale. Tuttavia quest'azione <strong>non crea</strong> una copia della <strong>cronologia di conversazione.</strong>"
+            },
+            "alreadyMigrate": {
+                "title": "Questo elemento è già stato convertito",
+                "description": "Clicca il pulsante per essere indirizzato al nuovo modulo e usare il duplicato di questo elemento."
+            }
         }
     },
     "readBy": {
