@@ -553,7 +553,9 @@
             "uploadAvatar": "Upload avatar"
         },
         "writeToSend": "Write a message to send it",
-        "youAreAlreadyMuted": "You're muted"
+        "youAreAlreadyMuted": "You're muted",
+        "reactions": "Reactions",
+        "moreReactions": "More reactions"
     },
     "tryLater": "Try later",
     "interactions": {
@@ -604,7 +606,7 @@
         },
         "modal": {
             "caption": "Once the copy is complete, you will be automatically redirected to the new module.",
-            "title": "Create a copy of the group {{groupName}}",
+            "title": "Create a copy of the group \"{{roomName}}\"",
             "subtitle": "You are about to create a copy of the group in the new Chats module.",
             "warning": "Important: You are copying the group and with it the title, members and moderator role. This action <strong>does not create</strong> a copy of the <strong>conversation history.</strong>",
             "callToAction": "CONTINUE"
@@ -616,6 +618,25 @@
         },
         "feedback": {
             "error": "Something went wrong, please try again or reload the page."
+        },
+        "room": {
+            "toBeMigrate": {
+                "description": "This action converts this item into a group, copying its title, topic, members, and moderator role.",
+                "title": "Convert to Group in new module",
+                "callToAction": "CONVERT TO GROUP",
+                "tooltip": "There must be at least two members besides you.",
+                "moreMembersNeeded": "To convert this item into a group, it must have at least two other members besides you."
+            },
+            "modal": {
+                "warning": "Important: You are creating a new group that will have the same title, topic, members, and moderator role as the original item. However, this action <strong>does not create</strong> a copy of the <strong>conversation history.</strong>",
+                "subtitle": "You are about to convert this item to a group in the new Chats module.",
+                "title": "Convert \"{{roomName}}\" to a Group.",
+                "caption": "Once the conversion is complete, you will be automatically redirected to the new module."
+            },
+            "alreadyMigrate": {
+                "description": "Click the button to be redirected to the new module and use the duplicate of this item.",
+                "title": "This item has already been converted"
+            }
         }
     },
     "readBy": {
