@@ -599,7 +599,7 @@
             "description": "Esta ação cria uma cópia do grupo, incluindo seu título, membros e função de moderador."
         },
         "modal": {
-            "title": "Crie uma cópia do grupo {{groupName}}",
+            "title": "Crie uma cópia do grupo \"{{roomName}}\"",
             "subtitle": "Você está prestes a criar uma cópia do grupo no novo módulo Chats.",
             "callToAction": "CONTINUAR",
             "caption": "Quando a cópia estiver concluída, você será redirecionado automaticamente para o novo módulo.",
