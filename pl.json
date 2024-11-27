@@ -608,7 +608,7 @@
         },
         "modal": {
             "subtitle": "Stworzysz kopię grupy w nowym module Czatów.",
-            "title": "Stwórz kopię grupy {{groupName}}",
+            "title": "Stwórz kopię grupy \"{{roomName}}\"",
             "warning": "Ważne: Kopiujesz grupę, wraz z jej tytułem, członkami i rolami moderatorów. Ta czynność <strong>nie tworzy kopii historii konwersacji.</strong>",
             "caption": "Kiedy kopia zostanie ukończona, zostaniesz automatycznie przekierowany do nowego modułu.",
             "callToAction": "KONTYNUUJ"
