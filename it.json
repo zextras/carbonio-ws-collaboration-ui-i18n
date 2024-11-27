@@ -631,7 +631,7 @@
             },
             "modal": {
                 "subtitle": "Stai per convertire questo elemento in un Gruppo nel nuovo modulo Chats.",
-                "title": "Converti {{roomName}} in Gruppo.",
+                "title": "Converti \"{{roomName}}\" in Gruppo.",
                 "caption": "Una volta che la conversione sarà completata, verrai automaticamente indirizzato al nuovo modulo.",
                 "warning": "Attenzione: Stai per creare un nuovo gruppo che avrà lo stesso titolo, topic, membri e ruolo dei moderatori dell'elemento originale. Tuttavia quest'azione <strong>non crea</strong> una copia della <strong>cronologia di conversazione.</strong>"
             },
