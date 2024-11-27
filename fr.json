@@ -317,7 +317,9 @@
         "collapseSidebar": "Réduire la barre latérale",
         "expandSidebar": "Agrandir la barre latérale",
         "participantMuted": "Ce participant est en sourdine",
-        "youAreAlreadyMuted": "Vous êtes en sourdine"
+        "youAreAlreadyMuted": "Vous êtes en sourdine",
+        "moreReactions": "Plus de réactions",
+        "reactions": "Réactions"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} est créée !",
@@ -618,6 +620,25 @@
         },
         "feedback": {
             "error": "Quelque chose s'est mal passé, merci de réessayer ou de recharger la page."
+        },
+        "room": {
+            "toBeMigrate": {
+                "description": "Cette action convertit cet élément en groupe, en copiant son titre, son sujet, ses membres et son rôle de modérateur.",
+                "callToAction": "CONVERTIR EN GROUPE",
+                "moreMembersNeeded": "Pour que cet élément devienne un groupe, il doit compter au moins deux autres membres que vous.",
+                "tooltip": "Il doit y avoir au moins deux membres en plus de vous.",
+                "title": "Convertir en groupe dans le nouveau module"
+            },
+            "modal": {
+                "subtitle": "Vous êtes sur le point de convertir cet élément en groupe dans le nouveau module Chats.",
+                "caption": "Une fois la conversion terminée, vous serez automatiquement redirigé vers le nouveau module.",
+                "warning": "Important : vous créez un nouveau groupe qui aura le même titre, le même sujet, les mêmes membres et le même rôle de modérateur que l'élément original. Cependant, cette action <strong>ne crée pas</strong> de copie de <strong>l'historique des conversations.</strong>",
+                "title": "Convertir « {{roomName}} » en groupe."
+            },
+            "alreadyMigrate": {
+                "title": "Cet élément a déjà été converti",
+                "description": "Cliquez sur le bouton pour être redirigé vers le nouveau module et utiliser la copie de cet élément."
+            }
         }
     },
     "readBy": {
