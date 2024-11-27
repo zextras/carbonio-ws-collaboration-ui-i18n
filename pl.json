@@ -631,7 +631,7 @@
             },
             "modal": {
                 "caption": "Kiedy przekształcenie zostanie ukończone, zostaniesz automatycznie przekierowany do nowego modułu.",
-                "title": "Przekształć {{roomName}} w grupę.",
+                "title": "Przekształć \"{{roomName}}\" w grupę.",
                 "subtitle": "Zamierasz przekształcić ten element w grupę w nowym module Czatów.",
                 "warning": "Ważne: Tworzysz nową grupę, która będzie miała ten sam tytuł, temat, członków i role moderatorów jak oryginalny element. Ta czynność natomiast <strong>nie tworzy</strong> kopii <strong>historii konwersacji.</strong>"
             },
