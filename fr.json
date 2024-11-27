@@ -605,7 +605,7 @@
             "callToAction": "COPIER LE GROUPE"
         },
         "modal": {
-            "title": "Créer une copie du groupe {{groupName}}",
+            "title": "Créer une copie du groupe \"{{roomName}}\"",
             "callToAction": "CONTINUER",
             "subtitle": "Vous êtes sur le point de créer une copie du groupe dans le nouveau module de Discussions.",
             "warning": "Important : Vous copiez le groupe, ce qui inclus le titre, les membres ainsi que les droits de modération. Cette action <strong>ne va pas créer</strong> une copie de <strong>l'historique de conversation</strong>.",
