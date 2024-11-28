@@ -30,7 +30,7 @@
         "draft": "черновик",
         "edited": "отредактировано",
         "forwardedMultipleTimes": "Перенаправлено несколько раз",
-        "originallySentBy": "Первоначально отправлено:"
+        "originallySentBy": "<strong>Первоначально отправлено:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "modal": {
         "leaveGroup": "Выйти из Группы",
@@ -261,7 +261,7 @@
         "online": "В сети",
         "areTyping": "пишут…",
         "isTyping": "пишет…",
-        "you": " Вы",
+        "you": "Вы",
         "goToPrivateChat": "Зайдите в чат, чтобы отправить личное сообщение",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} печатают…",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} и ещё {{numberOfUsers}} пишут…",
@@ -404,7 +404,13 @@
             "invalidNameTooltip": "Неверное имя",
             "copyLinkSnackbar": "Ссылка на Виртуальную комнату скопирована",
             "deleteSnackbar": "Виртуальная комната успешно удалена",
-            "deleteModalTitle": "Удалить виртуальную комнату {{roomName}}"
+            "deleteModalTitle": "Удалить виртуальную комнату {{roomName}}",
+            "participants": {
+                "onlyUser": "Вы единственный активный участник.",
+                "singleActive": "Один активный участник.",
+                "userWithOthers": "Вы и другие {{numberOfParticipants}} активных участников.",
+                "multipleActive": "{{numberOfParticipants}} активных участников"
+            }
         },
         "sidebar": {
             "waitingCaption": "В ожидании входа",
@@ -570,5 +576,30 @@
             "title": "Вы можете перейти в раздел «Чаты» и создать виртуальную комнату для проведения встречи.",
             "description": "Когда вернетесь, вы найдете здесь свои виртуальные комнаты."
         }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "title": "Дублировать в новый модуль Chats",
+            "description": "Это действие создает копию группы, включая ее название, участников и роль модератора.",
+            "callToAction": "КОПИРОВАТЬ ГРУППУ"
+        },
+        "modal": {
+            "subtitle": "Вы собираетесь создать копию группы в новом модуле Chats.",
+            "callToAction": "ПРОДОЛЖИТЬ",
+            "title": "Создайте копию группы \"{{roomName}}\"",
+            "warning": "Важно: Вы копируете группу, а вместе с ней и название, участников и роль модератора. Это действие <strong>не создает</strong> копию <strong>истории разговоров</strong>",
+            "caption": "После завершения копирования вы будете автоматически перенаправлены на новый модуль."
+        },
+        "alreadyMigrate": {
+            "title": "Эта группа уже дублируется",
+            "callToAction": "ПОСМОТРЕТЬ В НОВОМ МОДУЛЕ CHATS",
+            "description": "Нажмите кнопку, чтобы перейти к новому модулю и использовать дубликат этой группы."
+        },
+        "feedback": {
+            "error": "Что-то пошло не так, попробуйте еще раз или перезагрузите страницу."
+        }
+    },
+    "readBy": {
+        "title": "Просмотрено:"
     }
 }
