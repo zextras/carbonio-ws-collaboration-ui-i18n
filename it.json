@@ -537,6 +537,11 @@
             "title_one": "Un partecipante della riunione",
             "title_many": "{{count}} partecipanti della riunione",
             "title_other": "{{count}} partecipanti della riunione"
+        },
+        "visualEffects": {
+            "default": "Nessuno",
+            "title": "Effetti di visualizzazione",
+            "blur": "Sfoca"
         }
     },
     "tryLater": "Riprova più tardi",
