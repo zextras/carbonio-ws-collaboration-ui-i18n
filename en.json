@@ -343,7 +343,12 @@
             },
             "failureSnackbar": "It is not possible to stop the registration, please contact your system administrator."
         },
-        "durationTooltip": "Meeting duration"
+        "durationTooltip": "Meeting duration",
+        "visualEffects": {
+            "title": "Visual Effects",
+            "default": "None",
+            "blur": "Blur"
+        }
     },
     "meetings": {
         "interactions": {
