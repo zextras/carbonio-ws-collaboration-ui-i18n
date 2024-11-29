@@ -458,6 +458,11 @@
             "title_one": "Jeden uczestnik spotkania",
             "title_few": "{{count}} uczestników spotkania",
             "title_many": "{{count}} uczestników spotkania"
+        },
+        "visualEffects": {
+            "title": "Efekty wizualne",
+            "default": "Żaden",
+            "blur": "Rozmazanie"
         }
     },
     "meetings": {
