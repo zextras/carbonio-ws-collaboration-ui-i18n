@@ -7,7 +7,16 @@
         "reply": "الرد على الرسالة",
         "cancel": "إلغاء",
         "preview": "معاينتها",
-        "ok": "حسناً"
+        "ok": "حسناً",
+        "create": "أنشئ",
+        "activateNotifications": "تفعيل الإشعارات",
+        "addNewMembers": "أضف أعضاء جدد",
+        "close": "أغلق",
+        "leave": "مغادرة",
+        "muteNotifications": "كتم الإشعارات",
+        "replyToSomeone": "الرد على",
+        "replyToYourself": "الرد على نفسك",
+        "editYourMessage": "عَدِل رسالتك"
     },
     "conversationInfo": {
         "email": "البريد الإلكتروني",
@@ -27,5 +36,17 @@
     },
     "tooltip": {
         "clear": "مسح"
+    },
+    "attachments": {
+        "attachLinkFiles": "إرفاق رابط عام من الملفات",
+        "addFromLocal": "أضف من جهازك"
+    },
+    "external": {
+        "nobodyInTheRoom": "يبدو أنه لا يوجد أحد في هذه الغرفة",
+        "roomIsEmpty": "هذه الغرفة فارغة"
+    },
+    "feedback": {
+        "notificationsActivatedForThisChat": "الإشعارات نُشطت لهذه الدردشة",
+        "notificationsMutedForThisChat": "الإشعارات كُتمت لهذه الدردشة"
     }
 }
