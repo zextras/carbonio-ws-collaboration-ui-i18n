@@ -36,7 +36,8 @@
         "declineAll": "Rechazar todo",
         "deleteForAll": "Eliminar para todos",
         "retry": "Reintentar",
-        "understood": "Entendido"
+        "understood": "Entendido",
+        "newVirtual": "Nueva Sala Virtual"
     },
     "attachments": {
         "addFromLocal": "Adjuntar desde Mi PC",
@@ -71,7 +72,8 @@
             "xmpp": "Algo salió mal al conectar con XMPP",
             "wsc": "Algo salió mal mientras al conectar con WSC"
         },
-        "networkProblems": "Pueden haber problemas al utilizar este módulo, por favor, prueba a refrescar la página."
+        "networkProblems": "Pueden haber problemas al utilizar este módulo, por favor, prueba a refrescar la página.",
+        "connectionReestabilished": "Conexión restablecida, la reunión puede continuar sin interrupciones."
     },
     "message": {
         "draft": "Borrador",
@@ -143,7 +145,9 @@
         "scrollUp": "Desplazarse hacia arriba",
         "collapseSidebar": "Contraer barra lateral",
         "expandSidebar": "Expandir barra lateral",
-        "removeToAddNewOne": "Quita a alguien para añadir miembros nuevos"
+        "removeToAddNewOne": "Quita a alguien para añadir miembros nuevos",
+        "moreReactions": "Más reacciones",
+        "reactions": "Reacciones"
     },
     "conversation": {
         "keepInTouchTitle": "¡Mantengámonos en contacto!",
@@ -167,8 +171,17 @@
         },
         "emptyList": {
             "displayer": {
-                "title": "Crea un nuevo chat desde el botón Crear"
+                "title": "Crea un nuevo chat desde el botón Crear",
+                "description": "Al crear un chat, tendrás la posibilidad de elegir a más de una persona y de crear un grupo."
+            },
+            "list": {
+                "title": "No hay nada aquí",
+                "description": "Los Chats y los Grupos aparecerán listados aquí."
             }
+        },
+        "displayer": {
+            "title": "Elige un chat para empezar a enviar mensajes",
+            "description": "Interactuar, comunicarse y colaborar con tus compañeros compartiendo información y archivos adjuntos."
         }
     },
     "date": {
@@ -360,7 +373,8 @@
             "enableScreen": "Habilitar compartir pantalla",
             "disableFullScreen": "Desactivar pantalla completa",
             "disableMicrophone": "Desactivar micrófono",
-            "disableScreen": "Desactivar compartir pantalla"
+            "disableScreen": "Desactivar compartir pantalla",
+            "disabled": "Hay problemas de conexión, por favor, prueba más tarde."
         },
         "joinMeeting": "Unirse a la reunión",
         "newMeetingNotification": {
@@ -375,13 +389,34 @@
             "buttonLabel": "tus salas virtuales",
             "deleteSnackbar": "Sala Virtual eliminada correctamente",
             "deleteModalTitle": "Borrar Sala Virtual {{roomName}}",
-            "deleteModalDescription": "Estás borrando esta Sala Virtual, si tiene reuniones activas, se interrumpirán y nadie podrá acceder a la misma más. ¿Proceder?",
+            "deleteModalDescription": "Estás borrando esta Sala Virtual, si la sala tiene reuniones activas, serán interrumpidas y nadie podrá acceder a la Sala nunca más. ¿Proceder?",
             "copyLinkSnackbar": "Enlace de la Sala Virtual copiado",
             "createTooltip": "Crear una nueva Sala Virtual",
             "invalidNameTooltip": "Nombre no válido",
             "emptyState": "Las salas virtuales que crees se mostrarán aquí.",
             "copyLinkTooltip": "Copiar enlace de la Sala Virtual",
-            "nameRequiredTooltip": "Se necesita un nombre para la Sala Virtual"
+            "nameRequiredTooltip": "Se necesita un nombre para la Sala Virtual",
+            "participants": {
+                "onlyUser": "Tu eres el único participante activo.",
+                "singleActive": "Un participante activo.",
+                "userWithOthers": "Tu y otros {{numberOfParticipants}} participantes activos.",
+                "multipleActive": "{{numberOfParticipants}} participantes activos."
+            },
+            "startPrompt": "Iniciar una reunión en esta Sala Virtual.",
+            "modal": {
+                "description": "Ponle un nombre reconocible a esta reunión, para que los asistentes sepan por qué se están reuniendo.",
+                "invalidNameCaption": "Por favor, introduce un nombre más corto.",
+                "moderator": {
+                    "description": "Serás el moderador de esta Sala. El moderador adicional será añadido como colaborador con los mismos privilegios.",
+                    "input": "Moderadores de la Sala"
+                }
+            },
+            "moderators": {
+                "onlyUser": "Tu eres el único moderador.",
+                "onlyModerator": "es el único moderador.",
+                "singleAdditional": "y otro moderador.",
+                "multipleAdditional": "y otros {{numberOfModerators}} moderadores."
+            }
         },
         "sidebar": {
             "tooltip": {
@@ -442,14 +477,16 @@
                 "rejected": "Tu acceso ha sido rechazado",
                 "meetingNotFound": "La reunión que buscas no existe",
                 "notAuthenticatedUser": "No estás autentificado",
-                "invalidWaiting": "No hay ningún moderador en la reunión"
+                "invalidWaiting": "No hay ningún moderador en la reunión",
+                "generalError": "¡Vaya! Abandonaste la reunión."
             },
             "slogan": {
                 "hangUp": "Tal vez la próxima vez",
                 "rejected": "Tal vez la próxima vez",
                 "meetingNotFound": "Prueba luego",
                 "notAuthenticatedUser": "INICIA SESIÓN PARA ACCEDER A LA REUNIÓN",
-                "invalidWaiting": "Probar de nuevo más tarde"
+                "invalidWaiting": "Probar de nuevo más tarde",
+                "generalError": "POR FAVOR, PRUEBA A UNIRTE DE NUEVO"
             },
             "description": {
                 "hangUp": "Estamos deseando verte participar en futuras reuniones",
@@ -458,6 +495,10 @@
                 "notAuthenticatedUser": "No puedes unirte a la reunión si no te has identificado con tu cuenta",
                 "invalidWaiting": "Debes ser moderador aprobado para unirte a esta reunión.",
                 "generalError": "Algo salió mal."
+            },
+            "feedback": {
+                "caption": "Nos ayuda a seguir mejorando :-)",
+                "description": "¡Tu opinión es importante para nosotros!"
             }
         },
         "restartMeeting": "Reiniciar reunión",
@@ -478,7 +519,7 @@
         "presentActiveSession": "Hay otra sesión activa",
         "startModal": {
             "audioAndVideoLoading": "Los activos están cargando",
-            "enterOneToOneMeetingTitle": "Unirse a la reunión con {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Unirse a la reunión {{meetingTitle}}",
             "enterRoomMeetingTitle": "Participar en la reunión {{meetingTitle}}"
         },
         "tooltip": {
@@ -500,7 +541,12 @@
         "expandParticipantsListTooltip": "Ampliar la lista de participantes",
         "extendChat": "Ampliar el chat",
         "expandChat": "Ampliar chat",
-        "durationTooltip": "Duración de la reunión"
+        "durationTooltip": "Duración de la reunión",
+        "visualEffects": {
+            "default": "Ninguno",
+            "title": "Efectos visuales",
+            "blur": "Difuminar"
+        }
     },
     "meetings": {
         "interactions": {
@@ -548,5 +594,59 @@
     "interactions": {
         "micDevice": "Dispositivo micrófono",
         "camDevice": "Dispositivo cámara"
+    },
+    "appointment": {
+        "input": {
+            "defaultValue": "No se ha elegido ninguna Sala virtual.",
+            "limitedOption": "Acceso limitado"
+        },
+        "placeholder": {
+            "title": "Puedes acceder a los Chats y crear una Sala Virtual para hospedar tu cita.",
+            "description": "Encontrarás tus Salas Virtuales cuando vuelvas."
+        }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "title": "Duplicar al nuevo Módulo de Chats",
+            "callToAction": "GRUPO DE COPIA",
+            "description": "Esta acción crea una copia del grupo, incluyendo su título, los miembros y el papel del moderador."
+        },
+        "alreadyMigrate": {
+            "title": "Este grupo ya está duplicado",
+            "callToAction": "VER EN EL NUEVO MÓDULO DE CHATS",
+            "description": "Haz clic en el botón para ser redirigido al nuevo módulo y utilizar el duplicado de este grupo."
+        },
+        "modal": {
+            "subtitle": "Estás a punto de crear una copia del grupo en el nuevo módulo de Chats.",
+            "warning": "Importante: estás copiando el grupo y con ello el título, los miembros y el rol del moderador. Esta acción <strong>no crea</strong> una copia del <strong>historial de la conversación.</strong>",
+            "callToAction": "CONTINUAR",
+            "title": "Crear una copia de grupo \"{{roomName}}\"",
+            "caption": "Cuando la copia se complete, serás redirigido automáticamente al módulo nuevo."
+        },
+        "feedback": {
+            "error": "Algo salió mal, por favor, prueba de nuevo o recarga esta página."
+        },
+        "room": {
+            "toBeMigrate": {
+                "title": "Convertir a Grupo en el módulo nuevo",
+                "callToAction": "CONVERTIR A GRUPO",
+                "description": "Esta acción convierte este elemento en un grupo, copiando su título, tema de conversación, miembros y rol del moderador.",
+                "tooltip": "Deben haber al menos dos miembros aparte de ti.",
+                "moreMembersNeeded": "Para convertir este elemento en un grupo, debe tener al menos otros dos miembros aparte de ti."
+            },
+            "modal": {
+                "caption": "Cuando termine la conversión, serás redirigido automáticamente al módulo nuevo.",
+                "subtitle": "Estás a punto de convertir este elemento e un grupo en el nuevo módulo de Chats.",
+                "title": "Convertir \"{{roomName}}\" a Grupo.",
+                "warning": "Importante: estás creando un grupo nuevo que tendrá el mismo título, tema, miembros y rol de moderador que el grupo original. Sin embargo, esta acción <strong>no realiza</strong> una copia del <strong>historial de conversaciones.</strong>"
+            },
+            "alreadyMigrate": {
+                "title": "El elemento ya ha sido convertido",
+                "description": "Haz clic en el botón para ser redirigido al nuevo módulo y utilizar el duplicado de este elemento."
+            }
+        }
+    },
+    "readBy": {
+        "title": "Visto por:"
     }
 }
