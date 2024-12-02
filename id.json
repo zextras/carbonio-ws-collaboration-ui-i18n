@@ -47,7 +47,9 @@
         "participantMuted": "Peserta ini disenyapkan",
         "writeToSend": "Tulis pesan untuk dikirim",
         "youAreAlreadyMuted": "Mikrofon Anda dinonaktifkan",
-        "bottomOfList": "Bagian bawah daftar"
+        "bottomOfList": "Bagian bawah daftar",
+        "moreReactions": "Lebih banyak reaksi",
+        "reactions": "Reaksi"
     },
     "action": {
         "activateNotifications": "Aktifkan notifikasi",
@@ -86,7 +88,8 @@
         "retry": "Coba lagi",
         "declineAll": "Tolak semua",
         "editDetails": "Edit detail",
-        "understood": "Dipahami"
+        "understood": "Dipahami",
+        "newVirtual": "Ruang Virtual Baru"
     },
     "attachments": {
         "addFromLocal": "Tambahkan dari lokal",
@@ -119,6 +122,20 @@
                 "action": "Tetap lampirkan",
                 "description": "Teks terlalu panjang dan tidak dapat digunakan sebagai keterangan lampiran.",
                 "additionalDetails": "Jika Anda melanjutkan operasi, kelebihannya akan dihapus dari teks asli. Tetap lanjutkan?"
+            }
+        },
+        "displayer": {
+            "title": "Pilih chat untuk mulai mengirim pesan",
+            "description": "Berinteraksi, berkomunikasi, dan berkolaborasi dengan kolega Anda sambil berbagi informasi dan lampiran."
+        },
+        "emptyList": {
+            "displayer": {
+                "title": "Buat chat baru menggunakan tombol buat",
+                "description": "Saat membuat obrolan, Anda dapat memilih lebih dari satu orang dan membuat grup."
+            },
+            "list": {
+                "title": "Tidak ada apa pun",
+                "description": "Obrolan dan Grup akan muncul di sini."
             }
         }
     },
@@ -156,7 +173,8 @@
             "wsc": "Terjadi kesalahan saat terhubung dengan WSC",
             "xmpp": "Terjadi kesalahan saat terhubung dengan XMPP"
         },
-        "networkProblems": "Mungkin terjadi masalah saat menggunakan modul ini, coba segarkan halaman."
+        "networkProblems": "Mungkin terjadi masalah saat menggunakan modul ini, coba segarkan halaman.",
+        "connectionReestabilished": "Koneksi tersambung kembali, rapat dapat dilanjutkan tanpa gangguan."
     },
     "message": {
         "deletedMessage": "Pesan yang dihapus",
@@ -335,7 +353,8 @@
             "disableScreen": "Nonaktifkan berbagi layar",
             "leaveMeeting": "Keluar Rapat",
             "microphoneDisabled": "Mikrofon dinonaktifkan",
-            "leaveConfirmation": "Keluar rapat?"
+            "leaveConfirmation": "Keluar rapat?",
+            "disabled": "Terjadi masalah koneksi, silakan coba lagi nanti."
         },
         "newMeetingNotification": {
             "sendMessage": "Kirim pesan",
@@ -351,11 +370,32 @@
             "invalidNameTooltip": "Nama tidak valid",
             "copyLinkSnackbar": "Tautan Ruang Virtual disalin",
             "emptyState": "Ruang Virtual yang Anda buat akan ditampilkan di sini.",
-            "deleteModalDescription": "Anda menghapus Ruang Virtual ini, jika ada rapat yang aktif, maka akan terganggu dan tidak ada yang dapat mengaksesnya lagi. Tetap lanjutkan?",
+            "deleteModalDescription": "Anda menghapus Ruang Virtual ini, jika ada rapat yang aktif, maka akan terhenti dan tidak ada yang dapat mengaksesnya lagi. Tetap lanjutkan?",
             "deleteSnackbar": "Ruang Virtual berhasil dihapus",
             "deleteModalTitle": "Hapus Ruang Virtual {{roomName}}",
             "copyLinkTooltip": "Salin tautan Ruang Virtual",
-            "buttonLabel": "ruang virtual Anda"
+            "buttonLabel": "ruang virtual Anda",
+            "participants": {
+                "onlyUser": "Anda adalah satu-satunya peserta aktif.",
+                "singleActive": "Satu peserta aktif.",
+                "userWithOthers": "Anda dan {{numberOfParticipants}} peserta aktif lainnya.",
+                "multipleActive": "{{numberOfParticipants}} peserta aktif."
+            },
+            "startPrompt": "Mulai rapat di Ruang Virtual ini.",
+            "modal": {
+                "description": "Beri Ruang ini nama yang mudah dikenali sehingga peserta Anda tahu apa yang akan mereka pelajari.",
+                "invalidNameCaption": "Masukkan nama yang lebih pendek.",
+                "moderator": {
+                    "description": "Anda akan memoderasi Ruangan ini. Moderator lain akan ditambahkan sebagai kolaborator dengan hak yang sama.",
+                    "input": "Moderator Ruang"
+                }
+            },
+            "moderators": {
+                "onlyUser": "Anda satu-satunya moderator.",
+                "onlyModerator": "adalah satu-satunya moderator.",
+                "singleAdditional": "dan satu moderator lainnya.",
+                "multipleAdditional": "dan {{numberOfModerators}} moderator lainnya."
+            }
         },
         "sidebar": {
             "waitingCaption": "Menunggu masuk",
@@ -376,7 +416,7 @@
             "waitingList": "Daftar tunggu"
         },
         "snackbar": {
-            "waitingInfo": "Tampaknya ada seseorang di Ruang Tunggu"
+            "waitingInfo": "Tampaknya ada seseorang di ruang tunggu {{roomName}}."
         },
         "browserNotification": {
             "waitingMessage": "Pengguna baru sedang menunggu untuk memasuki rapat"
@@ -416,21 +456,28 @@
                 "hangUp": "Kami menantikan partisipasi Anda dalam rapat mendatang",
                 "rejected": "Moderator memutuskan untuk menolak akses Anda ke dalam rapat",
                 "notAuthenticatedUser": "Anda tidak dapat bergabung dalam rapat jika akun Anda belum diautentikasi",
-                "invalidWaiting": "Anda harus disetujui oleh moderator untuk bergabung dalam rapat ini."
+                "invalidWaiting": "Anda harus disetujui oleh moderator untuk bergabung dalam rapat ini.",
+                "generalError": "Terjadi kesalahan."
             },
             "slogan": {
                 "hangUp": "Mungkin lain kali",
                 "meetingNotFound": "Coba lagi nanti",
                 "rejected": "Mungkin lain kali",
                 "notAuthenticatedUser": "LOGIN UNTUK MENGAKSES RAPAT",
-                "invalidWaiting": "Coba lagi nanti"
+                "invalidWaiting": "Coba lagi nanti",
+                "generalError": "SILAKAN COBA BERGABUNG LAGI"
             },
             "title": {
                 "notAuthenticatedUser": "Anda tidak diautentikasi",
                 "meetingNotFound": "Rapat yang Anda cari tidak ada",
                 "rejected": "Akses Anda ditolak",
                 "hangUp": "Anda telah meninggalkan ruang tunggu!",
-                "invalidWaiting": "Tidak ada moderator dalam rapat"
+                "invalidWaiting": "Tidak ada moderator dalam rapat",
+                "generalError": "Aduh! Anda meninggalkan rapat."
+            },
+            "feedback": {
+                "caption": "Hal ini membantu kami terus berkembang :)",
+                "description": "Pendapat Anda sangat berarti bagi kami!"
             }
         },
         "activeMeetingTooltip": "Ada rapat aktif untuk Obrolan ini",
@@ -471,7 +518,12 @@
         "participantsList": {
             "title_other": "{{count}} peserta rapat"
         },
-        "presentActiveSession": "Ada sesi aktif lainnya"
+        "presentActiveSession": "Ada sesi aktif lainnya",
+        "visualEffects": {
+            "title": "Efek Visual",
+            "blur": "Buramkan",
+            "default": "Tidak ada"
+        }
     },
     "thanksForParticipating": "Terima kasih telah berpartisipasi",
     "tryLater": "Coba nanti",
@@ -538,5 +590,59 @@
         "closeTooltip": "Tutup filter",
         "filterTooltip": "Filter daftar",
         "label": "Ketik untuk memfilter daftar"
+    },
+    "appointment": {
+        "placeholder": {
+            "title": "Anda dapat membuka Obrolan dan membuat Ruang Virtual untuk menyelenggarakan janji temu Anda.",
+            "description": "Anda akan menemukan Ruang Virtual Anda di sini saat Anda kembali."
+        },
+        "input": {
+            "limitedOption": "akses terbatas",
+            "defaultValue": "Belum memilih Ruang Virtual."
+        }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "description": "Tindakan ini membuat salinan grup, termasuk judul, anggota, dan peran moderator.",
+            "callToAction": "SALIN GRUP",
+            "title": "Duplikat ke Modul Obrolan baru"
+        },
+        "modal": {
+            "title": "Buat salinan grup \"{{roomName}}\"",
+            "subtitle": "Anda akan membuat salinan grup di modul Obrolan baru.",
+            "callToAction": "LANJUT",
+            "caption": "Setelah salinan selesai, Anda akan secara otomatis diarahkan ke modul baru.",
+            "warning": "Penting: Anda menyalin grup beserta judul, anggota, dan peran moderatornya. Tindakan ini <strong>tidak membuat</strong> salinan <strong>riwayat percakapan.</strong>"
+        },
+        "alreadyMigrate": {
+            "title": "Grup ini sudah diduplikasi",
+            "callToAction": "LIHAT DI MODUL OBROLAN BARU",
+            "description": "Klik tombol untuk diarahkan ke modul baru dan gunakan duplikat grup ini."
+        },
+        "feedback": {
+            "error": "Terjadi kesalahan, silakan coba lagi atau muat ulang halaman."
+        },
+        "room": {
+            "toBeMigrate": {
+                "description": "Tindakan ini mengubah item ini menjadi grup, serta menyalin judul, topik, anggota, dan peran moderator.",
+                "callToAction": "KONVERSIKAN KE GRUP",
+                "moreMembersNeeded": "Untuk mengubah item ini menjadi grup, setidaknya harus ada dua anggota selain Anda.",
+                "tooltip": "Setidaknya harus ada dua anggota selain Anda.",
+                "title": "Konversikan ke Grup di modul baru"
+            },
+            "modal": {
+                "warning": "Penting: Anda membuat grup baru dengan judul, topik, anggota, dan peran moderator yang sama dengan item asli. Namun tindakan ini <strong>tidak membuat</strong> salinan <strong>riwayat percakapan.</strong>",
+                "caption": "Setelah konversi selesai, Anda akan secara otomatis diarahkan ke modul baru.",
+                "subtitle": "Anda akan mengonversi item ini menjadi grup di modul Obrolan baru.",
+                "title": "Konversikan \"{{roomName}}\" menjadi Grup."
+            },
+            "alreadyMigrate": {
+                "title": "Item ini telah dikonversi",
+                "description": "Klik tombol untuk diarahkan ke modul baru dan gunakan duplikat item ini."
+            }
+        }
+    },
+    "readBy": {
+        "title": "Dilihat oleh:"
     }
 }
