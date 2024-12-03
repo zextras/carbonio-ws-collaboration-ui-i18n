@@ -36,7 +36,8 @@
         "declineAll": "Recusar tudo",
         "understood": "Entendi",
         "deleteForAll": "Excluir para todos",
-        "retry": "Tentar novamente"
+        "retry": "Tentar novamente",
+        "newVirtual": "Nova Sala Virtual"
     },
     "feedback": {
         "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
@@ -144,7 +145,9 @@
         "topOfList": "Topo da lista",
         "youAreAlreadyMuted": "Você está silenciado",
         "participantMuted": "Este participante está silenciado",
-        "collapseSidebar": "Recolher barra lateral"
+        "collapseSidebar": "Recolher barra lateral",
+        "moreReactions": "Mais reações",
+        "reactions": "Reações"
     },
     "attachments": {
         "addFromLocal": "Adicionar do Meu Computador",
@@ -413,7 +416,11 @@
             "startPrompt": "Inicie uma reunião nesta Sala Virtual.",
             "modal": {
                 "description": "Dê a esta sala um nome reconhecível para que os participantes saibam sobre o que esperam conversar.",
-                "invalidNameCaption": "Insira um nome mais curto."
+                "invalidNameCaption": "Insira um nome mais curto.",
+                "moderator": {
+                    "description": "Você vai moderar esta Sala. O moderador adicional será adicionado como colaborador com os mesmos privilégios.",
+                    "input": "Moderadores da Sala"
+                }
             },
             "moderators": {
                 "onlyUser": "Você é o único moderador.",
@@ -545,6 +552,11 @@
             "title_one": "Participante de uma reunião",
             "title_many": "Participantes de {{count}} reuniões",
             "title_other": "Participantes de {{count}} reuniões"
+        },
+        "visualEffects": {
+            "title": "Efeitos Visuais",
+            "default": "Nenhum",
+            "blur": "Borrar"
         }
     },
     "tryLater": "Tente mais tarde",
@@ -612,9 +624,34 @@
         },
         "feedback": {
             "error": "Algo deu errado, tente novamente ou recarregue a página."
+        },
+        "room": {
+            "toBeMigrate": {
+                "title": "Converter para Grupo no novo módulo",
+                "description": "Esta ação converte este item em um grupo, copiando seu título, assunto, membros e função de moderador.",
+                "callToAction": "CONVERTER PARA GRUPO",
+                "moreMembersNeeded": "Para converter este item em um grupo, ele deve ter ao menos dois outros membros além de você.",
+                "tooltip": "Deve haver ao menos dois membros além de você."
+            },
+            "modal": {
+                "warning": "Importante: Você está criando um novo grupo que terá o mesmo título, assunto, membros e função de moderador do item original. No entanto, esta ação <strong>não cria</strong> uma cópia do <strong>histórico de conversas.</strong>",
+                "caption": "Quando a conversão estiver concluída, você será redirecionado automaticamente para o novo módulo.",
+                "subtitle": "Você está prestes a converter este item em um grupo no novo módulo do Chats.",
+                "title": "Converter \"{{roomName}}\" em um Grupo."
+            },
+            "alreadyMigrate": {
+                "title": "Este item já foi convertido",
+                "description": "Clique no botão para ser redirecionado para o novo módulo e usar a cópia duplicada deste item."
+            }
         }
     },
     "readBy": {
         "title": "Visto por:"
+    },
+    "browserNotification": {
+        "reaction": {
+            "group": "{{userName}} reagiu à sua mensagem com:",
+            "chat": "Reagiu à sua mensagem com:"
+        }
     }
 }
