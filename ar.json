@@ -35,7 +35,8 @@
         "online": "متصل"
     },
     "tooltip": {
-        "clear": "مسح"
+        "clear": "مسح",
+        "goToPrivateChat": "انتقل إلى الدردشة الخاصة"
     },
     "attachments": {
         "attachLinkFiles": "إرفاق رابط عام من الملفات",
@@ -48,5 +49,15 @@
     "feedback": {
         "notificationsActivatedForThisChat": "الإشعارات نُشطت لهذه الدردشة",
         "notificationsMutedForThisChat": "الإشعارات كُتمت لهذه الدردشة"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraEnabled": "الكاميرا ممكنةٌ",
+            "cameraDisabled": "الكاميرا معطلةٌ"
+        }
+    },
+    "message": {
+        "edited": "محررةٌ",
+        "deletedMessage": "الرسالة محذوفة"
     }
 }
