@@ -648,5 +648,11 @@
     },
     "readBy": {
         "title": "Zobaczone przez:"
+    },
+    "browserNotification": {
+        "reaction": {
+            "group": "{{userName}} zareagował(a) na Twoją wiadomość:",
+            "chat": "Zareagował(a) na Twoją wiadomość:"
+        }
     }
 }
