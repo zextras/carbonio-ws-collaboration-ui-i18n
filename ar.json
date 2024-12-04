@@ -29,6 +29,10 @@
             "subtitle": {
                 "general": "عام"
             }
+        },
+        "profile": {
+            "title": "ملف التعريف",
+            "errorGenericResponse": "حدث خطأ ما. يرجى إعادة المحاولة"
         }
     },
     "status": {
@@ -59,5 +63,10 @@
     "message": {
         "edited": "محررةٌ",
         "deletedMessage": "الرسالة محذوفة"
+    },
+    "notification": {
+        "meeting": {
+            "ended": "انتهى الاجتماع"
+        }
     }
 }
