@@ -16,7 +16,8 @@
         "muteNotifications": "كتم الإشعارات",
         "replyToSomeone": "الرد على",
         "replyToYourself": "الرد على نفسك",
-        "editYourMessage": "عَدِل رسالتك"
+        "editYourMessage": "عَدِل رسالتك",
+        "undo": "تراجع"
     },
     "conversationInfo": {
         "email": "البريد الإلكتروني",
@@ -36,11 +37,17 @@
         }
     },
     "status": {
-        "online": "متصل"
+        "online": "متصل",
+        "lastSeen": "آخر ظهور {{lastSeen}}",
+        "offline": "غير متصل"
     },
     "tooltip": {
         "clear": "مسح",
-        "goToPrivateChat": "انتقل إلى الدردشة الخاصة"
+        "goToPrivateChat": "انتقل إلى الدردشة الخاصة",
+        "messageComposer": "مؤلف الرسالة",
+        "close": "أغلق",
+        "selectEmoji": "إختر الرمز التعبيري -إيموجي-",
+        "sendMessage": "أرسل رسالة"
     },
     "attachments": {
         "attachLinkFiles": "إرفاق رابط عام من الملفات",
@@ -68,5 +75,7 @@
         "meeting": {
             "ended": "انتهى الاجتماع"
         }
-    }
+    },
+    "tryLater": "حاول لاحقا",
+    "thanksForParticipating": "شكرا على المشاركة"
 }
