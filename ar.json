@@ -17,12 +17,36 @@
         "replyToSomeone": "الرد على",
         "replyToYourself": "الرد على نفسك",
         "editYourMessage": "عَدِل رسالتك",
-        "undo": "تراجع"
+        "undo": "تراجع",
+        "deleteForAll": "الحذف للجميع",
+        "addMoreAttachments": "أضف {{counter}} مرفقات",
+        "editRoom": "تحرير {{roomName}}",
+        "decline": "رَفَضَ",
+        "declineAll": "رَفَضَ الكل",
+        "enter": "دخول",
+        "forwarded": "معاد توجيهها",
+        "joinMeeting": "انضم إلى الاجتماع",
+        "newChat": "دردشة جديدة",
+        "removeUser": "إزالة",
+        "scrollToBottom": "انتقل إلى الأسفل",
+        "understood": "مفهوم",
+        "retry": "إعادة المحاولة",
+        "addAttachment": "إضافة مرفق",
+        "addNewMembersTo": "إضافة أعضاء جدد إلى {{roomName}}",
+        "addSingleAttachment": "أضف {{counter}} مرفقًا",
+        "editDetails": "تعديل التفاصيل",
+        "clearHistory": "مسح التاريخ",
+        "download": "تنزيل"
     },
     "conversationInfo": {
         "email": "البريد الإلكتروني",
         "name": "الاسم",
-        "status": "الحالة"
+        "status": "الحالة",
+        "messages": "الرسائل",
+        "title": "العنوان",
+        "topic": "الموضوع",
+        "actionAccordionTitle": "الإجراءات",
+        "info": "المعلومات"
     },
     "settings": {
         "notifications": {
@@ -34,6 +58,9 @@
         "profile": {
             "title": "ملف التعريف",
             "errorGenericResponse": "حدث خطأ ما. يرجى إعادة المحاولة"
+        },
+        "export": {
+            "filterInput": "قائمة التصفية"
         }
     },
     "status": {
@@ -51,7 +78,16 @@
     },
     "attachments": {
         "attachLinkFiles": "إرفاق رابط عام من الملفات",
-        "addFromLocal": "أضف من جهازك"
+        "addFromLocal": "أضف من جهازك",
+        "stopUpload": "إيقاف التحميل",
+        "dragAndDrop": "وضع السحب والإفلات",
+        "dropHereDescription": "قم بإسقاط مرفقاتك هنا لإضافتها بسرعة إلى هذه الدردشة",
+        "errorUploadingFile": "لقد حدث خطأ أثناء تحميل {{file}}",
+        "integrations": {
+            "chooseFile": "اختر الملف",
+            "shareLink": "مشاركة الرابط العام"
+        },
+        "uploadAborted": "لقد تم مقاطعة التحميل"
     },
     "external": {
         "nobodyInTheRoom": "يبدو أنه لا يوجد أحد في هذه الغرفة",
@@ -59,12 +95,146 @@
     },
     "feedback": {
         "notificationsActivatedForThisChat": "الإشعارات نُشطت لهذه الدردشة",
-        "notificationsMutedForThisChat": "الإشعارات كُتمت لهذه الدردشة"
+        "notificationsMutedForThisChat": "الإشعارات كُتمت لهذه الدردشة",
+        "historyCleared": "تم مسح التاريخ بنجاح!",
+        "messageCopied": "تم نسخ الرسالة",
+        "networkProblem": {
+            "websocket": "لقد حدث خطأ أثناء الاتصال بمنفذ الويب -WEBSOCKET-",
+            "wsc": "لقد حدث خطأ أثناء الاتصال بـ WSC",
+            "xmpp": "لقد حدث خطأ أثناء الاتصال بـ XMPP"
+        },
+        "networkProblems": "قد تكون هناك مشاكل عند استخدام هذه الوحدة، يرجى محاولة تحديث الصفحة."
     },
     "meeting": {
         "interactions": {
             "cameraEnabled": "الكاميرا ممكنةٌ",
-            "cameraDisabled": "الكاميرا معطلةٌ"
+            "cameraDisabled": "الكاميرا معطلةٌ",
+            "disableMicrophone": "تعطيل لاقط الصوت (ميكروفون)",
+            "cinemaView": "العرض السينمائي",
+            "disableScreen": "تعطيل مشاركة الشاشة",
+            "enableCamera": "تمكين آلة التصوير ( الكاميرا)",
+            "leaveMeeting": "مغادرة الاجتماع",
+            "userHint": "قم بتشغيل آلة التصوير (الكاميرا) لتحديد تأثير الصورة المتحركة (الفيديو)",
+            "stopMic": "إيقاف اختبار لاقط الصوت",
+            "leaveConfirmation": "هل تريد مغادرة الاجتماع؟",
+            "title": {
+                "devices": "اﻷجهزة",
+                "videoEffect": "مؤثرات الصورة المتحركة ( الفيديو)"
+            },
+            "option": {
+                "removeBlur": "إزالة تأثير التمويه",
+                "applyBlur": "تطبيق تأثير التمويه"
+            },
+            "disableCamera": "تعطيل آلة التصوير (الكاميرا)",
+            "microphoneDisabled": "تم تعطيل لاقط الصوت (مايكروفون)",
+            "microphoneEnabled": "تم تمكين لاقط الصوت (ميكروفون)",
+            "playMic": "بدء اختبار لاقط الصوت",
+            "selectedDeviceTooltip": "الجهاز المحدد",
+            "disableFullScreen": "تعطيل ملء الشاشة",
+            "enableFullScreen": "تمكين ملء الشاشة",
+            "enableScreen": "تمكين مشاركة الشاشة",
+            "enableMicrophone": "تمكين لاقط الصوت (ميكروفون)",
+            "gridView": "العرض الشبكي"
+        },
+        "sidebar": {
+            "waitingList": "قائمة الانتظار",
+            "waitingCaption": "في انتظار الدخول",
+            "tooltip": {
+                "waitingAccept": "السماح للمستخدم بالدخول",
+                "waitingReject": "رفض المستخدم"
+            },
+            "recording": {
+                "title": "التسجيل",
+                "moderatorInfo": "بدأ بالتسجيل",
+                "action": {
+                    "start": "بدء التسجيل",
+                    "stop": "إيقاف التسجيل"
+                },
+                "description": "سيتم حفظ التسجيل في مساحة الملفات الخاصة بالمشرف الذي أوقفه.",
+                "additionalDescription": "إذا حدث خطأ ما، سيتم حفظ التسجيل في مساحة الملفات الخاصة بالمشرف الذي بدأه."
+            }
+        },
+        "expandChat": "توسيع الدردشة",
+        "waitingRoom": {
+            "readyHint": "سوف تدخل الاجتماع بعد لحظات",
+            "setInputs": "قم بضبط أجهزة الإدخال الخاصة بك عن طريق اختيارها من القائمة المنسدلة",
+            "welcomeCaption": "عندما تكون مستعدًا، كن مرتاحًا.",
+            "nextStep": "سيسمح لك المنسق بالدخول إلى الاجتماع في أقرب وقت ممكن.",
+            "userIsReady": "أنت جاهز!",
+            "hangUp": "أنه",
+            "ready": "جاهز للمشاركة",
+            "readyCaption": "كل شيء جاهز! اجعل نفسك مرتاحًا.",
+            "title": "كيف تريد الانضمام إلى الاجتماع {{meeting Name}}؟",
+            "welcomeHint": "انقر على \"جاهز للمشاركة\" للدخول إلى الاجتماع"
+        },
+        "activeMeetingTooltip": "هناك اجتماع نشط لهذه الدردشة",
+        "joinMeetingDescription": "كيف تريد الانضمام إلى هذا الاجتماع؟",
+        "newMeetingNotification": {
+            "userIsInvitingYou": "<strong>{{name}}</strong> يدعوك",
+            "sendMessage": "أرسل رسالة",
+            "writeAMessageToSendIt": "اكتب رسالة لإرسالها",
+            "sendAQuickMessage": "أرسل رسالة سريعة"
+        },
+        "noTwoActiveSession": "لا يمكن أن تتواجد جلستان نشطتان في نفس الاجتماع معًا",
+        "waitingParticipants": "في انتظار المشاركين للانضمام…",
+        "virtual": {
+            "deleteTooltip": "حذف الغرفة الافتراضية",
+            "createTooltip": "إنشاء غرفة افتراضية جديدة",
+            "deleteSnackbar": "تم حذف الغرفة الافتراضية بنجاح",
+            "deleteModalTitle": "حذف الغرفة الافتراضية {{roomName}}",
+            "creationInput": "اسم الغرفة الافتراضية الجديدة",
+            "nameRequiredTooltip": "اسم الغرفة الافتراضية مطلوب",
+            "invalidNameTooltip": "اسم غير صالح",
+            "copyLinkSnackbar": "تم نسخ رابط الغرفة الافتراضية",
+            "buttonLabel": "غرفك الافتراضية",
+            "emptyState": "ستظهر هنا الغرف الافتراضية التي قمت بإنشائها.",
+            "copyLinkTooltip": "نسخ رابط الغرفة الافتراضية",
+            "deleteModalDescription": "أنت تقوم بحذف هذه الغرفة الافتراضية، إذا كانت تحتوي على اجتماعات نشطة، فسيتم إيقافها ولن يتمكن أي شخص من الوصول إلى الغرفة بعد الآن. هل تريد المتابعة؟"
+        },
+        "infoPage": {
+            "title": {
+                "rejected": "لقد تم رفض دخولك",
+                "meetingNotFound": "الاجتماع الذي تبحث عنه غير موجود",
+                "hangUp": "لقد غادرت غرفة الانتظار!"
+            }
+        },
+        "rejoinMeeting": "إعادة الانضمام إلى الاجتماع",
+        "collapseParticipantsMeetingTooltip": "طوي قائمة المشاركين",
+        "ongoingOneToOneMeetingTooltip": "لديك بالفعل اجتماع نشط مع {{name}}",
+        "setInputDescription": "قم بضبط أجهزة الإدخال الخاصة بك عن طريق اختيارها من القائمة المنسدلة",
+        "tooltip": {
+            "activeSessionTooltip": "لديك جلسة نشطة في هذا الاجتماع"
+        },
+        "startModal": {
+            "enterRoomMeetingTitle": "المشاركة في الاجتماع {{meetingTitle}}",
+            "audioAndVideoLoading": "جاري تحميل اﻷجهزة",
+            "enterOneToOneMeetingTitle": "انضم إلى الاجتماع {{meetingTitle}}"
+        },
+        "collapseChat": "انهيار الدردشة",
+        "continueActiveSession": "متابعة الاجتماع في النافذة الجديدة",
+        "snackbar": {
+            "waitingInfo": "يبدو أن هناك شخصًا في غرفة انتظار {{roomName}}."
+        },
+        "browserNotification": {
+            "waitingMessage": "المستخدم الجديد ينتظر الدخول إلى الاجتماع"
+        },
+        "extendChat": "تمديد الدردشة",
+        "joinMeeting": "انضم إلى الاجتماع",
+        "expandParticipantsListTooltip": "توسيع قائمة المشاركين",
+        "noMoreActiveSession": "لا يمكن أن يكون هناك أكثر من جلسة نشطة لنفس الاجتماع",
+        "restartMeeting": "إعادة الاجتماع",
+        "startMeeting": "بدء الاجتماع",
+        "minimizeChat": "تقليل الدردشة",
+        "ongoingGroupMeetingTooltip": "أنت مشارك بالفعل في هذا الاجتماع",
+        "openedInAnotherWindow": "هذا الاجتماع مفتوح مسبقاً في نافذة أخرى",
+        "presentActiveSession": "هناك جلسةٌ نشطةٌ أخرى",
+        "participantsList": {
+            "title_zero": "0 مشارك في الإجتماع",
+            "title_one": "1 مشارك في الإجتماع",
+            "title_two": "{{count}} مشاركان في الإجتماع",
+            "title_few": "{{count}} مشاركون في الإجتماع",
+            "title_many": "{{count}} مشارك في الإجتماع",
+            "title_other": "{{count}} مشارك في الإجتماع"
         }
     },
     "message": {
@@ -77,5 +247,59 @@
         }
     },
     "tryLater": "حاول لاحقا",
-    "thanksForParticipating": "شكرا على المشاركة"
+    "thanksForParticipating": "شكرا على المشاركة",
+    "affiliationMessages": {
+        "oneToOneCreated": "تم إنشاء دردشة جديدة!",
+        "member": {
+            "Removed": "{{userName}} لم يعد عضوًا في {{roomName}}.",
+            "Added": "تمت إضافة {{userName}} إلى {{roomName}}."
+        },
+        "user": {
+            "Removed": "أنت لم تعد عضوًا في {{roomName}}.",
+            "Added": "لقد تمت إضافتك إلى {{roomName}}."
+        },
+        "groupCreated": "{{roomName}} أنشأت!"
+    },
+    "keepInTouchWithColleagues": "ابق على تواصل مع زملائك أو انضم إلى غرف اجتماعات مجموعاتك",
+    "date": {
+        "today": "اليوم",
+        "yesterday": "الأمس"
+    },
+    "conversation": {
+        "emptyListDescription": "ستظهر الدردشات والمجموعات مدرجة هنا",
+        "longCaption": {
+            "modal": {
+                "action": "أرفق على أية حال",
+                "title": "الرسالة طويلة جدًا لا يمكن شرحها",
+                "description": "هذا النص طويل جدًا ولا يمكن استخدامه كعنوان مرفق.",
+                "additionalDetails": "إذا تابعت العملية، سيتم إزالة الفائض من النص الأصلي. هل تريد المتابعة؟"
+            }
+        },
+        "emptyListTitle": "هذه القائمة فارغة",
+        "keepInTouchTitle": "دعونا نبقى على تواصل!",
+        "mockCreateChatTitle": "إنشاء محادثة جديدة باستخدام زر الإنشاء",
+        "newMessage": "رسالة جديدة",
+        "newMessages": "الرسائل الجديدة",
+        "selectionMode": {
+            "maxSelected": "لقد وصلت إلى الحد الأقصى لعدد الرسائل التي يمكن إعادة توجيهها في المرة الواحدة. قم بإلغاء تحديد رسالة لإعادة التوجيه.",
+            "multipleForward": "إعادة توجيه {{numberOfMessages}} رسالة",
+            "exit": "الخروج من وضع الاختيار"
+        }
+    },
+    "chat": "دردشة",
+    "conversationFilter": {
+        "label": "اكتب لقائمة التصفية",
+        "filterTooltip": "قائمة التصفية",
+        "closeTooltip": "إغلاق التصفيات"
+    },
+    "editModal": {
+        "confirm": "تعديل التفاصيل",
+        "confirmDisabled": "لم تغير شيئا",
+        "errorDisabled": "التحقق من المعلومات المدخلة",
+        "groupNameDetails": "مطلوب ويعرف المجموعة",
+        "nameTooLong": "الحد الأقصى لطول العنوان هو 128 حرفًا",
+        "nameTooShort": "العنوان هو معلومة أساسية",
+        "topicTooLong": "الحد الأقصى لطول الموضوع هو 256 حرفًا",
+        "groupDescriptionDetails": "يصف موضوع المجموعة"
+    }
 }
