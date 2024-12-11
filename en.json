@@ -652,10 +652,5 @@
             "group": "{{userName}} reacted to your message with:",
             "chat": "Reacted to your message with:"
         }
-    },
-    "rticipantsList": {
-        "noMatch": {
-            "general": "Your search returned no results, try another keyword."
-        }
     }
 }
