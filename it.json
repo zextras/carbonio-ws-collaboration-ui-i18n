@@ -110,7 +110,8 @@
         },
         "noMatch": {
             "all": "La ricerca non ha prodotto risultati tra gli utenti presenti nelle tue conversazioni o nella tua organizzazione.",
-            "chatList": "La ricerca non ha prodotto risultati all'interno delle tue conversazioni."
+            "chatList": "La ricerca non ha prodotto risultati all'interno delle tue conversazioni.",
+            "general": "La tua ricerca non ha prodotto risultati, prova a usare un'altra parola chiave."
         }
     },
     "tooltip": {
@@ -430,7 +431,8 @@
                     "input": "Moderatori della Stanza",
                     "description": "Modererai questa Stanza. I moderatori aggiuntivi verranno aggiunti come collaboratori con gli stessi privilegi."
                 }
-            }
+            },
+            "newRoom": "Crea nuova stanza"
         },
         "sidebar": {
             "waitingCaption": "In attesa di entrare",
