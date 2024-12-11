@@ -36,7 +36,8 @@
         "addSingleAttachment": "أضف {{counter}} مرفقًا",
         "editDetails": "تعديل التفاصيل",
         "clearHistory": "مسح التاريخ",
-        "download": "تنزيل"
+        "download": "تنزيل",
+        "newVirtual": "غرفة افتراضية جديدة"
     },
     "conversationInfo": {
         "email": "البريد الإلكتروني",
@@ -52,21 +53,86 @@
         "notifications": {
             "title": "إعلامات",
             "subtitle": {
-                "general": "عام"
-            }
+                "general": "عام",
+                "waitingRoom": "إشعارات الدخول إلى غرفة الانتظار"
+            },
+            "toggleSounds": {
+                "desktop": "تمكين صوت إشعارات سطح المكتب",
+                "waitingRoom": "تمكين صوت الإشعارات"
+            },
+            "checkbox": {
+                "waitingRoom": "السماح بالإشعارات",
+                "desktop": "السماح بإشعارات سطح المكتب"
+            },
+            "description": "قم بتعيين تفضيلاتك لإشعارات الدردشات."
         },
         "profile": {
             "title": "ملف التعريف",
-            "errorGenericResponse": "حدث خطأ ما. يرجى إعادة المحاولة"
+            "errorGenericResponse": "حدث خطأ ما. يرجى إعادة المحاولة",
+            "description": "اختر الصورة الرمزية التي سوف يراها المستخدمون الآخرون، وسيتم توسيط الصورة تلقائيًا.",
+            "pictureSizeTooLarge": "حدث خطأ ما، تذكر أن الحد الأقصى لحجم صورة الصورة الرمزية هو {{size}} كيلوبايت",
+            "statusLabel": "ستظهر حالتك هنا",
+            "updatedPictureCorrectly": "تم تحميل الصورة الرمزية الجديدة بنجاح",
+            "deletedUserImageCorrectly": "تم إعادة تعيين الصورة الرمزية بنجاح إلى الصورة الأصلية",
+            "maximumDimension": "الحجم الأقصى : {{size}} كيلوبايت"
         },
         "export": {
-            "filterInput": "قائمة التصفية"
+            "filterInput": "قائمة التصفية",
+            "emptySpace": {
+                "firstAccess": {
+                    "callToAction": "انتقل إلى الدردشات وابدأ التعاون!",
+                    "description": "ستظهر محادثاتك الفردية ومجموعاتك مدرجة هنا.",
+                    "title": "لا يوجد شيء هناك."
+                },
+                "noMatch": {
+                    "description": "لا يوجد تطابقات لهذا البحث في الدردشات الحالية لديك.",
+                    "title": "حاول استعلامًا آخر."
+                }
+            },
+            "caption": "قد يستغرق تصدير الدردشات التي تحتوي على قدر كبير من المحتوى بعض الوقت.",
+            "title": "تصدير الدردشة",
+            "action": "تصدير الدردشة المحددة",
+            "tooltip": {
+                "noOneSelected": "حدد إحدى الدردشات الخاصة بك لتصديرها",
+                "ongoingExport": "لقد قمت بالفعل بتصدير الدردشة، انتظر حتى تنتهي عملية التصدير."
+            },
+            "subHead": "اختر إحدى محادثاتك لتصدير الرسائل إلى ملف نصي. تذكر أنك مسؤول عن كيفية استخدام البيانات المصدرة.",
+            "description": "أثناء عملية التصدير، يمكنك تصفح كاربونيو دون قلق. ولكن، إذا قمت بتحديث الصفحة، فسيتم قطع عملية التصدير.",
+            "snackbar": {
+                "success": "تم تصدير الدردشة بنجاح، تحقق من مجلد التنزيلات الخاصة بك!"
+            }
+        },
+        "title": "إعدادات الدردشات",
+        "meetings": {
+            "title": "الاجتماعات",
+            "description": "اضبط إعدادات الصوت والصورة الخاصة بك للدخول إلى الاجتماعات. يمكنك دائمًا تخصيص الإعدادات قبل الانضمام إلى كل اجتماع."
+        },
+        "room": {
+            "deletedImageCorrectly": "تم إعادة تعيين الصورة الرمزية للمجموعة بنجاح إلى الصورة الأصلية",
+            "deletedUserImageCorrectly": "تم إعادة تعيين الصورة الرمزية بنجاح إلى الصورة الأصلية",
+            "pictureSizeTooLarge": "حدث خطأ ما، تذكر أن الحد الأقصى لحجم صورة الرمز الخاصة بالمجموعة هو {{size}} كيلوبايت",
+            "updatedPictureCorrectly": "تم تحميل الصورة الرمزية الجديدة بنجاح"
+        },
+        "save": "تم حفظ التعديلات بشكل صحيح",
+        "recording": {
+            "title": "التسجيل",
+            "description": "قم بتعيين مجلد مخصص لحفظ تسجيلات الاجتماعات التي توقفها.",
+            "inputLabel": "مجلد الحفظ",
+            "browseAction": "تصفح",
+            "resetAction": "إعادة ضبط"
         }
     },
     "status": {
         "online": "متصل",
         "lastSeen": "آخر ظهور {{lastSeen}}",
-        "offline": "غير متصل"
+        "offline": "غير متصل",
+        "you": "أنت",
+        "areTyping": "يكتب…",
+        "goToPrivateChat": "انتقل إلى الدردشة الخاصة لإرسال رسالة شخصية",
+        "isTyping": "يكتب…",
+        "Anonymous": "مستخدم مجهول",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} من الأشخاص يكتبون…",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} و{{numberOfUsers}} آخرين يكتبون…"
     },
     "tooltip": {
         "clear": "مسح",
@@ -74,7 +140,51 @@
         "messageComposer": "مؤلف الرسالة",
         "close": "أغلق",
         "selectEmoji": "إختر الرمز التعبيري -إيموجي-",
-        "sendMessage": "أرسل رسالة"
+        "sendMessage": "أرسل رسالة",
+        "reactions": "ردود الفعل",
+        "moreReactions": "المزيد من ردود الفعل",
+        "unpinVideo": "إلغاء تثبيت الصور المتحركة (الفيديو)",
+        "uploading": "جاري التحميل",
+        "expandSidebar": "توسيع الشريط الجانبي",
+        "forwardedMessage": "الرسالة المعاد توجيهها من دردشة أخرى",
+        "iAmModerator": "أنت المشرف",
+        "messageRead": "مقروءة",
+        "userAvatar": {
+            "updateAvatar": "تحديث الصورة الرمزية",
+            "resetAvatar": "إعادة تعيين الصورة الرمزية",
+            "uploadAvatar": "تحميل الصورة الرمزية"
+        },
+        "youAreAlreadyMuted": "تم كتم صوتك",
+        "muteForAll": "كتم الصوت للجميع",
+        "bottomOfList": "أسفل القائمة",
+        "collapseCarousel": "طي",
+        "collapseSidebar": "طي الشريط الجانبي",
+        "demoteModerator": "تخفيض رتبة المشرف",
+        "disableModalButton": "اختر عنوان واحد على الأقل",
+        "leaveAndDelete": "مغادرة وحذف الدردشة",
+        "leaveConversation": "مغادرة المجموعة",
+        "memberIsModerator": "هذا العضو هو المشرف",
+        "messageActions": "إجراءات الرسالة",
+        "messageReceived": "مستلمة",
+        "messageSent": "مرسلة",
+        "participantMuted": "تم كتم صوت هذا المشارك",
+        "pending": "قيد الانتظار",
+        "pinVideo": "تثبيت الفيديو",
+        "promoteModerator": "الترقية لمشرف",
+        "promoteSomeoneElseToModerator": "قبل المغادرة يجب عليك ترقية شخص آخر ليكون مشرف",
+        "removeToAddNewOne": "أزل شخص لإضافة أعضاء جدد",
+        "room": {
+            "resetPicture": "إعادة تعيين الصورة",
+            "updatePicture": "تحديث الصورة",
+            "uploadPicture": "تحميل الصورة"
+        },
+        "scrollDown": "انتقل تحت",
+        "scrollUp": "انتقل فوق",
+        "topOfList": "أعلى القائمة",
+        "writeToSend": "اكتب رسالة لإرسالها",
+        "expandCarousel": "توسيع",
+        "showConversationList": "إظهار قائمة الدردشة",
+        "uploadAttachment": "تحميل مرفق"
     },
     "attachments": {
         "attachLinkFiles": "إرفاق رابط عام من الملفات",
@@ -103,7 +213,8 @@
             "wsc": "لقد حدث خطأ أثناء الاتصال بـ WSC",
             "xmpp": "لقد حدث خطأ أثناء الاتصال بـ XMPP"
         },
-        "networkProblems": "قد تكون هناك مشاكل عند استخدام هذه الوحدة، يرجى محاولة تحديث الصفحة."
+        "networkProblems": "قد تكون هناك مشاكل عند استخدام هذه الوحدة، يرجى محاولة تحديث الصفحة.",
+        "connectionReestabilished": "تم إعادة الاتصال، ويمكن أن يستمر الاجتماع دون انقطاع."
     },
     "meeting": {
         "interactions": {
@@ -134,7 +245,8 @@
             "enableFullScreen": "تمكين ملء الشاشة",
             "enableScreen": "تمكين مشاركة الشاشة",
             "enableMicrophone": "تمكين لاقط الصوت (ميكروفون)",
-            "gridView": "العرض الشبكي"
+            "gridView": "العرض الشبكي",
+            "disabled": "هناك مشاكل في الاتصال، يرجى المحاولة مرة أخرى لاحقًا."
         },
         "sidebar": {
             "waitingList": "قائمة الانتظار",
@@ -189,13 +301,57 @@
             "buttonLabel": "غرفك الافتراضية",
             "emptyState": "ستظهر هنا الغرف الافتراضية التي قمت بإنشائها.",
             "copyLinkTooltip": "نسخ رابط الغرفة الافتراضية",
-            "deleteModalDescription": "أنت تقوم بحذف هذه الغرفة الافتراضية، إذا كانت تحتوي على اجتماعات نشطة، فسيتم إيقافها ولن يتمكن أي شخص من الوصول إلى الغرفة بعد الآن. هل تريد المتابعة؟"
+            "deleteModalDescription": "أنت تقوم بحذف هذه الغرفة الافتراضية، إذا كانت تحتوي على اجتماعات نشطة، فسيتم إيقافها ولن يتمكن أي شخص من الوصول إلى الغرفة بعد الآن. هل تريد المتابعة؟",
+            "participants": {
+                "onlyUser": "أنت المشارك النشط الوحيد.",
+                "singleActive": "مشارك واحد نشط.",
+                "userWithOthers": "أنت و{{number Of Participants}} من المشاركين النشطين الآخرين.",
+                "multipleActive": "{{numberOfParticipants}} من المشاركين النشطين."
+            },
+            "startPrompt": "ابدأ اجتماعًا في هذه الغرفة الافتراضية.",
+            "modal": {
+                "description": "أعط هذه الغرفة اسمًا واضحًا حتى يتمكن الحضور من معرفة ما يتوقعون الاجتماع بشأنه.",
+                "invalidNameCaption": "الرجاء إدخال اسم أقصر.",
+                "moderator": {
+                    "description": "أنت من سيدير هذه الغرفة. سيتم إضافة المشرف الإضافي كمتعاون بنفس الامتيازات.",
+                    "input": "مشرفو الغرفة"
+                }
+            },
+            "moderators": {
+                "onlyUser": "أنت المشرف الوحيد.",
+                "onlyModerator": "هو المشرف الوحيد.",
+                "singleAdditional": "ومشرف آخر.",
+                "multipleAdditional": "و {{numberOfModerators}} مشرفين آخرين."
+            }
         },
         "infoPage": {
             "title": {
                 "rejected": "لقد تم رفض دخولك",
                 "meetingNotFound": "الاجتماع الذي تبحث عنه غير موجود",
-                "hangUp": "لقد غادرت غرفة الانتظار!"
+                "hangUp": "لقد غادرت غرفة الانتظار!",
+                "generalError": "آآآه! لقد غادرت الاجتماع.",
+                "notAuthenticatedUser": "أنت غير موثق",
+                "invalidWaiting": "لا يوجد مشرفين في الاجتماع"
+            },
+            "slogan": {
+                "generalError": "من فضلك حاول الانضمام مرة أخرى",
+                "hangUp": "ربما في المرة القادمة",
+                "meetingNotFound": "حاول لاحقا",
+                "invalidWaiting": "حاول مرة أخرى لاحقًا",
+                "rejected": "ربما في المرة القادمة",
+                "notAuthenticatedUser": "سجل الدخول للوصول إلى الاجتماع"
+            },
+            "description": {
+                "generalError": "لقد حدث خطأ ما.",
+                "hangUp": "نتطلع إلى رؤيتكم تشاركون في الاجتماعات المستقبلية",
+                "meetingNotFound": "يرجى التحقق من رابط الاجتماع والمحاولة مرة أخرى",
+                "rejected": "لقد قرر المشرفون منعك من الوصول إلى الاجتماع",
+                "notAuthenticatedUser": "لا يمكنك الانضمام إلى الاجتماع إذا لم يتم التحقق من هويتك باستخدام حسابك",
+                "invalidWaiting": "يجب أن تتم الموافقة عليك من قبل المشرف للانضمام إلى هذا الاجتماع."
+            },
+            "feedback": {
+                "caption": "يساعدنا على الاستمرار في التحسين :)",
+                "description": "رأيك مهم لنا!"
             }
         },
         "rejoinMeeting": "إعادة الانضمام إلى الاجتماع",
@@ -235,11 +391,44 @@
             "title_few": "{{count}} مشاركون في الإجتماع",
             "title_many": "{{count}} مشارك في الإجتماع",
             "title_other": "{{count}} مشارك في الإجتماع"
-        }
+        },
+        "recordingModal": {
+            "description": "سوف تقوم بإيقاف التسجيل. يمكنك بدء تسجيل جديد في أي وقت.",
+            "caption": "سيتم حفظ التسجيل في المجلد {{folderName}} في الملفات. انتقل إلى الإعدادات > الدردشات > التسجيل لتغيير مجلد الحفظ.",
+            "title": "إيقاف التسجيل",
+            "inputLabel": "اسم التسجيل",
+            "confirmationAction": "قف",
+            "requiredNameError": "اسم ملف التسجيل مطلوب",
+            "exceededCharsError": "يجب ألا يتجاوز اسم ملف التسجيل 128 حرفًا"
+        },
+        "visualEffects": {
+            "title": "المؤثرات البصرية",
+            "default": "بدون",
+            "blur": "ضبابي"
+        },
+        "recordingStart": {
+            "successSnackbar": {
+                "participants": "بدأ {{userName}} تسجيل هذا الاجتماع",
+                "starter": "لقد بدأت تسجيل هذا الاجتماع"
+            },
+            "failureSnackbar": "لا يمكن البدء بالتسجيل، يرجى الاتصال بمسؤول النظام الخاص بك."
+        },
+        "recordingStop": {
+            "failureSnackbar": "ليس من الممكن إيقاف التسجيل، يرجى الاتصال بمسؤول النظام الخاص بك.",
+            "successSnackbar": {
+                "stopper": "ستجد {{recordingName}} في{{folderName}} بمجرد توفره",
+                "participants": "أوقف {{userName}} تسجيل هذا الاجتماع"
+            }
+        },
+        "durationTooltip": "مدة الاجتماع",
+        "recordingHint": "يتم تسجيل هذا الاجتماع"
     },
     "message": {
         "edited": "محررةٌ",
-        "deletedMessage": "الرسالة محذوفة"
+        "deletedMessage": "الرسالة محذوفة",
+        "draft": "مسودة",
+        "forwardedMultipleTimes": "تم إعادة توجيهها عدة مرات",
+        "originallySentBy": "<strong>أرسلت بواسطة:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "notification": {
         "meeting": {
@@ -284,6 +473,20 @@
             "maxSelected": "لقد وصلت إلى الحد الأقصى لعدد الرسائل التي يمكن إعادة توجيهها في المرة الواحدة. قم بإلغاء تحديد رسالة لإعادة التوجيه.",
             "multipleForward": "إعادة توجيه {{numberOfMessages}} رسالة",
             "exit": "الخروج من وضع الاختيار"
+        },
+        "displayer": {
+            "title": "اختر دردشة لبدء إرسال الرسائل",
+            "description": "التفاعل والتواصل والتعاون مع زملائك من خلال مشاركة المعلومات والمرفقات."
+        },
+        "emptyList": {
+            "displayer": {
+                "title": "إنشاء محادثة جديدة باستخدام زر الإنشاء",
+                "description": "عند إنشاء دردشة سيكون لديك إمكانية اختيار أكثر من شخص وإنشاء مجموعة."
+            },
+            "list": {
+                "title": "لا يوجد شيء هناك",
+                "description": "ستظهر الدردشات والمجموعات مدرجة هنا."
+            }
         }
     },
     "chat": "دردشة",
@@ -301,5 +504,161 @@
         "nameTooShort": "العنوان هو معلومة أساسية",
         "topicTooLong": "الحد الأقصى لطول الموضوع هو 256 حرفًا",
         "groupDescriptionDetails": "يصف موضوع المجموعة"
+    },
+    "appointment": {
+        "input": {
+            "defaultValue": "لم يتم تحديد غرفة افتراضية.",
+            "limitedOption": "الوصول محدود"
+        },
+        "placeholder": {
+            "title": "بإمكانك الذهاب إلى الدردشات وإنشاء غرفة افتراضية لاستضافة موعدك.",
+            "description": "ستجد غرفك الافتراضية هنا عند عودتك."
+        }
+    },
+    "configurationMessages": {
+        "user": {
+            "roomTopicChanged": "لقد قمت بتغيير موضوع {{roomName}} في \"<i>{{topicName}}</i>\".",
+            "roomNameChanged": "لقد قمت بتغيير عنوان هذه المجموعة في \"<i>{{roomName}}</i>\".",
+            "roomPictureDeleted": "لقد قمت باستعادة الصورة الافتراضية لـ {{roomName}}.",
+            "roomPictureUpdated": "لقد قمت بتغيير صورة {{roomName}}.",
+            "roomTopicRemoved": "لقد قمت بإزالة موضوع {{roomName}}."
+        },
+        "member": {
+            "roomTopicChanged": "قام {{name}} بتغيير موضوع {{roomName}} في \"<i>{{topicName}}</i>\".",
+            "roomPictureDeleted": "قام {{name}} باستعادة الصورة الافتراضية لـ {{roomName}}.",
+            "roomNameChanged": "قام {{name}} بتغيير عنوان هذه المجموعة في \"<i>{{roomName}}</i>\".",
+            "roomPictureUpdated": "{{name}} قام بتغيير صورة {{room Name}}.",
+            "roomTopicRemoved": "قام {{name}} بإزالة موضوع {{roomName}}."
+        }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "title": "تكرار إلى وحدة الدردشات الجديدة",
+            "callToAction": "نسخ المجموعة",
+            "description": "يؤدي هذا الإجراء إلى إنشاء نسخة من المجموعة، بما في ذلك عنوانها وأعضائها ودور المشرف."
+        },
+        "modal": {
+            "subtitle": "أنت على وشك إنشاء نسخة من المجموعة في وحدة الدردشات الجديدة.",
+            "callToAction": "أكمل",
+            "caption": "بمجرد اكتمال النسخة، سيتم إعادة توجيهك تلقائيًا إلى الوحدة الجديدة.",
+            "title": "إنشاء نسخة من المجموعة \"{{roomName}}\"",
+            "warning": "هام: أنت تقوم بنسخ المجموعة ومعها العنوان والأعضاء ودور المشرف. <strong>لا يؤدي</strong> هذا الإجراء إلى إنشاء نسخة من <strong>سجل المحادثة.</strong>"
+        },
+        "alreadyMigrate": {
+            "title": "هذه المجموعة مكررة بالفعل",
+            "callToAction": "عرض في وحدة الدردشات الجديدة",
+            "description": "انقر فوق الزر لإعادة توجيهك إلى الوحدة الجديدة واستخدام النسخة المكررة من هذه المجموعة."
+        },
+        "feedback": {
+            "error": "حدث خطأ ما، يرجى المحاولة مرة أخرى أو إعادة تحميل الصفحة."
+        },
+        "room": {
+            "toBeMigrate": {
+                "description": "يؤدي هذا الإجراء إلى تحويل هذا العنصر إلى مجموعة، ونسخ عنوانه، وموضوعه، وأعضائه، ودور المشرف.",
+                "title": "تحويل إلى مجموعة في الوحدة الجديدة",
+                "callToAction": "تحويل إلى المجموعة",
+                "tooltip": "يجب أن يكون هناك عضوين على الأقل معك.",
+                "moreMembersNeeded": "لتحويل هذا العنصر إلى مجموعة، يجب أن يتضمن عضوين آخرين على الأقل بالإضافة إليك."
+            },
+            "modal": {
+                "warning": "هام: أنت تقوم بإنشاء مجموعة جديدة سيكون لها نفس العنوان والموضوع والأعضاء ودور المشرف مثل العنصر الأصلي. ومع ذلك، فإن هذا الإجراء <strong>لا ينشئ</strong> نسخةمن <strong>سجل المحادثة.</strong>",
+                "caption": "بمجرد اكتمال التحويل، سيتم إعادة توجيهك تلقائيًا إلى الوحدة الجديدة.",
+                "title": "تحويل \"{{roomName}}\" إلى مجموعة.",
+                "subtitle": "أنت على وشك تحويل هذا العنصر إلى مجموعة في وحدة الدردشات الجديدة."
+            },
+            "alreadyMigrate": {
+                "description": "انقر فوق الزر لإعادة توجيهك إلى الوحدة الجديدة واستخدم النسخة المكررة من هذا العنصر.",
+                "title": "لقد تم تحويل هذا العنصر مسبقاً"
+            }
+        }
+    },
+    "readBy": {
+        "title": "تمت رؤيته من:"
+    },
+    "welcomePage": {
+        "loginButton": "انتقل إلى صفحة تسجيل الدخول",
+        "blob": "مرحباً!",
+        "loginDescription": "اختر ما إذا كنت تريد الذهاب إلى صفحة تسجيل الدخول للدخول أو مجرد الوصول إلى الاجتماع باستخدام اسمك.",
+        "loginTitle": "هل لديك حساب؟",
+        "description": "كيف تحب أن تقدم نفسك؟",
+        "nameInput": "اكتب هنا اسمك",
+        "joinButton": "انضم إلى الاجتماع",
+        "journeyDescription": "سيتم إعادة توجيهك إلى غرفة الانتظار لحين موافقة المشرف على دخولك."
+    },
+    "browserNotification": {
+        "reaction": {
+            "group": "رد {{userName}} على رسالتك بـ:",
+            "chat": "رد على رسالتك بـ:"
+        }
+    },
+    "modal": {
+        "muteForAllDescription": "من خلال كتم صوت المستخدم، لن يتمكن جميع المشاركين من سماعه. فقط المستخدم الذي تم كتم صوته يمكنه إلغاء كتم صوته. هل تريد المتابعة؟",
+        "clearHistoryDescription": "أنت تقوم بتنظيف سجل الدردشة الخاص بك، يرجى ملاحظة أن هذا الإجراء لا رجعة فيه. سيتم حذف السجل بالنسبة لك وليس بالنسبة للأعضاء الآخرين.",
+        "creation": {
+            "contactList": "حدد أكثر من عنوان لإنشاء مجموعة",
+            "description": "الدردشات عبارة عن محادثات فردية تساعدك على البقاء على اتصال بجهات الاتصال لديك. يمكنك إنشاء مجموعة من خلال تضمين أكثر من عنوانين",
+            "addUserLimit": {
+                "limitReached": "لقد قمت بتحديد الحد الأقصى لعدد الأعضاء للمجموعة",
+                "users_zero": "يمكنك إضافة عضو أخير",
+                "users_one": "يمكنك إضافة عضو 1 أخير",
+                "users_two": "يمكنك إضافة عضوين 2 أخيرين",
+                "users_few": "يمكنك إضافة {{count}} أعضاء أخيرين",
+                "users_many": "يمكنك إضافة {{count}} عضو أخر",
+                "users_other": "يمكنك إضافة {{count}} عضو أخر"
+            },
+            "inputPlaceholder": "ابدأ الكتابة أو اختر عنوانًا",
+            "newChat": "دردشة جديدة",
+            "newGroup": "مجموعة جديدة"
+        },
+        "deleteMessageTitleDescription": "أنت تقوم بحذف الرسالة، ولن تكون متاحة بعد الآن",
+        "deleteRoom": "حذف الغرفة",
+        "forward": {
+            "description": "اختر دردشة مستهدفة لإعادة توجيه الرسالة",
+            "inputPlaceholder": "ابدأ الكتابة أو اختر دردشة",
+            "chooseAtLeastOneChat": "اختر دردشة واحدة على الأقل",
+            "title": "إعادة توجيه الرسالة من {{chatName}}"
+        },
+        "leaveAndDelete": "مغادرة المجموعة وحذفها",
+        "leaveGroup": "مغادرة المجموعة",
+        "leaveRoom": "غادر الغرفة",
+        "deleteGroupLabel": "سيؤثر هذا الإجراء على جميع أعضاء المجموعة ولا يمكن التراجع عنه. هل أنت متأكد من أنك تريد حذف هذه المجموعة؟",
+        "deleteGroupMeetingOngoingLabel": "يوجد اجتماع نشط حاليًا. سيؤدي حذف المجموعة إلى إنهاء الاجتماع دون أي تحذير.",
+        "deleteMessageTitle": "حذف الرسالة المحددة؟",
+        "deleteRoomLabel": "هل أنت متأكد من حذف هذه الغرفة؟",
+        "deleteUserDescription": "هل أنت متأكد أنك تريد إزالة هذا العضو؟",
+        "leaveGroupLabel": "هل أنت متأكد من أنك تريد مغادرة هذه المجموعة؟",
+        "leaveRoomLabel": "هل أنت متأكد من أنك تريد مغادرة هذه الغرفة؟",
+        "removeMember": "إزالة عضو",
+        "showPreviousConversationHistory": "إظهار سجل الدردشة السابقة",
+        "deleteGroup": "حذف المجموعة"
+    },
+    "participantsList": {
+        "searchMembers": "البحث عن الأعضاء",
+        "creationList": {
+            "title": "إنشاء دردشة جديدة مع:",
+            "searchFailure": "يبدو أن هناك مشكلة في بحثك، يرجى المحاولة مرة أخرى."
+        },
+        "noMatch": {
+            "all": "لا يوجد مستخدمون يتطابقون مع هذا البحث في الدردشات الحالية لديك أو في شركتك.",
+            "chatList": "لا يوجد مستخدمين يطابقون هذا البحث في الدردشات الحالية لديك."
+        },
+        "oneMemberAccordionTitle": "عضو واحد",
+        "searchParticipants": "البحث عن المشاركين",
+        "closeSearch": "إغلاق البحث",
+        "moreMembersAccordionTitle": "الأعضاء"
+    },
+    "interactions": {
+        "micDevice": "جهاز اللاقط الصوتي (ميكروفون)",
+        "camDevice": "جهاز آلة التصوير (الكاميرا)"
+    },
+    "snackbar": {
+        "mutedByModerator": "لقد تم كتم صوتك من قبل أحد المشرفين، قم بإلغاء كتم صوتك لتتمكن من التحدث"
+    },
+    "titlePlaceholder": "عنوان مجموعتك",
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "آلة التصوير (الكاميرا) الخاصة بك مغلقة",
+            "yourMicIsDisabled": "لاقط الصوت (الميكروفون) الخاص بك مغلق"
+        }
     }
 }
