@@ -351,7 +351,8 @@
                     "description": "Będziesz moderował tym pokojem. Dodatkowy moderator zostanie dodany jako współpracownik z tymi samymi uprawnieniami.",
                     "input": "Moderatorzy pokoju"
                 }
-            }
+            },
+            "newRoom": "Stwórz nowy pokój"
         },
         "continueActiveSession": "Kontynuuj spotkanie w nowym oknie",
         "noMoreActiveSession": "Nie może być więcej niż jednej aktywnej sesji tego samego spotkania",
