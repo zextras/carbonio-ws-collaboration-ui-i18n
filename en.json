@@ -219,7 +219,7 @@
         },
         "waitingParticipants": "Waiting for participants to join…",
         "virtual": {
-            "creationInput": "New Virtual Room’s name",
+            "creationInput": "Virtual Room’s name",
             "buttonLabel": "your virtual rooms",
             "emptyState": "Virtual Rooms you create will be shown here.",
             "deleteTooltip": "Delete Virtual Room",
@@ -248,11 +248,11 @@
                 "description": "Give this Virtual Room a recognizable name so that your attendees know what they are expecting to meet about.",
                 "invalidNameCaption": "Please enter a shorter name.",
                 "moderator": {
-                    "input": "Room’s moderators",
-                    "description": "You will moderate this Room. The additional moderator will be added as collaborators with the same privileges."
+                    "input": "Virtual Room’s moderators",
+                    "description": "You will moderate this Virtual Room. The additional moderator will be added as collaborators with the same privileges."
                 }
             },
-            "newRoom": "Create new room"
+            "newRoom": "Create new Virtual Room"
         },
         "sidebar": {
             "waitingList": "Waiting list",
