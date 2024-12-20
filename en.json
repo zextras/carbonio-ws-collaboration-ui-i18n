@@ -245,7 +245,7 @@
                 "singleAdditional": "and one other moderator."
             },
             "modal": {
-                "description": "Give this Room a recognizable name so that your attendees know what they are expecting to meet about.",
+                "description": "Give this Virtual Room a recognizable name so that your attendees know what they are expecting to meet about.",
                 "invalidNameCaption": "Please enter a shorter name.",
                 "moderator": {
                     "input": "Room’s moderators",
