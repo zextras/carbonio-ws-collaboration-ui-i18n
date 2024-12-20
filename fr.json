@@ -250,7 +250,8 @@
         "searchParticipants": "Rechercher des participants",
         "noMatch": {
             "all": "Il n'y a pas d'utilisateur qui corresponde à votre recherche ni dans les discussion existante, ni dans votre établissement.",
-            "chatList": "Il n'y a pas d'utilisateur qui corresponde avec cette recherche dans les discussions existantes."
+            "chatList": "Il n'y a pas d'utilisateur qui corresponde avec cette recherche dans les discussions existantes.",
+            "general": "Votre recherche n'a donné aucun résultat, essayez un autre mot-clé."
         },
         "creationList": {
             "title": "Créer une nouvelle discussion avec :",
@@ -433,14 +434,15 @@
                 "multipleAdditional": "et {{numberOfModerators}} autres modérateurs."
             },
             "modal": {
-                "description": "Donnez à cette salle un nom reconnaissable afin que vos participants sachent ce qu'ils attendent de la réunion.",
+                "description": "Donnez à cette salle virtuelle un nom reconnaissable afin que vos participants sachent ce qu'ils attendent de la réunion.",
                 "invalidNameCaption": "Merci de saisir un nom plus court.",
                 "moderator": {
                     "description": "Vous serez le modérateur de cet espace. Les modérateurs supplémentaires seront ajoutés en tant que collaborateurs avec les mêmes privilèges.",
                     "input": "Modérateurs de la salle"
                 }
             },
-            "startPrompt": "Commencez une réunion dans cette salle virtuelle."
+            "startPrompt": "Commencez une réunion dans cette salle virtuelle.",
+            "newRoom": "Créer une nouvelle salle virtuelle"
         },
         "sidebar": {
             "waitingCaption": "En attente pour entrer",
@@ -547,6 +549,11 @@
             "title_one": "Un participant",
             "title_many": "{{count}} participants",
             "title_other": "{{count}} participants"
+        },
+        "visualEffects": {
+            "default": "Aucun",
+            "title": "Effets visuels",
+            "blur": "Flou"
         }
     },
     "meetings": {
@@ -643,5 +650,11 @@
     },
     "readBy": {
         "title": "Vu par :"
+    },
+    "browserNotification": {
+        "reaction": {
+            "group": "{{userName}} a réagi à votre message avec :",
+            "chat": "A réagi à votre message par :"
+        }
     }
 }
