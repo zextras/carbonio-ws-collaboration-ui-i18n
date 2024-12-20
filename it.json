@@ -409,7 +409,7 @@
             "deleteModalDescription": "Stai eliminando questa Virtual Room, se ci sono meeting attivi verranno interrotti e nessuno sarà più in grado di accedervi. Continuare?",
             "copyLinkSnackbar": "Link della Virtual Room copiato",
             "deleteSnackbar": "Virtual Room eliminata correttamente",
-            "creationInput": "Nome della nuova Stanza Virtuale",
+            "creationInput": "Nome della Stanza Virtuale",
             "buttonLabel": "Le tue Virtual Room",
             "participants": {
                 "onlyUser": "Sei l'unico partecipante attivo.",
@@ -425,14 +425,14 @@
             },
             "startPrompt": "Avvia un meeting in questa Virtual Room.",
             "modal": {
-                "description": "Assegna a questa Stanza un nome riconoscibile, in modo che i partecipanti sappiano di cosa tratterà la riunione.",
+                "description": "Assegna a questa Stanza Virtuale un nome riconoscibile, in modo che i partecipanti sappiano di cosa tratterà la riunione.",
                 "invalidNameCaption": "Inserisci un nome più corto per favore.",
                 "moderator": {
-                    "input": "Moderatori della Stanza",
-                    "description": "Modererai questa Stanza. I moderatori aggiuntivi verranno aggiunti come collaboratori con gli stessi privilegi."
+                    "input": "Moderatori della Stanza Virtuale",
+                    "description": "Modererai questa Stanza Virtuale. I moderatori aggiuntivi verranno aggiunti come collaboratori con gli stessi privilegi."
                 }
             },
-            "newRoom": "Crea nuova stanza"
+            "newRoom": "Crea nuova Stanza Virtuale"
         },
         "sidebar": {
             "waitingCaption": "In attesa di entrare",
