@@ -323,7 +323,7 @@
             "deleteModalDescription": "Usuwasz wirtualny pokój. Jeśli trwają w nim spotkania, zostaną one zatrzymane. Nikt nie będzie mógł uzyskać dostępu do pokoju. Kontynuować?",
             "deleteSnackbar": "Wirtualny pokój został usunięty",
             "deleteModalTitle": "Usuń wirtualny pokój {{roomName}}",
-            "creationInput": "Nazwa nowego wirtualnego pokoju",
+            "creationInput": "Nazwa wirtualnego pokoju",
             "buttonLabel": "Twoje wirtualne pokoje",
             "emptyState": "Wirtualne pokoje, które stworzysz pokażą się tutaj.",
             "createTooltip": "Stwórz nowy wirtualny pokój",
@@ -345,14 +345,14 @@
                 "singleAdditional": "i jeden inny moderator."
             },
             "modal": {
-                "description": "Nadaj temu pokojowi wymowną nazwę, aby uczestnicy wiedzieli w jakim celu się spotykają.",
+                "description": "Nadaj temu wirtualnemu pokojowi wymowną nazwę, aby uczestnicy wiedzieli w jakim celu się spotykają.",
                 "invalidNameCaption": "Wpisz krótszą nazwę.",
                 "moderator": {
-                    "description": "Będziesz moderował tym pokojem. Dodatkowy moderator zostanie dodany jako współpracownik z tymi samymi uprawnieniami.",
-                    "input": "Moderatorzy pokoju"
+                    "description": "Będziesz moderował tym wirtualnym pokojem. Dodatkowy moderator zostanie dodany jako współpracownik z tymi samymi uprawnieniami.",
+                    "input": "Moderatorzy wirtualnego pokoju"
                 }
             },
-            "newRoom": "Stwórz nowy pokój"
+            "newRoom": "Stwórz nowy wirtualny pokój"
         },
         "continueActiveSession": "Kontynuuj spotkanie w nowym oknie",
         "noMoreActiveSession": "Nie może być więcej niż jednej aktywnej sesji tego samego spotkania",
