@@ -308,7 +308,6 @@
             "creationInput": "Nome da Nova Sala Virtual",
             "buttonLabel": "suas salas virtuais",
             "emptyState": "As Salas Virtuais que você criar serão exibidas aqui.",
-            "copyLinkTooltip": "Copiar link da Sala Virtual",
             "nameRequiredTooltip": "O nome da Sala Virtual é necessário",
             "createTooltip": "Criar nova Sala Virtual",
             "invalidNameTooltip": "Nome inválido",
