@@ -37,7 +37,12 @@
         "cancel": "Cancel",
         "deleteForAll": "Delete for all",
         "retry": "Retry",
-        "newVirtual": "New Virtual Room"
+        "newVirtual": "New Virtual Room",
+        "virtual": {
+            "editRoom": "Edit Virtual Room",
+            "deleteRoom": "Delete Virtual Room",
+            "copyLink": "Copy Virtual Room’s link"
+        }
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} created!",
@@ -235,14 +240,16 @@
                 "onlyUser": "You are the only active participant.",
                 "singleActive": "One active participant.",
                 "userWithOthers": "You and other {{numberOfParticipants}} active participants.",
-                "multipleActive": "{{numberOfParticipants}} active participants."
+                "multipleActive": "{{numberOfParticipants}} active participants.",
+                "widget": "Active participants:"
             },
             "startPrompt": "Start a meeting in this Virtual Room.",
             "moderators": {
                 "onlyUser": "You're the only moderator.",
                 "multipleAdditional": "and other {{numberOfModerators}} moderators.",
                 "onlyModerator": "is the only moderator.",
-                "singleAdditional": "and one other moderator."
+                "singleAdditional": "and one other moderator.",
+                "widget": "Virtual Room’s moderators:"
             },
             "modal": {
                 "description": "Give this Virtual Room a recognizable name so that your attendees know what they are expecting to meet about.",
@@ -250,6 +257,9 @@
                 "moderator": {
                     "input": "Virtual Room’s moderators",
                     "description": "You will moderate this Virtual Room. The additional moderator will be added as collaborators with the same privileges."
+                },
+                "edit": {
+                    "tile": "Edit \"{{roomName}}\" Virtual Room"
                 }
             },
             "newRoom": "Create new Virtual Room"
@@ -562,7 +572,8 @@
         "writeToSend": "Write a message to send it",
         "youAreAlreadyMuted": "You're muted",
         "reactions": "Reactions",
-        "moreReactions": "More reactions"
+        "moreReactions": "More reactions",
+        "virtualActions": "Virtual Room actions"
     },
     "tryLater": "Try later",
     "interactions": {
