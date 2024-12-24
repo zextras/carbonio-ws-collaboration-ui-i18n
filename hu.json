@@ -145,7 +145,6 @@
             "creationInput": "Új virtuális szoba neve",
             "buttonLabel": "virtuális szobái",
             "emptyState": "Itt jelennek majd meg az Ön által létrehozott virtuális szobák.",
-            "copyLinkTooltip": "Virtuális szoba linkjének másolása",
             "nameRequiredTooltip": "Virtuális szoba nevének megadása kötelező",
             "createTooltip": "Új virtuális szoba létrehozása",
             "copyLinkSnackbar": "Virtuális szoba linkje másolva",
