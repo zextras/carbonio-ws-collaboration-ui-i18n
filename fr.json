@@ -410,7 +410,6 @@
         "expandParticipantsListTooltip": "Ouvrir la liste des participants",
         "virtual": {
             "deleteTooltip": "Supprimer la Salle Virtuelle",
-            "copyLinkTooltip": "Copier le lien de la Salle Virtuelle",
             "nameRequiredTooltip": "Le nom de la Salle Virtuelle est obligatoire",
             "createTooltip": "Créer une nouvelle Salle Virtuelle",
             "invalidNameTooltip": "Nom invalide",
