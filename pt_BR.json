@@ -398,7 +398,6 @@
             "deleteTooltip": "Excluir Sala Virtual",
             "creationInput": "Nome da Nova Sala Virtual",
             "buttonLabel": "suas salas virtuais",
-            "copyLinkTooltip": "Copiar link da Sala Virtual",
             "nameRequiredTooltip": "O nome da Sala Virtual é necessário",
             "createTooltip": "Criar nova Sala Virtual",
             "invalidNameTooltip": "Nome inválido",
