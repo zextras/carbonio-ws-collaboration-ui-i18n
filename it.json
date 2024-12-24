@@ -401,7 +401,6 @@
         "virtual": {
             "deleteTooltip": "Elimina Stanza Virtuale",
             "emptyState": "Le Virtual Room che creerai verranno mostrate qui.",
-            "copyLinkTooltip": "Copia il link della Virtual Room",
             "deleteModalTitle": "Elimina Virtual Room {{roomName}}",
             "nameRequiredTooltip": "Il nome della Virtual Room è obbligatorio",
             "createTooltip": "Crea una nuova Virtual Room",
