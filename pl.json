@@ -328,7 +328,6 @@
             "emptyState": "Wirtualne pokoje, które stworzysz pokażą się tutaj.",
             "createTooltip": "Stwórz nowy wirtualny pokój",
             "copyLinkSnackbar": "Link do wirtualnego pokoju został skopiowany",
-            "copyLinkTooltip": "Skopiuj link do wirtualnego pokoju",
             "nameRequiredTooltip": "Nazwa wirtualnego pokoju jest wymagana",
             "invalidNameTooltip": "Nieprawidłowa nazwa",
             "participants": {
