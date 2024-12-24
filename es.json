@@ -394,7 +394,6 @@
             "createTooltip": "Crear una nueva Sala Virtual",
             "invalidNameTooltip": "Nombre no válido",
             "emptyState": "Las salas virtuales que crees se mostrarán aquí.",
-            "copyLinkTooltip": "Copiar enlace de la Sala Virtual",
             "nameRequiredTooltip": "Se necesita un nombre para la Sala Virtual",
             "participants": {
                 "onlyUser": "Tu eres el único participante activo.",
