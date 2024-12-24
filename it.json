@@ -37,7 +37,12 @@
         "cancel": "Elimina",
         "deleteForAll": "Cancella per tutti",
         "retry": "Riprova",
-        "newVirtual": "Nuova Stanza Virtuale"
+        "newVirtual": "Nuova Stanza Virtuale",
+        "virtual": {
+            "copyLink": "Copia il link della Stanza Virtuale",
+            "editRoom": "Modifica Stanza Virtuale",
+            "deleteRoom": "Elimina Stanza Virtuale"
+        }
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -164,7 +169,8 @@
         "participantMuted": "L'audio di questo partecipante è disattivato",
         "youAreAlreadyMuted": "Il tuo audio è disattivato",
         "moreReactions": "Più reazioni",
-        "reactions": "Reazioni"
+        "reactions": "Reazioni",
+        "virtualActions": "Azioni della Stanza Virtuale"
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -406,7 +412,7 @@
             "createTooltip": "Crea una nuova Virtual Room",
             "invalidNameTooltip": "Nome non valido",
             "deleteModalDescription": "Stai eliminando questa Virtual Room, se ci sono meeting attivi verranno interrotti e nessuno sarà più in grado di accedervi. Continuare?",
-            "copyLinkSnackbar": "Link della Virtual Room copiato",
+            "copyLinkSnackbar": "Link della Stanza Virtuale copiato",
             "deleteSnackbar": "Virtual Room eliminata correttamente",
             "creationInput": "Nome della Stanza Virtuale",
             "buttonLabel": "Le tue Virtual Room",
@@ -414,13 +420,15 @@
                 "onlyUser": "Sei l'unico partecipante attivo.",
                 "singleActive": "Un partecipante attivo.",
                 "userWithOthers": "Tu e altri {{numberOfParticipants}} partecipanti attivi.",
-                "multipleActive": "{{numberOfParticipants}} partecipanti attivi."
+                "multipleActive": "{{numberOfParticipants}} partecipanti attivi.",
+                "widget": "Partecipanti attivi:"
             },
             "moderators": {
                 "onlyUser": "Sei l'unico moderatore.",
                 "singleAdditional": "e un altro moderatore.",
                 "onlyModerator": "è l'unico moderatore.",
-                "multipleAdditional": "e altri {{numberOfModerators}} moderatori."
+                "multipleAdditional": "e altri {{numberOfModerators}} moderatori.",
+                "widget": "Moderatori della Stanza Virtuale:"
             },
             "startPrompt": "Avvia un meeting in questa Virtual Room.",
             "modal": {
@@ -429,6 +437,9 @@
                 "moderator": {
                     "input": "Moderatori della Stanza Virtuale",
                     "description": "Modererai questa Stanza Virtuale. I moderatori aggiuntivi verranno aggiunti come collaboratori con gli stessi privilegi."
+                },
+                "edit": {
+                    "tile": "Modifica la Stanza Virtuale \"{{roomName}}\""
                 }
             },
             "newRoom": "Crea nuova Stanza Virtuale"
