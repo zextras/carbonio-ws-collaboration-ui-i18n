@@ -373,7 +373,6 @@
             "deleteModalDescription": "Anda menghapus Ruang Virtual ini, jika ada rapat yang aktif, maka akan terhenti dan tidak ada yang dapat mengaksesnya lagi. Tetap lanjutkan?",
             "deleteSnackbar": "Ruang Virtual berhasil dihapus",
             "deleteModalTitle": "Hapus Ruang Virtual {{roomName}}",
-            "copyLinkTooltip": "Salin tautan Ruang Virtual",
             "buttonLabel": "ruang virtual Anda",
             "participants": {
                 "onlyUser": "Anda adalah satu-satunya peserta aktif.",
