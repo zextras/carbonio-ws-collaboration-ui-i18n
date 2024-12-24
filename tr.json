@@ -388,7 +388,6 @@
             "deleteSnackbar": "Sanal Oda başarıyla silindi",
             "buttonLabel": "sanal odalarınız",
             "emptyState": "Oluşturduğunuz Sanal Odalar burada gösterilecektir.",
-            "copyLinkTooltip": "Sanal Oda'nın bağlantısını kopyalayın",
             "nameRequiredTooltip": "Sanal Oda'nın adı gereklidir",
             "copyLinkSnackbar": "Sanal Oda'nın bağlantısı kopyalandı",
             "deleteModalTitle": "{{roomName}} Sanal Odayı Sil",
