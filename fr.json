@@ -171,7 +171,12 @@
         "cancel": "Annuler",
         "deleteForAll": "Supprimer pour tout le monde",
         "retry": "Réessayer",
-        "newVirtual": "Nouvelle salle virtuelle"
+        "newVirtual": "Nouvelle salle virtuelle",
+        "virtual": {
+            "deleteRoom": "Supprimer la salle virtuelle",
+            "copyLink": "Copier le lien de la salle virtuelle",
+            "editRoom": "Modifier la salle virtuelle"
+        }
     },
     "conversation": {
         "keepInTouchTitle": "Restons en contact !",
@@ -320,7 +325,8 @@
         "participantMuted": "Ce participant est en sourdine",
         "youAreAlreadyMuted": "Vous êtes en sourdine",
         "moreReactions": "Plus de réactions",
-        "reactions": "Réactions"
+        "reactions": "Réactions",
+        "virtualActions": "Actions de la salle virtuelle"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} est créée !",
@@ -424,20 +430,25 @@
                 "onlyUser": "Vous êtes le seul participant actif.",
                 "singleActive": "Un participant actif.",
                 "userWithOthers": "Vous et les {{numberOfParticipants}} autres participants actifs.",
-                "multipleActive": "{{numberOfParticipants}} participants actifs."
+                "multipleActive": "{{numberOfParticipants}} participants actifs.",
+                "widget": "Participants actifs :"
             },
             "moderators": {
                 "onlyUser": "Vous êtes le seul modérateur.",
                 "onlyModerator": "est le seul modérateur.",
                 "singleAdditional": "et un autre modérateur.",
-                "multipleAdditional": "et {{numberOfModerators}} autres modérateurs."
+                "multipleAdditional": "et {{numberOfModerators}} autres modérateurs.",
+                "widget": "Modérateurs de la salle virtuelle :"
             },
             "modal": {
                 "description": "Donnez à cette salle virtuelle un nom reconnaissable afin que vos participants sachent ce qu'ils attendent de la réunion.",
                 "invalidNameCaption": "Merci de saisir un nom plus court.",
                 "moderator": {
-                    "description": "Vous serez le modérateur de cet espace. Les modérateurs supplémentaires seront ajoutés en tant que collaborateurs avec les mêmes privilèges.",
-                    "input": "Modérateurs de la salle"
+                    "description": "Vous serez le modérateur de cette salle virtuelle. Les modérateurs supplémentaires seront ajoutés en tant que collaborateurs avec les mêmes privilèges.",
+                    "input": "Modérateurs de la salle virtuelle"
+                },
+                "edit": {
+                    "tile": "Modifier la salle virtuelle \"{{roomName}}\""
                 }
             },
             "startPrompt": "Commencez une réunion dans cette salle virtuelle.",
