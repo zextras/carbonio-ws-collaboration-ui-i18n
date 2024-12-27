@@ -37,7 +37,12 @@
         "cancel": "Anuluj",
         "deleteForAll": "Usuń dla wszystkich",
         "retry": "Spróbuj ponownie",
-        "newVirtual": "Nowy wirtualny pokój"
+        "newVirtual": "Nowy wirtualny pokój",
+        "virtual": {
+            "editRoom": "Edytuj wirtualny pokój",
+            "copyLink": "Skopiuj link wirtualnego pokoju",
+            "deleteRoom": "Usuń wirtualny pokój"
+        }
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -94,7 +99,8 @@
         },
         "noMatch": {
             "chatList": "Nie ma w Twoich czatach użytkowników pasujących do tego wyszukiwania.",
-            "all": "Nie ma w Twoich czatach ani w Twojej firmie użytkowników pasujących do tego wyszukiwania."
+            "all": "Nie ma w Twoich czatach ani w Twojej firmie użytkowników pasujących do tego wyszukiwania.",
+            "general": "Twoje wyszukiwanie nie przyniosło rezultatów, spróbuj z innym słowem kluczowym."
         }
     },
     "settings": {
@@ -334,14 +340,16 @@
                 "onlyUser": "Jesteś jedynym aktywnym uczestnikiem.",
                 "singleActive": "Jeden aktywny uczestnik.",
                 "userWithOthers": "Ty i {{numberOfParticipants}} innych aktywnych uczestników.",
-                "multipleActive": "{{numberOfParticipants}} aktywnych uczestników."
+                "multipleActive": "{{numberOfParticipants}} aktywnych uczestników.",
+                "widget": "Aktywni uczestnicy:"
             },
             "startPrompt": "Rozpocznij spotkanie w tym wirtualnym pokoju.",
             "moderators": {
                 "onlyModerator": "jest jedynym moderatorem.",
                 "multipleAdditional": "i {{numberOfModerators}} innych moderatorów.",
                 "onlyUser": "Jesteś jedynym moderatorem.",
-                "singleAdditional": "i jeden inny moderator."
+                "singleAdditional": "i jeden inny moderator.",
+                "widget": "Moderatorzy wirtualnego pokoju:"
             },
             "modal": {
                 "description": "Nadaj temu wirtualnemu pokojowi wymowną nazwę, aby uczestnicy wiedzieli w jakim celu się spotykają.",
@@ -349,6 +357,9 @@
                 "moderator": {
                     "description": "Będziesz moderował tym wirtualnym pokojem. Dodatkowy moderator zostanie dodany jako współpracownik z tymi samymi uprawnieniami.",
                     "input": "Moderatorzy wirtualnego pokoju"
+                },
+                "edit": {
+                    "tile": "Edytuj wirtualny pokój \"{{roomName}}\""
                 }
             },
             "newRoom": "Stwórz nowy wirtualny pokój"
@@ -541,7 +552,8 @@
         "participantMuted": "Ten uczestnik jest wyciszony",
         "youAreAlreadyMuted": "Jesteś wyciszony",
         "moreReactions": "Więcej reakcji",
-        "reactions": "Reakcje"
+        "reactions": "Reakcje",
+        "virtualActions": "Czynności wirtualnego pokoju"
     },
     "conversationFilter": {
         "filterTooltip": "Filtruj listę",
