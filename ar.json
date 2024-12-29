@@ -37,7 +37,12 @@
         "editDetails": "تعديل التفاصيل",
         "clearHistory": "مسح التاريخ",
         "download": "تنزيل",
-        "newVirtual": "غرفة افتراضية جديدة"
+        "newVirtual": "غرفة افتراضية جديدة",
+        "virtual": {
+            "deleteRoom": "حذف الغرفة الإفتراضية",
+            "editRoom": "تعديل الغرفة الإفتراضية",
+            "copyLink": "نسخ رابط الغرفة الافتراضية"
+        }
     },
     "conversationInfo": {
         "email": "البريد الإلكتروني",
@@ -184,7 +189,8 @@
         "writeToSend": "اكتب رسالة لإرسالها",
         "expandCarousel": "توسيع",
         "showConversationList": "إظهار قائمة الدردشة",
-        "uploadAttachment": "تحميل مرفق"
+        "uploadAttachment": "تحميل مرفق",
+        "virtualActions": "إجراءات الغرفة الافتراضية"
     },
     "attachments": {
         "attachLinkFiles": "إرفاق رابط عام من الملفات",
@@ -294,7 +300,7 @@
             "createTooltip": "إنشاء غرفة افتراضية جديدة",
             "deleteSnackbar": "تم حذف الغرفة الافتراضية بنجاح",
             "deleteModalTitle": "حذف الغرفة الافتراضية {{roomName}}",
-            "creationInput": "اسم الغرفة الافتراضية الجديدة",
+            "creationInput": "اسم الغرفة الافتراضية",
             "nameRequiredTooltip": "اسم الغرفة الافتراضية مطلوب",
             "invalidNameTooltip": "اسم غير صالح",
             "copyLinkSnackbar": "تم نسخ رابط الغرفة الافتراضية",
@@ -305,23 +311,29 @@
                 "onlyUser": "أنت المشارك النشط الوحيد.",
                 "singleActive": "مشارك واحد نشط.",
                 "userWithOthers": "أنت و{{number Of Participants}} من المشاركين النشطين الآخرين.",
-                "multipleActive": "{{numberOfParticipants}} من المشاركين النشطين."
+                "multipleActive": "{{numberOfParticipants}} من المشاركين النشطين.",
+                "widget": "المشاركين النشطين:"
             },
             "startPrompt": "ابدأ اجتماعًا في هذه الغرفة الافتراضية.",
             "modal": {
                 "description": "أعط هذه الغرفة اسمًا واضحًا حتى يتمكن الحضور من معرفة ما يتوقعون الاجتماع بشأنه.",
                 "invalidNameCaption": "الرجاء إدخال اسم أقصر.",
                 "moderator": {
-                    "description": "أنت من سيدير هذه الغرفة. سيتم إضافة المشرف الإضافي كمتعاون بنفس الامتيازات.",
-                    "input": "مشرفو الغرفة"
+                    "description": "أنت من سيدير هذه الغرفة الافتراضية. سيتم إضافة المشرف الإضافي كمتعاون بنفس الامتيازات.",
+                    "input": "مشرفو الغرفة الافتراضية"
+                },
+                "edit": {
+                    "tile": "عدل الغرفة الإفتراضية \"{{roomName}}\""
                 }
             },
             "moderators": {
                 "onlyUser": "أنت المشرف الوحيد.",
                 "onlyModerator": "هو المشرف الوحيد.",
                 "singleAdditional": "ومشرف آخر.",
-                "multipleAdditional": "و {{numberOfModerators}} مشرفين آخرين."
-            }
+                "multipleAdditional": "و {{numberOfModerators}} مشرفين آخرين.",
+                "widget": "المشرفون على الغرفة الافتراضية:"
+            },
+            "newRoom": "إنشاء غرفة افتراضية جديدة"
         },
         "infoPage": {
             "title": {
@@ -639,7 +651,8 @@
         },
         "noMatch": {
             "all": "لا يوجد مستخدمون يتطابقون مع هذا البحث في الدردشات الحالية لديك أو في شركتك.",
-            "chatList": "لا يوجد مستخدمين يطابقون هذا البحث في الدردشات الحالية لديك."
+            "chatList": "لا يوجد مستخدمين يطابقون هذا البحث في الدردشات الحالية لديك.",
+            "general": "لم يتم العثور على أي نتائج لبحثك، جرب كلمة رئيسية أخرى."
         },
         "oneMemberAccordionTitle": "عضو واحد",
         "searchParticipants": "البحث عن المشاركين",
