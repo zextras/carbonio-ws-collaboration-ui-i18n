@@ -245,7 +245,7 @@
             "startPrompt": "Start a meeting in this Virtual Room.",
             "moderators": {
                 "onlyUser": "You're the only moderator.",
-                "multipleAdditional": "and other {{numberOfModerators}} moderators.",
+                "multipleAdditional": "and other <strong>{{numberOfModerators}} moderators</strong>.",
                 "onlyModerator": "is the only moderator.",
                 "singleAdditional": "and one other moderator.",
                 "widget": "Virtual Room’s moderators:"
