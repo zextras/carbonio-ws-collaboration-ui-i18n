@@ -427,7 +427,7 @@
                 "onlyUser": "Sei l'unico moderatore.",
                 "singleAdditional": "e un altro moderatore.",
                 "onlyModerator": "è l'unico moderatore.",
-                "multipleAdditional": "e altri {{numberOfModerators}} moderatori.",
+                "multipleAdditional": "e altri <strong>{{numberOfModerators}} moderatori </strong>.",
                 "widget": "Moderatori della Stanza Virtuale:"
             },
             "startPrompt": "Avvia un meeting in questa Virtual Room.",
