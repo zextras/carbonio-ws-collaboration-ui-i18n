@@ -437,7 +437,7 @@
                 "onlyUser": "Vous êtes le seul modérateur.",
                 "onlyModerator": "est le seul modérateur.",
                 "singleAdditional": "et un autre modérateur.",
-                "multipleAdditional": "et {{numberOfModerators}} autres modérateurs.",
+                "multipleAdditional": "et <strong>{{numberOfModerators}} autres modérateurs</strong>.",
                 "widget": "Modérateurs de la salle virtuelle :"
             },
             "modal": {
