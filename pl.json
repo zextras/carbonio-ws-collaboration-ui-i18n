@@ -346,7 +346,7 @@
             "startPrompt": "Rozpocznij spotkanie w tym wirtualnym pokoju.",
             "moderators": {
                 "onlyModerator": "jest jedynym moderatorem.",
-                "multipleAdditional": "i {{numberOfModerators}} innych moderatorów.",
+                "multipleAdditional": "i <strong>{{numberOfModerators}} innych moderatorów</strong>.",
                 "onlyUser": "Jesteś jedynym moderatorem.",
                 "singleAdditional": "i jeden inny moderator.",
                 "widget": "Moderatorzy wirtualnego pokoju:"
