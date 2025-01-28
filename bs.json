@@ -1,1 +1,238 @@
-{}
+{
+    "action": {
+        "addAttachment": "Dodaj prilog",
+        "addMoreAttachments": "Dodaj {{counter}} priloga",
+        "addNewMembersTo": "Dodaj nove članove u {{roomName}}",
+        "clearHistory": "Obriši Istoriju",
+        "download": "Preuzmi",
+        "editDetails": "Uredi detalje",
+        "editRoom": "Uredi {{roomName}}",
+        "forwarded": "proslijeđeno",
+        "joinMeeting": "Pridruži se sastanku",
+        "newChat": "Novi Razgovor",
+        "removeUser": "Ukloni",
+        "cancel": "Odustani",
+        "deleteForAll": "Izbriši za sve",
+        "retry": "Pokušaj ponovo",
+        "newVirtual": "Nova Virtualna Soba",
+        "virtual": {
+            "editRoom": "Uredi Virtualnu Sobu",
+            "deleteRoom": "Izbriši Virtualnu Sobu",
+            "copyLink": "Kopirajte link za Virtualnu Sobu"
+        },
+        "addSingleAttachment": "Dodaj {{counter}} priloga"
+    },
+    "affiliationMessages": {
+        "groupCreated": "{{roomName}} kreiran!",
+        "oneToOneCreated": "Kreiran Novi Razgovor",
+        "member": {
+            "Added": "{{userName}} je dodan u {{roomName}}."
+        },
+        "user": {
+            "Added": "Dodani ste u Sobu {{roomName}}.",
+            "Removed": "Više niste član Sobe: {{roomName}}."
+        }
+    },
+    "date": {
+        "today": "Danas",
+        "yesterday": "Jučer"
+    },
+    "attachments": {
+        "dragAndDrop": "Drag&Drop način rada",
+        "dropHereDescription": "Prevuci ovdje dodatke da olakšate njihovo dodavanje u razgovore",
+        "integrations": {
+            "chooseFile": "Izaberi datoteku",
+            "shareLink": "Podijeli javni link"
+        }
+    },
+    "chat": "Razgovor",
+    "conversation": {
+        "emptyListTitle": "Ova lista je prazna"
+    },
+    "conversationInfo": {
+        "messages": "Poruke",
+        "name": "Ime",
+        "status": "Status",
+        "topic": "Tema",
+        "title": "Naslov"
+    },
+    "editModal": {
+        "confirm": "Uredi detalje",
+        "nameTooLong": "Maksimalna dužina naslova je 128 znakova",
+        "topicTooLong": "Maksimalna dužina teme je 256 znakova"
+    },
+    "feedback": {
+        "historyCleared": "Istorija je uspješno očišćena!",
+        "messageCopied": "Poruka kopirana",
+        "networkProblem": {
+            "wsc": "Došlo je do pogreške prilikom povezivanja na WSC",
+            "xmpp": "Došlo je do pogreške prilikom povezivanja na XMPP",
+            "websocket": "Došlo je do pogreške prilikom povezivanja na WEBSOCKET"
+        },
+        "networkProblems": "ošlo je do problema prilikom korištenja modula, molim vas pokušajte osvježite stranicu",
+        "connectionReestabilished": "Veza je ponovo uspostavljena, sastanak se može nastaviti bez prekida."
+    },
+    "meeting": {
+        "activeMeetingTooltip": "U toku je sastanak za ovaj Razgovor",
+        "continueActiveSession": "Nastavite sastanak u novom prozoru",
+        "expandChat": "Proširi razgovor",
+        "expandParticipantsListTooltip": "Proširi listu učesnika",
+        "extendChat": "Proširi razgovor",
+        "interactions": {
+            "cinemaView": "\"Cinema\" pogled",
+            "disableCamera": "Onemogući kameru",
+            "disableMicrophone": "Onemogući mikrofon",
+            "disableScreen": "Onemogući dijeljenje ekrana",
+            "enableCamera": "Omogući kameru",
+            "enableMicrophone": "Omogući mikrofon",
+            "leaveMeeting": "Napusti sastanak",
+            "microphoneDisabled": "Mikrofon onemogućen",
+            "microphoneEnabled": "Mikrofon omogućen",
+            "playMic": "Pokreni testiranje mikrofona",
+            "stopMic": "Zaustavi testiranje mikrofona",
+            "leaveConfirmation": "Napusti sastanak?",
+            "title": {
+                "devices": "Uređaji",
+                "videoEffect": "Video efekat"
+            },
+            "option": {
+                "applyBlur": "Primijeni efekt zamagljivanja",
+                "removeBlur": "Ukloni efekt zamagljenja"
+            },
+            "enableScreen": "Omogući dijeljenje ekrana"
+        },
+        "virtual": {
+            "creationInput": "Naziv Virtualne sobe",
+            "emptyState": "Ovdje će se prikazati Virtualne Sobe koje ste kreirali.",
+            "deleteTooltip": "Izbriši Virtualnu Sobu",
+            "nameRequiredTooltip": "Naziv Virtualne Sobe je obavezan",
+            "createTooltip": "Kreiraj novu Virtualnu Sobu",
+            "copyLinkSnackbar": "Kopiran link Virtualne sobe",
+            "deleteSnackbar": "Virtualna Soba uspješno izbrisana",
+            "deleteModalTitle": "Izbriši Virtualnu Sobu {{roomName}}",
+            "participants": {
+                "onlyUser": "Vi ste jedini aktivan učesnik.",
+                "userWithOthers": "Vi i drugih  {{numberOfParticipants}}aktivnih učesnika.",
+                "multipleActive": "Broj aktivnih učesnika {{numberOfParticipants}}",
+                "widget": "Aktivni učesnici:",
+                "singleActive": "Jedan aktivan učešnik."
+            },
+            "startPrompt": "Pokreni sastanak u ovoj Virtualnoj Sobi.",
+            "moderators": {
+                "onlyUser": "Vi ste jedini moderator.",
+                "widget": "Moderatori Virtualne Sobe:"
+            },
+            "modal": {
+                "invalidNameCaption": "Ime koje unosite mora biti kraće.",
+                "moderator": {
+                    "input": "Moderator Virtualne Sobe"
+                }
+            },
+            "newRoom": "Kreiraj novu Virtualnu Sobu",
+            "buttonLabel": "Vaše Virtualne Sobe",
+            "invalidNameTooltip": "Neispravano ime"
+        },
+        "sidebar": {
+            "waitingList": "Lista čekanja",
+            "tooltip": {
+                "waitingAccept": "Pusti korisnika da uđe",
+                "waitingReject": "Odbij korisnika"
+            },
+            "recording": {
+                "title": "Snimanje",
+                "moderatorInfo": "je započeo snimanje",
+                "action": {
+                    "start": "POČNI SNIMANJE",
+                    "stop": "PREKINI SNIMANJE"
+                },
+                "additionalDescription": "Ako dođe do greške, snimanje će biti spremljeno u prostoru Datoteke moderatora koji je pokrenuo snimanje.",
+                "description": "Snimka će biti sačuvana u prostoru Datoteka moderatora koji ga je zaustavio."
+            }
+        },
+        "browserNotification": {
+            "waitingMessage": "Novi korisnik čeka da uđe na sastanak"
+        },
+        "waitingRoom": {
+            "title": "Kako se želite pridružiti sastanku {{meetingName}}?",
+            "welcomeHint": "Kliknite na \"SPREMAN UČESTVOVATI\" da bi se pridružili sastanaku",
+            "hangUp": "Izađi",
+            "ready": "Spreman za učestovanje",
+            "nextStep": "Moderator će vas pustiti na sastanak što prije",
+            "setInputs": "Postavite ulazne uređaje birajući ih iz padajućeg menija"
+        },
+        "infoPage": {
+            "title": {
+                "hangUp": "Napustili ste Sobu za čekanje",
+                "meetingNotFound": "Sastanak koji tražite ne postoji",
+                "notAuthenticatedUser": "Niste autentificirani",
+                "invalidWaiting": "Nema moderatora na sastanku",
+                "generalError": "Ups! Napustili ste Sastanak."
+            },
+            "slogan": {
+                "hangUp": "Možda sljedeći put",
+                "meetingNotFound": "Pokušajte kasnije",
+                "notAuthenticatedUser": "PRIJAVITE SE ZA PRISTUP SASTANKU",
+                "invalidWaiting": "Pokušajte ponovo kasnije",
+                "generalError": "MOILM VAS, POKUŠAJTE SE PONOVO PRIKLJUČITI"
+            },
+            "description": {
+                "meetingNotFound": "Molim vas provjerite link za sastanak i pokušajte ponovo",
+                "invalidWaiting": "Za priključivanje sastanku morate dobiti odobrenje moderatora",
+                "generalError": "Došlo je do greške."
+            },
+            "feedback": {
+                "description": "Važno nam je vaše mišljenje!"
+            }
+        },
+        "recordingHint": "Ovaj sastanak se snima",
+        "recordingStart": {
+            "failureSnackbar": "Nije moguće započeti registraciju, molimo kontaktirajte svog sistem administratora.",
+            "successSnackbar": {
+                "starter": "Započeli ste registraciju ovog sastanka"
+            }
+        },
+        "recordingModal": {
+            "title": "Zaustavi snimanje",
+            "inputLabel": "Naziv snimka",
+            "confirmationAction": "ZAUSTAVI"
+        },
+        "durationTooltip": "Trajanje sastanka",
+        "visualEffects": {
+            "title": "Vizualni efekti"
+        },
+        "startModal": {
+            "enterOneToOneMeetingTitle": "Pridružite se {{meetingTitle}} sastanku"
+        }
+    },
+    "meetings": {
+        "interactions": {
+            "yourCamIsDisabled": "Vaša kamera je isključena",
+            "yourMicIsDisabled": "Vaš mikrofon je isključen"
+        }
+    },
+    "modal": {
+        "creation": {
+            "addUserLimit": {
+                "limitReached": "Odabrali ste maksimalno dozvoljen broj članova za grupu"
+            },
+            "contactList": "Odaberite više od jedne adrese da biste kreirali Grupu",
+            "inputPlaceholder": "Počni unos ili odaberi adresu",
+            "newChat": "Novi Razgovor",
+            "newGroup": "Nova Grupa"
+        },
+        "deleteGroup": "Obriši Grupu",
+        "deleteMessageTitle": "Izbrišite odabranu poruku?",
+        "deleteRoom": "Obriši Sobu",
+        "deleteRoomLabel": "Da li ste sigurni da želite izbrisati Sobu?",
+        "deleteUserDescription": "Da li ste sigurni da želite ukloniti ovog člana?",
+        "forward": {
+            "chooseAtLeastOneChat": "Izaberi barem jedan razgovor"
+        }
+    },
+    "tooltip": {
+        "messageRead": "Pročitano",
+        "messageReceived": "Primljeno",
+        "messageSent": "Poslano",
+        "muteForAll": "Isključi zvuk za sve"
+    }
+}
