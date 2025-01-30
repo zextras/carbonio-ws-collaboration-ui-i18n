@@ -20,13 +20,19 @@
             "deleteRoom": "Izbriši Virtualnu Sobu",
             "copyLink": "Kopirajte link za Virtualnu Sobu"
         },
-        "addSingleAttachment": "Dodaj {{counter}} priloga"
+        "addSingleAttachment": "Dodaj {{counter}} prilog",
+        "decline": "Odbaci",
+        "declineAll": "Odbaci sve",
+        "enter": "Ulaz",
+        "scrollToBottom": "Pomjeri se na kraj",
+        "understood": "Razumijem"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} kreiran!",
         "oneToOneCreated": "Kreiran Novi Razgovor",
         "member": {
-            "Added": "{{userName}} je dodan u {{roomName}}."
+            "Added": "{{userName}} je dodan u {{roomName}}.",
+            "Removed": "{{userName}} više nije član {{roomName}}."
         },
         "user": {
             "Added": "Dodani ste u Sobu {{roomName}}.",
@@ -43,23 +49,63 @@
         "integrations": {
             "chooseFile": "Izaberi datoteku",
             "shareLink": "Podijeli javni link"
-        }
+        },
+        "errorUploadingFile": "Došlo je do pogreške priliko postavljanja {{file}}",
+        "uploadAborted": "Preuzimanje je prekinuto",
+        "stopUpload": "Zaustavi preuzimanje"
     },
     "chat": "Razgovor",
     "conversation": {
-        "emptyListTitle": "Ova lista je prazna"
+        "emptyListTitle": "Ova lista je prazna",
+        "displayer": {
+            "title": "Odaberite razgovor da bi mogli počeli slati poruke"
+        },
+        "emptyList": {
+            "displayer": {
+                "description": "Prilikom kreiranja razgovora imate mogućnost izabrati više osoba i kreirati grupu.",
+                "title": "Stvorite novi razgovor pomoću opcije Kreiraj"
+            },
+            "list": {
+                "title": "Tamo nema ničega",
+                "description": "Razgovori i Grupe će se pojaviti u listi."
+            }
+        },
+        "emptyListDescription": "Ovdje će biti izlistani Razgovori i Grupe",
+        "mockCreateChatTitle": "Stvorite novi razgovor pomoću opcije Kreiraj",
+        "newMessage": "Nova poruka",
+        "newMessages": "Nove Poruke",
+        "selectionMode": {
+            "maxSelected": "Dostigli ste maksimalan broj poruka koje se mogu proslijediti istovremeno. Poništite odabir poruke da promijenite izbor.",
+            "multipleForward": "Proslijedi {{numberOfMessages}} poruke",
+            "exit": "Izađi iz režima odabira"
+        },
+        "longCaption": {
+            "modal": {
+                "title": "Poruka je preduga za opis",
+                "description": "Tekst je predugačak i ne može se koristiti kao opis priloženog dokumenta.",
+                "additionalDetails": "Ako nastavite sa operacijom, višak će biti uklonjen iz originalnog teksta. Nastaviti?"
+            }
+        },
+        "keepInTouchTitle": "Ostanimo u kontaktu!"
     },
     "conversationInfo": {
         "messages": "Poruke",
         "name": "Ime",
         "status": "Status",
         "topic": "Tema",
-        "title": "Naslov"
+        "title": "Naslov",
+        "actionAccordionTitle": "Akcije",
+        "email": "Email",
+        "info": "Informacije"
     },
     "editModal": {
         "confirm": "Uredi detalje",
         "nameTooLong": "Maksimalna dužina naslova je 128 znakova",
-        "topicTooLong": "Maksimalna dužina teme je 256 znakova"
+        "topicTooLong": "Maksimalna dužina teme je 256 znakova",
+        "confirmDisabled": "Niste izvršili nikakve promjene",
+        "errorDisabled": "Provjerite unesene informacije",
+        "groupDescriptionDetails": "Opisuje naziv Grupe",
+        "nameTooShort": "Naslov je bitna informacija"
     },
     "feedback": {
         "historyCleared": "Istorija je uspješno očišćena!",
@@ -69,7 +115,7 @@
             "xmpp": "Došlo je do pogreške prilikom povezivanja na XMPP",
             "websocket": "Došlo je do pogreške prilikom povezivanja na WEBSOCKET"
         },
-        "networkProblems": "ošlo je do problema prilikom korištenja modula, molim vas pokušajte osvježite stranicu",
+        "networkProblems": "Došlo je do problema prilikom korištenja modula, molim vas pokušajte osvježite stranicu",
         "connectionReestabilished": "Veza je ponovo uspostavljena, sastanak se može nastaviti bez prekida."
     },
     "meeting": {
@@ -234,5 +280,70 @@
         "messageReceived": "Primljeno",
         "messageSent": "Poslano",
         "muteForAll": "Isključi zvuk za sve"
+    },
+    "conversationFilter": {
+        "closeTooltip": "Zatvori filter",
+        "filterTooltip": "Lista filtera",
+        "label": "Unesi za filtriranje liste"
+    },
+    "keepInTouchWithColleagues": "Ostanite u kontaktu sa kolegama ili se pridružite sobama za sastanke vaših grupa",
+    "settings": {
+        "notifications": {
+            "toggleSounds": {
+                "desktop": "Omogući zvučna obavještenja na radnoj površini"
+            },
+            "checkbox": {
+                "waitingRoom": "Omogući obavještenja"
+            }
+        },
+        "profile": {
+            "maximumDimension": "Maksimalna dimenzija: {{size}}kb",
+            "pictureSizeTooLarge": "Došlo je do greške, maksimalna dozvoljena veličina za avatar je{{size}}kb",
+            "statusLabel": "Ovdje će biti prikazan vaš status",
+            "updatedPictureCorrectly": "Novi avatar je uspješno postavljen"
+        },
+        "room": {
+            "updatedPictureCorrectly": "Novi avatar je uspješno postavljen",
+            "pictureSizeTooLarge": "Došlo je do greške, maksimalna veličina za avatar Grupe je {{size}}kb"
+        },
+        "title": "Postavke Razgovora",
+        "meetings": {
+            "title": "Sastanci",
+            "description": "Podesite audio i video postavke za ulazak na sastanke. Postavke možete prilagoditi prije ulaska na bilo koji sastanak."
+        },
+        "recording": {
+            "title": "Snimanje",
+            "description": "Postavi mapu gdje će se spremati snimci sastanaka koji se prekinu.",
+            "inputLabel": "Odredišna mapa"
+        },
+        "save": "Izmjene su ispravno sačuvane"
+    },
+    "readOnly": {
+        "alreadyMigrate": {
+            "description": "Kliknite na dugme za preusmeravanje na novi modul i koristite duplikat ove grupe.",
+            "callToAction": "Prikaži razgovor u novom modulu"
+        },
+        "feedback": {
+            "error": "Došlo je do pogreške, pokušajte ponovo ili osvježite stranicu."
+        },
+        "room": {
+            "toBeMigrate": {
+                "description": "Ova akcija konvertuje stavku u grupu, kopirajući naslov, temu, članove i rolu moderatora.",
+                "tooltip": "Osim vas moraju biti barem još dva člana"
+            },
+            "modal": {
+                "title": "Pretvori \"{{roomName}}\" u Grupu.",
+                "caption": "Nakon završetka konverzije, automatski ćete biti preusmjereni na novi modul."
+            }
+        }
+    },
+    "browserNotification": {
+        "reaction": {
+            "chat": "Reagovao/la je na vašu poruku sa:",
+            "group": "{{userName}} je reagovao na vašu poruku sa:"
+        }
+    },
+    "readBy": {
+        "title": "Pregledao:"
     }
 }
