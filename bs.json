@@ -21,7 +21,7 @@
             "copyLink": "Kopirajte link za Virtualnu Sobu"
         },
         "addSingleAttachment": "Dodaj {{counter}} prilog",
-        "decline": "Odbaci",
+        "decline": "Odbij",
         "declineAll": "Odbaci sve",
         "enter": "Ulaz",
         "scrollToBottom": "Pomjeri se na kraj",
@@ -145,7 +145,10 @@
                 "applyBlur": "Primijeni efekt zamagljivanja",
                 "removeBlur": "Ukloni efekt zamagljenja"
             },
-            "enableScreen": "Omogući dijeljenje ekrana"
+            "enableScreen": "Omogući dijeljenje ekrana",
+            "gridView": "\"Grid\" pogled",
+            "userHint": "Uključite kameru da bi odabrali video efekat",
+            "disabled": "Došlo je do problema sa povezivanjem, molim vas pokušajte kasnije"
         },
         "virtual": {
             "creationInput": "Naziv Virtualne sobe",
@@ -166,12 +169,19 @@
             "startPrompt": "Pokreni sastanak u ovoj Virtualnoj Sobi.",
             "moderators": {
                 "onlyUser": "Vi ste jedini moderator.",
-                "widget": "Moderatori Virtualne Sobe:"
+                "widget": "Moderatori Virtualne Sobe:",
+                "multipleAdditional": "i drugih <strong>{{numberOfModerators}} moderatora</strong>.",
+                "onlyModerator": "je jedini moderator."
             },
             "modal": {
                 "invalidNameCaption": "Ime koje unosite mora biti kraće.",
                 "moderator": {
-                    "input": "Moderator Virtualne Sobe"
+                    "input": "Moderator Virtualne Sobe",
+                    "description": "Vi ste moderator Sobe. Ostali moderatori će biti dodati kao saradnici sa istim privilegijama."
+                },
+                "description": "Dodijelite Virtualnoj Sobi prepoznatljivo ime kako bi učesnici znali o kojoj tematici se radi.",
+                "edit": {
+                    "tile": "Uredi \"{{roomName}}\" Virtualnu Sobu"
                 }
             },
             "newRoom": "Kreiraj novu Virtualnu Sobu",
@@ -212,19 +222,23 @@
                 "meetingNotFound": "Sastanak koji tražite ne postoji",
                 "notAuthenticatedUser": "Niste autentificirani",
                 "invalidWaiting": "Nema moderatora na sastanku",
-                "generalError": "Ups! Napustili ste Sastanak."
+                "generalError": "Ups! Napustili ste Sastanak.",
+                "rejected": "Vaš zahtjev za pristup je odbijen"
             },
             "slogan": {
                 "hangUp": "Možda sljedeći put",
                 "meetingNotFound": "Pokušajte kasnije",
                 "notAuthenticatedUser": "PRIJAVITE SE ZA PRISTUP SASTANKU",
                 "invalidWaiting": "Pokušajte ponovo kasnije",
-                "generalError": "MOILM VAS, POKUŠAJTE SE PONOVO PRIKLJUČITI"
+                "generalError": "MOILM VAS, POKUŠAJTE SE PONOVO PRIKLJUČITI",
+                "rejected": "Možda sljedeći put"
             },
             "description": {
                 "meetingNotFound": "Molim vas provjerite link za sastanak i pokušajte ponovo",
                 "invalidWaiting": "Za priključivanje sastanku morate dobiti odobrenje moderatora",
-                "generalError": "Došlo je do greške."
+                "generalError": "Došlo je do greške.",
+                "notAuthenticatedUser": "Ne možete se pridružiti sastanku ako niste autentificirani sa svojim računom",
+                "rejected": "Moderatori su odlučili da vam zabrane pristup sastanku"
             },
             "feedback": {
                 "description": "Važno nam je vaše mišljenje!"
@@ -240,14 +254,39 @@
         "recordingModal": {
             "title": "Zaustavi snimanje",
             "inputLabel": "Naziv snimka",
-            "confirmationAction": "ZAUSTAVI"
+            "confirmationAction": "ZAUSTAVI",
+            "caption": "Snimka će biti spremljena u mapu {{folderName}} u Datotekama. Za promjenu odredišne mape idite na Postavke > Razgovori > Snimanje"
         },
         "durationTooltip": "Trajanje sastanka",
         "visualEffects": {
             "title": "Vizualni efekti"
         },
         "startModal": {
-            "enterOneToOneMeetingTitle": "Pridružite se {{meetingTitle}} sastanku"
+            "enterOneToOneMeetingTitle": "Pridružite se {{meetingTitle}} sastanku",
+            "audioAndVideoLoading": "Učitavanje"
+        },
+        "joinMeeting": "Pridružite se sastanku",
+        "joinMeetingDescription": "Kako želite da se pridružite sastanku?",
+        "minimizeChat": "Minimiziraj razgovore",
+        "newMeetingNotification": {
+            "sendAQuickMessage": "Pošalji brzu poruku",
+            "sendMessage": "Pošalji poruku"
+        },
+        "noMoreActiveSession": "Mora biti više od jedne aktivne sesije na sastanu",
+        "noTwoActiveSession": "Na istom sastanku ne mogu biti dvije aktivne sesije",
+        "ongoingGroupMeetingTooltip": "Već ste učesnik na ovom sastanku",
+        "ongoingOneToOneMeetingTooltip": "Već imate aktivan sastanak sa {{name}}",
+        "openedInAnotherWindow": "Ovaj sastanak je već otvoren u drugom prozoru",
+        "presentActiveSession": "Postoji druga aktivna sesija",
+        "rejoinMeeting": "Ponovo se pridružite sastanku",
+        "setInputDescription": "Setujte ulazni uređaj odabirom iz padajućeg izbornika",
+        "startMeeting": "Započni sastanak",
+        "tooltip": {
+            "activeSessionTooltip": "Imate aktivnu sesiju na ovom sastanku"
+        },
+        "waitingParticipants": "Čeka se za pridruživanje učesnika…",
+        "snackbar": {
+            "waitingInfo": "Netko je u čekaonici {{roomName}}"
         }
     },
     "meetings": {
