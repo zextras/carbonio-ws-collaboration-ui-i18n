@@ -21,7 +21,7 @@
             "copyLink": "Kopirajte link za Virtualnu Sobu"
         },
         "addSingleAttachment": "Dodaj {{counter}} prilog",
-        "decline": "Odbij",
+        "decline": "Odbaci",
         "declineAll": "Odbaci sve",
         "enter": "Ulaz",
         "scrollToBottom": "Pomjeri se na kraj",
@@ -45,20 +45,20 @@
     },
     "attachments": {
         "dragAndDrop": "Drag&Drop način rada",
-        "dropHereDescription": "Prevuci ovdje dodatke da olakšate njihovo dodavanje u razgovore",
+        "dropHereDescription": "Prevuci ovdje dodatke da olakšate njihovo dodavanje u razgovor",
         "integrations": {
             "chooseFile": "Izaberi datoteku",
             "shareLink": "Podijeli javni link"
         },
-        "errorUploadingFile": "Došlo je do pogreške priliko postavljanja {{file}}",
-        "uploadAborted": "Preuzimanje je prekinuto",
-        "stopUpload": "Zaustavi preuzimanje"
+        "errorUploadingFile": "Došlo je do pogreške prilikom postavljanja {{file}}",
+        "uploadAborted": "Postavljanje je prekinuto",
+        "stopUpload": "Zaustavi postavljanje"
     },
     "chat": "Razgovor",
     "conversation": {
         "emptyListTitle": "Ova lista je prazna",
         "displayer": {
-            "title": "Odaberite razgovor da bi mogli počeli slati poruke"
+            "title": "Odaberite razgovor da bi započeli slanje poruka"
         },
         "emptyList": {
             "displayer": {
@@ -105,7 +105,8 @@
         "confirmDisabled": "Niste izvršili nikakve promjene",
         "errorDisabled": "Provjerite unesene informacije",
         "groupDescriptionDetails": "Opisuje naziv Grupe",
-        "nameTooShort": "Naslov je bitna informacija"
+        "nameTooShort": "Naslov je bitna informacija",
+        "groupNameDetails": "Obavezno je i identifikuje Grupu"
     },
     "feedback": {
         "historyCleared": "Istorija je uspješno očišćena!",
@@ -148,7 +149,10 @@
             "enableScreen": "Omogući dijeljenje ekrana",
             "gridView": "\"Grid\" pogled",
             "userHint": "Uključite kameru da bi odabrali video efekat",
-            "disabled": "Došlo je do problema sa povezivanjem, molim vas pokušajte kasnije"
+            "disabled": "Došlo je do problema sa povezivanjem, molim vas pokušajte kasnije",
+            "enableFullScreen": "Omogući prikaz na cijelom ekranu",
+            "disableFullScreen": "Onemogući prikaz na cijelom ekranu",
+            "selectedDeviceTooltip": "Odabrani uređaj"
         },
         "virtual": {
             "creationInput": "Naziv Virtualne sobe",
@@ -171,7 +175,8 @@
                 "onlyUser": "Vi ste jedini moderator.",
                 "widget": "Moderatori Virtualne Sobe:",
                 "multipleAdditional": "i drugih <strong>{{numberOfModerators}} moderatora</strong>.",
-                "onlyModerator": "je jedini moderator."
+                "onlyModerator": "je jedini moderator.",
+                "singleAdditional": "i još jedan moderator."
             },
             "modal": {
                 "invalidNameCaption": "Ime koje unosite mora biti kraće.",
@@ -186,7 +191,8 @@
             },
             "newRoom": "Kreiraj novu Virtualnu Sobu",
             "buttonLabel": "Vaše Virtualne Sobe",
-            "invalidNameTooltip": "Neispravano ime"
+            "invalidNameTooltip": "Neispravano ime",
+            "deleteModalDescription": "Brišete Virtualnu Sobu, svi aktivni sastanci će biti zaustavljeni i niko više neće moći pristupiti sobi. Da li želite nastaviti?"
         },
         "sidebar": {
             "waitingList": "Lista čekanja",
@@ -203,7 +209,8 @@
                 },
                 "additionalDescription": "Ako dođe do greške, snimanje će biti spremljeno u prostoru Datoteke moderatora koji je pokrenuo snimanje.",
                 "description": "Snimka će biti sačuvana u prostoru Datoteka moderatora koji ga je zaustavio."
-            }
+            },
+            "waitingCaption": "Čeka se ulazak"
         },
         "browserNotification": {
             "waitingMessage": "Novi korisnik čeka da uđe na sastanak"
@@ -214,7 +221,8 @@
             "hangUp": "Izađi",
             "ready": "Spreman za učestovanje",
             "nextStep": "Moderator će vas pustiti na sastanak što prije",
-            "setInputs": "Postavite ulazne uređaje birajući ih iz padajućeg menija"
+            "setInputs": "Postavite ulazne uređaje birajući ih iz padajućeg menija",
+            "readyHint": "Moći ćete ući na sastanak za nekoliko trenutaka"
         },
         "infoPage": {
             "title": {
@@ -270,7 +278,9 @@
         "minimizeChat": "Minimiziraj razgovore",
         "newMeetingNotification": {
             "sendAQuickMessage": "Pošalji brzu poruku",
-            "sendMessage": "Pošalji poruku"
+            "sendMessage": "Pošalji poruku",
+            "userIsInvitingYou": "<strong>{{name}}</strong> te poziva",
+            "writeAMessageToSendIt": "Napišite poruku da je pošaljete"
         },
         "noMoreActiveSession": "Mora biti više od jedne aktivne sesije na sastanu",
         "noTwoActiveSession": "Na istom sastanku ne mogu biti dvije aktivne sesije",
@@ -287,7 +297,10 @@
         "waitingParticipants": "Čeka se za pridruživanje učesnika…",
         "snackbar": {
             "waitingInfo": "Netko je u čekaonici {{roomName}}"
-        }
+        },
+        "collapseChat": "Sažmi razgovor",
+        "collapseParticipantsMeetingTooltip": "Sažmi listu učesnika",
+        "restartMeeting": "Ponovo pokreni sastanak"
     },
     "meetings": {
         "interactions": {
@@ -333,6 +346,9 @@
             },
             "checkbox": {
                 "waitingRoom": "Omogući obavještenja"
+            },
+            "subtitle": {
+                "general": "Općenito"
             }
         },
         "profile": {
