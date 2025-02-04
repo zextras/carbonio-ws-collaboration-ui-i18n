@@ -189,7 +189,8 @@
             },
             "selectedDeviceTooltip": "Selected device",
             "userHint": "Turn on the camera to select a video effect",
-            "disabled": "There are connection problems, please try again later."
+            "disabled": "There are connection problems, please try again later.",
+            "unknownDevice": "Unknown device"
         },
         "joinMeeting": "Join meeting",
         "joinMeetingDescription": "How do you want to join this meeting?",
