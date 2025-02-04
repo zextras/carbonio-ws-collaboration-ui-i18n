@@ -377,7 +377,8 @@
             },
             "userHint": "Accendi la fotocamera per selezionare un effetto video",
             "selectedDeviceTooltip": "Dispositivo selezionato",
-            "disabled": "C'è un problema con la connessione, per favore riprova più tardi."
+            "disabled": "C'è un problema con la connessione, per favore riprova più tardi.",
+            "unknownDevice": "Risorsa sconosciuta"
         },
         "joinMeeting": "Partecipa alla riunione",
         "newMeetingNotification": {
