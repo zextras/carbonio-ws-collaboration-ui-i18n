@@ -387,7 +387,8 @@
             },
             "userHint": "Allumer la caméra pour sélectionner l'effet vidéo",
             "selectedDeviceTooltip": "Appareil sélectionné",
-            "disabled": "Il y a des problèmes de connexion, merci de réessayer plus tard."
+            "disabled": "Il y a des problèmes de connexion, merci de réessayer plus tard.",
+            "unknownDevice": "Appareil inconnu"
         },
         "joinMeeting": "Rejoindre la réunion",
         "newMeetingNotification": {
