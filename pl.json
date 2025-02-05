@@ -297,7 +297,8 @@
             },
             "userHint": "Włącz kamerę, aby wybrać efekt wideo",
             "selectedDeviceTooltip": "Wybrane urządzenie",
-            "disabled": "Są problemy z połączeniem, spróbuj ponownie później."
+            "disabled": "Są problemy z połączeniem, spróbuj ponownie później.",
+            "unknownDevice": "Nieznane urządzenie"
         },
         "joinMeeting": "Dołącz do spotkania",
         "newMeetingNotification": {
