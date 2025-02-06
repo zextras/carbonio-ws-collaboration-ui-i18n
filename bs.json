@@ -349,7 +349,8 @@
             },
             "subtitle": {
                 "general": "Općenito"
-            }
+            },
+            "title": "Obavijesti"
         },
         "profile": {
             "maximumDimension": "Maksimalna dimenzija: {{size}}kb",
