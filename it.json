@@ -555,6 +555,12 @@
             "default": "Nessuno",
             "title": "Effetti di visualizzazione",
             "blur": "Sfoca"
+        },
+        "pip": {
+            "trigger": "Abilita PiP",
+            "close": "Disabilita PiP",
+            "noTalking": "Nessuno sta parlando al momento.",
+            "speaking": "{{userName}} sta parlando."
         }
     },
     "tryLater": "Riprova più tardi",
