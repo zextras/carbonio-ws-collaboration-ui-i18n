@@ -359,6 +359,12 @@
             "title": "Visual Effects",
             "default": "None",
             "blur": "Blur"
+        },
+        "pip": {
+            "noTalking": "Nobody's talking right now.",
+            "speaking": "{{userName}} is speaking.",
+            "close": "Disable PiP",
+            "trigger": "Enable PiP"
         }
     },
     "meetings": {
