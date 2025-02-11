@@ -565,6 +565,12 @@
             "default": "Aucun",
             "title": "Effets visuels",
             "blur": "Flou"
+        },
+        "pip": {
+            "trigger": "Activer PiP",
+            "noTalking": "Personne ne parle actuellement.",
+            "close": "Désactiver PiP",
+            "speaking": "{{userName}} parle."
         }
     },
     "meetings": {
