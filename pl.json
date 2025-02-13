@@ -475,6 +475,12 @@
             "title": "Efekty wizualne",
             "default": "Żaden",
             "blur": "Rozmazanie"
+        },
+        "pip": {
+            "noTalking": "Nikt teraz nic nie mówi.",
+            "trigger": "Włącz PiP",
+            "close": "Wyłącz PiP",
+            "speaking": "{{userName}} mówi."
         }
     },
     "meetings": {
