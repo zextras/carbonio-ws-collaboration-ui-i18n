@@ -427,7 +427,7 @@
             "moderators": {
                 "onlyModerator": "является единственным модератором.",
                 "singleAdditional": "и еще один модератор.",
-                "multipleAdditional": "и другие {{numberOfModerators}} модератора/ов.",
+                "multipleAdditional": "и другие <strong>{{numberOfModerators}} модераторы</strong>.",
                 "onlyUser": "Вы единственный модератор.",
                 "widget": "Модераторы Виртуальной комнаты:"
             },
@@ -553,7 +553,14 @@
         },
         "visualEffects": {
             "title": "Фон и эффекты",
-            "blur": "Размытый фон"
+            "blur": "Размытый фон",
+            "default": "Никто"
+        },
+        "pip": {
+            "noTalking": "Сейчас никто не говорит.",
+            "trigger": "Включить PiP",
+            "close": "Отключить PiP",
+            "speaking": "Говорит {{userName}}."
         }
     },
     "thanksForParticipating": "До встречи",
