@@ -261,7 +261,7 @@
         "messageCopied": "Wiadomość została skopiowana",
         "networkProblem": {
             "websocket": "Coś poszło nie tak podczas łączenia z WEBSOCKET",
-            "wsc": "Coś poszło nie tak podczas łączenia z WSC",
+            "wsc": "Coś poszło nie tak podczas łączenia ze Współpracą zespołową",
             "xmpp": "Coś poszło nie tak podczas łączenia z XMPP"
         },
         "networkProblems": "Mogą wystąpić problemy przy używaniu tego modułu, spróbuj odświeżyć stronę.",
