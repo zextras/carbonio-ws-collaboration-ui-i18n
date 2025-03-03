@@ -67,6 +67,9 @@
         "integrations": {
             "chooseFile": "Choose file",
             "shareLink": "Share public link"
+        },
+        "upload": {
+            "tooLarge": "Upload failed: The file exceeds the maximum file size of {{size}} MB."
         }
     },
     "chat": "Chat",
@@ -468,7 +471,7 @@
         "room": {
             "deletedImageCorrectly": "Group avatar has been successfully reset to the original one",
             "deletedUserImageCorrectly": "Avatar has been successfully reset to the original one",
-            "pictureSizeTooLarge": "Something went wrong, remember that the maximum size for a Group’s avatar image is {{size}}kb",
+            "pictureSizeTooLarge": "Something went wrong, remember that the maximum size for a Group’s avatar image is {{size}}MB",
             "updatedPictureCorrectly": "New avatar has been successfully uploaded"
         },
         "save": "Edits saved correctly",
