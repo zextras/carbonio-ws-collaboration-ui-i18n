@@ -183,6 +183,9 @@
         "integrations": {
             "chooseFile": "Scegli file",
             "shareLink": "Condividi link pubblico"
+        },
+        "upload": {
+            "tooLarge": "Caricamento fallito: il file eccede la dimensione massima consentita di {{size}} MB."
         }
     },
     "conversation": {
@@ -274,7 +277,7 @@
         "title": "Impostazioni chat",
         "room": {
             "deletedUserImageCorrectly": "Avatar ripristinato con successo alla versione originale",
-            "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar di un Gruppo è {{size}}kb",
+            "pictureSizeTooLarge": "Qualcosa è andato storto, ricorda che la dimensione massima per l'immagine avatar di un Gruppo è {{size}}MB",
             "updatedPictureCorrectly": "Nuovo avatar caricato con successo",
             "deletedImageCorrectly": "L'immagine profilo del gruppo è stata ripristinata con successo alla versione originale"
         },
