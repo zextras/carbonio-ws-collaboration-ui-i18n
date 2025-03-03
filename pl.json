@@ -136,7 +136,7 @@
             "deletedImageCorrectly": "Obraz grupy został zresetowany do oryginalnego",
             "deletedUserImageCorrectly": "Awatar został zresetowany do oryginalnego",
             "updatedPictureCorrectly": "Nowy awatar został przesłany",
-            "pictureSizeTooLarge": "Coś poszło nie tak. Pamiętaj, że max. rozmiar obrazu grupy to {{size}}kb"
+            "pictureSizeTooLarge": "Coś poszło nie tak. Pamiętaj, że max. rozmiar obrazu grupy to {{size}}MB"
         },
         "meetings": {
             "title": "Spotkania",
@@ -188,6 +188,9 @@
         "integrations": {
             "chooseFile": "Wybierz plik",
             "shareLink": "Udostępnij publiczny link"
+        },
+        "upload": {
+            "tooLarge": "Przesyłanie się nie powiodło: Plik przekracza max. rozmiar pliku {{size}} MB."
         }
     },
     "chat": "Czat",
