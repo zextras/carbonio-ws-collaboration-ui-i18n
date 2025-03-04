@@ -10,6 +10,9 @@
         "integrations": {
             "chooseFile": "Choisir un fichier",
             "shareLink": "Partager un lien publique"
+        },
+        "upload": {
+            "tooLarge": "Le téléchargement a échoué : Le fichier dépasse la taille maximale de {{size}} Mo."
         }
     },
     "conversationInfo": {
@@ -91,7 +94,7 @@
         "title": "Paramétrage de Chats",
         "room": {
             "deletedImageCorrectly": "L'avatar du Groupe a été réinitialisé avec l'original avec succès",
-            "pictureSizeTooLarge": "Quelque chose s'est mal passé, rappelez-vous que la taille maximum pour l'image d'un avatar de Groupe est de {{size}}ko",
+            "pictureSizeTooLarge": "Quelque chose s'est mal passé, rappelez-vous que la taille maximum pour l'image d'un avatar de Groupe est de {{size}} Mo",
             "updatedPictureCorrectly": "Le nouvel avatar a été téléversé avec succès",
             "deletedUserImageCorrectly": "L'Avatar a été réinitialisé avec l'original avec succès"
         },
