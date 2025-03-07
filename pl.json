@@ -301,7 +301,9 @@
             "userHint": "Włącz kamerę, aby wybrać efekt wideo",
             "selectedDeviceTooltip": "Wybrane urządzenie",
             "disabled": "Są problemy z połączeniem, spróbuj ponownie później.",
-            "unknownDevice": "Nieznane urządzenie"
+            "unknownDevice": "Nieznane urządzenie",
+            "handDown": "Opuść swoją rękę",
+            "handUp": "Podnieś swoją rękę"
         },
         "joinMeeting": "Dołącz do spotkania",
         "newMeetingNotification": {
@@ -397,7 +399,8 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni pokoju {{roomName}}."
+            "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni pokoju {{roomName}}.",
+            "autoHandDown": "Wygląda na to, że coś mówisz, dlatego Twoja ręka zostanie opuszczona."
         },
         "browserNotification": {
             "waitingMessage": "Nowy użytkownik czeka, aby dołączyć do pokoju"
@@ -563,7 +566,8 @@
         "youAreAlreadyMuted": "Jesteś wyciszony",
         "moreReactions": "Więcej reakcji",
         "reactions": "Reakcje",
-        "virtualActions": "Czynności wirtualnego pokoju"
+        "virtualActions": "Czynności wirtualnego pokoju",
+        "moreActions": "Więcej czynności"
     },
     "conversationFilter": {
         "filterTooltip": "Filtruj listę",
