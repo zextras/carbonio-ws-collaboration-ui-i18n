@@ -193,7 +193,9 @@
             "selectedDeviceTooltip": "Selected device",
             "userHint": "Turn on the camera to select a video effect",
             "disabled": "There are connection problems, please try again later.",
-            "unknownDevice": "Unknown device"
+            "unknownDevice": "Unknown device",
+            "handDown": "Lower your hand",
+            "handUp": "Raise your hand"
         },
         "joinMeeting": "Join meeting",
         "joinMeetingDescription": "How do you want to join this meeting?",
@@ -286,7 +288,8 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "There seems to be someone in the {{roomName}}'s waiting room."
+            "waitingInfo": "There seems to be someone in the {{roomName}}'s waiting room.",
+            "autoHandDown": "It sounds like you’re saying something, so your hand will be lowered."
         },
         "browserNotification": {
             "waitingMessage": "New user is waiting to enter the meeting"
@@ -582,7 +585,8 @@
         "youAreAlreadyMuted": "You're muted",
         "reactions": "Reactions",
         "moreReactions": "More reactions",
-        "virtualActions": "Virtual Room actions"
+        "virtualActions": "Virtual Room actions",
+        "moreActions": "More Actions"
     },
     "tryLater": "Try later",
     "interactions": {
