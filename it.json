@@ -170,7 +170,8 @@
         "youAreAlreadyMuted": "Il tuo audio è disattivato",
         "moreReactions": "Più reazioni",
         "reactions": "Reazioni",
-        "virtualActions": "Azioni della Stanza Virtuale"
+        "virtualActions": "Azioni della Stanza Virtuale",
+        "moreActions": "Altre azioni"
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -381,7 +382,9 @@
             "userHint": "Accendi la fotocamera per selezionare un effetto video",
             "selectedDeviceTooltip": "Dispositivo selezionato",
             "disabled": "C'è un problema con la connessione, per favore riprova più tardi.",
-            "unknownDevice": "Risorsa sconosciuta"
+            "unknownDevice": "Risorsa sconosciuta",
+            "handUp": "Alza la mano",
+            "handDown": "Abbassa la mano"
         },
         "joinMeeting": "Partecipa alla riunione",
         "newMeetingNotification": {
@@ -467,7 +470,8 @@
             }
         },
         "snackbar": {
-            "waitingInfo": "Sembra esserci qualcuno nella stanza d'attesa della Room {{roomName}}."
+            "waitingInfo": "Sembra esserci qualcuno nella stanza d'attesa della Room {{roomName}}.",
+            "autoHandDown": "Sembra che tu stia parlando, quindi la tua mano verrà abbassata."
         },
         "browserNotification": {
             "waitingMessage": "Un nuovo utente sta aspettando di entrare nel meeting"
