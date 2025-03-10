@@ -329,7 +329,8 @@
         "youAreAlreadyMuted": "У вас отключен звук",
         "moreReactions": "Ещё реакции",
         "reactions": "Реакции",
-        "virtualActions": "Действия Виртуальной комнаты"
+        "virtualActions": "Действия Виртуальной комнаты",
+        "moreActions": "Дополнительные действия"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} создан!",
@@ -381,7 +382,9 @@
             "userHint": "Включите камеру, чтобы выбрать видеоэффект",
             "selectedDeviceTooltip": "Выбранное устройство",
             "disabled": "Возникли проблемы с подключением. Повторите попытку позже.",
-            "unknownDevice": "Неизвестное устройство"
+            "unknownDevice": "Неизвестное устройство",
+            "handDown": "Опустить руку",
+            "handUp": "Поднять руку"
         },
         "joinMeeting": "Присоединиться к встрече",
         "newMeetingNotification": {
@@ -466,7 +469,8 @@
             "waitingList": "Лист ожидания"
         },
         "snackbar": {
-            "waitingInfo": "Кажется, в комнате ожидания кто-то есть"
+            "waitingInfo": "Кажется, в комнате ожидания кто-то есть",
+            "autoHandDown": "Похоже, вы что-то говорите, поэтому ваша рука опускается."
         },
         "browserNotification": {
             "waitingMessage": "Новый пользователь ожидает входа на встречу"
