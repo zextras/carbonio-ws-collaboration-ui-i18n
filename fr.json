@@ -329,7 +329,8 @@
         "youAreAlreadyMuted": "Vous êtes en sourdine",
         "moreReactions": "Plus de réactions",
         "reactions": "Réactions",
-        "virtualActions": "Actions de la salle virtuelle"
+        "virtualActions": "Actions de la salle virtuelle",
+        "moreActions": "Plus d'actions"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} est créée !",
@@ -391,7 +392,9 @@
             "userHint": "Allumer la caméra pour sélectionner l'effet vidéo",
             "selectedDeviceTooltip": "Appareil sélectionné",
             "disabled": "Il y a des problèmes de connexion, merci de réessayer plus tard.",
-            "unknownDevice": "Appareil inconnu"
+            "unknownDevice": "Appareil inconnu",
+            "handDown": "Baisser la main",
+            "handUp": "Lever la main"
         },
         "joinMeeting": "Rejoindre la réunion",
         "newMeetingNotification": {
@@ -480,7 +483,8 @@
             "waitingMessage": "Un nouvel utilisateur attend pour entre dans la réunion"
         },
         "snackbar": {
-            "waitingInfo": "Il semble que quelqu'un soit dans la salle d'attente de {{roomName}}."
+            "waitingInfo": "Il semble que quelqu'un soit dans la salle d'attente de {{roomName}}.",
+            "autoHandDown": "On dirait que vous êtes en train de dire quelque chose, donc votre main sera baissée."
         },
         "waitingRoom": {
             "setInputs": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
