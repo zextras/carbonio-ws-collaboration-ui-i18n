@@ -100,7 +100,7 @@
         "leaveRoom": "Abbandona Stanza",
         "leaveRoomLabel": "Vuoi abbandonare questa Stanza?",
         "deleteMessageTitleDescription": "Stai per cancellare il messaggio, questo non sarà più disponibile",
-        "deleteGroupMeetingOngoingLabel": "Al momento è in corso un meeting. Cancellare il Gruppo terminerà il meeting nessun senza preavviso.",
+        "deleteGroupMeetingOngoingLabel": "Al momento è in corso una riunione. Cancellare il Gruppo terminerà la riunione nessun senza preavviso.",
         "muteForAllDescription": "Disattivando l'audio dell'utente, gli altri partecipanti non lo sentiranno più. Solo l'utente che è stato mutato potrà riattivare l'audio. Procedere?"
     },
     "participantsList": {
@@ -245,7 +245,7 @@
             "websocket": "Qualcosa è andato storto durante la connessione con WEBSOCKET"
         },
         "networkProblems": "Potrebbero esserci problemi durante l'utilizzo di questo modulo, prova ad aggiornare la pagina.",
-        "connectionReestabilished": "Connessione ripristinata, il meeting può proseguire senza interruzioni."
+        "connectionReestabilished": "Connessione ripristinata, la riunione può proseguire senza interruzioni."
     },
     "settings": {
         "notifications": {
@@ -291,7 +291,7 @@
             "inputLabel": "Cartella di destinazione",
             "browseAction": "SFOGLIA",
             "resetAction": "RIPRISTINA",
-            "description": "Imposta una cartella dove salvare le registrazioni dei meeting che terminerai."
+            "description": "Imposta una cartella dove salvare le registrazioni delle riunioni che terminerai."
         },
         "export": {
             "emptySpace": {
@@ -362,7 +362,7 @@
             "disableMicrophone": "Disabilita microfono",
             "disableCamera": "Disabilita telecamera",
             "gridView": "Vista griglia",
-            "leaveMeeting": "Abbandona Meeting",
+            "leaveMeeting": "Abbandona Riunione",
             "microphoneDisabled": "Microfono disabilitato",
             "playMic": "Avvia il test del microfono",
             "enableScreen": "Abilita condivisione schermo",
@@ -370,7 +370,7 @@
             "stopMic": "Ferma il test del microfono",
             "disableFullScreen": "Disabilita lo schermo intero",
             "enableFullScreen": "Abilita lo schermo intero",
-            "leaveConfirmation": "Uscire dal meeting?",
+            "leaveConfirmation": "Uscire dalla riunione?",
             "title": {
                 "devices": "Dispositivi",
                 "videoEffect": "Effetto video"
@@ -395,34 +395,34 @@
         },
         "waitingParticipants": "In attesa che i partecipanti arrivino…",
         "startModal": {
-            "enterRoomMeetingTitle": "Partecipa al meeting {{meetingTitle}}",
+            "enterRoomMeetingTitle": "Partecipa alla riunione {{meetingTitle}}",
             "audioAndVideoLoading": "Le risorse sono in caricamento",
-            "enterOneToOneMeetingTitle": "Inizia meeting {{meetingTitle}}"
+            "enterOneToOneMeetingTitle": "Inizia la riunione {{meetingTitle}}"
         },
-        "activeMeetingTooltip": "C'è un meeting attivo per questa Chat",
+        "activeMeetingTooltip": "C'è una riunione attiva per questa Chat",
         "collapseChat": "Comprimi chat",
         "collapseParticipantsMeetingTooltip": "Comprimi elenco dei partecipanti",
         "expandChat": "Espandi chat",
         "expandParticipantsListTooltip": "Espandi elenco dei partecipanti",
         "extendChat": "Estendi la chat",
-        "ongoingGroupMeetingTooltip": "Stai già partecipando a questo meeting",
-        "ongoingOneToOneMeetingTooltip": "Hai già un meeting attivo con {{name}}",
-        "joinMeetingDescription": "Come vuoi accedere a questo meeting?",
+        "ongoingGroupMeetingTooltip": "Stai già partecipando a questa riunione",
+        "ongoingOneToOneMeetingTooltip": "Hai già una riunione attiva con {{name}}",
+        "joinMeetingDescription": "Come vuoi accedere a questa riunione?",
         "minimizeChat": "Riduci la chat",
         "setInputDescription": "Imposta i tuoi dispositivi di input scegliendoli dal menù a tendina",
-        "startMeeting": "Avvia meeting",
+        "startMeeting": "Avvia riunione",
         "virtual": {
             "deleteTooltip": "Elimina Stanza Virtuale",
-            "emptyState": "Le Virtual Room che creerai verranno mostrate qui.",
-            "deleteModalTitle": "Elimina Virtual Room {{roomName}}",
-            "nameRequiredTooltip": "Il nome della Virtual Room è obbligatorio",
-            "createTooltip": "Crea una nuova Virtual Room",
+            "emptyState": "Le Stanze Virtuali che creerai verranno mostrate qui.",
+            "deleteModalTitle": "Elimina Stanza Virtuale {{roomName}}",
+            "nameRequiredTooltip": "Il nome della Stanza Virtuale è obbligatorio",
+            "createTooltip": "Crea una nuova Stanza Virtuale",
             "invalidNameTooltip": "Nome non valido",
-            "deleteModalDescription": "Stai eliminando questa Virtual Room, se ci sono meeting attivi verranno interrotti e nessuno sarà più in grado di accedervi. Continuare?",
+            "deleteModalDescription": "Stai eliminando questa Stanza Virtuale, se ci sono riunioni attive verranno interrotte e nessuno sarà più in grado di accedervi. Continuare?",
             "copyLinkSnackbar": "Link della Stanza Virtuale copiato",
-            "deleteSnackbar": "Virtual Room eliminata correttamente",
+            "deleteSnackbar": "Stanza Virtuale eliminata correttamente",
             "creationInput": "Nome della Stanza Virtuale",
-            "buttonLabel": "Le tue Virtual Room",
+            "buttonLabel": "Le tue Stanze Virtuali",
             "participants": {
                 "onlyUser": "Sei l'unico partecipante attivo.",
                 "singleActive": "Un partecipante attivo.",
@@ -437,7 +437,7 @@
                 "multipleAdditional": "e altri <strong>{{numberOfModerators}} moderatori </strong>.",
                 "widget": "Moderatori della Stanza Virtuale:"
             },
-            "startPrompt": "Avvia un meeting in questa Virtual Room.",
+            "startPrompt": "Avvia una riunione in questa Stanza Virtuale.",
             "modal": {
                 "description": "Assegna a questa Stanza Virtuale un nome riconoscibile, in modo che i partecipanti sappiano di cosa tratterà la riunione.",
                 "invalidNameCaption": "Inserisci un nome più corto per favore.",
@@ -474,17 +474,17 @@
             "autoHandDown": "Sembra che tu stia parlando, quindi la tua mano verrà abbassata."
         },
         "browserNotification": {
-            "waitingMessage": "Un nuovo utente sta aspettando di entrare nel meeting"
+            "waitingMessage": "Un nuovo utente sta aspettando di entrare nella riunione"
         },
         "waitingRoom": {
             "setInputs": "Imposta i tuoi dispositivi di input scegliendoli dal menù a tendina",
             "hangUp": "Aggancia",
-            "title": "Come vuoi partecipare al meeting {{meetingName}}?",
-            "readyHint": "Entrerai nel meeting tra pochi istanti",
+            "title": "Come vuoi partecipare alla riunione {{meetingName}}?",
+            "readyHint": "Entrerai nella riunione tra pochi istanti",
             "ready": "Pronto a partecipare",
             "readyCaption": "È tutto pronto! Mettiti comodo.",
-            "nextStep": "Un moderatore ti farà entrare nel meeting il prima possibile.",
-            "welcomeHint": "Clicca su “PRONTO A PARTECIPARE” per entrare nel meeting",
+            "nextStep": "Un moderatore ti farà entrare nella riunione il prima possibile.",
+            "welcomeHint": "Clicca su “PRONTO A PARTECIPARE” per entrare nella riunione",
             "welcomeCaption": "Quando sarai pronto, mettiti comodo.",
             "userIsReady": "Sei pronto!"
         },
@@ -492,25 +492,25 @@
             "title": {
                 "hangUp": "Hai riattaccato!",
                 "rejected": "Il tuo accesso è stato rifiutato",
-                "meetingNotFound": "Il meeting che stai cercando non esiste",
+                "meetingNotFound": "La riunione che stai cercando non esiste",
                 "notAuthenticatedUser": "Non sei autenticato",
-                "invalidWaiting": "Non ci sono moderatori in questo meeting",
-                "generalError": "Oh no! Hai lasciato il meeting."
+                "invalidWaiting": "Non ci sono moderatori in questa riunione",
+                "generalError": "Oh no! Hai lasciato la riunione."
             },
             "slogan": {
                 "hangUp": "Magari un'altra volta",
                 "rejected": "Il tuo accesso è stato negato",
                 "meetingNotFound": "Riprova più tardi",
-                "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE AL MEETING",
+                "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE ALLA RIUNIONE",
                 "invalidWaiting": "Riprova più tardi",
                 "generalError": "PER FAVORE, PROVA A PARTECIPARE DI NUOVO"
             },
             "description": {
-                "rejected": "I moderatori hanno deciso di negarti l'accesso al meeting",
-                "hangUp": "Non vediamo l'ora di vederti partecipare ad altri meeting futuri",
-                "meetingNotFound": "Controlla il link del meeting e riprova",
-                "notAuthenticatedUser": "Non puoi partecipare al meeting se non sei autenticato con il tuo account",
-                "invalidWaiting": "Il tuo accesso al meeting dev'essere accettato da un moderatore.",
+                "rejected": "I moderatori hanno deciso di negarti l'accesso alla riunione",
+                "hangUp": "Non vediamo l'ora di vederti partecipare ad altre riunioni",
+                "meetingNotFound": "Controlla il link della riunione e riprova",
+                "notAuthenticatedUser": "Non puoi partecipare alla riunione se non sei autenticato con il tuo account",
+                "invalidWaiting": "Il tuo accesso alla riunione dev'essere accettato da un moderatore.",
                 "generalError": "Qualcosa è andato storto."
             },
             "feedback": {
@@ -518,22 +518,22 @@
                 "description": "La tua opinione è importante per noi!"
             }
         },
-        "continueActiveSession": "Continua il meeting nella nuova finestra",
-        "noMoreActiveSession": "Non può esserci più di una sessione attiva dello stesso meeting",
-        "noTwoActiveSession": "Non possono coestistere due sessioni attive dello stesso meeting",
-        "openedInAnotherWindow": "Questo meeting è già aperto in un'altra finestra",
+        "continueActiveSession": "Continua la riunione nella nuova finestra",
+        "noMoreActiveSession": "Non può esserci più di una sessione attiva della stessa riunione",
+        "noTwoActiveSession": "Non possono coestistere due sessioni attive della stessa riunione",
+        "openedInAnotherWindow": "Questa riunione è già aperta in un'altra finestra",
         "presentActiveSession": "C'è un'altra sessione attiva",
-        "rejoinMeeting": "Partecipa di nuovo al meeting",
-        "restartMeeting": "Riavvia il meeting",
+        "rejoinMeeting": "Partecipa di nuovo alla riunione",
+        "restartMeeting": "Riavvia la riunione",
         "tooltip": {
-            "activeSessionTooltip": "Hai una sessione attiva in questo meeting"
+            "activeSessionTooltip": "Hai una sessione attiva di questa riunione"
         },
         "recordingHint": "Registrazione della riunione in corso",
         "recordingStart": {
             "failureSnackbar": "Non è possibile iniziare la registrazione, contatta il tuo amministratore di sistema.",
             "successSnackbar": {
-                "starter": "È stata avviata la registrazione di questo meeting",
-                "participants": "{{userName}} ha avviato la registrazione di questo meeting"
+                "starter": "È stata avviata la registrazione di questa riunione",
+                "participants": "{{userName}} ha avviato la registrazione di questa riunione"
             }
         },
         "recordingModal": {
@@ -547,16 +547,16 @@
         },
         "recordingStop": {
             "successSnackbar": {
-                "participants": "{{userName}} ha terminato la registrazione del meeting",
+                "participants": "{{userName}} ha terminato la registrazione della riunione",
                 "stopper": "Troverai {{recordingName}} in {{folderName}} appena sarà disponibile"
             },
             "failureSnackbar": "Non è possibile terminare la registrazione, contatta il tuo amministratore di sistema."
         },
         "durationTooltip": "Durata della riunione",
         "participantsList": {
-            "title_one": "Un partecipante della riunione",
-            "title_many": "{{count}} partecipanti della riunione",
-            "title_other": "{{count}} partecipanti della riunione"
+            "title_one": "Un partecipante alla riunione",
+            "title_many": "{{count}} partecipanti alla riunione",
+            "title_other": "{{count}} partecipanti alla riunione"
         },
         "visualEffects": {
             "default": "Nessuno",
