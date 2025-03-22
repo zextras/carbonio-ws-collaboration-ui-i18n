@@ -190,7 +190,8 @@
         "expandCarousel": "توسيع",
         "showConversationList": "إظهار قائمة الدردشة",
         "uploadAttachment": "تحميل مرفق",
-        "virtualActions": "إجراءات الغرفة الافتراضية"
+        "virtualActions": "إجراءات الغرفة الافتراضية",
+        "moreActions": "المزيد من الإجراءات"
     },
     "attachments": {
         "attachLinkFiles": "إرفاق رابط عام من الملفات",
@@ -203,7 +204,10 @@
             "chooseFile": "اختر الملف",
             "shareLink": "مشاركة الرابط العام"
         },
-        "uploadAborted": "لقد تم مقاطعة التحميل"
+        "uploadAborted": "لقد تم مقاطعة التحميل",
+        "upload": {
+            "tooLarge": "فشل التحميل: يتجاوز الملف الحجم الأقصى البالغ {{size}} ميغابايت."
+        }
     },
     "external": {
         "nobodyInTheRoom": "يبدو أنه لا يوجد أحد في هذه الغرفة",
@@ -253,7 +257,9 @@
             "enableMicrophone": "تمكين لاقط الصوت (ميكروفون)",
             "gridView": "العرض الشبكي",
             "disabled": "هناك مشاكل في الاتصال، يرجى المحاولة مرة أخرى لاحقًا.",
-            "unknownDevice": "جهاز غير معروف"
+            "unknownDevice": "جهاز غير معروف",
+            "handDown": "اخفض يدك",
+            "handUp": "ارفع يدك"
         },
         "sidebar": {
             "waitingList": "قائمة الانتظار",
@@ -381,7 +387,8 @@
         "collapseChat": "انهيار الدردشة",
         "continueActiveSession": "متابعة الاجتماع في النافذة الجديدة",
         "snackbar": {
-            "waitingInfo": "يبدو أن هناك شخصًا في غرفة انتظار {{roomName}}."
+            "waitingInfo": "يبدو أن هناك شخصًا في غرفة انتظار {{roomName}}.",
+            "autoHandDown": "يبدو أنك تقول شيئًا ، لذلك سوف يتم خفض يدك."
         },
         "browserNotification": {
             "waitingMessage": "المستخدم الجديد ينتظر الدخول إلى الاجتماع"
@@ -437,7 +444,8 @@
         "pip": {
             "noTalking": "لا أحد يتحدث الآن.",
             "trigger": "تشغيل الهوية الشخصية -PiP-",
-            "close": "إيقاف PiP"
+            "close": "إيقاف PiP",
+            "speaking": "{{userName}} يتحدث."
         }
     },
     "message": {
