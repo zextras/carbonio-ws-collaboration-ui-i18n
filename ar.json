@@ -433,7 +433,11 @@
             }
         },
         "durationTooltip": "مدة الاجتماع",
-        "recordingHint": "يتم تسجيل هذا الاجتماع"
+        "recordingHint": "يتم تسجيل هذا الاجتماع",
+        "pip": {
+            "noTalking": "لا أحد يتحدث الآن.",
+            "trigger": "تشغيل PiP"
+        }
     },
     "message": {
         "edited": "محررةٌ",
