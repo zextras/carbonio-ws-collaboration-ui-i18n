@@ -444,7 +444,7 @@
         "pip": {
             "noTalking": "لا أحد يتحدث الآن.",
             "trigger": "تشغيل الهوية الشخصية -PiP-",
-            "close": "إيقاف PiP",
+            "close": "إيقاف الهوية الشخصية -PiP-",
             "speaking": "{{userName}} يتحدث."
         }
     },
