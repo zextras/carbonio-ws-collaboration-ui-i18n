@@ -436,7 +436,7 @@
         "recordingHint": "يتم تسجيل هذا الاجتماع",
         "pip": {
             "noTalking": "لا أحد يتحدث الآن.",
-            "trigger": "تشغيل PiP",
+            "trigger": "تشغيل الهوية الشخصية -PiP-",
             "close": "إيقاف PiP"
         }
     },
