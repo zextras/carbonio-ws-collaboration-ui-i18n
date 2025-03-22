@@ -436,7 +436,8 @@
         "recordingHint": "يتم تسجيل هذا الاجتماع",
         "pip": {
             "noTalking": "لا أحد يتحدث الآن.",
-            "trigger": "تشغيل PiP"
+            "trigger": "تشغيل PiP",
+            "close": "إيقاف PiP"
         }
     },
     "message": {
