@@ -42,7 +42,8 @@
             "editRoom": "Edytuj wirtualny pokój",
             "copyLink": "Skopiuj link wirtualnego pokoju",
             "deleteRoom": "Usuń wirtualny pokój"
-        }
+        },
+        "save": "Zapisz"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -147,7 +148,10 @@
             "title": "Nagranie",
             "description": "Wybierz folder do którego będą zapisywane zatrzymywane przez Ciebie nagrania spotkań.",
             "browseAction": "PRZEGLĄDAJ",
-            "resetAction": "ZRESETUJ"
+            "resetAction": "ZRESETUJ",
+            "dialog": {
+                "title": "Wybierz folder"
+            }
         },
         "export": {
             "title": "Eksport czatu",
@@ -365,7 +369,8 @@
                     "input": "Moderatorzy wirtualnego pokoju"
                 },
                 "edit": {
-                    "tile": "Edytuj wirtualny pokój \"{{roomName}}\""
+                    "tile": "Edytuj wirtualny pokój \"{{roomName}}\"",
+                    "title": "Edytuj wirtualny pokój \"{{roomName}}\""
                 }
             },
             "newRoom": "Stwórz nowy wirtualny pokój"
