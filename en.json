@@ -42,7 +42,8 @@
             "editRoom": "Edit Virtual Room",
             "deleteRoom": "Delete Virtual Room",
             "copyLink": "Copy Virtual Room’s link"
-        }
+        },
+        "save": "Save"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} created!",
@@ -264,7 +265,8 @@
                     "description": "You will moderate this Virtual Room. The additional moderator will be added as collaborators with the same privileges."
                 },
                 "edit": {
-                    "tile": "Edit \"{{roomName}}\" Virtual Room"
+                    "tile": "Edit \"{{roomName}}\" Virtual Room",
+                    "title": "Edit \"{{roomName}}\" Virtual Room"
                 }
             },
             "newRoom": "Create new Virtual Room"
@@ -488,7 +490,10 @@
             "description": "Set a custom folder where to save the recordings of the meetings you stop.",
             "inputLabel": "Destination folder",
             "browseAction": "BROWSE",
-            "resetAction": "RESET"
+            "resetAction": "RESET",
+            "dialog": {
+                "title": "Select folder"
+            }
         },
         "export": {
             "caption": "Exporting chats with a lot of content can take a while.",
