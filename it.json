@@ -42,7 +42,8 @@
             "copyLink": "Copia il link della Stanza Virtuale",
             "editRoom": "Modifica Stanza Virtuale",
             "deleteRoom": "Elimina Stanza Virtuale"
-        }
+        },
+        "save": "Salva"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -291,7 +292,10 @@
             "inputLabel": "Cartella di destinazione",
             "browseAction": "SFOGLIA",
             "resetAction": "RIPRISTINA",
-            "description": "Imposta una cartella dove salvare le registrazioni delle riunioni che terminerai."
+            "description": "Imposta una cartella dove salvare le registrazioni delle riunioni che terminerai.",
+            "dialog": {
+                "title": "Seleziona una cartella"
+            }
         },
         "export": {
             "emptySpace": {
@@ -446,7 +450,8 @@
                     "description": "Modererai questa Stanza Virtuale. I moderatori aggiuntivi verranno aggiunti come collaboratori con gli stessi privilegi."
                 },
                 "edit": {
-                    "tile": "Modifica la Stanza Virtuale \"{{roomName}}\""
+                    "tile": "Modifica la Stanza Virtuale \"{{roomName}}\"",
+                    "title": "Modifica la Stanza Virtuale \"{{roomName}}\""
                 }
             },
             "newRoom": "Crea nuova Stanza Virtuale"
