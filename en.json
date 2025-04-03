@@ -232,7 +232,7 @@
         "waitingParticipants": "Waiting for participants to join…",
         "virtual": {
             "creationInput": "Virtual Room’s name",
-            "buttonLabel": "your virtual rooms",
+            "buttonLabel": "Your virtual rooms",
             "emptyState": "Virtual Rooms you create will be shown here.",
             "deleteTooltip": "Delete Virtual Room",
             "nameRequiredTooltip": "Virtual Room’s name is required",
