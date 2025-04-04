@@ -107,7 +107,10 @@
             "inputLabel": "Dossier de destination",
             "description": "Définissez un dossier personnalisé où sauver les enregistrements des réunions que vous arrêtez.",
             "resetAction": "RÉINITIALISER",
-            "browseAction": "PARCOURIR"
+            "browseAction": "PARCOURIR",
+            "dialog": {
+                "title": "Sélectionnez un dossier"
+            }
         },
         "export": {
             "description": "Pendant l'exportation, vous pouvez naviguer sur Carbonio sans problème. Cependant, si vous rafraîchissez la page, l'exportation sera interrompue.",
@@ -179,7 +182,8 @@
             "deleteRoom": "Supprimer la salle virtuelle",
             "copyLink": "Copier le lien de la salle virtuelle",
             "editRoom": "Modifier la salle virtuelle"
-        }
+        },
+        "save": "Enregistrer"
     },
     "conversation": {
         "keepInTouchTitle": "Restons en contact !",
@@ -455,7 +459,8 @@
                     "input": "Modérateurs de la salle virtuelle"
                 },
                 "edit": {
-                    "tile": "Modifier la salle virtuelle \"{{roomName}}\""
+                    "tile": "Modifier la salle virtuelle \"{{roomName}}\"",
+                    "title": "Modifier la salle virtuelle \"{{roomName}}\""
                 }
             },
             "startPrompt": "Commencez une réunion dans cette salle virtuelle.",
