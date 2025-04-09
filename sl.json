@@ -2,6 +2,7 @@
     "action": {
         "delete": "Izbriši",
         "edit": "Uredi",
-        "undo": "Razveljavi"
+        "undo": "Razveljavi",
+        "copy": "Kopiraj"
     }
 }
