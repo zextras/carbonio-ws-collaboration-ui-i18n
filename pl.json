@@ -213,7 +213,7 @@
         "longCaption": {
             "modal": {
                 "title": "Wiadomość zbyt długa na podpis",
-                "description": "Ten tekst jest zbyt długi i nie może zostać użyty jako podpis do załącznika.",
+                "description": "Tekst jest za długi i nie może zostać użyty jako podpis do załącznika.",
                 "action": "Załącz mimo to",
                 "additionalDetails": "Jeśli kontynuujesz operację, nadmiar zostanie usunięty z oryginalnego tekstu. Kontynuować?"
             }
