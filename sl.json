@@ -3,6 +3,42 @@
         "delete": "Izbriši",
         "edit": "Uredi",
         "undo": "Razveljavi",
-        "copy": "Kopiraj"
+        "copy": "Kopiraj",
+        "addNewMembers": "Dodaj nove člane",
+        "close": "Zapri",
+        "forward": "Posreduj",
+        "muteNotifications": "Utišaj obvestila",
+        "reply": "Odgovori",
+        "replyToSomeone": "Odgovori uporabniku",
+        "replyToYourself": "Odgovori sebi",
+        "editYourMessage": "Uredi svoje sporočilo",
+        "activateNotifications": "Omogoči obvestila",
+        "leave": "Zapusti",
+        "create": "Ustvari"
+    },
+    "external": {
+        "nobodyInTheRoom": "Zdi se, da v tej sobi trenutno ni nikogar",
+        "roomIsEmpty": "Ta soba je prazna"
+    },
+    "feedback": {
+        "notificationsMutedForThisChat": "Obvestila so utišana za ta klepet",
+        "notificationsActivatedForThisChat": "Obvestila so omogočena za ta klepet"
+    },
+    "message": {
+        "edited": "urejeno",
+        "deletedMessage": "Sporočilo izbrisano"
+    },
+    "attachments": {
+        "attachLinkFiles": "Pripni javno povezavo iz datotek",
+        "addFromLocal": "Dodaj iz lokalne naprave"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Kamera onemogočena",
+            "cameraEnabled": "Kamera omogočena"
+        }
+    },
+    "modal": {
+        "showPreviousConversationHistory": "Prikaži zgodovino prejšnjih pogovorov"
     }
 }
