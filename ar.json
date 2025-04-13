@@ -115,7 +115,7 @@
         "room": {
             "deletedImageCorrectly": "تم إعادة تعيين الصورة الرمزية للمجموعة بنجاح إلى الصورة الأصلية",
             "deletedUserImageCorrectly": "تم إعادة تعيين الصورة الرمزية بنجاح إلى الصورة الأصلية",
-            "pictureSizeTooLarge": "حدث خطأ ما، تذكر أن الحد الأقصى لحجم صورة الرمز الخاصة بالمجموعة هو {{size}} كيلوبايت",
+            "pictureSizeTooLarge": "حدث خطأ ما، تذكر أن الحد الأقصى لحجم صورة الرمز الخاصة بالمجموعة هو {{size}} ميجابايت",
             "updatedPictureCorrectly": "تم تحميل الصورة الرمزية الجديدة بنجاح"
         },
         "save": "تم حفظ التعديلات بشكل صحيح",
@@ -337,7 +337,7 @@
                 "onlyUser": "أنت المشرف الوحيد.",
                 "onlyModerator": "هو المشرف الوحيد.",
                 "singleAdditional": "ومشرف آخر.",
-                "multipleAdditional": "و {{numberOfModerators}} مشرفين آخرين.",
+                "multipleAdditional": "و <strong>{{numberOfModerators}} مشرف/مشرفين</strong> آخرين.",
                 "widget": "المشرفون على الغرفة الافتراضية:"
             },
             "newRoom": "إنشاء غرفة افتراضية جديدة"
