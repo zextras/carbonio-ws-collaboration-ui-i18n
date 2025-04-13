@@ -14,7 +14,35 @@
         "editYourMessage": "Uredi svoje sporočilo",
         "activateNotifications": "Omogoči obvestila",
         "leave": "Zapusti",
-        "create": "Ustvari"
+        "create": "Ustvari",
+        "addAttachment": "Dodaj prilogo",
+        "addMoreAttachments": "Dodaj še {{counter}} prilog",
+        "addNewMembersTo": "Dodaj nove člane v {{roomName}}",
+        "addSingleAttachment": "Dodaj {{counter}} prilogo",
+        "declineAll": "Zavrni vse",
+        "editRoom": "Uredi {{roomName}}",
+        "enter": "Vstopi",
+        "forwarded": "posredovano",
+        "joinMeeting": "Pridruži se srečanju",
+        "newChat": "Nov klepet",
+        "ok": "V redu",
+        "preview": "Predogled",
+        "removeUser": "Odstrani",
+        "scrollToBottom": "Pomakni se na dno",
+        "understood": "Razumem",
+        "deleteForAll": "Izbriši za vse",
+        "retry": "Poskusi znova",
+        "virtual": {
+            "editRoom": "Uredi virtualno sobo",
+            "deleteRoom": "Izbriši virtualno sobo",
+            "copyLink": "Kopiraj povezavo do virtualne sobe"
+        },
+        "decline": "Zavrni",
+        "newVirtual": "Nova virtualna soba",
+        "download": "Prenesi",
+        "cancel": "Prekliči",
+        "clearHistory": "Počisti zgodovino",
+        "editDetails": "Uredi podrobnosti"
     },
     "external": {
         "nobodyInTheRoom": "Zdi se, da v tej sobi trenutno ni nikogar",
@@ -30,7 +58,19 @@
     },
     "attachments": {
         "attachLinkFiles": "Pripni javno povezavo iz datotek",
-        "addFromLocal": "Dodaj iz lokalne naprave"
+        "addFromLocal": "Dodaj iz lokalne naprave",
+        "dragAndDrop": "Način povleci in spusti",
+        "errorUploadingFile": "Pri nalaganju datoteke {{file}} je prišlo do napake",
+        "stopUpload": "Ustavi nalaganje",
+        "uploadAborted": "Nalaganje je bilo prekinjeno",
+        "integrations": {
+            "chooseFile": "Izberi datoteko",
+            "shareLink": "Deli javno povezavo"
+        },
+        "dropHereDescription": "Spusti priloge tukaj, da jih hitro dodaš v klepet",
+        "upload": {
+            "tooLarge": "Nalaganje ni uspelo: datoteka presega največjo dovoljeno velikost {{size}} MB."
+        }
     },
     "meeting": {
         "interactions": {
@@ -40,5 +80,42 @@
     },
     "modal": {
         "showPreviousConversationHistory": "Prikaži zgodovino prejšnjih pogovorov"
-    }
+    },
+    "affiliationMessages": {
+        "groupCreated": "{{roomName}} je bila ustvarjena!",
+        "oneToOneCreated": "Nov klepet je bil ustvarjen!",
+        "member": {
+            "Added": "{{userName}} je bil dodan v skupino {{roomName}}.",
+            "Removed": "{{userName}} ni več član skupine {{roomName}}."
+        },
+        "user": {
+            "Removed": "Nisi več član skupine {{roomName}}.",
+            "Added": "Bil si dodan v skupino {{roomName}}."
+        }
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Srečanje zaključeno"
+        }
+    },
+    "status": {
+        "online": "Povezan",
+        "lastSeen": "Nazadnje viden {{lastSeen}}",
+        "offline": "Nepovezan"
+    },
+    "settings": {
+        "profile": {
+            "errorGenericResponse": "Prišlo je do napake. Poskusite znova.",
+            "title": "Profil"
+        }
+    },
+    "tooltip": {
+        "close": "Zapri",
+        "selectEmoji": "Izberi čustveni simbol",
+        "sendMessage": "Pošlji sporočilo",
+        "goToPrivateChat": "Pojdi v zasebni klepet",
+        "messageComposer": "Urejevalnik sporočil"
+    },
+    "thanksForParticipating": "Hvala za sodelovanje",
+    "tryLater": "Poskusi kasneje"
 }
