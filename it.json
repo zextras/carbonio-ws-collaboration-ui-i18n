@@ -117,7 +117,8 @@
         "noMatch": {
             "all": "La ricerca non ha prodotto risultati tra gli utenti presenti nelle tue conversazioni o nella tua organizzazione.",
             "chatList": "La ricerca non ha prodotto risultati all'interno delle tue conversazioni.",
-            "general": "La tua ricerca non ha prodotto risultati, prova a usare un'altra parola chiave."
+            "general": "La tua ricerca non ha prodotto risultati, prova a usare un'altra parola chiave.",
+            "gal": "Non ci sono elementi che corrispondono a questa ricerca nella tua azienda."
         }
     },
     "tooltip": {
@@ -388,7 +389,8 @@
             "disabled": "C'è un problema con la connessione, per favore riprova più tardi.",
             "unknownDevice": "Risorsa sconosciuta",
             "handUp": "Alza la mano",
-            "handDown": "Abbassa la mano"
+            "handDown": "Abbassa la mano",
+            "browserPermission": "Concedi le autorizzazioni del browser per abilitare le risorse"
         },
         "joinMeeting": "Partecipa alla riunione",
         "newMeetingNotification": {
@@ -460,7 +462,8 @@
             "waitingCaption": "In attesa di entrare",
             "tooltip": {
                 "waitingAccept": "Fai entrare l'utente",
-                "waitingReject": "Rifiuta utente"
+                "waitingReject": "Rifiuta utente",
+                "lowerUserHand": "Abbassa la mano di {{memberName}}"
             },
             "waitingList": "Lista d'attesa",
             "recording": {
@@ -472,11 +475,15 @@
                     "start": "INIZIO"
                 },
                 "additionalDescription": "Se qualcosa va storto, la registrazione sarà salvata nello spazio Files del moderatore che l'ha avviata."
-            }
+            },
+            "raiseHand": "{{numberOfHandRaised}} mani alzate",
+            "lowerAllHands": "Abbassa tutte le mani alzate"
         },
         "snackbar": {
             "waitingInfo": "Sembra esserci qualcuno nella stanza d'attesa della Room {{roomName}}.",
-            "autoHandDown": "Sembra che tu stia parlando, quindi la tua mano verrà abbassata."
+            "autoHandDown": "Sembra che tu stia parlando, quindi la tua mano verrà abbassata.",
+            "someoneRaisedHand": "Qualcuno ha alzato la mano",
+            "handLoweredByModerator": "Un moderatore ha abbassato la tua mano"
         },
         "browserNotification": {
             "waitingMessage": "Un nuovo utente sta aspettando di entrare nella riunione"
@@ -633,7 +640,8 @@
         },
         "input": {
             "defaultValue": "Nessuna Stanza Virtuale selezionata.",
-            "limitedOption": "accesso limitato"
+            "limitedOption": "accesso limitato",
+            "label": "Stanza Virtuale"
         }
     },
     "readOnly": {
