@@ -389,7 +389,8 @@
             "waitingCaption": "Oczekiwanie na dołączenie",
             "tooltip": {
                 "waitingAccept": "Wpuść użytkownika",
-                "waitingReject": "Odrzuć użytkownika"
+                "waitingReject": "Odrzuć użytkownika",
+                "lowerUserHand": "Opuść rękę {{memberName}}"
             },
             "waitingList": "Lista oczekujących",
             "recording": {
@@ -401,11 +402,15 @@
                     "stop": "ZATRZYMAJ"
                 },
                 "additionalDescription": "Jeśli coś pójdzie nie tak, nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który je rozpoczął."
-            }
+            },
+            "lowerAllHands": "Opuść wszystkie podniesione ręce",
+            "raiseHand": "{{numberOfHandRaised}} podniesionych rąk"
         },
         "snackbar": {
             "waitingInfo": "Wygląda na to, że ktoś znajduje się w poczekalni pokoju {{roomName}}.",
-            "autoHandDown": "Wygląda na to, że coś mówisz, dlatego Twoja ręka zostanie opuszczona."
+            "autoHandDown": "Wygląda na to, że coś mówisz, dlatego Twoja ręka zostanie opuszczona.",
+            "someoneRaisedHand": "Ktoś podniósł rękę",
+            "handLoweredByModerator": "Moderator opuścił Twoją rękę"
         },
         "browserNotification": {
             "waitingMessage": "Nowy użytkownik czeka, aby dołączyć do pokoju"
