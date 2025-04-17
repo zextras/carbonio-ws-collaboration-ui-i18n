@@ -196,7 +196,8 @@
             "disabled": "There are connection problems, please try again later.",
             "unknownDevice": "Unknown device",
             "handDown": "Lower your hand",
-            "handUp": "Raise your hand"
+            "handUp": "Raise your hand",
+            "browserPermission": "Grant browser permissions to enable resources"
         },
         "joinMeeting": "Join meeting",
         "joinMeetingDescription": "How do you want to join this meeting?",
@@ -276,7 +277,8 @@
             "waitingCaption": "Waiting to enter",
             "tooltip": {
                 "waitingAccept": "Let user in",
-                "waitingReject": "Reject user"
+                "waitingReject": "Reject user",
+                "lowerUserHand": "Lower {{memberName}}'s hand"
             },
             "recording": {
                 "title": "Recording",
@@ -287,11 +289,15 @@
                 },
                 "description": "The recording will be saved in the Files space of the moderator who stopped it.",
                 "additionalDescription": "If something goes wrong, the recording will be saved in the Files space of the moderator who started it."
-            }
+            },
+            "lowerAllHands": "Lower all raised hand",
+            "raiseHand": "{{numberOfHandRaised}} raised hands"
         },
         "snackbar": {
             "waitingInfo": "There seems to be someone in the {{roomName}}'s waiting room.",
-            "autoHandDown": "It sounds like you’re saying something, so your hand will be lowered."
+            "autoHandDown": "It sounds like you’re saying something, so your hand will be lowered.",
+            "someoneRaisedHand": "Someone raised his hand",
+            "handLoweredByModerator": "A moderator lowered your hand"
         },
         "browserNotification": {
             "waitingMessage": "New user is waiting to enter the meeting"
@@ -436,7 +442,8 @@
         "noMatch": {
             "all": "There are no users matching this search in your existing chats or in your company.",
             "chatList": "There are no users matching this search in your existing chats.",
-            "general": "Your search returned no results, try another keyword."
+            "general": "Your search returned no results, try another keyword.",
+            "gal": "There are no items that match this search in your company."
         },
         "oneMemberAccordionTitle": "One member",
         "searchMembers": "Search members",
@@ -627,7 +634,8 @@
     "appointment": {
         "input": {
             "defaultValue": "No Virtual Room selected.",
-            "limitedOption": "limited access"
+            "limitedOption": "limited access",
+            "label": "Virtual Room"
         },
         "placeholder": {
             "title": "You can go to Chats and create a Virtual Room to host your appointment.",
