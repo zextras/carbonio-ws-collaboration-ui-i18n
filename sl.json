@@ -42,7 +42,8 @@
         "download": "Prenesi",
         "cancel": "Prekliči",
         "clearHistory": "Počisti zgodovino",
-        "editDetails": "Uredi podrobnosti"
+        "editDetails": "Uredi podrobnosti",
+        "save": "Shrani"
     },
     "external": {
         "nobodyInTheRoom": "Zdi se, da v tej sobi trenutno ni nikogar",
@@ -50,11 +51,23 @@
     },
     "feedback": {
         "notificationsMutedForThisChat": "Obvestila so utišana za ta klepet",
-        "notificationsActivatedForThisChat": "Obvestila so omogočena za ta klepet"
+        "notificationsActivatedForThisChat": "Obvestila so omogočena za ta klepet",
+        "historyCleared": "Zgodovina je bila uspešno izbrisana!",
+        "messageCopied": "Sporočilo je bilo kopirano",
+        "networkProblem": {
+            "wsc": "Prišlo je do napake pri povezavi prek WSC",
+            "xmpp": "Prišlo je do napake pri povezavi prek XMPP",
+            "websocket": "Prišlo je do napake pri povezavi prek WEBSOCKET"
+        },
+        "networkProblems": "Morda so težave pri uporabi tega modula. Poskusite osvežiti stran.",
+        "connectionReestabilished": "Povezava je bila ponovno vzpostavljena, srečanje se lahko nadaljuje brez prekinitve."
     },
     "message": {
         "edited": "urejeno",
-        "deletedMessage": "Sporočilo izbrisano"
+        "deletedMessage": "Sporočilo izbrisano",
+        "draft": "osnutek",
+        "forwardedMultipleTimes": "Posredovano večkrat",
+        "originallySentBy": "<strong>Prvotno poslal:</strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "attachments": {
         "attachLinkFiles": "Pripni javno povezavo iz datotek",
@@ -75,11 +88,267 @@
     "meeting": {
         "interactions": {
             "cameraDisabled": "Kamera onemogočena",
-            "cameraEnabled": "Kamera omogočena"
-        }
+            "cameraEnabled": "Kamera omogočena",
+            "cinemaView": "Kino pogled",
+            "disableCamera": "Onemogoči kamero",
+            "disableMicrophone": "Onemogoči mikrofon",
+            "enableFullScreen": "Omogoči celozaslonski način",
+            "enableScreen": "Omogoči deljenje zaslona",
+            "gridView": "Mrežni pogled",
+            "microphoneEnabled": "Mikrofon je omogočen",
+            "playMic": "Začni testiranje mikrofona",
+            "stopMic": "Ustavi testiranje mikrofona",
+            "title": {
+                "devices": "Naprave",
+                "videoEffect": "Video učinek"
+            },
+            "option": {
+                "removeBlur": "Odstrani zameglitev",
+                "applyBlur": "Uporabi zameglitev"
+            },
+            "selectedDeviceTooltip": "Izbrana naprava",
+            "unknownDevice": "Neznana naprava",
+            "handDown": "Spusti roko",
+            "leaveMeeting": "Zapusti srečanje",
+            "microphoneDisabled": "Mikrofon je onemogočen",
+            "disabled": "Pojavile so se težave s povezavo, poskusite znova kasneje.",
+            "disableScreen": "Onemogoči deljenje zaslona",
+            "enableMicrophone": "Omogoči mikrofon",
+            "enableCamera": "Omogoči kamero",
+            "leaveConfirmation": "Zapustiti srečanje?",
+            "disableFullScreen": "Onemogoči celozaslonski način",
+            "userHint": "Vklopite kamero za izbiro video učinka",
+            "handUp": "Dvigni roko"
+        },
+        "collapseChat": "Strni klepet",
+        "continueActiveSession": "Nadaljuj srečanje v novem oknu",
+        "expandChat": "Razširi klepet",
+        "expandParticipantsListTooltip": "Razširi seznam udeležencev",
+        "extendChat": "Razširi klepet",
+        "joinMeeting": "Pridruži se srečanju",
+        "minimizeChat": "Minimiziraj klepet",
+        "newMeetingNotification": {
+            "sendMessage": "Pošlji sporočilo",
+            "userIsInvitingYou": "<strong>{{name}}</strong> vas vabi",
+            "writeAMessageToSendIt": "Napišite sporočilo za pošiljanje",
+            "sendAQuickMessage": "Pošlji hitro sporočilo"
+        },
+        "noMoreActiveSession": "Ne more biti več kot ena aktivna seja istega srečanja",
+        "noTwoActiveSession": "Dve aktivni seji istega srečanja ne moreta obstajati hkrati",
+        "ongoingOneToOneMeetingTooltip": "Že imate aktivno srečanje z {{name}}",
+        "openedInAnotherWindow": "To srečanje je že odprto v drugem oknu",
+        "presentActiveSession": "Obstaja še ena aktivna seja",
+        "rejoinMeeting": "Ponovno se pridruži srečanju",
+        "startMeeting": "Začni srečanje",
+        "startModal": {
+            "audioAndVideoLoading": "Viri se nalagajo",
+            "enterRoomMeetingTitle": "Sodeluj v srečanju {{meetingTitle}}",
+            "enterOneToOneMeetingTitle": "Pridruži se srečanju {{meetingTitle}}"
+        },
+        "tooltip": {
+            "activeSessionTooltip": "Imate aktivno sejo v tem srečanju"
+        },
+        "virtual": {
+            "creationInput": "Ime virtualne sobe",
+            "buttonLabel": "Vaše virtualne sobe",
+            "deleteTooltip": "Izbriši virtualno sobo",
+            "nameRequiredTooltip": "Ime virtualne sobe je obvezno",
+            "createTooltip": "Ustvari novo virtualno sobo",
+            "invalidNameTooltip": "Neveljavno ime",
+            "copyLinkSnackbar": "Povezava do virtualne sobe kopirana",
+            "deleteModalTitle": "Izbriši virtualno sobo {{roomName}}",
+            "participants": {
+                "singleActive": "Eden aktiven udeleženec.",
+                "multipleActive": "{{numberOfParticipants}} aktivnih udeležencev.",
+                "userWithOthers": "Vi in še {{numberOfParticipants}} aktivni udeleženci.",
+                "onlyUser": "Edini aktivni udeleženec ste vi.",
+                "widget": "Aktivni udeleženci:"
+            },
+            "startPrompt": "Začnite srečanje v tej virtualni sobi.",
+            "moderators": {
+                "onlyUser": "Edini moderator ste vi.",
+                "onlyModerator": "je edini moderator.",
+                "widget": "Moderatorji virtualne sobe:",
+                "multipleAdditional": "in še <strong>{{numberOfModerators}} moderatorjev</strong>.",
+                "singleAdditional": "in še en moderator."
+            },
+            "modal": {
+                "invalidNameCaption": "Vnesite krajše ime.",
+                "edit": {
+                    "tile": "Uredi virtualno sobo \"{{roomName}}\"",
+                    "title": "Uredi virtualno sobo \"{{roomName}}\""
+                },
+                "description": "Dajte tej virtualni sobi prepoznavno ime, da bodo udeleženci vedeli, kaj pričakovati.",
+                "moderator": {
+                    "description": "Vi boste moderirali to virtualno sobo. Dodatni moderatorji bodo dodani kot sodelavci z enakimi pravicami.",
+                    "input": "Moderatorji virtualne sobe"
+                }
+            },
+            "newRoom": "Ustvari novo virtualno sobo",
+            "emptyState": "Tukaj bodo prikazane vaše ustvarjene virtualne sobe.",
+            "deleteSnackbar": "Virtualna soba uspešno izbrisana",
+            "deleteModalDescription": "Izbrisali boste to virtualno sobo. Če vsebuje aktivna srečanja, bodo prekinjena in dostop do sobe ne bo več mogoč. Nadaljujete?"
+        },
+        "sidebar": {
+            "waitingList": "Čakalna lista",
+            "waitingCaption": "Čaka na vstop",
+            "tooltip": {
+                "waitingReject": "Zavrni uporabnika",
+                "lowerUserHand": "Spusti roko uporabnika {{memberName}}",
+                "waitingAccept": "Dovoli uporabniku vstop"
+            },
+            "recording": {
+                "title": "Snemanje",
+                "action": {
+                    "start": "ZAČNI SNEMANJE",
+                    "stop": "USTAVI SNEMANJE"
+                },
+                "description": "Posnetek bo shranjen v Datoteke moderatorja, ki ga je ustavil.",
+                "additionalDescription": "Če pride do napake, bo posnetek shranjen v Datoteke moderatorja, ki ga je začel.",
+                "moderatorInfo": "je začel snemanje"
+            },
+            "lowerAllHands": "Spusti vse dvignjene roke",
+            "raiseHand": "{{numberOfHandRaised}} dvignjenih rok"
+        },
+        "snackbar": {
+            "waitingInfo": "Zdi se, da nekdo čaka v čakalnici sobe {{roomName}}.",
+            "someoneRaisedHand": "Nekdo je dvignil roko",
+            "handLoweredByModerator": "Moderator je spustil vašo roko",
+            "autoHandDown": "Zdi se, da govoriš – tvoja roka bo spuščena."
+        },
+        "browserNotification": {
+            "waitingMessage": "Nov uporabnik čaka, da vstopi v sestanek"
+        },
+        "waitingRoom": {
+            "setInputs": "Izberi vhodne naprave iz spustnega seznama",
+            "welcomeHint": "Klikni \"PRIPRAVLJEN NA SODELOVANJE\", da vstopiš v sestanek",
+            "readyHint": "V nekaj trenutkih boš vstopil v sestanek",
+            "hangUp": "Zapusti",
+            "ready": "Pripravljen na sodelovanje",
+            "welcomeCaption": "Ko ste pripravljeni, se udobno namestite.",
+            "readyCaption": "Vse je pripravljeno! Udobno se namestite.",
+            "userIsReady": "Pripravljeni ste!",
+            "nextStep": "Moderator vas bo kmalu spustil v sestanek.",
+            "title": "Kako se želiš pridružiti sestanku {{meetingName}}?"
+        },
+        "infoPage": {
+            "title": {
+                "meetingNotFound": "Sestanek ne obstaja",
+                "hangUp": "Zapustili ste čakalnico!",
+                "rejected": "Dostop vam je bil zavrnjen",
+                "notAuthenticatedUser": "Niste prijavljeni",
+                "invalidWaiting": "V sestanku ni moderatorjev",
+                "generalError": "Ups! Zapustili ste sestanek."
+            },
+            "slogan": {
+                "hangUp": "Morda naslednjič",
+                "rejected": "Morda naslednjič",
+                "meetingNotFound": "Poskusite kasneje",
+                "notAuthenticatedUser": "PRIJAVITE SE ZA DOSTOP DO SESTANKA",
+                "invalidWaiting": "Poskusite znova kasneje",
+                "generalError": "PROSIM, POSKUSITE SE PONOVNO PRIDRUŽITI"
+            },
+            "description": {
+                "rejected": "Moderatorji so vam zavrnili dostop do sestanka",
+                "meetingNotFound": "Preverite povezavo do sestanka in poskusite znova",
+                "invalidWaiting": "Za vstop v sestanek vas mora potrditi moderator.",
+                "generalError": "Prišlo je do napake.",
+                "notAuthenticatedUser": "Za pridružitev sestanku morate biti prijavljeni s svojim računom",
+                "hangUp": "Veselimo se vaše prisotnosti na naslednjih sestankih"
+            },
+            "feedback": {
+                "caption": "Pomaga nam pri izboljšavah :)",
+                "description": "Vaše mnenje nam veliko pomeni!"
+            }
+        },
+        "recordingHint": "Ta sestanek se snema",
+        "recordingStart": {
+            "successSnackbar": {
+                "participants": "{{userName}} je začel snemanje sestanka",
+                "starter": "Uspešno ste začeli snemanje tega sestanka"
+            },
+            "failureSnackbar": "Snemanja ni mogoče začeti, kontaktirajte sistemskega skrbnika."
+        },
+        "recordingModal": {
+            "title": "Ustavi snemanje",
+            "confirmationAction": "USTAVI",
+            "requiredNameError": "Ime posnetka je obvezno",
+            "exceededCharsError": "Ime posnetka ne sme presegati 128 znakov",
+            "description": "Snemanje bo ustavljeno. Novo lahko začnete kadarkoli.",
+            "inputLabel": "Ime posnetka",
+            "caption": "Posnetek bo shranjen v mapo {{folderName}} v Datotekah. Pot do mape lahko spremenite v Nastavitve > Klepeti > Snemanje."
+        },
+        "recordingStop": {
+            "successSnackbar": {
+                "participants": "{{userName}} je ustavil snemanje sestanka",
+                "stopper": "{{recordingName}} bo shranjen v {{folderName}} takoj, ko bo na voljo"
+            },
+            "failureSnackbar": "Snemanja ni mogoče ustaviti, kontaktiraj sistemskega skrbnika."
+        },
+        "visualEffects": {
+            "title": "Vizualni učinki",
+            "default": "Brez",
+            "blur": "Zameglitev"
+        },
+        "pip": {
+            "noTalking": "Trenutno nihče ne govori.",
+            "speaking": "{{userName}} govori.",
+            "close": "Onemogoči PiP",
+            "trigger": "Omogoči PiP"
+        },
+        "collapseParticipantsMeetingTooltip": "Strni seznam udeležencev",
+        "ongoingGroupMeetingTooltip": "Že sodelujete na tem srečanju",
+        "activeMeetingTooltip": "Za ta klepet poteka aktivno srečanje",
+        "restartMeeting": "Ponovno zaženi srečanje",
+        "participantsList": {
+            "title_one": "En udeleženec srečanja",
+            "title_two": "{{count}} udeleženca srečanja",
+            "title_few": "{{count}} udeležencev srečanja",
+            "title_other": "{{count}} udeležencev srečanja"
+        },
+        "waitingParticipants": "Čakamo, da se udeleženci pridružijo…",
+        "joinMeetingDescription": "Kako se želite pridružiti temu srečanju?",
+        "setInputDescription": "Nastavite vhodne naprave z izbiro iz spustnega seznama",
+        "durationTooltip": "Trajanje sestanka"
     },
     "modal": {
-        "showPreviousConversationHistory": "Prikaži zgodovino prejšnjih pogovorov"
+        "showPreviousConversationHistory": "Prikaži zgodovino prejšnjih pogovorov",
+        "creation": {
+            "addUserLimit": {
+                "limitReached": "Dosegli ste največje število članov za skupino",
+                "users_one": "Dodate lahko še enega člana",
+                "users_two": "Dodate lahko še {{count}} člana",
+                "users_few": "Dodat lahko še {{count}} člane",
+                "users_other": "Dodate lahko še {{count}} članov"
+            },
+            "contactList": "Izberite več kot en naslov za ustvarjanje skupine",
+            "inputPlaceholder": "Začnite tipkati ali izberite naslov",
+            "newChat": "Nov klepet",
+            "newGroup": "Nova skupina",
+            "description": "Klepeti so ena-na-ena pogovori, ki vam pomagajo ostati v stiku s svojimi stiki. Skupino lahko ustvarite z dodajanjem več kot dveh naslovov"
+        },
+        "deleteGroup": "Izbriši skupino",
+        "deleteGroupMeetingOngoingLabel": "Trenutno poteka sestanek. Brisanje skupine bo brez opozorila prekinilo sestanek.",
+        "deleteMessageTitle": "Izbrisati izbrano sporočilo?",
+        "deleteMessageTitleDescription": "Sporočilo bo izbrisano in ne bo več dostopno",
+        "deleteRoom": "Izbriši sobo",
+        "deleteRoomLabel": "Ste prepričan, da želite izbrisati to sobo?",
+        "deleteUserDescription": "Ste prepričani, da želite odstraniti tega člana?",
+        "forward": {
+            "chooseAtLeastOneChat": "Izberite vsaj en klepet",
+            "description": "Izberite vsaj en klepet",
+            "inputPlaceholder": "Izberite cilj klepeta za posredovanje sporočila",
+            "title": "Posreduj sporočilo iz {{chatName}}"
+        },
+        "leaveAndDelete": "Zapusti in izbriši skupino",
+        "leaveGroup": "Zapusti skupino",
+        "leaveRoom": "Zapusti sobo",
+        "leaveRoomLabel": "Ste prepričani, da želite zapustiti to sobo?",
+        "removeMember": "Odstrani člana",
+        "muteForAllDescription": "Z utišanjem uporabnika ga ne bodo več slišali nobeni udeleženci. Le utišani uporabnik se lahko ponovno odutiša. Nadaljujem?",
+        "clearHistoryDescription": "Čistite zgodovino klepeta. Ta dejanje je nepovratno. Zgodovina bo izbrisana le za vas, ne pa tudi za druge člane.",
+        "leaveGroupLabel": "Ste prepričani, da želite zapustiti skupino?",
+        "deleteGroupLabel": "To dejanje bo vplivalo na vse člane skupine in ga ni mogoče razveljaviti. Ste prepričani, da želite izbrisati skupino?"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} je bila ustvarjena!",
@@ -101,21 +370,328 @@
     "status": {
         "online": "Povezan",
         "lastSeen": "Nazadnje viden {{lastSeen}}",
-        "offline": "Nepovezan"
+        "offline": "Nepovezan",
+        "areTyping": "vnašajo sporočilo…",
+        "isTyping": "vnaša sporočilo…",
+        "Anonymous": "Anonimni uporabnik",
+        "you": "Vi",
+        "goToPrivateChat": "Pojdite v zasebni klepet in pošljite osebno sporočilo",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} oseb vnaša sporočilo…",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} in še {{numberOfUsers}} vnašajo sporočilo…"
     },
     "settings": {
         "profile": {
             "errorGenericResponse": "Prišlo je do napake. Poskusite znova.",
-            "title": "Profil"
-        }
+            "title": "Profil",
+            "maximumDimension": "Največja velikost: {{size}}kb",
+            "updatedPictureCorrectly": "Nov avatar je bil uspešno naložen",
+            "description": "Izberite avatar, ki ga bodo videli drugi uporabniki. Slika bo samodejno centrirana.",
+            "pictureSizeTooLarge": "Nekaj je šlo narobe – največja dovoljena velikost slike avatarja je {{size}}kb",
+            "deletedUserImageCorrectly": "Avatar je bil uspešno ponastavljen na privzetega",
+            "statusLabel": "Vaše stanje bo prikazano tukaj"
+        },
+        "notifications": {
+            "description": "Nastavi svoje nastavitve za obvestila v klepetih.",
+            "toggleSounds": {
+                "desktop": "Omogoči zvoke obvestil na namizju",
+                "waitingRoom": "Omogoči zvoke obvestil"
+            },
+            "checkbox": {
+                "waitingRoom": "Dovoli obvestila",
+                "desktop": "Dovoli obvestila na namizju"
+            },
+            "subtitle": {
+                "waitingRoom": "Obvestila o dostopu do čakalnice",
+                "general": "Splošno"
+            },
+            "title": "Obvestila"
+        },
+        "save": "Spremembe so bile uspešno shranjene",
+        "meetings": {
+            "title": "Sestanki",
+            "description": "Nastavite svoje zvočne in video nastavitve za vstop v sestanke. Vedno jih lahko prilagodite pred vsakim sestankom."
+        },
+        "recording": {
+            "inputLabel": "Ciljna mapa",
+            "browseAction": "PREBRSKAJ",
+            "resetAction": "PONASTAVI",
+            "title": "Snemanje",
+            "description": "Nastavite mapo, kamor se bodo shranjevali posnetki sestankov, ki jih zaključite.",
+            "dialog": {
+                "title": "Izberite mapo"
+            }
+        },
+        "export": {
+            "caption": "Izvoz klepetov z veliko vsebine lahko traja nekaj časa.",
+            "title": "Izvoz klepeta",
+            "description": "Med izvozom lahko brez skrbi uporabljate Carbonio. Če pa osvežite stran, se izvoz prekine.",
+            "emptySpace": {
+                "noMatch": {
+                    "title": "Poskusite z drugo poizvedbo.",
+                    "description": "Za vaše iskanje ni rezultatov v obstoječih klepetih."
+                },
+                "firstAccess": {
+                    "description": "Vaši osebni klepeti in skupine bodo prikazani tukaj.",
+                    "title": "Tukaj še ni ničesar.",
+                    "callToAction": "Pojdi v klepete in začni sodelovati!"
+                }
+            },
+            "filterInput": "Filtriraj seznam",
+            "subHead": "Izberite enega od svojih klepetov in izvozite sporočila v besedilno datoteko. Ne pozabite, da ste odgovorni za uporabo izvoženih podatkov.",
+            "action": "IZVOZI IZBRANI KLEPET",
+            "snackbar": {
+                "success": "Klepet je bil uspešno izvožen – preverite prenose!"
+            },
+            "tooltip": {
+                "noOneSelected": "Izberite enega od svojih klepetov za izvoz",
+                "ongoingExport": "Že izvajate izvoz klepeta – počakajte, da se konča."
+            }
+        },
+        "room": {
+            "deletedImageCorrectly": "Avatar skupine je bil uspešno ponastavljen na privzetega",
+            "deletedUserImageCorrectly": "Avatar je bil uspešno ponastavljen na privzetega",
+            "pictureSizeTooLarge": "Nekaj je šlo narobe – največja dovoljena velikost slike za avatar skupine je {{size}}MB",
+            "updatedPictureCorrectly": "Nov avatar je bil uspešno naložen"
+        },
+        "title": "Nastavitve klepeta"
     },
     "tooltip": {
         "close": "Zapri",
         "selectEmoji": "Izberi čustveni simbol",
         "sendMessage": "Pošlji sporočilo",
         "goToPrivateChat": "Pojdi v zasebni klepet",
-        "messageComposer": "Urejevalnik sporočil"
+        "messageComposer": "Urejevalnik sporočil",
+        "bottomOfList": "Dno seznama",
+        "clear": "Počisti",
+        "collapseSidebar": "Strni stransko vrstico",
+        "expandSidebar": "Razširi stransko vrstico",
+        "forwardedMessage": "Sporočilo posredovano iz drugega klepeta",
+        "iAmModerator": "Ste moderator",
+        "leaveConversation": "Zapusti skupino",
+        "memberIsModerator": "Ta član je moderator",
+        "messageActions": "Dejanja sporočila",
+        "messageRead": "Prebrano",
+        "messageReceived": "Prejeto",
+        "messageSent": "Poslano",
+        "muteForAll": "Utišaj za vse",
+        "pending": "V teku",
+        "pinVideo": "Pripni video",
+        "promoteModerator": "Imenuj za moderatorja",
+        "removeToAddNewOne": "Odstranite nekoga, da dodate nove člane",
+        "room": {
+            "updatePicture": "Posodobi sliko",
+            "uploadPicture": "Naloži sliko",
+            "resetPicture": "Ponastavi sliko"
+        },
+        "scrollDown": "Pomakni navzdol",
+        "scrollUp": "Pomakni navzgor",
+        "showConversationList": "Pokaži seznam klepetov",
+        "topOfList": "Vrh seznama",
+        "uploadAttachment": "Naloži prilogo",
+        "uploading": "Nalaganje",
+        "userAvatar": {
+            "resetAvatar": "Ponastavi avatar",
+            "uploadAvatar": "Naloži avatar",
+            "updateAvatar": "Posodobi avatar"
+        },
+        "writeToSend": "Napiši sporočilo in ga pošlji",
+        "reactions": "Reakcije",
+        "moreReactions": "Več reakcij",
+        "virtualActions": "Dejanja virtualne sobe",
+        "collapseCarousel": "Strni",
+        "expandCarousel": "Razširi",
+        "moreActions": "Več dejanj",
+        "demoteModerator": "Razreši moderatorja",
+        "disableModalButton": "Izberi vsaj en naslov",
+        "unpinVideo": "Odpni video",
+        "leaveAndDelete": "Zapusti in izbriši klepet",
+        "participantMuted": "Ta udeleženec je utišan",
+        "promoteSomeoneElseToModerator": "Preden zapustite, morate imenovati drugega moderatorja",
+        "youAreAlreadyMuted": "Ste že utišani"
     },
     "thanksForParticipating": "Hvala za sodelovanje",
-    "tryLater": "Poskusi kasneje"
+    "tryLater": "Poskusi kasneje",
+    "chat": "Klepet",
+    "conversation": {
+        "mockCreateChatTitle": "Ustvarite nov klepet z gumbom za ustvarjanje",
+        "newMessage": "Novo sporočilo",
+        "newMessages": "Nova sporočila",
+        "emptyListTitle": "Seznam je prazen",
+        "keepInTouchTitle": "Ostanimo v stiku!",
+        "selectionMode": {
+            "multipleForward": "posreduj {{numberOfMessages}} sporočil",
+            "exit": "Izhod iz načina izbire",
+            "maxSelected": "Dosegli ste največje število sporočil, ki jih lahko posredujete hkrati. Odznačite sporočilo, da spremenite izbiro."
+        },
+        "longCaption": {
+            "modal": {
+                "title": "Sporočilo je predolgo za opis",
+                "action": "Vseeno priloži",
+                "description": "Besedilo je predolgo in ne more biti uporabljeno kot opis priloge.",
+                "additionalDetails": "Če nadaljujete, bo presežni del odstranjen iz izvirnega besedila. Nadaljujem?"
+            }
+        },
+        "displayer": {
+            "title": "Izberite klepet za pošiljanje sporočil",
+            "description": "Sodelujte in komunicirajte s sodelavci s skupno rabo informacij in prilog."
+        },
+        "emptyList": {
+            "displayer": {
+                "description": "Pri ustvarjanju klepeta lahko izberete več oseb in ustvarite skupino.",
+                "title": "Ustvarite nov klepet z gumbom za ustvarjanje"
+            },
+            "list": {
+                "title": "Ni vsebine",
+                "description": "Tukaj bodo prikazani klepeti in skupine."
+            }
+        },
+        "emptyListDescription": "Tukaj bodo prikazani klepeti in skupine"
+    },
+    "conversationFilter": {
+        "closeTooltip": "Zapri filter",
+        "filterTooltip": "Filtriraj seznam",
+        "label": "Vnesite za filtriranje seznama"
+    },
+    "conversationInfo": {
+        "email": "E-pošta",
+        "info": "Informacije",
+        "messages": "Sporočila",
+        "name": "Ime",
+        "status": "Status",
+        "title": "Naziv",
+        "topic": "Tema",
+        "actionAccordionTitle": "Dejanja"
+    },
+    "date": {
+        "today": "Danes",
+        "yesterday": "Včeraj"
+    },
+    "editModal": {
+        "confirm": "Uredi podrobnosti",
+        "confirmDisabled": "Niste spremenili ničesar",
+        "groupDescriptionDetails": "Opisuje temo skupine",
+        "groupNameDetails": "Zahtevano in določa skupino",
+        "nameTooShort": "Naslov je obvezna informacija",
+        "topicTooLong": "Največja dolžina teme je 256 znakov",
+        "nameTooLong": "Največja dolžina naslova je 128 znakov",
+        "errorDisabled": "Preverite vnesene podatke"
+    },
+    "keepInTouchWithColleagues": "Ostanite v stiku s sodelavci ali se pridružite sobam za sestanke vaših skupin",
+    "meetings": {
+        "interactions": {
+            "yourMicIsDisabled": "Vaš mikrofon je izklopljen",
+            "yourCamIsDisabled": "Vaša kamera je izklopljena"
+        }
+    },
+    "participantsList": {
+        "closeSearch": "Zapri iskanje",
+        "moreMembersAccordionTitle": "člani",
+        "noMatch": {
+            "all": "V vašem obstoječem klepetu ali podjetju ni uporabnikov, ki bi ustrezali iskanju.",
+            "chatList": "V vašem obstoječem klepetu ni uporabnikov, ki bi ustrezali iskanju.",
+            "general": "Iskanje ni dalo rezultatov, poskusite z drugo ključno besedo.",
+            "gal": "V vašem podjetju ni zadetkov, ki bi ustrezali temu iskanju."
+        },
+        "oneMemberAccordionTitle": "En član",
+        "searchMembers": "Išči člane",
+        "searchParticipants": "Išči udeležence",
+        "creationList": {
+            "searchFailure": "Pri iskanju je prišlo do težave, poskusite znova.",
+            "title": "Ustvari nov klepet z:"
+        }
+    },
+    "interactions": {
+        "camDevice": "Naprava za kamero",
+        "micDevice": "Naprava za mikrofon"
+    },
+    "welcomePage": {
+        "description": "Kako se želite predstaviti?",
+        "blob": "Hej, neznanec!",
+        "joinButton": "Pridružite se sestanku",
+        "journeyDescription": "Preusmerjeni boste v čakalnico, kjer bo moderator odobril tvoj dostop.",
+        "loginButton": "POJDI NA STRAN ZA PRIJAVO",
+        "loginTitle": "Imate račun?",
+        "loginDescription": "Lahko izberete, ali želite na prijavno stran ali se preprosto pridružite sestanku z imenom.",
+        "nameInput": "Vpišite svoje ime"
+    },
+    "configurationMessages": {
+        "member": {
+            "roomPictureDeleted": "{{name}} je ponastavil privzeto sliko sobe {{roomName}}.",
+            "roomPictureUpdated": "{{name}} je spremenil sliko sobe {{roomName}}.",
+            "roomTopicChanged": "{{name}} je spremenil temo sobe {{roomName}} v \"<i>{{topicName}}</i>\".",
+            "roomNameChanged": "{{name}} je spremenil naslov skupine v \"<i>{{roomName}}</i>\".",
+            "roomTopicRemoved": "{{name}} je odstranil temo sobe {{roomName}}."
+        },
+        "user": {
+            "roomNameChanged": "Spremenili ste naslov skupine v \"<i>{{roomName}}</i>\".",
+            "roomPictureDeleted": "Ponastavil ste privzeto sliko sobe {{roomName}}.",
+            "roomPictureUpdated": "Spremenili ste sliko sobe {{roomName}}.",
+            "roomTopicChanged": "Spremenili ste temo sobe {{roomName}} v \"<i>{{topicName}}</i>\".",
+            "roomTopicRemoved": "Odstranili ste temo sobe {{roomName}}."
+        }
+    },
+    "appointment": {
+        "input": {
+            "defaultValue": "Ni izbrane virtualne sobe.",
+            "limitedOption": "omejen dostop"
+        },
+        "placeholder": {
+            "title": "Lahko greste v klepete in ustvarite virtualno sobo za gostovanje sestanka.",
+            "description": "Ko se vrnete, boste tukaj našli svoje virtualne sobe."
+        }
+    },
+    "readOnly": {
+        "toBeMigrate": {
+            "title": "Podvoji v novi modul za klepete",
+            "callToAction": "KOPIRAJ SKUPINO",
+            "description": "To dejanje ustvari kopijo skupine, vključno z naslovom, člani in vlogami moderatorja."
+        },
+        "modal": {
+            "caption": "Ko bo kopiranje končano, boste samodejno preusmerjeni v novi modul.",
+            "title": "Ustvari kopijo skupine \"{{roomName}}\"",
+            "subtitle": "Skupino boste podvojili v nov modul za klepete.",
+            "callToAction": "NADALJUJ",
+            "warning": "Pomembno: Kopirate skupino z naslovom, temo, člani in vlogami moderatorja. To dejanje <strong>ne kopira</strong> <strong>zgodovine klepeta.</strong>"
+        },
+        "alreadyMigrate": {
+            "title": "Ta skupina je že podvojena",
+            "callToAction": "POGLEJ V NOVEM MODULU ZA KLEPET",
+            "description": "Kliknite gumb za preusmeritev v novi modul in uporabi kopijo te skupine."
+        },
+        "feedback": {
+            "error": "Prišlo je do napake, poskusite znova ali osvežite stran."
+        },
+        "room": {
+            "toBeMigrate": {
+                "description": "To dejanje pretvori element v skupino z enakim naslovom, temo, člani in vlogo moderatorja.",
+                "title": "Pretvori v skupino v novem modulu",
+                "callToAction": "PRETVORI V SKUPINO",
+                "tooltip": "V skupini morata biti vsaj še dva člana poleg vas.",
+                "moreMembersNeeded": "Za pretvorbo elementa v skupino morata biti prisotna še vsaj dva člana poleg tebe."
+            },
+            "modal": {
+                "subtitle": "Pretvarjate element v skupino v novem modulu za klepete.",
+                "title": "Pretvori \"{{roomName}}\" v skupino.",
+                "caption": "Ko bo pretvorba končana, boste samodejno preusmerjeni v novi modul.",
+                "warning": "Pomembno: Ustvarjate novo skupino z istim naslovom, temo, člani in vlogo moderatorja kot original. Vendar <strong>ne boste prenesli</strong> <strong>zgodovine klepeta.</strong>"
+            },
+            "alreadyMigrate": {
+                "description": "Kliknite gumb za preusmeritev v novi modul in uporabite kopijo tega elementa.",
+                "title": "Ta element je že pretvorjen"
+            }
+        }
+    },
+    "readBy": {
+        "title": "Videli:"
+    },
+    "browserNotification": {
+        "reaction": {
+            "chat": "Je reagiral na vaše sporočilo z:",
+            "group": "{{userName}} je reagiral na vaše sporočilo z:"
+        }
+    },
+    "snackbar": {
+        "mutedByModerator": "Moderator vas je utišal – za govor se morate ponovno odutišati"
+    },
+    "titlePlaceholder": "Ime vaše skupine"
 }
