@@ -118,7 +118,8 @@
             "leaveConfirmation": "Zapustiti srečanje?",
             "disableFullScreen": "Onemogoči celozaslonski način",
             "userHint": "Vklopite kamero za izbiro video učinka",
-            "handUp": "Dvigni roko"
+            "handUp": "Dvigni roko",
+            "browserPermission": "Dodelite brskalniku dovoljenja za omogočanje virov"
         },
         "collapseChat": "Strni klepet",
         "continueActiveSession": "Nadaljuj srečanje v novem oknu",
@@ -381,7 +382,7 @@
     },
     "settings": {
         "profile": {
-            "errorGenericResponse": "Prišlo je do napake. Poskusite znova.",
+            "errorGenericResponse": "Prišlo je do napake. Poskusite znova",
             "title": "Profil",
             "maximumDimension": "Največja velikost: {{size}}kb",
             "updatedPictureCorrectly": "Nov avatar je bil uspešno naložen",
@@ -633,7 +634,8 @@
     "appointment": {
         "input": {
             "defaultValue": "Ni izbrane virtualne sobe.",
-            "limitedOption": "omejen dostop"
+            "limitedOption": "omejen dostop",
+            "label": "Virtualna soba"
         },
         "placeholder": {
             "title": "Lahko greste v klepete in ustvarite virtualno sobo za gostovanje sestanka.",
