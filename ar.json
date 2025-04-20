@@ -282,7 +282,8 @@
                 "description": "سيتم حفظ التسجيل في مساحة الملفات الخاصة بالمشرف الذي أوقفه.",
                 "additionalDescription": "إذا حدث خطأ ما، سيتم حفظ التسجيل في مساحة الملفات الخاصة بالمشرف الذي بدأه."
             },
-            "lowerAllHands": "اخفض جميع الأيدي المرفوعة"
+            "lowerAllHands": "اخفض جميع الأيدي المرفوعة",
+            "raiseHand": "{{numberOfHandRaised}} أيد مرفوعة"
         },
         "expandChat": "توسيع الدردشة",
         "waitingRoom": {
