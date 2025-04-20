@@ -270,7 +270,8 @@
             "waitingCaption": "في انتظار الدخول",
             "tooltip": {
                 "waitingAccept": "السماح للمستخدم بالدخول",
-                "waitingReject": "رفض المستخدم"
+                "waitingReject": "رفض المستخدم",
+                "lowerUserHand": "خفض يد {{memberName}}"
             },
             "recording": {
                 "title": "التسجيل",
