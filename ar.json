@@ -282,7 +282,7 @@
                 "description": "سيتم حفظ التسجيل في مساحة الملفات الخاصة بالمشرف الذي أوقفه.",
                 "additionalDescription": "إذا حدث خطأ ما، سيتم حفظ التسجيل في مساحة الملفات الخاصة بالمشرف الذي بدأه."
             },
-            "lowerAllHands": "خفض جميع الأيدي المرفوعة"
+            "lowerAllHands": "اخفض جميع الأيدي المرفوعة"
         },
         "expandChat": "توسيع الدردشة",
         "waitingRoom": {
@@ -394,7 +394,9 @@
         "continueActiveSession": "متابعة الاجتماع في النافذة الجديدة",
         "snackbar": {
             "waitingInfo": "يبدو أن هناك شخصًا في غرفة انتظار {{roomName}}.",
-            "autoHandDown": "يبدو أنك تقول شيئًا ، لذلك سوف يتم خفض يدك."
+            "autoHandDown": "يبدو أنك تقول شيئًا ، لذلك سوف يتم خفض يدك.",
+            "someoneRaisedHand": "رفع أحدهم يده",
+            "handLoweredByModerator": "لقد خفض أحد المشرفين يدك"
         },
         "browserNotification": {
             "waitingMessage": "المستخدم الجديد ينتظر الدخول إلى الاجتماع"
