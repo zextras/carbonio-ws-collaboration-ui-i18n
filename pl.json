@@ -101,7 +101,8 @@
         "noMatch": {
             "chatList": "Nie ma w Twoich czatach użytkowników pasujących do tego wyszukiwania.",
             "all": "Nie ma w Twoich czatach ani w Twojej firmie użytkowników pasujących do tego wyszukiwania.",
-            "general": "Twoje wyszukiwanie nie przyniosło rezultatów, spróbuj z innym słowem kluczowym."
+            "general": "Twoje wyszukiwanie nie przyniosło rezultatów, spróbuj z innym słowem kluczowym.",
+            "gal": "Nie ma elementów odpowiadających temu wyszukiwaniu w Twojej organizacji."
         }
     },
     "settings": {
@@ -215,7 +216,7 @@
                 "title": "Wiadomość zbyt długa na podpis",
                 "description": "Tekst jest za długi i nie może zostać użyty jako podpis do załącznika.",
                 "action": "Załącz mimo to",
-                "additionalDetails": "Jeśli kontynuujesz operację, nadmiar zostanie usunięty z oryginalnego tekstu. Kontynuować?"
+                "additionalDetails": "Jeśli kontynuujesz, nadmiar zostanie usunięty z oryginalnego tekstu. Kontynuować?"
             }
         },
         "displayer": {
@@ -307,7 +308,8 @@
             "disabled": "Są problemy z połączeniem, spróbuj ponownie później.",
             "unknownDevice": "Nieznane urządzenie",
             "handDown": "Opuść swoją rękę",
-            "handUp": "Podnieś swoją rękę"
+            "handUp": "Podnieś swoją rękę",
+            "browserPermission": "Udziel uprawnień przeglądarce, aby włączyć zasoby"
         },
         "joinMeeting": "Dołącz do spotkania",
         "newMeetingNotification": {
@@ -638,7 +640,8 @@
         },
         "input": {
             "defaultValue": "Nie wybrano żadnego wirtualnego pokoju.",
-            "limitedOption": "ograniczony dostęp"
+            "limitedOption": "ograniczony dostęp",
+            "label": "Wirtualny pokój"
         }
     },
     "readOnly": {
