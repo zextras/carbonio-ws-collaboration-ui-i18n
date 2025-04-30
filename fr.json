@@ -482,14 +482,17 @@
                     "stop": "ARRÊTER"
                 },
                 "additionalDescription": "Si quelque chose se passe mal, l'enregistrement sera sauvegardé dans Files dans l'espace du modérateur l'ayant lancée."
-            }
+            },
+            "lowerAllHands": "Abaisser toutes les mains levées"
         },
         "browserNotification": {
             "waitingMessage": "Un nouvel utilisateur attend pour entre dans la réunion"
         },
         "snackbar": {
             "waitingInfo": "Il semble que quelqu'un soit dans la salle d'attente de {{roomName}}.",
-            "autoHandDown": "On dirait que vous êtes en train de dire quelque chose, donc votre main sera baissée."
+            "autoHandDown": "On dirait que vous êtes en train de dire quelque chose, donc votre main sera baissée.",
+            "someoneRaisedHand": "Quelqu'un a levé la main",
+            "handLoweredByModerator": "Un modérateur a baissé votre main"
         },
         "waitingRoom": {
             "setInputs": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
