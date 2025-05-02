@@ -259,7 +259,8 @@
             },
             "feedback": {
                 "caption": "Pomaga nam pri izboljšavah :)",
-                "description": "Vaše mnenje nam veliko pomeni!"
+                "description": "Vaše mnenje nam veliko pomeni!",
+                "title": "Sporočite nam, kaj menite o svoji izkušnji z sestankom."
             }
         },
         "recordingHint": "Ta sestanek se snema",
