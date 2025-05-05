@@ -263,7 +263,8 @@
         "noMatch": {
             "all": "Il n'y a pas d'utilisateur qui corresponde à votre recherche ni dans les discussion existante, ni dans votre établissement.",
             "chatList": "Il n'y a pas d'utilisateur qui corresponde avec cette recherche dans les discussions existantes.",
-            "general": "Votre recherche n'a donné aucun résultat, essayez un autre mot-clé."
+            "general": "Votre recherche n'a donné aucun résultat, essayez un autre mot-clé.",
+            "gal": "Il n'y a pas d'éléments qui correspondent à cette recherche dans votre entreprise."
         },
         "creationList": {
             "title": "Créer une nouvelle discussion avec :",
@@ -398,7 +399,8 @@
             "disabled": "Il y a des problèmes de connexion, merci de réessayer plus tard.",
             "unknownDevice": "Appareil inconnu",
             "handDown": "Baisser la main",
-            "handUp": "Lever la main"
+            "handUp": "Lever la main",
+            "browserPermission": "Autoriser le navigateur à activer les ressources"
         },
         "joinMeeting": "Rejoindre la réunion",
         "newMeetingNotification": {
@@ -470,7 +472,8 @@
             "waitingCaption": "En attente pour entrer",
             "tooltip": {
                 "waitingAccept": "Laisser l'utilisateur entrer",
-                "waitingReject": "Refuser l'utilisateur"
+                "waitingReject": "Refuser l'utilisateur",
+                "lowerUserHand": "Baisser les {{memberName}} mains"
             },
             "waitingList": "Liste d'attente",
             "recording": {
@@ -483,7 +486,8 @@
                 },
                 "additionalDescription": "Si quelque chose se passe mal, l'enregistrement sera sauvegardé dans Files dans l'espace du modérateur l'ayant lancée."
             },
-            "lowerAllHands": "Abaisser toutes les mains levées"
+            "lowerAllHands": "Abaisser toutes les mains levées",
+            "raiseHand": "{{numberOfHandRaised}} mains levées"
         },
         "browserNotification": {
             "waitingMessage": "Un nouvel utilisateur attend pour entre dans la réunion"
@@ -533,7 +537,8 @@
             },
             "feedback": {
                 "caption": "Cela nous aide à nous améliorer :)",
-                "description": "Votre avis nous intéresse !"
+                "description": "Votre avis nous intéresse !",
+                "title": "Faites-nous part de votre expérience de la réunion."
             }
         },
         "continueActiveSession": "Poursuivre la réunion dans la nouvelle fenêtre",
@@ -636,7 +641,8 @@
         },
         "input": {
             "defaultValue": "Pas de salle virtuelle sélectionnée.",
-            "limitedOption": "accès restreint"
+            "limitedOption": "accès restreint",
+            "label": "Salle virtuelle"
         }
     },
     "readOnly": {
