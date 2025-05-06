@@ -456,7 +456,8 @@
             },
             "feedback": {
                 "caption": "Pomaga nam się rozwijać :)",
-                "description": "Twoja opinia jest dla nas ważna!"
+                "description": "Twoja opinia jest dla nas ważna!",
+                "title": "Daj nam znać jakie masz doświadczenie ze spotkaniem w Carbonio."
             }
         },
         "recordingHint": "To spotkanie jest nagrywane",
