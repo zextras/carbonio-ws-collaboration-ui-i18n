@@ -268,7 +268,8 @@
             },
             "feedback": {
                 "description": "Važno nam je vaše mišljenje!",
-                "caption": "Pomaže nam da nastavimo poboljšanje :)"
+                "caption": "Pomaže nam da nastavimo poboljšanje :)",
+                "title": "Recite nam šta mislite o svom iskustvu sa sastankom."
             }
         },
         "recordingHint": "Ovaj sastanak se snima",
