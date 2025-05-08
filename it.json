@@ -528,7 +528,8 @@
             "feedback": {
                 "caption": "Ci permette di migliorare :)",
                 "description": "La tua opinione è importante per noi!",
-                "title": "Dicci cosa ne pensi della tua esperienza con questa riunione."
+                "title": "Dicci cosa ne pensi della tua esperienza con questa riunione.",
+                "thankYou": "GRAZIE PER IL TUO FEEDBACK!"
             }
         },
         "continueActiveSession": "Continua la riunione nella nuova finestra",
