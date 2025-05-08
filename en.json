@@ -342,7 +342,8 @@
             "feedback": {
                 "caption": "It helps us keep improving :)",
                 "description": "Your opinion is important to us!",
-                "title": "Let us know what you think about your experience with the meeting."
+                "title": "Let us know what you think about your experience with the meeting.",
+                "thankYou": "THANKS FOR YOUR FEEDBACK!"
             }
         },
         "recordingHint": "This meeting is being recorded",
