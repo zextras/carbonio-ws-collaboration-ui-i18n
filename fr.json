@@ -538,7 +538,8 @@
             "feedback": {
                 "caption": "Cela nous aide à nous améliorer :)",
                 "description": "Votre avis nous intéresse !",
-                "title": "Faites-nous part de votre expérience de la réunion."
+                "title": "Faites-nous part de votre expérience de la réunion.",
+                "thankYou": "MERCI POUR VOS RETOURS !"
             }
         },
         "continueActiveSession": "Poursuivre la réunion dans la nouvelle fenêtre",
