@@ -4,7 +4,7 @@
         "addFromLocal": "Ajouter un fichier depuis le disque local",
         "attachLinkFiles": "Joindre un lien publique depuis Files",
         "dragAndDrop": "Mode Glisser Déposer",
-        "dropHereDescription": "Déposez ici vos pièces jointes pour les ajouter rapidement à cette discussion",
+        "dropHereDescription": "Déposez ici vos pièces jointes pour les ajouter rapidement à cette conversation",
         "errorUploadingFile": "Quelque chose s'est mal passé lors du téléversement de {{file}}",
         "uploadAborted": "Le téléversement a été interrompu",
         "integrations": {
@@ -31,8 +31,8 @@
             "newGroup": "Nouveau groupe",
             "contactList": "Sélectionnez plus d'une adresse pour créer un Groupe",
             "inputPlaceholder": "Commencez à taper ou récupérez une adresse",
-            "newChat": "Nouvelle Discussion",
-            "description": "Les discussions sont des conversations entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un Groupe en ajoutant plus de 2 adresses",
+            "newChat": "Nouvelle conversation",
+            "description": "Les conversations sont des échanges écrits entre 2 comptes qui permettent de rester en contact avec vos correspondants. Vous pouvez créer un groupe de discussion en ajoutant plus de 2 adresses",
             "addUserLimit": {
                 "limitReached": "Vous avez sélectionner le nombre maximum de membres pour un groupe",
                 "users_one": "Vous pouvez ajouter un dernier membre",
@@ -50,9 +50,9 @@
         "deleteMessageTitleDescription": "Vous êtes sur le point de supprimez le message, celui-ci ne sera plus disponible",
         "deleteRoomLabel": "Êtes-vous sûr de vouloir supprimer cette Salle ?",
         "forward": {
-            "chooseAtLeastOneChat": "Choisissez au moins une discussion",
-            "description": "Choisissez une discussion cible pour transférer le message",
-            "inputPlaceholder": "Commencez à taper ou choisissez une discussion",
+            "chooseAtLeastOneChat": "Choisissez au moins une conversation",
+            "description": "Choisissez une conversation cible pour transférer le message",
+            "inputPlaceholder": "Commencez à taper ou choisissez une conversation",
             "title": "Message transféré de {{chatName}}"
         },
         "leaveAndDelete": "Quitter et supprimer le Groupe",
@@ -115,28 +115,28 @@
         "export": {
             "description": "Pendant l'exportation, vous pouvez naviguer sur Carbonio sans problème. Cependant, si vous rafraîchissez la page, l'exportation sera interrompue.",
             "filterInput": "Liste de filtres",
-            "caption": "L'exportation de discussions contenant beaucoup de contenu peut prendre un certain temps.",
+            "caption": "L'exportation de conversation contenant beaucoup de contenu peut prendre un certain temps.",
             "emptySpace": {
                 "noMatch": {
                     "title": "Essayez une autre requête.",
-                    "description": "Il n'y a pas de correspondance pour cette recherche dans vos discussions existantes."
+                    "description": "Il n'y a pas de correspondance pour cette recherche dans vos conversations existantes."
                 },
                 "firstAccess": {
-                    "description": "Vos discussions individuelles et vos groupes apparaîtront dans cette liste.",
+                    "description": "Vos conversations individuelles et vos groupes apparaîtront dans cette liste.",
                     "title": "Il n'y a rien ici.",
-                    "callToAction": "Allez dans Discussions et commencez à collaborer !"
+                    "callToAction": "Allez dans Chats et commencez à collaborer !"
                 }
             },
-            "title": "Export de la discussion",
-            "subHead": "Choisissez l'une de vos discussions pour exporter les messages vers un fichier texte. N'oubliez pas que vous êtes responsable de l'utilisation des données exportées.",
+            "title": "Export de la conversation",
+            "subHead": "Choisissez l'une de vos conversations pour exporter les messages vers un fichier texte. N'oubliez pas que vous êtes responsable de l'utilisation des données exportées.",
             "snackbar": {
-                "success": "La discussion a été exportée avec succès, vérifiez vos téléchargements !"
+                "success": "La conversation a été exportée avec succès, vérifiez vos téléchargements !"
             },
             "tooltip": {
-                "noOneSelected": "Sélectionnez l'une de vos discussions pour l'exporter",
-                "ongoingExport": "Vous êtes déjà en train d'exporter une discussion, attendez que l'exportation se termine."
+                "noOneSelected": "Sélectionnez l'une de vos conversations pour l'exporter",
+                "ongoingExport": "Vous êtes déjà en train d'exporter une conversation, attendez que l'exportation se termine."
             },
-            "action": "EXPORTER LA DISCUSSION SÉLECTIONNÉE"
+            "action": "EXPORTER LA CONVERSATION SÉLECTIONNÉE"
         }
     },
     "action": {
@@ -166,7 +166,7 @@
         "addSingleAttachment": "Ajouter {{counter}} pièces jointes",
         "editDetails": "Éditer les détails",
         "editRoom": "Éditer {{roomName}}",
-        "newChat": "Nouvelle Discussion",
+        "newChat": "Nouvelle conversation",
         "scrollToBottom": "Défiler jusqu'en bas",
         "decline": "Refuser",
         "enter": "Entrer",
@@ -190,7 +190,7 @@
         "newMessage": "Nouveau message",
         "emptyListDescription": "Les Chats et les Groupes seront listés ici",
         "emptyListTitle": "Cette liste est vide",
-        "mockCreateChatTitle": "Créer une nouvelle discussion en utilisant le bouton créer",
+        "mockCreateChatTitle": "Créer une nouvelle conversation en utilisant le bouton créer",
         "newMessages": "Nouveaux messages",
         "selectionMode": {
             "exit": "Sortir du mode de sélection",
@@ -207,16 +207,16 @@
         },
         "displayer": {
             "description": "Interagissez, communiquez et collaborez avec vos collègues en partageant des informations et des documents.",
-            "title": "Choisissez une discussion pour commencer à envoyer des messages"
+            "title": "Choisissez une conversation pour commencer à envoyer des messages"
         },
         "emptyList": {
             "displayer": {
-                "title": "Créer une nouvelle discussion en cliquant sur le bouton créer",
-                "description": "Lorsque vous créez une discussion, vous avez la possibilité d'y ajouter plus d'une personne et ainsi de créer un groupe de discussion."
+                "title": "Créer une nouvelle conversation en cliquant sur le bouton créer",
+                "description": "Lorsque vous créez une conversation, vous avez la possibilité d'y ajouter plus d'une personne et ainsi de créer un groupe de discussion."
             },
             "list": {
                 "title": "Il n'y a rien ici",
-                "description": "Les discussions et groupes de discussion seront listés ici."
+                "description": "Les conversations et groupes de discussion seront listés ici."
             }
         }
     },
@@ -261,13 +261,13 @@
         "searchMembers": "Rechercher des membres",
         "searchParticipants": "Rechercher des participants",
         "noMatch": {
-            "all": "Il n'y a pas d'utilisateur qui corresponde à votre recherche ni dans les discussion existante, ni dans votre établissement.",
-            "chatList": "Il n'y a pas d'utilisateur qui corresponde avec cette recherche dans les discussions existantes.",
+            "all": "Il n'y a pas d'utilisateur qui corresponde à votre recherche ni dans les conversations existantes, ni dans votre établissement.",
+            "chatList": "Il n'y a pas d'utilisateur qui corresponde avec cette recherche dans les conversations existantes.",
             "general": "Votre recherche n'a donné aucun résultat, essayez un autre mot-clé.",
             "gal": "Il n'y a pas d'éléments qui correspondent à cette recherche dans votre entreprise."
         },
         "creationList": {
-            "title": "Créer une nouvelle discussion avec :",
+            "title": "Créer une nouvelle conversation avec :",
             "searchFailure": "Votre recherche semble avoir un problème, merci de réessayer."
         }
     },
@@ -278,7 +278,7 @@
         "areTyping": "écrit…",
         "isTyping": "est en train d'écrire…",
         "you": "Vous",
-        "goToPrivateChat": "Aller en discussion privée pour envoyer un message personnel",
+        "goToPrivateChat": "Aller en conversation privée pour envoyer un message personnel",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} et {{numberOfUsers}} autres écrivent…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} personnes écrivent…",
         "Anonymous": "Utilisateur anonyme"
@@ -300,7 +300,7 @@
         "sendMessage": "Envoyer un message",
         "uploading": "Téléversement",
         "disableModalButton": "Choisissez au moins une adresse",
-        "forwardedMessage": "Le message a été transféré d'une autre discussion",
+        "forwardedMessage": "Le message a été transféré d'une autre conversation",
         "iAmModerator": "Vous êtes modérateur",
         "messageActions": "Actions de message",
         "uploadAttachment": "Téléverser un document",
@@ -339,7 +339,7 @@
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} est créée !",
-        "oneToOneCreated": "Nouvelle discussion créée !",
+        "oneToOneCreated": "Nouvelle conversation créée !",
         "member": {
             "Added": "{{userName}} a été ajouté à {{roomName}}.",
             "Removed": "{{userName}} n'est plus membre de {{roomName}}."
@@ -409,8 +409,8 @@
             "sendAQuickMessage": "Envoyer un message rapide",
             "userIsInvitingYou": "<strong>{{name}}</strong> vous invite"
         },
-        "extendChat": "Agrandir la discussion",
-        "minimizeChat": "Minimiser la discussion",
+        "extendChat": "Agrandir la conversation",
+        "minimizeChat": "Minimiser la conversation",
         "ongoingGroupMeetingTooltip": "Vous participez déjà à cette réunion",
         "startMeeting": "Commencer la réunion",
         "startModal": {
@@ -422,10 +422,10 @@
         "ongoingOneToOneMeetingTooltip": "Vous avec déjà une réunion active avec {{name}}",
         "joinMeetingDescription": "Comment souhaitez-vous joindre cette réunion ?",
         "setInputDescription": "Définissez vos périphériques d'entrée en les choisissant dans le menu déroulant",
-        "activeMeetingTooltip": "Il y a une réunion active pour cette Discussion",
-        "collapseChat": "Refermer la discussion",
+        "activeMeetingTooltip": "Il y a une réunion active pour cette conversation",
+        "collapseChat": "Refermer la conversation",
         "collapseParticipantsMeetingTooltip": "Refermer la liste de participants",
-        "expandChat": "Ouvrir la discussion",
+        "expandChat": "Ouvrir la conversation",
         "expandParticipantsListTooltip": "Ouvrir la liste des participants",
         "virtual": {
             "deleteTooltip": "Supprimer la Salle Virtuelle",
@@ -637,7 +637,7 @@
     },
     "appointment": {
         "placeholder": {
-            "title": "Vous pouvez aller dans Discussions et créer une salle virtuelle pour héberger votre rendez-vous.",
+            "title": "Vous pouvez aller dans Chats et créer une salle virtuelle pour héberger votre rendez-vous.",
             "description": "Vous trouverez vos salles virtuelles ici lorsque vous reviendrez."
         },
         "input": {
@@ -655,13 +655,13 @@
         "modal": {
             "title": "Créer une copie du groupe \"{{roomName}}\"",
             "callToAction": "CONTINUER",
-            "subtitle": "Vous êtes sur le point de créer une copie du groupe dans le nouveau module de Discussions.",
+            "subtitle": "Vous êtes sur le point de créer une copie du groupe dans le nouveau module Chats.",
             "warning": "Important : Vous copiez le groupe, ce qui inclus le titre, les membres ainsi que les droits de modération. Cette action <strong>ne va pas créer</strong> une copie de <strong>l'historique de conversation</strong>.",
             "caption": "Une fois la copie terminée, vous serez redirigé automatiquement vers le nouveau module."
         },
         "alreadyMigrate": {
             "title": "Ce groupe est déjà dupliqué",
-            "callToAction": "VOIR LE NOUVEAU MODULE DE DISCUSSION",
+            "callToAction": "VOIR LE NOUVEAU MODULE CHATS",
             "description": "Cliquez sur le bouton pour être redirigé dans le nouveau module et utiliser le duplicata de ce groupe."
         },
         "feedback": {
