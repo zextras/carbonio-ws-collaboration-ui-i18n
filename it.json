@@ -644,6 +644,9 @@
             "defaultValue": "Nessuna Stanza Virtuale selezionata.",
             "limitedOption": "accesso limitato",
             "label": "Stanza Virtuale"
+        },
+        "virtual": {
+            "managementHint": "Puoi modificare o eliminare le tue Stanze Virtuali nel modulo Chat."
         }
     },
     "readOnly": {
