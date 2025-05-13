@@ -642,6 +642,9 @@
         "placeholder": {
             "title": "You can go to Chats and create a Virtual Room to host your appointment.",
             "description": "You will find your Virtual Rooms here when you’re back."
+        },
+        "virtual": {
+            "managementHint": "You can edit or delete your Virtual Rooms in the Chat module."
         }
     },
     "readOnly": {
