@@ -644,6 +644,9 @@
             "defaultValue": "Nie wybrano żadnego wirtualnego pokoju.",
             "limitedOption": "ograniczony dostęp",
             "label": "Wirtualny pokój"
+        },
+        "virtual": {
+            "managementHint": "Możesz edytować lub usuwać Twoje wirtualne pokoje w module Czatów."
         }
     },
     "readOnly": {
