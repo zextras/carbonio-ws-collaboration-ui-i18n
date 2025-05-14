@@ -269,7 +269,8 @@
             "feedback": {
                 "description": "Važno nam je vaše mišljenje!",
                 "caption": "Pomaže nam da nastavimo poboljšanje :)",
-                "title": "Recite nam šta mislite o svom iskustvu sa sastankom."
+                "title": "Recite nam šta mislite o svom iskustvu sa sastankom.",
+                "thankYou": "ZAHVALJUJEM SE NA VAŠEM KOMENTARU!"
             }
         },
         "recordingHint": "Ovaj sastanak se snima",
@@ -599,6 +600,9 @@
         "placeholder": {
             "title": "Možete otići na Chatove i kreirati virtuelnu sobu za domaćinstvo vašeg sastanka.",
             "description": "Ovdje ćete naći svoje Virtualne sobe kada se vratite."
+        },
+        "virtual": {
+            "managementHint": "Moguće je uređivanje ili brisanje Vaših virtualnih soba u modulu Chat."
         }
     },
     "status": {
