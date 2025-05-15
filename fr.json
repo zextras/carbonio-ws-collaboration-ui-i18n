@@ -644,6 +644,9 @@
             "defaultValue": "Pas de salle virtuelle sélectionnée.",
             "limitedOption": "accès restreint",
             "label": "Salle virtuelle"
+        },
+        "virtual": {
+            "managementHint": "Vous pouvez modifier ou supprimer vos salles virtuelle dans le module Chat."
         }
     },
     "readOnly": {
