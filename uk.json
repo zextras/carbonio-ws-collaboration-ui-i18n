@@ -61,5 +61,10 @@
         "deleteMessageTitle": "Видалити вибране повідомлення?",
         "removeMember": "Видалити учасника",
         "showPreviousConversationHistory": "Показати історію попередніх розмов"
+    },
+    "appointment": {
+        "virtual": {
+            "managementHint": "Ви можете редагувати або видаляти свої Віртуальні кімнати у модулі Чат."
+        }
     }
 }
