@@ -96,7 +96,8 @@
         "searchMembers": "Wyszukaj członków",
         "creationList": {
             "title": "Stwórz nowy czat z:",
-            "searchFailure": "Wygląda na to, że wystąpił problem z Twoim wyszukiwaniem, spróbuj ponownie."
+            "searchFailure": "Wygląda na to, że wystąpił problem z Twoim wyszukiwaniem, spróbuj ponownie.",
+            "loadMore": "Pokaż więcej użytkowników"
         },
         "noMatch": {
             "chatList": "Nie ma w Twoich czatach użytkowników pasujących do tego wyszukiwania.",
@@ -195,7 +196,8 @@
             "shareLink": "Udostępnij publiczny link"
         },
         "upload": {
-            "tooLarge": "Przesyłanie się nie powiodło: Plik przekracza max. rozmiar pliku {{size}} MB."
+            "tooLarge": "Wybrany obraz jest za duży. Prześlij plik mniejszy niż {{size}} MB.",
+            "genericError": "Coś poszło nie tak przy przesyłaniu obrazu. Spróbuj ponownie."
         }
     },
     "chat": "Czat",
