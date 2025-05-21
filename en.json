@@ -70,7 +70,8 @@
             "shareLink": "Share public link"
         },
         "upload": {
-            "tooLarge": "Upload failed: The file exceeds the maximum file size of {{size}} MB."
+            "tooLarge": "The selected image is too large. Please upload a file smaller than {{size}} MB.",
+            "genericError": "Something went wrong while uploading the image. Please try again."
         }
     },
     "chat": "Chat",
@@ -452,7 +453,8 @@
         "searchParticipants": "Search participants",
         "creationList": {
             "title": "Create new chat with:",
-            "searchFailure": "There seems to be a problem with your search, please retry."
+            "searchFailure": "There seems to be a problem with your search, please retry.",
+            "loadMore": "Show more users"
         }
     },
     "settings": {
