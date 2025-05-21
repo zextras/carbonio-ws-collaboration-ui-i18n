@@ -112,7 +112,8 @@
         "searchParticipants": "Cerca partecipanti",
         "creationList": {
             "searchFailure": "Sembra esserci un problema con la tua ricerca, riprova.",
-            "title": "Crea una nuova chat con:"
+            "title": "Crea una nuova chat con:",
+            "loadMore": "Mostra altri utenti"
         },
         "noMatch": {
             "all": "La ricerca non ha prodotto risultati tra gli utenti presenti nelle tue conversazioni o nella tua organizzazione.",
@@ -188,7 +189,8 @@
             "shareLink": "Condividi link pubblico"
         },
         "upload": {
-            "tooLarge": "Caricamento fallito: il file eccede la dimensione massima consentita di {{size}} MB."
+            "tooLarge": "L'immagine selezionata è troppo grande. Carica un file più piccolo di {{size}} MB.",
+            "genericError": "Si è verificato un errore durante il caricamento dell'immagine. Riprova."
         }
     },
     "conversation": {
