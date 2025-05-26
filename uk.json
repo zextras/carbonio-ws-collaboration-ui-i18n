@@ -20,7 +20,8 @@
         "download": "Завантажити",
         "editYourMessage": "Відредагуйте своє повідомлення",
         "preview": "Попередній перегляд",
-        "cancel": "Скасувати"
+        "cancel": "Скасувати",
+        "save": "Зберегти"
     },
     "conversationInfo": {
         "email": "Електронна пошта",
@@ -35,7 +36,12 @@
                 "general": "Загальні"
             }
         },
-        "save": "Зміни збережено"
+        "save": "Зміни збережено",
+        "recording": {
+            "dialog": {
+                "title": "Виберіть папку"
+            }
+        }
     },
     "status": {
         "offline": "Відсутній",
@@ -48,7 +54,8 @@
         "demoteModerator": "Розжалувати модератора",
         "goToPrivateChat": "Перейти до приватного чату",
         "messageActions": "Дії з повідомленнями",
-        "promoteModerator": "Підвищити до модератора"
+        "promoteModerator": "Підвищити до модератора",
+        "moreActions": "Додаткові дії"
     },
     "conversation": {
         "newMessage": "Нове повідомлення"
@@ -65,6 +72,52 @@
     "appointment": {
         "virtual": {
             "managementHint": "Ви можете редагувати або видаляти свої Віртуальні кімнати у модулі Чат."
+        },
+        "input": {
+            "label": "Віртуальна Кімната"
+        }
+    },
+    "meeting": {
+        "sidebar": {
+            "lowerAllHands": "Опустити усі підняті руки",
+            "raiseHand": "{{numberOfHandRaised}} піднятих рук",
+            "tooltip": {
+                "lowerUserHand": "Опустити руку {{memberName}}"
+            }
+        },
+        "snackbar": {
+            "someoneRaisedHand": "Хтось підняв руку",
+            "handLoweredByModerator": "Модератор опустив вашу руку"
+        },
+        "interactions": {
+            "browserPermission": "Надайте браузеру дозволи для активації ресурсів"
+        },
+        "infoPage": {
+            "feedback": {
+                "title": "Повідомте нас про свої враження від зустрічі.",
+                "thankYou": "ДЯКУЄМО ЗА ВАШ ВІДГУК!"
+            }
+        },
+        "virtual": {
+            "modal": {
+                "edit": {
+                    "title": "Змінити Віртуальну Кімнату \"{{roomName}}\""
+                }
+            }
+        }
+    },
+    "participantsList": {
+        "noMatch": {
+            "gal": "У вашій компанії не знайдено жодного елемента, який відповідав би цьому пошуку."
+        },
+        "creationList": {
+            "loadMore": "Показати більше користувачів"
+        }
+    },
+    "attachments": {
+        "upload": {
+            "tooLarge": "Обране зображення занадто велике. Будь ласка, завантажте файл менший за {{size}} МБ.",
+            "genericError": "Сталася помилка під час завантаження зображення. Будь ласка, спробуйте ще раз."
         }
     }
 }
