@@ -87,10 +87,13 @@
         },
         "snackbar": {
             "someoneRaisedHand": "Хтось підняв руку",
-            "handLoweredByModerator": "Модератор опустив вашу руку"
+            "handLoweredByModerator": "Модератор опустив вашу руку",
+            "autoHandDown": "Здається, ви щось кажете, тому ваша рука буде опущена."
         },
         "interactions": {
-            "browserPermission": "Надайте браузеру дозволи для активації ресурсів"
+            "browserPermission": "Надайте браузеру дозволи для активації ресурсів",
+            "handUp": "Підняти руку",
+            "handDown": "Опустити руку"
         },
         "infoPage": {
             "feedback": {
