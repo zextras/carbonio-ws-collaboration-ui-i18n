@@ -12,7 +12,8 @@
             "shareLink": "Partager un lien publique"
         },
         "upload": {
-            "tooLarge": "Le téléchargement a échoué : Le fichier dépasse la taille maximale de {{size}} Mo."
+            "tooLarge": "L'image sélectionnée est trop grande. Veuillez télécharger un fichier d'une taille inférieure à {{size}} MB.",
+            "genericError": "Quelque chose s'est mal passé lors du téléversement de l'image. Merci de recommencer."
         }
     },
     "conversationInfo": {
@@ -268,7 +269,8 @@
         },
         "creationList": {
             "title": "Créer une nouvelle conversation avec :",
-            "searchFailure": "Votre recherche semble avoir un problème, merci de réessayer."
+            "searchFailure": "Votre recherche semble avoir un problème, merci de réessayer.",
+            "loadMore": "Voir plus d'utilisateurs"
         }
     },
     "status": {
