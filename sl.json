@@ -82,7 +82,7 @@
         },
         "dropHereDescription": "Spusti priloge tukaj, da jih hitro dodaš v klepet",
         "upload": {
-            "tooLarge": "Nalaganje ni uspelo: datoteka presega največjo dovoljeno velikost {{size}} MB."
+            "tooLarge": "Izbrana datoteka presega največjo dovoljeno velikost. Prosim naložite datoteko manjšo od {{size}} MB."
         }
     },
     "meeting": {
