@@ -55,7 +55,8 @@
         "uploadAborted": "Otpremanje je prekinuto",
         "stopUpload": "Zaustavi otpremanje",
         "upload": {
-            "tooLarge": "Neuspješno otpremanje: Datoteka premašuje maksimalnu veličinu datoteke od {{size}} MB."
+            "tooLarge": "Odabrana slika je prevelika. Molimo vas da postavite datoteku manju od {{size}} MB.",
+            "genericError": "Došlo je do pogreške prilikom otpremanja slike. Molimo pokušajte ponovo."
         }
     },
     "chat": "Razgovor",
@@ -588,7 +589,8 @@
         "searchMembers": "Pretraga članova",
         "creationList": {
             "title": "Kreirajte novi čat sa:",
-            "searchFailure": "Čini se da postoji problema s važnim pretraživanjem, pokušajte ponovo."
+            "searchFailure": "Čini se da postoji problema s važnim pretraživanjem, pokušajte ponovo.",
+            "loadMore": "Prikaži više korisnika"
         }
     },
     "appointment": {
