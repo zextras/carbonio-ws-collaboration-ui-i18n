@@ -405,7 +405,7 @@
                 "users_one": "You can add one last member",
                 "users_other": "You can add other {{count}} members"
             },
-            "contactList": "Select more than an address to create a Group",
+            "contactList": "Select more than one address to create a Group",
             "description": "Chats are one-to-one conversations that help you to stay in touch with your contacts. You can create a Group by including more than two addresses",
             "inputPlaceholder": "Start typing or pick an address",
             "newChat": "New Chat",
