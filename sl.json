@@ -82,7 +82,8 @@
         },
         "dropHereDescription": "Spusti priloge tukaj, da jih hitro dodaš v klepet",
         "upload": {
-            "tooLarge": "Izbrana datoteka presega največjo dovoljeno velikost. Prosim naložite datoteko manjšo od {{size}} MB."
+            "tooLarge": "Izbrana datoteka presega največjo dovoljeno velikost. Prosim naložite datoteko manjšo od {{size}} MB.",
+            "genericError": "Prišlo je do napake pri nalaganju slike. Poskusite znova."
         }
     },
     "meeting": {
@@ -260,7 +261,8 @@
             "feedback": {
                 "caption": "Pomaga nam pri izboljšavah :)",
                 "description": "Vaše mnenje nam veliko pomeni!",
-                "title": "Sporočite nam, kaj menite o svoji izkušnji z sestankom."
+                "title": "Sporočite nam, kaj menite o svoji izkušnji z sestankom.",
+                "thankYou": "HVALA ZA VAŠ ODZIV!"
             }
         },
         "recordingHint": "Ta sestanek se snema",
@@ -599,7 +601,8 @@
         "searchParticipants": "Išči udeležence",
         "creationList": {
             "searchFailure": "Pri iskanju je prišlo do težave, poskusite znova.",
-            "title": "Ustvari nov klepet z:"
+            "title": "Ustvari nov klepet z:",
+            "loadMore": "Prikaži več uporabnikov"
         }
     },
     "interactions": {
@@ -641,6 +644,9 @@
         "placeholder": {
             "title": "Lahko greste v klepete in ustvarite virtualno sobo za gostovanje sestanka.",
             "description": "Ko se vrnete, boste tukaj našli svoje virtualne sobe."
+        },
+        "virtual": {
+            "managementHint": "Svoje navidezne sobe lahko urejate ali izbrišete v modulu za klepet."
         }
     },
     "readOnly": {
