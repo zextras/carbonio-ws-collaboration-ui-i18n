@@ -570,9 +570,9 @@
         },
         "durationTooltip": "Durata della riunione",
         "participantsList": {
-            "title_one": "Un partecipante alla riunione",
-            "title_many": "{{count}} partecipanti alla riunione",
-            "title_other": "{{count}} partecipanti alla riunione"
+            "title_one": "1 Partecipante",
+            "title_many": "{{count}} Partecipanti",
+            "title_other": "{{count}} Partecipanti"
         },
         "visualEffects": {
             "default": "Nessuno",
