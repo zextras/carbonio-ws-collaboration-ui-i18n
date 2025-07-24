@@ -215,8 +215,8 @@
         "ongoingOneToOneMeetingTooltip": "You already have an active meeting with {{name}}",
         "openedInAnotherWindow": "This meeting is already open in another window",
         "participantsList": {
-            "title_one": "One meeting's participant",
-            "title_other": "{{count}} meeting's participants"
+            "title_one": "1 Participant",
+            "title_other": "{{count}} Participants"
         },
         "presentActiveSession": "There is another active session",
         "rejoinMeeting": "Rejoin meeting",
