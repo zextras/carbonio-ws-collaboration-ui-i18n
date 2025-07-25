@@ -489,9 +489,9 @@
         },
         "durationTooltip": "Czas trwania spotkania",
         "participantsList": {
-            "title_one": "Jeden uczestnik spotkania",
-            "title_few": "{{count}} uczestników spotkania",
-            "title_many": "{{count}} uczestników spotkania"
+            "title_one": "1 uczestnik",
+            "title_few": "{{count}} uczestników",
+            "title_many": "{{count}} uczestników"
         },
         "visualEffects": {
             "title": "Efekty wizualne",
