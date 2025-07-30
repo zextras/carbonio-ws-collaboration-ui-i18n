@@ -420,7 +420,7 @@
         "participantsList": {
             "title_zero": "0 مشارك في الإجتماع",
             "title_one": "1 مشارك في الإجتماع",
-            "title_two": "{{count}} مشاركان في الإجتماع",
+            "title_two": "مشاركان {{count}} في الإجتماع",
             "title_few": "{{count}} مشاركون في الإجتماع",
             "title_many": "{{count}} مشارك في الإجتماع",
             "title_other": "{{count}} مشارك في الإجتماع"
