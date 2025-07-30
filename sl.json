@@ -307,7 +307,7 @@
         "participantsList": {
             "title_one": "En udeleženec srečanja",
             "title_two": "{{count}} udeleženca srečanja",
-            "title_few": "{{count}} udeležencev srečanja",
+            "title_few": "{{count}} udeleženci srečanja",
             "title_other": "{{count}} udeležencev srečanja"
         },
         "waitingParticipants": "Čakamo, da se udeleženci pridružijo…",
