@@ -504,7 +504,8 @@
             "resetAction": "RESET",
             "dialog": {
                 "title": "Select folder"
-            }
+            },
+            "homeFolder": "Home"
         },
         "export": {
             "caption": "Exporting chats with a lot of content can take a while.",
