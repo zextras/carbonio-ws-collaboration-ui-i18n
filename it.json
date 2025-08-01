@@ -298,7 +298,8 @@
             "description": "Imposta una cartella dove salvare le registrazioni delle riunioni che terminerai.",
             "dialog": {
                 "title": "Seleziona una cartella"
-            }
+            },
+            "homeFolder": "Home"
         },
         "export": {
             "emptySpace": {
