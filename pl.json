@@ -153,7 +153,8 @@
             "resetAction": "ZRESETUJ",
             "dialog": {
                 "title": "Wybierz folder"
-            }
+            },
+            "homeFolder": "Start"
         },
         "export": {
             "title": "Eksport czatu",
