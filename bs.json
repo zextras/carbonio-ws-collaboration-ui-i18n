@@ -495,7 +495,8 @@
                 "title": "Odaberi mapu"
             },
             "browseAction": "PREGLEDAJTE",
-            "resetAction": "PONIŠTAVANJE"
+            "resetAction": "PONIŠTAVANJE",
+            "homeFolder": "Početna"
         },
         "save": "Izmjene su ispravno sačuvane",
         "export": {
