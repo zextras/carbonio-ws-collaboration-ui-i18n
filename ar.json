@@ -128,7 +128,8 @@
             "resetAction": "إعادة ضبط",
             "dialog": {
                 "title": "حدد المجلد"
-            }
+            },
+            "homeFolder": "المجلد الرئيسي"
         }
     },
     "status": {
