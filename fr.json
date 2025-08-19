@@ -580,7 +580,7 @@
         },
         "durationTooltip": "Durée de la réunion",
         "participantsList": {
-            "title_one": "Un participant",
+            "title_one": "1 participant",
             "title_many": "{{count}} participants",
             "title_other": "{{count}} participants"
         },
