@@ -423,7 +423,8 @@
             "description": "Nastavite mapo, kamor se bodo shranjevali posnetki sestankov, ki jih zaključite.",
             "dialog": {
                 "title": "Izberite mapo"
-            }
+            },
+            "homeFolder": "Domov"
         },
         "export": {
             "caption": "Izvoz klepetov z veliko vsebine lahko traja nekaj časa.",
