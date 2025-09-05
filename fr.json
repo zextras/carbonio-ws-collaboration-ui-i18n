@@ -111,7 +111,8 @@
             "browseAction": "PARCOURIR",
             "dialog": {
                 "title": "Sélectionnez un dossier"
-            }
+            },
+            "homeFolder": "Accueil"
         },
         "export": {
             "description": "Pendant l'exportation, vous pouvez naviguer sur Carbonio sans problème. Cependant, si vous rafraîchissez la page, l'exportation sera interrompue.",
