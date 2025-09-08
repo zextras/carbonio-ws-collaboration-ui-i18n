@@ -305,7 +305,7 @@
         "activeMeetingTooltip": "Za ta klepet poteka aktivno srečanje",
         "restartMeeting": "Ponovno zaženi srečanje",
         "participantsList": {
-            "title_one": "En udeleženec srečanja",
+            "title_one": "{{count}} udeleženec srečanja",
             "title_two": "{{count}} udeleženca srečanja",
             "title_few": "{{count}} udeleženci srečanja",
             "title_other": "{{count}} udeležencev srečanja"
