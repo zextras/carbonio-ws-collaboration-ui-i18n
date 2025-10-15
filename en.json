@@ -123,7 +123,8 @@
         "name": "Name",
         "status": "Status",
         "title": "Title",
-        "topic": "Topic"
+        "topic": "Topic",
+        "search": "Search"
     },
     "date": {
         "today": "Today",
@@ -699,5 +700,8 @@
             "group": "{{userName}} reacted to your message with:",
             "chat": "Reacted to your message with:"
         }
+    },
+    "searchPanel": {
+        "placeholder": "Search messages"
     }
 }
