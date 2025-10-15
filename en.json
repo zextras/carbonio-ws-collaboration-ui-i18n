@@ -700,8 +700,5 @@
             "group": "{{userName}} reacted to your message with:",
             "chat": "Reacted to your message with:"
         }
-    },
-    "searchPanel": {
-        "placeholder": "Search messages"
     }
 }
