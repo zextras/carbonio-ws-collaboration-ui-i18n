@@ -700,5 +700,15 @@
             "group": "{{userName}} reacted to your message with:",
             "chat": "Reacted to your message with:"
         }
+    },
+    "searchPanel": {
+        "keepSearching": "Keep searching!",
+        "singlePlaceholder": "Search messages with {{personName}}",
+        "clearTooltip": "Clear search",
+        "inputPlaceholder": "Search messages",
+        "noResults": "It looks like there are no results.",
+        "groupPlaceholder": "Search messages in {{roomName}}",
+        "searching": "Searching...",
+        "errorSnackbar": "Something went wrong with the search. Please try again."
     }
 }
