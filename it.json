@@ -53,7 +53,8 @@
         "info": "Info",
         "messages": "Messaggi",
         "name": "Nome",
-        "status": "Stato"
+        "status": "Stato",
+        "search": "Cerca"
     },
     "date": {
         "yesterday": "Ieri",
@@ -701,5 +702,15 @@
             "group": "{{userName}} ha reagito al tuo messaggio con:",
             "chat": "Ha reagito al tuo messaggio con:"
         }
+    },
+    "searchPanel": {
+        "keepSearching": "Continua a cercare!",
+        "clearTooltip": "Pulisci ricerca",
+        "inputPlaceholder": "Cerca messaggi",
+        "noResults": "Sembra che non ci siano risultati.",
+        "groupPlaceholder": "Cerca messaggi in {{roomName}}",
+        "searching": "Ricerca...",
+        "singlePlaceholder": "Cerca messaggi con {{personName}}",
+        "errorSnackbar": "Si è verificato un problema durante la ricerca. Riprova."
     }
 }
