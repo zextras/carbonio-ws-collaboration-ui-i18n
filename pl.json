@@ -245,7 +245,8 @@
         "name": "Nazwa",
         "status": "Status",
         "title": "Tytuł",
-        "topic": "Temat"
+        "topic": "Temat",
+        "search": "Wyszukaj"
     },
     "date": {
         "yesterday": "Wczoraj",
@@ -701,5 +702,15 @@
             "group": "{{userName}} zareagował(a) na Twoją wiadomość:",
             "chat": "Zareagował(a) na Twoją wiadomość:"
         }
+    },
+    "searchPanel": {
+        "keepSearching": "Szukaj dalej!",
+        "singlePlaceholder": "Wyszukaj wiadomości z {{personName}}",
+        "inputPlaceholder": "Wyszukaj wiadomości",
+        "groupPlaceholder": "Wyszukaj wiadomości w {{roomName}}",
+        "searching": "Wyszukiwanie...",
+        "clearTooltip": "Wyczyść wyszukiwanie",
+        "errorSnackbar": "Coś poszło nie tak z wyszukiwaniem. Spróbuj ponownie.",
+        "noResults": "Wygląda na to, że nie ma żadnych wyników."
     }
 }
