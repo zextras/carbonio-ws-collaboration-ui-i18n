@@ -53,7 +53,8 @@
         "title": "العنوان",
         "topic": "الموضوع",
         "actionAccordionTitle": "الإجراءات",
-        "info": "المعلومات"
+        "info": "المعلومات",
+        "search": "بحث"
     },
     "settings": {
         "notifications": {
@@ -707,5 +708,15 @@
             "yourCamIsDisabled": "آلة التصوير (الكاميرا) الخاصة بك مغلقة",
             "yourMicIsDisabled": "لاقط الصوت (الميكروفون) الخاص بك مغلق"
         }
+    },
+    "searchPanel": {
+        "keepSearching": "استمر بالبحث!",
+        "singlePlaceholder": "ابحث عن الرسائل التي مع {{personName}}",
+        "inputPlaceholder": "بحث الرسائل",
+        "groupPlaceholder": "ابحث عن الرسائل في {{roomName}}",
+        "searching": "بحث...",
+        "clearTooltip": "مسح البحث",
+        "errorSnackbar": "لقد حدث خطأ ما في البحث. يرجى المحاولة مرة أخرى.",
+        "noResults": "يبدو أنه لا توجد نتائج."
     }
 }
