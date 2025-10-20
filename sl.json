@@ -703,5 +703,10 @@
     "snackbar": {
         "mutedByModerator": "Moderator vas je utišal – za govor se morate ponovno odutišati"
     },
-    "titlePlaceholder": "Ime vaše skupine"
+    "titlePlaceholder": "Ime vaše skupine",
+    "searchPanel": {
+        "keepSearching": "Nadaljujte z iskanjem!",
+        "clearTooltip": "Počisti iskanje",
+        "errorSnackbar": "Med iskanjem je prišlo do napake. Poskusite ponovno."
+    }
 }
