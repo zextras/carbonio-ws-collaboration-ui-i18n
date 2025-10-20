@@ -709,7 +709,7 @@
         "keepSearching": "Nadaljujte z iskanjem!",
         "clearTooltip": "Počisti iskanje",
         "errorSnackbar": "Med iskanjem je prišlo do napake. Poskusite ponovno.",
-        "singlePlaceholder": "Iskanje sporočil z {{personName}}",
+        "singlePlaceholder": "Iskanje sporočil, ki vsebujejo {{personName}}",
         "noResults": "Zdi se, da ni rezultatov."
     }
 }
