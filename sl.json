@@ -707,6 +707,8 @@
     "searchPanel": {
         "keepSearching": "Nadaljujte z iskanjem!",
         "clearTooltip": "Počisti iskanje",
-        "errorSnackbar": "Med iskanjem je prišlo do napake. Poskusite ponovno."
+        "errorSnackbar": "Med iskanjem je prišlo do napake. Poskusite ponovno.",
+        "singlePlaceholder": "Iskanje sporočil z {{personName}}",
+        "noResults": "Zdi se, da ni rezultatov."
     }
 }
