@@ -710,6 +710,9 @@
         "clearTooltip": "Počisti iskanje",
         "errorSnackbar": "Med iskanjem je prišlo do napake. Poskusite ponovno.",
         "singlePlaceholder": "Iskanje sporočil, ki vsebujejo {{personName}}",
-        "noResults": "Zdi se, da ni rezultatov."
+        "noResults": "Zdi se, da ni rezultatov.",
+        "inputPlaceholder": "Iskanje sporočil",
+        "groupPlaceholder": "Iskanje sporočil v {{roomName}}",
+        "searching": "Iskanje..."
     }
 }
