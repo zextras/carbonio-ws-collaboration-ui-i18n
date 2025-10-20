@@ -565,7 +565,8 @@
         "status": "Status",
         "title": "Naziv",
         "topic": "Tema",
-        "actionAccordionTitle": "Dejanja"
+        "actionAccordionTitle": "Dejanja",
+        "search": "Iskanje"
     },
     "date": {
         "today": "Danes",
