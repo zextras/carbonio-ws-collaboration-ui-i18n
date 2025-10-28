@@ -613,7 +613,6 @@
     },
     "welcomePage": {
         "description": "How would you like to introduce yourself?",
-        "nameInput": "Type here your name",
         "blob": "Hey stranger!",
         "joinButton": "Join the meeting",
         "journeyDescription": "You will be redirected to the Waiting Room where a moderator will approve your access.",
