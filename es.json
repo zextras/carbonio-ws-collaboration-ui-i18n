@@ -586,7 +586,6 @@
         "loginDescription": "Elige libremente si quieres ir a la página de inicio de sesión o acceder a la reunión con tu nombre.",
         "journeyDescription": "Serás redirigido a la sala de espera en la que un moderador aprobará tu acceso.",
         "description": "¿Cómo te gustaría presentarte?",
-        "nameInput": "Introduce aquí tu nombre",
         "blob": "¡Hola forastero!"
     },
     "keepInTouchWithColleagues": "Mantente en contacto con tus colegas o únete a las salas de reunión de tus grupos",
