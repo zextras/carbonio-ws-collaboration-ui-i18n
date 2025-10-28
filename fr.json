@@ -615,7 +615,6 @@
     },
     "welcomePage": {
         "description": "Comment souhaitez-vous vous présenter ?",
-        "nameInput": "Tapez ici votre nom",
         "joinButton": "Rejoindre la réunion",
         "journeyDescription": "Vous serez redirigé vers la salle d'attente où un modérateur approuvera votre accès.",
         "blob": "Hé, l'inconnu !",
