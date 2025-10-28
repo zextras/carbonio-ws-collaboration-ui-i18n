@@ -648,7 +648,6 @@
     },
     "welcomePage": {
         "description": "Kako biste se željeli predstaviti?",
-        "nameInput": "Upišite ovdje vaše ime",
         "blob": "Zdravo stranac!",
         "joinButton": "Prisustvuj sastanku",
         "journeyDescription": "Bit ćete preusmjereni u Čekaonicu gdje će moderator odobriti vaš pristup.",
