@@ -470,7 +470,6 @@
             "title": "Zatrzymaj nagrywanie",
             "description": "Za chwilę zatrzymasz nagrywanie. Możesz rozpocząć nowe kiedy będziesz chciał.",
             "confirmationAction": "ZATRZYMAJ",
-            "requiredNameError": "Wymagana jest nazwa pliku nagrania",
             "exceededCharsError": "Nazwa pliku nagrania nie może przekraczać 128 znaków",
             "caption": "Nagranie zostanie zapisane w \"{{folderName}}\"."
         },
