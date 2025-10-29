@@ -432,7 +432,6 @@
             "caption": "سيتم حفظ التسجيل في المجلد {{folderName}} في الملفات. انتقل إلى الإعدادات > الدردشات > التسجيل لتغيير مجلد الحفظ.",
             "title": "إيقاف التسجيل",
             "confirmationAction": "قف",
-            "requiredNameError": "اسم ملف التسجيل مطلوب",
             "exceededCharsError": "يجب ألا يتجاوز اسم ملف التسجيل 128 حرفًا"
         },
         "visualEffects": {
