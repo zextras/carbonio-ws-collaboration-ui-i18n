@@ -613,7 +613,6 @@
         "description": "Enter your name to join this meeting",
         "journeyDescription": "You will be redirected to the Waiting Room where a moderator will approve your access.",
         "loginButton": "GO TO YOUR LOGIN PAGE",
-        "loginTitle": "Do you have an account?",
         "loginDescription": "Choose freely whether to go to the login page or simply access the meeting with your name.",
         "title": "Welcome to \"{{title}}\" virtual room",
         "joinAsGuest": "Join as guest",
