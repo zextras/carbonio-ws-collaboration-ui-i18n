@@ -178,8 +178,7 @@
         },
         "recordingModal": {
             "title": "録音を停止する",
-            "description": "録音を停止します。 いつでも新らたに録音開始できます。",
-            "inputLabel": "録音名"
+            "description": "録音を停止します。 いつでも新らたに録音開始できます。"
         }
     },
     "meetings": {
