@@ -443,7 +443,6 @@
         "recordingModal": {
             "title": "Hentikan rekaman",
             "description": "Anda akan menghentikan rekaman. Anda bisa memulai yang baru kapan saja.",
-            "inputLabel": "Nama Rekaman",
             "exceededCharsError": "Nama file rekaman tidak boleh melebihi 128 karakter",
             "requiredNameError": "Nama file rekaman wajib diisi",
             "caption": "Rekaman akan disimpan di folder {{folderName}} di Files. Buka Pengaturan > Obrolan > Rekaman untuk mengubah folder tujuan.",
