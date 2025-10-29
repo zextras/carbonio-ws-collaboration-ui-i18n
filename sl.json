@@ -610,7 +610,6 @@
     },
     "welcomePage": {
         "description": "Kako se želite predstaviti?",
-        "blob": "Hej, neznanec!",
         "joinButton": "Pridružite se sestanku",
         "journeyDescription": "Preusmerjeni boste v čakalnico, kjer bo moderator odobril tvoj dostop.",
         "loginButton": "POJDI NA STRAN ZA PRIJAVO",
