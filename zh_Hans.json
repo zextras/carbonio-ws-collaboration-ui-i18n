@@ -266,8 +266,7 @@
         },
         "recordingModal": {
             "title": "停止录制",
-            "description": "您即将停止录制。您可随时开始新录制。",
-            "inputLabel": "录制名称"
+            "description": "您即将停止录制。您可随时开始新录制。"
         }
     },
     "meetings": {
