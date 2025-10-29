@@ -569,8 +569,7 @@
             "description": "Vous êtes sur le point d'arrêter l'enregistrement. Vous pouvez en démarrer un nouveau à tout moment.",
             "caption": "L'enregistrement sera sauvé dans le dossier “{{folderName}}”.",
             "confirmationAction": "ARRÊTER",
-            "exceededCharsError": "Le nom du fichier d'enregistrement ne doit pas dépasser 128 caractères",
-            "requiredNameError": "Le nom du ficher d'enregistrement est requis"
+            "exceededCharsError": "Le nom du fichier d'enregistrement ne doit pas dépasser 128 caractères"
         },
         "recordingStop": {
             "failureSnackbar": "Il n'est pas possible d'arrêter l'enregistrement, veuillez contacter votre administrateur système.",
