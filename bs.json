@@ -287,7 +287,6 @@
             "confirmationAction": "ZAUSTAVI",
             "caption": "Snimka će biti spremljena u mapu {{folderName}} u Datotekama. Za promjenu odredišne mape idite na Postavke > Razgovori > Snimanje.",
             "description": "Snimanje će biti zaustavljeno. Možete započeti novo u bilo kojem trenutku.",
-            "requiredNameError": "Naziv zapisane datoteke je obavezan",
             "exceededCharsError": "Ime zapisanog datoteke ne smije preći 128 znakova"
         },
         "durationTooltip": "Trajanje sastanka",
