@@ -284,7 +284,6 @@
         },
         "recordingModal": {
             "title": "Zaustavi snimanje",
-            "inputLabel": "Naziv snimka",
             "confirmationAction": "ZAUSTAVI",
             "caption": "Snimka će biti spremljena u mapu {{folderName}} u Datotekama. Za promjenu odredišne mape idite na Postavke > Razgovori > Snimanje.",
             "description": "Snimanje će biti zaustavljeno. Možete započeti novo u bilo kojem trenutku.",
