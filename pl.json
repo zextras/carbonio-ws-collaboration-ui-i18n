@@ -613,7 +613,6 @@
     "welcomePage": {
         "journeyDescription": "Zostaniesz przekierowany do poczekalni, gdzie moderator zaakceptuje Twoje dołączenie.",
         "description": "Jak chcesz się wyświetlać?",
-        "loginDescription": "Wybierz czy wolisz udać się na stronę logowania czy po prostu dołączyć do spotkania używając Twojego imienia.",
         "loginButton": "UDAJ SIĘ NA STRONĘ LOGOWANIA"
     },
     "configurationMessages": {
