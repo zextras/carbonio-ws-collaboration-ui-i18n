@@ -630,7 +630,6 @@
     "welcomePage": {
         "loginTitle": "Hai un account?",
         "loginDescription": "Scegli se andare alla pagina di login oppure accedere alla riunione utilizzando il tuo nome.",
-        "joinButton": "Partecipa alla riunione",
         "journeyDescription": "Verrai reindirizzato alla Stanza d'attesa dove un moderatore approverà il tuo accesso.",
         "description": "Come vuoi presentarti?",
         "loginButton": "VAI ALLA TUA PAGINA DI LOGIN"
