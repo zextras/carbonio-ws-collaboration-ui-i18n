@@ -289,7 +289,7 @@
                     "start": "START RECORDING",
                     "stop": "STOP RECORDING"
                 },
-                "description": "The recording will be saved in the Files space of the moderator who stopped it.",
+                "description": "The recording will be saved in the Files space of the moderator who started it.",
                 "additionalDescription": "If something goes wrong, the recording will be saved in the Files space of the moderator who started it."
             },
             "lowerAllHands": "Lower all raised hand",
@@ -367,8 +367,9 @@
         },
         "recordingStop": {
             "successSnackbar": {
-                "stopper": "You will find {{recordingName}} in {{folderName}} as soon as it is available",
-                "participants": "{{userName}} stopped the registration of this meeting"
+                "stopper": "You will find the recording in {{folderName}} as soon as it is available",
+                "participants": "{{userName}} stopped the registration of this meeting",
+                "general": "Recording stopped successfully"
             },
             "failureSnackbar": "It is not possible to stop the registration, please contact your system administrator."
         },
@@ -499,7 +500,7 @@
         },
         "recording": {
             "title": "Recording",
-            "description": "Set a custom folder where to save the recordings of the meetings you stop.",
+            "description": "Set a custom folder where to save the recordings of the meetings you start.",
             "inputLabel": "Destination folder",
             "browseAction": "BROWSE",
             "resetAction": "RESET",
