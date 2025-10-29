@@ -276,7 +276,6 @@
         "recordingModal": {
             "title": "Ustavi snemanje",
             "confirmationAction": "USTAVI",
-            "requiredNameError": "Ime posnetka je obvezno",
             "exceededCharsError": "Ime posnetka ne sme presegati 128 znakov",
             "description": "Snemanje bo ustavljeno. Novo lahko začnete kadarkoli.",
             "caption": "Posnetek bo shranjen v mapo {{folderName}} v Datotekah. Pot do mape lahko spremenite v Nastavitve > Klepeti > Snemanje."
