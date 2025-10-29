@@ -582,8 +582,7 @@
         "joinButton": "Unirse a la reunión",
         "loginDescription": "Elige libremente si quieres ir a la página de inicio de sesión o acceder a la reunión con tu nombre.",
         "journeyDescription": "Serás redirigido a la sala de espera en la que un moderador aprobará tu acceso.",
-        "description": "¿Cómo te gustaría presentarte?",
-        "blob": "¡Hola forastero!"
+        "description": "¿Cómo te gustaría presentarte?"
     },
     "keepInTouchWithColleagues": "Mantente en contacto con tus colegas o únete a las salas de reunión de tus grupos",
     "interactions": {
