@@ -558,8 +558,7 @@
             "title": "Termina la registrazione",
             "description": "Stai per terminare la registrazione. Potrai iniziarne una nuova in qualsiasi momento.",
             "caption": "La registrazione sarà salvata in “{{folderName}}”.",
-            "confirmationAction": "FINE",
-            "exceededCharsError": "Il nome del file della registrazione non può superare i 128 caratteri"
+            "confirmationAction": "FINE"
         },
         "recordingStop": {
             "successSnackbar": {
