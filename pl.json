@@ -148,7 +148,7 @@
         "recording": {
             "inputLabel": "Folder docelowy",
             "title": "Nagranie",
-            "description": "Wybierz folder do którego będą zapisywane zatrzymywane przez Ciebie nagrania spotkań.",
+            "description": "Wybierz folder do którego będą zapisywane rozpoczynane przez Ciebie nagrania spotkań.",
             "browseAction": "PRZEGLĄDAJ",
             "resetAction": "ZRESETUJ",
             "dialog": {
@@ -401,7 +401,7 @@
             "waitingList": "Lista oczekujących",
             "recording": {
                 "title": "Nagranie",
-                "description": "Nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który zatrzyma nagrywanie.",
+                "description": "Nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który rozpoczął nagrywanie.",
                 "moderatorInfo": "rozpoczął nagrywanie",
                 "action": {
                     "start": "ROZPOCZNIJ",
