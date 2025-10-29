@@ -468,7 +468,6 @@
         "recordingModal": {
             "title": "Parar gravação",
             "description": "Você vai parar a gravação. É possível iniciar uma nova a qualquer momento.",
-            "inputLabel": "Nome da Gravação",
             "confirmationAction": "PARAR",
             "requiredNameError": "O nome do arquivo de gravação é necessário",
             "exceededCharsError": "O nome do arquivo de gravação não deve exceder 128 caracteres",
