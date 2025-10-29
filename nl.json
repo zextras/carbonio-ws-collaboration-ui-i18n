@@ -262,8 +262,7 @@
         },
         "recordingModal": {
             "title": "Opname stoppen",
-            "description": "U gaat de opname stoppen. U kunt op elk moment een nieuwe beginnen.",
-            "inputLabel": "Naam opname"
+            "description": "U gaat de opname stoppen. U kunt op elk moment een nieuwe beginnen."
         }
     },
     "meetings": {
