@@ -296,7 +296,7 @@
             "inputLabel": "Cartella di destinazione",
             "browseAction": "SFOGLIA",
             "resetAction": "RIPRISTINA",
-            "description": "Imposta una cartella dove salvare le registrazioni delle riunioni che terminerai.",
+            "description": "Imposta una cartella dove salvare le registrazioni delle riunioni che inizierai.",
             "dialog": {
                 "title": "Seleziona una cartella"
             },
@@ -472,7 +472,7 @@
             "waitingList": "Lista d'attesa",
             "recording": {
                 "title": "Registrazione",
-                "description": "La registrazione verrà salvata all'interno dello spazio Files del moderatore che l'ha terminata.",
+                "description": "La registrazione verrà salvata all'interno dello spazio Files del moderatore che l'ha iniziata.",
                 "moderatorInfo": "è iniziata la registrazione",
                 "action": {
                     "stop": "FINE",
@@ -563,7 +563,8 @@
         "recordingStop": {
             "successSnackbar": {
                 "participants": "{{userName}} ha terminato la registrazione della riunione",
-                "stopper": "Troverai {{recordingName}} in {{folderName}} appena sarà disponibile"
+                "stopper": "Troverai la registrazione in {{folderName}} appena sarà disponibile",
+                "general": "Registrazione terminata con successo"
             },
             "failureSnackbar": "Non è possibile terminare la registrazione, contatta il tuo amministratore di sistema."
         },
