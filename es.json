@@ -458,7 +458,6 @@
             "description": "Estás a punto de detener la grabación. Puedes comenzar a grabar de nuevo en cualquier momento.",
             "title": "Detener grabación",
             "caption": "La grabación será guardada en la carpeta {{folderName}} en Files. Ve Ajustes > Chats > Grabaciones para cambiar la carpeta de destino.",
-            "requiredNameError": "Se necesita un nombre de archivo para la grabación",
             "exceededCharsError": "El nombre de archivo no debe exceder los 128 caracteres",
             "confirmationAction": "DETENER"
         },
