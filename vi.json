@@ -171,8 +171,7 @@
         },
         "recordingModal": {
             "title": "Dừng ghi",
-            "description": "Bạn sẽ dừng ghi. Bạn có thể bắt đầu bản ghi mới bất cứ lúc nào.",
-            "inputLabel": "Tên bản ghi"
+            "description": "Bạn sẽ dừng ghi. Bạn có thể bắt đầu bản ghi mới bất cứ lúc nào."
         }
     },
     "meetings": {
