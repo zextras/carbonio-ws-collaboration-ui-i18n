@@ -469,7 +469,6 @@
             "title": "Parar gravação",
             "description": "Você vai parar a gravação. É possível iniciar uma nova a qualquer momento.",
             "confirmationAction": "PARAR",
-            "requiredNameError": "O nome do arquivo de gravação é necessário",
             "exceededCharsError": "O nome do arquivo de gravação não deve exceder 128 caracteres",
             "caption": "A gravação será salva na pasta {{folderName}} no Files. Vá em Configurações > Chats > Gravação para alterar a pasta de destino."
         },
