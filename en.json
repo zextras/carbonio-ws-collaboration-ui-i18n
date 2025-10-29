@@ -359,7 +359,6 @@
         "recordingModal": {
             "title": "Stop recording",
             "description": "You are going to stop the recording. You can start a new one at any time.",
-            "inputLabel": "Recording Name",
             "caption": "The recording will be saved in {{folderName}} folder on Files. Go to Settings > Chats > Recording to change the destination folder.",
             "confirmationAction": "STOP",
             "requiredNameError": "The recording file name is required",
