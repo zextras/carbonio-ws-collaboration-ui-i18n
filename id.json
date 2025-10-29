@@ -572,8 +572,7 @@
         "joinButton": "Bergabung dalam rapat",
         "journeyDescription": "Anda akan diarahkan kembali ke Ruang Tunggu hingga moderator menyetujui akses Anda.",
         "loginButton": "BUKA HALAMAN LOGIN ANDA",
-        "description": "Bagaimana Anda ingin memperkenalkan diri?",
-        "blob": "Hai orang baru!"
+        "description": "Bagaimana Anda ingin memperkenalkan diri?"
     },
     "interactions": {
         "camDevice": "Perangkat kamera",
