@@ -581,7 +581,6 @@
         }
     },
     "welcomePage": {
-        "loginTitle": "Você tem uma conta?",
         "loginDescription": "Escolha livremente se deseja ir para a página de login ou simplesmente acessar a reunião com seu nome.",
         "loginButton": "VÁ PARA SUA PÁGINA DE LOGIN",
         "description": "Como você gostaria de se apresentar?",
