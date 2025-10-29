@@ -567,7 +567,6 @@
         }
     },
     "welcomePage": {
-        "loginDescription": "Pilih apakah Anda akan masuk ke halaman login atau hanya mengakses rapat dengan nama Anda.",
         "journeyDescription": "Anda akan diarahkan kembali ke Ruang Tunggu hingga moderator menyetujui akses Anda.",
         "loginButton": "BUKA HALAMAN LOGIN ANDA",
         "description": "Bagaimana Anda ingin memperkenalkan diri?"
