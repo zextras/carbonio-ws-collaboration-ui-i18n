@@ -586,8 +586,7 @@
         "joinButton": "Entrar na reunião",
         "loginButton": "VÁ PARA SUA PÁGINA DE LOGIN",
         "description": "Como você gostaria de se apresentar?",
-        "journeyDescription": "Você será redirecionado para a Sala de Espera, onde um moderador irá aprovar seu acesso.",
-        "blob": "Olá estranho!"
+        "journeyDescription": "Você será redirecionado para a Sala de Espera, onde um moderador irá aprovar seu acesso."
     },
     "appointment": {
         "input": {
