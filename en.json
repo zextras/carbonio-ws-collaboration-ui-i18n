@@ -610,13 +610,18 @@
         "camDevice": "Camera device"
     },
     "welcomePage": {
-        "description": "How would you like to introduce yourself?",
+        "description": "Enter your name to join this meeting",
         "blob": "Hey stranger!",
         "joinButton": "Join the meeting",
         "journeyDescription": "You will be redirected to the Waiting Room where a moderator will approve your access.",
         "loginButton": "GO TO YOUR LOGIN PAGE",
         "loginTitle": "Do you have an account?",
-        "loginDescription": "Choose freely whether to go to the login page or simply access the meeting with your name."
+        "loginDescription": "Choose freely whether to go to the login page or simply access the meeting with your name.",
+        "title": "Welcome to \"{{title}}\" virtual room",
+        "joinAsGuest": "Join as guest",
+        "inputPlaceholder": "Enter your name",
+        "alreadyHaveAccount": "Already have an account? Access with your credentials.",
+        "waitingForModerator": "A moderator will let you into the meeting in a few moments."
     },
     "configurationMessages": {
         "member": {
