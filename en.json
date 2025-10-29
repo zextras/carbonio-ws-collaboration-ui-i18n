@@ -611,7 +611,6 @@
     },
     "welcomePage": {
         "description": "Enter your name to join this meeting",
-        "blob": "Hey stranger!",
         "joinButton": "Join the meeting",
         "journeyDescription": "You will be redirected to the Waiting Room where a moderator will approve your access.",
         "loginButton": "GO TO YOUR LOGIN PAGE",
