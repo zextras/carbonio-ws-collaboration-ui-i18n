@@ -557,7 +557,6 @@
         "recordingModal": {
             "title": "Termina la registrazione",
             "description": "Stai per terminare la registrazione. Potrai iniziarne una nuova in qualsiasi momento.",
-            "inputLabel": "Nome Registrazione",
             "caption": "La registrazione sarà salvata in “{{folderName}}”.",
             "confirmationAction": "FINE",
             "exceededCharsError": "Il nome del file della registrazione non può superare i 128 caratteri",
