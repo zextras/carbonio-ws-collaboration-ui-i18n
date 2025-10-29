@@ -645,7 +645,6 @@
     },
     "welcomePage": {
         "description": "Kako biste se željeli predstaviti?",
-        "joinButton": "Prisustvuj sastanku",
         "journeyDescription": "Bit ćete preusmjereni u Čekaonicu gdje će moderator odobriti vaš pristup.",
         "loginButton": "IDI NA VAŠU STRANICU ZA PRIJAVU",
         "loginTitle": "Imate li račun?",
