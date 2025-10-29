@@ -475,7 +475,6 @@
             "title": "Ses kaydını durdur",
             "description": "Ses kayıt işlemini durduruyorsunuz. İstediğiniz zaman yeni kayıt başlatabilirsiniz.",
             "caption": "Kayıt, Dosyalar'daki {{folderName}} klasörüne kaydedilecektir. Hedef klasörü değiştirmek için Ayarlar > Sohbetler > Kayıt bölümüne gidin.",
-            "exceededCharsError": "Kayıt dosyası adı 128 karakteri aşmamalıdır",
             "confirmationAction": "DURDUR"
         },
         "recordingStop": {
