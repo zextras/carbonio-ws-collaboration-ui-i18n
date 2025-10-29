@@ -612,7 +612,6 @@
         "description": "Kako se želite predstaviti?",
         "journeyDescription": "Preusmerjeni boste v čakalnico, kjer bo moderator odobril tvoj dostop.",
         "loginButton": "POJDI NA STRAN ZA PRIJAVO",
-        "loginTitle": "Imate račun?",
         "loginDescription": "Lahko izberete, ali želite na prijavno stran ali se preprosto pridružite sestanku z imenom."
     },
     "configurationMessages": {
