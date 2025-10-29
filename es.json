@@ -578,7 +578,6 @@
     },
     "welcomePage": {
         "loginButton": "IR A TU PÁGINA DE INICIO DE SESIÓN",
-        "loginDescription": "Elige libremente si quieres ir a la página de inicio de sesión o acceder a la reunión con tu nombre.",
         "journeyDescription": "Serás redirigido a la sala de espera en la que un moderador aprobará tu acceso.",
         "description": "¿Cómo te gustaría presentarte?"
     },
