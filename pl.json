@@ -612,7 +612,6 @@
     },
     "welcomePage": {
         "journeyDescription": "Zostaniesz przekierowany do poczekalni, gdzie moderator zaakceptuje Twoje dołączenie.",
-        "blob": "Witaj!",
         "joinButton": "Dołącz do spotkania",
         "description": "Jak chcesz się wyświetlać?",
         "loginTitle": "Czy masz konto?",
