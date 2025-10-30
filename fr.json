@@ -482,7 +482,7 @@
             "waitingList": "Liste d'attente",
             "recording": {
                 "title": "Enregistrement",
-                "description": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui l'arrêtera.",
+                "description": "L'enregistrement sera enregistré dans l'espace Files du modérateur qui le lance.",
                 "moderatorInfo": "a lancé l'enregistrement",
                 "action": {
                     "start": "LANCER",
@@ -573,8 +573,9 @@
         "recordingStop": {
             "failureSnackbar": "Il n'est pas possible d'arrêter l'enregistrement, veuillez contacter votre administrateur système.",
             "successSnackbar": {
-                "stopper": "Vous trouverez {{recordingName}} dans le dossier {{folderName}} dès qu'il sera disponible",
-                "participants": "{{userName}} a interrompu l'enregistrement de cette réunion"
+                "stopper": "Vous trouverez l'enregistrement dans le dossier {{folderName}} dès qu'il sera disponible",
+                "participants": "{{userName}} a interrompu l'enregistrement de cette réunion",
+                "general": "L'enregistrement a été arrêté avec succès"
             }
         },
         "durationTooltip": "Durée de la réunion",
