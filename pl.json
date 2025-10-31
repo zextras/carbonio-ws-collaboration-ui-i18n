@@ -401,7 +401,7 @@
             "waitingList": "Lista oczekujących",
             "recording": {
                 "title": "Nagranie",
-                "description": "Nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który rozpoczął nagrywanie.",
+                "description": "Nagranie zostanie zapisane w przestrzeni Carbonio Pliki moderatora, który je rozpoczął.",
                 "moderatorInfo": "rozpoczął nagrywanie",
                 "action": {
                     "start": "ROZPOCZNIJ",
@@ -481,8 +481,9 @@
         },
         "recordingStop": {
             "successSnackbar": {
-                "stopper": "Znajdziesz {{recordingName}} w {{folderName}} tak szybko jak to możliwe",
-                "participants": "Użytkownik {{userName}} zatrzymał nagrywanie tego spotkania"
+                "stopper": "Nagranie znajdziesz w {{folderName}} tak szybko jak to możliwe",
+                "participants": "Użytkownik {{userName}} zatrzymał nagrywanie tego spotkania",
+                "general": "Nagrywanie zostało zatrzymane"
             },
             "failureSnackbar": "Nie udało się zatrzymać nagrywania, skontaktuj się z Twoim administratorem systemu."
         },
@@ -612,8 +613,13 @@
     },
     "welcomePage": {
         "journeyDescription": "Zostaniesz przekierowany do poczekalni, gdzie moderator zaakceptuje Twoje dołączenie.",
-        "description": "Jak chcesz się wyświetlać?",
-        "loginButton": "UDAJ SIĘ NA STRONĘ LOGOWANIA"
+        "description": "Wprowadź Twoje imię, aby dołączyć do spotkania",
+        "loginButton": "UDAJ SIĘ NA STRONĘ LOGOWANIA",
+        "title": "Witaj w wirtualnym pokoju \"{{title}}\"",
+        "joinAsGuest": "Dołącz jako gość",
+        "inputPlaceholder": "Wprowadź Twoje imię",
+        "alreadyHaveAccount": "Masz już konto? Zaloguj się.",
+        "waitingForModerator": "Moderator wpuści Cię na spotkanie w kilka chwil."
     },
     "configurationMessages": {
         "user": {
