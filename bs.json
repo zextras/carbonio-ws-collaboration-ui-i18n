@@ -285,7 +285,7 @@
         "recordingModal": {
             "title": "Zaustavi snimanje",
             "confirmationAction": "ZAUSTAVI",
-            "caption": "Snimka će biti spremljena u mapu {{folderName}} u Datotekama. Za promjenu odredišne mape idite na Postavke > Razgovori > Snimanje.",
+            "caption": "Snimka će biti spremljena u direktorij {{folderName}} u Datotekama. Za promjenu odredišnog direktorija idite na Postavke > Razgovori > Snimanje.",
             "description": "Snimanje će biti zaustavljeno. Možete započeti novo u bilo kojem trenutku."
         },
         "durationTooltip": "Trajanje sastanka",
@@ -486,10 +486,10 @@
         },
         "recording": {
             "title": "Snimanje",
-            "description": "Postavi mapu gdje će se spremati snimci sastanaka koji se prekinu.",
+            "description": "Postavi direktorij gdje će se spremati snimci sastanaka koji se prekinu.",
             "inputLabel": "Odredišna mapa",
             "dialog": {
-                "title": "Odaberi mapu"
+                "title": "Odaberi direktorij"
             },
             "browseAction": "PREGLEDAJTE",
             "resetAction": "PONIŠTAVANJE",
