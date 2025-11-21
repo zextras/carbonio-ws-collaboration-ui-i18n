@@ -107,7 +107,7 @@
         "recording": {
             "title": "Enregistrement",
             "inputLabel": "Dossier de destination",
-            "description": "Définissez un dossier personnalisé où sauver les enregistrements des réunions que vous arrêtez.",
+            "description": "Définissez un dossier personnalisé où sauver les enregistrements des réunions que vous lancez.",
             "resetAction": "RÉINITIALISER",
             "browseAction": "PARCOURIR",
             "dialog": {
