@@ -612,9 +612,14 @@
         "micDevice": "Microphone"
     },
     "welcomePage": {
-        "description": "Comment souhaitez-vous vous présenter ?",
+        "description": "Saisissez votre nom pour rejoindre cette réunion",
         "journeyDescription": "Vous serez redirigé vers la salle d'attente où un modérateur approuvera votre accès.",
-        "loginButton": "ALLER VERS VOTRE PAGE DE CONNEXION"
+        "loginButton": "ALLER VERS VOTRE PAGE DE CONNEXION",
+        "title": "Bienvenue à la salle virtuelle \"{{title}}\"",
+        "joinAsGuest": "Rejoindre en tant qu'invité",
+        "inputPlaceholder": "Saisissez votre nom",
+        "alreadyHaveAccount": "Vous avez déjà un compte ? Connectez-vous.",
+        "waitingForModerator": "Un modérateur va vous laisser entrer dans la salle dans quelques instants."
     },
     "configurationMessages": {
         "user": {
