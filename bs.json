@@ -26,7 +26,8 @@
         "enter": "Ulaz",
         "scrollToBottom": "Pomjeri se na dno",
         "understood": "Razumijem",
-        "save": "Sačuvaj"
+        "save": "Sačuvaj",
+        "forward": "Proslijedi"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} kreiran!",
