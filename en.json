@@ -381,6 +381,15 @@
             "speaking": "{{userName}} is speaking.",
             "close": "Disable PiP",
             "trigger": "Enable PiP"
+        },
+        "micTest": {
+            "microphoneWorking": "Microphone is working correctly",
+            "noSoundDetected": "No sound detected. Speak during recording or check your microphone",
+            "turnOnMicrophone": "Turn on your microphone to test it",
+            "startMicTestAgain": "Start microphone test again",
+            "startMicTest": "Start microphone test",
+            "recordingYourVoice": "Recording your voice",
+            "playingBack": "Playing back..."
         }
     },
     "meetings": {
