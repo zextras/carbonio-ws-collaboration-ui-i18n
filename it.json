@@ -584,6 +584,15 @@
             "close": "Disabilita PiP",
             "noTalking": "Nessuno sta parlando al momento.",
             "speaking": "{{userName}} sta parlando."
+        },
+        "micTest": {
+            "microphoneWorking": "Il microfono funziona correttamente",
+            "noSoundDetected": "Nessun suono rilevato. Parla durante la registrazione o controlla il microfono.",
+            "turnOnMicrophone": "Attiva il microfono per testarlo",
+            "startMicTestAgain": "Avvia nuovamente il test del microfono",
+            "startMicTest": "Avvia il test del microfono",
+            "recordingYourVoice": "Registrando la tua voce",
+            "playingBack": "Riproduzione in corso..."
         }
     },
     "tryLater": "Riprova più tardi",
@@ -630,7 +639,12 @@
     "welcomePage": {
         "journeyDescription": "Verrai reindirizzato alla Stanza d'attesa dove un moderatore approverà il tuo accesso.",
         "description": "Come vuoi presentarti?",
-        "loginButton": "VAI ALLA TUA PAGINA DI LOGIN"
+        "loginButton": "VAI ALLA TUA PAGINA DI LOGIN",
+        "title": "Benvenuto nella stanza virtuale \"{{title}}\"",
+        "joinAsGuest": "Entra come ospite",
+        "inputPlaceholder": "Inserisci il tuo nome",
+        "alreadyHaveAccount": "Hai già un account? Accedi con le tue credenziali.",
+        "waitingForModerator": "Un moderatore ti farà entrare nella riunione tra qualche istante."
     },
     "appointment": {
         "placeholder": {
