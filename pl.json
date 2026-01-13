@@ -503,6 +503,15 @@
             "trigger": "Włącz PiP",
             "close": "Wyłącz PiP",
             "speaking": "{{userName}} mówi."
+        },
+        "micTest": {
+            "microphoneWorking": "Mikrofon działa prawidłowo",
+            "noSoundDetected": "Nie wykryto dźwięku. Mów podczas nagrywania lub sprawdź Twój mikrofon",
+            "turnOnMicrophone": "Włącz swój mikrofon, aby go przetestować",
+            "startMicTestAgain": "Rozpocznij ponownie test mikrofonu",
+            "startMicTest": "Rozpocznij test mikrofonu",
+            "recordingYourVoice": "Nagrywanie Twojego głosu",
+            "playingBack": "Odtwarzanie..."
         }
     },
     "meetings": {
