@@ -594,6 +594,15 @@
             "noTalking": "Personne ne parle actuellement.",
             "close": "Désactiver PiP",
             "speaking": "{{userName}} parle."
+        },
+        "micTest": {
+            "microphoneWorking": "Le micro fonctionne correctement",
+            "noSoundDetected": "Pas de son détecté. Parlez pendant l'enregistrement ou vérifiez votre micro",
+            "turnOnMicrophone": "Allumez votre micro pour le tester",
+            "startMicTestAgain": "Lancer un nouveau test de micro",
+            "startMicTest": "Lancer le test de micro",
+            "recordingYourVoice": "Enregistrement de votre voix",
+            "playingBack": "Lecture..."
         }
     },
     "meetings": {
