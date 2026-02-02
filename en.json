@@ -43,7 +43,11 @@
             "deleteRoom": "Delete Virtual Room",
             "copyLink": "Copy Virtual Room’s link"
         },
-        "save": "Save"
+        "save": "Save",
+        "showMore": "Show more",
+        "hide": "Hide",
+        "pin": "Pin message",
+        "unpin": "Unpin message"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} created!",
@@ -440,7 +444,11 @@
         "leaveRoomLabel": "Are you sure to leave this Room?",
         "removeMember": "Remove member",
         "showPreviousConversationHistory": "Show previous chat history",
-        "muteForAllDescription": "By muting the user, all participants will no longer hear the user. Only the muted user can unmute. Proceed?"
+        "muteForAllDescription": "By muting the user, all participants will no longer hear the user. Only the muted user can unmute. Proceed?",
+        "replacePinMessage": "Replace pinned message",
+        "replacePinConfirm": "Yes, replace pin",
+        "replacePinCancel": "No, cancel",
+        "replacePinDescription": "This conversation already has a pinned message. Only one message can be pinned at a time. Do you want to replace it with this message?"
     },
     "notification": {
         "meeting": {
@@ -611,7 +619,9 @@
         "reactions": "Reactions",
         "moreReactions": "More reactions",
         "virtualActions": "Virtual Room actions",
-        "moreActions": "More Actions"
+        "moreActions": "More Actions",
+        "pinnedMessage": "Pinned message",
+        "unpinMessage": "Unpin message"
     },
     "tryLater": "Try later",
     "interactions": {
@@ -634,14 +644,18 @@
             "roomNameChanged": "{{name}} changed the title of this Group in \"<i>{{roomName}}</i>\".",
             "roomPictureUpdated": "{{name}} changed {{roomName}}'s image.",
             "roomTopicChanged": "{{name}} changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\".",
-            "roomTopicRemoved": "{{name}} removed {{roomName}}'s topic."
+            "roomTopicRemoved": "{{name}} removed {{roomName}}'s topic.",
+            "pinMessage": "{{actionMakerUsername}} pinned a message",
+            "unpinMessage": "{{actionMakerUsername}} unpinned a message"
         },
         "user": {
             "roomNameChanged": "You changed the title of this Group in \"<i>{{roomName}}</i>\".",
             "roomPictureDeleted": "You have restored the default {{roomName}}'s image.",
             "roomPictureUpdated": "You changed {{roomName}}'s image.",
             "roomTopicChanged": "You changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\".",
-            "roomTopicRemoved": "You have removed {{roomName}}'s topic."
+            "roomTopicRemoved": "You have removed {{roomName}}'s topic.",
+            "pinMessage": "You pinned a message",
+            "unpinMessage": "You unpinned a message"
         }
     },
     "appointment": {
