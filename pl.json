@@ -43,7 +43,11 @@
             "copyLink": "Skopiuj link wirtualnego pokoju",
             "deleteRoom": "Usuń wirtualny pokój"
         },
-        "save": "Zapisz"
+        "save": "Zapisz",
+        "showMore": "Pokaż więcej",
+        "hide": "Ukryj",
+        "pin": "Przypnij wiadomość",
+        "unpin": "Odepnij wiadomość"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -81,7 +85,11 @@
         "leaveRoom": "Opuść pokój",
         "leaveRoomLabel": "Czy na pewno chcesz opuścić ten pokój?",
         "deleteGroupMeetingOngoingLabel": "Trwa aktualnie spotkanie. Usunięcie grupy spowoduje zakończenie spotkania bez ostrzeżenia.",
-        "muteForAllDescription": "Wyciszając użytkownika sprawisz, że wszyscy uczestnicy nie będą słyszeć tego użytkownika. Tylko wyciszony użytkownik może się odciszyć. Kontynuować?"
+        "muteForAllDescription": "Wyciszając użytkownika sprawisz, że wszyscy uczestnicy nie będą słyszeć tego użytkownika. Tylko wyciszony użytkownik może się odciszyć. Kontynuować?",
+        "replacePinMessage": "Zastąp przypiętą wiadomość",
+        "replacePinConfirm": "Tak, zastąp",
+        "replacePinCancel": "Nie, anuluj",
+        "replacePinDescription": "Ta konwersacja ma już przypiętą wiadomość. Tylko jedna wiadomość może być przypięta na raz. Czy chcesz ją zastąpić?"
     },
     "notification": {
         "meeting": {
@@ -592,7 +600,9 @@
         "moreReactions": "Więcej reakcji",
         "reactions": "Reakcje",
         "virtualActions": "Czynności wirtualnego pokoju",
-        "moreActions": "Więcej czynności"
+        "moreActions": "Więcej czynności",
+        "pinnedMessage": "Przypięta wiadomość",
+        "unpinMessage": "Odepnij wiadomość"
     },
     "conversationFilter": {
         "filterTooltip": "Filtruj listę",
@@ -636,14 +646,18 @@
             "roomPictureDeleted": "Przywróciłeś domyślny obraz {{roomName}}.",
             "roomPictureUpdated": "Zmieniłeś obraz {{roomName}}.",
             "roomTopicChanged": "Zmieniłeś temat {{roomName}} w \"<i>{{topicName}}</i>\".",
-            "roomNameChanged": "Zmieniłeś tytuł tej grupy w \"<i>{{roomName}}</i>\"."
+            "roomNameChanged": "Zmieniłeś tytuł tej grupy w \"<i>{{roomName}}</i>\".",
+            "pinMessage": "Przypiąłeś wiadomość",
+            "unpinMessage": "Odpiąłeś wiadomość"
         },
         "member": {
             "roomPictureUpdated": "Użytkownik {{name}} zmienił obraz {{roomName}}.",
             "roomTopicRemoved": "Użytkownik {{name}} usunął temat {{roomName}}.",
             "roomPictureDeleted": "Użytkownik {{name}} przywrócił domyślny obraz {{roomName}}.",
             "roomTopicChanged": "Użytkownik {{name}} zmienił temat {{roomName}} w \"<i>{{topicName}}</i>\".",
-            "roomNameChanged": "Użytkownik {{name}} zmienił tytuł tej grupy w \"<i>{{roomName}}</i>\"."
+            "roomNameChanged": "Użytkownik {{name}} zmienił tytuł tej grupy w \"<i>{{roomName}}</i>\".",
+            "pinMessage": "Użytkownik {{actionMakerUsername}} przypiął wiadomość",
+            "unpinMessage": "Użytkownik {{actionMakerUsername}} odpiął wiadomość"
         }
     },
     "appointment": {
