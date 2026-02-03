@@ -63,7 +63,11 @@
         "clearHistoryDescription": "Vous nettoyez l'historique de vos conversations, veuillez noter que cette action est irréversible. L'historique sera supprimé pour vous et non pour les autres membres.",
         "leaveGroupLabel": "Êtes-vous sûr de vouloir quitter ce Groupe ?",
         "deleteGroupMeetingOngoingLabel": "Une réunion est actuellement en cours. La suppression du groupe mettra fin à la réunion sans avertissement.",
-        "muteForAllDescription": "En mettant l'utilisateur en sourdine, les participants ne l'entendront plus. Seul l'utilisateur en sourdine peut rétablir le son. Voulez-vous continuer ?"
+        "muteForAllDescription": "En mettant l'utilisateur en sourdine, les participants ne l'entendront plus. Seul l'utilisateur en sourdine peut rétablir le son. Voulez-vous continuer ?",
+        "replacePinMessage": "Remplacer le message épinglé",
+        "replacePinConfirm": "Oui, remplacer le message",
+        "replacePinCancel": "Non, annuler",
+        "replacePinDescription": "Cette conversation a déjà un message épinglé. Il ne peut y avoir qu'un message épinglé à la fois. Voulez-vous le remplacer par ce message ?"
     },
     "settings": {
         "save": "Les modifications ont été enregistrées correctement",
@@ -186,7 +190,11 @@
             "copyLink": "Copier le lien de la salle virtuelle",
             "editRoom": "Modifier la salle virtuelle"
         },
-        "save": "Enregistrer"
+        "save": "Enregistrer",
+        "showMore": "Voir plus",
+        "hide": "Masquer",
+        "pin": "Épingler le message",
+        "unpin": "Désépingler le message"
     },
     "conversation": {
         "keepInTouchTitle": "Restons en contact !",
@@ -339,7 +347,9 @@
         "moreReactions": "Plus de réactions",
         "reactions": "Réactions",
         "virtualActions": "Actions de la salle virtuelle",
-        "moreActions": "Plus d'actions"
+        "moreActions": "Plus d'actions",
+        "pinnedMessage": "Épingler le message",
+        "unpinMessage": "Désépingler le message"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} est créée !",
@@ -636,14 +646,18 @@
             "roomPictureDeleted": "Vous avez restauré l'image par défaut de {{roomName}}.",
             "roomTopicChanged": "Vous avez changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\".",
             "roomNameChanged": "Vous avez changer le titre de ce groupe en \"<i>{{roomName}}</i>\".",
-            "roomPictureUpdated": "Vous avez changé l'image de {{roomName}}."
+            "roomPictureUpdated": "Vous avez changé l'image de {{roomName}}.",
+            "pinMessage": "Vous avez épinglé un message",
+            "unpinMessage": "Vous avez désépingler un message"
         },
         "member": {
             "roomTopicChanged": "{{name}} a changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\".",
             "roomPictureUpdated": "{{name}} a changé l'image de {{roomName}}.",
             "roomNameChanged": "{{name}} a changé le titre de ce groupe en \"<i>{{roomName}}</i>\".",
             "roomTopicRemoved": "{{name}} a enlevé le sujet de {{roomName}}.",
-            "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}."
+            "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}.",
+            "pinMessage": "{{actionMakerUsername}} a épingler un message",
+            "unpinMessage": "{{actionMakerUsername}} a désépinglé un message"
         }
     },
     "appointment": {
