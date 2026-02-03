@@ -43,7 +43,11 @@
             "editRoom": "Modifica Stanza Virtuale",
             "deleteRoom": "Elimina Stanza Virtuale"
         },
-        "save": "Salva"
+        "save": "Salva",
+        "showMore": "Mostra altro",
+        "hide": "Nascondi",
+        "pin": "Fissa messaggio",
+        "unpin": "Rimuovi messaggio fissato"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -103,7 +107,11 @@
         "leaveRoomLabel": "Vuoi abbandonare questa Stanza?",
         "deleteMessageTitleDescription": "Stai per cancellare il messaggio, questo non sarà più disponibile",
         "deleteGroupMeetingOngoingLabel": "Al momento è in corso una riunione. Cancellare il Gruppo terminerà la riunione nessun senza preavviso.",
-        "muteForAllDescription": "Disattivando l'audio dell'utente, gli altri partecipanti non lo sentiranno più. Solo l'utente che è stato mutato potrà riattivare l'audio. Procedere?"
+        "muteForAllDescription": "Disattivando l'audio dell'utente, gli altri partecipanti non lo sentiranno più. Solo l'utente che è stato mutato potrà riattivare l'audio. Procedere?",
+        "replacePinMessage": "Sostituisci messaggio fissato",
+        "replacePinConfirm": "Si, sostituisci",
+        "replacePinCancel": "No, annulla",
+        "replacePinDescription": "Questa conversazione ha già un messaggio fissato. È possibile fissare un solo messaggio alla volta. Vuoi sostituirlo con questo messaggio?"
     },
     "participantsList": {
         "closeSearch": "Chiudi ricerca",
@@ -175,7 +183,9 @@
         "moreReactions": "Più reazioni",
         "reactions": "Reazioni",
         "virtualActions": "Azioni della Stanza Virtuale",
-        "moreActions": "Altre azioni"
+        "moreActions": "Altre azioni",
+        "pinnedMessage": "Messaggio fissato",
+        "unpinMessage": "Rimuovi messaggio fissato"
     },
     "attachments": {
         "addFromLocal": "Aggiungi da locale",
@@ -626,14 +636,18 @@
             "roomNameChanged": "{{name}} ha cambiato il titolo di questo Gruppo in \"<i>{{roomName}}</i>\".",
             "roomPictureUpdated": "{{name}} ha cambiato l'immagine di {{roomName}}.",
             "roomTopicChanged": "{{name}} ha cambiato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\".",
-            "roomTopicRemoved": "{{name}} ha rimosso l'argomento di {{roomName}}."
+            "roomTopicRemoved": "{{name}} ha rimosso l'argomento di {{roomName}}.",
+            "pinMessage": "{{actionMakerUsername}} ha fissato un messaggio",
+            "unpinMessage": "{{actionMakerUsername}} ha rimosso un messaggio fissato"
         },
         "user": {
             "roomPictureUpdated": "Hai cambiato l'immagine di {{roomName}}.",
             "roomTopicChanged": "Hai cambiato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\".",
             "roomNameChanged": "Hai cambiato il titolo di questo Gruppo in \"<i>{{roomName}}</i>\".",
             "roomPictureDeleted": "Hai ripristinato l'immagine di default di {{roomName}}.",
-            "roomTopicRemoved": "Hai rimosso l'argomento di {{roomName}}."
+            "roomTopicRemoved": "Hai rimosso l'argomento di {{roomName}}.",
+            "pinMessage": "Hai fissato un messaggio",
+            "unpinMessage": "Hai rimosso un messaggio fissato"
         }
     },
     "welcomePage": {
