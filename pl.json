@@ -733,5 +733,8 @@
         "clearTooltip": "Wyczyść wyszukiwanie",
         "errorSnackbar": "Coś poszło nie tak z wyszukiwaniem. Spróbuj ponownie.",
         "noResults": "Wygląda na to, że nie ma żadnych wyników."
+    },
+    "label": {
+        "app_name": "Czaty"
     }
 }
