@@ -731,5 +731,8 @@
         "groupPlaceholder": "Search messages in {{roomName}}",
         "searching": "Searching...",
         "errorSnackbar": "Something went wrong with the search. Please try again."
+    },
+    "label": {
+        "app_name": "Chats"
     }
 }
