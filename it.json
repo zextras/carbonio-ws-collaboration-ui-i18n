@@ -733,5 +733,8 @@
         "searching": "Ricerca...",
         "singlePlaceholder": "Cerca messaggi con {{personName}}",
         "errorSnackbar": "Si è verificato un problema durante la ricerca. Riprova."
+    },
+    "label": {
+        "app_name": "Chat"
     }
 }
