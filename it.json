@@ -47,7 +47,8 @@
         "showMore": "Mostra altro",
         "hide": "Nascondi",
         "pin": "Fissa messaggio",
-        "unpin": "Rimuovi messaggio fissato"
+        "unpin": "Rimuovi messaggio fissato",
+        "exportMessages": "Esporta messaggi"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -111,7 +112,12 @@
         "replacePinMessage": "Sostituisci messaggio fissato",
         "replacePinConfirm": "Si, sostituisci",
         "replacePinCancel": "No, annulla",
-        "replacePinDescription": "Questa conversazione ha già un messaggio fissato. È possibile fissare un solo messaggio alla volta. Vuoi sostituirlo con questo messaggio?"
+        "replacePinDescription": "Questa conversazione ha già un messaggio fissato. È possibile fissare un solo messaggio alla volta. Vuoi sostituirlo con questo messaggio?",
+        "clearHistoryTitle": "Cancella cronologia",
+        "clearHistoryForAllDescription": "Questa operazione eliminerà definitivamente tutti i messaggi e i file condivisi in questa stanza per tutti i partecipanti.",
+        "clearHistoryWarning": "Questa azione non può essere annullata.",
+        "clearHistoryCancel": "No, annulla",
+        "clearHistoryConfirm": "Si, cancella cronologia"
     },
     "participantsList": {
         "closeSearch": "Chiudi ricerca",
@@ -647,12 +653,16 @@
             "roomPictureDeleted": "Hai ripristinato l'immagine di default di {{roomName}}.",
             "roomTopicRemoved": "Hai rimosso l'argomento di {{roomName}}.",
             "pinMessage": "Hai fissato un messaggio",
-            "unpinMessage": "Hai rimosso un messaggio fissato"
+            "unpinMessage": "Hai rimosso un messaggio fissato",
+            "clearHistory": "Hai cancellato la cronologia della chat"
+        },
+        "moderator": {
+            "clearHistory": "La cronologia della chat è stata cancellata da {{actionMakerUsername}}."
         }
     },
     "welcomePage": {
         "journeyDescription": "Verrai reindirizzato alla Stanza d'attesa dove un moderatore approverà il tuo accesso.",
-        "description": "Come vuoi presentarti?",
+        "description": "Inserisci il tuo nome per partecipare a questa riunione",
         "loginButton": "VAI ALLA TUA PAGINA DI LOGIN",
         "title": "Benvenuto nella stanza virtuale \"{{title}}\"",
         "joinAsGuest": "Entra come ospite",
