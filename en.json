@@ -47,7 +47,8 @@
         "showMore": "Show more",
         "hide": "Hide",
         "pin": "Pin message",
-        "unpin": "Unpin message"
+        "unpin": "Unpin message",
+        "exportMessages": "Export messages"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} created!",
@@ -448,7 +449,12 @@
         "replacePinMessage": "Replace pinned message",
         "replacePinConfirm": "Yes, replace pin",
         "replacePinCancel": "No, cancel",
-        "replacePinDescription": "This conversation already has a pinned message. Only one message can be pinned at a time. Do you want to replace it with this message?"
+        "replacePinDescription": "This conversation already has a pinned message. Only one message can be pinned at a time. Do you want to replace it with this message?",
+        "clearHistoryTitle": "Clear History",
+        "clearHistoryForAllDescription": "This will permanently delete all messages and shared files in this room for all participants.",
+        "clearHistoryWarning": "This action cannot be undone.",
+        "clearHistoryCancel": "No, cancel",
+        "clearHistoryConfirm": "Yes, clear history"
     },
     "notification": {
         "meeting": {
@@ -655,7 +661,11 @@
             "roomTopicChanged": "You changed the topic of {{roomName}} in \"<i>{{topicName}}</i>\".",
             "roomTopicRemoved": "You have removed {{roomName}}'s topic.",
             "pinMessage": "You pinned a message",
-            "unpinMessage": "You unpinned a message"
+            "unpinMessage": "You unpinned a message",
+            "clearHistory": "You have cleared the chat history"
+        },
+        "moderator": {
+            "clearHistory": "Chat history has been cleared by {{actionMakerUsername}}."
         }
     },
     "appointment": {
