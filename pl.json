@@ -47,7 +47,8 @@
         "showMore": "Pokaż więcej",
         "hide": "Ukryj",
         "pin": "Przypnij wiadomość",
-        "unpin": "Odepnij wiadomość"
+        "unpin": "Odepnij wiadomość",
+        "exportMessages": "Eksportuj wiadomości"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -89,7 +90,12 @@
         "replacePinMessage": "Zastąp przypiętą wiadomość",
         "replacePinConfirm": "Tak, zastąp",
         "replacePinCancel": "Nie, anuluj",
-        "replacePinDescription": "Ta konwersacja ma już przypiętą wiadomość. Tylko jedna wiadomość może być przypięta na raz. Czy chcesz ją zastąpić?"
+        "replacePinDescription": "Ta konwersacja ma już przypiętą wiadomość. Tylko jedna wiadomość może być przypięta na raz. Czy chcesz ją zastąpić?",
+        "clearHistoryTitle": "Usuwanie historii",
+        "clearHistoryForAllDescription": "Trwale usuniesz wszystkie wiadomości i udostępnione pliki w tym pokoju dla wszystkich uczestników.",
+        "clearHistoryWarning": "Tej czynności nie da się cofnąć.",
+        "clearHistoryCancel": "Nie, anuluj",
+        "clearHistoryConfirm": "Tak, usuń historię"
     },
     "notification": {
         "meeting": {
@@ -648,7 +654,8 @@
             "roomTopicChanged": "Zmieniłeś temat {{roomName}} w \"<i>{{topicName}}</i>\".",
             "roomNameChanged": "Zmieniłeś tytuł tej grupy w \"<i>{{roomName}}</i>\".",
             "pinMessage": "Przypiąłeś wiadomość",
-            "unpinMessage": "Odpiąłeś wiadomość"
+            "unpinMessage": "Odpiąłeś wiadomość",
+            "clearHistory": "Usunąłeś historię czatu"
         },
         "member": {
             "roomPictureUpdated": "Użytkownik {{name}} zmienił obraz {{roomName}}.",
@@ -658,6 +665,9 @@
             "roomNameChanged": "Użytkownik {{name}} zmienił tytuł tej grupy w \"<i>{{roomName}}</i>\".",
             "pinMessage": "Użytkownik {{actionMakerUsername}} przypiął wiadomość",
             "unpinMessage": "Użytkownik {{actionMakerUsername}} odpiął wiadomość"
+        },
+        "moderator": {
+            "clearHistory": "Historia czatu została usunięta przez {{actionMakerUsername}}."
         }
     },
     "appointment": {
