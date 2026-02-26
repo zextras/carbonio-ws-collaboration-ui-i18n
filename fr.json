@@ -67,7 +67,12 @@
         "replacePinMessage": "Remplacer le message épinglé",
         "replacePinConfirm": "Oui, remplacer le message",
         "replacePinCancel": "Non, annuler",
-        "replacePinDescription": "Cette conversation a déjà un message épinglé. Il ne peut y avoir qu'un message épinglé à la fois. Voulez-vous le remplacer par ce message ?"
+        "replacePinDescription": "Cette conversation a déjà un message épinglé. Il ne peut y avoir qu'un message épinglé à la fois. Voulez-vous le remplacer par ce message ?",
+        "clearHistoryTitle": "Effacer l'historique",
+        "clearHistoryForAllDescription": "Cela supprimera définitivement tous les messages et fichiers partagés dans cette salle pour tous les participants.",
+        "clearHistoryWarning": "Cette action ne peut pas être annulée.",
+        "clearHistoryCancel": "Non, annuler",
+        "clearHistoryConfirm": "Oui, effacer l'historique"
     },
     "settings": {
         "save": "Les modifications ont été enregistrées correctement",
@@ -648,7 +653,8 @@
             "roomNameChanged": "Vous avez changer le titre de ce groupe en \"<i>{{roomName}}</i>\".",
             "roomPictureUpdated": "Vous avez changé l'image de {{roomName}}.",
             "pinMessage": "Vous avez épinglé un message",
-            "unpinMessage": "Vous avez désépingler un message"
+            "unpinMessage": "Vous avez désépingler un message",
+            "clearHistory": "Vous avez effacé l'historique des discussions"
         },
         "member": {
             "roomTopicChanged": "{{name}} a changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\".",
@@ -658,6 +664,9 @@
             "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}.",
             "pinMessage": "{{actionMakerUsername}} a épingler un message",
             "unpinMessage": "{{actionMakerUsername}} a désépinglé un message"
+        },
+        "moderator": {
+            "clearHistory": "L'historique des discussions a été effacé par {{actionMakerUsername}}."
         }
     },
     "appointment": {
