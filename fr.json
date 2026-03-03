@@ -199,7 +199,8 @@
         "showMore": "Voir plus",
         "hide": "Masquer",
         "pin": "Épingler le message",
-        "unpin": "Désépingler le message"
+        "unpin": "Désépingler le message",
+        "exportMessages": "Exporter les messages"
     },
     "conversation": {
         "keepInTouchTitle": "Restons en contact !",
