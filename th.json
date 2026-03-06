@@ -94,7 +94,8 @@
             "editRoom": "แก้ไขห้องเสมือนจริง",
             "deleteRoom": "ลบห้องเสมือนจริง",
             "copyLink": "คัดลอกลิงก์ห้องเสมือนจริง"
-        }
+        },
+        "save": "บันทึก"
     },
     "attachments": {
         "addFromLocal": "เพิ่มจาก local",
