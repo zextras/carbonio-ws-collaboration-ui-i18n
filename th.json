@@ -89,7 +89,12 @@
         "understood": "เข้าใจแล้ว",
         "deleteForAll": "ลบทั้งหมด",
         "retry": "ลองใหม่อีกครั้ง",
-        "newVirtual": "ห้องเสมือนจริงใหม่"
+        "newVirtual": "ห้องเสมือนจริงใหม่",
+        "virtual": {
+            "editRoom": "แก้ไขห้องเสมือนจริง",
+            "deleteRoom": "ลบห้องเสมือนจริง",
+            "copyLink": "คัดลอกลิงก์ห้องเสมือนจริง"
+        }
     },
     "attachments": {
         "addFromLocal": "เพิ่มจาก local",
@@ -102,7 +107,10 @@
         "dragAndDrop": "โหมด Drag&Drop",
         "dropHereDescription": "วางไฟล์แนบของคุณที่นี่เพื่อเพิ่มลงในแชทนี้อย่างรวดเร็ว",
         "errorUploadingFile": "เกิดข้อผิดพลาดในการอัปโหลด {{file}}",
-        "uploadAborted": "การอัปโหลดถูกรบกวน"
+        "uploadAborted": "การอัปโหลดถูกรบกวน",
+        "upload": {
+            "tooLarge": "รูปภาพที่เลือกมีขนาดใหญ่เกินไป โปรดอัปโหลดไฟล์ที่มีขนาดเล็กกว่า {{size}} MB"
+        }
     },
     "settings": {
         "profile": {
