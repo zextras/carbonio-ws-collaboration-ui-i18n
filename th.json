@@ -51,7 +51,9 @@
         "reactions": "การตอบสนอง",
         "moreReactions": "ปฏิกิริยาเพิ่มเติม",
         "virtualActions": "การดำเนินการในห้องเสมือนจริง",
-        "moreActions": "การดำเนินการเพิ่มเติม"
+        "moreActions": "การดำเนินการเพิ่มเติม",
+        "pinnedMessage": "ข้อความที่ปักหมุด",
+        "unpinMessage": "ยกเลิกปักหมุดข้อความ"
     },
     "action": {
         "undo": "เลิกทำ",
@@ -97,7 +99,12 @@
             "deleteRoom": "ลบห้องเสมือนจริง",
             "copyLink": "คัดลอกลิงก์ห้องเสมือนจริง"
         },
-        "save": "บันทึก"
+        "save": "บันทึก",
+        "showMore": "แสดงเพิ่มเติม",
+        "hide": "ซ่อน",
+        "pin": "ปักหมุดข้อความ",
+        "unpin": "ยกเลิกปักหมุดข้อความ",
+        "exportMessages": "ส่งออกข้อความ"
     },
     "attachments": {
         "addFromLocal": "เพิ่มจาก local",
@@ -319,7 +326,16 @@
         "deleteGroupMeetingOngoingLabel": "ขณะนี้มีการประชุมที่กำลังดำเนินการอยู่ การลบกลุ่มจะทำให้การประชุมสิ้นสุดลงโดยไม่มีการแจ้งเตือนใด ๆ",
         "muteForAllDescription": "เมื่อปิดเสียงผู้ใช้ ผู้เข้าร่วมทั้งหมดจะไม่ได้ยินเสียงผู้ใช้อีกต่อไป เฉพาะผู้ใช้ที่ถูกปิดเสียงเท่านั้นที่จะสามารถเปิดเสียงได้ ดำเนินการ?",
         "deleteGroup": "ลบกลุ่ม",
-        "leaveRoom": "ออกจากห้อง"
+        "leaveRoom": "ออกจากห้อง",
+        "replacePinMessage": "เปลี่ยนข้อความที่ปักหมุด",
+        "replacePinConfirm": "ใช่ เปลี่ยนข้อความที่ปักหมุด",
+        "replacePinCancel": "ไม่ ยกเลิก",
+        "replacePinDescription": "การสนทนานี้มีข้อความที่ปักหมุดอยู่แล้ว และสามารถปักหมุดได้ครั้งละหนึ่งข้อความเท่านั้น ต้องการแทนที่ด้วยข้อความนี้หรือไม่?",
+        "clearHistoryTitle": "ล้างประวัติ",
+        "clearHistoryForAllDescription": "การดำเนินการนี้จะลบข้อความและไฟล์ที่แชร์ทั้งหมดในห้องนี้อย่างถาวรสำหรับผู้เข้าร่วมทุกคน",
+        "clearHistoryWarning": "การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+        "clearHistoryCancel": "ไม่ ยกเลิก",
+        "clearHistoryConfirm": "ใช่ ล้างประวัติ"
     },
     "participantsList": {
         "closeSearch": "ปิดการค้นหา",
@@ -566,6 +582,15 @@
             "speaking": "{{userName}} กำลังเป็นผู้พูด",
             "close": "ปิดโหมด PiP",
             "trigger": "เปิดโหมด PiP"
+        },
+        "micTest": {
+            "microphoneWorking": "ไมโครโฟนทำงานปกติ",
+            "noSoundDetected": "ไม่พบเสียง โปรดพูดระหว่างการบันทึกเสียงหรือตรวจสอบไมโครโฟนของคุณ",
+            "turnOnMicrophone": "เปิดไมโครโฟนของคุณเพื่อทดสอบ",
+            "startMicTestAgain": "ทดสอบไมโครโฟนอีกครั้ง",
+            "startMicTest": "เริ่มการทดสอบไมโครโฟน",
+            "recordingYourVoice": "กำลังบันทึกเสียงของคุณ",
+            "playingBack": "กำลังเล่นเสียง..."
         }
     },
     "meetings": {
@@ -608,14 +633,22 @@
             "roomPictureUpdated": "{{name}} เปลี่ยนรูปภาพของ {{roomName}}",
             "roomTopicChanged": "{{name}} เปลี่ยนหัวข้อของ {{roomName}} ใน \"<i>{{topicName}}</i>\"",
             "roomPictureDeleted": "{{name}} คืนค่ารูปภาพเริ่มต้นของ {{roomName}}",
-            "roomTopicRemoved": "{{name}} ลบหัวข้อของ {{roomName}}"
+            "roomTopicRemoved": "{{name}} ลบหัวข้อของ {{roomName}}",
+            "pinMessage": "{{actionMakerUsername}} ปักหมุดข้อความแล้ว",
+            "unpinMessage": "{{actionMakerUsername}} ยกเลิกการปักหมุดข้อความแล้ว"
         },
         "user": {
             "roomTopicRemoved": "คุณได้ลบหัวข้อของ {{roomName}} แล้ว",
             "roomPictureDeleted": "คุณได้คืนค่ารูปภาพเริ่มต้นของ {{roomName}} แล้ว",
             "roomPictureUpdated": "คุณเปลี่ยนรูปภาพของ {{roomName}}",
             "roomTopicChanged": "คุณเปลี่ยนหัวข้อของ {{roomName}} ใน \"<i>{{topicName}}</i>\"",
-            "roomNameChanged": "คุณเปลี่ยนชื่อของกลุ่มนี้ใน \"<i>{{roomName}}</i>\""
+            "roomNameChanged": "คุณเปลี่ยนชื่อของกลุ่มนี้ใน \"<i>{{roomName}}</i>\"",
+            "pinMessage": "คุณปักหมุดข้อความแล้ว",
+            "unpinMessage": "คุณยกเลิกการปักหมุดข้อความแล้ว",
+            "clearHistory": "คุณได้ล้างประวัติการแชตแล้ว"
+        },
+        "moderator": {
+            "clearHistory": "{{actionMakerUsername}} ได้ล้างประวัติการแชตแล้ว"
         }
     },
     "welcomePage": {
@@ -636,11 +669,15 @@
     "appointment": {
         "input": {
             "defaultValue": "ไม่ได้เลือกห้องเสมือนจริง",
-            "limitedOption": "การเข้าถึงแบบจำกัด"
+            "limitedOption": "การเข้าถึงแบบจำกัด",
+            "label": "ห้องเสมือนจริง"
         },
         "placeholder": {
             "title": "คุณสามารถไปที่ Chats และสร้างห้องเสมือนจริงเพื่อโฮสต์การนัดหมายของคุณได้",
             "description": "คุณจะพบห้องเสมือนจริงของคุณที่นี่ เมื่อคุณกลับมา"
+        },
+        "virtual": {
+            "managementHint": "คุณสามารถแก้ไขหรือลบห้อง Virtual Room ของคุณได้ในโมดูล Chat"
         }
     },
     "readOnly": {
@@ -692,5 +729,18 @@
             "group": "{{userName}} ตอบสนองต่อข้อความของคุณด้วย:",
             "chat": "ตอบสนองต่อข้อความของคุณด้วย:"
         }
+    },
+    "searchPanel": {
+        "keepSearching": "ค้นหาต่อไป!",
+        "singlePlaceholder": "ค้นหาข้อความกับ {{personName}}",
+        "clearTooltip": "ล้างการค้นหา",
+        "inputPlaceholder": "ค้นหาข้อความ",
+        "noResults": "ดูเหมือนว่าไม่มีผลลัพธ์",
+        "groupPlaceholder": "ค้นหาข้อความใน {{roomName}}",
+        "searching": "กำลังค้นหา...",
+        "errorSnackbar": "มีข้อผิดพลาดในการค้นหา โปรดลองอีกครั้ง"
+    },
+    "label": {
+        "app_name": "Chats"
     }
 }
