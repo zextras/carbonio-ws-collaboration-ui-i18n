@@ -23,7 +23,31 @@
         "cancel": "Cancel·la",
         "retry": "Torna a provar-ho",
         "save": "Desa",
-        "hide": "Amaga"
+        "hide": "Amaga",
+        "activateNotifications": "Activa les notificacions",
+        "addMoreAttachments": "Afegir {{counter}} adjunts",
+        "addNewMembers": "Afegeix nous membres",
+        "addNewMembersTo": "Afegir nous membres a {{roomName}}",
+        "addSingleAttachment": "Afegir {{counter}} adjunt",
+        "declineAll": "Rebutjar tots",
+        "editDetails": "Editar detalls",
+        "editRoom": "Editar {{roomName}}",
+        "editYourMessage": "Edita el teu missatge",
+        "joinMeeting": "Uneix-te a la reunió",
+        "leave": "Sortir",
+        "muteNotifications": "Silenciar notificacions",
+        "newChat": "Xat nou",
+        "ok": "D'acord",
+        "replyToSomeone": "Respondre a",
+        "replyToYourself": "Respondre a tu mateix",
+        "scrollToBottom": "Desplaça't fins al final",
+        "understood": "Entès",
+        "deleteForAll": "Elimina per a tothom",
+        "newVirtual": "Nova sala virtual",
+        "virtual": {
+            "editRoom": "Edita la sala virtual",
+            "deleteRoom": "Elimina Sala Virtual"
+        }
     },
     "attachments": {
         "integrations": {
@@ -32,7 +56,9 @@
     },
     "chat": "Xat",
     "conversationFilter": {
-        "closeTooltip": "Esborra el filtre"
+        "closeTooltip": "Esborra el filtre",
+        "filterTooltip": "Llista filtrada",
+        "label": "Escriviu per filtrar la llista"
     },
     "conversationInfo": {
         "actionAccordionTitle": "Accions",
@@ -40,7 +66,9 @@
         "messages": "Missatges",
         "name": "Nom",
         "status": "Estat",
-        "search": "Cerca"
+        "search": "Cerca",
+        "info": "Info",
+        "topic": "Tema"
     },
     "date": {
         "today": "Avui",
@@ -73,11 +101,31 @@
         },
         "recording": {
             "homeFolder": "Casa"
+        },
+        "export": {
+            "emptySpace": {
+                "firstAccess": {
+                    "callToAction": "Anar a Xats i començar a col·laborar!"
+                }
+            },
+            "action": "EXPORTAR XAT SELECCIONAT",
+            "tooltip": {
+                "noOneSelected": "Seleccioneu un dels vosos xats per exportar-lo",
+                "ongoingExport": "Ja esteu exportant un xat, espereu que s'acabi l'exportació."
+            }
         }
     },
     "status": {
         "offline": "Sense connexió",
-        "online": "Connectat"
+        "online": "Connectat",
+        "areTyping": "estan escrivint…",
+        "goToPrivateChat": "Anar a xat privat per enviar un missatge personal",
+        "isTyping": "està escrivint…",
+        "lastSeen": "Darrera vegada {{lastSeen}}",
+        "you": "Vostè",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} i {{numberOfUsers}} altres estan escrivint…",
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} persones estan escrivint…",
+        "Anonymous": "Usuari anònim"
     },
     "tooltip": {
         "clear": "Esborra",
@@ -90,12 +138,62 @@
         "pending": "Pendent",
         "sendMessage": "Envia missatge",
         "uploadAttachment": "S’està carregant un fitxer adjunt",
-        "moreActions": "Més accions"
+        "moreActions": "Més accions",
+        "bottomOfList": "Fons de la llista",
+        "collapseSidebar": "Plegar la barra lateral",
+        "demoteModerator": "Baixar moderator",
+        "disableModalButton": "Trieu almenys una adreça",
+        "expandSidebar": "Expandir la barra lateral",
+        "forwardedMessage": "Missatge reenviat des d'un altre xat",
+        "goToPrivateChat": "Anar al xat privat",
+        "iAmModerator": "Ets un moderador",
+        "leaveAndDelete": "Sortir i suprimir el xat",
+        "leaveConversation": "Sortir del Grup",
+        "memberIsModerator": "Aquest membre és un moderador",
+        "messageActions": "Accions de missatge",
+        "messageComposer": "Compositor de missatges",
+        "muteForAll": "Silenciar per a tots",
+        "participantMuted": "Aquest participant està silenciat",
+        "pinVideo": "Pesar el vídeo",
+        "promoteSomeoneElseToModerator": "Abans de sortir has de promocionar a algú altre a moderador",
+        "removeToAddNewOne": "Eliminar a algú per afegir nous membres",
+        "room": {
+            "resetPicture": "Restablir imatge",
+            "updatePicture": "Actualitzar imatge",
+            "uploadPicture": "Pujar imatge"
+        },
+        "scrollDown": "Fer escroll cap avall",
+        "scrollUp": "Fer escroll cap amunt",
+        "selectEmoji": "Seleccionar emoticona",
+        "showConversationList": "Mostrar llista de xats",
+        "topOfList": "Dalt de la llista",
+        "unpinVideo": "Desprengar el vídeo",
+        "uploading": "Pujant",
+        "userAvatar": {
+            "resetAvatar": "Restablir avatar",
+            "updateAvatar": "Actualitzar avatar",
+            "uploadAvatar": "Pujar avatar"
+        },
+        "writeToSend": "Escriure un missatge per enviar-lo"
     },
     "searchPanel": {
         "searching": "S’està cercant..."
     },
     "label": {
         "app_name": "Xat"
-    }
+    },
+    "editModal": {
+        "confirm": "Editar detalls",
+        "confirmDisabled": "No has canviat res",
+        "errorDisabled": "Comproveu la informació introduïda",
+        "groupDescriptionDetails": "Descriu l'objecte del Grup",
+        "groupNameDetails": "És obligatori i identifica el Grup",
+        "nameTooLong": "La longitud màxima del títol és de 128 caràcters",
+        "nameTooShort": "El títol és una informació essencial"
+    },
+    "snackbar": {
+        "mutedByModerator": "Heu estat silenciat per un moderador, desbloqueu-vos per parlar"
+    },
+    "thanksForParticipating": "Gràcies per participar",
+    "titlePlaceholder": "Títol del vostre Grup"
 }
