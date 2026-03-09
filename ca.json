@@ -4,7 +4,8 @@
         "deleteMessageTitle": "Suprimeix missatges seleccionats",
         "deleteRoom": "Suprimeix fila",
         "deleteRoomLabel": "Esteu segur que voleu suprimir aquest domini?",
-        "deleteUserDescription": "Segur que voleu eliminar aquest contacte?"
+        "deleteUserDescription": "Segur que voleu eliminar aquest contacte?",
+        "leaveAndDelete": "Sortir i eliminar"
     },
     "action": {
         "close": "Tancar",
@@ -46,13 +47,22 @@
         "newVirtual": "Nova sala virtual",
         "virtual": {
             "editRoom": "Edita la sala virtual",
-            "deleteRoom": "Elimina Sala Virtual"
-        }
+            "deleteRoom": "Elimina Sala Virtual",
+            "copyLink": "Copia l'enllaç de la Sala Virtual"
+        },
+        "addAttachment": "Afegeix fitxers adjunts",
+        "clearHistory": "Esborra l’historial",
+        "create": "Creat",
+        "showMore": "mostra més"
     },
     "attachments": {
         "integrations": {
-            "chooseFile": "Seleccioneu els camps"
-        }
+            "chooseFile": "Seleccioneu els camps",
+            "shareLink": "Compartir enllaç públic"
+        },
+        "attachLinkFiles": "Afegir enllaç públic des d'arxius",
+        "dragAndDrop": "Mode d'arrosatge",
+        "dropHereDescription": "Deixa anar aquí les teves adjuntes per afegir-les ràpidament a aquest correu electrònic"
     },
     "chat": "Xat",
     "conversationFilter": {
@@ -68,7 +78,8 @@
         "status": "Estat",
         "search": "Cerca",
         "info": "Info",
-        "topic": "Tema"
+        "topic": "Tema",
+        "title": "Títol:"
     },
     "date": {
         "today": "Avui",
@@ -79,20 +90,51 @@
             "sendMessage": "Envia missatge"
         },
         "virtual": {
-            "invalidNameTooltip": "Nom no vàlid: {0}"
+            "invalidNameTooltip": "Nom no vàlid: {0}",
+            "creationInput": "Enllaç de la Sala Virtual",
+            "createTooltip": "Crea Sala Virtual",
+            "copyLinkSnackbar": "Enllaç de la Sala Virtual",
+            "deleteSnackbar": "El volum s'ha esborrat correctament",
+            "newRoom": "Crea Sala Virtual"
         },
         "visualEffects": {
             "default": "Cap"
+        },
+        "interactions": {
+            "title": {
+                "devices": "Dispositiu"
+            }
+        },
+        "participantsList": {
+            "title_one": "Estat dels participants",
+            "title_many": "",
+            "title_other": ""
+        },
+        "startMeeting": "Iniciar reunió",
+        "infoPage": {
+            "description": {
+                "generalError": "Alguna cosa ha anat malament"
+            }
+        },
+        "pip": {
+            "close": "Inhabilita"
         }
     },
     "message": {
-        "draft": "esborrany"
+        "draft": "esborrany",
+        "deletedMessage": "Suprimeix missatges"
     },
     "settings": {
         "notifications": {
             "title": "Notificacions",
             "subtitle": {
                 "general": "General"
+            },
+            "toggleSounds": {
+                "waitingRoom": "Notificacions per correu:"
+            },
+            "checkbox": {
+                "waitingRoom": "Notificacions"
             }
         },
         "title": "Configuració del gràfic",
@@ -100,7 +142,10 @@
             "title": "Reunió"
         },
         "recording": {
-            "homeFolder": "Casa"
+            "homeFolder": "Casa",
+            "dialog": {
+                "title": "Selecioni carpeta"
+            }
         },
         "export": {
             "emptySpace": {
@@ -113,7 +158,11 @@
                 "noOneSelected": "Seleccioneu un dels vosos xats per exportar-lo",
                 "ongoingExport": "Ja esteu exportant un xat, espereu que s'acabi l'exportació."
             }
-        }
+        },
+        "profile": {
+            "errorGenericResponse": "Alguna cosa ha anat malament, torneu-ho a provar"
+        },
+        "save": "Edicions desades correctament"
     },
     "status": {
         "offline": "Sense connexió",
@@ -174,10 +223,13 @@
             "updateAvatar": "Actualitzar avatar",
             "uploadAvatar": "Pujar avatar"
         },
-        "writeToSend": "Escriure un missatge per enviar-lo"
+        "writeToSend": "Escriure un missatge per enviar-lo",
+        "promoteModerator": "Promou a moderador",
+        "moreReactions": "Més accions"
     },
     "searchPanel": {
-        "searching": "S’està cercant..."
+        "searching": "S’està cercant...",
+        "clearTooltip": "Tancar la cerca"
     },
     "label": {
         "app_name": "Xat"
@@ -189,11 +241,23 @@
         "groupDescriptionDetails": "Descriu l'objecte del Grup",
         "groupNameDetails": "És obligatori i identifica el Grup",
         "nameTooLong": "La longitud màxima del títol és de 128 caràcters",
-        "nameTooShort": "El títol és una informació essencial"
+        "nameTooShort": "El títol és una informació essencial",
+        "topicTooLong": "La longitud màxima de la contrasenya és de {0} caràcters"
     },
     "snackbar": {
         "mutedByModerator": "Heu estat silenciat per un moderador, desbloqueu-vos per parlar"
     },
     "thanksForParticipating": "Gràcies per participar",
-    "titlePlaceholder": "Títol del vostre Grup"
+    "titlePlaceholder": "Títol del vostre Grup",
+    "conversation": {
+        "newMessage": "Missatge nou",
+        "newMessages": "Missatges nous",
+        "selectionMode": {
+            "exit": "Activa el mode de selecció"
+        }
+    },
+    "participantsList": {
+        "moreMembersAccordionTitle": "Membres",
+        "searchParticipants": "Cercar participant"
+    }
 }
