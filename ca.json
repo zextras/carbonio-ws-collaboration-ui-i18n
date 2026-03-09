@@ -1,1 +1,101 @@
-{}
+{
+    "modal": {
+        "clearHistoryTitle": "Esborra l’historial",
+        "deleteMessageTitle": "Suprimeix missatges seleccionats",
+        "deleteRoom": "Suprimeix fila",
+        "deleteRoomLabel": "Esteu segur que voleu suprimir aquest domini?",
+        "deleteUserDescription": "Segur que voleu eliminar aquest contacte?"
+    },
+    "action": {
+        "close": "Tancar",
+        "copy": "Copia",
+        "decline": "Declina",
+        "delete": "Suprimeix",
+        "download": "Descarrega",
+        "edit": "Edita",
+        "enter": "Retorn",
+        "forward": "Reenvia",
+        "forwarded": "reenviat",
+        "preview": "Visualització prèvia",
+        "removeUser": "Elimina",
+        "reply": "Respon",
+        "undo": "Desfés",
+        "cancel": "Cancel·la",
+        "retry": "Torna a provar-ho",
+        "save": "Desa",
+        "hide": "Amaga"
+    },
+    "attachments": {
+        "integrations": {
+            "chooseFile": "Seleccioneu els camps"
+        }
+    },
+    "chat": "Xat",
+    "conversationFilter": {
+        "closeTooltip": "Esborra el filtre"
+    },
+    "conversationInfo": {
+        "actionAccordionTitle": "Accions",
+        "email": "Correu",
+        "messages": "Missatges",
+        "name": "Nom",
+        "status": "Estat",
+        "search": "Cerca"
+    },
+    "date": {
+        "today": "Avui",
+        "yesterday": "Ahir"
+    },
+    "meeting": {
+        "newMeetingNotification": {
+            "sendMessage": "Envia missatge"
+        },
+        "virtual": {
+            "invalidNameTooltip": "Nom no vàlid: {0}"
+        },
+        "visualEffects": {
+            "default": "Cap"
+        }
+    },
+    "message": {
+        "draft": "esborrany"
+    },
+    "settings": {
+        "notifications": {
+            "title": "Notificacions",
+            "subtitle": {
+                "general": "General"
+            }
+        },
+        "title": "Configuració del gràfic",
+        "meetings": {
+            "title": "Reunió"
+        },
+        "recording": {
+            "homeFolder": "Casa"
+        }
+    },
+    "status": {
+        "offline": "Sense connexió",
+        "online": "Connectat"
+    },
+    "tooltip": {
+        "clear": "Esborra",
+        "close": "Tancar",
+        "collapseCarousel": "Redueix",
+        "expandCarousel": "Amplia",
+        "messageRead": "Llegit",
+        "messageReceived": "Rebut",
+        "messageSent": "Enviats",
+        "pending": "Pendent",
+        "sendMessage": "Envia missatge",
+        "uploadAttachment": "S’està carregant un fitxer adjunt",
+        "moreActions": "Més accions"
+    },
+    "searchPanel": {
+        "searching": "S’està cercant..."
+    },
+    "label": {
+        "app_name": "Xat"
+    }
+}
