@@ -40,8 +40,10 @@
         "newVirtual": "Nova Sala Virtual",
         "virtual": {
             "editRoom": "Editar Sala Virtual",
-            "copyLink": "Copiar link da Sala Virtual"
-        }
+            "copyLink": "Copiar link da Sala Virtual",
+            "deleteRoom": "Apagar Sala Virtual"
+        },
+        "save": "Salvar"
     },
     "feedback": {
         "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
