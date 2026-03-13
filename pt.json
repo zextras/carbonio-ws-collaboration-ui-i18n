@@ -37,7 +37,11 @@
         "understood": "Entendi",
         "deleteForAll": "Excluir para todos",
         "retry": "Tentar novamente",
-        "newVirtual": "Nova Sala Virtual"
+        "newVirtual": "Nova Sala Virtual",
+        "virtual": {
+            "editRoom": "Editar Sala Virtual",
+            "copyLink": "Copiar link da Sala Virtual"
+        }
     },
     "feedback": {
         "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
