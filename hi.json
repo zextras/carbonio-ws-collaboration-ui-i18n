@@ -374,14 +374,31 @@
             "startPrompt": "इस वर्चुअल रूम में बैठक शुरू करें।",
             "moderators": {
                 "onlyUser": "आप एकमात्र संचालक हैं।",
-                "multipleAdditional": "और अन्य <strong>{{numberOfModerators}} संचालक </strong>।"
-            }
+                "multipleAdditional": "और अन्य <strong>{{numberOfModerators}} संचालक </strong>।",
+                "onlyModerator": "वह एकमात्र संयोजक है।",
+                "singleAdditional": "और एक अन्य संयोजक।",
+                "widget": "वर्चुअल कक्ष के संयोजक"
+            },
+            "modal": {
+                "description": "इस वर्चुअल कक्ष को एक पहचान योग्य नाम दें ताकि आपके प्रतिभागी जान सकें कि वे किस बारे में मिलने की उम्मीद कर रहे हैं।",
+                "invalidNameCaption": "कृपया एक छोटा नाम दर्ज करें।",
+                "moderator": {
+                    "input": "वर्चुअल कक्ष के संयोजक",
+                    "description": "आप इस वर्चुअल रूम का संचालन करेंगे। अतिरिक्त संयोजक को समान अधिकारों के साथ सहयोगी के रूप में जोड़ा जाएगा।"
+                },
+                "edit": {
+                    "tile": "\"{{roomName}}\" वर्चुअल कक्ष संपादित करें",
+                    "title": "\"{{roomName}}\" वर्चुअल कक्ष संपादित करें"
+                }
+            },
+            "newRoom": "नया वर्चुअल कक्ष बनाएं"
         },
         "sidebar": {
             "waitingCaption": "अंदर आने के इंतज़ार में",
             "tooltip": {
                 "waitingAccept": "यूज़र को अंदर आने दें",
-                "waitingReject": "यूज़र को रिजेक्ट करें"
+                "waitingReject": "यूज़र को रिजेक्ट करें",
+                "lowerUserHand": "{{memberName}} का हाथ नीचे करें"
             },
             "recording": {
                 "title": "रिकॉर्डिंग",
@@ -393,10 +410,15 @@
                 "additionalDescription": "यदि कुछ गलत हो जाता है, तो रिकॉर्डिंग उसे शुरू करने वाले मॉडरेटर के फ़ाइल स्थान में सेव कर दी जाएगी।",
                 "moderatorInfo": "रिकॉर्डिंग शुरू कर दी है"
             },
-            "waitingList": "प्रतीक्षा सूची"
+            "waitingList": "प्रतीक्षा सूची",
+            "lowerAllHands": "सभी उठे हुए हाथ नीचे करें",
+            "raiseHand": "{{numberOfHandRaised}} ने हाथ उठाए"
         },
         "snackbar": {
-            "waitingInfo": "ऐसा लग रहा है कि Waiting Room में कोई है"
+            "waitingInfo": "ऐसा लग रहा है कि Waiting Room में कोई है",
+            "autoHandDown": "ऐसा लगता है कि आप कुछ कह रहे हैं, इसलिए आपका हाथ नीचे कर दिया जाएगा।",
+            "someoneRaisedHand": "किसी ने अपना हाथ उठाया",
+            "handLoweredByModerator": "एक संयोजक ने आपका हाथ नीचे कर दिया"
         },
         "browserNotification": {
             "waitingMessage": "नया यूजर मीटिंग में प्रवेश करने के लिए प्रतीक्षा कर रहा है"
@@ -464,13 +486,16 @@
                 "hangUp": "आप प्रतीक्षा कक्ष से बाहर चले गए!",
                 "notAuthenticatedUser": "आप प्रमाणित नहीं हैं",
                 "meetingNotFound": "आप जिस मीटिंग की तलाश कर रहे हैं वह मौजूद नहीं है",
-                "rejected": "आपकी पहुंच अस्वीकृत कर दी गई है"
+                "rejected": "आपकी पहुंच अस्वीकृत कर दी गई है",
+                "invalidWaiting": "बैठक में कोई संयोजक नहीं हैं",
+                "generalError": "ओह! आप बैठक से चले गए।"
             },
             "slogan": {
                 "hangUp": "शायद अगली बार",
                 "rejected": "शायद अगली बार",
                 "meetingNotFound": "बाद में प्रयास करें",
-                "notAuthenticatedUser": "बैठक तक पहुंचने के लिए लॉग इन करें"
+                "notAuthenticatedUser": "बैठक तक पहुंचने के लिए लॉग इन करें",
+                "invalidWaiting": "बाद में पुनः प्रयास करें"
             },
             "description": {
                 "meetingNotFound": "कृपया मीटिंग लिंक जांचें और पुनः प्रयास करें",
