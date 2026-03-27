@@ -327,7 +327,18 @@
         "expandCarousel": "बड़ा करें",
         "unpinVideo": "विडियो अनपिन करें",
         "bottomOfList": "सूची का निचला भाग",
-        "collapseSidebar": "साइडबार को सिकोड़ें"
+        "collapseSidebar": "साइडबार को सिकोड़ें",
+        "expandSidebar": "साइडबार विस्तारित करें",
+        "participantMuted": "यह भागीदार म्यूट है",
+        "removeToAddNewOne": "नए सदस्यों को जोड़ने के लिए किसी को हटाएँ।",
+        "scrollDown": "नीचे स्क्रॉल करें",
+        "scrollUp": "ऊपर स्क्रॉल करें",
+        "topOfList": "सूची के शीर्ष पर",
+        "youAreAlreadyMuted": "आप बोलने से अवरुद्ध हैं",
+        "reactions": "प्रतिक्रियाएं",
+        "moreReactions": "अधिक प्रतिक्रियाएं",
+        "virtualActions": "वर्चुअल रूम क्रियाएं",
+        "moreActions": "और क्रियाएँ"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} बनाया गया!",
@@ -593,5 +604,26 @@
     "snackbar": {
         "mutedByModerator": "मॉडरेटर ने आपका माइक बंद कर दिया है, बोलने के लिए अपना माइक चालू करें"
     },
-    "keepInTouchWithColleagues": "अपने सहकर्मियों के साथ संपर्क बनाए रखें या अपने समूह के मीटिंग रूम में शामिल हों"
+    "keepInTouchWithColleagues": "अपने सहकर्मियों के साथ संपर्क बनाए रखें या अपने समूह के मीटिंग रूम में शामिल हों",
+    "interactions": {
+        "micDevice": "माइक्रोफोन उपकरण।",
+        "camDevice": "कैमरा उपकरण"
+    },
+    "welcomePage": {
+        "description": "इस बैठक में शामिल होने के लिए अपना नाम दर्ज करें",
+        "journeyDescription": "आपको इंतजार कक्ष में रीडायरेक्ट किया जाएगा, जहां एक मॉडरेटर आपकी पहुंच को मंजूरी देगा।",
+        "loginButton": "अपने लॉगिन पेज पर जाएं",
+        "title": "\"{{title}}\" वर्चुअल कक्ष में आपका स्वागत है",
+        "joinAsGuest": "मेहमान के रूप में जुड़ें",
+        "inputPlaceholder": "अपना नाम दर्ज करें",
+        "alreadyHaveAccount": "क्या आपके पास पहले से खाता है? अपने लॉगिन विवरण का उपयोग करके पहुँचें।",
+        "waitingForModerator": "एक मॉडरेटर आपको कुछ क्षणों में बैठक में प्रवेश करने देगा।"
+    },
+    "configurationMessages": {
+        "member": {
+            "roomPictureDeleted": "{{name}} ने {{roomName}} का डिफ़ॉल्ट चित्र पुनर्स्थापित कर दिया।",
+            "roomNameChanged": "{{name}} ने \"<i>{{roomName}}</i>\" में इस ग्रुप का नाम बदल दिया",
+            "roomPictureUpdated": "{{name}} ने {{roomName}}की फोटो बदल दी"
+        }
+    }
 }
