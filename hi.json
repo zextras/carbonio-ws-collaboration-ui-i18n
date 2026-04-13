@@ -137,7 +137,12 @@
             "copyLink": "वर्चुअल रूम का लिंक कॉपी करें"
         },
         "save": "सेव करें",
-        "newVirtual": "नया आभासी कमरा"
+        "newVirtual": "नया आभासी कमरा",
+        "showMore": "और दिखाएं…",
+        "hide": "छुपाएँ",
+        "pin": "संदेश को पिन करें",
+        "unpin": "संदेश को अनपिन करें",
+        "exportMessages": "संदेश निर्यात करें"
     },
     "conversation": {
         "keepInTouchTitle": "चलिए हम संपर्क में रहते हैं!",
@@ -254,7 +259,16 @@
         "leaveAndDelete": "ग्रुप छोड़ें और डिलीट कर दें",
         "leaveRoomLabel": "क्या आप वाकई में इस रूम को छोड़ना चाहते हैं?",
         "muteForAllDescription": "उपयोगकर्ता को म्यूट करने से, सभी प्रतिभागी अब उपयोगकर्ता को नहीं सुन पाएंगे। केवल म्यूट किया गया उपयोगकर्ता ही अनम्यूट कर सकता है। आगे बढ़ना?",
-        "deleteGroupMeetingOngoingLabel": "वर्तमान में एक सक्रिय मीटिंग चल रही है। समूह को हटाने से मीटिंग बिना किसी चेतावनी के समाप्त हो जाएगी।"
+        "deleteGroupMeetingOngoingLabel": "वर्तमान में एक सक्रिय मीटिंग चल रही है। समूह को हटाने से मीटिंग बिना किसी चेतावनी के समाप्त हो जाएगी।",
+        "replacePinMessage": "पिन किए गए संदेश को बदलें",
+        "replacePinConfirm": "हाँ, पिन बदलें",
+        "replacePinCancel": "नहीं, रद्द करें",
+        "replacePinDescription": "इस बातचीत में पहले से ही एक पिन किया गया संदेश मौजूद है। एक समय में केवल एक ही संदेश पिन किया जा सकता है। क्या आप इसे इस संदेश से बदलना चाहते हैं?",
+        "clearHistoryTitle": "इतिहास साफ करें",
+        "clearHistoryForAllDescription": "यह सभी प्रतिभागियों के लिए इस कमरे में सभी संदेशों और साझा की गई फ़ाइलों को स्थायी रूप से हटा देगा।",
+        "clearHistoryWarning": "यह क्रिया वापस नहीं की जा सकती है।",
+        "clearHistoryCancel": "नहीं, रद्द करें",
+        "clearHistoryConfirm": "हाँ, इतिहास साफ़ करें"
     },
     "participantsList": {
         "closeSearch": "सर्च बंद करें",
@@ -338,7 +352,9 @@
         "reactions": "प्रतिक्रियाएं",
         "moreReactions": "अधिक प्रतिक्रियाएं",
         "virtualActions": "वर्चुअल रूम क्रियाएं",
-        "moreActions": "और क्रियाएँ"
+        "moreActions": "और क्रियाएँ",
+        "pinnedMessage": "स्थायी संदेश",
+        "unpinMessage": "संदेश को अनपिन करें"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} बनाया गया!",
@@ -582,6 +598,15 @@
             "speaking": "{{userName}} बोल रहा है।",
             "close": "पिप अक्षम करें",
             "trigger": "पिप सक्षम करें"
+        },
+        "micTest": {
+            "microphoneWorking": "माइक्रोफोन सही तरीके से काम कर रहा है",
+            "noSoundDetected": "कोई ध्वनि नहीं पकड़ी गई। रिकॉर्डिंग के दौरान बोलें या अपने माइक्रोफ़ोन की जाँच करें।",
+            "turnOnMicrophone": "अपने माइक्रोफ़ोन को चालू करें और इसे परीक्षण करें",
+            "startMicTestAgain": "माइक्रोफ़ोन परीक्षण फिर से शुरू करें",
+            "startMicTest": "माइक्रोफोन टेस्ट शुरू करें",
+            "recordingYourVoice": "आपकी आवाज रिकॉर्ड करना",
+            "playingBack": "प्लेबैक हो रहा है"
         }
     },
     "external": {
@@ -625,14 +650,22 @@
             "roomNameChanged": "{{name}} ने \"<i>{{roomName}}</i>\" में इस ग्रुप का नाम बदल दिया",
             "roomPictureUpdated": "{{name}} ने {{roomName}}की फोटो बदल दी",
             "roomTopicChanged": "{{name}} ने {{roomName}} का विषय बदलकर \"<i>{{topicName}}</i>\" कर दिया।",
-            "roomTopicRemoved": "{{name}} ने {{roomName}} का विषय हटा दिया।"
+            "roomTopicRemoved": "{{name}} ने {{roomName}} का विषय हटा दिया।",
+            "pinMessage": "{{actionMakerUsername}} ने एक संदेश पिन किया",
+            "unpinMessage": "{{actionMakerUsername}} ने एक संदेश को अनपिन किया"
         },
         "user": {
             "roomNameChanged": "आप ने इस समूह का शीर्षक बदल दिया है \"<i>{{roomName}}</i>\" में।",
             "roomPictureDeleted": "आपने डिफ़ॉल्ट {{roomName}}'s छवि को पुनर्स्थापित किया है।",
             "roomPictureUpdated": "आपने {{roomName}} की छवि बदल दी।",
             "roomTopicChanged": "आपने \"<i>{{topicName}}</i>\" में {{roomName}} का विषय बदल दिया।",
-            "roomTopicRemoved": "आपने {{roomName}} के विषय को हटा दिया है।"
+            "roomTopicRemoved": "आपने {{roomName}} के विषय को हटा दिया है।",
+            "pinMessage": "आपने एक संदेश पिन किया है",
+            "unpinMessage": "आपने एक संदेश को अनपिन कर दिया",
+            "clearHistory": "आपने चैट इतिहास साफ़ कर दिया है"
+        },
+        "moderator": {
+            "clearHistory": "चैट इतिहास को {{actionMakerUsername}} द्वारा साफ़ कर दिया गया है।"
         }
     },
     "appointment": {
@@ -681,8 +714,35 @@
             "modal": {
                 "warning": "महत्वपूर्ण: आप एक नया समूह बना रहे हैं जिसका शीर्षक, विषय, सदस्य और मॉडरेटर भूमिका मूल आइटम के समान होगी। हालांकि, यह क्रिया <strong> </strong> का एक प्रतिलिपि <strong> वार्ता इतिहास </strong> नहीं बनाती है।",
                 "subtitle": "आप इस आइटम को नए चैट्स मॉड्यूल में एक समूह में बदलने वाले हैं।",
-                "title": "{{roomName}} को समूह में परिवर्तित करें"
+                "title": "{{roomName}} को समूह में परिवर्तित करें",
+                "caption": "रूपांतरण पूरा होने के बाद, आप स्वचालित रूप से नए मॉड्यूल पर निर्देशित किए जाएंगे।"
+            },
+            "alreadyMigrate": {
+                "description": "नए मॉड्यूल पर जाने के लिए बटन पर क्लिक करें और इस आइटम की डुप्लिकेट कॉपी का उपयोग करें।",
+                "title": "यह आइटम पहले से ही परिवर्तित किया जा चुका है"
             }
         }
+    },
+    "readBy": {
+        "title": "द्वारा देखा गया:"
+    },
+    "browserNotification": {
+        "reaction": {
+            "group": "{{userName}} ने आपके संदेश की प्रतिक्रिया दी:",
+            "chat": "आपके संदेश का जवाब दिया गया है:"
+        }
+    },
+    "searchPanel": {
+        "keepSearching": "खोज जारी रखें!",
+        "singlePlaceholder": "{{personName}} के साथ संदेश खोजें",
+        "clearTooltip": "सर्च साफ़ करें",
+        "inputPlaceholder": "संदेश खोजें",
+        "noResults": "ऐसा लगता है कि कोई परिणाम नहीं हैं।",
+        "groupPlaceholder": "{{roomName}} में संदेश खोजें",
+        "searching": "खोज रहा है..।",
+        "errorSnackbar": "कुछ खोज में गलत हो गया है। कृपया पुनः प्रयास करें।"
+    },
+    "label": {
+        "app_name": "चैट्स"
     }
 }
