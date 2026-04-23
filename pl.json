@@ -182,7 +182,7 @@
                 },
                 "firstAccess": {
                     "title": "Nic tam nie ma.",
-                    "callToAction": "Udaj się do Czatów i zacznij współpracować!",
+                    "callToAction": "Przejdź do Czatów i zacznij współpracować!",
                     "description": "Twoje dwuosobowe i grupowe konwersacje pojawią się tutaj w formie listy."
                 }
             },
@@ -639,7 +639,7 @@
     "welcomePage": {
         "journeyDescription": "Zostaniesz przekierowany do poczekalni, gdzie moderator zaakceptuje Twoje dołączenie.",
         "description": "Wprowadź Twoje imię, aby dołączyć do spotkania",
-        "loginButton": "UDAJ SIĘ NA STRONĘ LOGOWANIA",
+        "loginButton": "PRZEJDŹ NA STRONĘ LOGOWANIA",
         "title": "Witaj w wirtualnym pokoju \"{{title}}\"",
         "joinAsGuest": "Dołącz jako gość",
         "inputPlaceholder": "Wprowadź Twoje imię",
@@ -672,7 +672,7 @@
     },
     "appointment": {
         "placeholder": {
-            "title": "Możesz udać się do Czatów i stworzyć wirtualny pokój, aby zorganizować Twoje spotkanie.",
+            "title": "Możesz przejść do Czatów i stworzyć wirtualny pokój, aby zorganizować Twoje spotkanie.",
             "description": "Kiedy wrócisz, tutaj znajdziesz Twoje wirtualne pokoje."
         },
         "input": {
