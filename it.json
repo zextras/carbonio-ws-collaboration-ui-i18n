@@ -527,7 +527,8 @@
                 "meetingNotFound": "La riunione che stai cercando non esiste",
                 "notAuthenticatedUser": "Non sei autenticato",
                 "invalidWaiting": "Non ci sono moderatori in questa riunione",
-                "generalError": "Oh no! Hai lasciato la riunione."
+                "generalError": "Oh no! Hai lasciato la riunione.",
+                "meetingDeclined": "Chiamata rifiutata"
             },
             "slogan": {
                 "hangUp": "Magari un'altra volta",
@@ -535,7 +536,8 @@
                 "meetingNotFound": "Riprova più tardi",
                 "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE ALLA RIUNIONE",
                 "invalidWaiting": "Riprova più tardi",
-                "generalError": "PER FAVORE, PROVA A PARTECIPARE DI NUOVO"
+                "generalError": "PER FAVORE, PROVA A PARTECIPARE DI NUOVO",
+                "meetingDeclined": "Chiamata terminata"
             },
             "description": {
                 "rejected": "I moderatori hanno deciso di negarti l'accesso alla riunione",
@@ -543,7 +545,8 @@
                 "meetingNotFound": "Controlla il link della riunione e riprova",
                 "notAuthenticatedUser": "Non puoi partecipare alla riunione se non sei autenticato con il tuo account",
                 "invalidWaiting": "Il tuo accesso alla riunione dev'essere accettato da un moderatore.",
-                "generalError": "Qualcosa è andato storto."
+                "generalError": "Qualcosa è andato storto.",
+                "meetingDeclined": "{{userName}} ha rifiutato la chiamata"
             },
             "feedback": {
                 "caption": "Ci permette di migliorare :)",
@@ -644,7 +647,9 @@
             "roomTopicChanged": "{{name}} ha cambiato l'argomento di {{roomName}} in \"<i>{{topicName}}</i>\".",
             "roomTopicRemoved": "{{name}} ha rimosso l'argomento di {{roomName}}.",
             "pinMessage": "{{actionMakerUsername}} ha fissato un messaggio",
-            "unpinMessage": "{{actionMakerUsername}} ha rimosso un messaggio fissato"
+            "unpinMessage": "{{actionMakerUsername}} ha rimosso un messaggio fissato",
+            "meetingStarted": "{{name}} ti ha chiamato alle {{time}}",
+            "meetingDeclined": "{{name}} ha rifiutato la chiamata alle {{time}}"
         },
         "user": {
             "roomPictureUpdated": "Hai cambiato l'immagine di {{roomName}}.",
@@ -654,11 +659,14 @@
             "roomTopicRemoved": "Hai rimosso l'argomento di {{roomName}}.",
             "pinMessage": "Hai fissato un messaggio",
             "unpinMessage": "Hai rimosso un messaggio fissato",
-            "clearHistory": "Hai cancellato la cronologia della chat"
+            "clearHistory": "Hai cancellato la cronologia della chat",
+            "meetingStarted": "Hai chiamato alle {{time}}",
+            "meetingDeclined": "Hai rifiutato la chiamata alle {{time}}"
         },
         "moderator": {
             "clearHistory": "La cronologia della chat è stata cancellata da {{actionMakerUsername}}."
-        }
+        },
+        "meetingEnded": "Chiamata terminata alle {{time}}"
     },
     "welcomePage": {
         "journeyDescription": "Verrai reindirizzato alla Stanza d'attesa dove un moderatore approverà il tuo accesso.",
