@@ -454,7 +454,8 @@
                 "meetingNotFound": "Spróbuj później",
                 "notAuthenticatedUser": "ZALOGUJ SIĘ, ABY UCZESTNICZYĆ W SPOTKANIU",
                 "invalidWaiting": "Spróbuj ponownie później",
-                "generalError": "SPRÓBUJ DOŁĄCZYĆ JESZCZE RAZ"
+                "generalError": "SPRÓBUJ DOŁĄCZYĆ JESZCZE RAZ",
+                "meetingDeclined": "Rozmowa zakończona"
             },
             "description": {
                 "rejected": "Moderatorzy zdecydowali się odrzucić Twoją prośbę o dołączenie do spotkania",
@@ -462,7 +463,8 @@
                 "meetingNotFound": "Sprawdź link do spotkania i spróbuj ponownie",
                 "notAuthenticatedUser": "Nie możesz dołączyć do spotkania jeśli nie jesteś zalogowany",
                 "invalidWaiting": "Aby dołączyć do tego spotkania, moderator musi Cię zaakceptować.",
-                "generalError": "Coś poszło nie tak."
+                "generalError": "Coś poszło nie tak.",
+                "meetingDeclined": "{{userName}} odrzucił(a) rozmowę"
             },
             "title": {
                 "hangUp": "Opuściłeś poczekalnię!",
@@ -470,7 +472,8 @@
                 "meetingNotFound": "Spotkanie, którego szukasz nie istnieje",
                 "notAuthenticatedUser": "Nie jesteś zalogowany",
                 "invalidWaiting": "Na spotkaniu nie ma moderatorów",
-                "generalError": "Opuściłeś spotkanie."
+                "generalError": "Opuściłeś spotkanie.",
+                "meetingDeclined": "Rozmowa odrzucona"
             },
             "feedback": {
                 "caption": "Pomaga nam się rozwijać :)",
@@ -655,7 +658,9 @@
             "roomNameChanged": "Zmieniłeś tytuł tej grupy w \"<i>{{roomName}}</i>\".",
             "pinMessage": "Przypiąłeś wiadomość",
             "unpinMessage": "Odpiąłeś wiadomość",
-            "clearHistory": "Usunąłeś historię czatu"
+            "clearHistory": "Usunąłeś historię czatu",
+            "meetingStarted": "Zadzwoniłeś o {{time}}",
+            "meetingDeclined": "Odrzuciłeś rozmowę o {{time}}"
         },
         "member": {
             "roomPictureUpdated": "Użytkownik {{name}} zmienił obraz {{roomName}}.",
@@ -664,11 +669,14 @@
             "roomTopicChanged": "Użytkownik {{name}} zmienił temat {{roomName}} w \"<i>{{topicName}}</i>\".",
             "roomNameChanged": "Użytkownik {{name}} zmienił tytuł tej grupy w \"<i>{{roomName}}</i>\".",
             "pinMessage": "Użytkownik {{actionMakerUsername}} przypiął wiadomość",
-            "unpinMessage": "Użytkownik {{actionMakerUsername}} odpiął wiadomość"
+            "unpinMessage": "Użytkownik {{actionMakerUsername}} odpiął wiadomość",
+            "meetingStarted": "{{name}} zadzwonił(a) do Ciebie o {{time}}",
+            "meetingDeclined": "{{name}} odrzucił(a) rozmowę o {{time}}"
         },
         "moderator": {
             "clearHistory": "Historia czatu została usunięta przez {{actionMakerUsername}}."
-        }
+        },
+        "meetingEnded": "Rozmowa zakończona o {{time}}"
     },
     "appointment": {
         "placeholder": {
