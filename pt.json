@@ -203,7 +203,8 @@
             }
         },
         "displayer": {
-            "description": "Interaja, comunique-se e colabore com seus colegas compartilhando informações e anexos."
+            "description": "Interaja, comunique-se e colabore com seus colegas compartilhando informações e anexos.",
+            "title": "Escolha um bate-papo para começar a enviar mensagens"
         }
     },
     "conversationInfo": {
@@ -214,7 +215,8 @@
         "name": "Nome",
         "status": "Status",
         "title": "Título",
-        "topic": "Assunto"
+        "topic": "Assunto",
+        "search": "Buscar"
     },
     "date": {
         "yesterday": "Ontem",
@@ -398,7 +400,8 @@
             "disabled": "Existem problemas de conexão, tente novamente mais tarde.",
             "handDown": "Abaixe a mão",
             "handUp": "Levante a mão",
-            "browserPermission": "Conceda permissões de navegador para habilitar recursos"
+            "browserPermission": "Conceda permissões de navegador para habilitar recursos",
+            "unknownDevice": "Dispositivo desconhecido"
         },
         "joinMeeting": "Ingressar na reunião",
         "newMeetingNotification": {
@@ -409,8 +412,8 @@
         },
         "virtual": {
             "deleteTooltip": "Excluir Sala Virtual",
-            "creationInput": "Nome da Nova Sala Virtual",
-            "buttonLabel": "suas salas virtuais",
+            "creationInput": "Nome da Sala Virtual",
+            "buttonLabel": "Suas salas virtuais",
             "nameRequiredTooltip": "O nome da Sala Virtual é necessário",
             "createTooltip": "Criar nova Sala Virtual",
             "invalidNameTooltip": "Nome inválido",
@@ -456,7 +459,7 @@
             },
             "recording": {
                 "title": "Gravando",
-                "description": "A gravação será salva no espaço Files do moderador que a parou.",
+                "description": "A gravação será salva no espaço Files do moderador que a iniciou.",
                 "moderatorInfo": "iniciou a gravação",
                 "additionalDescription": "Se algo der errado, a gravação será salva no espaço Arquivos do moderador que a iniciou.",
                 "action": {
@@ -465,12 +468,14 @@
                 }
             },
             "waitingList": "Lista de espera",
-            "lowerAllHands": "Abaixe todas as mãos levantadas"
+            "lowerAllHands": "Abaixe todas as mãos levantadas",
+            "raiseHand": "{{numberOfHandRaised}} mãos levantadas"
         },
         "snackbar": {
             "waitingInfo": "Parece que tem alguém na sala de espera de {{roomName}}.",
             "someoneRaisedHand": "Alguém levantou a mão",
-            "handLoweredByModerator": "Um moderador abaixou a sua mão"
+            "handLoweredByModerator": "Um moderador abaixou a sua mão",
+            "autoHandDown": "Parece que você está dizendo algo, então sua mão será abaixada."
         },
         "browserNotification": {
             "waitingMessage": "Novo usuário está aguardando para entrar na reunião"
@@ -529,7 +534,8 @@
             "feedback": {
                 "description": "Sua opinião é importante para nós!",
                 "caption": "Isso nos ajuda a continuar melhorando :)",
-                "thankYou": "OBRIGADO PELO SEU FEEDBACK!"
+                "thankYou": "OBRIGADO PELO SEU FEEDBACK!",
+                "title": "Conte-nos o que você achou da sua experiência com a reunião."
             }
         },
         "noMoreActiveSession": "Não pode haver mais de uma sessão ativa da mesma reunião",
@@ -551,8 +557,9 @@
         "waitingParticipants": "Esperando os participantes entrarem…",
         "recordingStop": {
             "successSnackbar": {
-                "stopper": "Você vai encontrar {{recordingName}} em {{folderName}} assim que estiver disponível",
-                "participants": "{{userName}} parou o registro desta reunião"
+                "stopper": "Você vai encontrar a gravação em {{folderName}} assim que estiver disponível",
+                "participants": "{{userName}} parou o registro desta reunião",
+                "general": "Gravação interrompida com sucesso"
             },
             "failureSnackbar": "Não é possível interromper o registro, fale com seu administrador do sistema."
         },
@@ -569,9 +576,9 @@
         "openedInAnotherWindow": "Esta reunião já está aberta em outra janela",
         "ongoingOneToOneMeetingTooltip": "Você já tem uma reunião ativa com {{name}}",
         "participantsList": {
-            "title_one": "Participante de uma reunião",
-            "title_many": "Participantes de {{count}} reuniões",
-            "title_other": "Participantes de {{count}} reuniões"
+            "title_one": "1 Participante",
+            "title_many": "{{count}} Participantes",
+            "title_other": "{{count}} Participantes"
         },
         "visualEffects": {
             "title": "Efeitos Visuais",
