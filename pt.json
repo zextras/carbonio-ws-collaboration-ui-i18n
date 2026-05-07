@@ -168,7 +168,8 @@
             "shareLink": "Compartilhar link público"
         },
         "upload": {
-            "tooLarge": "A imagem selecionada é muito grande. Por favor, envie um arquivo menor que {{size}} MB."
+            "tooLarge": "A imagem selecionada é muito grande. Por favor, envie um arquivo menor que {{size}} MB.",
+            "genericError": "Ocorreu um problema ao fazer o upload da imagem. Por favor, tente novamente."
         }
     },
     "conversation": {
@@ -394,7 +395,10 @@
             },
             "selectedDeviceTooltip": "Dispositivo selecionado",
             "userHint": "Ligue a câmera para selecionar um efeito de vídeo",
-            "disabled": "Existem problemas de conexão, tente novamente mais tarde."
+            "disabled": "Existem problemas de conexão, tente novamente mais tarde.",
+            "handDown": "Abaixe a mão",
+            "handUp": "Levante a mão",
+            "browserPermission": "Conceda permissões de navegador para habilitar recursos"
         },
         "joinMeeting": "Ingressar na reunião",
         "newMeetingNotification": {
@@ -419,7 +423,8 @@
                 "onlyUser": "Você é o único participante ativo.",
                 "singleActive": "Um participante ativo.",
                 "multipleActive": "{{numberOfParticipants}} participantes ativos.",
-                "userWithOthers": "Você e outros {{numberOfParticipants}} participantes ativos."
+                "userWithOthers": "Você e outros {{numberOfParticipants}} participantes ativos.",
+                "widget": "Participantes ativos:"
             },
             "startPrompt": "Inicie uma reunião nesta Sala Virtual.",
             "modal": {
@@ -428,20 +433,26 @@
                 "moderator": {
                     "description": "Você vai moderar esta Sala. O moderador adicional será adicionado como colaborador com os mesmos privilégios.",
                     "input": "Moderadores da Sala"
+                },
+                "edit": {
+                    "tile": "Editar Sala Virtual \"{{roomName}}\"",
+                    "title": "Editar Sala Virtual \"{{roomName}}\""
                 }
             },
             "moderators": {
                 "onlyUser": "Você é o único moderador.",
                 "singleAdditional": "e outro moderador.",
                 "multipleAdditional": "e outros {{numberOfModerators}} moderadores.",
-                "onlyModerator": "é o único moderador."
+                "onlyModerator": "é o único moderador.",
+                "widget": "Moderadores da Sala Virtual:"
             }
         },
         "sidebar": {
             "waitingCaption": "Aguardando para entrar",
             "tooltip": {
                 "waitingAccept": "Permitir a entrada do usuário",
-                "waitingReject": "Rejeitar usuário"
+                "waitingReject": "Rejeitar usuário",
+                "lowerUserHand": "Abaixe a mão de {{memberName}}"
             },
             "recording": {
                 "title": "Gravando",
@@ -453,10 +464,13 @@
                     "stop": "PARAR GRAVAÇÃO"
                 }
             },
-            "waitingList": "Lista de espera"
+            "waitingList": "Lista de espera",
+            "lowerAllHands": "Abaixe todas as mãos levantadas"
         },
         "snackbar": {
-            "waitingInfo": "Parece que tem alguém na sala de espera de {{roomName}}."
+            "waitingInfo": "Parece que tem alguém na sala de espera de {{roomName}}.",
+            "someoneRaisedHand": "Alguém levantou a mão",
+            "handLoweredByModerator": "Um moderador abaixou a sua mão"
         },
         "browserNotification": {
             "waitingMessage": "Novo usuário está aguardando para entrar na reunião"
@@ -514,7 +528,8 @@
             },
             "feedback": {
                 "description": "Sua opinião é importante para nós!",
-                "caption": "Isso nos ajuda a continuar melhorando :)"
+                "caption": "Isso nos ajuda a continuar melhorando :)",
+                "thankYou": "OBRIGADO PELO SEU FEEDBACK!"
             }
         },
         "noMoreActiveSession": "Não pode haver mais de uma sessão ativa da mesma reunião",
@@ -562,6 +577,9 @@
             "title": "Efeitos Visuais",
             "default": "Nenhum",
             "blur": "Borrar"
+        },
+        "pip": {
+            "noTalking": "Ninguém está falando no momento."
         }
     },
     "tryLater": "Tente mais tarde",
