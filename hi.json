@@ -221,7 +221,7 @@
         "deletedMessage": "डिलीट किया मैसेज",
         "draft": "ड्राफ़्ट",
         "edited": "एडिट किया",
-        "originallySentBy": "मूलतः द्वारा भेजा गया:",
+        "originallySentBy": "<strong>मूल रूप से भेजा गया: </strong> {{forwardUsername}} ({{messageDate}} - {{messageTime}})",
         "forwardedMultipleTimes": "कई बार फॉरवर्ड किया गया"
     },
     "modal": {
@@ -255,7 +255,7 @@
         "leaveGroupLabel": "क्या आप वाकई में इस ग्रुप को छोड़ना चाहते हैं?",
         "leaveRoom": "रूम छोड़ें",
         "clearHistoryDescription": "आप अपनी बात-चीत की हिस्ट्री साफ करने वाले हैं, याद रखें कि इस काम को वापस नहीं लिया जा सकेगा।",
-        "deleteMessageTitleDescription": "यदि आप मैसेज की पूरी कंटेन्ट को हटा देंगे तो इसके बाद यह उपलब्ध नहीं होगा और इसलिए डिलीट कर दिया जाएगा।",
+        "deleteMessageTitleDescription": "आप संदेश को हटा रहे हैं, यह अब उपलब्ध नहीं रहेगा।",
         "leaveAndDelete": "ग्रुप छोड़ें और डिलीट कर दें",
         "leaveRoomLabel": "क्या आप वाकई में इस रूम को छोड़ना चाहते हैं?",
         "muteForAllDescription": "उपयोगकर्ता को म्यूट करने से, सभी प्रतिभागी अब उपयोगकर्ता को नहीं सुन पाएंगे। केवल म्यूट किया गया उपयोगकर्ता ही अनम्यूट कर सकता है। आगे बढ़ना?",
@@ -481,7 +481,7 @@
             "raiseHand": "{{numberOfHandRaised}} ने हाथ उठाए"
         },
         "snackbar": {
-            "waitingInfo": "ऐसा लग रहा है कि Waiting Room में कोई है",
+            "waitingInfo": "ऐसा लगता है कि {{roomName}} के वेटिंग रूम में कोई मौजूद है।",
             "autoHandDown": "ऐसा लगता है कि आप कुछ कह रहे हैं, इसलिए आपका हाथ नीचे कर दिया जाएगा।",
             "someoneRaisedHand": "किसी ने अपना हाथ उठाया",
             "handLoweredByModerator": "एक संयोजक ने आपका हाथ नीचे कर दिया"
@@ -534,8 +534,8 @@
         "noTwoActiveSession": "एक ही बैठक के दो सक्रिय सत्र एक साथ नहीं रह सकते",
         "joinMeetingDescription": "आप इस मीटिंग में कैसे शामिल होना चाहते हैं?",
         "participantsList": {
-            "title_one": "एक मीटिंग का प्रतिभागी",
-            "title_other": "बैठक के प्रतिभागियों की {{count}}"
+            "title_one": "एक प्रतिभागी",
+            "title_other": "प्रतिभागियों {{count}}"
         },
         "startMeeting": "मिलना शुरू करें",
         "startModal": {
