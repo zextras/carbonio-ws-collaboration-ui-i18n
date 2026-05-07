@@ -448,7 +448,8 @@
                 "multipleAdditional": "e outros {{numberOfModerators}} moderadores.",
                 "onlyModerator": "é o único moderador.",
                 "widget": "Moderadores da Sala Virtual:"
-            }
+            },
+            "newRoom": "Criar nova Sala Virtual"
         },
         "sidebar": {
             "waitingCaption": "Aguardando para entrar",
