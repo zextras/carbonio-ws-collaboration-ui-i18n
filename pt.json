@@ -239,11 +239,14 @@
         "searchMembers": "Buscar membros",
         "noMatch": {
             "all": "Não há usuários que correspondam a essa pesquisa em seus chats existentes ou em sua empresa.",
-            "chatList": "Não há usuários que correspondam a essa pesquisa em seus chats existentes."
+            "chatList": "Não há usuários que correspondam a essa pesquisa em seus chats existentes.",
+            "general": "Sua busca não retornou resultados. Tente outra palavra-chave.",
+            "gal": "Não há itens que correspondam a esta pesquisa na sua empresa."
         },
         "creationList": {
             "title": "Crie um novo chat com:",
-            "searchFailure": "Parece haver um problema com sua pesquisa. Tente novamente."
+            "searchFailure": "Parece haver um problema com sua pesquisa. Tente novamente.",
+            "loadMore": "Mostrar mais usuários"
         },
         "searchParticipants": "Buscar participantes"
     },
@@ -279,7 +282,7 @@
         "room": {
             "deletedImageCorrectly": "O avatar do grupo foi redefinido com sucesso para o original",
             "deletedUserImageCorrectly": "O avatar foi redefinido com sucesso para o original",
-            "pictureSizeTooLarge": "Algo deu errado. Lembre-se de que o tamanho máximo da imagem de avatar de um grupo é {{size}}kb",
+            "pictureSizeTooLarge": "Algo deu errado. Lembre-se de que o tamanho máximo da imagem de avatar de um grupo é {{size}}MB",
             "updatedPictureCorrectly": "O novo avatar foi carregado com sucesso"
         },
         "meetings": {
@@ -291,7 +294,10 @@
             "inputLabel": "Pasta de destino",
             "browseAction": "EXPLORAR",
             "resetAction": "REDEFINIR",
-            "description": "Defina uma pasta personalizada para salvar as gravações das reuniões interrompidas."
+            "description": "Defina uma pasta personalizada para salvar as gravações das reuniões que você iniciar.",
+            "dialog": {
+                "title": "Selecionar pasta"
+            }
         },
         "export": {
             "caption": "Exportar chats com muito conteúdo pode demorar um pouco.",
