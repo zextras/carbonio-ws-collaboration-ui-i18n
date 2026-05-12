@@ -43,7 +43,9 @@
             "copyLink": "Copiar link da Sala Virtual",
             "deleteRoom": "Apagar Sala Virtual"
         },
-        "save": "Salvar"
+        "save": "Salvar",
+        "showMore": "Mostrar mais",
+        "hide": "Ocultar"
     },
     "feedback": {
         "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
@@ -155,7 +157,9 @@
         "moreReactions": "Mais reações",
         "reactions": "Reações",
         "virtualActions": "Ações da Sala Virtual",
-        "moreActions": "Mais Ações"
+        "moreActions": "Mais Ações",
+        "pinnedMessage": "Mensagem fixada",
+        "unpinMessage": "Desafixar mensagem"
     },
     "attachments": {
         "addFromLocal": "Adicionar do Meu Computador",
@@ -597,6 +601,15 @@
         },
         "pip": {
             "noTalking": "Ninguém está falando no momento."
+        },
+        "micTest": {
+            "microphoneWorking": "O microfone está funcionando corretamente",
+            "noSoundDetected": "Nenhum som detectado. Fale durante a gravação ou verifique seu microfone",
+            "turnOnMicrophone": "Ligue o microfone para testá-lo",
+            "startMicTestAgain": "Iniciar o teste do microfone novamente",
+            "startMicTest": "Iniciar o teste do microfone",
+            "recordingYourVoice": "Gravando sua voz",
+            "playingBack": "Reproduzindo..."
         }
     },
     "tryLater": "Tente mais tarde",
@@ -614,14 +627,17 @@
             "roomPictureDeleted": "{{name}} restaurou a imagem padrão de {{roomName}}.",
             "roomPictureUpdated": "{{name}} alterou a imagem de {{roomName}}.",
             "roomNameChanged": "{{name}} alterou o título deste Grupo em \"<i>{{roomName}}</i>\".",
-            "roomTopicChanged": "{{name}} alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\"."
+            "roomTopicChanged": "{{name}} alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\".",
+            "pinMessage": "{{actionMakerUsername}} fixou uma mensagem"
         },
         "user": {
             "roomTopicRemoved": "Você removeu o assunto de {{roomName}}.",
             "roomPictureUpdated": "Você alterou a imagem de {{roomName}}.",
             "roomPictureDeleted": "Você restaurou a imagem padrão de {{roomName}}.",
             "roomNameChanged": "Você alterou o título deste Grupo em \"<i>{{roomName}}</i>\".",
-            "roomTopicChanged": "Você alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\"."
+            "roomTopicChanged": "Você alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\".",
+            "pinMessage": "Você fixou uma mensagem",
+            "unpinMessage": "Você desafixou uma mensagem"
         }
     },
     "welcomePage": {
@@ -637,11 +653,15 @@
     "appointment": {
         "input": {
             "defaultValue": "Nenhuma Sala Virtual selecionada.",
-            "limitedOption": "acesso limitado"
+            "limitedOption": "acesso limitado",
+            "label": "Sala Virtual"
         },
         "placeholder": {
             "title": "Você pode acessar o Chats e criar uma Sala Virtual para o seu compromisso.",
             "description": "Você encontrará suas Salas Virtuais aqui quando retornar."
+        },
+        "virtual": {
+            "managementHint": "Você pode editar ou excluir suas Salas Virtuais no módulo de Chat."
         }
     },
     "readOnly": {
@@ -693,5 +713,15 @@
             "group": "{{userName}} reagiu à sua mensagem com:",
             "chat": "Reagiu à sua mensagem com:"
         }
+    },
+    "searchPanel": {
+        "keepSearching": "Continue pesquisando!",
+        "singlePlaceholder": "Pesquisar mensagens com {{personName}}",
+        "clearTooltip": "Limpar busca",
+        "inputPlaceholder": "Pesquisar mensagens",
+        "noResults": "Parece que não há resultados.",
+        "groupPlaceholder": "Pesquisar mensagens em {{roomName}}",
+        "searching": "Pesquisando...",
+        "errorSnackbar": "A pesquisa apresentou um erro. Por favor, tente novamente."
     }
 }
