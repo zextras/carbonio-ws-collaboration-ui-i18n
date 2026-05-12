@@ -69,7 +69,7 @@
         "deleteRoom": "Excluir Sala",
         "creation": {
             "newGroup": "Novo Grupo",
-            "contactList": "Escolha mais usuários para criar um grupo",
+            "contactList": "Selecione mais de um endereço para criar um Grupo.",
             "description": "Os Chats são conversas individuais que permitem você se comunicar com colegas. Para incluir mais pessoas, você pode criar um Grupo",
             "inputPlaceholder": "Comece a digitar ou selecione um endereço",
             "newChat": "Novo Chat",
@@ -153,7 +153,9 @@
         "participantMuted": "Este participante está silenciado",
         "collapseSidebar": "Recolher barra lateral",
         "moreReactions": "Mais reações",
-        "reactions": "Reações"
+        "reactions": "Reações",
+        "virtualActions": "Ações da Sala Virtual",
+        "moreActions": "Mais Ações"
     },
     "attachments": {
         "addFromLocal": "Adicionar do Meu Computador",
@@ -297,7 +299,8 @@
             "description": "Defina uma pasta personalizada para salvar as gravações das reuniões que você iniciar.",
             "dialog": {
                 "title": "Selecionar pasta"
-            }
+            },
+            "homeFolder": "Início"
         },
         "export": {
             "caption": "Exportar chats com muito conteúdo pode demorar um pouco.",
@@ -623,8 +626,13 @@
     },
     "welcomePage": {
         "loginButton": "VÁ PARA SUA PÁGINA DE LOGIN",
-        "description": "Como você gostaria de se apresentar?",
-        "journeyDescription": "Você será redirecionado para a Sala de Espera, onde um moderador irá aprovar seu acesso."
+        "description": "Digite seu nome para participar desta reunião",
+        "journeyDescription": "Você será redirecionado para a Sala de Espera, onde um moderador irá aprovar seu acesso.",
+        "title": "Bem-vindo(a) à sala virtual \"{{title}}\"",
+        "joinAsGuest": "Participe como convidado",
+        "inputPlaceholder": "Digite seu nome",
+        "alreadyHaveAccount": "Já tem uma conta? Acesse com suas credenciais.",
+        "waitingForModerator": "Um moderador lhe dará acesso à reunião em instantes."
     },
     "appointment": {
         "input": {
