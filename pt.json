@@ -45,7 +45,10 @@
         },
         "save": "Salvar",
         "showMore": "Mostrar mais",
-        "hide": "Ocultar"
+        "hide": "Ocultar",
+        "exportMessages": "Exportar mensagens",
+        "pin": "Fixar mensagem",
+        "unpin": "Desafixar mensagem"
     },
     "feedback": {
         "notificationsMutedForThisChat": "Notificações silenciadas para este chat",
@@ -103,7 +106,16 @@
         "leaveRoom": "Deixar a sala",
         "leaveRoomLabel": "Tem certeza de que quer sair desta sala?",
         "deleteGroupMeetingOngoingLabel": "Há uma reunião ativa no momento. A exclusão do Grupo vai encerrar a reunião sem nenhum aviso.",
-        "muteForAllDescription": "Ao silenciar o usuário, os participantes não vão mais ouvi-lo. Apenas o usuário silenciado poderá ativar o som. Continuar?"
+        "muteForAllDescription": "Ao silenciar o usuário, os participantes não vão mais ouvi-lo. Apenas o usuário silenciado poderá ativar o som. Continuar?",
+        "replacePinDescription": "Esta conversa já possui uma mensagem fixada. Apenas uma mensagem pode ser fixada por vez. Deseja substituí-la por esta mensagem?",
+        "clearHistoryTitle": "Limpar histórico",
+        "clearHistoryForAllDescription": "Isso apagará permanentemente todas as mensagens e arquivos compartilhados nesta sala para todos os participantes.",
+        "clearHistoryWarning": "Esta ação não pode ser desfeita.",
+        "clearHistoryCancel": "Não, cancelar",
+        "clearHistoryConfirm": "Sim, limpar histórico",
+        "replacePinMessage": "Substituir mensagem fixada",
+        "replacePinConfirm": "Sim, substituir fixação",
+        "replacePinCancel": "Não, cancelar"
     },
     "tooltip": {
         "messageRead": "Lida",
@@ -527,7 +539,8 @@
                 "notAuthenticatedUser": "FAZER LOGIN PARA ACESSAR A REUNIÃO",
                 "rejected": "Talvez na próxima vez",
                 "invalidWaiting": "Tente novamente depois",
-                "generalError": "POR FAVOR, TENTE ENTRAR NOVAMENTE"
+                "generalError": "POR FAVOR, TENTE ENTRAR NOVAMENTE",
+                "meetingDeclined": "Chamada encerrada"
             },
             "title": {
                 "notAuthenticatedUser": "Você não está autenticado",
@@ -535,7 +548,8 @@
                 "hangUp": "Você saiu da sala de espera!",
                 "rejected": "Seu acesso foi recusado",
                 "invalidWaiting": "Não há moderadores na reunião",
-                "generalError": "Ops! Você saiu da reunião."
+                "generalError": "Ops! Você saiu da reunião.",
+                "meetingDeclined": "Chamada recusada"
             },
             "description": {
                 "hangUp": "Estamos ansiosos pela sua participação nas próximas reuniões",
@@ -543,7 +557,8 @@
                 "meetingNotFound": "Verifique o link da reunião e tente novamente",
                 "rejected": "Os moderadores decidiram negar seu acesso à reunião",
                 "invalidWaiting": "Você deve ser aprovado por um moderador para participar desta reunião.",
-                "generalError": "Algo deu errado."
+                "generalError": "Algo deu errado.",
+                "meetingDeclined": "{{userName}} recusou a chamada"
             },
             "feedback": {
                 "description": "Sua opinião é importante para nós!",
@@ -600,7 +615,10 @@
             "blur": "Borrar"
         },
         "pip": {
-            "noTalking": "Ninguém está falando no momento."
+            "noTalking": "Ninguém está falando no momento.",
+            "speaking": "{{userName}} está falando.",
+            "close": "Desabilitar PiP",
+            "trigger": "Ativar PiP"
         },
         "micTest": {
             "microphoneWorking": "O microfone está funcionando corretamente",
@@ -628,7 +646,10 @@
             "roomPictureUpdated": "{{name}} alterou a imagem de {{roomName}}.",
             "roomNameChanged": "{{name}} alterou o título deste Grupo em \"<i>{{roomName}}</i>\".",
             "roomTopicChanged": "{{name}} alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\".",
-            "pinMessage": "{{actionMakerUsername}} fixou uma mensagem"
+            "pinMessage": "{{actionMakerUsername}} fixou uma mensagem",
+            "meetingStarted": "{{name}} ligou para você às {{time}}",
+            "meetingDeclined": "{{name}} recusou a chamada às {{time}}",
+            "unpinMessage": "{{actionMakerUsername}} desafixou uma mensagem"
         },
         "user": {
             "roomTopicRemoved": "Você removeu o assunto de {{roomName}}.",
@@ -637,8 +658,15 @@
             "roomNameChanged": "Você alterou o título deste Grupo em \"<i>{{roomName}}</i>\".",
             "roomTopicChanged": "Você alterou o assunto de {{roomName}} em \"<i>{{topicName}}</i>\".",
             "pinMessage": "Você fixou uma mensagem",
-            "unpinMessage": "Você desafixou uma mensagem"
-        }
+            "unpinMessage": "Você desafixou uma mensagem",
+            "clearHistory": "Você limpou o histórico do chat",
+            "meetingStarted": "Você ligou às {{time}}",
+            "meetingDeclined": "Você recusou a chamada às {{time}}"
+        },
+        "moderator": {
+            "clearHistory": "O histórico do chat foi apagado por {{actionMakerUsername}}."
+        },
+        "meetingEnded": "Chamada encerrada às {{time}}"
     },
     "welcomePage": {
         "loginButton": "VÁ PARA SUA PÁGINA DE LOGIN",
@@ -723,5 +751,8 @@
         "groupPlaceholder": "Pesquisar mensagens em {{roomName}}",
         "searching": "Pesquisando...",
         "errorSnackbar": "A pesquisa apresentou um erro. Por favor, tente novamente."
+    },
+    "label": {
+        "app_name": "Chats"
     }
 }
