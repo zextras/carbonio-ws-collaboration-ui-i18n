@@ -517,7 +517,7 @@
         },
         "pip": {
             "noTalking": "Nikt teraz nic nie mówi.",
-            "trigger": "Włącz PiP",
+            "trigger": "Dodaj mini okno rozmowy",
             "close": "Wyłącz PiP",
             "speaking": "{{userName}} mówi."
         },
