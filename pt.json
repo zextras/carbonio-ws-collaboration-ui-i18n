@@ -74,7 +74,7 @@
         "deleteRoom": "Excluir Sala",
         "creation": {
             "newGroup": "Novo Grupo",
-            "contactList": "Selecione mais de um endereço para criar um Grupo.",
+            "contactList": "Selecione mais de um endereço para criar um Grupo",
             "description": "Os Chats são conversas individuais que permitem você se comunicar com colegas. Para incluir mais pessoas, você pode criar um Grupo",
             "inputPlaceholder": "Comece a digitar ou selecione um endereço",
             "newChat": "Novo Chat",
@@ -470,7 +470,7 @@
             "moderators": {
                 "onlyUser": "Você é o único moderador.",
                 "singleAdditional": "e outro moderador.",
-                "multipleAdditional": "e outros {{numberOfModerators}} moderadores.",
+                "multipleAdditional": "e outros <strong>{{numberOfModerators}} moderadores</strong>.",
                 "onlyModerator": "é o único moderador.",
                 "widget": "Moderadores da Sala Virtual:"
             },
