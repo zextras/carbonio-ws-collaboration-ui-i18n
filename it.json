@@ -59,7 +59,9 @@
         "messages": "Messaggi",
         "name": "Nome",
         "status": "Stato",
-        "search": "Cerca"
+        "search": "Cerca",
+        "membersTab": "Membri",
+        "mediaGalleryTab": "Galleria"
     },
     "date": {
         "yesterday": "Ieri",
@@ -266,7 +268,9 @@
             "websocket": "Qualcosa è andato storto durante la connessione con WEBSOCKET"
         },
         "networkProblems": "Potrebbero esserci problemi durante l'utilizzo di questo modulo, prova ad aggiornare la pagina.",
-        "connectionReestabilished": "Connessione ripristinata, la riunione può proseguire senza interruzioni."
+        "connectionReestabilished": "Connessione ripristinata, la riunione può proseguire senza interruzioni.",
+        "attachmentDeleted": "Allegato eliminato",
+        "attachmentDeleteError": "Impossibile eliminare l'allegato"
     },
     "settings": {
         "notifications": {
@@ -355,7 +359,8 @@
         "you": "Tu",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} persone stanno digitando…",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} e {{numberOfUsers}} altri stanno digitando…",
-        "Anonymous": "Utente anonimo"
+        "Anonymous": "Utente anonimo",
+        "unknownUser": "Utente sconosciuto"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} creata!",
@@ -754,5 +759,25 @@
     },
     "label": {
         "app_name": "Chat"
+    },
+    "mediaGallery": {
+        "filter": {
+            "all": "Tutti gli allegati",
+            "mine": "I miei allegati"
+        },
+        "deleteAttachmentTitle": "Elimina allegato",
+        "deleteAttachmentDescription": "Vuoi eliminare questo allegato? Se lo elimini, il file verrà rimosso definitivamente. La didascalia del messaggio originale, se presente, verrà anch'essa eliminata dalla cronologia della conversazione.",
+        "deleteAttachmentWarning": "Questa azione non può essere annullata.",
+        "deleteAttachmentConfirm": "Si, elimina allegato",
+        "deleteAttachmentCancel": "No, annulla",
+        "emptyState": {
+            "title": "Nessun allegato in questo elenco.",
+            "description": "Foto, video e file appariranno qui una volta condivisi."
+        }
+    },
+    "preview": {
+        "video": {
+            "error": "Impossibile riprodurre questo video nel browser. Scaricalo per visualizzarlo."
+        }
     }
 }
