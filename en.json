@@ -129,7 +129,9 @@
         "status": "Status",
         "title": "Title",
         "topic": "Topic",
-        "search": "Search"
+        "search": "Search",
+        "membersTab": "Members",
+        "mediaGalleryTab": "Media Gallery"
     },
     "date": {
         "today": "Today",
@@ -160,7 +162,9 @@
         "networkProblems": "There may be problems using this module, please try to refresh the page.",
         "notificationsActivatedForThisChat": "Notifications activated for this chat",
         "notificationsMutedForThisChat": "Notifications muted for this chat",
-        "connectionReestabilished": "Connection re-established, meeting can continue without interruption."
+        "connectionReestabilished": "Connection re-established, meeting can continue without interruption.",
+        "attachmentDeleted": "Attachment deleted",
+        "attachmentDeleteError": "Could not delete the attachment"
     },
     "keepInTouchWithColleagues": "Keep in touch with your colleagues or join your groups' meeting rooms",
     "meeting": {
@@ -572,7 +576,8 @@
         "you": "You",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} and {{numberOfUsers}} others are typing…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} people are typing…",
-        "Anonymous": "Anonymous user"
+        "Anonymous": "Anonymous user",
+        "unknownUser": "Unknown user"
     },
     "thanksForParticipating": "Thanks for participating",
     "titlePlaceholder": "Your Group's title",
@@ -752,5 +757,25 @@
     },
     "label": {
         "app_name": "Chats"
+    },
+    "mediaGallery": {
+        "filter": {
+            "all": "All attachments",
+            "mine": "My attachments"
+        },
+        "deleteAttachmentTitle": "Delete attachment",
+        "deleteAttachmentDescription": "Do you want to delete this attachment? If you delete it, the file will be permanently removed. The caption of the original message, if present, will also be deleted from the conversation history.",
+        "deleteAttachmentWarning": "This action cannot be undone.",
+        "deleteAttachmentConfirm": "Yes, delete attachment",
+        "deleteAttachmentCancel": "No, cancel",
+        "emptyState": {
+            "title": "No attachments in this list",
+            "description": "Photos, videos and files will appear here when shared"
+        }
+    },
+    "preview": {
+        "video": {
+            "error": "This video cannot be played in your browser. Please download it."
+        }
     }
 }
