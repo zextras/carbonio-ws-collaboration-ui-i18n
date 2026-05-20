@@ -260,7 +260,9 @@
         "status": "Status",
         "title": "Tytuł",
         "topic": "Temat",
-        "search": "Wyszukaj"
+        "search": "Wyszukaj",
+        "membersTab": "Członkowie",
+        "mediaGalleryTab": "Multimedia"
     },
     "date": {
         "yesterday": "Wczoraj",
@@ -291,7 +293,9 @@
             "xmpp": "Coś poszło nie tak podczas łączenia z XMPP"
         },
         "networkProblems": "Mogą wystąpić problemy przy używaniu tego modułu, spróbuj odświeżyć stronę.",
-        "connectionReestabilished": "Przywrócono połączenie, spotkanie może być kontynuowane bez przeszkód."
+        "connectionReestabilished": "Przywrócono połączenie, spotkanie może być kontynuowane bez przeszkód.",
+        "attachmentDeleted": "Załącznik został usunięty",
+        "attachmentDeleteError": "Nie udało się usunąć załącznika"
     },
     "meeting": {
         "interactions": {
@@ -554,7 +558,8 @@
         "areTyping": "piszą…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} osób pisze…",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} i {{numberOfUsers}} innych piszą…",
-        "Anonymous": "Anonimowy użytkownik"
+        "Anonymous": "Anonimowy użytkownik",
+        "unknownUser": "Nieznany użytkownik"
     },
     "thanksForParticipating": "Dziękujemy za uczestniczenie",
     "tooltip": {
@@ -754,5 +759,25 @@
     },
     "label": {
         "app_name": "Czaty"
+    },
+    "mediaGallery": {
+        "filter": {
+            "all": "Wszystkie załączniki",
+            "mine": "Moje załączniki"
+        },
+        "deleteAttachmentTitle": "Usuń załącznik",
+        "deleteAttachmentDescription": "Czy chcesz usunąć ten załącznik? Jeśli go usuniesz, plik zostanie trwale usunięty. Podpis załącznika (jeśli istnieje), również zostanie usunięty z historii konwersacji.",
+        "deleteAttachmentWarning": "Tej czynności nie da się cofnąć.",
+        "deleteAttachmentConfirm": "Tak, usuń załącznik",
+        "deleteAttachmentCancel": "Nie, anuluj",
+        "emptyState": {
+            "title": "Brak załączników",
+            "description": "Zdjęcia, wideo i pliki pojawią się tutaj, gdy zostaną udostępnione"
+        }
+    },
+    "preview": {
+        "video": {
+            "error": "Nie można odtworzyć tego wideo w Twojej przeglądarce. Spróbuj je pobrać."
+        }
     }
 }
