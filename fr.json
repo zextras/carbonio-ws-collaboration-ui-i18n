@@ -25,7 +25,9 @@
         "status": "Statut",
         "title": "Titre",
         "topic": "Sujet",
-        "search": "Rechercher"
+        "search": "Rechercher",
+        "membersTab": "Membres",
+        "mediaGalleryTab": "Galerie média"
     },
     "modal": {
         "deleteRoom": "Supprimer la salle",
@@ -262,7 +264,9 @@
             "xmpp": "Un problème est survenu lors de la connexion avec XMPP"
         },
         "networkProblems": "Il y a probablement un souci lors de l'utilisation de ce module. Essayez de rafraîchir la page.",
-        "connectionReestabilished": "La connexion a été rétablie, la réunion peut continuer sans interruption."
+        "connectionReestabilished": "La connexion a été rétablie, la réunion peut continuer sans interruption.",
+        "attachmentDeleted": "Pièce jointe supprimée",
+        "attachmentDeleteError": "Impossible de supprimer la pièce jointe"
     },
     "message": {
         "deletedMessage": "Message effacé",
@@ -299,7 +303,8 @@
         "goToPrivateChat": "Aller en conversation privée pour envoyer un message personnel",
         "nameAndNumberOfPeopleAreTyping": "{{userName}} et {{numberOfUsers}} autres écrivent…",
         "numberOfPeopleAreTyping": "{{numberOfUsers}} personnes écrivent…",
-        "Anonymous": "Utilisateur anonyme"
+        "Anonymous": "Utilisateur anonyme",
+        "unknownUser": "Utilisateur inconnu"
     },
     "tooltip": {
         "clear": "Effacer",
@@ -537,7 +542,8 @@
                 "notAuthenticatedUser": "Vous n'êtes pas authentifié",
                 "rejected": "Votre accès a été refusé",
                 "invalidWaiting": "Il n'y a pas de modérateur dans la réunion",
-                "generalError": "Oups ! Vous avez quitté la réunion."
+                "generalError": "Oups ! Vous avez quitté la réunion.",
+                "meetingDeclined": "Appel refusé"
             },
             "slogan": {
                 "hangUp": "Peut-être la prochaine fois",
@@ -545,7 +551,8 @@
                 "notAuthenticatedUser": "CONNEXION POUR ENTRER DANS LA RÉUNION",
                 "rejected": "Peut-être la prochaine fois",
                 "invalidWaiting": "Essayez plus tard",
-                "generalError": "S'IL VOUS PLAIT, RÉESSAYEZ DE REJOINDRE LA RÉUNION"
+                "generalError": "S'IL VOUS PLAIT, RÉESSAYEZ DE REJOINDRE LA RÉUNION",
+                "meetingDeclined": "Appel terminé"
             },
             "description": {
                 "hangUp": "Nous nous réjouissons de vous voir participer aux prochaines réunions",
@@ -553,7 +560,8 @@
                 "notAuthenticatedUser": "Vous ne pouvez pas participer à la réunion si vous n'êtes pas authentifié avec votre compte",
                 "rejected": "Le modérateur a décidé de ne pas vous autoriser dans cette réunion",
                 "invalidWaiting": "Vous devez avoir été accepté par un modérateur pour rejoindre cette réunion.",
-                "generalError": "Quelque chose s'est mal passé."
+                "generalError": "Quelque chose s'est mal passé.",
+                "meetingDeclined": "{{userName}} a refusé l'appel"
             },
             "feedback": {
                 "caption": "Cela nous aide à nous améliorer :)",
@@ -655,7 +663,9 @@
             "roomPictureUpdated": "Vous avez changé l'image de {{roomName}}.",
             "pinMessage": "Vous avez épinglé un message",
             "unpinMessage": "Vous avez désépingler un message",
-            "clearHistory": "Vous avez effacé l'historique des discussions"
+            "clearHistory": "Vous avez effacé l'historique des discussions",
+            "meetingStarted": "Début de l'appel à {{time}}",
+            "meetingDeclined": "Vous avez refusé l'appel à {{time}}"
         },
         "member": {
             "roomTopicChanged": "{{name}} a changé le sujet de {{roomName}} en \"<i>{{topicName}}</i>\".",
@@ -664,11 +674,14 @@
             "roomTopicRemoved": "{{name}} a enlevé le sujet de {{roomName}}.",
             "roomPictureDeleted": "{{name}} a restauré l'image par défaut de {{roomName}}.",
             "pinMessage": "{{actionMakerUsername}} a épingler un message",
-            "unpinMessage": "{{actionMakerUsername}} a désépinglé un message"
+            "unpinMessage": "{{actionMakerUsername}} a désépinglé un message",
+            "meetingStarted": "{{name}} vous a appelé à {{time}}",
+            "meetingDeclined": "{{name}} a refusé l'appel à {{time}}"
         },
         "moderator": {
             "clearHistory": "L'historique des discussions a été effacé par {{actionMakerUsername}}."
-        }
+        },
+        "meetingEnded": "Fin de l'appel à {{time}}"
     },
     "appointment": {
         "placeholder": {
@@ -746,5 +759,25 @@
     },
     "label": {
         "app_name": "Chats"
+    },
+    "mediaGallery": {
+        "filter": {
+            "all": "Toutes les pièces jointes",
+            "mine": "Mes pièces jointes"
+        },
+        "deleteAttachmentTitle": "Supprimer la pièce jointe",
+        "deleteAttachmentDescription": "Voulez-vous supprimer cette pièce jointe ? Si vous la supprimez, elle le sera de façon définitive. La légende du message d'origine, si elle est présente, sera également supprimée de l'historique de la conversation.",
+        "deleteAttachmentWarning": "Cette action est irréversible.",
+        "deleteAttachmentConfirm": "OUI, SUPPRIMER LA PIÈCE JOINTE",
+        "deleteAttachmentCancel": "NON, ANNULER",
+        "emptyState": {
+            "title": "Aucune pièce jointe dans cette liste",
+            "description": "Les photos, vidéos et fichiers apparaîtront ici lorsqu'ils seront partagés"
+        }
+    },
+    "preview": {
+        "video": {
+            "error": "Cette vidéo ne peut être lue dans votre navigateur. Veuillez la télécharger."
+        }
     }
 }
