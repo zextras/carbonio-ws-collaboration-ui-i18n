@@ -48,7 +48,8 @@
         "hide": "Hide",
         "pin": "Pin message",
         "unpin": "Unpin message",
-        "exportMessages": "Export messages"
+        "exportMessages": "Export messages",
+        "copyCode": "Copy code"
     },
     "affiliationMessages": {
         "groupCreated": "{{roomName}} created!",
@@ -164,7 +165,8 @@
         "notificationsMutedForThisChat": "Notifications muted for this chat",
         "connectionReestabilished": "Connection re-established, meeting can continue without interruption.",
         "attachmentDeleted": "Attachment deleted",
-        "attachmentDeleteError": "Could not delete the attachment"
+        "attachmentDeleteError": "Could not delete the attachment",
+        "codeCopied": "Copied!"
     },
     "keepInTouchWithColleagues": "Keep in touch with your colleagues or join your groups' meeting rooms",
     "meeting": {
