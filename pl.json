@@ -48,7 +48,8 @@
         "hide": "Ukryj",
         "pin": "Przypnij wiadomość",
         "unpin": "Odepnij wiadomość",
-        "exportMessages": "Eksportuj wiadomości"
+        "exportMessages": "Eksportuj wiadomości",
+        "copyCode": "Skopiuj kod"
     },
     "modal": {
         "removeMember": "Usuń członka",
@@ -295,7 +296,8 @@
         "networkProblems": "Mogą wystąpić problemy przy używaniu tego modułu, spróbuj odświeżyć stronę.",
         "connectionReestabilished": "Przywrócono połączenie, spotkanie może być kontynuowane bez przeszkód.",
         "attachmentDeleted": "Załącznik został usunięty",
-        "attachmentDeleteError": "Nie udało się usunąć załącznika"
+        "attachmentDeleteError": "Nie udało się usunąć załącznika",
+        "codeCopied": "Skopiowano!"
     },
     "meeting": {
         "interactions": {
