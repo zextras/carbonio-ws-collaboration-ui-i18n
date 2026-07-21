@@ -202,7 +202,8 @@
         "hide": "Masquer",
         "pin": "Épingler le message",
         "unpin": "Désépingler le message",
-        "exportMessages": "Exporter les messages"
+        "exportMessages": "Exporter les messages",
+        "copyCode": "Copier le code"
     },
     "conversation": {
         "keepInTouchTitle": "Restons en contact !",
@@ -266,7 +267,8 @@
         "networkProblems": "Il y a probablement un souci lors de l'utilisation de ce module. Essayez de rafraîchir la page.",
         "connectionReestabilished": "La connexion a été rétablie, la réunion peut continuer sans interruption.",
         "attachmentDeleted": "Pièce jointe supprimée",
-        "attachmentDeleteError": "Impossible de supprimer la pièce jointe"
+        "attachmentDeleteError": "Impossible de supprimer la pièce jointe",
+        "codeCopied": "Copié !"
     },
     "message": {
         "deletedMessage": "Message effacé",
