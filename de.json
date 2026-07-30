@@ -82,7 +82,9 @@
         "virtual": {
             "editRoom": "Virtuellen Raum bearbeiten",
             "deleteRoom": "Virtuellen Raum löschen"
-        }
+        },
+        "deleteForAll": "Für alle löschen",
+        "retry": "Wiederholen"
     },
     "attachments": {
         "addFromLocal": "Von lokalem Speicherort hinzufügen",
