@@ -48,7 +48,8 @@
         "hide": "Nascondi",
         "pin": "Fissa messaggio",
         "unpin": "Rimuovi messaggio fissato",
-        "exportMessages": "Esporta messaggi"
+        "exportMessages": "Esporta messaggi",
+        "copyCode": "Copia codice"
     },
     "conversationInfo": {
         "title": "Titolo",
@@ -270,7 +271,10 @@
         "networkProblems": "Potrebbero esserci problemi durante l'utilizzo di questo modulo, prova ad aggiornare la pagina.",
         "connectionReestabilished": "Connessione ripristinata, la riunione può proseguire senza interruzioni.",
         "attachmentDeleted": "Allegato eliminato",
-        "attachmentDeleteError": "Impossibile eliminare l'allegato"
+        "attachmentDeleteError": "Impossibile eliminare l'allegato",
+        "codeCopied": "Copiato!",
+        "attachmentsDeleted": "Allegati eliminati",
+        "attachmentsDeleteError": "Impossibile eliminare alcuni allegati"
     },
     "settings": {
         "notifications": {
@@ -763,7 +767,11 @@
     "mediaGallery": {
         "filter": {
             "all": "Tutti gli allegati",
-            "mine": "I miei allegati"
+            "mine": "I miei allegati",
+            "sentBy": "Inviato da:",
+            "sentByAll": "Tutti",
+            "sentByYou": "Tu",
+            "tooltip": "Filtra la galleria"
         },
         "deleteAttachmentTitle": "Elimina allegato",
         "deleteAttachmentDescription": "Vuoi eliminare questo allegato? Se lo elimini, il file verrà rimosso definitivamente. La didascalia del messaggio originale, se presente, verrà anch'essa eliminata dalla cronologia della conversazione.",
@@ -772,8 +780,35 @@
         "deleteAttachmentCancel": "No, annulla",
         "emptyState": {
             "title": "Nessun allegato in questo elenco.",
-            "description": "Foto, video e file appariranno qui una volta condivisi."
-        }
+            "description": "Foto, video e file appariranno qui una volta condivisi.",
+            "titleImages": "Nessuna immagine in questo elenco",
+            "titleVideos": "Nessun video in questo elenco",
+            "titleDocuments": "Nessun documento in questo elenco"
+        },
+        "tabs": {
+            "images": "Immagini",
+            "videos": "Video",
+            "docs": "Docs"
+        },
+        "count": {
+            "images_one": "{{count}} immagine",
+            "images_many": "",
+            "images_other": "{{count}} immagini",
+            "videos_one": "{{count}} video",
+            "videos_many": "",
+            "videos_other": "{{count}} video",
+            "documents_one": "{{count}} documento",
+            "documents_many": "",
+            "documents_other": "{{count}} documenti"
+        },
+        "selection": {
+            "count": "{{count}} selezionati",
+            "forwardDisabled": "Alcuni degli allegati selezionati non possono essere inoltrati",
+            "deleteDisabled": "È possibile eliminare solo i propri allegati"
+        },
+        "deleteAttachmentsTitle": "Elimina allegati",
+        "deleteAttachmentsDescription": "Vuoi eliminare questi {{number}} allegati? Se li elimini, i file verranno rimossi definitivamente. Anche le didascalie dei messaggi originali, se presenti, verranno eliminate dalla cronologia della conversazione.",
+        "deleteAttachmentsConfirm": "Sì, elimina allegati"
     },
     "preview": {
         "video": {
