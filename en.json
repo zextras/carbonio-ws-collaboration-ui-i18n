@@ -166,7 +166,9 @@
         "connectionReestabilished": "Connection re-established, meeting can continue without interruption.",
         "attachmentDeleted": "Attachment deleted",
         "attachmentDeleteError": "Could not delete the attachment",
-        "codeCopied": "Copied!"
+        "codeCopied": "Copied!",
+        "attachmentsDeleted": "Attachments deleted",
+        "attachmentsDeleteError": "Could not delete some attachments"
     },
     "keepInTouchWithColleagues": "Keep in touch with your colleagues or join your groups' meeting rooms",
     "meeting": {
@@ -763,7 +765,11 @@
     "mediaGallery": {
         "filter": {
             "all": "All attachments",
-            "mine": "My attachments"
+            "mine": "My attachments",
+            "sentBy": "Sent by:",
+            "sentByAll": "All",
+            "sentByYou": "You",
+            "tooltip": "Filter the gallery"
         },
         "deleteAttachmentTitle": "Delete attachment",
         "deleteAttachmentDescription": "Do you want to delete this attachment? If you delete it, the file will be permanently removed. The caption of the original message, if present, will also be deleted from the conversation history.",
@@ -772,8 +778,32 @@
         "deleteAttachmentCancel": "No, cancel",
         "emptyState": {
             "title": "No attachments in this list",
-            "description": "Photos, videos and files will appear here when shared"
-        }
+            "description": "Photos, videos and files will appear here when shared",
+            "titleImages": "No images in this list",
+            "titleVideos": "No videos in this list",
+            "titleDocuments": "No documents in this list"
+        },
+        "tabs": {
+            "images": "Images",
+            "videos": "Videos",
+            "docs": "Docs"
+        },
+        "count": {
+            "images_one": "{{count}} image",
+            "images_other": "{{count}} images",
+            "videos_one": "{{count}} video",
+            "videos_other": "{{count}} videos",
+            "documents_one": "{{count}} document",
+            "documents_other": "{{count}} documents"
+        },
+        "selection": {
+            "count": "{{count}} selected",
+            "forwardDisabled": "Some of the selected attachments cannot be forwarded",
+            "deleteDisabled": "You can only delete your own attachments"
+        },
+        "deleteAttachmentsTitle": "Delete attachments",
+        "deleteAttachmentsDescription": "Do you want to delete these {{number}} attachments? If you delete them, the files will be permanently removed. The captions of the original messages, if present, will also be deleted from the conversation history.",
+        "deleteAttachmentsConfirm": "Yes, delete attachments"
     },
     "preview": {
         "video": {
