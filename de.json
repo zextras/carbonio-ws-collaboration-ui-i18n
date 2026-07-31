@@ -68,7 +68,21 @@
         "enter": "Eingabe",
         "joinMeeting": "An Sitzung teilnehmen",
         "ok": "Ok",
-        "cancel": "Abbrechen"
+        "cancel": "Abbrechen",
+        "addMoreAttachments": "{{counter}} Anhänge hinzufügen",
+        "addNewMembersTo": "Neue Mitglieder zu {{roomName}} hinzufügen",
+        "addSingleAttachment": "{{counter}} Anhänge hinzufügen",
+        "declineAll": "Alle ablehnen",
+        "editDetails": "Details bearbeiten",
+        "editRoom": "{{roomName}} bearbeiten",
+        "newChat": "Neuer Chat",
+        "scrollToBottom": "Nach unten scrollen",
+        "understood": "Verstanden",
+        "newVirtual": "Neuer virtueller Raum",
+        "virtual": {
+            "editRoom": "Virtuellen Raum bearbeiten",
+            "deleteRoom": "Virtuellen Raum löschen"
+        }
     },
     "attachments": {
         "addFromLocal": "Von lokalem Speicherort hinzufügen",
@@ -112,7 +126,8 @@
             "title": "Benachrichtigungen",
             "subtitle": {
                 "general": "Allgemein"
-            }
+            },
+            "description": "Legen Sie Ihre Einstellungen für Chat-Benachrichtigungen fest."
         },
         "profile": {
             "errorGenericResponse": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut",
