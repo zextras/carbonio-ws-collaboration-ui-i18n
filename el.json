@@ -8,6 +8,68 @@
         "addMoreAttachments": "Προσθήκη {{counter}} συνημμένων",
         "addNewMembers": "Προσθήκη νέων μελών",
         "undo": "Αναίρεση",
-        "addNewMembersTo": "Προσθήκη νέων μελών στο {{roomName}}"
-    }
+        "addNewMembersTo": "Προσθήκη νέων μελών στο {{roomName}}",
+        "close": "Κλείσιμο",
+        "create": "Δημιουργία",
+        "editYourMessage": "Επεξεργασία του μηνύματός σας",
+        "forward": "Προώθηση",
+        "leave": "Έξοδος",
+        "muteNotifications": "Σίγαση ειδοποιήσεων",
+        "reply": "Απάντηση",
+        "replyToSomeone": "Απάντηση σε",
+        "replyToYourself": "Απάντηση στον εαυτό σου"
+    },
+    "attachments": {
+        "addFromLocal": "Προσθήκη από τοπικό αρχείο",
+        "attachLinkFiles": "Επισύναψη δημόσιου συνδέσμου από τα Αρχεία"
+    },
+    "external": {
+        "nobodyInTheRoom": "Φαίνεται ότι δεν υπάρχει κανείς σε αυτό το Δωμάτιο",
+        "roomIsEmpty": "Αυτό το δωμάτιο είναι άδειο"
+    },
+    "feedback": {
+        "notificationsActivatedForThisChat": "Ενεργοποιήθηκαν οι ειδοποιήσεις για αυτή τη συνομιλία",
+        "notificationsMutedForThisChat": "Απενεργοποιήθηκαν οι ειδοποιήσεις για αυτή τη συνομιλία"
+    },
+    "label": {
+        "app_name": "Συνομιλίες"
+    },
+    "meeting": {
+        "interactions": {
+            "cameraDisabled": "Η κάμερα είναι απενεργοποιημένη",
+            "cameraEnabled": "Η κάμερα είναι ενεργοποιημένη"
+        }
+    },
+    "message": {
+        "deletedMessage": "Διαγραμμένο μήνυμα",
+        "edited": "επεξεργάστηκε"
+    },
+    "modal": {
+        "showPreviousConversationHistory": "Εμφάνιση προηγούμενου ιστορικού συνομιλιών"
+    },
+    "notification": {
+        "meeting": {
+            "ended": "Η συνάντηση ολοκληρώθηκε"
+        }
+    },
+    "settings": {
+        "profile": {
+            "errorGenericResponse": "Παρουσιάστηκε κάποιο σφάλμα. Παρακαλώ δοκιμάστε ξανά",
+            "title": "Προφίλ"
+        }
+    },
+    "status": {
+        "lastSeen": "Τελευταία εμφάνιση {{lastSeen}}",
+        "offline": "Εκτός σύνδεσης",
+        "online": "Συνδεδεμένος"
+    },
+    "thanksForParticipating": "Ευχαριστούμε για τη συμμετοχή σας",
+    "tooltip": {
+        "close": "Κλείσιμο",
+        "goToPrivateChat": "Μετάβαση σε ιδιωτική συνομιλία",
+        "messageComposer": "Σύνταξη μηνύματος",
+        "selectEmoji": "Επιλογή emoji",
+        "sendMessage": "Αποστολή μηνύματος"
+    },
+    "tryLater": "Δοκιμάστε αργότερα"
 }
