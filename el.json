@@ -20,7 +20,7 @@
         "replyToYourself": "Απάντηση στον εαυτό σου"
     },
     "attachments": {
-        "addFromLocal": "Προσθήκη από τοπικό αρχείο",
+        "addFromLocal": "Προσθήκη από τοπικό",
         "attachLinkFiles": "Επισύναψη δημόσιου συνδέσμου από τα Αρχεία"
     },
     "external": {
@@ -59,8 +59,8 @@
         }
     },
     "status": {
-        "lastSeen": "Τελευταία εμφάνιση {{lastSeen}}",
-        "offline": "Εκτός σύνδεσης",
+        "lastSeen": "Τελευταία φορά που εμφανίστηκε {{lastSeen}}",
+        "offline": "Απενεργοποιημένος",
         "online": "Συνδεδεμένος"
     },
     "thanksForParticipating": "Ευχαριστούμε για τη συμμετοχή σας",
