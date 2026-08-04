@@ -1,5 +1,13 @@
 {
     "action": {
-        "delete": "Διαγραφή"
+        "delete": "Διαγραφή",
+        "activateNotifications": "Ενεργοποίηση ειδοποιήσεων",
+        "copy": "Αντιγραφή",
+        "addAttachment": "Προσθήκη συνημμένου",
+        "edit": "Επεξεργασία",
+        "addMoreAttachments": "Προσθήκη {{counter}} συνημμένων",
+        "addNewMembers": "Προσθήκη νέων μελών",
+        "undo": "Αναίρεση",
+        "addNewMembersTo": "Προσθήκη νέων μελών στο {{roomName}}"
     }
 }
