@@ -1,1 +1,133 @@
-{}
+{
+    "action": {
+        "delete": "წაშლა",
+        "close": "დახურვა",
+        "copy": "კოპირება",
+        "create": "შექმნა",
+        "edit": "ჩასწორება",
+        "forward": "გადაგზავნა",
+        "leave": "გასვლა",
+        "reply": "პასუხი",
+        "ok": "Ok",
+        "preview": "მინიატურა",
+        "undo": "ბრძანების გაუქმება",
+        "decline": "უარყოფა",
+        "download": "გადმოწერა",
+        "enter": "შეიყვანეთ",
+        "forwarded": "გადაგზავნილია",
+        "removeUser": "წაშლა",
+        "understood": "გავიგე",
+        "cancel": "გაუქმება",
+        "retry": "თავიდან ცდა",
+        "save": "შენახვა",
+        "hide": "დამალვა"
+    },
+    "label": {
+        "app_name": "ჩატები"
+    },
+    "message": {
+        "edited": "ჩასწორებულია",
+        "draft": "მონახაზი"
+    },
+    "settings": {
+        "profile": {
+            "title": "პროფილი"
+        },
+        "notifications": {
+            "title": "გაფრთხილებები",
+            "subtitle": {
+                "general": "ზოგადი"
+            }
+        },
+        "meetings": {
+            "title": "შეხვედრები"
+        },
+        "recording": {
+            "title": "ჩაწერა",
+            "browseAction": "დათვალიერება",
+            "resetAction": "ჩამოყრა",
+            "homeFolder": "საწყისი"
+        }
+    },
+    "status": {
+        "offline": "ხაზგარეშე",
+        "online": "ხაზზე",
+        "you": "თქვენ"
+    },
+    "tooltip": {
+        "close": "დახურვა",
+        "clear": "გასუფთავება",
+        "collapseCarousel": "ჩაკეცვა",
+        "expandCarousel": "ამოკეცვა",
+        "messageRead": "წაკითხულია",
+        "messageReceived": "მიღებულია",
+        "messageSent": "გაგზავნილია",
+        "pending": "რიგშია",
+        "uploading": "მიმდინარეობს ატვირთვა",
+        "reactions": "რეაქციები"
+    },
+    "chat": "ჩატი",
+    "conversationInfo": {
+        "actionAccordionTitle": "ქმედებები",
+        "email": "ელფოსტა",
+        "info": "ინფორმაცია",
+        "messages": "შეტყობინებები",
+        "name": "სახელი",
+        "status": "სტატუსი",
+        "title": "სათაური",
+        "topic": "თემა",
+        "search": "ძებნა",
+        "membersTab": "წევრები"
+    },
+    "date": {
+        "today": "დღეს",
+        "yesterday": "გუშინ"
+    },
+    "feedback": {
+        "codeCopied": "დაკოპირდა!"
+    },
+    "meeting": {
+        "interactions": {
+            "title": {
+                "devices": "მოწყობილობები"
+            }
+        },
+        "sidebar": {
+            "recording": {
+                "title": "მიმდინარეობს ჩაწერა"
+            }
+        },
+        "waitingRoom": {
+            "hangUp": "გასვლა"
+        },
+        "recordingModal": {
+            "confirmationAction": "გაჩერება"
+        },
+        "visualEffects": {
+            "default": "არცერთი",
+            "blur": "გაბუნდოვნება"
+        }
+    },
+    "participantsList": {
+        "moreMembersAccordionTitle": "წევრები"
+    },
+    "readOnly": {
+        "modal": {
+            "callToAction": "გაგრძელება"
+        }
+    },
+    "searchPanel": {
+        "searching": "იძებნება..."
+    },
+    "mediaGallery": {
+        "filter": {
+            "sentByAll": "ყველა",
+            "sentByYou": "თქვენ"
+        },
+        "tabs": {
+            "images": "გამოსახულებები",
+            "videos": "ვიდეოები",
+            "docs": "დოკუმენტები"
+        }
+    }
+}
