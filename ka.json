@@ -247,18 +247,30 @@
         }
     },
     "searchPanel": {
-        "searching": "იძებნება..."
+        "searching": "იძებნება...",
+        "keepSearching": "გააგრძელეთ ძებნა!",
+        "clearTooltip": "ძებნის გასუფთავება",
+        "inputPlaceholder": "შეტყობინებების ძებნა"
     },
     "mediaGallery": {
         "filter": {
             "sentByAll": "ყველა",
-            "sentByYou": "თქვენ"
+            "sentByYou": "თქვენ",
+            "all": "ყველა მიმაგრებული ფაილი",
+            "mine": "ჩემი მიმაგრებული ფაილები",
+            "sentBy": "გაგზავნილია:"
         },
         "tabs": {
             "images": "გამოსახულებები",
             "videos": "ვიდეოები",
             "docs": "დოკუმენტები"
-        }
+        },
+        "deleteAttachmentTitle": "მიმაგრებული ფაილის წაშლა",
+        "deleteAttachmentCancel": "არა, გაუქმება",
+        "selection": {
+            "count": "მონიშნულია {{count}}"
+        },
+        "deleteAttachmentsTitle": "მიმაგრებული ფაილების წაშლა"
     },
     "notification": {
         "meeting": {
@@ -315,5 +327,8 @@
             "limitedOption": "შეზღუდული წვდომა",
             "label": "ვირლუალური ოთახი"
         }
+    },
+    "readBy": {
+        "title": "ვინ ნახა:"
     }
 }
