@@ -297,7 +297,9 @@
         "connectionReestabilished": "Przywrócono połączenie, spotkanie może być kontynuowane bez przeszkód.",
         "attachmentDeleted": "Załącznik został usunięty",
         "attachmentDeleteError": "Nie udało się usunąć załącznika",
-        "codeCopied": "Skopiowano!"
+        "codeCopied": "Skopiowano!",
+        "attachmentsDeleted": "Załączniki zostały usunięty",
+        "attachmentsDeleteError": "Nie udało się usunąć niektórych załączników"
     },
     "meeting": {
         "interactions": {
@@ -765,7 +767,11 @@
     "mediaGallery": {
         "filter": {
             "all": "Wszystkie załączniki",
-            "mine": "Moje załączniki"
+            "mine": "Moje załączniki",
+            "sentBy": "Wysłane przez:",
+            "sentByAll": "Wszyscy",
+            "sentByYou": "Ty",
+            "tooltip": "Filtruj galerię"
         },
         "deleteAttachmentTitle": "Usuń załącznik",
         "deleteAttachmentDescription": "Czy chcesz usunąć ten załącznik? Jeśli go usuniesz, plik zostanie trwale usunięty. Podpis załącznika (jeśli istnieje), również zostanie usunięty z historii konwersacji.",
@@ -774,8 +780,35 @@
         "deleteAttachmentCancel": "Nie, anuluj",
         "emptyState": {
             "title": "Brak załączników",
-            "description": "Zdjęcia, wideo i pliki pojawią się tutaj, gdy zostaną udostępnione"
-        }
+            "description": "Zdjęcia, wideo i pliki pojawią się tutaj, gdy zostaną udostępnione",
+            "titleImages": "Brak obrazów na tej liście",
+            "titleVideos": "Brak wideo na tej liście",
+            "titleDocuments": "Brak dokumentów na tej liście"
+        },
+        "tabs": {
+            "images": "Obrazy",
+            "videos": "Wideo",
+            "docs": "Dokumenty"
+        },
+        "count": {
+            "images_one": "{{count}} obraz",
+            "images_few": "{{count}} obrazy",
+            "images_many": "{{count}} obrazów",
+            "videos_one": "{{count}} wideo",
+            "videos_few": "{{count}} wideo",
+            "videos_many": "{{count}} wideo",
+            "documents_one": "{{count}} dokument",
+            "documents_few": "{{count}} dokumenty",
+            "documents_many": "{{count}} dokumentów"
+        },
+        "selection": {
+            "count": "{{count}} wybranych",
+            "forwardDisabled": "Niektóre z wybranych załączników nie mogą zostać przekazane dalej",
+            "deleteDisabled": "Możesz usunąć tylko Twoje załączniki"
+        },
+        "deleteAttachmentsTitle": "Usuń załączniki",
+        "deleteAttachmentsDescription": "Czy chcesz usunąć te {{number}} załączników? Jeśli je usuniesz, zostaną one usunięte na zawsze. Podpisy z oryginalnych wiadomości (jeśli istnieją) również zostaną usunięte z historii konwersacji.",
+        "deleteAttachmentsConfirm": "Tak, usuń załączniki"
     },
     "preview": {
         "video": {
