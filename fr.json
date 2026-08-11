@@ -268,7 +268,9 @@
         "connectionReestabilished": "La connexion a été rétablie, la réunion peut continuer sans interruption.",
         "attachmentDeleted": "Pièce jointe supprimée",
         "attachmentDeleteError": "Impossible de supprimer la pièce jointe",
-        "codeCopied": "Copié !"
+        "codeCopied": "Copié !",
+        "attachmentsDeleted": "Pièces jointes supprimées",
+        "attachmentsDeleteError": "Impossible de supprimer certaines pièces jointes"
     },
     "message": {
         "deletedMessage": "Message effacé",
@@ -765,7 +767,11 @@
     "mediaGallery": {
         "filter": {
             "all": "Toutes les pièces jointes",
-            "mine": "Mes pièces jointes"
+            "mine": "Mes pièces jointes",
+            "sentBy": "Envoyé par :",
+            "sentByAll": "Tous",
+            "sentByYou": "Vous",
+            "tooltip": "Filtrer la galerie"
         },
         "deleteAttachmentTitle": "Supprimer la pièce jointe",
         "deleteAttachmentDescription": "Voulez-vous supprimer cette pièce jointe ? Si vous la supprimez, elle le sera de façon définitive. La légende du message d'origine, si elle est présente, sera également supprimée de l'historique de la conversation.",
@@ -774,8 +780,35 @@
         "deleteAttachmentCancel": "NON, ANNULER",
         "emptyState": {
             "title": "Aucune pièce jointe dans cette liste",
-            "description": "Les photos, vidéos et fichiers apparaîtront ici lorsqu'ils seront partagés"
-        }
+            "description": "Les photos, vidéos et fichiers apparaîtront ici lorsqu'ils seront partagés",
+            "titleImages": "Aucune image dans cette liste",
+            "titleVideos": "Aucune vidéo dans cette liste",
+            "titleDocuments": "Aucun document dans cette liste"
+        },
+        "tabs": {
+            "images": "Images",
+            "videos": "Vidéos",
+            "docs": "Documents"
+        },
+        "count": {
+            "images_one": "{{count}} image",
+            "images_many": "{{count}} images",
+            "images_other": "{{count}} images",
+            "videos_one": "{{count}} vidéo",
+            "videos_many": "{{count}} vidéos",
+            "videos_other": "{{count}} vidéos",
+            "documents_one": "{{count}} document",
+            "documents_many": "{{count}} documents",
+            "documents_other": "{{count}} documents"
+        },
+        "selection": {
+            "count": "{{count}} sélectionné",
+            "forwardDisabled": "Certaines des pièces jointes sélectionnées ne peuvent pas être transférées",
+            "deleteDisabled": "Vous ne pouvez supprimer que vos propres pièces jointes"
+        },
+        "deleteAttachmentsTitle": "Supprimer les pièces jointes",
+        "deleteAttachmentsDescription": "Voulez-vous supprimer ces {{number}} pièces jointes ? Si vous les supprimez, les fichiers seront définitivement effacés. Les légendes des messages originaux, s'il y en a, seront également effacées.",
+        "deleteAttachmentsConfirm": "Oui, supprimer les pièces jointes"
     },
     "preview": {
         "video": {
