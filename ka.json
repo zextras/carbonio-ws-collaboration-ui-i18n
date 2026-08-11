@@ -160,7 +160,8 @@
         "showConversationList": "ჩატების სიის ჩვენება",
         "topOfList": "სიის დასაწყისში",
         "uploadAttachment": "მიმაგრებული ფაილის ატვირთვა",
-        "virtualActions": "ვირტუალური ოთახის ქმედებები"
+        "virtualActions": "ვირტუალური ოთახის ქმედებები",
+        "goToPrivateChat": "პირად ჩატზე გადასვლა"
     },
     "chat": "ჩატი",
     "conversationInfo": {
@@ -432,7 +433,8 @@
         "deleteMessageTitle": "წაიშალოს მონიშნული შეტყობინება?",
         "replacePinMessage": "ამაგრებული შეტყობინების ჩანაცვლება",
         "replacePinConfirm": "დიახ, ჩანაცვლდეს ამაგრებული",
-        "clearHistoryConfirm": "დიახ, გასუფთავდეს ისტორია"
+        "clearHistoryConfirm": "დიახ, გასუფთავდეს ისტორია",
+        "showPreviousConversationHistory": "ჩატის ისტორიის ჩვენება"
     },
     "interactions": {
         "micDevice": "მიკროფონის მოწყობილობა",
@@ -452,5 +454,8 @@
     "welcomePage": {
         "joinAsGuest": "სტუმრის როლით შესვლა",
         "inputPlaceholder": "შეიყვანეთ თქვენი სახელი"
+    },
+    "external": {
+        "roomIsEmpty": "ეს ოთახი ცარიელია"
     }
 }
