@@ -58,14 +58,16 @@
         "edited": "ჩასწორებულია",
         "draft": "მონახაზი",
         "deletedMessage": "წაშლილი შეტყობინება",
-        "forwardedMultipleTimes": "გადაგზავნილია ერთზე მეტჯერ"
+        "forwardedMultipleTimes": "გადაგზავნილია ერთზე მეტჯერ",
+        "originallySentBy": "<strong>თავიდან გამოგზავნილი იყო:</strong>{{forwardUsername}} ({{messageDate}} - {{messageTime}})"
     },
     "settings": {
         "profile": {
             "title": "პროფილი",
             "maximumDimension": "მაქს ზომა: {{size}}კბ",
             "errorGenericResponse": "რაღაც არასწორად წავიდა. კიდევ სცადეთ",
-            "statusLabel": "თქვენი სტატუსი აქ გამოჩნდება"
+            "statusLabel": "თქვენი სტატუსი აქ გამოჩნდება",
+            "updatedPictureCorrectly": "ახალი ავატარი წარმატებით აიტვირთა"
         },
         "notifications": {
             "title": "გაფრთხილებები",
@@ -80,7 +82,8 @@
             "toggleSounds": {
                 "waitingRoom": "გაფრთხილების ხმების ჩართვა",
                 "desktop": "სამუშაო მაგიდის შეტყობინებების ხმების ჩართვა"
-            }
+            },
+            "description": "დააყენეთ სასურველი პარამეტრები ჩატის გაფრთხილებებისთვის."
         },
         "meetings": {
             "title": "შეხვედრები"
@@ -104,12 +107,19 @@
                     "title": "სცადეთ სხვა მოთხოვნა."
                 },
                 "firstAccess": {
-                    "title": "იქ არაფერია."
+                    "title": "იქ არაფერია.",
+                    "callToAction": "გადადით ჩატებზე და დაიწყეთ თანამშრომლობა!"
                 }
             },
-            "action": "მონიშნული ჩატის გატანა"
+            "action": "მონიშნული ჩატის გატანა",
+            "snackbar": {
+                "success": "ჩატის გატანა წარმატებულია. შეამოწმეთ თქვენი გადმოწერილი ფაილები!"
+            }
         },
-        "save": "ჩასწორებები შენახულია"
+        "save": "ჩასწორებები შენახულია",
+        "room": {
+            "updatedPictureCorrectly": "ახალი ავატარი წარმატებით აიტვირთა"
+        }
     },
     "status": {
         "offline": "ხაზგარეშე",
@@ -120,7 +130,8 @@
         "Anonymous": "ანონიმური მომხმარებელი",
         "unknownUser": "უცნობი მომხმარებელი",
         "lastSeen": "ბოლოს ნანახია {{lastSeen}}",
-        "numberOfPeopleAreTyping": "{{numberOfUsers}} მომხმარებელი კრეფს…"
+        "numberOfPeopleAreTyping": "{{numberOfUsers}} მომხმარებელი კრეფს…",
+        "nameAndNumberOfPeopleAreTyping": "{{userName}} და კიდევ {{numberOfUsers}} კრეფენ…"
     },
     "tooltip": {
         "close": "დახურვა",
@@ -173,7 +184,9 @@
         "disableModalButton": "აირჩიეთ, მინიმუმ, ერთი მისამართი",
         "forwardedMessage": "შეტყობინება გადმოგზავნილია სხვა ჩატიდან",
         "leaveAndDelete": "გასვლა და ჩატის წაშლა",
-        "memberIsModerator": "ეს წევრი მოდერატორია"
+        "memberIsModerator": "ეს წევრი მოდერატორია",
+        "removeToAddNewOne": "წაშალეთ მომხმარებელი ახალი წევრების დასამატებლად",
+        "writeToSend": "დაწერეთ შეტყობინება მისი გაგზავნისთვის"
     },
     "chat": "ჩატი",
     "conversationInfo": {
@@ -202,7 +215,13 @@
         "notificationsActivatedForThisChat": "ამ ჩატში გაფრთხილებები გააქტიურებულია",
         "notificationsMutedForThisChat": "ამ ჩატისთვის გაფრთხილებები დადუმებულია",
         "attachmentDeleteError": "მიმაგრებული ფაილის წაშლა შეუძლებელია",
-        "attachmentsDeleteError": "ზოგიერთი მიმაგრებული ფაილის წაშლა შეუძლებელია"
+        "attachmentsDeleteError": "ზოგიერთი მიმაგრებული ფაილის წაშლა შეუძლებელია",
+        "networkProblem": {
+            "websocket": "ვებსოკეტთან მიერთებისას რაღაც არასწორად წავიდა",
+            "wsc": "WSC-სთან მიერთებისას რაღაც არასწორად წავიდა",
+            "xmpp": "XMPP-სთან მიერთებისას რაღაც არასწორად წავიდა"
+        },
+        "connectionReestabilished": "კავშირი დამყარდა კიდევ ერთხელ. შეხვედრა შეიძლება შეწყვეტის გარეშე გაგრძელდეს."
     },
     "meeting": {
         "interactions": {
@@ -235,7 +254,8 @@
                 "applyBlur": "ბუნდოვნების ეფექტის გადატარება"
             },
             "handDown": "ხელის დაწევა",
-            "handUp": "ხელის აწევა"
+            "handUp": "ხელის აწევა",
+            "browserPermission": "მიეცით ბრაუზერს წვდომები რესურსების ჩასართავად"
         },
         "sidebar": {
             "recording": {
@@ -260,7 +280,8 @@
             "hangUp": "გასვლა",
             "userIsReady": "თქვენ მზად ბრძანდებით!",
             "ready": "მზადა მონაწილეობისთვის",
-            "welcomeCaption": "როცა მზად იქნებით. კარგად მოკალათდით."
+            "welcomeCaption": "როცა მზად იქნებით. კარგად მოკალათდით.",
+            "readyCaption": "ყველაფერი მზადაა! მოკალათდით."
         },
         "recordingModal": {
             "confirmationAction": "გაჩერება",
@@ -279,7 +300,8 @@
         "newMeetingNotification": {
             "sendMessage": "შეტყობინების გაგზავნა",
             "sendAQuickMessage": "სწრაფი შეტყობინების გაგზავნა",
-            "userIsInvitingYou": "<strong>{{name}}</strong> გიწვევთ"
+            "userIsInvitingYou": "<strong>{{name}}</strong> გიწვევთ",
+            "writeAMessageToSendIt": "დაწერეთ შეტყობინება მისი გაგზავნისთვის"
         },
         "rejoinMeeting": "შეხვედრაზე თავიდან შესვლა",
         "restartMeeting": "შეხვედრის თავიდან დაწყება",
@@ -289,7 +311,9 @@
             "participants": {
                 "widget": "აქტიური მონაწილეები:",
                 "singleActive": "ერთი აქტიური მონაწილე.",
-                "multipleActive": "{{numberOfParticipants}} აქტიური მონაწილე."
+                "multipleActive": "{{numberOfParticipants}} აქტიური მონაწილე.",
+                "onlyUser": "თქვენ ერთადერთი აქტიური მონაწილე ბრძანდებით.",
+                "userWithOthers": "თქვენ და კიდევ {{numberOfParticipants}} აქტიური მონაწილე."
             },
             "creationInput": "ვირტუალური ოთახის სახელი",
             "buttonLabel": "თქვენი ვირტუალური ოთახები",
@@ -316,7 +340,8 @@
             "deleteSnackbar": "ვირტუალური ოთახი წარმატებით წაიშალა",
             "deleteModalTitle": "ვირტუალური ოთახის {{roomName}} წაშლა",
             "newRoom": "ახალი ვირტუალური ოთახის შექმნა",
-            "nameRequiredTooltip": "ვირტუალური ოთახის სახელი აუცილებელია"
+            "nameRequiredTooltip": "ვირტუალური ოთახის სახელი აუცილებელია",
+            "startPrompt": "დაიწყეთ შეხვედრა ამ ვირტუალურ ოთახში."
         },
         "infoPage": {
             "title": {
@@ -324,7 +349,8 @@
                 "notAuthenticatedUser": "ავთენტიკაცია არ გაგივლიათ",
                 "hangUp": "თქვენ დატოვეთ ლოდინის ოთახი!",
                 "rejected": "თქვენი წვდომა უარყოფილია",
-                "generalError": "ვაი! თქვენ დატოვეთ შეხვედრა."
+                "generalError": "ვაი! თქვენ დატოვეთ შეხვედრა.",
+                "invalidWaiting": "ამ შეხვედრაზე მოდერატორები არ არიან"
             },
             "slogan": {
                 "meetingNotFound": "მოგვიანებით სცადეთ",
@@ -340,7 +366,9 @@
                 "meetingDeclined": "{{userName}}-მა ზარი უარყო"
             },
             "feedback": {
-                "thankYou": "მადლობა თქვენი გამოხმაურებისთვის!"
+                "thankYou": "მადლობა თქვენი გამოხმაურებისთვის!",
+                "caption": "ეს გვეხმარება, უკეთესები გავხდეთ :)",
+                "description": "თქვენი აზრი ჩვენთვის მნიშვნელოვანია!"
             }
         },
         "durationTooltip": "შეხვედრის ხანგრძლივობა",
@@ -355,7 +383,8 @@
             "startMicTest": "მიკროფონის შემოწმების დაწყება",
             "recordingYourVoice": "მიმდინარეობს თქვენი ხმის ჩაწერა",
             "microphoneWorking": "მაიკროფონი სწორად მუშაობს",
-            "startMicTestAgain": "მიკროფონის ტესტის თავიდან დაწყება"
+            "startMicTestAgain": "მიკროფონის ტესტის თავიდან დაწყება",
+            "turnOnMicrophone": "ჩართეთ მიკროფონი მის შესამოწმებლად"
         },
         "collapseParticipantsMeetingTooltip": "მონაწილეთა სიის აკეცვა",
         "expandParticipantsListTooltip": "მონაწილეთა სიის ჩამოშლა",
@@ -366,7 +395,8 @@
         },
         "recordingStop": {
             "successSnackbar": {
-                "general": "ჩაწერა წარმატებით გაჩერდა"
+                "general": "ჩაწერა წარმატებით გაჩერდა",
+                "participants": "{{userName}}-მა გააჩერა რეგისტრაცია ამ შეხვედრისთვის"
             }
         },
         "participantsList": {
@@ -379,7 +409,15 @@
         },
         "presentActiveSession": "არსებობს სხვა აქტიური სესია",
         "waitingParticipants": "მონაწილეების შემოსვლის მოლოდინი…",
-        "recordingHint": "ეს შეხვედრა იწერება"
+        "recordingHint": "ეს შეხვედრა იწერება",
+        "activeMeetingTooltip": "ამ ჩატისთვის აქტიური შეხვედრა არსებობს",
+        "continueActiveSession": "შეხვედრის გაგრძელება ახალ ფანჯარაში",
+        "ongoingGroupMeetingTooltip": "თქვენ უკვე მონაწილეობთ ამ შეხვედრაში",
+        "recordingStart": {
+            "successSnackbar": {
+                "participants": "{{userName}}-მა დაიწყო რეგისტრაცია ამ შეხვედრისთვის"
+            }
+        }
     },
     "participantsList": {
         "moreMembersAccordionTitle": "წევრები",
@@ -394,7 +432,8 @@
     },
     "readOnly": {
         "modal": {
-            "callToAction": "გაგრძელება"
+            "callToAction": "გაგრძელება",
+            "title": "ჯგუფის \"{{roomName}}\" ასლის შექმნა"
         },
         "toBeMigrate": {
             "callToAction": "ჯგუფის კოპირება",
@@ -402,10 +441,14 @@
         },
         "room": {
             "toBeMigrate": {
-                "callToAction": "ჯგუფში გადაყვანა"
+                "callToAction": "ჯგუფში გადაყვანა",
+                "title": "ჯგუფის გადაყვანა ახალ მოდულში"
             },
             "modal": {
                 "title": "\"{{roomName}}\"-ის გადაყვანა ჯგუფში."
+            },
+            "alreadyMigrate": {
+                "title": "ეს ელემენტი უკვე გადაყვანილია"
             }
         },
         "alreadyMigrate": {
@@ -419,7 +462,8 @@
         "clearTooltip": "ძებნის გასუფთავება",
         "inputPlaceholder": "შეტყობინებების ძებნა",
         "singlePlaceholder": "{{personName}}-თან საუბარში ძებნა",
-        "groupPlaceholder": "შეტყობინებების ძებნა {{roomName}}-ში"
+        "groupPlaceholder": "შეტყობინებების ძებნა {{roomName}}-ში",
+        "noResults": "როგორც ჩანს, შედეგები არ არსებობს."
     },
     "mediaGallery": {
         "filter": {
@@ -438,7 +482,8 @@
         "deleteAttachmentTitle": "მიმაგრებული ფაილის წაშლა",
         "deleteAttachmentCancel": "არა, გაუქმება",
         "selection": {
-            "count": "მონიშნულია {{count}}"
+            "count": "მონიშნულია {{count}}",
+            "deleteDisabled": "თქვენ შეგიძლიათ, მხოლოდ წაშალოთ თქვენი საკუთარი მიმაგრებული ფაილები"
         },
         "deleteAttachmentsTitle": "მიმაგრებული ფაილების წაშლა",
         "deleteAttachmentConfirm": "დიახ, წაიშალოს მიმაგრებული ფაილი",
@@ -467,7 +512,13 @@
     "tryLater": "მოგვიანებით სცადეთ",
     "affiliationMessages": {
         "groupCreated": "{{roomName}} შეიქმნა!",
-        "oneToOneCreated": "ახალი ჩატი შეიქმნა!"
+        "oneToOneCreated": "ახალი ჩატი შეიქმნა!",
+        "member": {
+            "Added": "{{userName}} დაემატა ოთახში {{roomName}}."
+        },
+        "user": {
+            "Added": "თქვენ დაგამატეს ოთახში {{roomName}}."
+        }
     },
     "attachments": {
         "dragAndDrop": "გადათრევა/დაგდების რეჟიმი",
@@ -496,11 +547,16 @@
         },
         "emptyList": {
             "list": {
-                "title": "აქ არაფერია"
+                "title": "აქ არაფერია",
+                "description": "ჩატები და ჯგუფები აქ გამოჩნდება."
             }
         },
         "emptyListTitle": "ეს სია ცარიელია",
-        "keepInTouchTitle": "დავინარჩუნოთ კავშირი!"
+        "keepInTouchTitle": "დავინარჩუნოთ კავშირი!",
+        "emptyListDescription": "ჩატები და ჯგუფები აქ გამოჩნდება",
+        "displayer": {
+            "title": "აირჩიეთ ჩატი შეტყობინებების გაგზავნის დასაწყებად"
+        }
     },
     "conversationFilter": {
         "closeTooltip": "ფილტრის დახურვა",
@@ -510,12 +566,18 @@
     "editModal": {
         "confirm": "დეტალების ჩასწორება",
         "confirmDisabled": "თქვენ არაფერი შეგიცვლიათ",
-        "errorDisabled": "შეამოწმეთ შეყვანილი ინფორმაცია"
+        "errorDisabled": "შეამოწმეთ შეყვანილი ინფორმაცია",
+        "nameTooLong": "სათაურის მაქს. სიგრძეა 128 სიმბოლო",
+        "nameTooShort": "სათაური მნიშვნელოვანი ინფორმაციაა",
+        "topicTooLong": "თემის მაქს. სიგრძეა 256 სიმბოლო",
+        "groupDescriptionDetails": "აღწერს ჯგუფის თემას",
+        "groupNameDetails": "ის აუცილებელია და ახდენს ჯგუფის იდენტიფიკაციას"
     },
     "modal": {
         "creation": {
             "newChat": "ახალი ჩატი",
-            "newGroup": "ახალი ჯგუფი"
+            "newGroup": "ახალი ჯგუფი",
+            "inputPlaceholder": "დაიწყეთ აკრეფა, ან აირჩიეთ მისამართი"
         },
         "deleteGroup": "ჯგუფის წაშლა",
         "deleteRoom": "ოთახის წაშლა",
@@ -532,10 +594,14 @@
         "showPreviousConversationHistory": "ჩატის ისტორიის ჩვენება",
         "forward": {
             "title": "{{chatName}}-სგან მოსული შეტყობინებების გადამისამართება",
-            "chooseAtLeastOneChat": "აირჩიეთ, სულ ცოტა, ერთი ჩატი"
+            "chooseAtLeastOneChat": "აირჩიეთ, სულ ცოტა, ერთი ჩატი",
+            "inputPlaceholder": "დაიწყეთ აკრეფა, ან აირჩეთ ჩატი"
         },
         "leaveAndDelete": "ჯგუფის დატოვება და წაშლა",
-        "clearHistoryWarning": "ეს ქმედება შეუქცევადია."
+        "clearHistoryWarning": "ეს ქმედება შეუქცევადია.",
+        "deleteRoomLabel": "მართლა გნებავთ ამ ოთახის წაშლა?",
+        "leaveGroupLabel": "მართლა გნებავთ ამ ჯგუფის დატოვება?",
+        "leaveRoomLabel": "მართლა გნებავთ ამ ოთახის დატოვება?"
     },
     "interactions": {
         "micDevice": "მიკროფონის მოწყობილობა",
@@ -557,10 +623,12 @@
         "joinAsGuest": "სტუმრის როლით შესვლა",
         "inputPlaceholder": "შეიყვანეთ თქვენი სახელი",
         "loginButton": "გადასვლა შესვლის გვერდზე",
-        "title": "მოგესალმებით ვირტუალურ ოთახში \"{{title}}\""
+        "title": "მოგესალმებით ვირტუალურ ოთახში \"{{title}}\"",
+        "description": "შეხვედრაზე შესასვლელად შეიყვანეთ თქვენი სახელი"
     },
     "external": {
-        "roomIsEmpty": "ეს ოთახი ცარიელია"
+        "roomIsEmpty": "ეს ოთახი ცარიელია",
+        "nobodyInTheRoom": "როგორც ჩანს, ამ ოთახში არავინაა"
     },
     "meetings": {
         "interactions": {
@@ -574,20 +642,29 @@
             "roomTopicRemoved": "{{name}}-მა წაშალა {{roomName}}-ის თემა.",
             "pinMessage": "{{actionMakerUsername}}-მა აამაგრა შეტყობინება",
             "unpinMessage": "{{actionMakerUsername}}-მა ჩამოხსნა შეტყობინება",
-            "meetingStarted": "{{name}}-მა დაგირეკათ {{time}}-ზე"
+            "meetingStarted": "{{name}}-მა დაგირეკათ {{time}}-ზე",
+            "roomPictureDeleted": "{{name}}-მა აღადგინა {{roomName}}-ის ნაგულისხმევი გამოსახულება.",
+            "meetingDeclined": "{{name}}-მა უარჰყო ზარი {{time}}-ზე"
         },
         "user": {
             "roomPictureUpdated": "თქვენ შეცვალეთ {{roomName}}-ის გამოსახულება.",
             "pinMessage": "თქვენ აამაგრეთ შეტყობინება",
             "unpinMessage": "თქვენ ჩამოხსენით შეტყობინება",
             "meetingStarted": "თქვენ დარეკეთ {{time}}-ზე",
-            "roomTopicRemoved": "თქვენ წაშალეთ {{roomName}}-ის თემა."
+            "roomTopicRemoved": "თქვენ წაშალეთ {{roomName}}-ის თემა.",
+            "clearHistory": "თქვენ გასუფთავეთ ჩატის ისტორია",
+            "meetingDeclined": "თქვენ უარჰყავით ზარი {{time}}-ზე",
+            "roomPictureDeleted": "თქვენ აღადგინეთ {{roomName}}-ის ნაგულისხმევი გამოსახულება."
         },
-        "meetingEnded": "ზარი დასრულდა {{time}}-ზე"
+        "meetingEnded": "ზარი დასრულდა {{time}}-ზე",
+        "moderator": {
+            "clearHistory": "ჩატის ისტორია გასუფთავდა {{actionMakerUsername}}-ის მიერ."
+        }
     },
     "browserNotification": {
         "reaction": {
-            "chat": "რეაგირება მოახდინა თქვენს შეტყობინებაზე:"
+            "chat": "რეაგირება მოახდინა თქვენს შეტყობინებაზე:",
+            "group": "{{userName}}-ს ჰქონდა რეაქცია თქვენს შეტყობინებაზე:"
         }
     }
 }
