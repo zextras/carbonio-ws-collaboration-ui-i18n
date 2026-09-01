@@ -802,7 +802,7 @@
             "documents_other": "{{count}} documents"
         },
         "selection": {
-            "count": "{{count}} sélectionné",
+            "count": "{{count}} sélectionné(es)",
             "forwardDisabled": "Certaines des pièces jointes sélectionnées ne peuvent pas être transférées",
             "deleteDisabled": "Vous ne pouvez supprimer que vos propres pièces jointes"
         },
