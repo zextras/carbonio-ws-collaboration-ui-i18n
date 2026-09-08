@@ -82,7 +82,7 @@
             "inputPlaceholder": "Zacznij wpisywać lub wybierz czat"
         },
         "leaveGroupLabel": "Czy na pewno chcesz opuścić tę grupę?",
-        "clearHistoryDescription": "Czyścisz Twoją historię konwersacji. Pamiętaj, że tej czynności nie da się cofnąć. Historia zostanie wyczyszczona jedynie dla Ciebie i będzie dalej widoczna dla innych członków.",
+        "clearHistoryDescription": "Usuwasz Twoją historię konwersacji. Pamiętaj, że tej czynności nie da się cofnąć. Historia zostanie wyczyszczona jedynie dla Ciebie i będzie dalej widoczna dla innych członków.",
         "leaveAndDelete": "Opuść i usuń grupę",
         "leaveRoom": "Opuść pokój",
         "leaveRoomLabel": "Czy na pewno chcesz opuścić ten pokój?",
