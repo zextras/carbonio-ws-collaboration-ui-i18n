@@ -621,6 +621,14 @@
             "startMicTest": "Avvia il test del microfono",
             "recordingYourVoice": "Registrando la tua voce",
             "playingBack": "Riproduzione in corso..."
+        },
+        "connectionQuality": {
+            "stable": "La tua connessione è stabile",
+            "bitUnstable": "La tua connessione è un po' instabile",
+            "unstable": "La tua connessione è instabile",
+            "lost": "Connessione persa",
+            "participantLost": "La connessione di {{name}} è interrotta",
+            "participantUnstable": "La connessione di {{name}} è instabile"
         }
     },
     "tryLater": "Riprova più tardi",
