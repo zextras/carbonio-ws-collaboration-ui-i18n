@@ -406,6 +406,14 @@
             "startMicTest": "Start microphone test",
             "recordingYourVoice": "Recording your voice",
             "playingBack": "Playing back..."
+        },
+        "connectionQuality": {
+            "stable": "Your connection is stable",
+            "bitUnstable": "Your connection is a bit unstable",
+            "unstable": "Your connection is unstable",
+            "lost": "Connection lost",
+            "participantLost": "{{name}}'s connection is lost",
+            "participantUnstable": "{{name}}'s connection is unstable"
         }
     },
     "meetings": {
