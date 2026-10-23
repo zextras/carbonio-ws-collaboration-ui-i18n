@@ -478,7 +478,15 @@
         },
         "noTwoActiveSession": "ერთი შეხვედრის ორი აქტიური სესია ერთდროულად ვერ იარსებებს",
         "setInputDescription": "დააყენეთ თქვენი შეყვანის მოწყობილობები მათი ჩამოსაშლელი მენიუდან არჩევით",
-        "noMoreActiveSession": "იგივე შეხვედრის ერთზე მეტი აქტიური სესია ვერ იარსებებს"
+        "noMoreActiveSession": "იგივე შეხვედრის ერთზე მეტი აქტიური სესია ვერ იარსებებს",
+        "connectionQuality": {
+            "stable": "თქვენი კავშირი სტაბილურია",
+            "bitUnstable": "თქვენი კავშირი ოდნავ არასტაბილურია",
+            "unstable": "თქვენი კავშირი არასტაბილურია",
+            "lost": "კავშირი დაიკარგა",
+            "participantLost": "{{name}}-ის კავშირი დაიკარგა",
+            "participantUnstable": "{{name}}-ის კავშირი არასტაბილურია"
+        }
     },
     "participantsList": {
         "moreMembersAccordionTitle": "წევრები",
