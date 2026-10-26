@@ -337,7 +337,9 @@
                 "notAuthenticatedUser": "You are not authenticated",
                 "invalidWaiting": "There are no moderators in the meeting",
                 "generalError": "Ouch! You left the meeting.",
-                "meetingDeclined": "Call Declined"
+                "meetingDeclined": "Call Declined",
+                "kicked": "You were removed from the meeting",
+                "kickedFromVirtualRoom": "You were removed from the virtual room"
             },
             "slogan": {
                 "hangUp": "Maybe next time",
@@ -346,7 +348,9 @@
                 "notAuthenticatedUser": "LOGIN TO ACCESS THE MEETING",
                 "invalidWaiting": "Try again later",
                 "generalError": "PLEASE, TRY TO JOIN AGAIN",
-                "meetingDeclined": "Call ended"
+                "meetingDeclined": "Call ended",
+                "kicked": "You can close this tab",
+                "kickedFromVirtualRoom": "You can close this tab"
             },
             "description": {
                 "hangUp": "We look forward to seeing you participate in future meetings",
@@ -355,7 +359,9 @@
                 "notAuthenticatedUser": "You cannot join the meeting if you are not authenticated with your account",
                 "invalidWaiting": "You must be approved by a moderator to join this meeting.",
                 "generalError": "Something went wrong.",
-                "meetingDeclined": "{{userName}} declined the call"
+                "meetingDeclined": "{{userName}} declined the call",
+                "kicked": "A moderator removed you from this meeting. You can keep in touch with your colleagues in Chats.",
+                "kickedFromVirtualRoom": "A moderator removed you from this virtual room."
             },
             "feedback": {
                 "caption": "It helps us keep improving :)",
@@ -414,6 +420,19 @@
             "lost": "Connection lost",
             "participantLost": "{{name}}'s connection is lost",
             "participantUnstable": "{{name}}'s connection is unstable"
+        },
+        "kick": {
+            "action": "Remove from meeting",
+            "modal": {
+                "title": "Remove {{name}} from the meeting?",
+                "description": "{{name}} will be removed from this meeting, even while sharing the screen or recording.",
+                "confirm": "Yes, remove",
+                "cancel": "No, cancel"
+            },
+            "snackbar": {
+                "success": "{{name}} has been removed from the meeting.",
+                "error": "Couldn't remove {{name}}. Please try again."
+            }
         }
     },
     "meetings": {
