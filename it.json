@@ -537,7 +537,9 @@
                 "notAuthenticatedUser": "Non sei autenticato",
                 "invalidWaiting": "Non ci sono moderatori in questa riunione",
                 "generalError": "Oh no! Hai lasciato la riunione.",
-                "meetingDeclined": "Chiamata rifiutata"
+                "meetingDeclined": "Chiamata rifiutata",
+                "kicked": "Sei stato rimosso dalla riunione",
+                "kickedFromVirtualRoom": "Sei stato rimosso dalla stanza virtuale"
             },
             "slogan": {
                 "hangUp": "Magari un'altra volta",
@@ -546,7 +548,9 @@
                 "notAuthenticatedUser": "AUTENTICATI PER ACCEDERE ALLA RIUNIONE",
                 "invalidWaiting": "Riprova più tardi",
                 "generalError": "PER FAVORE, PROVA A PARTECIPARE DI NUOVO",
-                "meetingDeclined": "Chiamata terminata"
+                "meetingDeclined": "Chiamata terminata",
+                "kicked": "Puoi chiudere questa scheda",
+                "kickedFromVirtualRoom": "Puoi chiudere questa scheda"
             },
             "description": {
                 "rejected": "I moderatori hanno deciso di negarti l'accesso alla riunione",
@@ -555,7 +559,9 @@
                 "notAuthenticatedUser": "Non puoi partecipare alla riunione se non sei autenticato con il tuo account",
                 "invalidWaiting": "Il tuo accesso alla riunione dev'essere accettato da un moderatore.",
                 "generalError": "Qualcosa è andato storto.",
-                "meetingDeclined": "{{userName}} ha rifiutato la chiamata"
+                "meetingDeclined": "{{userName}} ha rifiutato la chiamata",
+                "kicked": "Un moderatore ti ha rimosso da questa riunione. Puoi rimanere in contatto con i tuoi colleghi tramite le chat.",
+                "kickedFromVirtualRoom": "Un moderatore ti ha rimosso da questa stanza virtuale."
             },
             "feedback": {
                 "caption": "Ci permette di migliorare :)",
@@ -629,6 +635,19 @@
             "lost": "Connessione persa",
             "participantLost": "La connessione di {{name}} è interrotta",
             "participantUnstable": "La connessione di {{name}} è instabile"
+        },
+        "kick": {
+            "action": "Rimuovi dalla riunione",
+            "modal": {
+                "title": "Rimuovere {{name}} dalla riunione?",
+                "description": "{{name}} verrà rimosso da questa riunione, anche se sta condividendo lo schermo o registrando.",
+                "confirm": "Si, rimuovi",
+                "cancel": "No, annulla"
+            },
+            "snackbar": {
+                "success": "{{name}} è stato rimosso dalla riunione.",
+                "error": "Impossibile rimuovere {{name}}. Riprova."
+            }
         }
     },
     "tryLater": "Riprova più tardi",
