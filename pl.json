@@ -463,7 +463,9 @@
                 "notAuthenticatedUser": "ZALOGUJ SIĘ, ABY UCZESTNICZYĆ W SPOTKANIU",
                 "invalidWaiting": "Spróbuj ponownie później",
                 "generalError": "SPRÓBUJ DOŁĄCZYĆ JESZCZE RAZ",
-                "meetingDeclined": "Rozmowa zakończona"
+                "meetingDeclined": "Rozmowa zakończona",
+                "kicked": "Możesz zamknąć ten ekran",
+                "kickedFromVirtualRoom": "Możesz zamknąć ten ekran"
             },
             "description": {
                 "rejected": "Moderatorzy zdecydowali się odrzucić Twoją prośbę o dołączenie do spotkania",
@@ -472,7 +474,9 @@
                 "notAuthenticatedUser": "Nie możesz dołączyć do spotkania jeśli nie jesteś zalogowany",
                 "invalidWaiting": "Aby dołączyć do tego spotkania, moderator musi Cię zaakceptować.",
                 "generalError": "Coś poszło nie tak.",
-                "meetingDeclined": "{{userName}} odrzucił(a) rozmowę"
+                "meetingDeclined": "{{userName}} odrzucił(a) rozmowę",
+                "kicked": "Moderator usunął Cię z tego spotkania. Możesz pozostać w kontakcie z Twoimi współpracownikami poprzez Czaty.",
+                "kickedFromVirtualRoom": "Moderator usunął Cię z tego wirtualnego pokoju."
             },
             "title": {
                 "hangUp": "Opuściłeś poczekalnię!",
@@ -481,7 +485,9 @@
                 "notAuthenticatedUser": "Nie jesteś zalogowany",
                 "invalidWaiting": "Na spotkaniu nie ma moderatorów",
                 "generalError": "Opuściłeś spotkanie.",
-                "meetingDeclined": "Rozmowa odrzucona"
+                "meetingDeclined": "Rozmowa odrzucona",
+                "kicked": "Zostałeś usunięty ze spotkania",
+                "kickedFromVirtualRoom": "Zostałeś usunięty z wirtualnego pokoju"
             },
             "feedback": {
                 "caption": "Pomaga nam się rozwijać :)",
@@ -537,6 +543,27 @@
             "startMicTest": "Rozpocznij test mikrofonu",
             "recordingYourVoice": "Nagrywanie Twojego głosu",
             "playingBack": "Odtwarzanie..."
+        },
+        "connectionQuality": {
+            "stable": "Twoje połączenie jest stabilne",
+            "bitUnstable": "Twoje połączenie jest trochę niestabilne",
+            "unstable": "Twoje połączenie jest niestabilne",
+            "lost": "Utracono połączenie",
+            "participantLost": "Utracono połączenie z użytkownikiem {{name}}",
+            "participantUnstable": "Połączenie użytkownika {{name}} jest niestabilne"
+        },
+        "kick": {
+            "action": "Usuń ze spotkania",
+            "modal": {
+                "title": "Usunąć {{name}} ze spotkania?",
+                "description": "Użytkownik {{name}} zostanie usunięty z tego spotkania, nawet jeśli udostępnia ekran lub nagrywa.",
+                "confirm": "Tak, usuń",
+                "cancel": "Nie, anuluj"
+            },
+            "snackbar": {
+                "success": "Użytkownik {{name}} został usunięty ze spotkania.",
+                "error": "Nie udało się usunąć {{name}}. Spróbuj ponownie."
+            }
         }
     },
     "meetings": {
