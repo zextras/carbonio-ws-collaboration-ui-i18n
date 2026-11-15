@@ -352,7 +352,7 @@
             "moderators": {
                 "widget": "ვირლუალური ოთახის მოდერატორები:",
                 "onlyUser": "თქვენ ერთადერთი მოდერატორი ბრძანდებით.",
-                "multipleAdditional": "და კიდევ <strong>{{numberOfModerators}}</strong>.",
+                "multipleAdditional": "და კიდევ <strong>{{numberOfModerators}} მოდერატორი</strong>.",
                 "onlyModerator": "ერთადერთი მოდერატორია.",
                 "singleAdditional": "და ერთი სხვა მოდერატორი."
             },
